@@ -12,5 +12,4 @@ feature "Query icons", js: true do
     expect(displayed_query_icons).to include('river-rafting')
     expect(displayed_query_icons).not_to include('fishing')
   end
-  scenario "Clicking a query item removes it"
 end

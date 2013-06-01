@@ -3,7 +3,7 @@
     <h3>Your search query includes:</h3>
     <ul class="group query-icons">
       <% @search.query_items.each do |query_item| %>
-        <li class="<%= icon_for(query_item) %>"><%= query_item.name %><span class="close"><a href="#">X</a></span></li>
+        <%= render 'query_item', query_item: query_item %>
       <% end %>
     </ul>
   </div>
