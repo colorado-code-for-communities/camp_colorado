@@ -37,7 +37,6 @@ ActiveRecord::Schema.define(:version => 20130601174716) do
 
   create_table "campsites", :force => true do |t|
     t.string   "name"
-    t.string   "address"
     t.float    "latitude"
     t.float    "longitude"
     t.date     "open_date"
@@ -45,9 +44,15 @@ ActiveRecord::Schema.define(:version => 20130601174716) do
     t.string   "phone_number"
     t.string   "website"
     t.string   "reservation_url"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
     t.string   "site_type"
+    t.integer  "external_facility_id"
+    t.string   "city"
+    t.string   "state"
+    t.string   "zip"
+    t.string   "street_address"
+    t.string   "contract_code"
   end
 
   create_table "campsites_activities", :force => true do |t|
