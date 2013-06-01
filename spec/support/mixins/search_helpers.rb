@@ -12,8 +12,9 @@ module SearchHelpers
   end
 
   def search_by(value, selector)
-    visit root_url
-    select value, from: selector
+    visit root_path
+    find('label', text: selector).click
+    find('.active-result', text: value.upcase, visible: true).click
   end
 
   def search_results

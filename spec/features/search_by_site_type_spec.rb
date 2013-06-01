@@ -12,7 +12,7 @@ feature 'Search by site type' do
     expect(page).to have_select("I'm looking for", options: ['Tent Site', 'RV Site'])
   end
 
-  scenario 'Users can search by site type' do
+  scenario 'Users can search by site type', js: true do
     tent_type = create(:site_type, name: 'Tent Site')
     rv_type = create(:site_type, name: 'RV Site')
     tent_site = create(:campsite, site_types: [tent_type])

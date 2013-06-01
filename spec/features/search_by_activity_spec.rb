@@ -12,7 +12,7 @@ feature 'Search by activity' do
     expect(page).to have_select("It'd be fun to go", options: %w(Fishing Hiking))
   end
 
-  scenario 'Users can search by activity' do
+  scenario 'Users can search by activity', js: true do
     fishing = create(:activity, name: 'Fishing')
     lakeside_campsite = create(:campsite, activities: [fishing])
     desert_campsite = create(:campsite)
