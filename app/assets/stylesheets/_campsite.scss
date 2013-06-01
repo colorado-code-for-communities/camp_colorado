@@ -37,12 +37,40 @@
   margin: $center;
   margin-top: 55px;
   text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  ul {
+    li {
+      display: inline;
+      color: #002837;
+      a {
+        color: #CD6475;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
-.campsite-container {
-  background: #fff;
-  border: 1px solid #D8D5CD;
-  padding: 40px 60px;
-  @include size (1035 auto);
+.campsite-wrapper {
+  @include size(1150 auto);
   margin: $center;
   margin-top: 55px;
+  .campsite-container {
+    background: #fff;
+    border: 1px solid #D8D5CD;
+    padding: 40px 60px;
+    @include size(672 auto);
+    float: left;
+  }
+  .campsite-sidebar {
+    float: left;
+    display: inline;
+    margin-left: 20px;
+    @include size(314 auto);
+    background: image-url('sidebar-bg.png') repeat top left;
+    border: 1px solid #CDCBC2;
+    padding: 10px;
+  }
 }
