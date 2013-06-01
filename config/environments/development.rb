@@ -35,7 +35,5 @@ CampColorado::Application.configure do
   # Expands the lines which load the assets
   config.assets.debug = true
 
-  config.action_controller.action_on_unpermitted_parameters = :raise
-
   config.action_mailer.default_url_option = { host: 'camp_colorado.local' }
 end
