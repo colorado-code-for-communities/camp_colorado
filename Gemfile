@@ -16,7 +16,7 @@ gem 'simple_form'
 gem 'strong_parameters'
 gem 'thin'
 gem 'rails_admin'
-gem "devise"
+gem 'devise'
 
 group :assets do
   gem 'coffee-rails'
