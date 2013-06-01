@@ -3,6 +3,10 @@ body {
   background-size: cover;
   font-family: 'Noto Sans', sans-serif;
 }
+.campsites {
+  background: image-url('sub-bg.png') no-repeat center center fixed;
+  background-size: cover;
+}
 .container {
   margin: $center;
   @include size (1150 auto);

@@ -12,9 +12,9 @@
 
 <section class="breadcrumb">
   <ul>
-    <li><a href="#">home</a></li>
+    <li><a href="/">home</a></li>
     <li>/</li>
-    <li><a href="#">find a campground</a></li>
+    <li><a href="/">find a campground</a></li>
     <li>/</li>
     <li><%= @campsite.name %></li>
   </ul>
@@ -22,7 +22,31 @@
 
 <div class="campsite-wrapper group">
   <section class="campsite-container">
-    here
+    <div class="group">
+      <h3 class="sub-heading"><%= @campsite.name %></h3>
+      <a href="#"><button class="make-reservation">make reservation</button></a>
+    </div>
+    <p>
+      put in the campsite paragraph right here put in the campsite paragraph right here put in the campsite paragraph right here put in the campsite paragraph right here put in the campsite paragraph right here put in the campsite paragraph right here put in the campsite paragraph right here put in the campsite paragraph right here put in the campsite paragraph right here put in the campsite paragraph right here
+    </p>
+    
+    <section class="image-carousel">carousel will go here, bootstrap</section>
+    
+    <section class="camp-features">
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#home" data-toggle="tab">Amenities</a></li>
+        <li><a href="#profile" data-toggle="tab">Features</a></li>
+        <li><a href="#messages" data-toggle="tab">Site Options</a></li>
+        <li><a href="#settings" data-toggle="tab">Recreation</a></li>
+      </ul>
+ 
+      <div class="tab-content">
+        <div class="tab-pane active" id="home">...</div>
+        <div class="tab-pane" id="profile">...</div>
+        <div class="tab-pane" id="messages">...</div>
+        <div class="tab-pane" id="settings">...</div>
+      </div>
+    </section>
   </section>
   
   <section class="campsite-sidebar">
