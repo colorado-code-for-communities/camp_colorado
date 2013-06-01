@@ -11,7 +11,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130601164033) do
+ActiveRecord::Schema.define(:version => 20130601174716) do
+
+  create_table "activities", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "amenities", :force => true do |t|
     t.string   "name"
@@ -43,6 +49,16 @@ ActiveRecord::Schema.define(:version => 20130601164033) do
     t.datetime "updated_at",      :null => false
     t.string   "site_type"
   end
+
+  create_table "campsites_activities", :force => true do |t|
+    t.integer  "campsite_id"
+    t.integer  "activity_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  add_index "campsites_activities", ["activity_id"], :name => "index_campsites_activities_on_activity_id"
+  add_index "campsites_activities", ["campsite_id"], :name => "index_campsites_activities_on_campsite_id"
 
   create_table "rails_admin_histories", :force => true do |t|
     t.text     "message"

@@ -4,6 +4,9 @@ class Campsite < ActiveRecord::Base
   has_many :amenities_campsites
   has_many :amenities, through: :amenities_campsites
 
+  has_many :campsites_activities
+  has_many :activities, through: :campsites_activities
+
   validates :address, presence: true
   validates :latitude, presence: true, numericality: true
   validates :longitude, presence: true, numericality: true
