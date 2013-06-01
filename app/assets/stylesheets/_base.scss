@@ -1,0 +1,9 @@
+body {
+  background: image-url('site-bg.png') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Noto Sans', sans-serif;
+}
+.container {
+  margin: $center;
+  @include size (1150 auto);
+}

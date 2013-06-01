@@ -1,0 +1,46 @@
+.container {
+  .header {
+    .logo {
+      @include size (240 auto);
+      margin: $center;
+      margin-top: 140px;
+    }
+    .intro-text {
+      font-size: 35px;
+      color: $white;
+      text-align: center;
+      margin-top: 70px;
+      text-shadow: 1px 2px 3px black;
+    }
+  }
+  .enter-search {
+    margin-top: 70px;
+    background: image-url('search-background.png') repeat top left;
+    border: 1px solid black;
+    box-shadow: 0 1px #61776D;
+    border-radius: 5px;
+    .search-criteria {
+      float: left;
+      border-right: 1px solid #021214;
+      border-left: 1px solid #424C43;
+      padding: 20px;
+      h3 {
+        font-size: 18px;
+        color: #FFE7D2;
+        font-weight: lighter;
+        text-shadow: 1px 2px 3px black;
+      }
+    }
+    .first {
+      border-left: none;
+    }
+    .selection {
+      width: 230px;
+      background-color: black;
+      margin-top: 15px;
+    }
+    .chzn-container-multi {
+      background: black !important;
+    }
+  }
+}
