@@ -1,5 +1,5 @@
 class Campsite < ActiveRecord::Base
-  attr_accessible :address, :close_date, :latitude, :longitude, :name, :open_date, :phone_number, :reservation_url, :website, :site_type, :amenity_ids
+  attr_accessible :address, :close_date, :latitude, :longitude, :name, :open_date, :phone_number, :reservation_url, :website, :site_type_ids, :activity_ids, :amenity_ids
 
   has_many :amenities_campsites
   has_many :amenities, through: :amenities_campsites
