@@ -1,5 +1,5 @@
 CampColorado::Application.routes.draw do
-  devise_for :users, :controllers => {:registrations => "users/registrations", :passwords => "users/passwords"}
+  devise_for :users
 
   mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
 end
