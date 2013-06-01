@@ -3,7 +3,6 @@
     <div class="logo"><%= link_to image_tag('logo.png', alt: 'Camp Colorado'), root_path %></div>
     <div class="intro-text">Find your camp site. Find yourself. Discover Nature.</div>
   </header>
-
   <%= form_for @search, url: search_path, method: :get do |f| %>
     <section class="enter-search group">
       <div class="search-criteria first">
@@ -32,7 +31,7 @@
           multiple: true, class: 'selection %>
       </div>
 
-      <div class="search-criteria"><%= f.submit 'Submit' %></div>
+      <div class="search-criteria no-border"><%= f.submit 'Submit' %></div>
     </section>
   <% end %>
 </section>
