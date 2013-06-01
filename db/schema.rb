@@ -11,7 +11,23 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130601145546) do
+ActiveRecord::Schema.define(:version => 20130601160805) do
+
+  create_table "amenities", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "amenities_campsites", :force => true do |t|
+    t.integer  "campsite_id"
+    t.integer  "amenity_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  add_index "amenities_campsites", ["amenity_id"], :name => "index_amenities_campsites_on_amenity_id"
+  add_index "amenities_campsites", ["campsite_id"], :name => "index_amenities_campsites_on_campsite_id"
 
   create_table "campsites", :force => true do |t|
     t.string   "name"

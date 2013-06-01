@@ -1,0 +1,5 @@
+<%= form_for @search, url: search_path, method: :get do |f| %>
+  <%= f.label :amenity_ids, 'I need these accomodations:' %>
+  <%= collection_select :search, :amenity_ids, Amenity.all, :id, :name, {}, multiple: true %>
+  <%= f.submit 'Submit' %>
+<% end %>
