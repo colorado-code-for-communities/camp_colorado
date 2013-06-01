@@ -16,11 +16,13 @@ gem 'simple_form'
 gem 'thin'
 gem 'rails_admin'
 gem 'devise'
+gem 'bootstrap-sass'
 
 group :assets do
   gem 'coffee-rails'
   gem 'sass-rails'
   gem 'uglifier'
+  gem 'chosen-rails'
 end
 
 group :development do
@@ -44,7 +46,3 @@ group :test do
   #gem 'simplecov', require: false
   gem 'timecop'
 end
-
-#group :staging, :production do
-#  gem 'newrelic_rpm'
-#end

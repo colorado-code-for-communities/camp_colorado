@@ -1,9 +1,38 @@
-<%= form_for @search, url: search_path, method: :get do |f| %>
-  <%= f.label :site_type, "I'm looking for:" %>
-  <%= select :search, :site_type, @search.possible_site_types %>
+<section class="container">
+  <header class="header">
+    <div class="logo"><%= link_to image_tag('logo.png', alt: 'Camp Colorado'), root_path %></div>
+    <div class="intro-text">Find your camp site. Find yourself. Discover Nature.</div>
+  </header>
+  <%= form_for @search, url: search_path, method: :get do |f| %>
+    <section class="enter-search group">
+      <div class="search-criteria first">
+        <h3><%= f.label :site_type, "I'm looking for:" %></h3>
+        <%= select :search, :site_type, @search.possible_site_types, {}, class: 'selection' %>
+      </div>
 
-  <%= f.label :amenity_ids, 'I need these accomodations:' %>
-  <%= collection_select :search, :amenity_ids, Amenity.all, :id, :name, {}, multiple: true %>
+      <div class="search-criteria">
+        <h3>It'd be fun to go:</h3>
+        <select class="selection" multiple>
+          <option value="">Select activities</option>
+          <option value="volvo">Fishing</option>
+          <option value="saab">Boating</option>
+          <option value="opel">Biking</option>
+          <option value="audi">Golf</option>
+          <option value="volvo">Hiking</option>
+          <option value="saab">Horseback Riding</option>
+          <option value="opel">Hunting</option>
+          <option value="audi">Tennis</option>
+        </select>
+      </div>
 
-  <%= f.submit 'Submit' %>
-<% end %>
+      <div class="search-criteria">
+        <h3><%= f.label :amenity_ids, 'I need these accomodations:' %></h3>
+        <%= collection_select :search, :amenity_ids, Amenity.all, :id, :name, {},
+          multiple: true, class: 'selection' %>
+      </div>
+
+      <div class="search-criteria no-border"><%= f.submit 'Submit' %></div>
+    </section>
+  <% end %>
+</section>
+<footer class="footer">here</footer>
