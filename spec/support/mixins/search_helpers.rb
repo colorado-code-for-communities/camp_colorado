@@ -17,6 +17,10 @@ module SearchHelpers
     find('.active-result', text: value.upcase, visible: true).click
   end
 
+  def shown_amenities_for(campsite)
+    find("#campsite_#{campsite.id}").all('.overview li').map(&:text)
+  end
+
   def search_results
     Campsite.where(name: all('.campsite-name').map(&:text).map { |name| name.gsub('(map)', '') })
   end

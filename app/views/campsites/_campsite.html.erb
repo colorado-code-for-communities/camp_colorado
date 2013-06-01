@@ -1,3 +1,27 @@
-<li class='campsite'>
-  <h2 class='campsite-name'><%= campsite.name %></h2>
+<li id="<%= dom_id(campsite) %>" class='campsite group'>
+  <div class="campsite-info-left">
+    image will go here
+  </div>
+  <div class="campsite-info-right group">
+    <div class="campsite-name-information">
+      <h2 class='campsite-name'><%= campsite.name %><span class="map-link">(map)</span></h2>
+      <p>campsite intro text will go here. We need to limit this to X amount of characters with ...</p>
+      <ul>
+        <li class="email"><a href="#">Email this campground</a></li>
+        <li class="website"><a href="#">Campground website and information</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="campsite-specifics">
+    <h2>campground overview</h2>
+    <ul class="overview">
+      <% campsite_overview(campsite).each do |item| %>
+        <li><%= item %></li>
+      <% end %>
+    </ul>
+
+    <div class="res">
+      <a href="#"><button class="make-reservation">make reservation</button></a>
+    </div>
+  </div>
 </li>
