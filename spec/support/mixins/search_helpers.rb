@@ -14,7 +14,6 @@ module SearchHelpers
   def search_by(value, selector)
     visit root_url
     select value, from: selector
-    click_on 'Submit'
   end
 
   def search_results

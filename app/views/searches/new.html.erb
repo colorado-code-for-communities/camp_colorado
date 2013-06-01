@@ -3,7 +3,7 @@
     <div class="logo"><%= link_to image_tag('logo.png', alt: 'Camp Colorado'), root_path %></div>
     <div class="intro-text">Find your camp site. Find yourself. Discover Nature.</div>
   </header>
-  <%= form_for @search, url: search_path, method: :get do |f| %>
+  <%= form_for @search, url: search_path, method: :get, remote: true do |f| %>
     <section class="enter-search group">
       <div class="search-criteria first">
         <h3><%= f.label :site_type_ids, "I'm looking for:" %></h3>
@@ -22,10 +22,10 @@
         <%= collection_select :search, :amenity_ids, Amenity.all, :id, :name, {},
           multiple: true, class: 'selection' %>
       </div>
-
-      <div class="search-criteria no-border"><%= f.submit 'Submit' %></div>
     </section>
   <% end %>
+  <section id="search-results">
+  </section>
 </section>
 
 <footer class="footer group">
