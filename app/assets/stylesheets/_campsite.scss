@@ -91,10 +91,28 @@
     }
     .camp-features {
       margin-top: 55px;
+      .tab-content {
+        ul {
+          padding-left: 20px;
+          margin-top: 30px;
+          li {
+            padding-bottom: 22px;
+            font-size: 13px;
+            color: #7F7F7F;
+          }
+        }
+        .column {
+          float: left;
+          display: inline;
+          margin-right: 100px;
+        }
+      }
     }
     .nav-tabs {
       background-color: #F7F6F3;
       font-size: 14px;
+      padding-top: 10px;
+      padding-left: 10px;
       li {
         &.active {
           color: #CD6475;
