@@ -5,6 +5,7 @@ class Search
 
   def initialize(options = {})
     @amenity_ids = options.fetch(:amenity_ids) { [] }
+    @activity_ids = options.fetch(:activity_ids) { [] }
     @site_type = options[:site_type].to_s
   end
 
@@ -17,11 +18,19 @@ class Search
   attr_reader :site_type
 
   def results
-    @results ||= SearchQuery.new(amenity_ids, site_type).build
+    @results ||= SearchQuery.new(site_type, activity_ids, amenity_ids).build
   end
 
   def amenity_ids
-    @amenity_ids.select(&:present?).map(&:to_i)
+    sanitize_ids(@amenity_ids)
+  end
+
+  def activity_ids
+    sanitize_ids(@activity_ids)
+  end
+
+  def sanitize_ids(ids)
+    ids.select(&:present?).map(&:to_i)
   end
 
   # ActiveModel boilerplate
