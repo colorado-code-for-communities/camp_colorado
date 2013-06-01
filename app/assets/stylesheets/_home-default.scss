@@ -4,6 +4,7 @@
       @include size (240 auto);
       margin: $center;
       margin-top: 140px;
+      @include animation(fadeIn 2.0s ease-in-out);
     }
     .intro-text {
       font-size: 35px;
