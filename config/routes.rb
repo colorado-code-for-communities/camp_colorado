@@ -1,5 +1,6 @@
 CampColorado::Application.routes.draw do
   resource :search, only: [:show]
+  resources :campsites, only: [:show]
 
   devise_for :users
   mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
