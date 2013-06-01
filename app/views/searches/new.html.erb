@@ -7,7 +7,7 @@
     <section class="enter-search group">
       <div class="search-criteria first">
         <h3><%= f.label :site_type, "I'm looking for:" %></h3>
-        <%= select :search, :site_type, @search.possible_site_types, {}, class: 'selection' %>
+        <%= select :search, :site_type, @search.possible_site_types, {}, multiple: true, class: 'selection' %>
       </div>
 
       <div class="search-criteria">

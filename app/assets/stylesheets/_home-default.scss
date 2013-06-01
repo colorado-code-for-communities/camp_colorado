@@ -9,8 +9,9 @@
       font-size: 35px;
       color: $white;
       text-align: center;
-      margin-top: 70px;
-      text-shadow: 1px 2px 3px black;
+      margin-top: 170px;
+      font-weight: 300;
+      text-shadow: 0px 2px 4px black;
     }
   }
   .enter-search {
@@ -27,9 +28,10 @@
       h3 {
         font-size: 18px;
         color: #FFE7D2;
-        font-weight: lighter;
+        font-weight: 400;
         text-shadow: 1px 2px 3px black;
         padding-bottom: 15px;
+        font-weight: 300;
       }
     }
     .first {
@@ -69,4 +71,12 @@
     li {
       padding: 8px 15px;
     }
+    .highlighted {
+      background: #BDC0C0 !important;
+      color: #5E6060;
+    }
+}
+.chzn-container-active.chzn-with-drop .chzn-single {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
