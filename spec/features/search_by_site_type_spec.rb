@@ -4,8 +4,8 @@ feature 'Search by site type' do
   include SearchHelpers
 
   scenario 'Search form has a dropdown with all site types' do
-    tent_site = create(:campsite, site_type: 'Tent Site')
-    rv_site = create(:campsite, site_type: 'RV Site')
+    create(:site_type, name: 'Tent Site')
+    create(:site_type, name: 'RV Site')
 
     visit root_url
 
@@ -13,8 +13,10 @@ feature 'Search by site type' do
   end
 
   scenario 'Users can search by site type' do
-    tent_site = create(:campsite, site_type: 'Tent Site')
-    rv_site = create(:campsite, site_type: 'RV Site')
+    tent_type = create(:site_type, name: 'Tent Site')
+    rv_type = create(:site_type, name: 'RV Site')
+    tent_site = create(:campsite, site_types: [tent_type])
+    rv_site = create(:campsite, site_types: [rv_type])
 
     search_for_site_type('Tent Site')
 

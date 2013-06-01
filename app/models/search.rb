@@ -6,7 +6,7 @@ class Search
   def initialize(options = {})
     @amenity_ids = options.fetch(:amenity_ids) { [] }
     @activity_ids = options.fetch(:activity_ids) { [] }
-    @site_type = options[:site_type].to_s
+    @site_type_ids = options.fetch(:site_type_ids) { [] }
   end
 
   def possible_site_types
@@ -18,7 +18,11 @@ class Search
   attr_reader :site_type
 
   def results
-    @results ||= SearchQuery.new(site_type, activity_ids, amenity_ids).build
+    @results ||= SearchQuery.new(site_type_ids, activity_ids, amenity_ids).build
+  end
+
+  def site_type_ids
+    sanitize_ids(@site_type_ids)
   end
 
   def amenity_ids

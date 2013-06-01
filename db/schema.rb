@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130601174716) do
+ActiveRecord::Schema.define(:version => 20130601191110) do
 
   create_table "activities", :force => true do |t|
     t.string   "name"
@@ -47,7 +47,6 @@ ActiveRecord::Schema.define(:version => 20130601174716) do
     t.string   "reservation_url"
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
-    t.string   "site_type"
   end
 
   create_table "campsites_activities", :force => true do |t|
@@ -59,6 +58,16 @@ ActiveRecord::Schema.define(:version => 20130601174716) do
 
   add_index "campsites_activities", ["activity_id"], :name => "index_campsites_activities_on_activity_id"
   add_index "campsites_activities", ["campsite_id"], :name => "index_campsites_activities_on_campsite_id"
+
+  create_table "campsites_site_types", :force => true do |t|
+    t.integer  "campsite_id"
+    t.integer  "site_type_id"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
+
+  add_index "campsites_site_types", ["campsite_id"], :name => "index_campsites_site_types_on_campsite_id"
+  add_index "campsites_site_types", ["site_type_id"], :name => "index_campsites_site_types_on_site_type_id"
 
   create_table "rails_admin_histories", :force => true do |t|
     t.text     "message"
@@ -72,6 +81,12 @@ ActiveRecord::Schema.define(:version => 20130601174716) do
   end
 
   add_index "rails_admin_histories", ["item", "table", "month", "year"], :name => "index_rails_admin_histories"
+
+  create_table "site_types", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "users", :force => true do |t|
     t.string   "email",                  :default => "", :null => false

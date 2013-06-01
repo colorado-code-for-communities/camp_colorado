@@ -6,8 +6,9 @@
   <%= form_for @search, url: search_path, method: :get do |f| %>
     <section class="enter-search group">
       <div class="search-criteria first">
-        <h3><%= f.label :site_type, "I'm looking for:" %></h3>
-        <%= select :search, :site_type, @search.possible_site_types, {}, class: 'selection' %>
+        <h3><%= f.label :site_type_ids, "I'm looking for:" %></h3>
+        <%= collection_select :search, :site_type_ids, SiteType.all, :id, :name, {},
+          multiple: true, class: 'selection' %>
       </div>
 
       <div class="search-criteria">

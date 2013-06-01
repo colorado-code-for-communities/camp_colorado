@@ -1,6 +1,6 @@
 class SearchQuery
-  def initialize(site_type, activity_ids, amenity_ids)
-    @site_type = site_type
+  def initialize(site_type_ids, activity_ids, amenity_ids)
+    @site_type_ids = site_type_ids
     @activity_ids = activity_ids
     @amenity_ids = amenity_ids
   end
@@ -20,7 +20,7 @@ class SearchQuery
   end
 
   def filter_site_type
-    self.campsites = campsites.where(site_type: site_type)
+    filter_by(:site_type_ids)
   end
 
   def filter_activities
@@ -37,6 +37,6 @@ class SearchQuery
     end
   end
 
-  attr_reader :amenity_ids, :site_type, :activity_ids
+  attr_reader :amenity_ids, :site_type_ids, :activity_ids
   attr_accessor :campsites
 end
