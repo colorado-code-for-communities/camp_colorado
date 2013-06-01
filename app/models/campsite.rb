@@ -8,4 +8,5 @@ class Campsite < ActiveRecord::Base
   validates :latitude, presence: true, numericality: true
   validates :longitude, presence: true, numericality: true
   validates :name, presence: true
+  validates :site_type, presence: true
 end

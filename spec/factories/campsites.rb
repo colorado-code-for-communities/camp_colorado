@@ -11,5 +11,6 @@ FactoryGirl.define do
     phone_number "MyString"
     website "MyString"
     reservation_url "MyString"
+    site_type "Site Type"
   end
 end
