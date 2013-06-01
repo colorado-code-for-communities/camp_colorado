@@ -1,0 +1,127 @@
+
+.camp-results {
+  background-color: #F5F2E8;
+  @include size(1150 auto);
+  margin: $center;
+  .search-queries {
+    background-color: #DCD9D0;
+    padding: 15px 20px;
+    h3 {
+      font-size: 14px;
+      color: #716F6B;
+      padding-bottom: 10px;
+    }
+    ul {
+      padding: 0;
+      li {
+        float: left;
+        display: inline;
+        margin-right: 10px;
+        &:last-of-type {
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+  .campsite-info-left {
+    float: left;
+    @include size (192 auto);
+    background: #fff;
+    height: 218px;
+    max-height: 218px;
+  }
+  .campsite-info-right {
+    float: left;
+    display: inline;
+    margin-left: 30px;
+    @include size (510 auto);
+    h2 {
+      font-size: 22px;
+      color: #222;
+    }
+    p {
+      padding-top: 20px;
+      line-height: 25px;
+      color: #7A7974;
+      font-size: 15px;
+    }
+    .campsite-name-information {
+      ul {
+        padding-top: 30px;
+        li {
+          display: inline;
+          font-size: 12px;
+          font-weight: bold;
+          a {
+            font-size: 12px;
+            color: #C35367;
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+          &.website {
+            background: image-url('website.png') no-repeat left;
+            padding-left: 25px;
+            margin-left: 25px;
+          }
+          &.email {
+            background: image-url('email.png') no-repeat left;
+            padding-left: 30px;
+          }
+        }
+      }
+    }
+  }
+  .campsite-specifics {
+    float: right;
+    background: #EAE7DE;
+    border-radius: 5px;
+    border: 1px solid #D1CEC6;
+    box-shadow: 0 1px #fff;
+    padding: 20px;
+    @include size (241 auto);
+    h2 {
+      text-transform: uppercase;
+      font-size: 12px;
+      color: #6A6864;
+      padding-bottom: 20px;
+    }
+    ul {
+      border-bottom: 1px solid #D2CFC7;
+      li {
+        padding-bottom: 15px;
+        color: #6A6864;
+        font-size: 12px;
+        &:last-of-type {
+          padding-bottom: 25px;
+        }
+      }
+    }
+    .res {
+      padding: 15px 0 0 0;
+      @include size(143 auto);
+      margin: $center;
+    }
+    .make-reservation {
+      @include size (143 auto);
+      padding: 10px;
+      background: #CD6475;
+      border: none;
+      text-transform: uppercase;
+      font-size: 12px;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+      &:hover {
+        color: #67323B;
+      }
+    }
+  }
+}
+.campsites {
+  .campsite {
+    border-bottom: 1px dotted #A3A39F;
+    padding: 40px;
+  }
+}
