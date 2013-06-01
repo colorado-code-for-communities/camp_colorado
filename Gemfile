@@ -16,6 +16,7 @@ gem 'simple_form'
 gem 'strong_parameters'
 gem 'unicorn'
 gem 'rails_admin'
+gem "devise"
 
 group :assets do
   gem 'coffee-rails'
@@ -37,7 +38,7 @@ end
 
 group :test do
   gem 'bourne', require: false
-  gem 'capybara-webkit', '>= 0.14.1'
+  gem 'poltergeist'
   gem 'database_cleaner'
   gem 'launchy'
   gem 'shoulda-matchers'
@@ -48,6 +49,3 @@ end
 #group :staging, :production do
 #  gem 'newrelic_rpm'
 #end
-
-
-gem "devise"
