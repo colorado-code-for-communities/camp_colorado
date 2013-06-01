@@ -18,6 +18,6 @@ module SearchHelpers
   end
 
   def search_results
-    Campsite.where(name: all('.campsite-name').map(&:text))
+    Campsite.where(name: all('.campsite-name').map(&:text).map { |name| name.gsub('(map)', '') })
   end
 end
