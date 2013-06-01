@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130601160805) do
+ActiveRecord::Schema.define(:version => 20130601164033) do
 
   create_table "amenities", :force => true do |t|
     t.string   "name"
@@ -41,6 +41,7 @@ ActiveRecord::Schema.define(:version => 20130601160805) do
     t.string   "reservation_url"
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
+    t.string   "site_type"
   end
 
   create_table "delayed_jobs", :force => true do |t|

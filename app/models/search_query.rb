@@ -1,15 +1,25 @@
 class SearchQuery
-  def initialize(amenity_ids)
+  def initialize(amenity_ids, site_type)
     @amenity_ids = amenity_ids
+    @site_type = site_type
   end
 
   def build
     reset_campsites
+    filter_site_type
     filter_amenities
     campsites
   end
 
   private
+
+  def reset_campsites
+    self.campsites = Campsite.includes(:amenities)
+  end
+
+  def filter_site_type
+    self.campsites = campsites.where(site_type: site_type)
+  end
 
   def filter_amenities
     campsites.reject! do |campsite|
@@ -17,10 +27,6 @@ class SearchQuery
     end
   end
 
-  def reset_campsites
-    self.campsites = Campsite.includes(:amenities)
-  end
-
-  attr_reader :amenity_ids
+  attr_reader :amenity_ids, :site_type
   attr_accessor :campsites
 end
