@@ -14,7 +14,7 @@ gem 'rails', '~> 3.2.11'
 gem 'recipient_interceptor'
 gem 'simple_form'
 gem 'strong_parameters'
-gem 'unicorn'
+gem 'thin'
 gem 'rails_admin'
 gem "devise"
 
