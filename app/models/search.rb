@@ -13,6 +13,10 @@ class Search
     Campsite.uniq.pluck(:site_type)
   end
 
+  def query_items
+    SiteType.find(site_type_ids) + Activity.find(activity_ids) + Amenity.find(amenity_ids)
+  end
+
   private
 
   attr_reader :site_type

@@ -1,12 +1,10 @@
 <div class="camp-results">
   <div class="search-queries group">
     <h3>Your search query includes:</h3>
-    <ul class="group">
-      <li>feature<span class="close"><a href="#">X</a></span></li>
-      <li>feature<span class="close"><a href="#">X</a></span></li>
-      <li>feature<span class="close"><a href="#">X</a></span></li>
-      <li>feature<span class="close"><a href="#">X</a></span></li>
-      <li>feature<span class="close"><a href="#">X</a></span></li>
+    <ul class="group query-icons">
+      <% @search.query_items.each do |query_item| %>
+        <li class="<%= icon_for(query_item) %>"><%= query_item.name %><span class="close"><a href="#">X</a></span></li>
+      <% end %>
     </ul>
   </div>
 

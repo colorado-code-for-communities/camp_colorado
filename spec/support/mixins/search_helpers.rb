@@ -21,6 +21,10 @@ module SearchHelpers
     find("#campsite_#{campsite.id}").all('.overview li').map(&:text)
   end
 
+  def displayed_query_icons
+    all('.query-icons li').map { |li| li['class'] }
+  end
+
   def search_results
     Campsite.where(name: all('.campsite-name').map(&:text).map { |name| name.gsub('(map)', '') })
   end
