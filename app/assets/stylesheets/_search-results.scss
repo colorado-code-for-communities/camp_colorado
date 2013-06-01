@@ -1,7 +1,12 @@
+#search-results {
+  clear: both;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 .camp-results {
   background-color: #F5F2E8;
-  @include size(1150 auto);
+  @include size(1128 auto);
   margin: $center;
   .search-queries {
     background-color: #DCD9D0;
