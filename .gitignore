@@ -17,6 +17,7 @@
 *.DS_Store
 *.swp
 .env
+.env.test
 bin/stubs
 coverage/*
 public/system
