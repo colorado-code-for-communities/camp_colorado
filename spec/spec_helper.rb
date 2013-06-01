@@ -8,6 +8,9 @@ require 'rspec/autorun'
 # in spec/support/ and its subdirectories.
 Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
 
+# Require lib folder
+Dir[Rails.root.join("lib/*.rb")].each { |f| require f }
+
 RSpec.configure do |config|
   config.expect_with :rspec do |c|
     c.syntax = :expect
