@@ -11,18 +11,9 @@
       </div>
 
       <div class="search-criteria">
-        <h3>It'd be fun to go:</h3>
-        <select class="selection" multiple>
-          <option value="">Select activities</option>
-          <option value="volvo">Fishing</option>
-          <option value="saab">Boating</option>
-          <option value="opel">Biking</option>
-          <option value="audi">Golf</option>
-          <option value="volvo">Hiking</option>
-          <option value="saab">Horseback Riding</option>
-          <option value="opel">Hunting</option>
-          <option value="audi">Tennis</option>
-        </select>
+        <h3><%= f.label :activity_ids, "It'd be fun to go:" %></h3>
+        <%= collection_select :search, :activity_ids, Activity.all, :id, :name, {},
+          multiple: true, class: 'selection' %>
       </div>
 
       <div class="search-criteria">

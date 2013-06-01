@@ -24,6 +24,9 @@ class Search
     @amenity_ids.select(&:present?).map(&:to_i)
   end
 
+  def activity_ids
+  end
+
   # ActiveModel boilerplate
   extend ActiveModel::Naming
   include ActiveModel::Conversion
