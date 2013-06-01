@@ -12,9 +12,10 @@ gem 'pg'
 gem 'rack-timeout'
 gem 'rails', '~> 3.2.11'
 gem 'recipient_interceptor'
-#gem 'simple_form'
+gem 'simple_form'
 gem 'strong_parameters'
 gem 'unicorn'
+gem 'rails_admin'
 
 group :assets do
   gem 'coffee-rails'
@@ -47,3 +48,6 @@ end
 #group :staging, :production do
 #  gem 'newrelic_rpm'
 #end
+
+
+gem "devise"

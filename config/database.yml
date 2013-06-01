@@ -1,4 +1,5 @@
 development: &default
+  host: localhost
   adapter: postgresql
   database: camp_colorado_development
   encoding: utf8
