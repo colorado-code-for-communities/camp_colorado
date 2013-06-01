@@ -6,4 +6,8 @@ body {
 .container {
   margin: $center;
   @include size (1150 auto);
+  min-height: 100%;
+  height: auto !important;
+  margin: 0 auto -15px;
+  height: 100%;
 }
