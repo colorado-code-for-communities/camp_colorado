@@ -39,6 +39,7 @@
   text-transform: uppercase;
   font-size: 13px;
   font-weight: bold;
+  background: none;
   ul {
     li {
       display: inline;
@@ -89,6 +90,9 @@
       line-height: 25px;
       margin-top: 40px;
     }
+    .carousel {
+      margin-top: 50px;
+    }
     .camp-features {
       margin-top: 55px;
       .tab-content {
@@ -134,5 +138,38 @@
     background: image-url('sidebar-bg.png') repeat top left;
     border: 1px solid #CDCBC2;
     padding: 10px;
+    .mapview {
+      background: #fff;
+      padding:5px;
+      min-height: 190px;
+    }
+    .overview-information {
+      margin-top: 10px;
+      color: #002937;
+      line-height: 28px;
+    }
+    .contact-information {
+      margin-top: 30px;
+      font-size: 15px;
+      color: #002937;
+      a {
+        font-size: 13px;
+      }
+      ul {
+        li {
+          padding-bottom: 15px;
+          &:last-of-type {
+            padding: none;
+          }
+        }
+      }
+      .left {
+        float: left;
+      }
+      .right {
+        float: right;
+        text-align: right;
+      }
+    }
   }
 }

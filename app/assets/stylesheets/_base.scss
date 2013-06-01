@@ -3,6 +3,14 @@ body {
   background-size: cover;
   font-family: 'Noto Sans', sans-serif;
 }
+a {
+  color: #CD6475;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    color: #CD6475;
+  }
+}
 .campsites {
   background: image-url('sub-bg.png') no-repeat center center fixed;
   background-size: cover;
