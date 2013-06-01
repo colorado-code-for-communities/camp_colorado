@@ -32,3 +32,17 @@
     }
   }
 }
+.breadcrumb {
+  @include size(1150 auto);
+  margin: $center;
+  margin-top: 55px;
+  text-transform: uppercase;
+}
+.campsite-container {
+  background: #fff;
+  border: 1px solid #D8D5CD;
+  padding: 40px 60px;
+  @include size (1035 auto);
+  margin: $center;
+  margin-top: 55px;
+}
