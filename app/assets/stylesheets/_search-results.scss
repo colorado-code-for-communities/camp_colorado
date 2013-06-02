@@ -128,7 +128,7 @@
       }
     }
     .res {
-      padding: 15px 0 0 0;
+      padding: 30px 0 15px 0;
       @include size(143 auto);
       margin: $center;
     }
@@ -144,6 +144,7 @@
       cursor: pointer;
       &:hover {
         color: #67323B;
+        text-decoration: none;
       }
     }
   }
