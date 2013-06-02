@@ -18,6 +18,9 @@
         font-size: 13px;
         font-weight: bold;
         margin-right: 40px;
+        &.active {
+          color: #EEEBE3;
+        }
         a {
           color: #EEEBE3;
           text-decoration: none;

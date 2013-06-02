@@ -11,10 +11,11 @@ a {
     color: #CD6475;
   }
 }
-.campsites {
+.campsites, .pages {
   background: image-url('sub-bg.png') no-repeat center center fixed;
   background-size: cover;
 }
+
 .container {
   margin: $center;
   @include size (1150 auto);
@@ -24,6 +25,16 @@ a {
   height: 100%;
 }
 
+.coming-soon {
+  font-size: 35px;
+  @include size (1150 auto);
+  text-align: center;
+  opacity: 0.5;
+  margin: $center;
+  padding-top: 250px;
+  background: image-url('coming-soon.png') no-repeat top center;
+  margin-top: 150px;
+}
 .footer {
   position: fixed;
   bottom: 0;
