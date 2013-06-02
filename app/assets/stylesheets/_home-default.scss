@@ -30,6 +30,24 @@
       border-right: 1px solid #021214;
       border-left: 1px solid #424C43;
       padding: 20px;
+      .field {
+        float: left;
+        &.to {
+          padding-left: 10px;
+          padding-right: 10px;
+          color: #CACFCE;
+          font-size: 12px;
+          padding-top: 12px;
+        }
+        input {
+          @include size (113 auto);
+          padding: 10px 0px 10px 35px;
+          background: image-url('calendar-icon.png') no-repeat left #fff;
+          opacity: 0.9;
+          font-size: 13px;
+          color: #8A8B89;
+        }
+      }
       h3 {
         font-size: 18px;
         color: #FFE7D2;
@@ -42,7 +60,7 @@
       border-left: none;
     }
     .selection {
-      width: 230px;
+      width: 200px;
       background-color: black;
       margin-top: 15px;
       cursor: pointer;
