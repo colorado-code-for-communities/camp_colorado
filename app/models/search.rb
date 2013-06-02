@@ -3,10 +3,22 @@ class Search
 
   delegate :each, to: :results
 
+  attr_reader :results
+
   def initialize(options = {})
     @amenity_ids = options.fetch(:amenity_ids) { [] }
     @activity_ids = options.fetch(:activity_ids) { [] }
     @site_type_ids = options.fetch(:site_type_ids) { [] }
+    @performed = false
+  end
+
+  def performed?
+    @performed
+  end
+
+  def perform!
+    @results = SearchQuery.new(site_type_ids, activity_ids, amenity_ids).build
+    @performed = true
   end
 
   def possible_site_types
@@ -20,10 +32,6 @@ class Search
   private
 
   attr_reader :site_type
-
-  def results
-    @results ||= SearchQuery.new(site_type_ids, activity_ids, amenity_ids).build
-  end
 
   def site_type_ids
     sanitize_ids(@site_type_ids)

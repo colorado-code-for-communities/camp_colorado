@@ -1,1 +1,3 @@
-$('#search-results').html("<%= j(render @search) %>");
+<% if @search.performed? %>
+  $('#search-results').html("<%= j(render @search) %>");
+<% end %>
