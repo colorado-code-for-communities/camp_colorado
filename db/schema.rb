@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130601191110) do
+ActiveRecord::Schema.define(:version => 20130602013159) do
 
   create_table "activities", :force => true do |t|
     t.string   "name"
@@ -52,7 +52,7 @@ ActiveRecord::Schema.define(:version => 20130601191110) do
     t.string   "zip"
     t.string   "street_address"
     t.string   "contract_code"
-    t.string   "photo_urls"
+    t.text     "photo_urls"
     t.text     "description"
   end
 
