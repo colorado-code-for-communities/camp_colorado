@@ -1,14 +1,16 @@
-<div class="camp-results">
-  <div class="search-queries group">
-    <h3>Your search query includes:</h3>
-    <ul class="group query-icons">
-      <% @search.query_items.each do |query_item| %>
-        <%= render 'query_item', query_item: query_item %>
-      <% end %>
+<% if @search.query_items.any? %>
+  <div class="camp-results">
+    <div class="search-queries group">
+      <h3>Your search query includes:</h3>
+      <ul class="group query-icons">
+        <% @search.query_items.each do |query_item| %>
+          <%= render 'query_item', query_item: query_item %>
+        <% end %>
+      </ul>
+    </div>
+
+    <ul class='campsites'>
+      <%= render @search.to_a %>
     </ul>
   </div>
-
-  <ul class='campsites'>
-    <%= render @search.to_a %>
-  </ul>
-</div>
+<% end %>
