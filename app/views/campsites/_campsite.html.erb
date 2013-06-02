@@ -5,7 +5,7 @@
   <div class="campsite-info-right group">
     <div class="campsite-name-information">
       <h2 class='campsite-name'><%= link_to campsite.name, campsite %></h2>
-      <p><%= truncate(campsite.description, length: 140, separator: ' ') %></p>
+      <p><%= truncate(campsite.description, length: 400, separator: ' ') %></p>
     </div>
   </div>
   <div class="campsite-specifics">
@@ -17,7 +17,7 @@
     </ul>
 
     <div class="res">
-      <a href="#"><button class="make-reservation">make reservation</button></a>
+      <%= link_to "make reservation", campsite.reservation_url, class: 'make-reservation' %>
     </div>
   </div>
 </li>
