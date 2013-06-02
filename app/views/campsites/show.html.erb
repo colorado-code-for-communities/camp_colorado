@@ -80,7 +80,9 @@
   </section>
 
   <section class="campsite-sidebar">
-    <div class="mapview">map will go here</div>
+  <div class="mapview">
+    <img src="<%= static_map_url(@campsite) %>" alt="Map">
+  </div>
     <div class="overview-information">
       <ul>
         <li><%= @campsite.street_address %><br><%= @campsite.city_state_zip %></li>
