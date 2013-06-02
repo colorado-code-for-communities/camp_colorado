@@ -7,22 +7,22 @@
       <%= form_for @search, url: search_path, method: :get, remote: true do |f| %>
         <div class="search-criteria first">
           <h3><%= f.label :site_type_ids, "I'm looking for:" %></h3>
-          <%= collection_select :search, :site_type_ids, SiteType.all, :id, :name, {},
+          <%= collection_select :search, :site_type_ids, SiteType.order(:name), :id, :name, {},
             multiple: true, class: 'selection' %>
         </div>
 
         <div class="search-criteria">
           <h3><%= f.label :activity_ids, "It'd be fun to go:" %></h3>
-          <%= collection_select :search, :activity_ids, Activity.all, :id, :name, {},
+          <%= collection_select :search, :activity_ids, Activity.order(:name), :id, :name, {},
             multiple: true, class: 'selection' %>
         </div>
 
         <div class="search-criteria">
           <h3><%= f.label :amenity_ids, 'I need these accomodations:' %></h3>
-          <%= collection_select :search, :amenity_ids, Amenity.all, :id, :name, {},
+          <%= collection_select :search, :amenity_ids, Amenity.order(:name), :id, :name, {},
             multiple: true, class: 'selection' %>
         </div>
-        
+
         <div class="search-criteria">
           <h3>On these dates:</h3>
         </div>
