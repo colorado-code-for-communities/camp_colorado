@@ -84,7 +84,7 @@ class CampsiteImporter
     parsed_body = MultiXml.parse(body)
     result = parsed_body['detailDescription']
 
-    campsite.description = result['description'].squish
+    campsite.description = result['description'].squish.gsub('&amp;', '&')
 
     campsite.reservation_url = result['fullReservationUrl']
 
