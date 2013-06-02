@@ -24,7 +24,7 @@ group :assets do
   gem 'coffee-rails'
   gem 'sass-rails'
   gem 'uglifier'
-  gem 'chosen-rails'
+  #gem 'chosen-rails'
 end
 
 group :development do

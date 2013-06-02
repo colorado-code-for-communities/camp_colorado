@@ -12,6 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require chosen-jquery
+//= require abstract-chosen
+//= require select-parser
+//= require chosen.jquery
 //= require bootstrap
 //= require_tree .
