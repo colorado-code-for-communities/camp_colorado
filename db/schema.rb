@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130601191110) do
+ActiveRecord::Schema.define(:version => 20130601232309) do
 
   create_table "activities", :force => true do |t|
     t.string   "name"
@@ -37,7 +37,6 @@ ActiveRecord::Schema.define(:version => 20130601191110) do
 
   create_table "campsites", :force => true do |t|
     t.string   "name"
-    t.string   "address"
     t.float    "latitude"
     t.float    "longitude"
     t.date     "open_date"
@@ -45,8 +44,16 @@ ActiveRecord::Schema.define(:version => 20130601191110) do
     t.string   "phone_number"
     t.string   "website"
     t.string   "reservation_url"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
+    t.integer  "external_facility_id"
+    t.string   "city"
+    t.string   "state"
+    t.string   "zip"
+    t.string   "street_address"
+    t.string   "contract_code"
+    t.string   "photo_urls"
+    t.text     "description"
   end
 
   create_table "campsites_activities", :force => true do |t|

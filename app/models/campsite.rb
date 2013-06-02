@@ -1,5 +1,24 @@
 class Campsite < ActiveRecord::Base
-  attr_accessible :address, :close_date, :latitude, :longitude, :name, :open_date, :phone_number, :reservation_url, :website, :site_type_ids, :activity_ids, :amenity_ids
+  attr_accessible \
+    :activity_ids,
+    :amenity_ids,
+    :city,
+    :close_date,
+    :contract_code,
+    :description,
+    :external_facility_id,
+    :latitude,
+    :longitude,
+    :name,
+    :open_date,
+    :phone_number,
+    :photo_urls,
+    :reservation_url,
+    :site_type,
+    :state,
+    :street_address,
+    :website,
+    :zip
 
   has_many :amenities_campsites
   has_many :amenities, through: :amenities_campsites
@@ -10,8 +29,9 @@ class Campsite < ActiveRecord::Base
   has_many :campsites_site_types
   has_many :site_types, through: :campsites_site_types
 
-  validates :address, presence: true
   validates :latitude, presence: true, numericality: true
   validates :longitude, presence: true, numericality: true
   validates :name, presence: true
+
+  serialize :photo_urls, JSON
 end

@@ -17,6 +17,8 @@ gem 'thin'
 gem 'rails_admin'
 gem 'devise'
 gem 'bootstrap-sass'
+gem 'ox'
+gem 'httparty'
 
 group :assets do
   gem 'coffee-rails'
@@ -46,4 +48,5 @@ group :test do
   gem 'shoulda-matchers'
   #gem 'simplecov', require: false
   gem 'timecop'
+  gem 'webmock'
 end
