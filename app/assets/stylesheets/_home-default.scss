@@ -107,6 +107,10 @@
   padding: 8px 0;
   @include linear-gradient(#E8E8E6, #fff);
   opacity: .9;
+  background: image-url('caret.png') no-repeat right white;
+  .search-choice {
+    display: none;
+  }
   .search-field {
     padding-left: 10px;
   }
