@@ -1,0 +1,74 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70578
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:36:12 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:36:12 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=844D3BF6403EE8C45CD2C6B3D8A95C9B.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=844D3BF6403EE8C45CD2C6B3D8A95C9B.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:36:12 GMT; Path=/
+      Content-Length:
+      - '6513'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="The Olive Ridge Campground is located within the Roosevelt National Forest, situated near the southeastern corner of Rocky Mountain National Park at an elevation of 8,350 feet." drivingDirection="The campground is located on the west side of Colorado Highway 7, between Allenspark and Meeker Park at mile-marker 14. It is approximately six miles north of the intersection of Colorado Highways 7 and 72 (which is 21 miles west-north-west of Lyons), 15 miles south of Estes park, and 29 miles north of Nederland." facilitiesDescription="There are 56 sites in the campground. Twenty six are suitable for RV camping and 30 are more suitable for tents. Tents must be confined to the provided tent pads (14&amp;amp;#39;x16&amp;amp;#39;). There is a maximum of eight people per single site. Sites #26 and #39 are oversized and will accommodate 10 people at an additional fee. Each site has a picnic table and fire ring or grill. Vault toilets, drinking water and trash services are provided. Firewood is for sale in the campground.  " facility="OLIVE RIDGE" facilityID="70578" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70578&amp;cmp=39-32--mcmire" importantInformation=" This is bear country! For bear and human safety, keep a clean campsite and do not place food or other attractants in your tent. For more information about visiting bear country, contact Colorado Parks and Wildlife at http://wildlife.state.co.us There are no utility hook-ups, dump stations, or showers within the campground. Click here for more information on the Arapaho and Roosevelt National Forests Operated by American Land &amp;amp;amp; Leisure. You may contact us at www.AmericanLL.com or 801-226-3564. " latitude="40.2088333" longitude="-105.5223944" nearbyAttrctionDescription="Rocky Mountain National Park&amp;amp;#39;s main entrance is 14 miles north of the campground, in Estes Park. With lush valleys and craggy peaks reaching elevations higher than 14,000 feet, visitors are provided opportunities for countless breathtaking experiences and adventures. Scenic driving, hiking, backpacking, fishing, horseback riding and wildlife viewing are popular activities in the park.    Estes Park is a full-service community 15 miles from the campground. Dining, shopping, rafting, fly fishing, horseback riding and golfing opportunities await. Lake Estes offers boating, sailboarding and fishing." note="" orientationDescription="This peaceful campground is heavily wooded with a mixture of ponderosa pine and aspen trees. The interior roads are gravel/dirt.   Afternoon thunderstorms should be expected during the summer months." recreationDescription="Olive Ridge is close to the Wild Basin area of the Rocky Mountain National Park. Several trailheads are in the area, including Wild Basin, Finch Lake and Sandbeach Lake trails. Popular activities include fishing, hiking and mountain climbing." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70578&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="OLIV" state="Colorado" streetAddress="ARAPAHO AND ROOSEVELT" zip=""/>
+        <photo realUrl="/webphotos/NRSO/pid70578/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70578/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70578/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70578/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70578/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70578/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70578/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70578/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70578/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70578/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70578/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70578/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70578/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70578/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70578/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70578/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70578/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70578/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70578_OLIV.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="3032583610"/>
+        <contact name="Ranger Station" number="3035412500"/>
+        <amenity distance="Within Facility" name="Amphitheater"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Tables"/>
+        <amenity distance="Within Facility" name="Tent Pads"/>
+        <amenity distance="Within Facility" name="Tent sites"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within 10 Miles" name="Horse Corrals"/>
+        <amenity distance="Within 10 Miles" name="Showers"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:36:12 GMT
+recorded_with: VCR 2.5.0

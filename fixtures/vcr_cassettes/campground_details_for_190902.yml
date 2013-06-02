@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=KOA&parkId=190902
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:24:55 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:24:55 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=A6E9683F22BCB0C85F66918C4F24A05D.web03-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2445525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=A6E9683F22BCB0C85F66918C4F24A05D.web03-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:24:55 GMT; Path=/
+      Content-Length:
+      - '4193'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="KOA" description=" A stay at the Cotopaxi/Arkansas River KOA puts you on one of the most popular stretches of the Arkansas River for fly-fishing, kayaking and whitewater rafting.  The last weekend in March, this KOA hosts the annual Royal Gorge Anglers fly-fishing school. From mid-April through mid-May, an amazing caddis hatch produces incredible dry-fly action. Arkansas River Tours can put you on tame stretches of water near the campground or take you for a wild ride through Royal Gorge, 23 miles east. After a day of action, relax at KOA&amp;amp;#39;s pavilion and patio overlooking the river. Swimming, hayrides, a game room with a pool table, mini golf, nightly movies and more keep kids smiling. Enjoy the new deluxe sites-overlooking and near the river-with concrete patios, fire rings and patio furniture. You&amp;amp;#39;re close to the old mining town of Cripple Creek, as well as the Royal Gorge Route excursion train." drivingDirection="Located on US Hwy 50, 35 mi W of Canon City, 23 mi E of Salida, 1.5 mi E of Cotopaxi." facilitiesDescription="" facility="Cotopaxi / Arkansas River KOA" facilityID="190902" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=KOA&amp;parkId=190902&amp;cmp=39-32--mcmire" importantInformation="" latitude="38.3786111" longitude="-105.6675" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="KOA Region" reservationUrl="/campsiteSearch.do?contractCode=KOA&amp;parkId=190902&amp;cmp=39-32--mcmire">
+        <address city="Cotopaxi" country="United States" shortName="A902" state="Colorado" streetAddress="21435 US Highway 50" zip="81223"/>
+        <photo realUrl="/webphotos/KOA/pid190902/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190902/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190902/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190902/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190902/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190902/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190902/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190902/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190902/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190902/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190902/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190902/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190902/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190902/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190902/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190902/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190902/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190902/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number=""/>
+        <contact name="Ranger Station" number="7192759308"/>
+        <amenity distance="Within Facility" name="Biking and Hiking"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Gold Panning"/>
+        <amenity distance="Within Facility" name="Hot Springs"/>
+        <amenity distance="Within Facility" name="White water rafting"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:12:30 GMT
+recorded_with: VCR 2.5.0

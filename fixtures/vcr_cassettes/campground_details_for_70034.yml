@@ -1,0 +1,78 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70034
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:37:26 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:37:26 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=DBB2BC2B845EFFB15A1ECF165697B39A.web05-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2645525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=DBB2BC2B845EFFB15A1ECF165697B39A.web05-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:37:26 GMT; Path=/
+      Content-Length:
+      - '7143'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Pickle Gulch is a group picnic and camping facility located just off the Peak to Peak Scenic Byway/Highway 119. Visitors enjoy the area for its scenic and off-road driving, and nearby hiking and fishing opportunities." drivingDirection="From Interstate 25 in Denver, travel west on 6th Avenue to State Highway 6 and continue through Clear Creek Canyon. Turn on State Highway 119 toward Black Hawk and Central City. Follow the highway 4 miles north of Black Hawk, to the campground." facilitiesDescription="Pickle Gulch is an area that offers day-use picnic sites and six campsites to accommodate large groups. The picnic site can accommodate up to 150 people and is equipped with picnic tables and campfire circles. A parking area, vault toilets and a playground are provided. Drinking water is not available within the picnic area, but is available throughout the adjacent camping area.    The group campsites are all walk-to sites for tent camping only. The on-site host has wheelbarrows available for campers, to haul equipment from the parking area. Each campsite is equipped with picnic tables, a campfire circle and tent pads. Vault toilets and drinking water spigots are shared between sites.     A separate day-use area contains two volleyball courts, horseshoe pits, picnic tables and a vault toilet.     Firewood may be gathered from the surrounding forest, if available, or purchased from the host." facility="PICKLE GULCH" facilityID="70034" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70034&amp;cmp=39-32--mcmire" importantInformation=" This is bear country! For bear and human safety, keep a clean campsite and do not place food or other attractants in your tent. For more information about visiting bear country, contact Colorado Parks and Wildlife at http://wildlife.state.co.us Reservations are required for any camping at the site RVs are not permitted past the parking area Utility hookups and electricity are not available Click here for more information on the Arapaho and Roosevelt National Forest Operated by American Land &amp;amp;amp; Leisure. You may contact us at www.AmericanLL.com or 801-226-3564. " latitude="39.8432028" longitude="-105.5226111" nearbyAttrctionDescription="The historic mining town of Central City is nearby. The town hosts various popular events, including Lou Bunch Day and the Central City Opera and Jazz festivals.    Golden Gate Canyon State Park is a short drive from the campground. This scenic park offers more than 35 miles of hiking trails. Mountain biking and horseback riding are also allowed on some trails. Every stream and pond within the park is open to fishing." note="" orientationDescription="The site offers many scenic views of the surrounding area. It is set among a fairly level forest of lodgepole pine trees, dotted with aspens.    Due to the mountain pine beetle infestation and removal of hazardous trees, there may be little to no shade at these sites." recreationDescription="Many hiking and biking trails are found nearby. Scenic driving is available along Highways 119 and 72, which is also known as the Peak to Peak Scenic Byway. Numerous creeks, rivers and lakes in the area provide fishing opportunities. Off-road enthusiasts will find many jeep roads in the vicinity." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70034&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="PICG" state="Colorado" streetAddress="ARAPAHO AND ROOSEVELT" zip=""/>
+        <photo realUrl="/webphotos/NRSO/pid70034/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70034/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70034/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70034/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70034/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70034/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70034/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70034/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70034/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70034/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70034/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70034/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70034/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70034/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70034/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70034/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70034/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70034/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70034_PICG.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="3035673000"/>
+        <contact name="Ranger Station" number="3035673000"/>
+        <amenity distance="Within Facility" name="Amphitheater"/>
+        <amenity distance="Within Facility" name="Campfire Circles"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Group Camping"/>
+        <amenity distance="Within Facility" name="Horseshoe Pit"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Playground"/>
+        <amenity distance="Within Facility" name="Scenic Drive"/>
+        <amenity distance="Within Facility" name="Tables"/>
+        <amenity distance="Within Facility" name="Tent sites"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Volleyball Courts"/>
+        <amenity distance="Within 10 Miles" name="Biking"/>
+        <amenity distance="Within 10 Miles" name="Fishing"/>
+        <amenity distance="Within 10 Miles" name="Hiking"/>
+        <amenity distance="Within 10 Miles" name="Off-Road Vehicle Trails"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:37:26 GMT
+recorded_with: VCR 2.5.0

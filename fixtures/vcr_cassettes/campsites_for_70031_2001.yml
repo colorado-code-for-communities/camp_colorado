@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70031&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:46:03 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:46:03 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=CE869C571A4FEA7DF18755CFEC643672.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=CE869C571A4FEA7DF18755CFEC643672.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:46:03 GMT; Path=/
+      Content-Length:
+      - '9785'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="30" parkId="70031" resultType="campsites" siteType="2001">
+        <result Loop="WEST LAKE " Maxeqplen="35" Maxpeople="8" Site="06" SiteId="137173" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="899.654724121094" mapy="179.721755981445" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="31" Maxpeople="8" Site="07" SiteId="137174" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="883.630187988281" mapy="212.55256652832" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="31" Maxpeople="12" Site="08" SiteId="137175" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="918.35009765625" mapy="232.094711303711" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="30" Maxpeople="8" Site="09" SiteId="137176" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="862.524597167969" mapy="239.911575317383" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="32" Maxpeople="8" Site="10" SiteId="137177" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="838.487854003906" mapy="266.293487548828" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="40" Maxpeople="8" Site="11" SiteId="137178" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="872.100280761719" mapy="292.935943603516" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="30" Maxpeople="8" Site="12" SiteId="137179" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="814.320678710938" mapy="291.112030029297" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="33" Maxpeople="12" Site="13" SiteId="137180" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="833.797668457031" mapy="330.000915527344" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="30" Maxpeople="12" Site="14" SiteId="137181" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="785.658874511719" mapy="317.819641113281" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="30" Maxpeople="8" Site="15" SiteId="137182" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="726.771789550781" mapy="333.909362792969" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="30" Maxpeople="12" Site="16" SiteId="137183" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="644.955322265625" mapy="417.549743652344" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="37" Maxpeople="8" Site="17" SiteId="137184" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="625.087463378906" mapy="379.051727294922" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="36" Maxpeople="8" Site="18" SiteId="137185" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="589.911560058594" mapy="397.160766601563" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="31" Maxpeople="8" Site="19" SiteId="137186" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="602.874572753906" mapy="442.303131103516" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="30" Maxpeople="12" Site="20" SiteId="137187" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="553.628295898438" mapy="412.012817382813" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="30" Maxpeople="12" Site="21" SiteId="137188" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="554.80078125" mapy="454.614715576172" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="34" Maxpeople="8" Site="22" SiteId="137189" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="514.609130859375" mapy="459.239685058594" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="33" Maxpeople="8" Site="23" SiteId="137190" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="517.214782714844" mapy="416.833221435547" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="30" Maxpeople="8" Site="24" SiteId="137191" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="444.257354736328" mapy="467.056579589844" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="30" Maxpeople="8" Site="25" SiteId="137192" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="485.556457519531" mapy="379.442535400391" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="34" Maxpeople="8" Site="26" SiteId="137193" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="330.261474609375" mapy="296.779235839844" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="30" Maxpeople="8" Site="27" SiteId="137194" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="277.79" mapy="289.54" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="30" Maxpeople="8" Site="28" SiteId="137195" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="236.52" mapy="244.26" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="30" Maxpeople="8" Site="29" SiteId="137196" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="421.002197265625" mapy="485.361022949219" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="30" Maxpeople="8" Site="30" SiteId="137197" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="394.359771728516" mapy="497.346893310547" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="30" Maxpeople="8" Site="31" SiteId="137198" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="365.502502441406" mapy="494.806396484375" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="30" Maxpeople="8" Site="32" SiteId="137199" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="416.833221435547" mapy="432.922943115234" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="30" Maxpeople="8" Site="34" SiteId="137201" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="338.990295410156" mapy="496.044128417969" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="30" Maxpeople="8" Site="35" SiteId="137202" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="315.409423828125" mapy="447.644714355469" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST LAKE " Maxeqplen="30" Maxpeople="8" Site="36" SiteId="137203" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="304.596130371094" mapy="499.301116943359" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:46:04 GMT
+recorded_with: VCR 2.5.0

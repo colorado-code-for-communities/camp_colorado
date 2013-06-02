@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50038
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:39:51 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:39:51 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=F931D2C99BFECF5FFE96FDA914522BD2.web08-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2b45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=F931D2C99BFECF5FFE96FDA914522BD2.web08-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:39:51 GMT; Path=/
+      Content-Length:
+      - '4611'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description="Rifle Gap State Park has something to offer every outdoor enthusiast, the clean clear waters of this 350-acre reservoir afford some of the best scuba diving, boating, swimming, water skiing and fishing in Colorado. Camping, hiking and picnicking opportunities at this 1,305-acre park also await the Rifle Gap State Park visitor. The fun doesn&amp;amp;#39;t stop in the wintertime, when ice fishing and cross-country skiing are available for the cold-weather buffs. The popular campsites at Rifle Gap are spread out along the northern shore of the reservoir. There are 89 campsites that can accommodate tents, small trailers, RV&amp;amp;#39;s and pick-up campers." drivingDirection="I-70 to Rifle exchange, then take Hwy 13 north. Go through Rifle 3 miles. State Hwy 325 for 6 miles." facilitiesDescription="" facility="RIFLE GAP STATE PARK" facilityID="50038" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50038&amp;cmp=39-32--mcmire" importantInformation=" In addition to the camping fee, an entrance fee is required at all state parks! Shade may be naturally provided by trees and other vegetation or by man made shade shelter. Please call the park for specific details. " latitude="39.6163889" longitude="-107.7636111" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="Rocky Mountain Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50038&amp;cmp=39-32--mcmire">
+        <address city="RIFLE" country="United States" shortName="RIGA" state="Colorado" streetAddress="5775 HIGHWAY 325" zip="81650"/>
+        <photo realUrl="/webphotos/CO/pid50038/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50038/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50038/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50038/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50038/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50038/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50038/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50038/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50038/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50038/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50038/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50038/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="9706251607"/>
+        <contact name="Ranger Station" number="9706251607"/>
+        <amenity distance="Within Facility" name="ADA Access"/>
+        <amenity distance="Within Facility" name="Beach (Swimming)"/>
+        <amenity distance="Within Facility" name="Boat Launch"/>
+        <amenity distance="Within Facility" name="Boat Ramp"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Cross Country Skiing"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Firewood Available"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Ice Fishing"/>
+        <amenity distance="Within Facility" name="Interpretitive Programs"/>
+        <amenity distance="Within Facility" name="Parking"/>
+        <amenity distance="Within Facility" name="Picnic Tables"/>
+        <amenity distance="Within Facility" name="Picnicking"/>
+        <amenity distance="Within Facility" name="Ranger Station"/>
+        <amenity distance="Within Facility" name="Sailing And Sailboarding"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Skating"/>
+        <amenity distance="Within Facility" name="Swimming"/>
+        <amenity distance="Within Facility" name="Swimming - Beach"/>
+        <amenity distance="Within Facility" name="Water Skiing"/>
+        <amenity distance="Within Facility" name="Wildlife Watching Opportunity"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:39:51 GMT
+recorded_with: VCR 2.5.0

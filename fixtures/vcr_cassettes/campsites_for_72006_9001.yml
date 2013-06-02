@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=72006&siteType=9001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:33:15 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:33:15 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=12FA4BE4469BC7049A8C48BD93B937AD.web08-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2b45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=12FA4BE4469BC7049A8C48BD93B937AD.web08-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:33:15 GMT; Path=/
+      Content-Length:
+      - '513'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="1" parkId="72006" resultType="campsites" siteType="9001">
+        <result Loop="Maroon Bells Amphitheatre" Maxeqplen="0" Maxpeople="65" Site="AM" SiteId="265120" SiteReserveType="site-specific" SiteType="GROUP STANDARD AREA NONELECTRIC" mapx="47.2651863098145" mapy="333.153045654297" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:33:15 GMT
+recorded_with: VCR 2.5.0

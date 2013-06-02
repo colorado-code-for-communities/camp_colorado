@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73707&siteType=2003
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:40:01 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:40:01 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=03927B49F019F4153D169972A95AEEF6.web03-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2445525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=03927B49F019F4153D169972A95AEEF6.web03-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:40:01 GMT; Path=/
+      Content-Length:
+      - '6534'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="18" parkId="73707" resultType="campsites" siteType="2003">
+        <result Loop="RIVER HILL " Maxeqplen="50" Maxpeople="8" Site="001" SiteId="134143" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="129.48" mapy="591.48" sitePhoto="/webphotos//NRSO/pid73707/sid134143/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVER HILL " Maxeqplen="75" Maxpeople="8" Site="002" SiteId="134144" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="317.07" mapy="605.21" sitePhoto="/webphotos//NRSO/pid73707/sid134144/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVER HILL " Maxeqplen="45" Maxpeople="8" Site="003" SiteId="134145" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="327.54" mapy="579.4" sitePhoto="/webphotos//NRSO/pid73707/sid134145/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVER HILL " Maxeqplen="80" Maxpeople="8" Site="004" SiteId="134146" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="304.7" mapy="544.24" sitePhoto="/webphotos//NRSO/pid73707/sid134146/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVER HILL " Maxeqplen="25" Maxpeople="8" Site="005" SiteId="134147" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="358.6" mapy="604.8" sitePhoto="/webphotos//NRSO/pid73707/sid134147/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVER HILL " Maxeqplen="45" Maxpeople="8" Site="006" SiteId="134148" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="654.76" mapy="558.38" sitePhoto="/webphotos//NRSO/pid73707/sid134148/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVER HILL " Maxeqplen="45" Maxpeople="8" Site="007" SiteId="134149" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="664.26" mapy="516.63" sitePhoto="/webphotos//NRSO/pid73707/sid134149/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVER HILL " Maxeqplen="48" Maxpeople="8" Site="008" SiteId="134150" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="684.82" mapy="546.58" sitePhoto="/webphotos//NRSO/pid73707/sid134150/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVER HILL " Maxeqplen="58" Maxpeople="8" Site="009" SiteId="134151" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="730.23" mapy="526.61" sitePhoto="/webphotos//NRSO/pid73707/sid134151/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVER HILL " Maxeqplen="60" Maxpeople="8" Site="010" SiteId="134152" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="779.66" mapy="514.8" sitePhoto="/webphotos//NRSO/pid73707/sid134152/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVER HILL " Maxeqplen="125" Maxpeople="8" Site="011" SiteId="134153" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="812.28" mapy="513.58" sitePhoto="/webphotos//NRSO/pid73707/sid134153/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVER HILL " Maxeqplen="75" Maxpeople="8" Site="012" SiteId="134154" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="879.85" mapy="469.26" sitePhoto="/webphotos//NRSO/pid73707/sid134154/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVER HILL " Maxeqplen="125" Maxpeople="8" Site="013" SiteId="134155" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="850.39" mapy="453.81" sitePhoto="/webphotos//NRSO/pid73707/sid134155/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVER HILL " Maxeqplen="55" Maxpeople="8" Site="014" SiteId="134156" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="870.83" mapy="426.06" sitePhoto="/webphotos//NRSO/pid73707/sid134156/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVER HILL " Maxeqplen="75" Maxpeople="8" Site="015" SiteId="134157" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="865.12" mapy="391.56" sitePhoto="/webphotos//NRSO/pid73707/sid134157/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVER HILL " Maxeqplen="54" Maxpeople="8" Site="016" SiteId="134158" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="794.14" mapy="418.39" sitePhoto="/webphotos//NRSO/pid73707/sid134158/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVER HILL " Maxeqplen="45" Maxpeople="8" Site="017" SiteId="134159" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="823.97" mapy="446.63" sitePhoto="/webphotos//NRSO/pid73707/sid134159/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVER HILL " Maxeqplen="60" Maxpeople="8" Site="018" SiteId="134160" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="756.52" mapy="437.51" sitePhoto="/webphotos//NRSO/pid73707/sid134160/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:40:01 GMT
+recorded_with: VCR 2.5.0

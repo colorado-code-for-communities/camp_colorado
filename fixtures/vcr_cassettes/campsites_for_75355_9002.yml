@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=75355&siteType=9002
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:30:46 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:30:46 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=4FF1C1145C54838463195C14931B3345.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=4FF1C1145C54838463195C14931B3345.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:30:46 GMT; Path=/
+      Content-Length:
+      - '832'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="2" parkId="75355" resultType="campsites" siteType="9002">
+        <result Loop="JUNCTION CREEK" Maxeqplen="14" Maxpeople="65" Site="G01" SiteId="148265" SiteReserveType="site-specific" SiteType="GROUP PICNIC AREA" mapx="769.18" mapy="690.2" sitePhoto="/webphotos//NRSO/pid75355/sid148265/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="JUNCTION CREEK" Maxeqplen="14" Maxpeople="50" Site="G02" SiteId="287035" SiteReserveType="site-specific" SiteType="GROUP STANDARD NONELECTRIC" mapx="708.05" mapy="680.9" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:30:46 GMT
+recorded_with: VCR 2.5.0

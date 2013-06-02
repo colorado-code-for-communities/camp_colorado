@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=75106
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:25:32 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:25:32 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=71134970F671AF7CC632C158F1CB9E84.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=71134970F671AF7CC632C158F1CB9E84.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:25:32 GMT; Path=/
+      Content-Length:
+      - '7704'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Elwood Cabin sits in a saddle along the San Juan Mountains   overlooking an open meadow, offering guests a unique lodging   opportunity.     The cabin was built in 1911 by the Mountain States Telephone Company as a &amp;amp;quot;line   shack&amp;amp;quot; to support crews maintaining the transcontinental telephone line. Remnants of this   old telephone line are still found along Iron Creek to the southeast. The cabin was also used   as a Forest Service Station from 1950 until 1962, serving as living quarters for Forest Service   employees who worked on numerous projects in the area.    Although the phone line has been abandoned, today the cabin is a high-altitude getaway for   guests seeking relaxation and recreation in south-central Colorado.     During summer months the cabin can   be accessed by motorized travel. During winter months access to the cabin is by   snowmobiles, cross country skiing or snow shoeing." drivingDirection="From Del Norte, take U.S. Highway 160 west to South Fork. Continue west on U.S. Highway  160 for 8 miles to Park Creek Road. Travel 15 miles on Park Creek Road to Summitville Road. Turn right on FSR 380, the cabin is about 2 miles on the left.  From the junction of  FSR 250 in the Alamosa Canyon and FSR 380, follow FSR 380 about 8 miles, the cabin is on the right.  Access to the cabin in the summertime can be accomplished with just about any vehicle; however, when the dirt roads are wet they tend to get slick.    In winter, the trail access to the Elwood Cabin is on the unplowed portion of Forest Road 380, which starts southeast from the junction, but makes a bend and continues south-southwest to the cabin. The 2 mile ski to the cabin is generally easy with a 400 foot elevation gain. The Elwood Cabin is visible below the road on a knoll projecting into a large open park. Allow from 1.5 - 2 hours or longer, depending on snow conditions, for the trip." facilitiesDescription="The one room log cabin is furnished with two bunk beds with single beds on the top and foldout double beds on the bottom, accommodating up to six people. The cabin has a wood stove for   heat, propane lighting and a propane stove.  The kitchen is equipped with a table and chairs,  cooking utensils, pots and pans and a fire extinguisher. Firewood is available in the   adjoining shed. An outdoor vault toilet is also on-site.     Guests must provide a sufficient supply of water for cooking, cleaning   and washing. Guests are also encouraged to bring an additional light source in case of   emergencies.    Although the cabin has some amenities, guests do need to provide their own food, sleeping   bags, linens, towels, dish soap, matches, first aid kit, avalanche equipment, toilet paper and   garbage bags." facility="ELWOOD CABIN" facilityID="75106" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=75106&amp;cmp=39-32--mcmire" importantInformation=" Water not available at this facility Guests should be aware of potential avalanche danger on the trip to and from the cabin Dress appropriately for winter conditions and pack enough food to last for at least 48 hours Access to the cabin is by a combination lock; call the Forest Service office at (719) 274-8971 one week before your stay to get the access combination Please contact the Ranger District prior to arriving at the cabin to check on any restrictions or conditions, such as fire or road closures, weather or storms that may affect the quality of your visit Do not leave food or trash outside the cabin; there are bears in the area All garbage and food must be packed out The cabin is a no-smoking facility Please clean cabin upon departure Make sure cabin is locked upon departure Drink plenty of water before arrival and during your stay to avoid altitude sickness Expect afternoon thunderstorms in the summer and below freezing temperatures in the spring, winter and fall Learn more about the Rio Grande National Forest " latitude="37.4041667" longitude="-106.6386111" nearbyAttrctionDescription="Summitville is a nearby ghost town where gold was first discovered in 1870, then mined until   the early 1990s. When contaminants leaked off-site and flowed into the local watershed the   government forced it to shut down. Now a water treatment plant is on the site as part of a   federal clean up program." note="" orientationDescription="High in the San Juan Mountains at an elevation of 11,000 feet, this cabin provides guests with views of nearby peaks,   meadows filled with wildflowers and alpine forests.    While staying at such a high elevation guests will notice how light plays differently on the   landscape and stars blanket the sky on clear cold evenings. Elk, deer, and other wildlife are   often seen in meadows adjacent to the cabin. Bear, marmot and chipmunks also call the   area home." recreationDescription="The area around Elwood cabin offers a variety of recreational opportunities year-round.   Summertime brings excellent scenic tour opportunities in and around the Summitville area   as well as exploration of several historical mining sites.    Anglers have a spectacular backdrop to fishing streams such as Iron Creek or Treasure Creek.   Nearby Platoro Reservoir, which feeds the Conejos River, provides excellent fishing for trout   and salmon.    Great hiking can be found around the area, as it spans both the Rio Grande and San Juan   National Forests, as well as the South San Juan Wilderness.     In winter, the Elwood cabin area can be blanketed with as much as ten feet of snow, requiring   preparation and knowledge of winter travel. Snowmobiling, skiing and snowshoeing are   popular activities in the area." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=75106&amp;cmp=39-32--mcmire">
+        <address city="PLATORO" country="United States" shortName="ELWC" state="Colorado" streetAddress="FOREST SERVICE ROAD" zip="81120"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7192748971"/>
+        <contact name="Ranger Station" number="7192748971"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilet"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Bunkbed(s) With Mattresses"/>
+        <amenity distance="Within Facility" name="Campfire Ring"/>
+        <amenity distance="Within Facility" name="Cleaning Supplies"/>
+        <amenity distance="Within Facility" name="Cooking Pots"/>
+        <amenity distance="Within Facility" name="Cross Country Skiing"/>
+        <amenity distance="Within Facility" name="Fire Extinguisher"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Propane Lights"/>
+        <amenity distance="Within Facility" name="Propane Stove"/>
+        <amenity distance="Within Facility" name="Scenic Drive"/>
+        <amenity distance="Within Facility" name="Self Pay Station"/>
+        <amenity distance="Within Facility" name="Snowmobiling"/>
+        <amenity distance="Within Facility" name="Snowshoeing"/>
+        <amenity distance="Within Facility" name="Table and Chairs"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within 10 Miles" name="Historical sites"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:15:09 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70059
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:41:27 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:41:27 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=F70B5C60D2F83C3B0CB9C7E305A04B84.web04-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2745525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=F70B5C60D2F83C3B0CB9C7E305A04B84.web04-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:41:27 GMT; Path=/
+      Content-Length:
+      - '5726'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Silver Bar Campground is located 5 miles southwest of Aspen, Colorado on the banks of Maroon Creek. This primitive, tent-only camp features walk-to sites, and is ideal  for guests seeking a more secluded camping experience.      The campground sits at an elevation of 8,460 feet, allowing guests to experience warm summer days and cool evenings with probable afternoon thunderstorms. Snow is  also possible in the summer." drivingDirection="Located 4.7 miles southwest of Aspen, Colorado, on Maroon Creek Road. From Highway 82, take the Maroon Creek Road exit at the roundabout on the west edge of town. Follow Maroon Creek Road to the Visitor Center. Silver Bar Campground is on the left." facilitiesDescription="Silver Bar Campground has 4 walk-to, tent-only, primitive campsites. Sites are eqipped with picnic tables, vault toilets, campfire rings, and drinking water.  Electrical hook-ups are not available.    Public transportation is available on Maroon Creek Road in front of the campground for travel to and from Maroon Lake. Operating hours for the shuttle bus are 9:00 a.m. until 5:00 p.m. for a fee of $6.00 per adult, and $3.00 per child/senior." facility="SILVER BAR" facilityID="70059" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70059&amp;cmp=39-32--mcmire" importantInformation=" Campground has 5 day limit Camping permitted in developed campgrounds and/or designated campsites only Entry fee of $5 for 5 days per vehicle required, in addition to camping fee Parking area not suitable for leveling RVs or campers Visitor Center is open from 7 a.m. to 6 p.m. Independence Pass (Highway 82) is normally open from Memorial Day through mid-October, weather dependent. If you are planning an event during these times, please call the Colorado Department of Transportation Hotline for road updates at (877) 315-7623. This area provides access to the Maroon Bells-Snowmass Wilderness area Pets must be on a leash at all times while visiting campgrounds and within designated Wilderness Camping overnight in wilderness areas requires registration Click here for more information about White River National Forest " latitude="39.1458333" longitude="-106.8916667" nearbyAttrctionDescription="The nearby mountain resort town of Aspen is a popular destination for visitors to the area. From downhill skiing and world-class fly fishing, to dining and resorts, there is a multitude of outdoor and indoor opportunites in this mountain town." note="" orientationDescription="Located in White River National Forest, the Maroon Bells-Snowmass Wilderness is among the 5 original Colorado wilderness areas designated by the 1964 Wilderness Act. Its scenic value exudes from its aspen groves, meadows of wildflowers, and dark forests of spruce and fir that rise up from the valleys to alpine landscapes. Here, bighorn sheep, pika, and ptarmigan find habitat above timberline.     Towering over glacial valleys at over 14,000 feet in elevation, the Maroon Bells are the most recognizable peaks in the Elk Mountains. The Maroon Bells are unique to the Rockies in that they are made up of metamorphic sedimentary mudstone that give the peaks their maroon color and unstable nature for climbing." recreationDescription="For hikers and backpackers, the Maroon-Snowmass Trail epitomizes the Rocky Mountains of Colorado. Starting from the Snowmass Creek Trailhead, the trail winds through aspen groves, crosses streams, and switchbacks through forests. Climbing to alpine terrain, backpackers will find high mountain lakes and a smattering of wildflowers in early summer.    Designated camping sites are located at Crater Lake or Maroon Lake about 6 miles from the trailhead. Check regulations for camping in Colorado wilderness areas.    Anglers can fish in Maroon Creek, which is adjacent to the campground. Rafting is also possible." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70059&amp;cmp=39-32--mcmire">
+        <address city="ASPEN" country="United States" shortName="SILL" state="Colorado" streetAddress="Maroon Creek Road" zip="81611"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9709253311"/>
+        <contact name="Ranger Station" number="9709253445"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Climbing"/>
+        <amenity distance="Within Facility" name="Creek Access"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Rafting"/>
+        <amenity distance="Within Facility" name="Shuttle Bus Service"/>
+        <amenity distance="Within Facility" name="Tent sites"/>
+        <amenity distance="Within Facility" name="Trails"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within 10 Miles" name="Fuel Available"/>
+        <amenity distance="Within 10 Miles" name="General Store"/>
+        <amenity distance="Within 10 Miles" name="Laundry Facilities"/>
+        <amenity distance="Within 10 Miles" name="Restaurant"/>
+        <amenity distance="Within 10 Miles" name="Visitor Center"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:41:27 GMT
+recorded_with: VCR 2.5.0

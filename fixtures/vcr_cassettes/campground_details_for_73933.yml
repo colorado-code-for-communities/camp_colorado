@@ -1,0 +1,87 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73933
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:28:03 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:28:03 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=EF641ADB5552D7A99A3C59C4929B858D.web08-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2b45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=EF641ADB5552D7A99A3C59C4929B858D.web08-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:28:02 GMT; Path=/
+      Content-Length:
+      - '8407'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="At an elevation of 8,500 feet, Grizzly Creek Guard Station is located between Walden and Steamboat Springs, Colorado, offering guests an unique lodging opportunity in  the Routt National Forest. The area around the guard station offers a chance to view abundant wildlife and experience a variety of recreational opportunities year-round.     The guard station is accessible by passenger vehicle when there is no snow; however, high clearance vehicles are recommended in the spring and fall. Access to the cabin in winter is only available by snowmobile, cross-country skis or snowshoes. The cabin offers some creature comforts, but guests should be prepared  to bring some of their own supplies and gear." drivingDirection="From Walden, take Highway 14 west for approximately 11 miles to Hebron. Turn right on County Road 24, driving west. Follow County Road 24 as it forks left and then right at intersections with County Roads 1 and 5. After approximately 10 miles, the road becomes Forest Service Road 60 and you arrive at the Grizzly Creek Guard Station." facilitiesDescription="The historic two-room cabin sleeps five on bunkbeds with mattresses. The cabin has a heater, range and refrigerator powered by propane. The kitchen is equipped with a  table and chairs, cooking utensils, pots and pans. An accessible outhouse with pit toilet is also on-site.     Water, electricity, indoor plumbing and trash collection are not available. Water must be hauled from a campground approximately three miles away during the summer. In  the winter, guests must provide their own supply of water for cooking, cleaning and washing.     Guests must bring their own food, sleeping bags, lanterns or flashlights, pillows, towels, dish soap, matches, first aid kit, toilet paper and garbage bags. All trash and food should be packed out, and guests are expected to clean the cabin before leaving." facility="GRIZZLY CREEK GUARD STATION" facilityID="73933" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=73933&amp;cmp=39-32--mcmire" importantInformation=" Water not available at this facility In winter, the road to the guard station is not always passable as a result of heavy and drifting snow; the road is often unplowed within 3 miles of the cabin, making it accessible by snowmobile, cross-country skis or snowshoes only Access to the cabin is by a combination lock; please call the Parks Ranger District at (970) 723-8204 prior to your stay to get the access combination for the cabin (Forest Service office is not open evenings, weekends or federal holidays) Please contact the Ranger District prior to arriving at the cabin to check on any restrictions or conditions, such as fire or road closures, weather or storms that may affect the quality of your visit Pets are not allowed at this facility All garbage and food must be packed out The cabin is a no-smoking facility Please clean cabin upon departure Make sure cabin is locked upon departure Drink plenty of water before arrival and during your stay to avoid altitude sickness Learn more about Medicine Bow-Routt National Forests. " latitude="40.5569444" longitude="-106.5872222" nearbyAttrctionDescription="" note="" orientationDescription="The cabin sits in an open area among grassland and sagebrush, with nearby aspen groves and lodgepole pine forests.    The Mount Zirkel Wilderness lies east of the guard station. The wilderness was one of the original areas protected under the 1964 Wilderness Act and has since been expanded twice to its present size of 160,648 acres. The area boasts ecosystems ranging from sagebrush meadows in the lower areas, through pine and spruce/fir forests, to alpine tundra at high elevations.    Elk, deer, moose and other wildlife are often seen in meadows adjacent to the cabin, and cattle frequently pass by the area as well." recreationDescription="In summer, hiking and fishing can be found within the vicinity. Trailheads leading to hiking and horseback riding trails are an easy drive from the guard station. Designated areas for off-road vehicles are also near the cabin.     In winter, the area is blanketed by snow for wintertime play. Cross-country skiers and snowmobile traffic often pass by the guard station during daylight hours." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=73933&amp;cmp=39-32--mcmire">
+        <address city="WALDEN" country="United States" shortName="GRIC" state="Colorado" streetAddress="PO BOX 158" zip="80480"/>
+        <photo realUrl="/webphotos/NRSO/pid73933/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid73933/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid73933/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid73933/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid73933/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid73933/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid73933/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid73933/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid73933/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid73933/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid73933/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid73933/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid73933/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid73933/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid73933/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9707232700"/>
+        <contact name="Ranger Station" number="9707232700"/>
+        <amenity distance="Within Facility" name="Accessible Pit Toilets"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Broom &amp;amp; Dust Pan"/>
+        <amenity distance="Within Facility" name="Bunkbed(s) With Mattresses"/>
+        <amenity distance="Within Facility" name="Cabin Rentals"/>
+        <amenity distance="Within Facility" name="Cleaning Supplies"/>
+        <amenity distance="Within Facility" name="Cooking Pots"/>
+        <amenity distance="Within Facility" name="Cooking Utensils"/>
+        <amenity distance="Within Facility" name="Cross Country Skiing"/>
+        <amenity distance="Within Facility" name="Historic Sites"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Propane Heat"/>
+        <amenity distance="Within Facility" name="Propane Refrigerator"/>
+        <amenity distance="Within Facility" name="Propane Stove"/>
+        <amenity distance="Within Facility" name="Snowmobile Trails"/>
+        <amenity distance="Within Facility" name="Snowshoeing"/>
+        <amenity distance="Within Facility" name="Table &amp;amp; Chairs"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within 10 Miles" name="Boating"/>
+        <amenity distance="Within 10 Miles" name="Canoeing"/>
+        <amenity distance="Within 10 Miles" name="Drinking Water"/>
+        <amenity distance="Within 10 Miles" name="Fishing"/>
+        <amenity distance="Within 10 Miles" name="Hiking"/>
+        <amenity distance="Within 10 Miles" name="Horseback Riding"/>
+        <amenity distance="Within 10 Miles" name="Horseback Riding Trails"/>
+        <amenity distance="Within 10 Miles" name="Lake Access"/>
+        <amenity distance="Within 10 Miles" name="Mountain Biking"/>
+        <amenity distance="Within 10 Miles" name="Off Road Vehicle Trails"/>
+        <amenity distance="Within 10 Miles" name="Trailheads"/>
+        <amenity distance="Within 10 Miles" name="Trails"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:28:03 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=72081
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:31:02 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:31:02 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=E5FE70D1A8A1724E6D3BCD81EA2022F2.web07-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2845525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=E5FE70D1A8A1724E6D3BCD81EA2022F2.web07-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:31:01 GMT; Path=/
+      Content-Length:
+      - '5492'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Kenosha Pass Campground is a small, conveniently-located campground heralded by backpackers on the Colorado Trail and by those looking for a scenic, mountain family getaway.     Across the road from the campground entrance is the Kenosha Pass Interpretive Area, with an accessible interpretive trail showcasing wetlands and remnants of the South Park and Pacific Railroad.     Kenosha Pass, the campground&amp;amp;#39;s namesake, is one of the nation&amp;amp;#39;s highest mountain passes, weaving over the spine of the Front Range from Jefferson to Grant. The route provides one of the primary access points to South Park, and boasts tremendous views of Mount Evans and Mount Bierstadt." drivingDirection="From Denver, travel south on Highway 285 through Pine Junction and Bailey.  Continue 17.5 miles past Bailey on Highway 285 to Kenosha Pass Campground at the summit of Kenosha Pass.  The campground is on the right side of the highway." facilitiesDescription="Kenosha Pass includes vault toilets and drinking water from a hand pump. Each site has a campfire ring and picnic table. Parking aprons are dirt and gravel." facility="KENOSHA PASS CAMPGROUND" facilityID="72081" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=72081&amp;cmp=39-32--mcmire" importantInformation=" Thunderstorms are common; take extra precautions for lightning This is a high elevation facility, please use caution when traveling from lower elevations Be bear aware; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating Limit 2 vehicles or 1 RV per site; a $5 nightly fee is charged for additional vehicles Vehicles must fit on parking spur No firearms or fireworks No RV hookups For more information on Pike and San Isabel National Forests, click here " latitude="39.4130556" longitude="-105.7566667" nearbyAttrctionDescription="Jefferson Lake, known for its great fishing, is 10 miles north." note="" orientationDescription="At a 10,000 foot elevation, the region is commonly referred to as the High Country. Campsites are situated among lodgepole pine and aspen trees. Summer temperature are generally mild and cool, but the high elevation may cause very chilly nights." recreationDescription="Excellent hiking, biking and horseback riding are available on the lengthy Colorado Trail, a 471-mile trail that extends from Denver to Durango.     For a scenic drive, take in the views of the Kenosha Mountain Pass, then head to Guanella Pass for even more picture-perfect scenery." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=72081&amp;cmp=39-32--mcmire">
+        <address city="Morrison" country="United States" shortName="KENP" state="Colorado" streetAddress="19316 Goddard Ranch Road" zip="80465"/>
+        <photo realUrl="/webphotos/NRSO/pid72081/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72081/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72081/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72081/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72081/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72081/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72081/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72081/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72081/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/72081_KENP.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="3032755610"/>
+        <contact name="Ranger Station" number="7196877818"/>
+        <amenity distance="Within Facility" name="Accessible Site "/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Self Pay Station"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wildflower viewing"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within 10 Miles" name="General Store"/>
+        <amenity distance="Within 10 Miles" name="Horseback Riding Trails"/>
+        <amenity distance="Greater Than 10 Miles" name="Fishing"/>
+        <amenity distance="Greater Than 10 Miles" name="Historic Sites"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:31:02 GMT
+recorded_with: VCR 2.5.0

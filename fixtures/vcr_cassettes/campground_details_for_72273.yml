@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=72273
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:45:55 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:45:55 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=BC0E88D7111F65D346A7AEA7BD44884C.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=BC0E88D7111F65D346A7AEA7BD44884C.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:45:55 GMT; Path=/
+      Content-Length:
+      - '5436'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="West Fork Campground sits near the West Fork San Juan River in a secluded 10-acre area, just over a mile from Highway 160. Visitors enjoy the area for its hiking opportunities and plentiful solitude." drivingDirection="From Pagosa Springs, Colo., travel east on U.S. Highway 160 for about 13 miles, then turn northwest on Forest Road 684 and continue more than a mile to the campground entrance on the West Fork Road." facilitiesDescription="The campground offers single-family sites, some of which are adjacent to the river but without direct views. Most sites are suitable for large RVs. Picnic tables and campfire rings are provided, as are vault toilets and drinking water." facility="WEST FORK CAMPGROUND" facilityID="72273" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=72273&amp;cmp=39-32--mcmire" importantInformation=" Click here for more information on the San Juan National Forest " latitude="37.4447222" longitude="-106.9030556" nearbyAttrctionDescription="Trailheads for Windy Pass and Treasure Mountain Trails are located across Highway 160 from the West Fork Road turnoff.    Treasure Falls, located off Highway 160 about three miles from the campground, is an impressive 100-foot waterfall with a short hike leading to its base." note="" orientationDescription="The campground is situated among a forest of mixed conifers, where sites have sun and shade. The West Fork can be heard, but not seen from the campground." recreationDescription="The West Fork and nearby Wolf Creek offer fishing opportunities, but are heavily fished streams. Only skilled and patient fishermen have much luck in these waters.    The West Fork Trail, also known as the Rainbow Trail, leads into the Weminuche Wilderness from a trailhead a mile beyond the campground. The first portion of the trail passes through private property, so please stay on the trail and leave the gates as you find them." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=72273&amp;cmp=39-32--mcmire">
+        <address city="San Juan NF" country="United States" shortName="WEFO" state="Colorado" streetAddress="West Fork Rd (FS Road 648)" zip=""/>
+        <photo realUrl="/webphotos/NRSO/pid72273/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72273/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72273/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72273/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72273/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72273/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72273/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72273/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72273/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72273/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72273/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72273/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72273/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72273/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72273/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72273/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72273/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72273/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/72273_WEFO.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9702645254"/>
+        <contact name="Ranger Station" number="9702645254"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood Vendor"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="RV sites"/>
+        <amenity distance="Within Facility" name="River Access"/>
+        <amenity distance="Within Facility" name="Tables"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within 10 Miles" name="Hiking"/>
+        <amenity distance="Within 10 Miles" name="Rafting"/>
+        <amenity distance="Within 10 Miles" name="Trailheads"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:45:55 GMT
+recorded_with: VCR 2.5.0

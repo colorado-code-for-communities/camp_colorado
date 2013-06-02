@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73564
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:30:21 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:30:21 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=71B6D7603BAEE92D38B00651CD10EB1F.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=71B6D7603BAEE92D38B00651CD10EB1F.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:30:21 GMT; Path=/
+      Content-Length:
+      - '3746'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Campers looking for a pleasant fishing destination with great mountain views will enjoy camping at Jefferson Creek. The campground is located a short drive or hike from Jefferson Lake. The lake is one of the highest elevation lakes around, capping 10,685 feet elevation and bordered by steep 12,000 foot peaks.     Fishing in both the creek and lake offer promising catches of trout. Another noteworthy aspect of the campground is its access to the Colorado Trail." drivingDirection="From US Highway 285 at Jefferson, Colorado, take County Road 35 north to County Road 37 and turn right. Pay the user fee at Jefferson Lake Recreation Area entrance station and continue on the road to the campground." facilitiesDescription="Jefferson Campground offers nearly 20 reservable campsites. Parking aprons are gravel and the max RV length 25 feet. Amenities include picnic tables, vault toilets, drinking water and campfire rings." facility="JEFFERSON CREEK" facilityID="73564" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=73564&amp;cmp=39-32--mcmire" importantInformation=" Please note it is difficult to access Jefferson Lake Recreation Area during the winter months; the roads to this site are not maintained for snow throughout the winter Be bear aware; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating This is a high elevation facility, please use caution when traveling from lower elevations There is a $6 vehicle fee to enter Jefferson Lake Recreation Area No RV hookups are available No pay phones are available For more information on Pike and San Isabel National Forests, click here " latitude="39.4369444" longitude="-105.8608333" nearbyAttrctionDescription="Visitors enjoy Fairplay, Colorado, a ghost town that was once a frontier boom town. The South Park City Museum contains 34 authentic buildings with 60,000 artifacts." note="" orientationDescription="Jefferson Creek Campground extends along a ridge looking over Jefferson Creek. The high elevation campground sits at 10,100 feet altitude with surroundings of mixed conifers. It is a mile from Jefferson Lake, a182-acre lake with deep, cold waters that freezes over in winter." recreationDescription="Two trails can be accessed near the campground. The best hiking, biking and horseback riding experience is on the epic Colorado Trail, a 471-mile trail that extends from Denver to Durango. The other is the West Jefferson Loop Trail, a foot path that extends for 11 miles to the Continental Divide.     Rainbow, brown, mackinaw and brook trout can be found swimming in the creek and lake. Motorized boating is allowed in Jefferson Lake, but it is a no-wake lake." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=73564&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="JEFF" state="Colorado" streetAddress="" zip=""/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7198362031"/>
+        <contact name="Ranger Station" number="7198362031"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:30:21 GMT
+recorded_with: VCR 2.5.0

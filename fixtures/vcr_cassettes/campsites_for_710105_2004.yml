@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=LARC&parkId=710105&siteType=2004
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:29:19 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:29:19 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=1B73F6FF08F9AAF51FFC304C5BF0D6D9.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=1B73F6FF08F9AAF51FFC304C5BF0D6D9.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:29:19 GMT; Path=/
+      Content-Length:
+      - '4798'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="LARC" count="15" parkId="710105" resultType="campsites" siteType="2004">
+        <result Loop="Boat-In Sites West Side" Maxeqplen="0" Maxpeople="8" Site="B01" SiteId="360" SiteReserveType="site-specific" SiteType="BOAT-IN" mapx="763.3" mapy="643.56" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Boat-In Sites West Side" Maxeqplen="0" Maxpeople="8" Site="B02" SiteId="361" SiteReserveType="site-specific" SiteType="BOAT-IN" mapx="756.82" mapy="608.65" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Boat-In Sites West Side" Maxeqplen="0" Maxpeople="8" Site="B03" SiteId="362" SiteReserveType="site-specific" SiteType="BOAT-IN" mapx="737.86" mapy="544.81" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Boat-In Sites West Side" Maxeqplen="0" Maxpeople="8" Site="B04" SiteId="363" SiteReserveType="site-specific" SiteType="BOAT-IN" mapx="737.86" mapy="519.37" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Boat-In Sites West Side" Maxeqplen="0" Maxpeople="8" Site="B05" SiteId="364" SiteReserveType="site-specific" SiteType="BOAT-IN" mapx="765.19" mapy="490.94" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Boat-In Sites West Side" Maxeqplen="0" Maxpeople="8" Site="B06" SiteId="365" SiteReserveType="site-specific" SiteType="BOAT-IN" mapx="759.89" mapy="463.18" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Boat-In Sites West Side" Maxeqplen="0" Maxpeople="8" Site="B07" SiteId="366" SiteReserveType="site-specific" SiteType="BOAT-IN" mapx="759.29" mapy="443.85" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Boat-In Sites West Side" Maxeqplen="0" Maxpeople="8" Site="B08" SiteId="367" SiteReserveType="site-specific" SiteType="BOAT-IN" mapx="741.89" mapy="405.37" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Boat-In Sites West Side" Maxeqplen="0" Maxpeople="8" Site="B09" SiteId="368" SiteReserveType="site-specific" SiteType="BOAT-IN" mapx="718.43" mapy="391.26" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Boat-In Sites West Side" Maxeqplen="0" Maxpeople="8" Site="B10" SiteId="369" SiteReserveType="site-specific" SiteType="BOAT-IN" mapx="711.01" mapy="364.77" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Boat-In Sites West Side" Maxeqplen="0" Maxpeople="8" Site="B11" SiteId="370" SiteReserveType="site-specific" SiteType="BOAT-IN" mapx="691.1" mapy="363.95" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Boat-In Sites West Side" Maxeqplen="0" Maxpeople="8" Site="B12" SiteId="371" SiteReserveType="site-specific" SiteType="BOAT-IN" mapx="684.37" mapy="343.82" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Boat-In Sites West Side" Maxeqplen="0" Maxpeople="8" Site="B13" SiteId="372" SiteReserveType="site-specific" SiteType="BOAT-IN" mapx="678.94" mapy="321.97" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Boat-In Sites West Side" Maxeqplen="0" Maxpeople="8" Site="B14" SiteId="373" SiteReserveType="site-specific" SiteType="BOAT-IN" mapx="674.65" mapy="287.2" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Boat-In Sites West Side" Maxeqplen="0" Maxpeople="8" Site="B15" SiteId="374" SiteReserveType="site-specific" SiteType="BOAT-IN" mapx="678.04" mapy="253.75" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:29:19 GMT
+recorded_with: VCR 2.5.0

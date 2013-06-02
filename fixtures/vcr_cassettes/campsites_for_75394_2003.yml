@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=75394&siteType=2003
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:43:43 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:43:43 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=FE78C2E08D7387AE57578C85E9FA2A38.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=FE78C2E08D7387AE57578C85E9FA2A38.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:43:43 GMT; Path=/
+      Content-Length:
+      - '3058'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="9" parkId="75394" resultType="campsites" siteType="2003">
+        <result Loop="STOVE PRAIRIE " Maxeqplen="40" Maxpeople="8" Site="001" SiteId="148556" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="676.486999511719" mapy="660.600036621094" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="STOVE PRAIRIE " Maxeqplen="40" Maxpeople="8" Site="002" SiteId="148565" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="696.573913574219" mapy="576.600036621094" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="STOVE PRAIRIE " Maxeqplen="0" Maxpeople="8" Site="003" SiteId="148566" SiteReserveType="site-specific" SiteType="WALK TO" mapx="669.1826171875" mapy="479.817413330078" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="STOVE PRAIRIE " Maxeqplen="0" Maxpeople="8" Site="004" SiteId="148567" SiteReserveType="site-specific" SiteType="WALK TO" mapx="545.008728027344" mapy="403.121765136719" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="STOVE PRAIRIE " Maxeqplen="0" Maxpeople="8" Site="005" SiteId="148568" SiteReserveType="site-specific" SiteType="WALK TO" mapx="641.791320800781" mapy="377.556549072266" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="STOVE PRAIRIE " Maxeqplen="0" Maxpeople="8" Site="006" SiteId="148569" SiteReserveType="site-specific" SiteType="WALK TO" mapx="451.878265380859" mapy="377.556518554688" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="STOVE PRAIRIE " Maxeqplen="40" Maxpeople="8" Site="007" SiteId="148570" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="371.530456542969" mapy="456.078277587891" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="STOVE PRAIRIE " Maxeqplen="35" Maxpeople="8" Site="008" SiteId="148571" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="325.878295898438" mapy="474.339141845703" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="STOVE PRAIRIE " Maxeqplen="40" Maxpeople="8" Site="009" SiteId="148572" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="283.878295898438" mapy="569.295654296875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:43:43 GMT
+recorded_with: VCR 2.5.0

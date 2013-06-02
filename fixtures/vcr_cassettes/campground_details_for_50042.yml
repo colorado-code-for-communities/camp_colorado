@@ -1,0 +1,83 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50042
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:43:04 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:43:04 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=C31EBE0EA6DDF645B68F8726E83F8FC8.web08-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2b45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=C31EBE0EA6DDF645B68F8726E83F8FC8.web08-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:43:04 GMT; Path=/
+      Content-Length:
+      - '6043'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description=" Campsites may be reserved in three of the State Forest campgrounds starting June 7th, 2013 and ending September 30th, 2013.  Any campsites not reserved are available on a first-come basis and requires immediate occupancy.  To make your visit more unique, the State Forest boasts six rustic cabins available for rent year-round.  Access in the winter to cabins 4, 5 and 6 is a 100 yard snowshoe or ski in.  Five campsites on the North Michigan Dam will be plowed of snow regularly and available for camping on a first come basis in the winter.  State Forest State Park winter months can vary but generally October through May expect snow on the ground. " drivingDirection="75 miles west of Ft. Collins on Hwy 14, over Cameron Pass or 150 miles north of Denver on Hwy 40 over Berthoud Pass." facilitiesDescription="" facility="STATE FOREST STATE PARK" facilityID="50042" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50042&amp;cmp=39-32--mcmire" importantInformation="Look at maps on the State Forest website or call the park for details at (970) 723-8366. All sites in Bockman, North Michigan and Ranger Lakes now have 12&amp;apos; X 12&amp;apos; tent pads. WATER IS AVAILABLE AT THE PARK SHOP, RANGER LAKES CAMPGROUND AND THE CABINS. Access to Crags Campground is steep, narrow and winding; trailers and motorhomes are not recommended. In addition to the camping fee, an entrance fee is required at the State Forest. First come/first serve camping available, weather permitting, during the off season depending on weather conditions and snow depth. Customers should contact the park for current conditions and campground closures.Horse Corral next to Bockman Campground. First-come, first-served for campers camping at Bockman. Horse trailers need to be parked at the campsite and not at the corral. Pets are allowed into the cabin for an additional $10.00 fee. First-come, first-serve camping may be available for outside the reservation dates. Contact the park for info. Daily Park Pass: $7. Colorado State Forest charges a $3 non-motorized entrance pass for visitors who walk or bike into the park. " latitude="40.5983333" longitude="-105.9536111" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="High Plains Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50042&amp;cmp=39-32--mcmire">
+        <address city="WALDEN" country="United States" shortName="STFO" state="Colorado" streetAddress="56750 Highway 14" zip="80480"/>
+        <photo realUrl="/webphotos/CO/pid50042/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50042/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50042/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50042/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50042/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50042/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50042/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50042/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50042/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50042/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50042/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50042/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50042/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50042/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50042/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="9707238366"/>
+        <contact name="Ranger Station" number="9707238366"/>
+        <amenity distance="Within Facility" name="ADA Fish. Access"/>
+        <amenity distance="Within Facility" name="Amphitheater"/>
+        <amenity distance="Within Facility" name="Beaching Your Boat"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Bird Watching"/>
+        <amenity distance="Within Facility" name="Boat Launch"/>
+        <amenity distance="Within Facility" name="Boat Ramp"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Cross Country Skiing"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Ice Fishing"/>
+        <amenity distance="Within Facility" name="Interpretitive Programs"/>
+        <amenity distance="Within Facility" name="Motorized Trails"/>
+        <amenity distance="Within Facility" name="Natural Shade"/>
+        <amenity distance="Within Facility" name="Nature Study Exhibits"/>
+        <amenity distance="Within Facility" name="Parking"/>
+        <amenity distance="Within Facility" name="Photography"/>
+        <amenity distance="Within Facility" name="Picnicking"/>
+        <amenity distance="Within Facility" name="Snow Shoeing"/>
+        <amenity distance="Within Facility" name="Snow Sledding"/>
+        <amenity distance="Within Facility" name="Snowmobiling"/>
+        <amenity distance="Within Facility" name="Visitor Center"/>
+        <amenity distance="Within Facility" name="Wildlife Watching Opportunity"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:43:04 GMT
+recorded_with: VCR 2.5.0

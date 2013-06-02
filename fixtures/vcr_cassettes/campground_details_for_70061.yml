@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70061
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:41:47 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:41:47 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=44307CD8673FD3562B6D2840BD25842E.web08-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2b45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=44307CD8673FD3562B6D2840BD25842E.web08-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:41:47 GMT; Path=/
+      Content-Length:
+      - '6446'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Located just outside Aspen, Colorado, Silver Queen Campground is hemmed in by aspen groves and subalpine forests on the banks of Maroon Creek.     The campground sits at an elevation of 8,460 feet, allowing guests to experience warm summer days and cool evenings with probable afternoon thunderstorms. Snow is  also possible in the summer." drivingDirection="Coming to Aspen via Independence Pass: Take Highway 82 West from downtown Aspen, 1 mile to the roundabout (rotary). From the roundabout, take Maroon Creek Road 4.7 miles to the Maroon Bells Welcome Station. Continue past the Welcome Station 1.5 miles. Silver Queen Campground is on the left hand side. Silver Queen Campground is approximately 6.5 miles from Highway 82 at the roundabout.   Coming to Aspen via Glenwood Springs: Take Highway 82 for 40 miles to the roundabout (rotary). From the roundabout, take Maroon Creek Road 4.7 miles to the Maroon Bells Welcome Station. Continue past the Welcome Station 1.5 miles. Silver Queen Campground is on the left hand side. Silver Queen Campground is approximately 6.5 miles from Highway 82 at the roundabout." facilitiesDescription="Silver Queen Campground has 6 standard sites able to acoommodate tents, trailers, and RVs     Sites are eqipped with picnic tables, vault toilets, campfire rings, and drinking water. Electrical hook-ups are not available.    Campers may elect to ride the public transit located at the base of the Aspen Highlands Ski Area. Operating hours for the shuttle bus are 9:00 a.m. until 5:00 p.m. for a fee of $6.00 per adult, and $3.00 per child/senior." facility="SILVER QUEEN" facilityID="70061" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70061&amp;cmp=39-32--mcmire" importantInformation=" Campground has 5 day limit Check out time is 2:00 p.m. Camping permitted in developed campgrounds and/or designated campsites only Entry fee of $5 for 5 days per vehicle required, in addition to camping fee Welcome station is open from 7 a.m. to 6 p.m. Independence Pass (Highway 82) is normally open from Memorial Day through mid-October, weather dependent. If you are planning an event during these times, please call the Colorado Department of Transportation Hotline for road updates at (877) 315-7623. This area provides access to the Maroon Bells-Snowmass Wilderness area Pets must be on a leash at all times while visiting campgrounds, and within designated Wilderness Camping overnight in wilderness areas requires registration Nearest dump station located in Basalt Click here for more information about White River National Forest " latitude="39.1330556" longitude="-106.9" nearbyAttrctionDescription="The nearby resort town of Aspen is a popular destination for visitors to the area. From downhill skiing and world-class fly fishing, to dining and resorts, there is a multitude of outdoor and indoor opportunites in this mountain town." note="" orientationDescription="Located in White River National Forest, the Maroon Bells-Snowmass Wilderness is among the 5 original Colorado wilderness areas designated by the 1964 Wilderness Act. Its scenic value exudes from its aspen groves, meadows of wildflowers, and dark forests of spruce and fir that rise up from the valleys to alpine landscapes. Here, bighorn sheep, pika, and ptarmigan find habitat above timberline.     Towering over glacial valleys at over 14,000 feet in elevation, the Maroon Bells are the most recognizable peaks in the Elk Mountains. The Maroon Bells are unique to the Rockies in that they are made up of metamorphic sedimentary mudstone that give the peaks their maroon color and unstable nature for climbing." recreationDescription="For day hikers and horseback riders, nearby Maroon Creek Trail offers a less crowded alternative to viewing the Maroon Bells, Pyramid Peak and the entire Maroon valley. The gentle, flat terrain offers scenic stops that are great for picnicking. Several shuttle bus stops are also available along the trail.     For hikers and backpackers seeking higher elevations, the Maroon-Snowmass Trail epitomizes the Rocky Mountains of Colorado. Starting from the Snowmass Creek Trailhead, the trail winds through aspen groves, crosses streams, and switchbacks through forests. Climbing to alpine terrain, backpackers will find high mountain lakes and a smattering of wildflowers in early summer.     Designated camping sites are located at Crater Lake or Maroon Lake about 6 miles from the trailhead. Check regulations for camping in Colorado wilderness areas.    Anglers will find populations of rainbow, brook, and cutthroat trout in Maroon Creek and nearby beaver ponds." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70061&amp;cmp=39-32--mcmire">
+        <address city="ASPEN" country="United States" shortName="SILQ" state="Colorado" streetAddress="Maroon Creek Road" zip="81611"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9709253311"/>
+        <contact name="Ranger Station" number="9709253445"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Climbing"/>
+        <amenity distance="Within Facility" name="Creek Access"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Rafting"/>
+        <amenity distance="Within Facility" name="Recycling"/>
+        <amenity distance="Within Facility" name="Trails"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within 10 Miles" name="Fuel Available"/>
+        <amenity distance="Within 10 Miles" name="General Store"/>
+        <amenity distance="Within 10 Miles" name="Laundry Facilities"/>
+        <amenity distance="Within 10 Miles" name="Shuttle Bus Service"/>
+        <amenity distance="Within 10 Miles" name="Visitor Center"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:41:47 GMT
+recorded_with: VCR 2.5.0

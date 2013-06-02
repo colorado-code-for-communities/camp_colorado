@@ -1,0 +1,80 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73885
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:46:16 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:46:16 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=81DF0D068083ABE5BC67FA099365CB84.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=81DF0D068083ABE5BC67FA099365CB84.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:46:16 GMT; Path=/
+      Content-Length:
+      - '5630'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Willow Creek Group Campground is located on Lake Granby, six miles north of Granby, in north central Colorado. Visitors enjoy the area for its great canoeing, kayaking, fishing and hiking opportunities." drivingDirection="From the intersection of U.S. Highways 40 and 34 in Granby, head north on Highway 34 for approximately 5 miles, to the junction with County Road 40. Turn west and travel approximately 3 miles to the campground." facilitiesDescription="The campground offers one tent-only campsite that accommodates up to 20 people. Single-family campsites are available at the campground on a first-come, first-served basis. Picnic tables, campfire rings, grills and tent pads are provided, as are vault toilets and drinking water." facility="WILLOW CREEK GROUP" facilityID="73885" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=73885&amp;cmp=39-32--mcmire" importantInformation=" This is bear country! For bear and human safety, keep a clean campsite and do not place food or other attractants in your tent. For more information about visiting bear country, contact Colorado Parks and Wildlife at http://wildlife.state.co.us Boats are subject to inspection to prevent the spread of zebra and quagga mussels Utility hookups are not available An additional fee will be charged for admission to the Arapaho National Recreation Area; fees are $5 a day, $10 for three days, $15 per week or $30 per year, and can be purchased from the Forest Service or local vendors; Golden Eagle, Age and Access passports are valid for admission; call (970) 887-4100 for more information A limited number of sites may be available on a first-come, first-served basis Click here for more information on the Arapaho and Roosevelt National Forests Operated by American Land &amp;amp;amp; Leisure. You may contact us at www.AmericanLL.com or 801-226-3564. " latitude="40.1425" longitude="-105.9530556" nearbyAttrctionDescription="Lake Granby, Shadow Mountain Lake and Grand Lake are all nearby. Boating, sailing, fishing and hiking are popular activities.    The west entrance of Rocky Mountain National Park&amp;amp;#39;s is just north of Grand Lake. With lush valleys and craggy peaks reaching elevations higher than 14,000 feet, visitors are provided opportunities for countless breathtaking experiences and adventures. Scenic driving, hiking, backpacking, fishing, horseback riding and wildlife viewing are popular activities in the park." note="" orientationDescription="The campground is situated on the southern shore of Willow Creek Reservoir, at an elevation of 8,130 feet. Afternoon thunderstorms should be expected during the summer months.    Due to the mountain pine beetle infestation and consequent removal of hazardous trees, there is no shade within the campground." recreationDescription="Willow Creek Reservoir is a 300-acre, no-wake lake. It is open to canoes, kayaks and other non-motorized boats. Anglers fish for rainbow, brown and brook trout. Willow Creek can be accessed nearby. National Fishing Week is held annually the first week in June.    Numerous hiking and horseback riding trails are located within the Arapaho National Recreation Area, including the East Shore Trail (which is part of the Continental Divide National Scenic Trail), Roaring Fork Trail and Monarch Lake Trail." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=73885&amp;cmp=39-32--mcmire">
+        <address city="GRANBY" country="United States" shortName="WILL" state="Colorado" streetAddress="COUNTY ROAD 40" zip="80446"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/73885_WILL.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9708870056"/>
+        <contact name="Ranger Station" number="9708870056"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Canoeing"/>
+        <amenity distance="Within Facility" name="Creek Access"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Group Camping"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Kayaking"/>
+        <amenity distance="Within Facility" name="Lake Access"/>
+        <amenity distance="Within Facility" name="Non-Motorized Boating"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Sailing"/>
+        <amenity distance="Within Facility" name="Self Pay Station"/>
+        <amenity distance="Within Facility" name="Tables"/>
+        <amenity distance="Within Facility" name="Tent Pads"/>
+        <amenity distance="Within Facility" name="Tent sites"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within 10 Miles" name="Hiking"/>
+        <amenity distance="Within 10 Miles" name="Horseback Riding Trails"/>
+        <amenity distance="Within 10 Miles" name="Trailheads"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:46:17 GMT
+recorded_with: VCR 2.5.0

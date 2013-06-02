@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=72109&siteType=2003
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:28:32 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:28:32 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=AD1F45D8FB6B40506307B9DD7BD61F00.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=AD1F45D8FB6B40506307B9DD7BD61F00.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:28:32 GMT; Path=/
+      Content-Length:
+      - '2322'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="7" parkId="72109" resultType="campsites" siteType="2003">
+        <result Loop="HAPPY MEADOWS" Maxeqplen="30" Maxpeople="8" Site="001" SiteId="285536" SiteReserveType="site-specific" SiteType="RV NONELECTRIC" mapx="352.66" mapy="550.97" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Riverfront"/>
+        <result Loop="HAPPY MEADOWS" Maxeqplen="20" Maxpeople="8" Site="002" SiteId="285537" SiteReserveType="site-specific" SiteType="RV NONELECTRIC" mapx="455.87" mapy="577.53" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Riverfront"/>
+        <result Loop="HAPPY MEADOWS" Maxeqplen="30" Maxpeople="8" Site="003" SiteId="285538" SiteReserveType="site-specific" SiteType="RV NONELECTRIC" mapx="571.01" mapy="527.93" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HAPPY MEADOWS" Maxeqplen="35" Maxpeople="8" Site="005" SiteId="285540" SiteReserveType="site-specific" SiteType="RV NONELECTRIC" mapx="662.31" mapy="490.24" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HAPPY MEADOWS" Maxeqplen="20" Maxpeople="12" Site="006" SiteId="285541" SiteReserveType="site-specific" SiteType="RV NONELECTRIC" mapx="685.32" mapy="523.06" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Riverfront"/>
+        <result Loop="HAPPY MEADOWS" Maxeqplen="22" Maxpeople="8" Site="007" SiteId="285542" SiteReserveType="site-specific" SiteType="RV NONELECTRIC" mapx="764.48" mapy="412.36" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Riverfront"/>
+        <result Loop="HAPPY MEADOWS" Maxeqplen="25" Maxpeople="12" Site="008" SiteId="285543" SiteReserveType="site-specific" SiteType="RV NONELECTRIC" mapx="761.44" mapy="270.9" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Riverfront"/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:28:32 GMT
+recorded_with: VCR 2.5.0

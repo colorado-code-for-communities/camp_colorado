@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=93568
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:35:58 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:35:58 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=E2ED701C8C36F3AB8E0BF2F6A54DE5C8.web04-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2745525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=E2ED701C8C36F3AB8E0BF2F6A54DE5C8.web04-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:35:58 GMT; Path=/
+      Content-Length:
+      - '7498'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Aspen Leaf is one of three cabins at the Cold Springs Work Center that welcomes guests with its homey vibe and remote mountain setting. Mountain biking and off-road vehicle trails are easily accessed here.    The cabin was built in the 1930s for use by Forest Service employees. Vehicles can easily access the area, but a 4WD may be required in October, depending on weather conditions." drivingDirection="From Grand Junction, head south on Highway 50. Take a right on County Road 141 heading south for 14.5 miles. Make a sharp left on Divide Road. This road is not marked, but prior to turn, a sign reads &amp;amp;quot;National Forest Access Divide Road, Uncompahgre Plateau.&amp;amp;quot; Follow this road for 19.6 miles and take a left on Forest Road 406 (where a sign says &amp;amp;quot;Cold Springs Work Center&amp;amp;quot;). Go a quarter-mile and then turn right on 406.1A. Cabin is a half-mile after turn, and Aspen Leaf is the first cabin on the left.    Have combination lock handy to enter the gate. Parking, for a maximum of three vehicles, is in front of the cabin." facilitiesDescription="This cabin has one bedroom and a bathroom with a flush toilet and shower. Sleeping accommodations include three twin-size beds and a queen sofa sleeper. Up to six guests may stay in this cabin, but extra cots and air mattresses are recommended.    The kitchen includes a propane stove and refrigerator, plus basic cooking and eating utensils like plates, knives, forks and pots. Cleaning supplies are also provided.       Drinking water is supplied but the cabin does not have electricity. Guests should bring propane lanterns, matches, bedding, toilet paper, dish towels, warm clothing, paper towels and tools for gathering and cutting firewood.  Click here  for more cabin details.    Aspen Leaf Cabin is one of three cabins at the Cold Springs Work Center. One cabin may be occupied by Forest Service personnel." facility="ASPEN LEAF" facilityID="93568" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=93568&amp;cmp=39-32--mcmire" importantInformation=" Entry is by combination lock; call Grand Valley Ranger District office at (970)242-8211 for combination lock Mon-Fri 8 a.m. to 5 p.m. (please provide your reservation #) Heavy snowfall may cause cabin rental cancellation; call ranger district for updated conditions and restrictions Cell phone coverage is unreliable Please bring garbage bags; this is a &amp;amp;quot;pack in-pack out&amp;amp;quot; facility Please clean cabin before leaving; cleaning supplies are provided No fireworks No smoking allowed No pets or livestock allowed This facility does not meet accessibility standards Off-road vehicle owners must have in-state or out-of-state registration stickers Bears frequent the area; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating This is a high elevation facility, please use caution when traveling from lower elevations " latitude="38.6505556" longitude="-108.6736111" nearbyAttrctionDescription="The nearest grocery store is in Grand Junction, 44 miles from the cabin.     Anglers looking for lake fishing can head to Big Creek Reservoir, about 14 miles from the cabin." note="" orientationDescription="Aspen Leaf Cabin sits in a field with scattered aspen and mountain shrub vegetation on the north end of the Uncompahgre National Forest. At 9,000 feet, the area offers crisp mountain air, mild days and chilly nights.    Black bears, mountain lions, marmots and deer are among the wild inhabitants. Please be aware of  bear safety. " recreationDescription="The North Uncompahgre boasts an extensive ATV trail system known as the Divide Forks ATV complex. Over 50 miles of trails can be explored.     Mountain bikers make use of the popular Tabaguache Trail System, and in fall, hunters frequent the area. Hiking and horseback riding are also enjoyable activities." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=93568&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="ASLF" state="Colorado" streetAddress="Uncompahgre NF" zip=""/>
+        <photo realUrl="/webphotos/NRSO/pid93568/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid93568/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid93568/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid93568/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid93568/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid93568/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid93568/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid93568/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid93568/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid93568/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid93568/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid93568/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid93568/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid93568/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid93568/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid93568/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid93568/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid93568/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9702428211"/>
+        <contact name="Ranger Station" number="9702428211"/>
+        <amenity distance="Within Facility" name="Cleaning Supplies"/>
+        <amenity distance="Within Facility" name="Cooking Pots"/>
+        <amenity distance="Within Facility" name="Cooking Utensils"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Off-Road Vehicle Trails"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Propane Refrigerator"/>
+        <amenity distance="Within Facility" name="Propane Stove"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Twin Bed(s) with Mattress"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Greater Than 10 Miles" name="Fishing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:00:33 GMT
+recorded_with: VCR 2.5.0

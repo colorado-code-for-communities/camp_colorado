@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73561&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:40:09 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:40:09 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=13F29571D5ED676B6D69A2FF00253B13.web04-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2745525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=13F29571D5ED676B6D69A2FF00253B13.web04-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:40:09 GMT; Path=/
+      Content-Length:
+      - '2424'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="7" parkId="73561" resultType="campsites" siteType="2001">
+        <result Loop="RIVERSIDE" Maxeqplen="30" Maxpeople="8" Site="007" SiteId="129694" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="691.099975585938" mapy="472.700012207031" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVERSIDE" Maxeqplen="45" Maxpeople="8" Site="009" SiteId="129696" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="645.440002441406" mapy="536.609985351563" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVERSIDE" Maxeqplen="70" Maxpeople="8" Site="010" SiteId="129697" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="605.27001953125" mapy="587.739990234375" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVERSIDE" Maxeqplen="50" Maxpeople="8" Site="011" SiteId="129698" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="555.969970703125" mapy="542.090026855469" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVERSIDE" Maxeqplen="40" Maxpeople="8" Site="012" SiteId="129699" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="539.530029296875" mapy="582.260009765625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVERSIDE" Maxeqplen="90" Maxpeople="8" Site="013" SiteId="129700" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="497.397583007813" mapy="531.333618164063" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVERSIDE" Maxeqplen="55" Maxpeople="8" Site="001" SiteId="129688" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="723.960021972656" mapy="428.869995117188" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:40:09 GMT
+recorded_with: VCR 2.5.0

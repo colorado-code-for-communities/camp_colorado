@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70943
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:34:51 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:34:51 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=3D951F9D76AB29F1FEA449E129DD8681.web03-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2445525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=3D951F9D76AB29F1FEA449E129DD8681.web03-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:34:51 GMT; Path=/
+      Content-Length:
+      - '9333'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Moraine Park Campground (8,160 feet) is located in Colorado&amp;amp;#39;s awe-inspiring Rocky Mountain National Park, near the Beaver Meadows Entrance on Highway 36. It is situated on the north side of Moraine Park, offering beautiful views of the vast park and the surrounding mountains.    From lush valleys to craggy peaks reaching elevations over 14,000 feet, visitors are provided opportunities for countless breathtaking experiences and adventures. Scenic driving, hiking, backpacking, fishing, horseback riding and wildlife viewing are popular activities in the park." drivingDirection="Take Highway 36 west from Estes Park, CO or Highway 34 east from Grand Lake, CO. Off the main park road, take the Bear Lake Road, which is near the Beaver Meadows Entrance Station, and follow the signs to the campground." facilitiesDescription="Moraine Park Campground contains group and family tent-only sites, several walk-to tent sites and RV sites without hookups. Each campsite is equipped with a picnic table, fire ring with grate, and tent pad. Roads and parking spurs are paved. Flush toilets and drinking water are provided. Loops B and E have vault toilets only, and no water.    Rocky Mountain National Park&amp;amp;#39;s free shuttle bus stops at the campground and provides access to many park trailheads throughout the Bear Lake corridor, eliminating the hassle of finding available parking.   NEW in 2012: bring a solar-heated shower bag to hang in the newly-constructed stall facility (no running water here) at Moraine Park Campground. There are no other shower facilities in the park, but showers are available in nearby communities. Portable showers are prohibited in individual campsites." facility="MORAINE PARK CAMPGROUND" facilityID="70943" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70943&amp;cmp=39-32--mcmire" importantInformation=" One RV or one RV+one towed vehicle or one trailer+one vehicle, and/or two tents allowed per site B and E Loops have pit toilets only (no water or electricity) Gathering firewood is prohibited; Firewood is available for purchase during the summer months There are no hookups There are no shower or laundry facilities in the campground; Portable showers are allowed only in the Solar Shower Facility. RV sewage and wastewater tanks must be emptied at the dump station Bears, deer, elk, raccoons and skunks frequent the area: All food, pet food, cooking utensils and other scented items must be stored in a vehicle or in food storage lockers located in the campground The use of skateboards, rollerblades, scooters and other similar devices is prohibited A separate park entrance fee of $20/vehicle is required; This fee covers entrance to the park for the date of purchase and the next 6 days If using a Golden Age or Golden Access Passport for a camping fee discount, the pass must be presented upon check-in This is a high elevation facility; Please exercise caution when traveling from lower elevations. " latitude="40.3625" longitude="-105.6019444" nearbyAttrctionDescription="The town of Estes Park lies just outside the park&amp;amp;#39;s main east entrances, and is a short drive from Glacier Basin Campground. Dining, shopping, rafting, fly fishing, horseback riding and golfing opportunities await. Lake Estes offers boating, sailboarding and fishing." note="" orientationDescription="A pleasant mix of Douglas fir, Lodgepole pine, Ponderosa pine and the occasional Engelmann spruce, forests the campground, offering partial shade in this open area. Grasses, shrubs and seasonal wildflowers fill the open meadows.    Wildlife is plentiful in the park, and while mule deer and the majestic Rocky Mountain elk are the most commonly seen, Black bear, coyote, bighorn sheep and moose inhabit the region as well." recreationDescription="Rocky Mountain National Park has 355 miles of hiking trails that range from flat lakeside strolls to steep mountain peak climbs. Visitors enjoy the park&amp;amp;#39;s various lake trails (Bear Lake, Cub Lake, Mills Lake), waterfall trails (Adams Falls, Alberta Falls, Ouzel Falls) and summit trails (Deer Mountain, Twin Sisters Peaks, Flattop Mountain).     The park also offers some unforgettable scenic driving routes, including Trail Ridge Road and Old Fall River Road. Trail Ridge Road reaches 12,183&amp;amp;#39; above sea level and is America&amp;amp;#39;s highest continuous highway. It climbs above the park&amp;amp;#39;s evergreen forests to its windswept alpine tundra, where visitors enjoy sweeping panoramic views of the surrounding peaks and valleys.    Driving along the historic Old Fall River Road is like motoring through an earlier era. Constructed in 1920, this steep, one-way, uphill, gravel road punctuated by switchbacks quietly leads travelers from Horseshoe Park through the park&amp;amp;#39;s wilderness to Fall River Pass, 11,796&amp;amp;#39; above sea level.     Several visitor centers are within the park, offering ranger-led activities, education and history about the park, and seasonal nighttime programs." regionName="RMR" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70943&amp;cmp=39-32--mcmire">
+        <address city="Estes Park" country="United States" shortName="CG47" state="Colorado" streetAddress="1000 Hwy 36" zip="80517"/>
+        <photo realUrl="/webphotos/NRSO/pid70943/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70943/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70943/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70943/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70943/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70943/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70943/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70943/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70943/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70943/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70943/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70943/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70943/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70943/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70943/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70943/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70943/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70943/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70943_CG47.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9705861418"/>
+        <contact name="Ranger Station" number="9705861206"/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Amphitheater"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Firewood Vendor"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Flush Toilets"/>
+        <amenity distance="Within Facility" name="Food Storage Locker"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Pay Phone"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Ranger Station"/>
+        <amenity distance="Within Facility" name="Shuttle Bus Service"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Water"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin description="Due to an extensive road paving project, Moraine Park Campground will be closed beginning September 15, 2013. We anticipate that this closure will be in effect until sometime in early October. The campground will re-open to first-come first-serve camping when the paving project is complete." headline="ATTENTION"/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:34:51 GMT
+recorded_with: VCR 2.5.0

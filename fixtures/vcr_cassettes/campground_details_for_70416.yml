@@ -1,0 +1,86 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70416
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:32:00 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:32:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=79E296B3F21ABD5FB9B2CBF4A7DB7F32.web07-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2845525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=79E296B3F21ABD5FB9B2CBF4A7DB7F32.web07-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:32:00 GMT; Path=/
+      Content-Length:
+      - '4809'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Lakeview Campground is located on Taylor Park Reservoir, at an elevation of 9,400 feet. Visitors enjoy the area for its fishing and boating, and abundant off-road and biking opportunities." drivingDirection="From Gunnison, travel north on Highway 135 for approximately 10 miles to Almont. Turn right on County Road 742 and continue 25 miles to the campground entrance, which is on the right." facilitiesDescription="The campground offers several single-family campsites, some of which have electric hookups. Some sites are also accessible. Each site is equipped with a picnic table and campfire ring. Vault toilets, drinking water and trash collection are provided." facility="Lakeview Gunnison" facilityID="70416" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70416&amp;cmp=39-32--mcmire" importantInformation=" Reservation fee applies to first camping unit only; additional units reserved will be charged full price at the campground Opening and closing dates are weather permitting; please call (928) 537-8888 for more information Click here for more information on the Grand Mesa, Uncompahgre and Gunnison National Forests " latitude="38.8175" longitude="-106.58" nearbyAttrctionDescription="" note="" orientationDescription="The campground is situated just above Taylor Park Reservoir, among ponderosa and lodgepole pine trees. The valley floor is broad, flat and dotted with sagebrush. Most campsites have beautiful views of the reservoir and the Sawatch Mountains." recreationDescription="Taylor Park Reservoir offers boating, fishing and swimming. Anglers cast for northern pike, kokanee salmon, and rainbow, brown, brook and cutthroat trout. A boat ramp is located just below the campground. Fishing and pontoon boat rentals are available at the marina.    A number of off-road trails are found in the surrounding area, including Doctor Park Trail, Taylor River Trail and Taylor Vista Trail." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70416&amp;cmp=39-32--mcmire">
+        <address city="ALMONT" country="United States" shortName="LABI" state="Colorado" streetAddress="TAYLOR PARK RES, GRAND MESA" zip="81210"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9706420566"/>
+        <contact name="Ranger Station" number="9706420566"/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Boat Ramp"/>
+        <amenity distance="Within Facility" name="Boat Rentals"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Climbing"/>
+        <amenity distance="Within Facility" name="Creek Access"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Electric Hookups"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Fuel Available"/>
+        <amenity distance="Within Facility" name="General Store"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Lake Access"/>
+        <amenity distance="Within Facility" name="Marina"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Off-Road Vehicle Trails"/>
+        <amenity distance="Within Facility" name="Pay Phone"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Recycling"/>
+        <amenity distance="Within Facility" name="Skiing"/>
+        <amenity distance="Within Facility" name="Tables"/>
+        <amenity distance="Within Facility" name="Tent Pads"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Visitor Center"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin description="Construction on the final portion of Taylor River Road, between Almont and the Jack&amp;apos;s Cabin Cutoff, will result in closure of the road through the summer. Traffic will be detoured through Jack&amp;apos;s Cabin to avoid construction." headline="Attention"/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:32:00 GMT
+recorded_with: VCR 2.5.0

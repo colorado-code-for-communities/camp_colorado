@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70690
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:38:01 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:38:01 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=A601A0CE032427BDD595EDEEF80CF998.web07-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2845525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=A601A0CE032427BDD595EDEEF80CF998.web07-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:38:01 GMT; Path=/
+      Content-Length:
+      - '3877'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Located in the wide-open spaces of a lush green valley near the headwaters of the Eagle River and East Fork Eagle River, Camp Hale East Fork is the ideal spot for large group camping.     The surrounding White River National Forest offers campers a recreational oasis and an exciting Wilderness experience." drivingDirection="From I-70, take exit 171 toward Minturn. Turn south on Highway 24and continue for approximately 19 miles, just beyond Camp Hale Memorial Site. Turn onto Old Highway East and follow for 2 miles to the campground." facilitiesDescription="Camp Hale East Fork can accommodate up to 200 guests, making it the perfect destination for large parties or family reunions. The group picnic area contains several tables, a large fire ring and grills." facility="CAMP HALE EAST FORK GROUP" facilityID="70690" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70690&amp;cmp=39-32--mcmire" importantInformation=" Please contact us upon or shortly before arrival to be let in the gate This is a high-elevation facility, please exercise caution when traveling from a lower elevation Due to the pine beetle infestation and removal of hazard trees, there is little or no shade This facility is operated by White River Recreation, a division of California Land Management and your comments are appreciated; comment forms are available from campground hosts or on CLM&amp;apos;s website . " latitude="39.2933333" longitude="-106.4175" nearbyAttrctionDescription="The White River National Forest is home to several skiing and Wilderness areas, providing countless recreational opportunities for campers." note="" orientationDescription="Nestled in the heart of the Rocky Mountains, the 2.3 million acre White River National Forest is the top recreation forest in the nation. Known as the birthplace of wilderness and home to world-renowned skiing, the White River Forest has something to offer every outdoor enthusiast." recreationDescription="The famous Colorado Trail winds within walking distance of the campground, offering hiking, horseback riding and opportunities for wildlife viewing to guests. Several paths throughout the campground also provide easy walking and biking areas.     Fishing is available in the numerous streams nearby, including both the Eagle and East Fork Eagle River, the Camp Hale Pond and several beaver ponds, with various types of trout available." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70690&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="EAF1" state="Colorado" streetAddress="WHITE RIVER" zip=""/>
+        <photo realUrl="/webphotos/NRSO/pid70690/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70690/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70690/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9709270107"/>
+        <contact name="Ranger Station" number="9709270107"/>
+        <amenity distance="Within Facility" name="Campfire Circles"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Less Than 1 Mile" name="Fishing"/>
+        <amenity distance="Less Than 1 Mile" name="Hiking"/>
+        <amenity distance="Less Than 1 Mile" name="Horseback Riding Trails"/>
+        <amenity distance="Less Than 1 Mile" name="Trails"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:02:32 GMT
+recorded_with: VCR 2.5.0

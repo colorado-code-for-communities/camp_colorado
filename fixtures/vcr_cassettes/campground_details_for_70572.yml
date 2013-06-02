@@ -1,0 +1,74 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70572
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:16:05 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:16:05 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=5947B1F538BF71E73F22FF7E0C4B37E6.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=5947B1F538BF71E73F22FF7E0C4B37E6.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:16:05 GMT; Path=/
+      Content-Length:
+      - '4082'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Amphitheater Campground is located near the town of Ouray, Colo., at an elevation of 8,400 feet. Visitors enjoy the area for its beautiful scenery and great hiking and off-road trail opportunities." drivingDirection="From Ouray, travel approximately 2 miles south on Highway 550. Watch for the campground sign and turnoff road to the left." facilitiesDescription="The campground offers single-family campsites, several of which are designated for tent camping only. Each site is equipped with a picnic table and campfire ring. Vault toilets, drinking water and trash collection are provided." facility=" AMPHITHEATER" facilityID="70572" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70572&amp;cmp=39-32--mcmire" importantInformation=" Reservation fee applies to first camping unit only; additional units reserved will be charged full price at the campground Vehicles are not to exceed 30 feet for standard sites Opening and closing dates are weather permitting; please call (928) 537-8888 for more information Click here for more information on the Grand Mesa, Uncompahgre and Gunnison National Forests " latitude="38.0225" longitude="-107.6616667" nearbyAttrctionDescription="Ouray is known as America&amp;amp;#39;s Switzerland. The charming, historic, mountain town offers a variety of dining, shopping and lodging options, as well as a hot springs pool and a variety of annual festivals." note="" orientationDescription="The campground is named for the natural rock amphitheater that stands over Ouray. The massive gray cliffs were created by ancient volcanic and glacial activity. The campground is situated on the mountainside above Ouray, with stellar views of the amphitheater. A forest of Gambel oak trees and mixed conifers covers the area." recreationDescription="Many hiking trails are found in the immediate area, including the popular Upper Cascade Falls Trail, which begins at the campground. Baby Bath Tubs and Chief Ouray Mine trails can also be accessed from the same trailhead.    The campground is a favorite among jeep and off-road enthusiasts for its close proximity to a number of exciting trails in the surrounding area." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70572&amp;cmp=39-32--mcmire">
+        <address city="OURAY" country="United States" shortName="AMPH" state="Colorado" streetAddress="" zip="81427"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9702494552"/>
+        <contact name="Ranger Station" number="9702494552"/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Off-Road Vehicle Trails"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Recycling"/>
+        <amenity distance="Within Facility" name="Scenic Overlooks"/>
+        <amenity distance="Within Facility" name="Skiing"/>
+        <amenity distance="Within Facility" name="Tennis Courts"/>
+        <amenity distance="Within Facility" name="Tent sites"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 01:53:25 GMT
+recorded_with: VCR 2.5.0

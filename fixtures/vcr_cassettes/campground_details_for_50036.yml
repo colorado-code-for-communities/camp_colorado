@@ -1,0 +1,96 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50036
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:31:43 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:31:43 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=0FB23266FD26FA813BA5BD0194F06797.web04-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2745525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=0FB23266FD26FA813BA5BD0194F06797.web04-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:31:43 GMT; Path=/
+      Content-Length:
+      - '4909'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description="Lake Pueblo State Park is a southern Colorado Mecca for sun lovers and water-sports enthusiasts, including boaters, water-skiers, sailors and swimmers. Lake Pueblo is one of the state&amp;amp;#39;s most popular parks, so large is this area that there&amp;amp;#39;s never a crowded feeling. With 4,500 acres of surface water, the reservoir can host many water sports. The fishing is exceptional here and the views in this arid southern Colorado landscape are dramatic. Lake Pueblo has 400 campsites, accommodating tents, pick-up campers, motorhomes and trailers." drivingDirection="I-25 to Pueblo, then Hwy 50 west for 4 miles. Turn south on Pueblo Blvd. and go 4 miles to Thatcher Avenue. Turn west and go 6 miles to park entrance. ALTERNATE ROUTE: Best for North Plains Campground and Juniper Breaks Campground. West on Hwy 50 to McCulloch Blvd. then south and west on McCulloch to Nichols Rd. Then south to the North entrance." facilitiesDescription="" facility="LAKE PUEBLO STATE PARK" facilityID="50036" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50036&amp;cmp=39-32--mcmire" importantInformation=" In addition to the camping fee, an entrance fee is required at all state parks! Senior Discount: Applied when site occupant has a valid Aspen Leaf Pass. Shade may be naturally provided by trees and other vegetation or by man made shade shelter. Please call the park for specific details. Pets allowed, but must be on a 6&amp;apos; leash. " latitude="38.2763889" longitude="-104.7183333" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="Southeast Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50036&amp;cmp=39-32--mcmire">
+        <address city="PUEBLO" country="United States" shortName="PURE" state="Colorado" streetAddress="640 PUEBLO RESERVOIR RD." zip="81005"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="7195619320"/>
+        <contact name="Ranger Station" number="7195619320"/>
+        <amenity distance="Within Facility" name="ADA Fish. Access"/>
+        <amenity distance="Within Facility" name="Beach House"/>
+        <amenity distance="Within Facility" name="Beaching Your Boat"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Bird Watching"/>
+        <amenity distance="Within Facility" name="Boat Ramp"/>
+        <amenity distance="Within Facility" name="Boat Rental"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Camper Services Bldg"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Firewood Available"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Fishing Licenses Sold"/>
+        <amenity distance="Within Facility" name="Group Campground"/>
+        <amenity distance="Within Facility" name="Group Pavilions Available"/>
+        <amenity distance="Within Facility" name="Group Picnic Area"/>
+        <amenity distance="Within Facility" name="Hatchery For Fish"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Interpretitive Programs"/>
+        <amenity distance="Within Facility" name="Jet Skiing"/>
+        <amenity distance="Within Facility" name="Laundry"/>
+        <amenity distance="Within Facility" name="Laundry Facilities"/>
+        <amenity distance="Within Facility" name="Marina"/>
+        <amenity distance="Within Facility" name="Model Airplane Field"/>
+        <amenity distance="Within Facility" name="Model Airplane Flying"/>
+        <amenity distance="Within Facility" name="Nature Study Exhibits"/>
+        <amenity distance="Within Facility" name="Parking"/>
+        <amenity distance="Within Facility" name="Pay Phones Available"/>
+        <amenity distance="Within Facility" name="Photography"/>
+        <amenity distance="Within Facility" name="Picnic Tables"/>
+        <amenity distance="Within Facility" name="Picnicking"/>
+        <amenity distance="Within Facility" name="Playground"/>
+        <amenity distance="Within Facility" name="Proximity To Camp Serv."/>
+        <amenity distance="Within Facility" name="Sailing And Sailboarding"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Store (Retail)"/>
+        <amenity distance="Within Facility" name="Swimming Beach (Call visitor center for operational hours 719-561-9320)"/>
+        <amenity distance="Within Facility" name="Telephone"/>
+        <amenity distance="Within Facility" name="Visitor Center"/>
+        <amenity distance="Within Facility" name="Water Hydrant"/>
+        <amenity distance="Within Facility" name="Water Skiing"/>
+        <amenity distance="Within Facility" name="Wildlife Watching Opportunity"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:31:43 GMT
+recorded_with: VCR 2.5.0

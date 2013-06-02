@@ -1,0 +1,77 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73754
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:25:05 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:25:05 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=98085E5626C2C88135FF1F314026877B.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=98085E5626C2C88135FF1F314026877B.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:25:05 GMT; Path=/
+      Content-Length:
+      - '5673'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Crow Valley Recreation Area is set in the Pawnee National Grassland, a very popular site with bird enthusiasts. Over 200 species can be found in the area. Hiking and star gazing are favorite activities in this remotely located campground." drivingDirection="Take Highway 85 to Ault, Colorado, then take Highway 14 east for 23 miles." facilitiesDescription="Crow Valley Recreation Area contains four types of sites: a family campground, group overnight sites (Hawk, Plover and Lark), a group picnic area and an educational site (EDU). Vault toilets and drinking water are provided.    Each family site is equipped with a picnic table and campfire ring.     The group overnight sites can be reserved separately or together. Picnic tables and a campfire circle form a common area at each site. Tent pads are arranged around each common area. Parking is adjacent to each site. These sites have very little shade.     The group picnic area can accommodate up to 200 people for day-use. It includes a lighted, covered shelter with several electrical outlets, 31 tables and a large barbeque grill.      The Steward J. Adams Educational Site is accessible and can accommodate up to 100 people for overnight or day-use. It includes a three-sided covered shelter with electrical outlets and tables." facility="CROW VALLEY" facilityID="73754" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=73754&amp;cmp=39-32--mcmire" importantInformation=" This is bear country! For bear and human safety, keep a clean campsite and do not place food or other attractants in your tent. For more information about visiting bear country, contact Colorado Parks and Wildlife at http://wildlife.state.co.us Off-road vehicle use is prohibited within campground Shooting, archery and fireworks are prohibited Extra parking is not available Sites may be available on a first-come, first-served basis outside the reservation season Fees at the educational site and the group picnic site are calculated by the number of people using the site Click here to learn more about the Arapaho &amp;amp;amp; Roosevelt National Forests and Pawnee National Grassland. Operated by American Land &amp;amp;amp; Leisure. You may contact us at www.AmericanLL.com or 801-226-3564. " latitude="40.6461111" longitude="-104.3388889" nearbyAttrctionDescription="The campground is within driving distance from both the east and west units of Pawnee National Grassland and the Pawnee Pioneer Trails Scenic Byway, a 128-mile route through wide-open terrain studded by the towering Pawnee Buttes." note="" orientationDescription="Crow Valley sits at an elevation of 4,800 feet. Cottonwood and elm trees dot the landscape, providing pleasant shade in the family campground. However, the group campsites have little to no shade. Short grass prairie surrounds the recreation area.    The Pawnee National Grassland sits east of the Rocky Mountains in Colorado. Eroding creek drainages crisscross the area. Elevations range from 4,900 feet on the prairie to 9,500 feet at the summit of the Pawnee Buttes." recreationDescription="Birding, exploring nature trails, viewing wildlife and star gazing are popular activities at Crow Valley. A volleyball court, horseshoe pit and ball field are available.     The Lee and Dorothy Rhoads Farm Implement Museum is located within the recreation area. The collection of tools, donated by the descendants of homesteaders, can help one imagine what life was like in pioneer days." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=73754&amp;cmp=39-32--mcmire">
+        <address city="BRIGGSDALE" country="United States" shortName="CROV" state="Colorado" streetAddress="44741 WCR 77" zip="80611"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/73754_CROV.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9703465000"/>
+        <contact name="Ranger Station" number="9703465000"/>
+        <amenity distance="Within Facility" name="Accessible Drinking Water"/>
+        <amenity distance="Within Facility" name="Accessible Hiking Trails"/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Baseball Fields"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Group Camping"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseshoe Pit"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Museum"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Picnic Shelters"/>
+        <amenity distance="Within Facility" name="Scenic Drive"/>
+        <amenity distance="Within Facility" name="Softball Fields"/>
+        <amenity distance="Within Facility" name="Star Gazing"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Volleyball Courts"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:13:11 GMT
+recorded_with: VCR 2.5.0

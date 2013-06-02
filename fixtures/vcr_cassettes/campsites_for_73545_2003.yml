@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73545&siteType=2003
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:40:31 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:40:31 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=243C23B3CA20578DD0FEBB9D4186AD37.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=243C23B3CA20578DD0FEBB9D4186AD37.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:40:31 GMT; Path=/
+      Content-Length:
+      - '5096'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="15" parkId="73545" resultType="campsites" siteType="2003">
+        <result Loop="ROUND MOUNTAIN " Maxeqplen="30" Maxpeople="8" Site="001" SiteId="129191" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="450.745941162109" mapy="605.108520507813" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ROUND MOUNTAIN " Maxeqplen="30" Maxpeople="8" Site="003" SiteId="129192" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="607.864868164063" mapy="605.108520507813" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ROUND MOUNTAIN " Maxeqplen="30" Maxpeople="8" Site="004" SiteId="129193" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="637.178100585938" mapy="542.964477539063" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ROUND MOUNTAIN " Maxeqplen="25" Maxpeople="8" Site="009" SiteId="129198" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="917.41259765625" mapy="483.165466308594" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ROUND MOUNTAIN " Maxeqplen="30" Maxpeople="8" Site="011" SiteId="129200" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="772.018981933594" mapy="345.979553222656" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ROUND MOUNTAIN " Maxeqplen="30" Maxpeople="8" Site="013" SiteId="129202" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="682.90673828125" mapy="348.324615478516" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ROUND MOUNTAIN " Maxeqplen="20" Maxpeople="8" Site="016" SiteId="129205" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="514.648803710938" mapy="317.838836669922" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ROUND MOUNTAIN " Maxeqplen="30" Maxpeople="8" Site="002" SiteId="129216" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="535.168029785156" mapy="549.999633789063" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ROUND MOUNTAIN " Maxeqplen="30" Maxpeople="8" Site="005" SiteId="129194" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="700.494689941406" mapy="572.277709960938" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ROUND MOUNTAIN " Maxeqplen="30" Maxpeople="8" Site="006" SiteId="129195" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="747.395874023438" mapy="510.133636474609" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ROUND MOUNTAIN " Maxeqplen="30" Maxpeople="8" Site="008" SiteId="129197" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="856.441101074219" mapy="506.616058349609" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ROUND MOUNTAIN " Maxeqplen="20" Maxpeople="8" Site="010" SiteId="129199" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="531.650024414063" mapy="444.470001220703" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ROUND MOUNTAIN " Maxeqplen="25" Maxpeople="8" Site="012" SiteId="129201" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="735.670532226563" mapy="402.260955810547" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ROUND MOUNTAIN " Maxeqplen="30" Maxpeople="8" Site="014" SiteId="129203" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="627.7978515625" mapy="377.637847900391" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ROUND MOUNTAIN " Maxeqplen="30" Maxpeople="8" Site="015" SiteId="129204" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="563.308776855469" mapy="365.912536621094" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:40:31 GMT
+recorded_with: VCR 2.5.0

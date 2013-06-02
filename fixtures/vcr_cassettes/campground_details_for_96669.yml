@@ -1,0 +1,78 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=96669
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:38:07 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:38:07 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=29D3F179DE4C77B2A2628796EF92ED87.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=29D3F179DE4C77B2A2628796EF92ED87.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:38:07 GMT; Path=/
+      Content-Length:
+      - '7205'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Pinyon Flats Campground is located in Great Sand Dunes National Park &amp;amp;amp; Preserve in southern Colorado. The huge dunes are the tallest in North America and comprise about 11 percent of an enormous sand deposit that covers more than 330 square miles.     The dunes have long stood as a landmark for travelers from ancient North Americans to Southern Ute, Jicarilla Apaches, Navajos, early explorers, gold miners, homesteaders, ranchers, farmers and migrant field workers, to you - today&amp;amp;#39;s park visitor." drivingDirection="From Highway 160, turn north and follow Highway 150 for 16 miles to the entrance of Great Sand Dunes National Park &amp;amp;amp; Preserve. Continue 5 miles north on the park&amp;apos;s main road to reach the campground entrance." facilitiesDescription="This year-round campground offers 88 campsites. Loop 1 (sites 1-44) is available on a first come, first served basis only. Loop 2 (sites 45-88) and three group tent-only sites are reservable. Amenities include flush toilets and drinking water.     The nearby visitor center helps kids of all ages learn about the park. A rock and mineral table, small lightning tube and other exhibits make learning fun for preschoolers to adults." facility="PINYON FLATS CAMPGROUND" facilityID="96669" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=96669&amp;cmp=39-32--mcmire" importantInformation=" Group sites are tent-only; no RVs or trailers allowed No hookups, showers or laundry facilities available in the park Firewood gathering is prohibited; wood may be purchased Utilize bear boxes at all times and keep campsite clean Firearms and fireworks are prohibited " latitude="37.7333333" longitude="-105.5166667" nearbyAttrctionDescription="Zapata Falls is just south of the national park off Highway 150. A short but slippery 1/2-mile hike leads to a 25-foot high cascade. Simply driving to the trailhead provides an excellent view of the entire dunefield and San Luis Valley, especially at sunrise or sunset.     San Luis State Park is located at the western edge of Great Sand Dunes National Park. It features a large natural lake popular for boating, water skiing, sailing, windsurfing and fishing." note="" orientationDescription="Great Sand Dunes are the magnificent centerpiece of a natural system that includes high mountain peaks, sparkling streams, vast grasslands and lush forests.     The campground is situated among pinyon pines and sagebrush beneath the majestic Sangre de Cristo Mountains. Most sites have beautiful views of the snow-covered peaks.    A wide variety of grasses and wildflowers can be found throughout the area, and mule deer are commonly seen in and around the campground." recreationDescription="Great Sand Dunes&amp;amp;#39; wide range of natural features provides endless outdoor recreational activities. The park is perfect for kids, who love exploring the dunefield on foot or by sled. Medano Creek, at the base of the dunes, is a popular place in the summertime. Kids and adults alike love to splash in the cool water.     Many kid-friendly, ranger-led activities and a junior ranger program are available.    Many miles of hiking and backpacking trails lead through the park&amp;amp;#39;s forests and alpine terrain, including the Mosca Pass Trail, Dunes Overlook/Sand Ramp Trail and Indian Grove Trail." regionName="RMR" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=96669&amp;cmp=39-32--mcmire">
+        <address city="Mosca" country="United States" shortName="D669" state="Colorado" streetAddress="11500 Highway 150 Bldg One" zip="81146"/>
+        <photo realUrl="/webphotos/NRSO/pid96669/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid96669/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid96669/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid96669/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid96669/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid96669/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid96669/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid96669/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid96669/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid96669/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid96669/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid96669/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid96669/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid96669/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid96669/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid96669/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid96669/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid96669/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7193786352"/>
+        <contact name="Ranger Station" number="7193786399"/>
+        <amenity distance="Within Facility" name="Accessible Picnic Areas"/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Amphitheater"/>
+        <amenity distance="Within Facility" name="Backpacking"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Educational Programs"/>
+        <amenity distance="Within Facility" name="Firewood Vendor"/>
+        <amenity distance="Within Facility" name="Flush Toilets"/>
+        <amenity distance="Within Facility" name="Food Storage Locker"/>
+        <amenity distance="Within Facility" name="General Store"/>
+        <amenity distance="Within Facility" name="Group Camping"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Ice"/>
+        <amenity distance="Within Facility" name="Pay Phone"/>
+        <amenity distance="Within Facility" name="Ranger Station"/>
+        <amenity distance="Within Facility" name="Tent Pads"/>
+        <amenity distance="Within Facility" name="Visitor Center"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:38:07 GMT
+recorded_with: VCR 2.5.0

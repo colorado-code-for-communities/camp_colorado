@@ -1,0 +1,74 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=75054
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:41:54 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:41:54 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=B037C0239E9D445EB570727F3E653C3B.web08-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2b45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=B037C0239E9D445EB570727F3E653C3B.web08-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:41:54 GMT; Path=/
+      Content-Length:
+      - '4898'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="South Fork Group Campground is located in north central Colorado in the Williams Fork Valley next to South Fork Creek. Many mountain streams and creeks nearby offer good fishing opportunities. South Fork is the only facility in the area designated for horse camping." drivingDirection="From Granby, Colorado, take State Highway 40 west toward Parshall, Colorado.Two miles before Parshall, turn left on County Road 3. Go approximately 18 miles on County Road 3. Turn south onto County Road 30 and travel 12 miles. Drive through a large culvert. Continue south for a half-mile and turn right into the campground." facilitiesDescription="The campground offers one reservable, accessible group site that can accommodate up to 25 people. Individual sites are available on a first-come, first-served basis. Picnic tables, campfire rings and tents pads are provided, as are flush and pit toilets and drinking water. A small corral, for one or two horses, is located in the campground." facility="SOUTH FORK GROUP (CO)" facilityID="75054" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=75054&amp;cmp=39-32--mcmire" importantInformation=" This is bear country! For bear and human safety, keep a clean campsite and do not place food or other attractants in your tent. For more information about visiting bear country, contact Colorado Parks and Wildlife at http://wildlife.state.co.us Click here to learn more about the Arapaho &amp;amp;amp; Roosevelt National Forests and Pawnee National Grassland Operated by American Land &amp;amp;amp; Leisure. You may contact us at www.AmericanLL.com or 801-226-3564. " latitude="39.7940528" longitude="-106.0306278" nearbyAttrctionDescription="" note="" orientationDescription="The campground is located in the Williams Fork Valley next to South Fork Creek at an elevation of 8,962 feet. A cool mountain climate with frequent afternoon thunderstorms should be expected.     Due to the pine beetle infestation and hazardous tree removal, shade has been reduced throughout the campground.      The Arapaho and Roosevelt National Forests and Pawnee National Grassland sit on the foothills and peaks of the Rocky Mountains in Colorado. The forests and grassland cover 1.5 million acres and extend north to the Wyoming border, south to Mount Evans and west across the Continental Divide." recreationDescription="The South Fork Trail begins at the campground and is one of the most popular trails in the valley. The 26-mile loop trail is open to hiking and horseback riding, and provides access to other trails in the area, including Ptarmigan Pass, Ute Peak and Jones Pass Trails. Mountain biking opportunities also exist in the valley. The Byers Peak Wilderness can be accessed nearby.     Anglers enjoy trout fishing on the South Fork Creek and numerous additional streams and creeks in the surrounding area. Wildlife viewing opportunities abound." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=75054&amp;cmp=39-32--mcmire">
+        <address city="PARSHALL" country="United States" shortName="SFOR" state="Colorado" streetAddress="COUNTY ROAD 30" zip="80468"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/75054_SFOR.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9708870056"/>
+        <contact name="Ranger Station" number="9708870056"/>
+        <amenity distance="Within Facility" name="Accessible Pit Toilets"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Boardwalk"/>
+        <amenity distance="Within Facility" name="Campfire Circles"/>
+        <amenity distance="Within Facility" name="Corrals"/>
+        <amenity distance="Within Facility" name="Creek Access"/>
+        <amenity distance="Within Facility" name="Drinking Water (Hand Pump)"/>
+        <amenity distance="Within Facility" name="Equestrian Sites"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Flush Toilets"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Group Camping"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseback Riding Trails"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:41:54 GMT
+recorded_with: VCR 2.5.0

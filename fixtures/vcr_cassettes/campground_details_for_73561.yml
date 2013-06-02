@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73561
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:40:08 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:40:08 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=2B6F56CD62A06AF792CFD2D622289F21.web05-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2645525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=2B6F56CD62A06AF792CFD2D622289F21.web05-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:40:08 GMT; Path=/
+      Content-Length:
+      - '3616'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Riverside Campground lies across the road form South Platte River, providing a scenic base camp for fishing, hiking and rock climbing. The campground is tucked in the Eleven Mile Canyon, a delightful place to view polished granite walls surrounding the open valley of the river.     Wildlife is abundant in the surrounding areas, with opportunities to see elk, mule deer, chipmunks and porcupines." drivingDirection="From Lake George, turn off Highway 24 onto County Road 96. Follow the road for about one mile into Eleven Mile Canyon.  Riverside Campground is located on the left side, not far from Eleven Mile Canyon entrance." facilitiesDescription="Riverside Campground offers nearly 20 reservable campsites. Parking aprons are grass and gravel and can fit RVs up to 30 feet in length. Tent sites are walk-in only. Drinking water is from water pump and vault toilets are onsite." facility="RIVERSIDE (CO)" facilityID="73561" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=73561&amp;cmp=39-32--mcmire" importantInformation=" Be bear aware; keep all food out of site in approved containers or locked inside your vehicle and remove all food from area after eating This is a high elevation facility, please use caution when traveling from lower elevations There is a $6 vehicle fee to enter Elevenmile Canyon No RV hookups are available For more information on Pike and San Isabel National Forests, click here " latitude="38.9438889" longitude="-105.4411111" nearbyAttrctionDescription="Visitors enjoy the Florissant Fossil Beds National Monument, one of the richest and most diverse fossil deposits in the world. Petrified redwood stumps up to 14 feet wide and thousands of detailed fossils of insects and plants reveal the story of a very different, prehistoric Colorado." note="" orientationDescription="Riverside has large, open campsites at an elevation of 8,000 feet. The South Platte River flows on the other side of Route 96. Eleven Mile Canyon was carved by the river and is bordered by polished gray granite cliffs.    Downriver is the Eleven Mile Reservoir, spanning 3,405 surface acres and 5 miles in length." recreationDescription="Hard Rock Interpretive Trail, accessible from the campground, is a 1-mile self-guided interpretive walk that leads to an impressive overlook of the canyon. The trail explores the diverse life of the region and offers a chance to see plenty of wildlife and take photos of the sweeping views.     Rainbow, cutthroat and brown trout can be caught from the South Platte River. Benches along the river allow anglers to relax in comfort while waiting for fish to bite." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=73561&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="RIVS" state="Colorado" streetAddress="" zip=""/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7198362031"/>
+        <contact name="Ranger Station" number="7198362031"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Interpretive Trails"/>
+        <amenity distance="Within Facility" name="Rock Climbing"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:40:08 GMT
+recorded_with: VCR 2.5.0

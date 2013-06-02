@@ -1,0 +1,80 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=72021
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:24:00 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:24:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=42B50B0632BBE183B081F0AF9F09EA97.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=42B50B0632BBE183B081F0AF9F09EA97.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:24:00 GMT; Path=/
+      Content-Length:
+      - '5612'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Bellaire Campground is located 47 miles northwest of Fort Collins, Colo., near the Red Feather Lakes village. Visitors enjoy the area for its canoeing, fishing and trail opportunities." drivingDirection="From Fort Collins, travel north on Highway 287 for 21 miles, to Livermore. Turn left onto Red Feather Lakes Road (County Road 74E) and travel 25 miles, just beyond the south side of Red Feather Lakes. Turn south onto County Road 69 and continue approximately 3 miles. The campground is located on the right." facilitiesDescription="The campground offers accessible single, double and triple family sites with electric hookups. Five additional sites are designated for tent camping and do not have hookups. Each site contains a tent pad, picnic table and campfire ring with grill.    Flush toilets, vault toilets and drinking water are provided. Dead and downed firewood may be gathered in the forest or purchased from the campground host." facility="BELLAIRE LAKE CAMPGROUND" facilityID="72021" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=72021&amp;cmp=39-32--mcmire" importantInformation=" This is bear country! For bear and human safety, keep a clean campsite and do not place food or other attractants in your tent. For more information about visiting bear country, contact Colorado Parks and Wildlife at http://wildlife.state.co.us Off-road vehicles and horses are not allowed in the campground Extra parking is not available Click here for more information on the Arapaho and Roosevelt National Forests Operated by American Land &amp;amp;amp; Leisure. You may contact us at www.AmericanLL.com or 801-226-3564. " latitude="40.7651417" longitude="-105.6118667" nearbyAttrctionDescription="The small village of Red Feather Lakes is nearby, offering limited dining options, gift shops, general stores, a library, post office and a golf course." note="" orientationDescription="The campground is comprised of rolling hills, pine forests and unique rock formations. It sits near Bellaire Lake at an elevation of 8,600 feet. Afternoon thunderstorms can be expected during spring and summer months.    Due to the mountain pine beetle infestation and the removal of hazardous trees, there may be little to no shade in the campground." recreationDescription="Canoeing and fishing are popular activities on 10-acre, no-wake Bellaire Lake. Anglers cast for rainbow and brook trout, among other species. The campground is within walking distance of the lake via an accessible boardwalk. Several additional lakes are in the vicinity.    Many hiking, biking and horseback riding trails are in the surrounding area, including the 1.25-mile Molly Lake Trail and 4-mile Mount Margaret Trail. Several off-road vehicle trails are located within five miles of the campground.    Other popular activities include viewing wildlife and visiting nearby Redfeather Visitor Center." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=72021&amp;cmp=39-32--mcmire">
+        <address city="Red Feather Lakes" country="United States" shortName="BELC" state="Colorado" streetAddress="4545 County Road 162 a.k.a. 4545 Manhattan Road" zip="80545"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/72021_BELC.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9708812210"/>
+        <contact name="Ranger Station" number="9702956700"/>
+        <amenity distance="Within Facility" name="Accessible Drinking Water"/>
+        <amenity distance="Within Facility" name="Accessible Trails"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Canoeing"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Electric Hookups"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Flush Toilets"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Non-Motorized Boating"/>
+        <amenity distance="Within Facility" name="Tables"/>
+        <amenity distance="Within Facility" name="Tent Pads"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Less Than 1 Mile" name="Picnic Area"/>
+        <amenity distance="Within 10 Miles" name="Bait Shop"/>
+        <amenity distance="Within 10 Miles" name="Grocery Store"/>
+        <amenity distance="Within 10 Miles" name="Medical Facilities"/>
+        <amenity distance="Within 10 Miles" name="Mountain Biking"/>
+        <amenity distance="Within 10 Miles" name="Off-Road Vehicle Trails"/>
+        <amenity distance="Within 10 Miles" name="Visitor Center"/>
+        <bulletin description="This campground has been heavily impacted by mountain pine beetle. Due to hazard tree removal the campground has less shade and more sun. For more information, please go to &amp;lt;a href=&amp;quot;url&amp;quot;&amp;gt;www.fs.usda.gov/goto/arp/hazardtrees&amp;lt;/a&amp;gt;" headline="Attention"/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:00:58 GMT
+recorded_with: VCR 2.5.0

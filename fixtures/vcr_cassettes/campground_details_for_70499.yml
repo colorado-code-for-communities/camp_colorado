@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70499
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:28:46 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:28:46 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=8EC6D5B2926559BA32EE61285456A70A.web04-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2745525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=8EC6D5B2926559BA32EE61285456A70A.web04-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:28:45 GMT; Path=/
+      Content-Length:
+      - '6347'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Heaton Bay Campground is situated at an elevation of 9,000 feet and centrally located for recreation and relaxation in the White River National Forest.     There is little or no shade in the campground due to pine beetle infestation and the removal of hazard trees, but the sites offer open views to Dillon Reservoir and  several mountain ranges." drivingDirection="From I-70, take Frisco exit to 203. Turn left onto the Dillon Dam Road.Travel northeast for 1 mile. The campground will be on the right hand sideof the road." facilitiesDescription="Heaton Bay Campground has 58 sites, able to accommodate tents, trailers, and RVs. Tent-only sites are available.    The campground is equipped with picnic tables, campfire rings, vault toilets, and drinking water. Guests can fill their RV tanks. Electrical hook-ups are available for a fee at several of the sites.    Firewood is for sale from hosts at the campground.    Boat ramp access is available in the marinas located in the nearby towns of Frisco and Dillon." facility="HEATON BAY" facilityID="70499" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70499&amp;cmp=39-32--mcmire" importantInformation=" This facility is operated by White River Recreation, a division of California Land Management and your comments are appreciated; comment forms are available from campground hosts or on CLM&amp;apos;s website . RV campers may fill their water tanks at the facility Body contact with reservoir prohibited; no swimming, water skiing, jetskiing, or scuba diving Several campsites are available on a first-come, first-served basis Passport holders must present Golden Age/Access Passport on site or they will be required to pay the full fee Prevent the spread of invasive species by inspecting and cleaning packs, equipment, and tires before using lake or trails In accordance with standard industry practices, there will be a $5 additional vehicle fee on the second vehicle in each single family campsite, and on the third and fourth vehicles in any double family campsite, provided these vehicles are not joined to the first vehicle by a hitch and towed onto the site. In the case of motorcycles, the first two are considered as 1 vehicle for determining additional vehicle fees. The third and fourth motorcycle would also be considered as 1 vehicle. No additional vehicle fees are collected for bicycles. Click here for more information about White River National Forest " latitude="39.605" longitude="-106.0777778" nearbyAttrctionDescription="Arapahoe Basin, Keystone, Breckenridge, and Copper Mountain ski resorts are all located within 10 miles from Dillon Reservoir. These resorts stay open year round." note="" orientationDescription="In the heart of the Rocky Mountains, the 2.3 million acre White River National Forest is a place of serenity and adventure, boasting 8 wilderness areas, 4  defined seasons, and 10 peaks surpassing 14,000 feet in elevation.    Wildlife in the area abounds. Bighorn sheep navigate rocky ridges and bull elk bugle at dusk. Scenic rivers sustain populations of cutthroat, rainbow, and brown trout.  Alpine regions provide habitat for pika and ptarmigan. These species, along with many others, depend on surrounding undeveloped wilderness, clean streams, and diverse forests to live." recreationDescription="Dillon Reservoir is 3,233 acres with 26.8 miles of shoreline, offering an ideal spot for fishing, boating, and sailing. The reservoir supports a healthy population of  rainbow and brown trout, in addition to a few cutthroat finding their way into the lake from feeder streams.     Opportunities for hiking and biking in this area include more than 7 paved miles of the 50-mile Summit County trail system.     The Old Dillon Reservoir Trail is a favorite. This short, easy trail has spectacular views of the Tenmile Range and the Continental Divide.      For those wanting a bit more solitude, hiking in the Ptarmigan Wilderness area is a wonderful escape from the crowds." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70499&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="HEA1" state="Colorado" streetAddress="WHITE RIVER" zip=""/>
+        <photo realUrl="/webphotos/NRSO/pid70499/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70499/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70499/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70499_HEA1.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9709270107"/>
+        <contact name="Ranger Station" number="9709270107"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Electric Hookups"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Lake Access"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="RV sites"/>
+        <amenity distance="Within Facility" name="Sailing"/>
+        <amenity distance="Within Facility" name="Tent sites"/>
+        <amenity distance="Within Facility" name="Trails"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Water Spigot"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within 10 Miles" name="Boat Ramp"/>
+        <amenity distance="Within 10 Miles" name="Grocery Store"/>
+        <amenity distance="Within 10 Miles" name="Marina"/>
+        <amenity distance="Within 10 Miles" name="Restaurant"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:28:46 GMT
+recorded_with: VCR 2.5.0

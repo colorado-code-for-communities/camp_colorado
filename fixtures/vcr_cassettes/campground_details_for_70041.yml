@@ -1,0 +1,74 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70041
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:35:20 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:35:20 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=B040C41D8984F04C180B17F88DF3800C.web03-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2445525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=B040C41D8984F04C180B17F88DF3800C.web03-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:35:20 GMT; Path=/
+      Content-Length:
+      - '4723'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Angel of Shavano Group Campground is considered one of the area&amp;amp;#39;s best kept camping secrets. It is situated next to the North Fork South Arkansas River and offers a variety of recreational activities, including hiking, biking and fishing." drivingDirection="From Poncha Springs, Colorado, take U.S. Highway 50 west 6 miles, then right on County Road 240 and travel 4 miles to the campground." facilitiesDescription="Angel of Shavano offers one group campsite best suited for tent camping. It can accommodate up to 100 people and 24 vehicles. Parking is not available for large RVs.       The site is equipped with a picnic shelter, tables, six pedestal grills and a campfire circle with benches. Vault toilets and trash collection are provided. No drinking water is available within the group site, but it is available at the nearby family campground." facility="ANGEL OF SHAVANO GROUP" facilityID="70041" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70041&amp;cmp=39-32--mcmire" importantInformation=" Be bear aware; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating This is a high elevation facility, please use caution when traveling from lower elevations This facility has first-come, first-served sites No hookups available Click here for more information on Pike and San Isabel National Forests " latitude="38.5827778" longitude="-106.22" nearbyAttrctionDescription="The city of Salida is 30 minutes away, where visitors can take a scenic tram ride, experience a zip-line, play a round of mini golf or go whitewater rafting on the Arkansas River." note="" orientationDescription="The campground is named after an image of an angel that appears as winter snow fall on Shavano Mountain. The site lies at an elevation of 9,200 feet along the North Fork South Arkansas River. A forest of aspen and pine covers the area. Beaver ponds dot the landscape at the base of nearby Shavano Mountain.      Some sites sit along the river while others are set among an open, grassy meadow. Thunderstorms are common in summer months." recreationDescription="The Colorado Trail begins within the campground and provides excellent hiking, horseback riding and biking opportunities. The trail stretches 487 miles across Colorado from Denver to Durango, with segments ranging in elevation from 5,500 to 13,300 feet.      The North Fork South Arkansas River offers rainbow and brook trout fishing. The nearby beaver ponds can also be fished.       Fun facilities like a volleyball court, baseball field and horseshoe pits  are available within the campground. Visitors must bring their own equipment." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70041&amp;cmp=39-32--mcmire">
+        <address city="SALIDA" country="United States" shortName="ANSG" state="Colorado" streetAddress="SALIDA RANGER DISTRICT" zip="81201"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70041_ANSG.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7193953205"/>
+        <contact name="Ranger Station" number="7195393591"/>
+        <amenity distance="Within Facility" name="Baseball Fields"/>
+        <amenity distance="Within Facility" name="Campfire Circles"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Group Camping"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Horseshoe Pit"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Shelters"/>
+        <amenity distance="Within Facility" name="Scenic Overlooks"/>
+        <amenity distance="Within Facility" name="Softball Fields"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Volleyball Courts"/>
+        <amenity distance="Less Than 1 Mile" name="Drinking Water"/>
+        <amenity distance="Less Than 1 Mile" name="Firewood Vendor"/>
+        <amenity distance="Less Than 1 Mile" name="Host"/>
+        <amenity distance="Within 10 Miles" name="Whitewater Rafting"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 01:59:56 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,45 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=LARC&parkId=710104&siteType=9002
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:28:57 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:28:57 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=9436442379E5D4DF2898372461E65996.web08-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2b45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=9436442379E5D4DF2898372461E65996.web08-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:28:57 GMT; Path=/
+      Content-Length:
+      - '153'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="LARC" count="0" parkId="710104" resultType="campsites" siteType="9002"/>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:28:57 GMT
+recorded_with: VCR 2.5.0

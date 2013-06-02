@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73670&siteType=2003
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:38:32 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:38:32 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=DC2B914271111C760BF4CBD68063A7DF.web05-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2645525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=DC2B914271111C760BF4CBD68063A7DF.web05-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:38:32 GMT; Path=/
+      Content-Length:
+      - '524'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="1" parkId="73670" resultType="campsites" siteType="2003">
+        <result Loop="LAKE ISABEL" Maxeqplen="0" Maxpeople="60" Site="001" SiteId="132870" SiteReserveType="site-specific" SiteType="GROUP STANDARD NONELECTRIC" mapx="508.32" mapy="558.61" sitePhoto="/webphotos//NRSO/pid73670/sid132870/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:38:32 GMT
+recorded_with: VCR 2.5.0

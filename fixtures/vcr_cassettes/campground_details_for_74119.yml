@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=74119
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:23:44 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:23:44 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=754BC50EA5021E8591FBCD29450DAD23.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=754BC50EA5021E8591FBCD29450DAD23.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:23:44 GMT; Path=/
+      Content-Length:
+      - '6489'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Alvarado Campground, located at an elevation of 9,000 ft., is a prime location for accessing easy to challenging hikes in the Sangre de Cristo Wilderness. The variety of trails lead to high elevation lakes, picturesque waterfalls, and a number of stunning scenic overlooks. Alvarado is designed for a range of campers, with facilities for tent, RV and equestrian campers.     Pike-San Isabel National Forests include over a million acres of wilderness and over half of Colorado&amp;amp;#39;s mountain peaks that reach above 14,000 feet." drivingDirection="From Westcliffe, CO, take State Route 69 south 3 miles to the campground sign. Turn right and go 1.8 miles to the stop sign. Continue straight through the stop sign for 2.8 miles until you hit another stop sign (RD 141). Turn left onto RD 141 and continue 2.1 miles to campground. (Note: RD 141 becomes dirt/gravel after 0.4 miles.)" facilitiesDescription="Alvarado is divided into three unique areas. The lower level accommodates tents and RVs, the upper level is designed for walk-in tent campers, and part of the middle section caters to equestrian campers. There are no corrals but there is space to put portable corrals for horses.     Parking aprons are dirt and gravel. Tent pads and lantern posts are located in the lower campsites only." facility="ALVARADO CAMPGROUND" facilityID="74119" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=74119&amp;cmp=39-32--mcmire" importantInformation=" Be bear aware; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating Hay brought to this facility must be certified weed-free No electric hookups available This facility has first-come, first-served sites Click here for more information on Pike and San Isabel National Forests " latitude="38.0788889" longitude="-105.5633333" nearbyAttrctionDescription="Explore the Frontier Pathways Scenic and Historic Byway that takes drivers through the Wet Mountains and provides spectacular views of 22 peaks, all within the San Isabel National Forest." note="" orientationDescription="Alvarado is perched on the side of the Sangre de Cristo Mountains among sweet smelling ponderosa pine, aspen, lodgepole and gambel oak trees. Some sites offer views of the Wet Mountain Valley below while others sit beside Alvarado Creek.   The campground is within reach of the Sangre de Cristo Wilderness, which spans 226,455 acres with 60 alpine lakes, 400 miles of streams and over 400 miles of trails to explore.   Large aspen stands visible in the area today are a result of heavy controlled fires set in the early 1900&amp;amp;#39;s to clear pasture land, expose minerals and produce charcoal." recreationDescription="Near the campground are several trailheads that provide visitors with a variety of recreational opportunities. All trails are open for horseback riding and hiking. The Rainbow Trail is a premier ATV and motorcycle trail. The non-motorized Comanche and Venable Trails lead into the Sangre de Cristo Wilderness where waterfalls and alpine lakes may be enjoyed." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=74119&amp;cmp=39-32--mcmire">
+        <address city="WESTCLIFFE" country="United States" shortName="ALVA" state="Colorado" streetAddress="Co. Rd. 140" zip="81212"/>
+        <photo realUrl="/webphotos/NRSO/pid74119/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid74119/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid74119/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid74119/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid74119/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid74119/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid74119/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid74119/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid74119/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid74119/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid74119/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid74119/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid74119/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid74119/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid74119/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid74119/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid74119/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid74119/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7194892744"/>
+        <contact name="Ranger Station" number="7192698500"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Equestrian Sites"/>
+        <amenity distance="Within Facility" name="Firewood Vendor"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Lantern Posts"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Tent Pads"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within 10 Miles" name="Horseback Riding"/>
+        <amenity distance="Within 10 Miles" name="Horseback Riding Trails"/>
+        <amenity distance="Within 10 Miles" name="Motorcycle Trails"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 01:59:50 GMT
+recorded_with: VCR 2.5.0

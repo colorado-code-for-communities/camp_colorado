@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=74064
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:14:26 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:14:26 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=B18880B33EC6A1D650AC07BFB98AD3BA.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=B18880B33EC6A1D650AC07BFB98AD3BA.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:14:26 GMT; Path=/
+      Content-Length:
+      - '3759'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Invite family and friends to East Elk for an active group camping experience surrounded by rugged and stark mountains. The campground is perched on the tranquil East Elk Creek, which allows for water activities without the commotion of the reservoir. Enjoy time picnicking, kayaking, fishing or exploring wildlife." drivingDirection=" East Elk Creek Group campground is located off of US Hwy 50 between Gunnison and Montrose, on the north side of the highway approximately 1/2 miles west of Elk Creek. " facilitiesDescription="This is a group campsite accommodating up to 50 people. Showers and a marina are less than a mile away at Elk Creek." facility="EAST ELK CREEK GROUP CAMPSITE" facilityID="74064" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=74064&amp;cmp=39-32--mcmire" importantInformation=" No electric hookups All watercraft must be inspected and certified as Zebra and Quagga Mussel free This is a high elevation facility, please use caution when traveling from lower elevations " latitude="38.4855556" longitude="-107.1722222" nearbyAttrctionDescription="Spend an hour and a half on a pontoon that floats down the Morrow Point Reservoir. The tour is ranger-guided and highlights the history of the Black Canyon.  Find more tour information here ." note="" orientationDescription="East Elk Creek sits at an altitude of 7,800 feet, just off the Blue Mesa Reservoir in Curecanti National Recreation Area.     The reservoir is surrounded by scenic mountains and is home to the largest population of Kokanee land locked salmon in the state of Colorado.    The other two reservoirs in the recreation area, Crystal Reservoir and Morrow Point Reservoir, are surrounded by high rising cliffs." recreationDescription="The campground is set just off of the windsurfing area in the Cebolla Basin. It&amp;amp;#39;s an ideal location for avid windsurfers. It&amp;amp;#39;s also great for canoeing and hiking.     Try the Dillon Pinnacles Trail for the nearest hiking trail." regionName="RMR" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=74064&amp;cmp=39-32--mcmire">
+        <address city="GUNNISON" country="United States" shortName="EEGS" state="Colorado" streetAddress="23935 Hwy 50" zip="81230"/>
+        <photo realUrl="/webphotos/NRSO/pid74064/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid74064/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid74064/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9706412337"/>
+        <contact name="Ranger Station" number="9706412337"/>
+        <amenity distance="Within Facility" name="Accessible Picnic Shelters"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Campfire Circles"/>
+        <amenity distance="Within Facility" name="Canoeing"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Kayaking"/>
+        <amenity distance="Within Facility" name="RV Parking"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:14:26 GMT
+recorded_with: VCR 2.5.0

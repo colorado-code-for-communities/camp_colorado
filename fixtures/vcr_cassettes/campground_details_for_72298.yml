@@ -1,0 +1,84 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=72298
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:29:51 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:29:51 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=5A9580A3D96A28F4C80B1FB1ABA35ED1.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=5A9580A3D96A28F4C80B1FB1ABA35ED1.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:29:51 GMT; Path=/
+      Content-Length:
+      - '7969'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Jackson Guard Station is a great destination for anything from a weekend getaway to a week-long hunting trip. The cabin was originally used as a guard station that housed Forest Service work crews. The cabin&amp;amp;#39;s access road is remarkably scenic, making for an impressive arrival.     In summer months, the cabin sets the stage for a wide array of activities. Recreation ranges from thrilling off-road vehicle riding to active mountain biking and rewarding fishing.       Winter access is by snowmobile, cross country skiing or snowshoes only along a 3.5-mile trail." drivingDirection="From Montrose, take Highway 50 east for about 20 miles. Turn right (south) onto County Road 858, which leads up the Big Cimarron Drainage for about 20 miles. Shortly after passing Silver Jack Reservoir on the right, Jackson Guard Station will be on the left.  From Gunnison, take Highway 50 west  for roughly 43 miles. Turn left on County Road 858, which leads up the Big Cimarron Drainage for about 20 miles. Shortly after passing Silver Jack Reservoir on the right, Jackson Guard Station will be on the left.   In winter, park in parking lot before the Forest Boundary and ski, snowshoe or snowmobile up the road for 3.5 miles." facilitiesDescription="Visitors can expect a rustic cabin set back roughly 500 feet from the road, providing privacy and solitude. Amenities include a propane stove, refrigerator and wood stove. The kitchen includes cabinet space and some dishes are provided. The cabin has two bedrooms and four twin-size beds. A picnic table, campfire ring and vault toilet are located just outside the cabin.    No electricity or running water is available. Guests should bring drinking water, flashlights or lanterns, bedding, food, cookware, towels and toiletries.     In winter, two kettles are provided to melt snow for water. A snow shovel and firewood is provided in winter months only.  Click here  for more cabin details." facility="JACKSON GUARD STATION" facilityID="72298" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=72298&amp;cmp=39-32--mcmire" importantInformation=" Entry is by combination lock; contact the ranger district at (970) 240-5300 for combination prior to arrival No drinking water available Collection of firewood is not permitted; please bring firewood in summer months; in winter, firewood is provided Please bring garbage bags; this is a &amp;amp;quot;pack in-pack out&amp;amp;quot; facility Please clean cabin before leaving; cleaning supplies are provided No discharge of firearms within 150 yards of cabin No smoking allowed No pets allowed This facility does not meet accessibility standards Bears frequent the area; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating Guests should be aware that there is a risk of exposure to hantavirus when visiting remote cabins; click here to learn more " latitude="38.2133333" longitude="-107.5232444" nearbyAttrctionDescription="Nearby attractions include the San Juan Mountains, Alpine Plateau, Uncompahgre Wilderness, Silver Jack Reservoir and Black Canyon of the Gunnison National Park.    The cabin is about an hour&amp;amp;#39;s drive from Montrose or Ridgeway, and an hour and a half from Gunnison." note="" orientationDescription="Situated near the southeast shores of Silver Jack Reservoir, Jackson Guard Station sits in a small aspen grove at 9,000 feet elevation. The cabin is at the base of High Mesa, near where the Cimarron River flows into the reservoir." recreationDescription="Activities abound, with hiking, mountain biking, off-road vehicle riding and horseback riding. Hunting and fishing are popular along the Silver Jack Reservoir." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=72298&amp;cmp=39-32--mcmire">
+        <address city="Montrose" country="United States" shortName="JACS" state="Colorado" streetAddress="2505 South Townsend Avenue" zip="81401"/>
+        <photo realUrl="/webphotos/NRSO/pid72298/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72298/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72298/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72298/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72298/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72298/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72298/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72298/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72298/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72298/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72298/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72298/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72298/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72298/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72298/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72298/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72298/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72298/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9702405300"/>
+        <contact name="Ranger Station" number="9702405300"/>
+        <amenity distance="Within Facility" name="Bed(s)"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Food Storage Locker"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseback Riding Trails"/>
+        <amenity distance="Within Facility" name="Lake Access"/>
+        <amenity distance="Within Facility" name="Non-Motorized Boating"/>
+        <amenity distance="Within Facility" name="Off-Road Vehicle Trails"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Propane Refrigerator"/>
+        <amenity distance="Within Facility" name="Propane Stove"/>
+        <amenity distance="Within Facility" name="Scenic Drive"/>
+        <amenity distance="Within Facility" name="Star Gazing"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within Facility" name="Wood Stove"/>
+        <amenity distance="Within 10 Miles" name="Canoeing"/>
+        <amenity distance="Within 10 Miles" name="Fishing"/>
+        <amenity distance="Within 10 Miles" name="Hunting"/>
+        <amenity distance="Within 10 Miles" name="Water Access"/>
+        <amenity distance="Greater Than 10 Miles" name="Emergency Services"/>
+        <amenity distance="Greater Than 10 Miles" name="Grocery Store"/>
+        <amenity distance="Greater Than 10 Miles" name="Hospital"/>
+        <amenity distance="Greater Than 10 Miles" name="Visitor Center"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:29:51 GMT
+recorded_with: VCR 2.5.0

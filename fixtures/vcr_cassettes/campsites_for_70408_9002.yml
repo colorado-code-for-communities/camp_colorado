@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70408&siteType=9002
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:33:51 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:33:51 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=90DEA89690819B851FDBDA36C01C8F2F.web08-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2b45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=90DEA89690819B851FDBDA36C01C8F2F.web08-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:33:51 GMT; Path=/
+      Content-Length:
+      - '885'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="2" parkId="70408" resultType="campsites" siteType="9002">
+        <result Loop="GROUP" Maxeqplen="99" Maxpeople="40" Site="MOQUI GROUP" SiteId="10512" SiteReserveType="site-specific" SiteType="GROUP STANDARD NONELECTRIC" mapx="613.07" mapy="401.54" sitePhoto="/webphotos//NRSO/pid70408/sid10512/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GROUP" Maxeqplen="99" Maxpeople="50" Site="SAGE GROUP" SiteId="10513" SiteReserveType="site-specific" SiteType="GROUP STANDARD NONELECTRIC" mapx="780.07" mapy="377.73" sitePhoto="/webphotos//NRSO/pid70408/sid10513/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:33:51 GMT
+recorded_with: VCR 2.5.0

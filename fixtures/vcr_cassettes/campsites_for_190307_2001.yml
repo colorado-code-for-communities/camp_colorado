@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=KOA&parkId=190307&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:38:54 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:38:54 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=340A155A6AD8DD73919587008B7AC6C7.web03-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2445525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=340A155A6AD8DD73919587008B7AC6C7.web03-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:38:54 GMT; Path=/
+      Content-Length:
+      - '2378'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="KOA" count="7" parkId="190307" resultType="campsites" siteType="2001">
+        <result Loop="Pueblo KOA" Maxeqplen="60" Maxpeople="7" Site="Back-in, Full hookups, 30/20 amp, Cable, WiFi" SiteId="1621" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pueblo KOA" Maxeqplen="70" Maxpeople="7" Site="Pull-thru, Full hookups, 50/30 amp, Cable, WiFi" SiteId="1618" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pueblo KOA" Maxeqplen="60" Maxpeople="7" Site="Pull-thru, Full hookups, 30/20 amp, Cable, WiFi" SiteId="1619" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pueblo KOA" Maxeqplen="60" Maxpeople="7" Site="Pull-thru, Full hookups, 30/20 amp, Cable, WiFi" SiteId="1620" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pueblo KOA" Maxeqplen="70" Maxpeople="7" Site="Pull-thru, Full hookups, 50/30 amp, Cable, WiFi" SiteId="48481" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pueblo KOA" Maxeqplen="50" Maxpeople="7" Site="Back-in, Water/Electric, 20 amp, WiFi" SiteId="1623" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="20" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Pueblo KOA" Maxeqplen="50" Maxpeople="7" Site="Pull-thru, Water/Electric, 30/20 amp, Cable, WiFi" SiteId="1622" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:38:54 GMT
+recorded_with: VCR 2.5.0

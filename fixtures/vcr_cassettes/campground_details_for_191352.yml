@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=KOA&parkId=191352
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:15:29 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:15:29 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=03CAE94D0BEB49D831864B37BC42B761.web05-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2645525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=03CAE94D0BEB49D831864B37BC42B761.web05-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:15:29 GMT; Path=/
+      Content-Length:
+      - '4222'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="KOA" description="Your campsite here is just 5 miles from the soaring alpine landscape of Rocky Mountain National Park. This campground is a great setting for marshmallow roasts and ice cream socials on summer nights. Free Wi-Fi is now available throughout this KOA. Supplies and souvenirs are available in the campground store. Just across the street at Lake Estes, enjoy bike rentals, boating or fishing. Next door is horseback riding for riders of all abilities. Mini golf and go-carts are also nearby. Head to town for family fun, shops, restaurants and golf. Visit the national park and see elk, bighorn sheep, moose and other wildlife abound. Drive the park&amp;amp;#39;s renowned Trail Ridge Road highway, which crosses alpine tundra at an elevation of more than 12,000 feet, providing panoramic views of our grand Colorado style Rocky Mountains." drivingDirection="1.5 miles east of downtown Estes Park on the north side of highway 34 across from the east end of Lake Estes." facilitiesDescription="" facility="Estes Park KOA" facilityID="191352" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=KOA&amp;parkId=191352&amp;cmp=39-32--mcmire" importantInformation="" latitude="40.3777778" longitude="-105.4866667" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="KOA Region" reservationUrl="/campsiteSearch.do?contractCode=KOA&amp;parkId=191352&amp;cmp=39-32--mcmire">
+        <address city="Estes Park" country="United States" shortName="B352" state="Colorado" streetAddress="2051 Big Thompson Ave." zip="80517"/>
+        <photo realUrl="/webphotos/KOA/pid191352/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid191352/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid191352/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid191352/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid191352/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid191352/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid191352/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid191352/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid191352/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid191352/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid191352/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid191352/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid191352/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid191352/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid191352/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid191352/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid191352/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid191352/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number=""/>
+        <contact name="Ranger Station" number="9705862888"/>
+        <amenity distance="Within Facility" name="Basketball"/>
+        <amenity distance="Within Facility" name="Bike Riding"/>
+        <amenity distance="Within Facility" name="Bingo"/>
+        <amenity distance="Within Facility" name="Crafts"/>
+        <amenity distance="Within Facility" name="Horseshoes"/>
+        <amenity distance="Within Facility" name="Ice Cream Socials"/>
+        <amenity distance="Within Facility" name="Karaoke"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:15:30 GMT
+recorded_with: VCR 2.5.0

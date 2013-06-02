@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73544
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:37:03 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:37:03 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=179D9F0E1F4B32600B0D047E54D4EC37.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=179D9F0E1F4B32600B0D047E54D4EC37.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:37:03 GMT; Path=/
+      Content-Length:
+      - '3632'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Blue Mountain Campground sits between Eleven Mile Canyon and the South Platte River to the north and the peak of Blue Mountain to the south, creating an impressive location for recreation and diverse scenery. The campground is primitive and quiet, creating a peaceful outdoor experience for guests.     Hiking, biking, rock climbing in the canyon and trout fishing in the river are popular pastimes." drivingDirection="From Lake George, Colorado, turn off of Highway 24 onto County Road 96. Follow the road for about a mile toward Eleven Mile Canyon and take a right at the fork onto County Road 61. The campground is just up the way on the right." facilitiesDescription="Blue Mountain offers more than 20 reservable campsites. Parking aprons are dirt and gravel and there are two vault toilets. Each site comes with a picnic table and enough space to park two vehicles." facility="BLUE MOUNTAIN" facilityID="73544" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=73544&amp;cmp=39-32--mcmire" importantInformation=" Be bear aware; keep all food out of site in approved containers or locked inside your vehicle and remove all food from area after eating This is a high elevation facility, please use caution when traveling from lower elevations Outside the booking season, campsites are first-come, first-served No RV hookups are available For more information on Pike and San Isabel National Forests, click here " latitude="38.9613889" longitude="-105.3613889" nearbyAttrctionDescription="Visit the Florissant Fossil Beds National Monument, one of the richest and most diverse fossil deposits in the world. Petrified redwood stumps up to 14 feet wide and thousands of detailed fossils of insects and plants reveal the story of a very different, prehistoric Colorado." note="" orientationDescription="The campground, at 8,200 feet, sits on a hill a half-mile from the South Platte River. Campsites are nicely spaced on a single loop among scattered ponderosa pine.     The river carves its way through the Eleven Mile Canyon and feeds into the 3,405-acre Eleven Mile Reservoir downstream." recreationDescription="Hard Rock Interpretive Trail, accessible from the campground, is a 1-mile self-guided interpretive trail that leads to an impressive overlook of Eleven Mile Canyon. The trail explores the diverse life of the region and offers a chance to see plenty of wildlife and take photos of the sweeping views.     Rainbow, cutthroat and brown trout can be caught from the South Platte River. Benches along the river allow anglers to relax in comfort waiting for a fish to bite." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=73544&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="BLMT" state="Colorado" streetAddress="" zip=""/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7198362031"/>
+        <contact name="Ranger Station" number="7198362031"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Rock Climbing"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:01:35 GMT
+recorded_with: VCR 2.5.0

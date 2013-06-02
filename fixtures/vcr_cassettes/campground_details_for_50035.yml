@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50035
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:37:19 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:37:19 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=ABCEC4EA64C85E8B7D1392D712F9EDF6.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=ABCEC4EA64C85E8B7D1392D712F9EDF6.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:37:19 GMT; Path=/
+      Content-Length:
+      - '5734'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description=" Pearl Lake State Park is one of the most beautiful parks in the Colorado State Park system. Nestled in the mountains north of Steamboat Springs, Pearl Lake is a quiet, remote location that offers a variety of activities to visitors. The 166 acre lake has been voted one of America&amp;amp;#39;s top 25 for canoeing by Reserve America. Excellent fly and lure fishing is available, the native cutthroat trout flashing their dramatic red throats when pulled from the water. A hiking trail accesses a vast expanse of National Forest, and a wildlife viewing deck overlooks the lake. Nearly all of the 36 campsites and two yurts are sunny and have views of both the lake and surrounding mountains. " drivingDirection="From Steamboat Springs go west 2 miles on Hwy 40 to County Rd 129. Turn north and go 23 miles to Pearl Lake Rd. Go east 2 miles to park entrance." facilitiesDescription="" facility="PEARL LAKE STATE PARK" facilityID="50035" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50035&amp;cmp=39-32--mcmire" importantInformation=" Reservations are strongly recommended. Due to trees and turning radius, please adhere to RV length recommendations at campsites. All tents and equipment must be set up on high use pads (14&amp;apos; x 14&amp;apos;). Maximum number of vehicles per site is two. Dogs are allowed but must be leashed and under control at all times. Due to the popularity of the park, campsite moves are not allowed during the peak summer season. Depending on snow conditions, first-come/first-serve camping may be available during May and October. Camping is not available during the winter months due to snow.Yurts: Pearl Lake yurts are reservable year around. From May 1st through November 30th, a two night minimum stay is required at the yurts. No minimum night stay is required from December 1st through April 30th. The road into Pearl Lake is closed November through April due to snow. Yurts are accessible during those months by snowshoe, cross-country skis or snowmobile. It is a 1/2 mile trail. During October and May, check with the Visitor Center for current road conditions. In addition to the camping and yurt fees, a vehicle park pass (annual or daily) is required on all vehicles entering the park. Park passes are not included in reservation fees and may be purchased at the park. For current conditions and information, contact the Visitor Center and 970-879-3922." latitude="40.7861111" longitude="-106.8963889" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="Rocky Mountain Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50035&amp;cmp=39-32--mcmire">
+        <address city="CLARK" country="United States" shortName="PELA" state="Colorado" streetAddress="BOX 750" zip="80428"/>
+        <photo realUrl="/webphotos/CO/pid50035/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50035/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50035/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50035/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50035/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50035/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50035/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50035/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50035/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50035/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50035/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50035/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50035/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50035/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50035/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="9708793922"/>
+        <contact name="Ranger Station" number="9708793922"/>
+        <amenity distance="Within Facility" name="Bird Watching"/>
+        <amenity distance="Within Facility" name="Boat Launch Ramp"/>
+        <amenity distance="Within Facility" name="Boat Ramp"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Cross Country Skiing"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Ice Fishing"/>
+        <amenity distance="Within Facility" name="Interpretitive Programs"/>
+        <amenity distance="Within Facility" name="Parking"/>
+        <amenity distance="Within Facility" name="Photography"/>
+        <amenity distance="Within Facility" name="Picnicking"/>
+        <amenity distance="Within Facility" name="Snow Shoeing"/>
+        <amenity distance="Within Facility" name="Toilet, Pit/Vault"/>
+        <amenity distance="Within Facility" name="Wildlife Watching Opportunity"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:37:20 GMT
+recorded_with: VCR 2.5.0

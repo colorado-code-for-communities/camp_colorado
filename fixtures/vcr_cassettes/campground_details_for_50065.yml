@@ -1,0 +1,92 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50065
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:35:50 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:35:50 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=978F8FC831375D3C92956C1954D1CCDC.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=978F8FC831375D3C92956C1954D1CCDC.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:35:50 GMT; Path=/
+      Content-Length:
+      - '7038'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description="Majestic bluffs and expansive views of the high plains greet visitors to one of Colorado&amp;amp;#39;s newest state parks, North Sterling State Park. This boater&amp;amp;#39;s paradise offers 3,000 acres of pristine waters, providing an interesting array of coves and fingers to explore. Modern facilities are located nearby and support a wide variety of recreational acitivities available at North Sterling State Park. Campgrounds at North Sterling State Park can accommodate recreational vehicles, trailers or tents, and there is a total of 141 sites." drivingDirection="From Sterling exit #125 on I-76 northbound from Denver, turn left at the exit stop sign. (OR at exit #125 southbound to Denver, turn right at the exit stop sign.) Follow Hwy 6 (Chestnut St.) over the bridge into downtown Sterling. Continue on Chestnut for 3 blocks. Jog left onto Platte St. for 2 blocks to N. 3rd Ave. Turn right and go 4 blocks to Broadway. Turn left &amp;amp;amp; go 4 blocks to N. 7th Ave. (CR 39). Turn right and go 10 miles to CR 46, then 2 miles west to CR 33 for the south gate, swim beach, picnic pavilion, playground, Chimney View &amp;amp;amp; Inlet Grove Campgrounds, and south boat ramp. Stay on CR 33 along the east side of the reservoir to the north gate, Park Office/Visitor Center, marina, Marina Point Picnic Pavilion, Elks Campground and Elks boat ramp. OR...Entering Sterling on (West Main Street) Highway 14 eastbound from Ft. Collins, continue to N. 7th Ave, turn left (north), go to CR 46." facilitiesDescription="" facility="NORTH STERLING STATE PARK" facilityID="50065" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50065&amp;cmp=39-32--mcmire" importantInformation=" ** Elks Campground (50 sites w/electric) is open year-round. Inlet Grove Campground close October 1st. Chimney View Campground will be used for walk-in camping in the event that Elks and Inlet Grove Campgrounds are full. ** Call park office at Ph. 970-522-3657 for more information. ** Boaters should expect low water conditions in September and October. Launching may be difficult. ** In addition to the camping fee, a $7.00 entrance fee is required. ** shade may be naturally provided by trees and vegetation, or artificial shade shelters. Please call the park for specific details. The North Sterling Irrigation District is starting a project on September 8, 2009 to expand the reservoir&amp;apos;s spillway. The proposed construction activity will not impact any camping facilities at North Sterling State Park, but there will be no access to the south boat ramp until possibly after Memorial Day 2010. The Elks boat ramp will be available, but has limited parking. Call the park for more information 970-522-3657. Bayside Marina has closed it&amp;apos;s business at North Sterling Reservoir - No marina services available. " latitude="40.7891667" longitude="-103.2655556" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="High Plains Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50065&amp;cmp=39-32--mcmire">
+        <address city="STERLING" country="United States" shortName="NOST" state="Colorado" streetAddress="24005 COUNTY ROAD 330" zip="80751"/>
+        <photo realUrl="/webphotos/CO/pid50065/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50065/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50065/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50065/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50065/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50065/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50065/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50065/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50065/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50065/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50065/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50065/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="9705223657"/>
+        <contact name="Ranger Station" number="9705223657"/>
+        <amenity distance="Within Facility" name="Beach (Swimming)"/>
+        <amenity distance="Within Facility" name="Beach House"/>
+        <amenity distance="Within Facility" name="Beaching Your Boat"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Bird Watching"/>
+        <amenity distance="Within Facility" name="Boat Ramp"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Camper Services Bldg"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Firewood Available"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Group Pavilions Available"/>
+        <amenity distance="Within Facility" name="Group Picnic Area"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Ice Fishing"/>
+        <amenity distance="Within Facility" name="Interpretitive Programs"/>
+        <amenity distance="Within Facility" name="Jet Skiing"/>
+        <amenity distance="Within Facility" name="Laundry"/>
+        <amenity distance="Within Facility" name="Laundry Facilities"/>
+        <amenity distance="Within Facility" name="Nature Study Exhibits"/>
+        <amenity distance="Within Facility" name="Parking"/>
+        <amenity distance="Within Facility" name="Photography"/>
+        <amenity distance="Within Facility" name="Picnic Tables"/>
+        <amenity distance="Within Facility" name="Picnicking"/>
+        <amenity distance="Within Facility" name="Playground"/>
+        <amenity distance="Within Facility" name="Proximity To Camp Serv."/>
+        <amenity distance="Within Facility" name="Ranger Station"/>
+        <amenity distance="Within Facility" name="Sailing And Sailboarding"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Skating"/>
+        <amenity distance="Within Facility" name="Store (Retail)"/>
+        <amenity distance="Within Facility" name="Swimming"/>
+        <amenity distance="Within Facility" name="Visitor Center"/>
+        <amenity distance="Within Facility" name="Water Skiing"/>
+        <amenity distance="Within Facility" name="Wildlife Watching Opportunity"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:35:50 GMT
+recorded_with: VCR 2.5.0

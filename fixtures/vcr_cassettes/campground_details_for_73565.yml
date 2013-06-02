@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73565
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:29:07 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:29:07 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=69CDF1053A040EB97E7B518E6DBF89F5.web04-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2745525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=69CDF1053A040EB97E7B518E6DBF89F5.web04-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:29:07 GMT; Path=/
+      Content-Length:
+      - '3272'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Horseshoe Campground sits along its namesake creek near a grassy meadow among aspen, Engelmann spruce and Bristlecone pines in the San Isabel National Forest. Trees provide good privacy between campsites, which are located at the base of Sheep Mountain." drivingDirection="From Fairplay travel south on US-285 for about one mile. Turn right onto County Road 18. Continue for approximately 6 miles to the campground on the right." facilitiesDescription="The campground fits RVs up to 25 feet in length. Picnic tables, vault toilets, drinking water and campfire rings are provided." facility="HORSESHOE CAMPGROUND" facilityID="73565" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=73565&amp;cmp=39-32--mcmire" importantInformation=" Be bear aware; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating This is a high elevation facility, please use caution when traveling from lower elevations No RV hookups are available Outside the reservation season, sites are first-come, first-served For more information on Pike and San Isabel National Forests, click here " latitude="39.2016667" longitude="-106.0861111" nearbyAttrctionDescription="The nearest town is Fairplay, Colorado, a historic gold mining settlement of the Pikes Peak Gold Rush. The town has an open air museum that sets that helps recreate the life and times of the 19th century gold rush era.     The nearby County Route 18 marks the Horseshoe/Fourmile Historic Auto Tour." note="" orientationDescription="Hikers looking for the thrill of &amp;amp;quot;fourteeners,&amp;amp;quot; the term for mountain peaks above 14,000 feet, will find Horseshoe Campground to be an ideal location to camp. The primitive campground is located near Mount Sherman, Lincoln, Bross and Democrat - all impressive peaks for avid hikers. At elevation 10,600 feet, it&amp;amp;#39;s not hard to find fantastic mountain views." recreationDescription="Visitors enjoy the Limber Grove Trail, a 3-mile mountainside path that winds through 1,000-year-old limber pine with gigantic twisted trunks. Fishing or wading in Horseshoe Creek are also popular pastimes." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=73565&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="HOCG" state="Colorado" streetAddress="" zip=""/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7198362031"/>
+        <contact name="Ranger Station" number="7198362031"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Scenic Drive"/>
+        <amenity distance="Within Facility" name="Trails"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:29:07 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73542&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:37:43 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:37:43 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=BDA12F0202C85C60FF7904674069EECE.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=BDA12F0202C85C60FF7904674069EECE.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:37:43 GMT; Path=/
+      Content-Length:
+      - '6039'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="18" parkId="73542" resultType="campsites" siteType="2001">
+        <result Loop="BUFFALO SPRINGS " Maxeqplen="40" Maxpeople="8" Site="001" SiteId="129134" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="508.526916503906" mapy="566.950805664063" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BUFFALO SPRINGS " Maxeqplen="40" Maxpeople="8" Site="002" SiteId="129135" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="546.692565917969" mapy="520.037841796875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BUFFALO SPRINGS " Maxeqplen="40" Maxpeople="8" Site="003" SiteId="129136" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="446.834808349609" mapy="404.017669677734" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BUFFALO SPRINGS " Maxeqplen="25" Maxpeople="8" Site="004" SiteId="129137" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="510.39697265625" mapy="383.916748046875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BUFFALO SPRINGS " Maxeqplen="40" Maxpeople="8" Site="005" SiteId="129138" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="268.632263183594" mapy="273.213653564453" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BUFFALO SPRINGS " Maxeqplen="25" Maxpeople="8" Site="006" SiteId="129139" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="356.905883789063" mapy="257.365905761719" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BUFFALO SPRINGS " Maxeqplen="40" Maxpeople="8" Site="007" SiteId="129140" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BUFFALO SPRINGS " Maxeqplen="40" Maxpeople="8" Site="008" SiteId="129141" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="223.922760009766" mapy="219.987335205078" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BUFFALO SPRINGS " Maxeqplen="35" Maxpeople="8" Site="009" SiteId="129142" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="245.291915893555" mapy="592.007080078125" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BUFFALO SPRINGS " Maxeqplen="40" Maxpeople="8" Site="010" SiteId="129151" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="158.245086669922" mapy="480.842834472656" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BUFFALO SPRINGS " Maxeqplen="30" Maxpeople="8" Site="011" SiteId="129143" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="262.774841308594" mapy="662.797790527344" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BUFFALO SPRINGS " Maxeqplen="35" Maxpeople="8" Site="012" SiteId="129144" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="198.844390869141" mapy="619.275024414063" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BUFFALO SPRINGS " Maxeqplen="35" Maxpeople="8" Site="013" SiteId="129145" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="297.556762695313" mapy="750.099914550781" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BUFFALO SPRINGS " Maxeqplen="28" Maxpeople="8" Site="014" SiteId="129146" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="257.529724121094" mapy="794.103881835938" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BUFFALO SPRINGS " Maxeqplen="24" Maxpeople="8" Site="015" SiteId="129147" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BUFFALO SPRINGS " Maxeqplen="27" Maxpeople="8" Site="016" SiteId="129148" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="364.972503662109" mapy="934.150817871094" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BUFFALO SPRINGS " Maxeqplen="40" Maxpeople="8" Site="017" SiteId="129149" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="375.012908935547" mapy="871.017883300781" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BUFFALO SPRINGS " Maxeqplen="35" Maxpeople="8" Site="018" SiteId="129150" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="493.508117675781" mapy="939.99951171875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:02:15 GMT
+recorded_with: VCR 2.5.0

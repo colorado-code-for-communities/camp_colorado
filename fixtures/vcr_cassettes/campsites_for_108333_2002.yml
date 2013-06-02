@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=108333&siteType=2002
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:24:16 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:24:16 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=17334F92A7E0FFF9BC6A020D48442EA9.web05-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2645525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=17334F92A7E0FFF9BC6A020D48442EA9.web05-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:24:16 GMT; Path=/
+      Content-Length:
+      - '11117'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="30" parkId="108333" resultType="campsites" siteType="2002">
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="01" SiteId="329734" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="591.21" mapy="90.14" sitePhoto="/webphotos//NRSO/pid108333/sid329734/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Pioneer Campground" Maxeqplen="60" Maxpeople="8" Site="02" SiteId="329735" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="561.08" mapy="108.41" sitePhoto="/webphotos//NRSO/pid108333/sid329735/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="03" SiteId="329736" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="586.76" mapy="134.1" sitePhoto="/webphotos//NRSO/pid108333/sid329736/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="04" SiteId="329737" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="631.22" mapy="128.66" sitePhoto="/webphotos//NRSO/pid108333/sid329737/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="05" SiteId="329738" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="624.8" mapy="158.3" sitePhoto="/webphotos//NRSO/pid108333/sid329738/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="06" SiteId="329739" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="669.75" mapy="149.9" sitePhoto="/webphotos//NRSO/pid108333/sid329739/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="07" SiteId="329740" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="674.19" mapy="183.99" sitePhoto="/webphotos//NRSO/pid108333/sid329740/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Pioneer Campground" Maxeqplen="60" Maxpeople="8" Site="08" SiteId="329741" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="712.23" mapy="193.37" sitePhoto="/webphotos//NRSO/pid108333/sid329741/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="09" SiteId="329742" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="703.17" mapy="160.6" sitePhoto="/webphotos//NRSO/pid108333/sid329742/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="10" SiteId="329743" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="719.14" mapy="148.92" sitePhoto="/webphotos//NRSO/pid108333/sid329743/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="11" SiteId="329744" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="749.77" mapy="188.93" sitePhoto="/webphotos//NRSO/pid108333/sid329744/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="12" SiteId="329745" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="803.95" mapy="233.01" sitePhoto="/webphotos//NRSO/pid108333/sid329745/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="13" SiteId="329746" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="811.02" mapy="276.85" sitePhoto="/webphotos//NRSO/pid108333/sid329746/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Pioneer Campground" Maxeqplen="60" Maxpeople="8" Site="14" SiteId="329747" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="835.22" mapy="270.43" sitePhoto="/webphotos//NRSO/pid108333/sid329747/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="15" SiteId="329748" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="824.99" mapy="235.89" sitePhoto="/webphotos//NRSO/pid108333/sid329748/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="16" SiteId="329749" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="822.38" mapy="172.13" sitePhoto="/webphotos//NRSO/pid108333/sid329749/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="17" SiteId="329750" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="807.06" mapy="160.77" sitePhoto="/webphotos//NRSO/pid108333/sid329750/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="18" SiteId="329751" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="820.4" mapy="132.12" sitePhoto="/webphotos//NRSO/pid108333/sid329751/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="19" SiteId="329752" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="785.82" mapy="150.89" sitePhoto="/webphotos//NRSO/pid108333/sid329752/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="20" SiteId="329753" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="802.12" mapy="124.22" sitePhoto="/webphotos//NRSO/pid108333/sid329753/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="21" SiteId="329754" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="760.14" mapy="127.68" sitePhoto="/webphotos//NRSO/pid108333/sid329754/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="22" SiteId="329755" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="775.95" mapy="99.52" sitePhoto="/webphotos//NRSO/pid108333/sid329755/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="23" SiteId="329756" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="729.51" mapy="113.35" sitePhoto="/webphotos//NRSO/pid108333/sid329756/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="24" SiteId="329757" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="745.32" mapy="88.65" sitePhoto="/webphotos//NRSO/pid108333/sid329757/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="25" SiteId="329758" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="711.73" mapy="102.49" sitePhoto="/webphotos//NRSO/pid108333/sid329758/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="26" SiteId="329759" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="723.59" mapy="73.84" sitePhoto="/webphotos//NRSO/pid108333/sid329759/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="27" SiteId="329760" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="701.36" mapy="64.45" sitePhoto="/webphotos//NRSO/pid108333/sid329760/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="28" SiteId="329761" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="675.18" mapy="93.59" sitePhoto="/webphotos//NRSO/pid108333/sid329761/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="29" SiteId="329762" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="648.51" mapy="92.61" sitePhoto="/webphotos//NRSO/pid108333/sid329762/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pioneer Campground" Maxeqplen="40" Maxpeople="8" Site="30" SiteId="329763" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="643.57" mapy="55.07" sitePhoto="/webphotos//NRSO/pid108333/sid329763/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:02:04 GMT
+recorded_with: VCR 2.5.0

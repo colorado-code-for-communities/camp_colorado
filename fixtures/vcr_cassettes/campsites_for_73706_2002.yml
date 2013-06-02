@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73706&siteType=2002
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:33:20 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:33:20 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=97A138E14A5E92D2FC32ECF60786836B.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=97A138E14A5E92D2FC32ECF60786836B.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:33:20 GMT; Path=/
+      Content-Length:
+      - '5161'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="14" parkId="73706" resultType="campsites" siteType="2002">
+        <result Loop="MARSHALL PARK " Maxeqplen="95" Maxpeople="8" Site="001" SiteId="134128" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="529.35" mapy="468.8" sitePhoto="/webphotos//NRSO/pid73706/sid134128/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MARSHALL PARK " Maxeqplen="66" Maxpeople="8" Site="002" SiteId="134129" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="608.15" mapy="516.96" sitePhoto="/webphotos//NRSO/pid73706/sid134129/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MARSHALL PARK " Maxeqplen="75" Maxpeople="8" Site="003" SiteId="134130" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="686.12" mapy="565.18" sitePhoto="/webphotos//NRSO/pid73706/sid134130/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MARSHALL PARK " Maxeqplen="48" Maxpeople="8" Site="004" SiteId="134131" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="811.79" mapy="680.57" sitePhoto="/webphotos//NRSO/pid73706/sid134131/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MARSHALL PARK " Maxeqplen="44" Maxpeople="8" Site="005" SiteId="134132" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="815.39" mapy="644.23" sitePhoto="/webphotos//NRSO/pid73706/sid134132/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MARSHALL PARK " Maxeqplen="49" Maxpeople="8" Site="006" SiteId="134133" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="792.47" mapy="600.32" sitePhoto="/webphotos//NRSO/pid73706/sid134133/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MARSHALL PARK " Maxeqplen="79" Maxpeople="8" Site="008" SiteId="134135" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="673.69" mapy="473.96" sitePhoto="/webphotos//NRSO/pid73706/sid134135/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MARSHALL PARK " Maxeqplen="74" Maxpeople="8" Site="009" SiteId="134136" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="703.37" mapy="442.21" sitePhoto="/webphotos//NRSO/pid73706/sid134136/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MARSHALL PARK " Maxeqplen="56" Maxpeople="8" Site="010" SiteId="134137" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="676.7" mapy="398.63" sitePhoto="/webphotos//NRSO/pid73706/sid134137/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MARSHALL PARK " Maxeqplen="55" Maxpeople="8" Site="011" SiteId="134138" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="646.56" mapy="358.46" sitePhoto="/webphotos//NRSO/pid73706/sid134138/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MARSHALL PARK " Maxeqplen="103" Maxpeople="8" Site="012" SiteId="134139" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="556.39" mapy="334.05" sitePhoto="/webphotos//NRSO/pid73706/sid134139/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MARSHALL PARK " Maxeqplen="40" Maxpeople="8" Site="013" SiteId="134140" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="323.42" mapy="346.67" sitePhoto="/webphotos//NRSO/pid73706/sid134140/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MARSHALL PARK " Maxeqplen="56" Maxpeople="8" Site="014" SiteId="134141" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="291.8" mapy="393.19" sitePhoto="/webphotos//NRSO/pid73706/sid134141/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MARSHALL PARK " Maxeqplen="49" Maxpeople="8" Site="015" SiteId="134142" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="397.01" mapy="383.26" sitePhoto="/webphotos//NRSO/pid73706/sid134142/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:33:20 GMT
+recorded_with: VCR 2.5.0

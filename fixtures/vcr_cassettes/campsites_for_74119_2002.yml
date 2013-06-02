@@ -1,0 +1,89 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=74119&siteType=2002
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:35:17 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:35:17 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=DBCF6790696C93D53395FF08CFB61028.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=DBCF6790696C93D53395FF08CFB61028.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:35:17 GMT; Path=/
+      Content-Length:
+      - '14430'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="43" parkId="74119" resultType="campsites" siteType="2002">
+        <result Loop="ALVARADO" Maxeqplen="40" Maxpeople="8" Site="01" SiteId="143427" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="730.736755371094" mapy="364.060241699219" sitePhoto="/webphotos//NRSO/pid74119/sid143427/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="27" Maxpeople="8" Site="02" SiteId="143428" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="660.204528808594" mapy="371.710479736328" sitePhoto="/webphotos//NRSO/pid74119/sid143428/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="45" Maxpeople="8" Site="03" SiteId="143429" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="734.094055175781" mapy="389.764129638672" sitePhoto="/webphotos//NRSO/pid74119/sid143429/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="32" Maxpeople="8" Site="04" SiteId="143430" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="660.094421386719" mapy="397.059844970703" sitePhoto="/webphotos//NRSO/pid74119/sid143430/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="36" Maxpeople="8" Site="05" SiteId="143431" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="673.643615722656" mapy="428.848449707031" sitePhoto="/webphotos//NRSO/pid74119/sid143431/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="35" Maxpeople="8" Site="06" SiteId="143432" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="749.206665039063" mapy="424.679443359375" sitePhoto="/webphotos//NRSO/pid74119/sid143432/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="35" Maxpeople="8" Site="07" SiteId="143434" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="766.924865722656" mapy="456.468017578125" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="35" Maxpeople="8" Site="08" SiteId="143435" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="803.924682617188" mapy="483.045349121094" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="40" Maxpeople="8" Site="09" SiteId="143439" SiteReserveType="site-specific" SiteType="RV NONELECTRIC" mapx="808.614807128906" mapy="513.791687011719" sitePhoto="/webphotos//NRSO/pid74119/sid143439/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="20" Maxpeople="8" Site="10" SiteId="143440" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="741.910888671875" mapy="497.115692138672" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="22" Maxpeople="8" Site="11" SiteId="143441" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="735.136291503906" mapy="548.185852050781" sitePhoto="/webphotos//NRSO/pid74119/sid143441/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="18" Maxpeople="8" Site="12" SiteId="143442" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="718.460327148438" mapy="492.946716308594" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="18" Maxpeople="8" Site="13" SiteId="143443" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="686.150634765625" mapy="474.186248779297" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="35" Maxpeople="8" Site="14" SiteId="143444" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="659.052185058594" mapy="464.284881591797" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="30" Maxpeople="16" Site="15" SiteId="143445" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="656.446594238281" mapy="521.08740234375" sitePhoto="/webphotos//NRSO/pid74119/sid143445/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="24" Maxpeople="8" Site="16" SiteId="143446" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="752.44" mapy="565.09" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="30" Maxpeople="8" Site="17" SiteId="143447" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="767.69" mapy="586.22" sitePhoto="/webphotos//NRSO/pid74119/sid143447/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="40" Maxpeople="8" Site="18" SiteId="143448" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="828.4" mapy="614.53" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="40" Maxpeople="8" Site="19" SiteId="143449" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="769.66" mapy="672.65" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="40" Maxpeople="8" Site="20" SiteId="143450" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="754.03" mapy="676.93" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="40" Maxpeople="16" Site="21" SiteId="143451" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="804.17" mapy="670.26" sitePhoto="/webphotos//NRSO/pid74119/sid143451/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="40" Maxpeople="8" Site="22" SiteId="143452" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="822.59" mapy="673.36" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="40" Maxpeople="16" Site="23" SiteId="143453" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="832.74" mapy="674.33" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="32" Maxpeople="8" Site="24" SiteId="143454" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="611.36" mapy="614.12" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="32" Maxpeople="8" Site="25" SiteId="143455" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="561.84" mapy="652.38" sitePhoto="/webphotos//NRSO/pid74119/sid143455/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="20" Maxpeople="8" Site="26" SiteId="143456" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="645.3" mapy="618.1" sitePhoto="/webphotos//NRSO/pid74119/sid143456/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="22" Maxpeople="8" Site="27" SiteId="143457" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="670.49" mapy="627.87" sitePhoto="/webphotos//NRSO/pid74119/sid143457/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="30" Maxpeople="8" Site="28" SiteId="143458" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="698.86" mapy="634.67" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="40" Maxpeople="8" Site="29" SiteId="143459" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="783.66" mapy="655.52" sitePhoto="/webphotos//NRSO/pid74119/sid143459/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="25" Maxpeople="8" Site="30" SiteId="143460" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="414.35" mapy="524.14" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="38" Maxpeople="8" Site="31" SiteId="143461" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="416.16" mapy="438.66" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="30" Maxpeople="8" Site="32" SiteId="143462" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="376.95" mapy="502.62" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="32" Maxpeople="8" Site="33" SiteId="143463" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="393.98" mapy="418.48" sitePhoto="/webphotos//NRSO/pid74119/sid143463/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="24" Maxpeople="8" Site="34" SiteId="143464" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="319.84" mapy="453.88" sitePhoto="/webphotos//NRSO/pid74119/sid143464/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="25" Maxpeople="8" Site="35" SiteId="143465" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="366.47" mapy="398.26" sitePhoto="/webphotos//NRSO/pid74119/sid143465/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="27" Maxpeople="8" Site="36" SiteId="143466" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="277.71" mapy="395.21" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="26" Maxpeople="8" Site="37" SiteId="143467" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="267.58" mapy="367.21" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="25" Maxpeople="8" Site="38" SiteId="143468" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="248.18" mapy="377.98" sitePhoto="/webphotos//NRSO/pid74119/sid143468/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="18" Maxpeople="8" Site="39" SiteId="143469" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="257.36" mapy="422.67" sitePhoto="/webphotos//NRSO/pid74119/sid143469/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="25" Maxpeople="8" Site="40" SiteId="143470" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="101.51" mapy="525.62" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="24" Maxpeople="8" Site="41" SiteId="143471" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="174.44" mapy="567.53" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="30" Maxpeople="8" Site="42" SiteId="143472" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="194.29" mapy="617.63" sitePhoto="/webphotos//NRSO/pid74119/sid143472/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ALVARADO" Maxeqplen="24" Maxpeople="8" Site="43" SiteId="143473" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="251.97" mapy="667.98" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 01:59:53 GMT
+recorded_with: VCR 2.5.0

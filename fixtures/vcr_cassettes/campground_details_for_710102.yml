@@ -1,0 +1,80 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=LARC&parkId=710102
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:24:27 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:24:27 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=95168440B72AD3CFB89F1C41A5451C9B.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=95168440B72AD3CFB89F1C41A5451C9B.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:24:27 GMT; Path=/
+      Content-Length:
+      - '5375'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="In addition to camping permits, daily or annual entrance permits are required and available at park entrances. Annual permits are available online, ahead of time. Allow two weeks for arrival before your trip." contractID="LARC" description="Carter Lake is located in the foothills west of Loveland at an elevation of 5,760 feet. It is a part of the Colorado-Big Thompson Project operated by the Bureau of Reclamation and the Northern Colorado Water Conservancy District. The purpose of this water project is to divert water from the west slope to the east slope for drinking water, irrigation, and hydropower generation. The Bureau of Reclamation is solely responsible for power generation. The agencies jointly manage water levels for irrigation, municipal, and industry use.     Recreation is managed by Larimer County Natural Resources. Three miles long and about one mile wide, Carter Lake is a 1,100-acre reservoir surrounded by 1,000 acres of public lands and is popular for fishing, sailing, camping, swimming, scuba diving, rock climbing, and water skiing. It is open year round. Park Entrance Permits and Camping Fees are required." drivingDirection="(Park address: 1800 S.C.R. 31; Loveland, CO 80537) Take I-25 to the Berthoud Exit (Exit 250). Turn left (west) onto Highway 56 and continue for 9 1/2 miles, passing through the town of Berthoud. At the foothills, the road will curve sharply to the right (north). Turn left (west) onto County Road 8E and continue for 3 miles to the entrance station where you can purchase permits. Follow County Road 8E west to the intersection with County Road 31 about halfway up the hill. Turn right on County Road 31 and continue along the east side of the lake to the second campground which is on the northeast part of the lake." facilitiesDescription="" facility="Carter Lake" facilityID="710102" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=LARC&amp;parkId=710102&amp;cmp=39-32--mcmire" importantInformation="none" latitude="40.3358333" longitude="-105.2166667" nearbyAttrctionDescription="" note="Drinking water and vault restrooms located in each campground. Showers at Eagle campground only." orientationDescription="" recreationDescription="" regionName="Larimer Region" reservationUrl="/campsiteSearch.do?contractCode=LARC&amp;parkId=710102&amp;cmp=39-32--mcmire">
+        <address city="LOVELAND" country="United States" shortName="LRM1" state="Colorado" streetAddress="1800 SOUTH COUNTY ROAD 31" zip="80537"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="9706794570"/>
+        <contact name="Ranger Station" number="9706794570"/>
+        <amenity distance="Within Facility" name="Boat Gasoline"/>
+        <amenity distance="Within Facility" name="Boat Launch Ramp"/>
+        <amenity distance="Within Facility" name="Boat Mooring at some sites"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Food Concessions"/>
+        <amenity distance="Within Facility" name="Hiking Trail"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Lake"/>
+        <amenity distance="Within Facility" name="Lake Front"/>
+        <amenity distance="Within Facility" name="Marina"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Parking"/>
+        <amenity distance="Within Facility" name="Picnic Shelter"/>
+        <amenity distance="Within Facility" name="Picnic Tables"/>
+        <amenity distance="Within Facility" name="Picnicing"/>
+        <amenity distance="Within Facility" name="Playground"/>
+        <amenity distance="Within Facility" name="Restroom"/>
+        <amenity distance="Within Facility" name="Scuba Diving"/>
+        <amenity distance="Within Facility" name="Swimming Beach"/>
+        <amenity distance="Within Facility" name="Water Drinking"/>
+        <amenity distance="Within Facility" name="Water Skiing"/>
+        <amenity distance="Within Facility" name="Windsurfing/Sailboarding"/>
+        <bulletin description="ADA campsites may be reserved through the Call Center only. " headline="Attention"/>
+        <bulletin description="The person making the reservation is responsible for making sure all site occupants know and obey regulations. " headline="Important Notice"/>
+        <bulletin description="&amp;lt;li&amp;gt;Sites must be reserved a minimum of 1 day prior to arrival day.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Any remaining sites &amp;lt;b&amp;gt;MAY&amp;lt;/b&amp;gt; be available first-come, first-serve at the campground.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt; &amp;lt;u&amp;gt;Monday -Thursday&amp;lt;/u&amp;gt;: first-come, first-serve sites are usually available.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt; &amp;lt;u&amp;gt;Friday, Saturday, Sunday, and holidays, from Memorial Day weekend through Labor Day weekend&amp;lt;/u&amp;gt;: first-come, first-serve sites are usually &amp;lt;b&amp;gt;NOT&amp;lt;/b&amp;gt; available. &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Availability is limited and &amp;lt;b&amp;gt;NOT&amp;lt;/b&amp;gt; guaranteed.&amp;lt;/li&amp;gt;" headline="Attention"/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:02:49 GMT
+recorded_with: VCR 2.5.0

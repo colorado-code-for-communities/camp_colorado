@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=72365
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:36:41 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:36:41 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=FBF7C654148910575EE44092394921C0.web07-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2845525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=FBF7C654148910575EE44092394921C0.web07-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:36:41 GMT; Path=/
+      Content-Length:
+      - '5852'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Palisades Horse Camp is located 30 miles north of Pagosa Springs, high in the San Juan National Forest. This beautiful area has excellent horseback riding and hiking trails and an abundance of wildlife." drivingDirection="From Pagosa Springs, at the intersection of Highway 160 and Piedra Road/County Road 600, turn north and drive approximately 23 miles to Williams Creek Road/Forest Road 640. Turn right and drive approximately 7 miles to the campground." facilitiesDescription="This equestrian campground offers single- and double-family campsites to campers with horses. Corrals with feeding bins are provided. The corrals are divided into two sections with room for two to three horses on each side, depending on horse temperaments. Hitching racks are set up throughout the campground and a water tank is on-site.    Vault toilets and drinking water are provided. A campground host is on-site, and is very knowledgeable about the area." facility="PALISADES HORSE CAMP" facilityID="72365" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=72365&amp;cmp=39-32--mcmire" importantInformation=" Campground allows Horses and Mules Only; no exceptions. No llamas or other livestock. Campground is for equestrian campers only Grazing is not allowed in the campground; bring adequate certified weed-free feed Campers are responsible for keeping their corrals clean throughout their stay and when they depart Double sites have a divided corral for a maximum of 4 to 6 horses; single sites not sharing a corral can accommodate a maximum of 4 to 6 horses; single sites sharing a corral can accommodate a maximum of 2 to 3 horses This is bear country; practice safe food storage techniques. Click here for more information on the San Juan National Forest " latitude="37.5463889" longitude="-107.1966667" nearbyAttrctionDescription="" note="" orientationDescription="The campground is nestled in a stand of pine, spruce and fir trees, and sits at an elevation of 8,300 feet. The area provides panoramic views of the surrounding meadows and mountains. Williams Creek flows nearby.     The surrounding forest provides a prime wildlife habitat. Bears, deer, elk and moose frequent the area." recreationDescription="Hiking and horseback riding trails are the main attraction at Palisades. The Williams Creek Trail leads directly from the campground into the Weminuche Wilderness, crossing the Continental Divide." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=72365&amp;cmp=39-32--mcmire">
+        <address city="Pagosa Springs" country="United States" shortName="PHCA" state="Colorado" streetAddress="" zip="81147"/>
+        <photo realUrl="/webphotos/NRSO/pid72365/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72365/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72365/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72365/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72365/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72365/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72365/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72365/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72365/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72365/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72365/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72365/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72365/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72365/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72365/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/72365_PHCA.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="6617021420"/>
+        <contact name="Ranger Station" number=""/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Equestrian Sites"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hitching Racks"/>
+        <amenity distance="Within Facility" name="Horse Corrals"/>
+        <amenity distance="Within Facility" name="Horseback Riding Trails"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within 10 Miles" name="Creek Access"/>
+        <amenity distance="Within 10 Miles" name="Dump Station"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:36:41 GMT
+recorded_with: VCR 2.5.0

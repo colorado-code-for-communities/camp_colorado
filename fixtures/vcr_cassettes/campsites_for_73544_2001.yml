@@ -1,0 +1,65 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73544&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:37:04 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:37:04 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=C8DFF242EED54C508FA1D6ED1F24A799.web08-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2b45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=C8DFF242EED54C508FA1D6ED1F24A799.web08-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:37:04 GMT; Path=/
+      Content-Length:
+      - '6377'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="19" parkId="73544" resultType="campsites" siteType="2001">
+        <result Loop="BLUE MOUNTAIN " Maxeqplen="26" Maxpeople="8" Site="001" SiteId="129164" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="327.367431640625" mapy="252.845977783203" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BLUE MOUNTAIN " Maxeqplen="35" Maxpeople="8" Site="002" SiteId="129165" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="288.924041748047" mapy="393.918212890625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BLUE MOUNTAIN " Maxeqplen="35" Maxpeople="8" Site="003" SiteId="129188" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="242.627914428711" mapy="426.156280517578" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BLUE MOUNTAIN " Maxeqplen="18" Maxpeople="8" Site="006" SiteId="129168" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="222.357620239258" mapy="622.076110839844" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BLUE MOUNTAIN " Maxeqplen="18" Maxpeople="8" Site="008" SiteId="129170" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="367.5" mapy="704.262390136719" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BLUE MOUNTAIN " Maxeqplen="18" Maxpeople="8" Site="009" SiteId="129172" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="432.650054931641" mapy="606.08837890625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BLUE MOUNTAIN " Maxeqplen="26" Maxpeople="8" Site="013" SiteId="129177" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="700.831848144531" mapy="889.421752929688" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BLUE MOUNTAIN " Maxeqplen="28" Maxpeople="8" Site="014" SiteId="129178" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="805.377319335938" mapy="883.361145019531" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BLUE MOUNTAIN " Maxeqplen="30" Maxpeople="8" Site="019" SiteId="129185" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="565.879516601563" mapy="451.540008544922" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BLUE MOUNTAIN " Maxeqplen="16" Maxpeople="8" Site="020" SiteId="129186" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="628.476257324219" mapy="355.098510742188" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BLUE MOUNTAIN " Maxeqplen="18" Maxpeople="8" Site="007" SiteId="129169" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="300.831878662109" mapy="613.664123535156" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BLUE MOUNTAIN " Maxeqplen="20" Maxpeople="8" Site="010" SiteId="129173" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="497.801574707031" mapy="627.300476074219" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BLUE MOUNTAIN " Maxeqplen="26" Maxpeople="8" Site="011" SiteId="129174" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="532.650085449219" mapy="657.603515625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BLUE MOUNTAIN " Maxeqplen="20" Maxpeople="8" Site="012" SiteId="129175" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="623.55908203125" mapy="763.664123535156" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BLUE MOUNTAIN " Maxeqplen="22" Maxpeople="8" Site="015" SiteId="129179" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="769.013671875" mapy="828.815673828125" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BLUE MOUNTAIN " Maxeqplen="18" Maxpeople="8" Site="016" SiteId="129180" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="807.940124511719" mapy="716.955810546875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BLUE MOUNTAIN " Maxeqplen="28" Maxpeople="8" Site="017" SiteId="129182" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="718.498352050781" mapy="623.219848632813" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BLUE MOUNTAIN " Maxeqplen="25" Maxpeople="8" Site="018" SiteId="129183" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="661.33642578125" mapy="513.770446777344" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BLUE MOUNTAIN " Maxeqplen="22" Maxpeople="8" Site="021" SiteId="129187" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="546.442260742188" mapy="328.920440673828" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:01:36 GMT
+recorded_with: VCR 2.5.0

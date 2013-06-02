@@ -1,0 +1,81 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50066
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:40:42 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:40:42 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=8D3A5862C2F7E4B954D9FEA0C20351DB.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=8D3A5862C2F7E4B954D9FEA0C20351DB.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:40:42 GMT; Path=/
+      Content-Length:
+      - '5163'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description="In the shadow of the Great Sand Dunes National Monument, is peaceful San Luis State Park and Wildlife area. Nestled among low sand dunes in this unique desert are wildlife-laden wetlands and approximately nine miles of easy, level hiking and biking trails. Waterfowl, shorebirds songbirds and raptors fill the sky over this outstanding watchable wildlife area during most of the year.  The park features fishing, windsurfing, boating, water skiing, picnicking, photographic opportunies and amateur archaeology. The campsites have a view of the lake and can accommodate motorhomes, trailers and tents. " drivingDirection=" Take highway 160 west from Walsenburg for 60 miles. North on Highway 150, 13.5 miles. Left on Six Mile Lane for 8 miles, then North 1/8 mile to park entrance.   Winter Phone Number : (719)738-2376 " facilitiesDescription="" facility="SAN LUIS STATE PARK" facilityID="50066" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50066&amp;cmp=39-32--mcmire" importantInformation=" In addition to the camping fee, an entrance fee is required at all state parks! Shade may be provided naturally with trees and other vegetation or by man made shade shelter. Please call the park for specic details. Water hydrants are located througout the campground to fill tanks, but there are no individual water hookups at each site. " latitude="37.675" longitude="-105.7391667" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="Southeast Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50066&amp;cmp=39-32--mcmire">
+        <address city="MOSCA" country="United States" shortName="SALU" state="Colorado" streetAddress="P.O. BOX 150" zip="81146"/>
+        <photo realUrl="/webphotos/CO/pid50066/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50066/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50066/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50066/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50066/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50066/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50066/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50066/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50066/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50066/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50066/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50066/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50066/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50066/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50066/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="7193782020"/>
+        <contact name="Ranger Station" number="7193782020"/>
+        <amenity distance="Within Facility" name="Bird Watching"/>
+        <amenity distance="Within Facility" name="Boat Launch Ramp"/>
+        <amenity distance="Within Facility" name="Boat Ramp"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Camper Services Bldg"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Firewood Available"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Group Campground"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Ice Fishing"/>
+        <amenity distance="Within Facility" name="Jet Skiing"/>
+        <amenity distance="Within Facility" name="Laundry Facilities"/>
+        <amenity distance="Within Facility" name="Nature Study Exhibits"/>
+        <amenity distance="Within Facility" name="Photography"/>
+        <amenity distance="Within Facility" name="Picnic Tables"/>
+        <amenity distance="Within Facility" name="Picnicking"/>
+        <amenity distance="Within Facility" name="Proximity To Camp Serv."/>
+        <amenity distance="Within Facility" name="Ranger Station"/>
+        <amenity distance="Within Facility" name="Sailing And Sailboarding"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Water Skiing"/>
+        <amenity distance="Within Facility" name="Wildlife Watching Opportunity"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:40:42 GMT
+recorded_with: VCR 2.5.0

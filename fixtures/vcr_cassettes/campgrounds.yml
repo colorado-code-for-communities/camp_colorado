@@ -1,0 +1,1436 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campgrounds?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&pstate=CO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:12:50 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:12:50 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=DC8B8F76AAF75E0F799731D55DC2EC0E.web03-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2445525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=DC8B8F76AAF75E0F799731D55DC2EC0E.web03-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:12:50 GMT; Path=/
+      Content-Length:
+      - '104015'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<resultset
+        count=\"241\" pstate=\"CO\" resultType=\"campgrounds\">\n<result agencyIcon=\"\"
+        agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\"
+        facilityID=\"70572\" facilityName=\" AMPHITHEATER\" faciltyPhoto=\"/images/nophoto.jpg\"
+        latitude=\"38.0225\" longitude=\"-107.6616667\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"AMPH\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"Y\" contractID=\"KOA\"
+        contractType=\"PRIVATE\" facilityID=\"191502\" facilityName=\"Alamosa KOA\"
+        faciltyPhoto=\"/webphotos/KOA/pid191502/0/80x53.jpg\" latitude=\"37.4747222\"
+        longitude=\"-105.7986111\" regionName=\"\" reservationChannel=\"Web Reservable\"
+        shortName=\"B502\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"97524\" facilityName=\"ALDER GUARD STATION\"
+        faciltyPhoto=\"/webphotos/NRSO/pid97524/0/80x53.jpg\" latitude=\"37.7044444\"
+        longitude=\"-106.6466667\" regionName=\"\" reservationChannel=\"\" shortName=\"B524\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"74119\" facilityName=\"ALVARADO CAMPGROUND\"
+        faciltyPhoto=\"/webphotos/NRSO/pid74119/0/80x53.jpg\" latitude=\"38.0788889\"
+        longitude=\"-105.5633333\" regionName=\"\" reservationChannel=\"\" shortName=\"ALVA\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70041\" facilityName=\"ANGEL OF SHAVANO
+        GROUP\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"38.5827778\" longitude=\"-106.22\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"ANSG\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"75397\"
+        facilityName=\"ANSEL WATROUS\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"40.6897083\"
+        longitude=\"-105.3491639\" regionName=\"\" reservationChannel=\"\" shortName=\"ANSE\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70036\" facilityName=\"ARAPAHO BAY\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70036/0/80x53.jpg\" latitude=\"40.1194389\"
+        longitude=\"-105.7558083\" regionName=\"\" reservationChannel=\"\" shortName=\"ARAP\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50067\" facilityName=\"ARKANSAS HEADWATERS
+        RECREATION AREA\" faciltyPhoto=\"/webphotos/CO/pid50067/0/80x53.jpg\" latitude=\"38.5375\"
+        longitude=\"-105.9930556\" regionName=\"\" reservationChannel=\"\" shortName=\"AHRA\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Riverfront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"73543\" facilityName=\"ASPEN (CO)\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"39.4252778\" longitude=\"-105.8408333\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"ASPN\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"70024\"
+        facilityName=\"ASPEN GLADE\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"37.0725\"
+        longitude=\"-106.2730556\" regionName=\"\" reservationChannel=\"\" shortName=\"ASGL\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Riverfront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"93568\" facilityName=\"ASPEN LEAF\"
+        faciltyPhoto=\"/webphotos/NRSO/pid93568/0/80x53.jpg\" latitude=\"38.6505556\"
+        longitude=\"-108.6736111\" regionName=\"\" reservationChannel=\"\" shortName=\"ASLF\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"72084\" facilityName=\"ASPENGLEN CAMPGROUND\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"40.4222222\" longitude=\"-105.6202778\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"ASPC\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"70233\"
+        facilityName=\"BABY DOE\" faciltyPhoto=\"/webphotos/NRSO/pid70233/0/80x53.jpg\"
+        latitude=\"39.2697222\" longitude=\"-106.3505556\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"BABY\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"73780\" facilityName=\"BASSAM CABIN\"
+        faciltyPhoto=\"/webphotos/NRSO/pid73780/0/80x53.jpg\" latitude=\"38.7466667\"
+        longitude=\"-105.9433333\" regionName=\"\" reservationChannel=\"\" shortName=\"BSMC\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"72021\" facilityName=\"BELLAIRE LAKE
+        CAMPGROUND\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"40.7651417\"
+        longitude=\"-105.6118667\" regionName=\"\" reservationChannel=\"\" shortName=\"BELC\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70040\" facilityName=\"BIG CREEK LAKES
+        CAMPGROUND\" faciltyPhoto=\"/webphotos/NRSO/pid70040/0/80x53.jpg\" latitude=\"40.9363889\"
+        longitude=\"-106.6116667\" regionName=\"\" reservationChannel=\"\" shortName=\"BIGL\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70537\" facilityName=\"BIG MEADOWS DEL
+        NORTE\" faciltyPhoto=\"/webphotos/NRSO/pid70537/0/80x53.jpg\" latitude=\"37.5380556\"
+        longitude=\"-106.7961111\" regionName=\"\" reservationChannel=\"\" shortName=\"BIGS\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"72119\" facilityName=\"BLACK BEAR\"
+        faciltyPhoto=\"/webphotos/NRSO/pid72119/0/80x53.jpg\" latitude=\"39.0522222\"
+        longitude=\"-108.0811111\" regionName=\"\" reservationChannel=\"\" shortName=\"BLBR\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"74059\" facilityName=\"Black Canyon
+        of the Gunnison NP South Rim Campground\" faciltyPhoto=\"/webphotos/NRSO/pid74059/0/80x53.jpg\"
+        latitude=\"38.5505556\" longitude=\"-107.6866667\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"SRCG\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"72338\" facilityName=\"BLANCO RIVER
+        GROUP CAMPGROUND\" faciltyPhoto=\"/webphotos/NRSO/pid72338/0/80x53.jpg\" latitude=\"37.1452778\"
+        longitude=\"-106.8830556\" regionName=\"\" reservationChannel=\"\" shortName=\"BRCA\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Riverfront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"73544\" facilityName=\"BLUE MOUNTAIN\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"38.9613889\" longitude=\"-105.3613889\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"BLMT\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"70421\"
+        facilityName=\"BOGAN FLATS CAMPGROUND GRP S\" faciltyPhoto=\"/webphotos/NRSO/pid70421/0/80x53.jpg\"
+        latitude=\"39.0997222\" longitude=\"-107.2583333\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"BOGA\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50019\" facilityName=\"BOYD LAKE State
+        Park\" faciltyPhoto=\"/webphotos/CO/pid50019/0/80x53.jpg\" latitude=\"40.4477778\"
+        longitude=\"-105.0372222\" regionName=\"\" reservationChannel=\"\" shortName=\"BOLA\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"75371\" facilityName=\"BREWERY CREEK
+        GUARD STATION\" faciltyPhoto=\"/webphotos/NRSO/pid75371/0/80x53.jpg\" latitude=\"38.2877778\"
+        longitude=\"-106.1677778\" regionName=\"\" reservationChannel=\"\" shortName=\"BCGS\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"108333\" facilityName=\"BUCKEYE RECREATION
+        AREA (CO) \" faciltyPhoto=\"/webphotos/NRSO/pid108333/0/80x53.jpg\" latitude=\"38.4454417\"
+        longitude=\"-109.0430722\" regionName=\"\" reservationChannel=\"\" shortName=\"BERA\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70052\" facilityName=\"BUFFALO CAMPGROUND\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70052/0/80x53.jpg\" latitude=\"39.3415944\"
+        longitude=\"-105.329625\" regionName=\"\" reservationChannel=\"\" shortName=\"BUF1\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"73542\" facilityName=\"BUFFALO SPRINGS\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"39.0338889\" longitude=\"-105.9891667\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"BUSP\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"109084\"
+        facilityName=\"BURNING BEAR CAMPGROUND\" faciltyPhoto=\"/images/nophoto.jpg\"
+        latitude=\"39.5139111\" longitude=\"-105.71\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"C084\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70760\" facilityName=\"CAMP DICK\" faciltyPhoto=\"/images/nophoto.jpg\"
+        latitude=\"40.13\" longitude=\"-105.5183333\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"CAMD\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70690\" facilityName=\"CAMP HALE EAST
+        FORK GROUP\" faciltyPhoto=\"/webphotos/NRSO/pid70690/0/80x53.jpg\" latitude=\"39.2933333\"
+        longitude=\"-106.4175\" regionName=\"\" reservationChannel=\"\" shortName=\"EAF1\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70570\" facilityName=\"CAMP HALE MEMORIAL\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70570/0/80x53.jpg\" latitude=\"39.4202778\"
+        longitude=\"-106.315\" regionName=\"\" reservationChannel=\"\" shortName=\"CAMH\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"75367\" facilityName=\"CARNERO GUARD
+        STATION\" faciltyPhoto=\"/webphotos/NRSO/pid75367/0/80x53.jpg\" latitude=\"37.9883333\"
+        longitude=\"-106.4241667\" regionName=\"\" reservationChannel=\"\" shortName=\"CARN\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"LARC\"
+        contractType=\"COUNTY\" facilityID=\"710102\" facilityName=\"Carter Lake\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"40.3358333\" longitude=\"-105.2166667\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"LRM1\" sitesWithAmps=\"Y\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result agencyIcon=\"\"
+        agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\"
+        facilityID=\"70042\" facilityName=\"CASCADE (COLORADO)\" faciltyPhoto=\"/webphotos/NRSO/pid70042/0/80x53.jpg\"
+        latitude=\"38.7105556\" longitude=\"-106.2441667\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"CASC\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"72178\" facilityName=\"CAYTON CAMPGROUND\"
+        faciltyPhoto=\"/webphotos/NRSO/pid72178/0/80x53.jpg\" latitude=\"37.7713889\"
+        longitude=\"-107.9772222\" regionName=\"\" reservationChannel=\"\" shortName=\"CACM\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Riverfront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70043\" facilityName=\"CHALK LAKE\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70043/0/80x53.jpg\" latitude=\"38.7127778\"
+        longitude=\"-106.2338889\" regionName=\"\" reservationChannel=\"\" shortName=\"CHAL\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70029\" facilityName=\"CHAMBERS LAKE\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70029/0/80x53.jpg\" latitude=\"40.59575\"
+        longitude=\"-105.8428528\" regionName=\"\" reservationChannel=\"\" shortName=\"CHAM\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70422\" facilityName=\"CHAPMAN CAMPGROUND
+        AND GROUP\" faciltyPhoto=\"/webphotos/NRSO/pid70422/0/80x53.jpg\" latitude=\"39.3083333\"
+        longitude=\"-106.6330556\" regionName=\"\" reservationChannel=\"\" shortName=\"CHAP\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50021\" facilityName=\"CHATFIELD State
+        Park\" faciltyPhoto=\"/webphotos/CO/pid50021/0/80x53.jpg\" latitude=\"39.5380556\"
+        longitude=\"-105.0872222\" regionName=\"\" reservationChannel=\"\" shortName=\"CHSR\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50022\" facilityName=\"CHERRY CREEK STATE
+        PARK\" faciltyPhoto=\"/webphotos/CO/pid50022/0/80x53.jpg\" latitude=\"39.6286111\"
+        longitude=\"-104.8305556\" regionName=\"\" reservationChannel=\"\" shortName=\"CHCR\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"Oceanfront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50081\" facilityName=\"CHEYENNE MOUNTAIN
+        STATE PARK\" faciltyPhoto=\"/webphotos/CO/pid50081/0/80x53.jpg\" latitude=\"38.7355556\"
+        longitude=\"-104.8194444\" regionName=\"\" reservationChannel=\"\" shortName=\"CHYM\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70056\" facilityName=\"CHRIS PARK\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70056/0/80x53.jpg\" latitude=\"37.5163889\"
+        longitude=\"-107.8\" regionName=\"\" reservationChannel=\"\" shortName=\"CHRI\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"73877\" facilityName=\"COBBETT LAKE\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"39.0413889\" longitude=\"-107.9830556\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"COBB\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"70032\"
+        facilityName=\"COLD SPRINGS\" faciltyPhoto=\"/webphotos/NRSO/pid70032/0/80x53.jpg\"
+        latitude=\"39.8416667\" longitude=\"-105.4941667\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"COLS\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70044\" facilityName=\"COLLEGIATE PEAKS\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70044/0/80x53.jpg\" latitude=\"38.8130556\"
+        longitude=\"-106.3152778\" regionName=\"\" reservationChannel=\"\" shortName=\"COLV\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70684\" facilityName=\"COLORADO CAMPGROUND\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70684/0/80x53.jpg\" latitude=\"39.0797222\"
+        longitude=\"-105.0933333\" regionName=\"\" reservationChannel=\"\" shortName=\"COLO\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"Y\" contractID=\"KOA\"
+        contractType=\"PRIVATE\" facilityID=\"190162\" facilityName=\"Colorado Springs
+        KOA\" faciltyPhoto=\"/webphotos/KOA/pid190162/0/80x53.jpg\" latitude=\"38.7116667\"
+        longitude=\"-104.7247222\" regionName=\"\" reservationChannel=\"Web Reservable\"
+        shortName=\"A162\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70776\" facilityName=\"COLUMBINE CAMPGROUND\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70776/0/80x53.jpg\" latitude=\"39.8148083\"
+        longitude=\"-105.5518444\" regionName=\"\" reservationChannel=\"\" shortName=\"COLC\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"Y\" contractID=\"KOA\"
+        contractType=\"PRIVATE\" facilityID=\"190902\" facilityName=\"Cotopaxi / Arkansas
+        River KOA\" faciltyPhoto=\"/webphotos/KOA/pid190902/0/80x53.jpg\" latitude=\"38.3786111\"
+        longitude=\"-105.6675\" regionName=\"\" reservationChannel=\"Web Reservable\"
+        shortName=\"A902\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"73563\" facilityName=\"COVE CAMPGROUND\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"38.9105556\" longitude=\"-105.4602778\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"CCAM\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"75490\"
+        facilityName=\"COW CREEK SOUTH\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"39.8794444\"
+        longitude=\"-106.2772222\" regionName=\"\" reservationChannel=\"\" shortName=\"CWCS\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50023\" facilityName=\"CRAWFORD STATE
+        PARK\" faciltyPhoto=\"/webphotos/CO/pid50023/0/80x53.jpg\" latitude=\"38.6819444\"
+        longitude=\"-107.5947222\" regionName=\"\" reservationChannel=\"\" shortName=\"CRAW\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"74152\" facilityName=\"CRESCENT MINING
+        CAMP\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"38.9919444\" longitude=\"-106.4147222\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"CRMC\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"Y\" contractID=\"KOA\" contractType=\"PRIVATE\" facilityID=\"190308\"
+        facilityName=\"Cripple Creek KOA\" faciltyPhoto=\"/webphotos/KOA/pid190308/0/80x53.jpg\"
+        latitude=\"38.7744444\" longitude=\"-105.1175\" regionName=\"\" reservationChannel=\"Web
+        Reservable\" shortName=\"A308\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"
+        state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\"
+        contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"73754\" facilityName=\"CROW
+        VALLEY\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"40.6461111\" longitude=\"-104.3388889\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"CROV\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"73805\"
+        facilityName=\"CUTTHROAT BAY GROUP\" faciltyPhoto=\"/images/nophoto.jpg\"
+        latitude=\"40.1913972\" longitude=\"-105.8736222\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"CBAY\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"96619\" facilityName=\"DAVENPORT CAMPGROUND\"
+        faciltyPhoto=\"/webphotos/NRSO/pid96619/0/80x53.jpg\" latitude=\"38.0555556\"
+        longitude=\"-105.0697222\" regionName=\"\" reservationChannel=\"\" shortName=\"H619\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"96569\" facilityName=\"DAWSONS CABIN\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"39.005\" longitude=\"-106.3533333\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"G569\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"110534\"
+        facilityName=\"DEARHAMER CAMPGROUND\" faciltyPhoto=\"/webphotos/NRSO/pid110534/0/80x53.jpg\"
+        latitude=\"39.3608833\" longitude=\"-106.7386861\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"E534\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Riverfront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"Y\" contractID=\"KOA\"
+        contractType=\"PRIVATE\" facilityID=\"190160\" facilityName=\"Denver East
+        / Strasburg KOA\" faciltyPhoto=\"/webphotos/KOA/pid190160/0/80x53.jpg\" latitude=\"39.7352778\"
+        longitude=\"-104.3213889\" regionName=\"\" reservationChannel=\"Web Reservable\"
+        shortName=\"A160\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"Y\" contractID=\"KOA\"
+        contractType=\"PRIVATE\" facilityID=\"196654\" facilityName=\"Denver West
+        / Central City KOA\" faciltyPhoto=\"/webphotos/KOA/pid196654/0/80x53.jpg\"
+        latitude=\"39.7916667\" longitude=\"-105.5108333\" regionName=\"\" reservationChannel=\"Web
+        Reservable\" shortName=\"B654\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"
+        state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\"
+        contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"70058\" facilityName=\"DIFFICULT
+        CAMPGROUND GRP SITE\" faciltyPhoto=\"/webphotos/NRSO/pid70058/0/80x53.jpg\"
+        latitude=\"39.1416667\" longitude=\"-106.7708333\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"DIFF\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70414\" facilityName=\"DINNER STATION\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"38.9052778\" longitude=\"-106.5861111\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"DINN\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"70030\"
+        facilityName=\"DOWDY LAKE\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"40.7965139\"
+        longitude=\"-105.5655056\" regionName=\"\" reservationChannel=\"\" shortName=\"DOWD\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"75441\" facilityName=\"DUMONT CAMPGROUND\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"40.4040194\" longitude=\"-106.6235167\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"DUMT\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"74064\"
+        facilityName=\"EAST ELK CREEK GROUP CAMPSITE\" faciltyPhoto=\"/webphotos/NRSO/pid74064/0/80x53.jpg\"
+        latitude=\"38.4855556\" longitude=\"-107.1722222\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"EEGS\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"72276\" facilityName=\"EAST FORK CAMPGROUND\"
+        faciltyPhoto=\"/webphotos/NRSO/pid72276/0/80x53.jpg\" latitude=\"37.3741667\"
+        longitude=\"-106.8866667\" regionName=\"\" reservationChannel=\"\" shortName=\"EACA\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Riverfront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"75482\" facilityName=\"EAST MAROON PORTAL
+        PICNIC SITE\" faciltyPhoto=\"/webphotos/NRSO/pid75482/0/80x53.jpg\" latitude=\"39.1030556\"
+        longitude=\"-106.9344444\" regionName=\"\" reservationChannel=\"\" shortName=\"EMPP\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70033\" facilityName=\"ECHO LAKE\" faciltyPhoto=\"/webphotos/NRSO/pid70033/0/80x53.jpg\"
+        latitude=\"39.6562722\" longitude=\"-105.5956417\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"ECH1\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50024\" facilityName=\"ELEVEN MILE STATE
+        PARK\" faciltyPhoto=\"/webphotos/CO/pid50024/0/80x53.jpg\" latitude=\"38.9355556\"
+        longitude=\"-105.5008333\" regionName=\"\" reservationChannel=\"\" shortName=\"ELMI\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"74060\" facilityName=\"ELK CREEK CAMPGROUND\"
+        faciltyPhoto=\"/webphotos/NRSO/pid74060/0/80x53.jpg\" latitude=\"38.4677778\"
+        longitude=\"-107.1758333\" regionName=\"\" reservationChannel=\"\" shortName=\"ELKC\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"75106\" facilityName=\"ELWOOD CABIN\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"37.4041667\" longitude=\"-106.6386111\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"ELWC\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"LARC\" contractType=\"COUNTY\" facilityID=\"300101\"
+        facilityName=\"ESTES PARK CAMPGROUND AT EAST PORTAL RESERVOIR \" faciltyPhoto=\"/images/nophoto.jpg\"
+        latitude=\"40.3277778\" longitude=\"-105.5772222\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"A101\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"LARC\"
+        contractType=\"COUNTY\" facilityID=\"300100\" facilityName=\"ESTES PARK CAMPGROUND
+        AT MARYS LAKE\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"40.3466667\"
+        longitude=\"-105.5325\" regionName=\"\" reservationChannel=\"\" shortName=\"A100\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"Y\" contractID=\"KOA\"
+        contractType=\"PRIVATE\" facilityID=\"191352\" facilityName=\"Estes Park KOA\"
+        faciltyPhoto=\"/webphotos/KOA/pid191352/0/80x53.jpg\" latitude=\"40.3777778\"
+        longitude=\"-105.4866667\" regionName=\"\" reservationChannel=\"Web Reservable\"
+        shortName=\"B352\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70265\" facilityName=\"FATHER DYER\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70265/0/80x53.jpg\" latitude=\"39.2735611\"
+        longitude=\"-106.3486861\" regionName=\"\" reservationChannel=\"\" shortName=\"FATH\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"LARC\"
+        contractType=\"COUNTY\" facilityID=\"710103\" facilityName=\"Flatiron Reservoir\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"40.3697222\" longitude=\"-105.2355556\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"LRM2\" sitesWithAmps=\"Y\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result agencyIcon=\"\"
+        agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\"
+        facilityID=\"70492\" facilityName=\"FLORIDA CAMPGROUND (CO)\" faciltyPhoto=\"/webphotos/NRSO/pid70492/0/80x53.jpg\"
+        latitude=\"37.45\" longitude=\"-107.6663889\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"FLOR\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"Y\" contractID=\"KOA\"
+        contractType=\"PRIVATE\" facilityID=\"190165\" facilityName=\"Fort Collins
+        / Lakeside KOA\" faciltyPhoto=\"/webphotos/KOA/pid190165/0/80x53.jpg\" latitude=\"40.6147222\"
+        longitude=\"-105.1141667\" regionName=\"\" reservationChannel=\"Web Reservable\"
+        shortName=\"A165\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"Y\" contractID=\"KOA\"
+        contractType=\"PRIVATE\" facilityID=\"190159\" facilityName=\"Fort Collins
+        / Poudre Canyon KOA\" faciltyPhoto=\"/webphotos/KOA/pid190159/0/80x53.jpg\"
+        latitude=\"40.6661111\" longitude=\"-105.1894444\" regionName=\"\" reservationChannel=\"Web
+        Reservable\" shortName=\"A159\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"
+        state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"Y\"
+        contractID=\"KOA\" contractType=\"PRIVATE\" facilityID=\"190163\" facilityName=\"Fort
+        Collins North / Wellington KOA\" faciltyPhoto=\"/webphotos/KOA/pid190163/0/80x53.jpg\"
+        latitude=\"40.755\" longitude=\"-104.9852778\" regionName=\"\" reservationChannel=\"Web
+        Reservable\" shortName=\"A163\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"
+        state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\"
+        contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"74132\" facilityName=\"GENEVA
+        PARK CAMPGROUND\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"39.5272222\"
+        longitude=\"-105.7283333\" regionName=\"\" reservationChannel=\"\" shortName=\"GENE\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70942\" facilityName=\"GLACIER BASIN
+        CAMPGROUND\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"40.3291667\"
+        longitude=\"-105.5933333\" regionName=\"\" reservationChannel=\"\" shortName=\"CG48\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50025\" facilityName=\"GOLDEN GATE CANYON
+        STATE PARK \" faciltyPhoto=\"/webphotos/CO/pid50025/0/80x53.jpg\" latitude=\"39.8313\"
+        longitude=\"-105.4104667\" regionName=\"\" reservationChannel=\"\" shortName=\"GOGA\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"Y\" contractID=\"ELS\"
+        contractType=\"PRIVATE\" facilityID=\"220280\" facilityName=\"Golden Terrace
+        South\" faciltyPhoto=\"/webphotos/ELS/pid220280/0/80x53.jpg\" latitude=\"39.7208333\"
+        longitude=\"-105.1994444\" regionName=\"Encore/ELS\" reservationChannel=\"Web
+        Reservable\" shortName=\"A280\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"
+        state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\"
+        contractID=\"ELS2\" contractType=\"PRIVATE\" facilityID=\"262402\" facilityName=\"Golden
+        Terrace South\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"39.7208333\"
+        longitude=\"-105.1994444\" regionName=\"CA Region\" reservationChannel=\"\"
+        shortName=\"A280\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"72172\" facilityName=\"GRAHAM CREEK
+        CAMPGROUND\" faciltyPhoto=\"/webphotos/NRSO/pid72172/0/80x53.jpg\" latitude=\"37.3902778\"
+        longitude=\"-107.54\" regionName=\"\" reservationChannel=\"\" shortName=\"GRCC\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"Y\" contractID=\"KOA\"
+        contractType=\"PRIVATE\" facilityID=\"190164\" facilityName=\"Grand Junction
+        KOA\" faciltyPhoto=\"/webphotos/KOA/pid190164/0/80x53.jpg\" latitude=\"39.0355556\"
+        longitude=\"-108.5297222\" regionName=\"\" reservationChannel=\"Web Reservable\"
+        shortName=\"A164\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70037\" facilityName=\"GREEN RIDGE\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70037/0/80x53.jpg\" latitude=\"40.20565\"
+        longitude=\"-105.8442528\" regionName=\"\" reservationChannel=\"\" shortName=\"GRER\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"73933\" facilityName=\"GRIZZLY CREEK
+        GUARD STATION\" faciltyPhoto=\"/webphotos/NRSO/pid73933/0/80x53.jpg\" latitude=\"40.5569444\"
+        longitude=\"-106.5872222\" regionName=\"\" reservationChannel=\"\" shortName=\"GRIC\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70623\" facilityName=\"GUANELLA PASS\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70623/0/80x53.jpg\" latitude=\"39.6127778\"
+        longitude=\"-105.7161111\" regionName=\"\" reservationChannel=\"\" shortName=\"GUAN\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"Y\" contractID=\"KOA\"
+        contractType=\"PRIVATE\" facilityID=\"193652\" facilityName=\"Gunnison KOA\"
+        faciltyPhoto=\"/webphotos/KOA/pid193652/0/80x53.jpg\" latitude=\"38.5308333\"
+        longitude=\"-106.9452778\" regionName=\"\" reservationChannel=\"Web Reservable\"
+        shortName=\"D652\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70039\" facilityName=\"HAHNS PEAK LAKE\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"40.8394444\" longitude=\"-106.9897222\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"HAHN\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"72109\"
+        facilityName=\"HAPPY MEADOWS\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"39.0377333\"
+        longitude=\"-105.6073972\" regionName=\"\" reservationChannel=\"\" shortName=\"HAME\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Riverfront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"72182\" facilityName=\"HAVILAND LAKE
+        CAMPGROUND\" faciltyPhoto=\"/webphotos/NRSO/pid72182/0/80x53.jpg\" latitude=\"37.5347222\"
+        longitude=\"-107.8058333\" regionName=\"\" reservationChannel=\"\" shortName=\"HAVI\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70499\" facilityName=\"HEATON BAY\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70499/0/80x53.jpg\" latitude=\"39.605\"
+        longitude=\"-106.0777778\" regionName=\"\" reservationChannel=\"\" shortName=\"HEA1\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"LARC\"
+        contractType=\"COUNTY\" facilityID=\"710104\" facilityName=\"Hermit Park\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"40.3561111\" longitude=\"-105.4569444\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"LRM3\" sitesWithAmps=\"Y\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"CO\" contractType=\"STATE\" facilityID=\"50026\"
+        facilityName=\"HIGHLINE LAKE STATE PARK\" faciltyPhoto=\"/images/nophoto.jpg\"
+        latitude=\"39.2758333\" longitude=\"-108.8330556\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"HISR\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"73565\" facilityName=\"HORSESHOE CAMPGROUND\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"39.2016667\" longitude=\"-106.0861111\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"HOCG\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"LARC\" contractType=\"COUNTY\" facilityID=\"710105\"
+        facilityName=\"Horsetooth Reservoir\" faciltyPhoto=\"/images/nophoto.jpg\"
+        latitude=\"40.5294444\" longitude=\"-105.165\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"LRM4\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"Riverfront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70407\" facilityName=\"HOUSE CREEK\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70407/0/80x53.jpg\" latitude=\"37.5202778\"
+        longitude=\"-108.5305556\" regionName=\"\" reservationChannel=\"\" shortName=\"HOUS\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"73811\" facilityName=\"INDIAN CREEK
+        EQUESTRIAN CAMPGROUND\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"39.3916667\"
+        longitude=\"-105.1088889\" regionName=\"\" reservationChannel=\"\" shortName=\"ICEC\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"72432\" facilityName=\"ISLAND LAKE CAMPGROUND\"
+        faciltyPhoto=\"/webphotos/NRSO/pid72432/0/80x53.jpg\" latitude=\"39.0319444\"
+        longitude=\"-108.0105556\" regionName=\"\" reservationChannel=\"\" shortName=\"ILCO\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"73741\" facilityName=\"JACKS GULCH\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"40.6368361\" longitude=\"-105.5269472\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"JAGU\" sitesWithAmps=\"Y\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"72298\"
+        facilityName=\"JACKSON GUARD STATION\" faciltyPhoto=\"/webphotos/NRSO/pid72298/0/80x53.jpg\"
+        latitude=\"38.2133333\" longitude=\"-107.5232444\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"JACS\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50028\" facilityName=\"JACKSON LAKE State
+        Park\" faciltyPhoto=\"/webphotos/CO/pid50028/0/80x53.jpg\" latitude=\"40.3813889\"
+        longitude=\"-104.0969444\" regionName=\"\" reservationChannel=\"\" shortName=\"JALA\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50069\" facilityName=\"JAMES M. ROBB-COLORADO
+        RIVER STATE PARK - FRUITA SECTION\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"39.1488889\"
+        longitude=\"-108.7252778\" regionName=\"\" reservationChannel=\"\" shortName=\"FRUI\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50027\" facilityName=\"JAMES M. ROBB-COLORADO
+        RIVER STATE PARK-ISLAND ACRES SECTION\" faciltyPhoto=\"/images/nophoto.jpg\"
+        latitude=\"39.1788889\" longitude=\"-108.2777778\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"ISAC\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"Riverfront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"73564\" facilityName=\"JEFFERSON CREEK\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"39.4369444\" longitude=\"-105.8608333\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"JEFF\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"CO\" contractType=\"STATE\" facilityID=\"50072\"
+        facilityName=\"JOHN MARTIN RESERVOIR STATE PARK\" faciltyPhoto=\"/webphotos/CO/pid50072/0/80x53.jpg\"
+        latitude=\"38.0847222\" longitude=\"-102.9583333\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"JOMA\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"72086\" facilityName=\"JUMBO CAMPGROUND\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"39.0530556\" longitude=\"-108.0936111\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"JCCO\" sitesWithAmps=\"Y\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"75355\"
+        facilityName=\"JUNCTION CREEK CAMPGROUND\" faciltyPhoto=\"/webphotos/NRSO/pid75355/0/80x53.jpg\"
+        latitude=\"37.3361111\" longitude=\"-107.915\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"JUNC\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70577\" facilityName=\"KELLY DAHL\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70577/0/80x53.jpg\" latitude=\"39.9325\"
+        longitude=\"-105.4977778\" regionName=\"\" reservationChannel=\"\" shortName=\"KELD\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70053\" facilityName=\"KELSEY CAMPGROUND\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70053/0/80x53.jpg\" latitude=\"39.3163889\"
+        longitude=\"-105.2666667\" regionName=\"\" reservationChannel=\"\" shortName=\"KELS\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"72081\" facilityName=\"KENOSHA PASS
+        CAMPGROUND\" faciltyPhoto=\"/webphotos/NRSO/pid72081/0/80x53.jpg\" latitude=\"39.4130556\"
+        longitude=\"-105.7566667\" regionName=\"\" reservationChannel=\"\" shortName=\"KENP\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70288\" facilityName=\"LA VISTA CAMPGROUND
+        - LAKE ISABEL\" faciltyPhoto=\"/webphotos/NRSO/pid70288/0/80x53.jpg\" latitude=\"37.9844444\"
+        longitude=\"-105.0594444\" regionName=\"\" reservationChannel=\"\" shortName=\"LAKV\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"74061\" facilityName=\"LAKE FORK CAMPGROUND\"
+        faciltyPhoto=\"/webphotos/NRSO/pid74061/0/80x53.jpg\" latitude=\"38.4588889\"
+        longitude=\"-107.33\" regionName=\"\" reservationChannel=\"\" shortName=\"LAFO\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70026\" facilityName=\"LAKE FORK(RIO
+        GRANDE NATL FORE\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"37.2997222\"
+        longitude=\"-106.4666667\" regionName=\"\" reservationChannel=\"\" shortName=\"LAKF\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Riverfront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70415\" facilityName=\"LAKE IRWIN\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"38.8811111\" longitude=\"-107.1069444\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"LAKI\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"73708\"
+        facilityName=\"LAKE ISABEL CABIN\" faciltyPhoto=\"/webphotos/NRSO/pid73708/0/80x53.jpg\"
+        latitude=\"37.9811111\" longitude=\"-105.0502778\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"LISA\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50036\" facilityName=\"LAKE PUEBLO STATE
+        PARK\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"38.2763889\" longitude=\"-104.7183333\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"PURE\" sitesWithAmps=\"Y\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result agencyIcon=\"\"
+        agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\"
+        facilityID=\"70290\" facilityName=\"LAKEVIEW CAMPGROUND\" faciltyPhoto=\"/webphotos/NRSO/pid70290/0/80x53.jpg\"
+        latitude=\"39.0997222\" longitude=\"-106.3611111\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"LAV1\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70416\" facilityName=\"Lakeview Gunnison\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"38.8175\" longitude=\"-106.58\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"LABI\" sitesWithAmps=\"Y\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"CO\" contractType=\"STATE\" facilityID=\"50029\"
+        facilityName=\"LATHROP STATE PARK\" faciltyPhoto=\"/webphotos/CO/pid50029/0/80x53.jpg\"
+        latitude=\"37.6047222\" longitude=\"-104.8386111\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"LAST\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"Y\" contractID=\"KOA\"
+        contractType=\"PRIVATE\" facilityID=\"190306\" facilityName=\"Limon KOA\"
+        faciltyPhoto=\"/webphotos/KOA/pid190306/0/80x53.jpg\" latitude=\"39.2647222\"
+        longitude=\"-103.6730556\" regionName=\"\" reservationChannel=\"Web Reservable\"
+        shortName=\"A306\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"111791\" facilityName=\"LITTLE MAUD
+        CAMPGROUND\" faciltyPhoto=\"/webphotos/NRSO/pid111791/0/80x53.jpg\" latitude=\"\"
+        longitude=\"\" regionName=\"\" reservationChannel=\"\" shortName=\"B791\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70611\" facilityName=\"LODGEPOLE (CO)\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"39.4166667\" longitude=\"-105.8497222\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"LODS\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"70417\"
+        facilityName=\"LODGEPOLE (GUNNISON GRAND MESA)\" faciltyPhoto=\"/images/nophoto.jpg\"
+        latitude=\"38.7611111\" longitude=\"-106.6611111\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"LODG\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70054\" facilityName=\"LONE ROCK CAMPGROUND
+        (CO)\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"39.2516667\" longitude=\"-105.2341667\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"LONR\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"CO\" contractType=\"STATE\" facilityID=\"50030\"
+        facilityName=\"LORY STATE PARK\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"40.5777778\"
+        longitude=\"-105.1819444\" regionName=\"\" reservationChannel=\"\" shortName=\"LOST\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70755\" facilityName=\"LOWRY CAMPGROUND\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70755/0/80x53.jpg\" latitude=\"39.5986111\"
+        longitude=\"-106.0344444\" regionName=\"\" reservationChannel=\"\" shortName=\"LOWR\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50031\" facilityName=\"MANCOS STATE PARK\"
+        faciltyPhoto=\"/webphotos/CO/pid50031/0/80x53.jpg\" latitude=\"37.4022222\"
+        longitude=\"-108.2666667\" regionName=\"\" reservationChannel=\"\" shortName=\"MANC\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"72085\" facilityName=\"MANITOU LAKE
+        PAVILION\" faciltyPhoto=\"/webphotos/NRSO/pid72085/0/80x53.jpg\" latitude=\"39.0883333\"
+        longitude=\"-105.0980556\" regionName=\"\" reservationChannel=\"\" shortName=\"MNLP\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"72006\" facilityName=\"Maroon Bells
+        Amphitheatre\" faciltyPhoto=\"/webphotos/NRSO/pid72006/0/80x53.jpg\" latitude=\"39.0916667\"
+        longitude=\"-106.9416667\" regionName=\"\" reservationChannel=\"\" shortName=\"MBSA\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"73706\" facilityName=\"MARSHALL PARK\"
+        faciltyPhoto=\"/webphotos/NRSO/pid73706/0/80x53.jpg\" latitude=\"37.7888889\"
+        longitude=\"-106.9858333\" regionName=\"\" reservationChannel=\"\" shortName=\"MASH\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"73831\" facilityName=\"MATTERHORN\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"37.8447222\" longitude=\"-107.8811111\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"MATT\" sitesWithAmps=\"Y\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"79061\"
+        facilityName=\"MAVREESO CAMPGROUND\" faciltyPhoto=\"/webphotos/NRSO/pid79061/0/80x53.jpg\"
+        latitude=\"37.6511111\" longitude=\"-108.2969444\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"MAVR\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70789\" facilityName=\"MAY QUEEN\" faciltyPhoto=\"/webphotos/NRSO/pid70789/0/80x53.jpg\"
+        latitude=\"39.2786111\" longitude=\"-106.4322222\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"MAYQ\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70408\" facilityName=\"MCPHEE RECREATION
+        COMPLEX\" faciltyPhoto=\"/webphotos/NRSO/pid70408/0/80x53.jpg\" latitude=\"37.5\"
+        longitude=\"-108.55\" regionName=\"\" reservationChannel=\"\" shortName=\"MCPH\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70047\" facilityName=\"MEADOW RIDGE\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70047/0/80x53.jpg\" latitude=\"38.9775\"
+        longitude=\"-104.9847222\" regionName=\"\" reservationChannel=\"\" shortName=\"MEAR\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70055\" facilityName=\"MEADOWS GROUP
+        CAMPGROUND\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"39.3319444\"
+        longitude=\"-105.3166667\" regionName=\"\" reservationChannel=\"\" shortName=\"MEAG\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"73865\" facilityName=\"MINGUS RANCH\"
+        faciltyPhoto=\"/webphotos/NRSO/pid73865/0/80x53.jpg\" latitude=\"38.0930556\"
+        longitude=\"-105.11\" regionName=\"\" reservationChannel=\"\" shortName=\"MINR\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70027\" facilityName=\"MOGOTE\" faciltyPhoto=\"/images/nophoto.jpg\"
+        latitude=\"37.0647222\" longitude=\"-106.2344444\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"MOGO\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Riverfront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70423\" facilityName=\"MOLLIE B_WHITE
+        RIVER\" faciltyPhoto=\"/webphotos/NRSO/pid70423/0/80x53.jpg\" latitude=\"39.3766667\"
+        longitude=\"-106.8138889\" regionName=\"\" reservationChannel=\"\" shortName=\"MOLL\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70297\" facilityName=\"MOLLY BROWN\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70297/0/80x53.jpg\" latitude=\"39.2663889\"
+        longitude=\"-106.3497222\" regionName=\"\" reservationChannel=\"\" shortName=\"MOLB\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70695\" facilityName=\"MONARCH PARK\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70695/0/80x53.jpg\" latitude=\"38.5155556\"
+        longitude=\"-106.3241667\" regionName=\"\" reservationChannel=\"\" shortName=\"MONA\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"72116\" facilityName=\"MOOSE MANOR\"
+        faciltyPhoto=\"/webphotos/NRSO/pid72116/0/80x53.jpg\" latitude=\"39.0522222\"
+        longitude=\"-108.0977778\" regionName=\"\" reservationChannel=\"\" shortName=\"MAMO\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70943\" facilityName=\"MORAINE PARK
+        CAMPGROUND\" faciltyPhoto=\"/webphotos/NRSO/pid70943/0/80x53.jpg\" latitude=\"40.3625\"
+        longitude=\"-105.6019444\" regionName=\"\" reservationChannel=\"\" shortName=\"CG47\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70045\" facilityName=\"MOUNT PRINCETON\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"38.7141667\" longitude=\"-106.2227778\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"MOUP\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"70028\"
+        facilityName=\"MOUNTAIN PARK\" faciltyPhoto=\"/webphotos/NRSO/pid70028/0/80x53.jpg\"
+        latitude=\"40.6820333\" longitude=\"-105.4691083\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"MOUT\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50032\" facilityName=\"MUELLER STATE PARK\"
+        faciltyPhoto=\"/webphotos/CO/pid50032/0/80x53.jpg\" latitude=\"38.8947222\"
+        longitude=\"-105.1794444\" regionName=\"\" reservationChannel=\"\" shortName=\"MUST\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"75395\" facilityName=\"NARROWS (CO)\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"40.6912917\" longitude=\"-105.4321389\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"NARS\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"CO\" contractType=\"STATE\" facilityID=\"50033\"
+        facilityName=\"NAVAJO STATE PARK\" faciltyPhoto=\"/webphotos/CO/pid50033/0/80x53.jpg\"
+        latitude=\"37.0638889\" longitude=\"-107.4027778\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"NAVA\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"72268\" facilityName=\"NORTH CANYON
+        CAMPGROUND\" faciltyPhoto=\"/webphotos/NRSO/pid72268/0/80x53.jpg\" latitude=\"37.3938889\"
+        longitude=\"-107.5388889\" regionName=\"\" reservationChannel=\"\" shortName=\"NCAN\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70707\" facilityName=\"NORTH FORK CAMPGROUND\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70707/0/80x53.jpg\" latitude=\"40.0583333\"
+        longitude=\"-107.4497222\" regionName=\"\" reservationChannel=\"\" shortName=\"NOR2\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50065\" facilityName=\"NORTH STERLING
+        STATE PARK\" faciltyPhoto=\"/webphotos/CO/pid50065/0/80x53.jpg\" latitude=\"40.7891667\"
+        longitude=\"-103.2655556\" regionName=\"\" reservationChannel=\"\" shortName=\"NOST\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"93619\" facilityName=\"OAK CABIN\" faciltyPhoto=\"/webphotos/NRSO/pid93619/0/80x53.jpg\"
+        latitude=\"38.6505556\" longitude=\"-108.6736111\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"F619\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70046\" facilityName=\"OHAVER LAKE\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70046/0/80x53.jpg\" latitude=\"38.4277778\"
+        longitude=\"-106.1430556\" regionName=\"\" reservationChannel=\"\" shortName=\"OHAV\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70578\" facilityName=\"OLIVE RIDGE\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70578/0/80x53.jpg\" latitude=\"40.2088333\"
+        longitude=\"-105.5223944\" regionName=\"\" reservationChannel=\"\" shortName=\"OLIV\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70418\" facilityName=\"ONE MILE\" faciltyPhoto=\"/images/nophoto.jpg\"
+        latitude=\"38.7272222\" longitude=\"-106.7591667\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"ONEM\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"Y\" contractID=\"KOA\"
+        contractType=\"PRIVATE\" facilityID=\"190161\" facilityName=\"Ouray KOA\"
+        faciltyPhoto=\"/webphotos/KOA/pid190161/0/80x53.jpg\" latitude=\"38.0797222\"
+        longitude=\"-107.7052778\" regionName=\"\" reservationChannel=\"Web Reservable\"
+        shortName=\"A161\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70685\" facilityName=\"PAINTED ROCKS\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70685/0/80x53.jpg\" latitude=\"39.0844444\"
+        longitude=\"-105.1052778\" regionName=\"\" reservationChannel=\"\" shortName=\"PAIN\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"72365\" facilityName=\"PALISADES HORSE
+        CAMP\" faciltyPhoto=\"/webphotos/NRSO/pid72365/0/80x53.jpg\" latitude=\"37.5463889\"
+        longitude=\"-107.1966667\" regionName=\"\" reservationChannel=\"\" shortName=\"PHCA\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50034\" facilityName=\"PAONIA STATE PARK\"
+        faciltyPhoto=\"/webphotos/CO/pid50034/0/80x53.jpg\" latitude=\"38.9616667\"
+        longitude=\"-107.3391667\" regionName=\"\" reservationChannel=\"\" shortName=\"PAON\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70579\" facilityName=\"PAWNEE\" faciltyPhoto=\"/webphotos/NRSO/pid70579/0/80x53.jpg\"
+        latitude=\"40.1314556\" longitude=\"-105.5670611\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"PAWN\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70759\" facilityName=\"PEACEFUL VALLEY\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70759/0/80x53.jpg\" latitude=\"40.1313889\"
+        longitude=\"-105.5061111\" regionName=\"\" reservationChannel=\"\" shortName=\"PEAC\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70500\" facilityName=\"PEAK ONE\" faciltyPhoto=\"/webphotos/NRSO/pid70500/0/80x53.jpg\"
+        latitude=\"39.5847222\" longitude=\"-106.0694444\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"PEAK\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50035\" facilityName=\"PEARL LAKE STATE
+        PARK\" faciltyPhoto=\"/webphotos/CO/pid50035/0/80x53.jpg\" latitude=\"40.7861111\"
+        longitude=\"-106.8963889\" regionName=\"\" reservationChannel=\"\" shortName=\"PELA\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70034\" facilityName=\"PICKLE GULCH\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70034/0/80x53.jpg\" latitude=\"39.8432028\"
+        longitude=\"-105.5226111\" regionName=\"\" reservationChannel=\"\" shortName=\"PICG\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70048\" facilityName=\"PIKE COMMUNITY\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70048/0/80x53.jpg\" latitude=\"39.0647222\"
+        longitude=\"-105.0922222\" regionName=\"\" reservationChannel=\"\" shortName=\"PIKE\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"72290\" facilityName=\"PINE POINT CAMPGROUND\"
+        faciltyPhoto=\"/webphotos/NRSO/pid72290/0/80x53.jpg\" latitude=\"37.4002778\"
+        longitude=\"-107.535\" regionName=\"\" reservationChannel=\"\" shortName=\"PIPT\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"LARC\"
+        contractType=\"COUNTY\" facilityID=\"710106\" facilityName=\"Pinewood Reservoir\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"40.3611111\" longitude=\"-105.2852778\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"LRM5\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result agencyIcon=\"\"
+        agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\"
+        facilityID=\"73860\" facilityName=\"PINEY GUARD STATION\" faciltyPhoto=\"/images/nophoto.jpg\"
+        latitude=\"39.7575\" longitude=\"-106.5605556\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"PIGS\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"96669\" facilityName=\"PINYON FLATS
+        CAMPGROUND\" faciltyPhoto=\"/webphotos/NRSO/pid96669/0/80x53.jpg\" latitude=\"37.7333333\"
+        longitude=\"-105.5166667\" regionName=\"\" reservationChannel=\"\" shortName=\"D669\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"97370\" facilityName=\"PLATORO CABIN
+        1\" faciltyPhoto=\"/webphotos/NRSO/pid97370/0/80x53.jpg\" latitude=\"37.3527778\"
+        longitude=\"-106.5280556\" regionName=\"\" reservationChannel=\"\" shortName=\"E370\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"Riverfront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"97369\" facilityName=\"PLATORO CABIN
+        2\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"37.3527778\" longitude=\"-106.5280556\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"F369\" sitesWithAmps=\"Y\"
+        sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"Y\"
+        sitesWithWaterfront=\"Riverfront\" state=\"CO\"/>\n<result agencyIcon=\"\"
+        agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\"
+        facilityID=\"73670\" facilityName=\"PONDEROSA GROUP - LAKE ISABEL\" faciltyPhoto=\"/webphotos/NRSO/pid73670/0/80x53.jpg\"
+        latitude=\"37.9677778\" longitude=\"-105.0672222\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"LAPO\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70313\" facilityName=\"PRINTER BOY\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70313/0/80x53.jpg\" latitude=\"39.2694444\"
+        longitude=\"-106.3466667\" regionName=\"\" reservationChannel=\"\" shortName=\"PRIN\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70569\" facilityName=\"PROSPECTOR\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70569/0/80x53.jpg\" latitude=\"39.5958333\"
+        longitude=\"-106.0344444\" regionName=\"\" reservationChannel=\"\" shortName=\"PROS\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"Y\" contractID=\"KOA\"
+        contractType=\"PRIVATE\" facilityID=\"190307\" facilityName=\"Pueblo KOA\"
+        faciltyPhoto=\"/webphotos/KOA/pid190307/0/80x53.jpg\" latitude=\"38.4091667\"
+        longitude=\"-104.6172222\" regionName=\"\" reservationChannel=\"Web Reservable\"
+        shortName=\"A307\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"Y\" contractID=\"KOA\"
+        contractType=\"PRIVATE\" facilityID=\"190304\" facilityName=\"Pueblo South
+        / Colorado City KOA\" faciltyPhoto=\"/webphotos/KOA/pid190304/0/80x53.jpg\"
+        latitude=\"37.9594444\" longitude=\"-104.7977778\" regionName=\"\" reservationChannel=\"Web
+        Reservable\" shortName=\"A304\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"
+        state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\"
+        contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"74118\" facilityName=\"PURGATOIRE
+        CAMPGROUND\" faciltyPhoto=\"/webphotos/NRSO/pid74118/0/80x53.jpg\" latitude=\"37.2525\"
+        longitude=\"-105.1091667\" regionName=\"\" reservationChannel=\"\" shortName=\"PURG\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"74063\" facilityName=\"RED CREEK GROUP
+        SITE\" faciltyPhoto=\"/webphotos/NRSO/pid74063/0/80x53.jpg\" latitude=\"38.4852778\"
+        longitude=\"-107.24\" regionName=\"\" reservationChannel=\"\" shortName=\"RCGS\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70049\" facilityName=\"RED ROCKS GROUP
+        CAMPGROUND\" faciltyPhoto=\"/webphotos/NRSO/pid70049/0/80x53.jpg\" latitude=\"39.0441667\"
+        longitude=\"-105.0797222\" regionName=\"\" reservationChannel=\"\" shortName=\"REDR\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70661\" facilityName=\"REDSTONE\" faciltyPhoto=\"/webphotos/NRSO/pid70661/0/80x53.jpg\"
+        latitude=\"39.1941667\" longitude=\"-107.2322222\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"REDS\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50039\" facilityName=\"RIDGWAY State Park\"
+        faciltyPhoto=\"/webphotos/CO/pid50039/0/80x53.jpg\" latitude=\"38.2244444\"
+        longitude=\"-107.7427778\" regionName=\"\" reservationChannel=\"\" shortName=\"RISR\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50037\" facilityName=\"RIFLE FALLS STATE
+        PARK\" faciltyPhoto=\"/webphotos/CO/pid50037/0/80x53.jpg\" latitude=\"39.6775\"
+        longitude=\"-107.6977778\" regionName=\"\" reservationChannel=\"\" shortName=\"RIFA\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50038\" facilityName=\"RIFLE GAP STATE
+        PARK\" faciltyPhoto=\"/webphotos/CO/pid50038/0/80x53.jpg\" latitude=\"39.6163889\"
+        longitude=\"-107.7636111\" regionName=\"\" reservationChannel=\"\" shortName=\"RIGA\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"73707\" facilityName=\"RIVER HILL\"
+        faciltyPhoto=\"/webphotos/NRSO/pid73707/0/80x53.jpg\" latitude=\"38.2122222\"
+        longitude=\"-107.4302778\" regionName=\"\" reservationChannel=\"\" shortName=\"RIVH\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"73561\" facilityName=\"RIVERSIDE (CO)\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"38.9438889\" longitude=\"-105.4411111\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"RIVS\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"73704\"
+        facilityName=\"ROBERTS CABIN\" faciltyPhoto=\"/webphotos/NRSO/pid73704/0/80x53.jpg\"
+        latitude=\"39.34\" longitude=\"-105.9316667\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"ROTS\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70419\" facilityName=\"ROSY LANE\" faciltyPhoto=\"/images/nophoto.jpg\"
+        latitude=\"38.7305556\" longitude=\"-106.7466667\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"ROSY\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"73545\" facilityName=\"ROUND MOUNTAIN\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"39.0305556\" longitude=\"-105.4311111\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"ROUN\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"Y\" contractID=\"KOA\" contractType=\"PRIVATE\" facilityID=\"190305\"
+        facilityName=\"Royal Gorge / Canon City KOA\" faciltyPhoto=\"/webphotos/KOA/pid190305/0/80x53.jpg\"
+        latitude=\"38.4902778\" longitude=\"-105.3286111\" regionName=\"\" reservationChannel=\"Web
+        Reservable\" shortName=\"A305\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"
+        state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\"
+        contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"111790\" facilityName=\"RUEDI
+        MARINA CAMPGROUND\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"\" longitude=\"\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"B790\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result agencyIcon=\"\"
+        agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\" contractType=\"STATE\"
+        facilityID=\"50066\" facilityName=\"SAN LUIS STATE PARK\" faciltyPhoto=\"/webphotos/CO/pid50066/0/80x53.jpg\"
+        latitude=\"37.675\" longitude=\"-105.7391667\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"SALU\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"75373\" facilityName=\"SAPPHIRE POINT
+        OVERLOOK\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"39.5880556\" longitude=\"-106.0436111\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"SAPP\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"75442\"
+        facilityName=\"SEEDHOUSE CAMPGROUND\" faciltyPhoto=\"/images/nophoto.jpg\"
+        latitude=\"40.7723833\" longitude=\"-106.7714667\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"SDHS\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"75040\" facilityName=\"SEEDHOUSE GROUP
+        SITES\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"40.7736111\" longitude=\"-106.7341667\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"SEED\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"Y\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"75096\"
+        facilityName=\"SEEDHOUSE GUARD STATION\" faciltyPhoto=\"/webphotos/NRSO/pid75096/0/80x53.jpg\"
+        latitude=\"40.7751222\" longitude=\"-106.7724111\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"SEDH\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"93668\" facilityName=\"SILESCA CABIN\"
+        faciltyPhoto=\"/webphotos/NRSO/pid93668/0/80x53.jpg\" latitude=\"38.3327778\"
+        longitude=\"-108.1252778\" regionName=\"\" reservationChannel=\"\" shortName=\"C668\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70059\" facilityName=\"SILVER BAR\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"39.1458333\" longitude=\"-106.8916667\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"SILL\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"70060\"
+        facilityName=\"SILVER BELL\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"39.1416667\"
+        longitude=\"-106.8916667\" regionName=\"\" reservationChannel=\"\" shortName=\"SILB\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70598\" facilityName=\"SILVER DOLLAR\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70598/0/80x53.jpg\" latitude=\"39.2622222\"
+        longitude=\"-106.3527778\" regionName=\"\" reservationChannel=\"\" shortName=\"STOM\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70061\" facilityName=\"SILVER QUEEN\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"39.1330556\" longitude=\"-106.9\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"SILQ\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"75054\"
+        facilityName=\"SOUTH FORK GROUP (CO)\" faciltyPhoto=\"/images/nophoto.jpg\"
+        latitude=\"39.7940528\" longitude=\"-106.0306278\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"SFOR\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70683\" facilityName=\"SOUTH MEADOWS\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70683/0/80x53.jpg\" latitude=\"39.0647222\"
+        longitude=\"-105.0922222\" regionName=\"\" reservationChannel=\"\" shortName=\"SOUM\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70329\" facilityName=\"SOUTHSIDE CAMPGROUND
+        - LAKE ISABEL\" faciltyPhoto=\"/webphotos/NRSO/pid70329/0/80x53.jpg\" latitude=\"37.9827778\"
+        longitude=\"-105.0575\" regionName=\"\" reservationChannel=\"\" shortName=\"LASS\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"73562\" facilityName=\"SPILLWAY CAMPGROUND\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"38.9066667\" longitude=\"-105.4677778\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"SPLL\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"73559\"
+        facilityName=\"SPRINGER GULCH\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"38.9273833\"
+        longitude=\"-105.4248917\" regionName=\"\" reservationChannel=\"\" shortName=\"SPGU\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"73671\" facilityName=\"SPRUCE GROUP
+        - LAKE ISABEL\" faciltyPhoto=\"/webphotos/NRSO/pid73671/0/80x53.jpg\" latitude=\"37.9677778\"
+        longitude=\"-105.0672222\" regionName=\"\" reservationChannel=\"\" shortName=\"LAIS\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"96719\" facilityName=\"SPRUCE GROVE
+        CAMPGROUND\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"39.1377778\"
+        longitude=\"-105.4616667\" regionName=\"\" reservationChannel=\"\" shortName=\"E719\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70320\" facilityName=\"ST CHARLES CAMPGROUND
+        - LAKE ISABEL\" faciltyPhoto=\"/webphotos/NRSO/pid70320/0/80x53.jpg\" latitude=\"37.9811111\"
+        longitude=\"-105.0655556\" regionName=\"\" reservationChannel=\"\" shortName=\"LACO\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50020\" facilityName=\"ST. VRAIN STATE
+        PARK\" faciltyPhoto=\"/webphotos/CO/pid50020/0/80x53.jpg\" latitude=\"40.1697222\"
+        longitude=\"-104.9877778\" regionName=\"\" reservationChannel=\"\" shortName=\"STVR\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50040\" facilityName=\"STAGECOACH STATE
+        PARK\" faciltyPhoto=\"/webphotos/CO/pid50040/0/80x53.jpg\" latitude=\"40.2508333\"
+        longitude=\"-106.8363889\" regionName=\"\" reservationChannel=\"\" shortName=\"STAG\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50042\" facilityName=\"STATE FOREST STATE
+        PARK\" faciltyPhoto=\"/webphotos/CO/pid50042/0/80x53.jpg\" latitude=\"40.5983333\"
+        longitude=\"-105.9536111\" regionName=\"\" reservationChannel=\"\" shortName=\"STFO\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50041\" facilityName=\"STEAMBOAT LAKE
+        STATE PARK\" faciltyPhoto=\"/webphotos/CO/pid50041/0/80x53.jpg\" latitude=\"40.7866667\"
+        longitude=\"-106.9777778\" regionName=\"\" reservationChannel=\"\" shortName=\"STLA\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"74062\" facilityName=\"STEVENS CREEK
+        CAMPGROUND\" faciltyPhoto=\"/webphotos/NRSO/pid74062/0/80x53.jpg\" latitude=\"38.4911111\"
+        longitude=\"-107.0969444\" regionName=\"\" reservationChannel=\"\" shortName=\"STEC\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70038\" facilityName=\"STILLWATER (COLORADO)\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70038/0/80x53.jpg\" latitude=\"40.18165\"
+        longitude=\"-105.891125\" regionName=\"\" reservationChannel=\"\" shortName=\"STCO\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"72140\" facilityName=\"STONE CELLAR
+        GUARD STATION\" faciltyPhoto=\"/webphotos/NRSO/pid72140/0/80x53.jpg\" latitude=\"38.0191667\"
+        longitude=\"-106.6813889\" regionName=\"\" reservationChannel=\"\" shortName=\"STNS\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"75394\" facilityName=\"STOVE PRAIRIE\"
+        faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"40.6833861\" longitude=\"-105.3966472\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"STOV\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"73580\"
+        facilityName=\"STUB CREEK CABIN\" faciltyPhoto=\"/webphotos/NRSO/pid73580/0/80x53.jpg\"
+        latitude=\"40.7938889\" longitude=\"-105.905\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"STUB\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50043\" facilityName=\"SYLVAN LAKE STATE
+        PARK\" faciltyPhoto=\"/webphotos/CO/pid50043/0/80x53.jpg\" latitude=\"39.4780556\"
+        longitude=\"-106.7330556\" regionName=\"\" reservationChannel=\"\" shortName=\"SYLA\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"72382\" facilityName=\"TARGET TREE CAMPGROUND\"
+        faciltyPhoto=\"/webphotos/NRSO/pid72382/0/80x53.jpg\" latitude=\"37.5683333\"
+        longitude=\"-108.3022222\" regionName=\"\" reservationChannel=\"\" shortName=\"TTCG\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70835\" facilityName=\"TEAL LAKE GROUP
+        CAMPSITE\" faciltyPhoto=\"/webphotos/NRSO/pid70835/0/80x53.jpg\" latitude=\"40.5847222\"
+        longitude=\"-106.6055556\" regionName=\"\" reservationChannel=\"\" shortName=\"TEAL\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70682\" facilityName=\"THIRTY MILE\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70682/0/80x53.jpg\" latitude=\"37.7233333\"
+        longitude=\"-107.2575\" regionName=\"\" reservationChannel=\"\" shortName=\"THMI\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70050\" facilityName=\"THUNDER RIDGE\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70050/0/80x53.jpg\" latitude=\"38.9766667\"
+        longitude=\"-104.9830556\" regionName=\"\" reservationChannel=\"\" shortName=\"THUN\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"73761\" facilityName=\"TIGIWON COMMUNITY
+        HOUSE\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"39.5233333\" longitude=\"-106.42\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"TIGI\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"73770\"
+        facilityName=\"TIMBERLINE CAMPGROUND\" faciltyPhoto=\"/webphotos/NRSO/pid73770/0/80x53.jpg\"
+        latitude=\"39.4319444\" longitude=\"-105.7619444\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"TIMR\" sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50044\" facilityName=\"TRINIDAD LAKE STATE
+        PARK\" faciltyPhoto=\"/webphotos/CO/pid50044/0/80x53.jpg\" latitude=\"37.1425\"
+        longitude=\"-104.5461111\" regionName=\"\" reservationChannel=\"\" shortName=\"TRSR\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"93268\" facilityName=\"UPPER CROSSING
+        GUARD STATION\" faciltyPhoto=\"/webphotos/NRSO/pid93268/0/80x53.jpg\" latitude=\"38.1388889\"
+        longitude=\"-106.4561111\" regionName=\"\" reservationChannel=\"\" shortName=\"UCGS\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"79060\" facilityName=\"VALLECITO CAMPGROUND\"
+        faciltyPhoto=\"/webphotos/NRSO/pid79060/0/80x53.jpg\" latitude=\"37.4775\"
+        longitude=\"-107.5466667\" regionName=\"\" reservationChannel=\"\" shortName=\"VACA\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Riverfront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50045\" facilityName=\"VEGA State Park\"
+        faciltyPhoto=\"/webphotos/CO/pid50045/0/80x53.jpg\" latitude=\"39.2216667\"
+        longitude=\"-107.7991667\" regionName=\"\" reservationChannel=\"\" shortName=\"VESR\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"Lakefront\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70035\" facilityName=\"WEST CHICAGO
+        CREEK\" faciltyPhoto=\"/webphotos/NRSO/pid70035/0/80x53.jpg\" latitude=\"39.6790389\"
+        longitude=\"-105.6574194\" regionName=\"\" reservationChannel=\"\" shortName=\"WECC\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"72179\" facilityName=\"WEST DOLORES
+        CAMPGROUND\" faciltyPhoto=\"/webphotos/NRSO/pid72179/0/80x53.jpg\" latitude=\"37.6597222\"
+        longitude=\"-108.2761111\" regionName=\"\" reservationChannel=\"\" shortName=\"WDCA\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"72273\" facilityName=\"WEST FORK CAMPGROUND\"
+        faciltyPhoto=\"/webphotos/NRSO/pid72273/0/80x53.jpg\" latitude=\"37.4447222\"
+        longitude=\"-106.9030556\" regionName=\"\" reservationChannel=\"\" shortName=\"WEFO\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70031\" facilityName=\"WEST LAKE\" faciltyPhoto=\"/webphotos/NRSO/pid70031/0/80x53.jpg\"
+        latitude=\"40.7887028\" longitude=\"-105.5684639\" regionName=\"\" reservationChannel=\"\"
+        shortName=\"WLCO\" sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70791\" facilityName=\"WHITE STAR\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70791/0/80x53.jpg\" latitude=\"39.09\" longitude=\"-106.3655556\"
+        regionName=\"\" reservationChannel=\"\" shortName=\"WSTR\" sitesWithAmps=\"N\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\" state=\"CO\"/>\n<result agencyIcon=\"\" agencyName=\"\"
+        availabilityStatus=\"N\" contractID=\"NRSO\" contractType=\"FEDERAL\" facilityID=\"73885\"
+        facilityName=\"WILLOW CREEK GROUP\" faciltyPhoto=\"/images/nophoto.jpg\" latitude=\"40.1425\"
+        longitude=\"-105.9530556\" regionName=\"\" reservationChannel=\"\" shortName=\"WILL\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"NRSO\"
+        contractType=\"FEDERAL\" facilityID=\"70503\" facilityName=\"WINDY POINT (CO)\"
+        faciltyPhoto=\"/webphotos/NRSO/pid70503/0/80x53.jpg\" latitude=\"39.6077778\"
+        longitude=\"-106.0444444\" regionName=\"\" reservationChannel=\"\" shortName=\"WINP\"
+        sitesWithAmps=\"N\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\" state=\"CO\"/>\n<result
+        agencyIcon=\"\" agencyName=\"\" availabilityStatus=\"N\" contractID=\"CO\"
+        contractType=\"STATE\" facilityID=\"50070\" facilityName=\"YAMPA RIVER STATE
+        PARK\" faciltyPhoto=\"/webphotos/CO/pid50070/0/80x53.jpg\" latitude=\"40.4908333\"
+        longitude=\"-107.3125\" regionName=\"\" reservationChannel=\"\" shortName=\"YAMP\"
+        sitesWithAmps=\"Y\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Riverfront\" state=\"CO\"/>\n</resultset>\n\r\n"
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 01:53:21 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,68 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70418
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:36:20 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:36:20 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=AFE1ECA294DFABD991F97FB910AB4C33.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=AFE1ECA294DFABD991F97FB910AB4C33.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:36:20 GMT; Path=/
+      Content-Length:
+      - '4025'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="One Mile Campground is located 18 miles from Gunnison, Colo.,f in the Taylor River Canyon. Visitors enjoy the area for its rafting, fishing and trail opportunities." drivingDirection="From Gunnison, Colo., travel north on Colorado Highway 135 for 10 miles, to Almont. Turn right onto Taylor Canyon Road and proceed just over 8 miles to the campground entrance, which is on the right." facilitiesDescription="The campground offers single-family campsites, all of which have electric hookups. Several sites are also accessible. Each site is equipped with a picnic table and campfire ring. Vault toilets and drinking water are provided." facility="ONE MILE" facilityID="70418" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70418&amp;cmp=39-32--mcmire" importantInformation=" Mandatory $4 fee for electric service will be collected at the campground Reservation fee applies to first camping unit only; additional units reserved will be charged full price at the campground Opening and closing dates are weather permitting; please call (928) 537-8888 for more information Nearest dump station is approximately 16 miles north Click here for more information on the Grand Mesa, Uncompahgre and Gunnison National Forests " latitude="38.7272222" longitude="-106.7591667" nearbyAttrctionDescription="Taylor Park Reservoir is approximately 13 miles from the campground, offering boating, fishing and swimming opportunities. A boat ramp and boat rentals are available there as well." note="" orientationDescription="The campground lies on the banks of the Taylor River, at an elevation of 8,600 feet. Most sites are shaded by a stand of lodgepole pine and aspen trees. Summer temperatures are warm in the day and cool at night." recreationDescription="The Taylor River can be accessed from the campground, and offers a calm stretch for rafting and kayaking. Anglers cast for rainbow and brook trout.     The Fossil Ridge Wilderness Area is nearby. The Summerville and South Lottis trailheads provide access to the scenic, natural area.    A number of off-road trails are found in the surrounding area, including Doctor Park Trail, Taylor River Trail and Taylor Vista Trail." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70418&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="ONEM" state="Colorado" streetAddress="GUNNISON, GRAND MESA, AND UNCO" zip=""/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9706420566"/>
+        <contact name="Ranger Station" number="9706420566"/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Climbing"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Electric Hookups"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Kayaking"/>
+        <amenity distance="Within Facility" name="Rafting"/>
+        <amenity distance="Within Facility" name="Tables"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Visitor Center"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin description="Construction on the final portion of Taylor River Road, between Almont and the Jack&amp;apos;s Cabin Cutoff, will result in closure of the road through the summer. Traffic will be detoured through Jack&amp;apos;s Cabin to avoid construction." headline="Attention"/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:36:20 GMT
+recorded_with: VCR 2.5.0

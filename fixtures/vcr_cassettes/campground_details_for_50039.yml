@@ -1,0 +1,105 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50039
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:39:34 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:39:34 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=83EF81049F5823D2E7CB97ED166071F3.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=83EF81049F5823D2E7CB97ED166071F3.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:39:34 GMT; Path=/
+      Content-Length:
+      - '7491'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description="  Handicap sites #46HD, 107HD, 230HD, 280HD and #281HD are only reservable through the call center.  These sites require a handicap sticker, plate or placard.       Yurt reservations accepted year round within established reservation windows. For reservation information about all other campsites visit the Ridgway State Park website at www.parks.state.co.us/ridgway/. Fabulous boating, fishing, and camping in gorgeous southwest Colorado are just the beginning of your visit to Ridgway State Park. One of the state&amp;amp;#39;s true destination parks, Ridgway offers Colorado&amp;amp;#39;s great outdoors in view of the towering Sneffels Range. Located 12 miles north of Ouray, Ridgway State Park&amp;amp;#39;s sandy swim beach and beach house make it a top choice for water-sports enthusiasts. Boating, water skiing, windsurfing and swimming are some of the offerings at the park. There are 283 campsites and three Yurts spread among three picturesque campgrounds accommodating trailers, campers, motor homes and tents. " drivingDirection="Pa Co Chu Puk Campground: 19 miles south of Montrose on Hwy 550, take first park entrance, below the dam. Dutch Charlie Area: 22 miles south of Montrose, take second entrance into park, first right leads to Dakota Terraces Campground, first left leads to Elk Ridge Campground." facilitiesDescription="" facility="RIDGWAY State Park" facilityID="50039" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50039&amp;cmp=39-32--mcmire" importantInformation="Ridgway is known as one of the nation&amp;apos;s most accessible recreation areas for the disabled. ** In additon to the camping fee, an entrance fee is required at all state parks!** ***Shade may be naturally provided by trees and other vegetation or by man made shade shelter. Please call the park for specific details.***First come/first serve camping may be available outside the reservation dates. Contact the park for information." latitude="38.2244444" longitude="-107.7427778" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="Rocky Mountain Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50039&amp;cmp=39-32--mcmire">
+        <address city="RIDGWAY" country="United States" shortName="RISR" state="Colorado" streetAddress="28555 HWY. 550" zip="81432"/>
+        <photo realUrl="/webphotos/CO/pid50039/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50039/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50039/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50039/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50039/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50039/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50039/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50039/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50039/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50039/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50039/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50039/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50039/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50039/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50039/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50039/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50039/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50039/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="9706265822"/>
+        <contact name="Ranger Station" number="9706265822"/>
+        <amenity distance="Within Facility" name="ADA Access"/>
+        <amenity distance="Within Facility" name="ADA Fish. Access"/>
+        <amenity distance="Within Facility" name="Beach (Swimming)"/>
+        <amenity distance="Within Facility" name="Beach House"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Bird Watching"/>
+        <amenity distance="Within Facility" name="Boat Ramp"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Buoy and Slip Rentals"/>
+        <amenity distance="Within Facility" name="Camper Services Bldg"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Cross Country Skiing"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Firewood Available"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Fishing Licenses Sold"/>
+        <amenity distance="Within Facility" name="Group Pavilions Available"/>
+        <amenity distance="Within Facility" name="Group Picnic Area"/>
+        <amenity distance="Within Facility" name="Group Picnicking"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Ice Fishing"/>
+        <amenity distance="Within Facility" name="Interpretitive Programs"/>
+        <amenity distance="Within Facility" name="Jet Skiing"/>
+        <amenity distance="Within Facility" name="Laundry Facilities"/>
+        <amenity distance="Within Facility" name="Natural Shade"/>
+        <amenity distance="Within Facility" name="Nature Study Exhibits"/>
+        <amenity distance="Within Facility" name="Parking"/>
+        <amenity distance="Within Facility" name="Photography"/>
+        <amenity distance="Within Facility" name="Picnic Tables"/>
+        <amenity distance="Within Facility" name="Picnicking"/>
+        <amenity distance="Within Facility" name="Playground"/>
+        <amenity distance="Within Facility" name="Pop/Candy Machines"/>
+        <amenity distance="Within Facility" name="Proximity To Camp Serv."/>
+        <amenity distance="Within Facility" name="Ranger Station"/>
+        <amenity distance="Within Facility" name="Sailing And Sailboarding"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Skating"/>
+        <amenity distance="Within Facility" name="Snow Shoeing"/>
+        <amenity distance="Within Facility" name="Snow Sledding"/>
+        <amenity distance="Within Facility" name="Store (Retail)"/>
+        <amenity distance="Within Facility" name="Swimming"/>
+        <amenity distance="Within Facility" name="Swimming - Beach"/>
+        <amenity distance="Within Facility" name="Visitor Center"/>
+        <amenity distance="Within Facility" name="Water Skiing"/>
+        <amenity distance="Within Facility" name="White Water Rafting"/>
+        <amenity distance="Within Facility" name="Wildlife Watching Opportunity"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:39:35 GMT
+recorded_with: VCR 2.5.0

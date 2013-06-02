@@ -1,0 +1,103 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50022
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:24:39 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:24:39 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=7154A340D3A48813E93F976CB33CA19A.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=7154A340D3A48813E93F976CB33CA19A.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:24:39 GMT; Path=/
+      Content-Length:
+      - '5887'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description="  Handicap sites #53HD and #138HD are only reservable through the call center.  These sites require a handicap sticker, plate or placard.      Fire danger is high.  Contact the park for more details. Cherry Creek State Park offers a great getaway from the daily grind, with recreation opportunities anchored around a 880 surface-acre lake. Visitors can view birds in their natural habitat. Fun seekers visit the park to enjoy boating, jet and water skiing, sailing, fishing, swimming, biking, horseback riding, and more. It provides the convenience of close-in camping at its 125 sites located on the east side of the reservoir. " drivingDirection="One mile south of I-225 on Parker Rd., adjacent to Southeast Denver." facilitiesDescription="" facility="CHERRY CREEK STATE PARK" facilityID="50022" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50022&amp;cmp=39-32--mcmire" importantInformation="Camping fees do not include the cost of a park pass. Wi-Fi now available at all sites. Group camping sites available. To make reservations for group sites, please contact the Campground Registration Office at 303-693-3957. For additional information please visit our website at www.colorado.gov/parks or call the Campground Registration Office at 303-693-3957." latitude="39.6286111" longitude="-104.8305556" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="High Plains Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50022&amp;cmp=39-32--mcmire">
+        <address city="AURORA" country="United States" shortName="CHCR" state="Colorado" streetAddress="4201 S. PARKER RD." zip="80014"/>
+        <photo realUrl="/webphotos/CO/pid50022/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50022/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50022/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50022/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50022/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50022/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50022/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50022/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50022/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="3036933957"/>
+        <contact name="Ranger Station" number=""/>
+        <amenity distance="Within Facility" name="ADA Access"/>
+        <amenity distance="Within Facility" name="ADA Fish. Access"/>
+        <amenity distance="Within Facility" name="Amphitheater"/>
+        <amenity distance="Within Facility" name="Beach (Swimming)"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Bird Watching"/>
+        <amenity distance="Within Facility" name="Boat Ramp"/>
+        <amenity distance="Within Facility" name="Boat Rental"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Camper Services Bldg"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Dog Training Area"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Firewood Available"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Group Campground"/>
+        <amenity distance="Within Facility" name="Group Camping"/>
+        <amenity distance="Within Facility" name="Group Pavilions Available"/>
+        <amenity distance="Within Facility" name="Group Picnic Area"/>
+        <amenity distance="Within Facility" name="Group Picnicking"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Historical Site(S)"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Ice Fishing"/>
+        <amenity distance="Within Facility" name="Interpretitive Programs"/>
+        <amenity distance="Within Facility" name="Jet Ski Rental"/>
+        <amenity distance="Within Facility" name="Jet Skiing"/>
+        <amenity distance="Within Facility" name="Laundry"/>
+        <amenity distance="Within Facility" name="Laundry Facilities"/>
+        <amenity distance="Within Facility" name="Marina"/>
+        <amenity distance="Within Facility" name="Model Airplane Field"/>
+        <amenity distance="Within Facility" name="Model Airplane Flying"/>
+        <amenity distance="Within Facility" name="Natural Shade"/>
+        <amenity distance="Within Facility" name="Nature Study Exhibits"/>
+        <amenity distance="Within Facility" name="Pay Phones Available"/>
+        <amenity distance="Within Facility" name="Photography"/>
+        <amenity distance="Within Facility" name="Picnicking"/>
+        <amenity distance="Within Facility" name="Ranger Station"/>
+        <amenity distance="Within Facility" name="Sailing And Sailboarding"/>
+        <amenity distance="Within Facility" name="Shooting Ranges"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Snack Br Concession"/>
+        <amenity distance="Within Facility" name="Stables"/>
+        <amenity distance="Within Facility" name="Swimming"/>
+        <amenity distance="Within Facility" name="Telephone"/>
+        <amenity distance="Within Facility" name="Volleyball"/>
+        <amenity distance="Within Facility" name="Water Skiing"/>
+        <amenity distance="Within Facility" name="Wi-Fi Connection"/>
+        <amenity distance="Within Facility" name="Wildlife Watching Opportunity"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:03:35 GMT
+recorded_with: VCR 2.5.0

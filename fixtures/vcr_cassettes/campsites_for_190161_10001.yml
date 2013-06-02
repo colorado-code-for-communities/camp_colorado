@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=KOA&parkId=190161&siteType=10001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:36:29 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:36:29 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=7F80AA0394A716E393098CF52EFB8E58.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=7F80AA0394A716E393098CF52EFB8E58.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:36:29 GMT; Path=/
+      Content-Length:
+      - '1956'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="KOA" count="6" parkId="190161" resultType="campsites" siteType="10001">
+        <result Loop="Ouray KOA" Maxeqplen="0" Maxpeople="4" Site="1 Room Camping Cabin (w/o Bathroom)" SiteId="369" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Ouray KOA" Maxeqplen="0" Maxpeople="4" Site="1 Room Camping Cabin (w/o Bathroom)" SiteId="370" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Ouray KOA" Maxeqplen="0" Maxpeople="4" Site="1 Room Camping Cabin (w/o Bathroom)" SiteId="371" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Ouray KOA" Maxeqplen="28" Maxpeople="6" Site="Deluxe Cabin (w/ Bathroom)" SiteId="55274" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Ouray KOA" Maxeqplen="20" Maxpeople="4" Site="Deluxe Cabin (w/ Bathroom)" SiteId="55273" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Ouray KOA" Maxeqplen="0" Maxpeople="4" Site="Teepee" SiteId="51760" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:36:29 GMT
+recorded_with: VCR 2.5.0

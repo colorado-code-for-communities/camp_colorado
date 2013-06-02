@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=97370&siteType=10001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:38:16 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:38:16 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=3F140CA595BCCE9A598AA9C487BA5455.web05-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2645525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=3F140CA595BCCE9A598AA9C487BA5455.web05-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:38:16 GMT; Path=/
+      Content-Length:
+      - '465'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="1" parkId="97370" resultType="campsites" siteType="10001">
+        <result Loop="PLATORO CABIN 1" Maxeqplen="0" Maxpeople="6" Site="1" SiteId="295440" SiteReserveType="site-specific" SiteType="CABIN ELECTRIC" mapx="" mapy="" sitePhoto="" sitesWithAmps="15" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront="Riverfront"/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:38:16 GMT
+recorded_with: VCR 2.5.0

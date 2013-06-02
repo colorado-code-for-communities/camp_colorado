@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=75441
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:25:20 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:25:20 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=08EB028A02C704CF73BEA53A37E666DE.web03-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2445525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=08EB028A02C704CF73BEA53A37E666DE.web03-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:25:20 GMT; Path=/
+      Content-Length:
+      - '4527'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="With spectacular scenery and lake access, Dumont Campground is a paradise for birders, wildflower seekers, fly fishermen and outdoor enthusiasts. The area borders the Continental Divide and sits atop the Park Range in north central Colorado, offering views of several other Rocky Mountain ranges." drivingDirection="From Steamboat Springs, Colorado, travel 22 miles southeast on U.S. Highway 40/Rabbit Ears Pass. Turn left on Forest Road 315 at the Dumont Campground sign. The campground is located about a mile from the highway." facilitiesDescription="The facility is comprised of both a small campground and day-use area. Campsites are private and roomy, and most have clear views of the alpine meadow around the lake. Campers also have the convenience of three restrooms and hand pumps for drinking water.    Dumont Lake is located at the picnic area, which a short walk away from the campground. The lake is restricted to electric motors or hand-propelled boats only." facility="DUMONT CAMPGROUND" facilityID="75441" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=75441&amp;cmp=39-32--mcmire" importantInformation=" Campground may be subject to late opening of the reservation season due to heavy snow conditions This is a high elevation facility; please use caution when traveling from lower elevations " latitude="40.4040194" longitude="-106.6235167" nearbyAttrctionDescription="The closest town is Steamboat Springs, Colorado. Many more outdoor opportunities exist in the surrounding national forests and grasslands, including hiking, biking, camping, horseback riding, off-road vehicle riding, fishing, hunting, sightseeing and winter sports." note="" orientationDescription="The 50-acre Dumont Lake is surrounded by a spruce-fir forest and alpine meadow that boasts colorful wildflowers in warmer months. It sits near the base of Rabbit Ears Peak in the Routt National Forest.    The Medicine Bow-Routt National Forests and Thunder Basin National Grassland encompass nearly three million acres from central and northeastern Wyoming to north-central Colorado.    Black bear, bobcat, coyote, elk, mule deer and moose are just some of the many animals that inhabit these rich and diverse lands. Dumont Lake is particularly known for its birding opportunities." recreationDescription="The area offers spin and fly fishing for trout in the lake and stream, as well as access to hiking, backpacking and mountain biking on the many nearby dirt roads and trails. Campers can reach the two-mile Rabbit Ears Trail from the facility, and the Continental Divide National Scenic Trail nearby.    Rock climbers can also find routes in the area." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=75441&amp;cmp=39-32--mcmire">
+        <address city="STEAMBOAT SPRINGS" country="United States" shortName="DUMT" state="Colorado" streetAddress="925 WEISS DRIVE" zip="80487"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9708702299"/>
+        <contact name="Ranger Station" number="9708702299"/>
+        <amenity distance="Within Facility" name="Accessible Trails"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Canoeing"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Flush Toilets"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Kayaking"/>
+        <amenity distance="Within Facility" name="Lake Access"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="RV Parking"/>
+        <amenity distance="Within Facility" name="Rock Climbing"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:14:18 GMT
+recorded_with: VCR 2.5.0

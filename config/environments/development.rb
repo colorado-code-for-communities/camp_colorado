@@ -36,4 +36,15 @@ CampColorado::Application.configure do
   config.assets.debug = true
 
   config.action_mailer.default_url_option = { host: 'camp_colorado.local' }
+
+  config.after_initialize do
+    VCR.configure do |c|
+      c.cassette_library_dir = 'fixtures/vcr_cassettes'
+      c.hook_into :webmock
+      c.before_record(:active_api) do
+        # Sleep because the active.com API has a rate limit of 2 requests/second
+        sleep 0.5
+      end
+    end
+  end
 end

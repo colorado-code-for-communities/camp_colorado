@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=KOA&parkId=190902&siteType=10001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:12:32 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:12:32 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=D8F689853407416A6C38979B4760F9F0.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=D8F689853407416A6C38979B4760F9F0.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:12:31 GMT; Path=/
+      Content-Length:
+      - '4365'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="KOA" count="13" parkId="190902" resultType="campsites" siteType="10001">
+        <result Loop="Cotopaxi / Arkansas River KOA" Maxeqplen="0" Maxpeople="4" Site="1 Room Camping Cabin (w/o Bathroom)" SiteId="3268" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cotopaxi / Arkansas River KOA" Maxeqplen="0" Maxpeople="4" Site="1 Room Camping Cabin (w/o Bathroom)" SiteId="3269" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cotopaxi / Arkansas River KOA" Maxeqplen="0" Maxpeople="4" Site="1 Room Camping Cabin (w/o Bathroom)" SiteId="3270" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cotopaxi / Arkansas River KOA" Maxeqplen="0" Maxpeople="4" Site="1 Room Camping Cabin (w/o Bathroom)" SiteId="22968" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cotopaxi / Arkansas River KOA" Maxeqplen="0" Maxpeople="4" Site="1 Room Camping Cabin (w/o Bathroom)" SiteId="22969" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cotopaxi / Arkansas River KOA" Maxeqplen="0" Maxpeople="6" Site="Second Floor Motel Room: M1-M3." SiteId="3281" SiteReserveType="site-specific" SiteType="Special" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cotopaxi / Arkansas River KOA" Maxeqplen="0" Maxpeople="6" Site="Ground Level Motel Kitchenette: M4." SiteId="3282" SiteReserveType="site-specific" SiteType="Special" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cotopaxi / Arkansas River KOA" Maxeqplen="0" Maxpeople="6" Site="Ground Level Sleeper Cabin: M5 or M7." SiteId="3283" SiteReserveType="site-specific" SiteType="Special" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cotopaxi / Arkansas River KOA" Maxeqplen="0" Maxpeople="6" Site="Other Facilities" SiteId="47281" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cotopaxi / Arkansas River KOA" Maxeqplen="0" Maxpeople="6" Site="Other Facilities" SiteId="47331" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cotopaxi / Arkansas River KOA" Maxeqplen="0" Maxpeople="6" Site="Other Facilities" SiteId="47332" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cotopaxi / Arkansas River KOA" Maxeqplen="0" Maxpeople="6" Site="Other Facilities" SiteId="47333" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cotopaxi / Arkansas River KOA" Maxeqplen="0" Maxpeople="6" Site="Ground Level Kitchenettes: have at least 2 double beds. Bathroom" SiteId="3284" SiteReserveType="site-specific" SiteType="Special" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:12:32 GMT
+recorded_with: VCR 2.5.0

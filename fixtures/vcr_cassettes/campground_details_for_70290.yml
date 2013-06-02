@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70290
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:31:53 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:31:53 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=F54D5D31958C58A21D644C6140C9946C.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=F54D5D31958C58A21D644C6140C9946C.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:31:53 GMT; Path=/
+      Content-Length:
+      - '6726'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Lakeview Campground, with wonderful views of the Twin Lakes Reservoir, offers a large space with options for tent, RV and group camping. Located about 29 miles north of Buena Vista, Colorado, the campground attracts plenty of hikers looking to explore nearby nature and backpacking trails in the Mount Massive Wilderness. Boating and fishing enthusiasts spend their days at the Twin Lakes Reservoir and Mt. Elbert Forebay." drivingDirection="From Leadville, Colorado, drive south 15 miles on Highway 24, turn right onHighway 82 and travel 4 miles to Lake County Road 24. Turn right on LakeCounty Road 24, and go 1 mile north to the Lakeview Campground." facilitiesDescription="Campsites have limited understory, but most are widely separated from other sites. Amenities include vault toilets, drinking water, picnic tables, campfire rings and pedestal grills. Firewood may be purchased onsite." facility="LAKEVIEW CAMPGROUND" facilityID="70290" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70290&amp;cmp=39-32--mcmire" importantInformation=" Be bear aware; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating This is a high elevation facility, please use caution when traveling from lower elevations Limit 1 trailer or motorhome per site Applicable Extra Vehicle Fee is $5/night and will be charged upon arrival No electric hookups available This facility has first-come, first-served sites No firearms or fireworks For more information on Pike and San Isabel National Forests, click here " latitude="39.0997222" longitude="-106.3611111" nearbyAttrctionDescription="The Top of the Rockies Scenic Byway leads to Independence Pass, one of the highest paved passes in Colorado. The historic mining town, Leadville, is a half hour away." note="" orientationDescription="Lakeview is situated in a ponderosa pine and sage habitat at an elevation of 9,500 feet. The site is between Mt. Elbert Forebay and Twin Lakes. The Twin Lakes Reservoir spans 2,805 acres and Mount Elbert stands tall at 14,433 feet.     Nearby is the Mount Massive Wilderness area, 30,540 acres encompassing Mount Massive, Colorado&amp;amp;rsquo;s second highest peak at 14,421 feet. Much of the wilderness is above timberline with many alpine plant communities and permanent snowfields." recreationDescription="The Continental Divide Trail, which runs from Canada to Mexico, is a non-motorized trail that passes Lakeview Campground. Mountain bikes are allowed in the section from Halfmoon Road south to Twin Lakes. Approximately 300 miles of the trail goes through Colorado.     South of the campground lies Twin Lakes, Colorado&amp;amp;#39;s largest natural glacier lakes. Sailing and water skiing are among the popular activities here. Fishing includes lake, rainbow and mackinaw trout." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70290&amp;cmp=39-32--mcmire">
+        <address city="LEADVILLE" country="United States" shortName="LAV1" state="Colorado" streetAddress="Co. Rd. 24" zip="80461"/>
+        <photo realUrl="/webphotos/NRSO/pid70290/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70290/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70290/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70290/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70290/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70290/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70290/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70290/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70290/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70290/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70290/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70290/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70290/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70290/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70290/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70290/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70290/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70290/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70290_LAV1.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7194862010"/>
+        <contact name="Ranger Station" number="7194860749"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood Vendor"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Recycling"/>
+        <amenity distance="Within Facility" name="Scenic Overlooks"/>
+        <amenity distance="Within Facility" name="Self Pay Station"/>
+        <amenity distance="Within Facility" name="Tables"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Less Than 1 Mile" name="Boating"/>
+        <amenity distance="Less Than 1 Mile" name="Fishing"/>
+        <amenity distance="Less Than 1 Mile" name="Swimming"/>
+        <amenity distance="Within 10 Miles" name="Historic Sites"/>
+        <bulletin description="There is no water available at the campground until further notice. Visitors must bring their own drinking water. We apologize for the inconvenience." headline="ATTENTION"/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:31:54 GMT
+recorded_with: VCR 2.5.0

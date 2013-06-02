@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=ELS2&parkId=262402
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:27:25 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:27:25 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=B3DC039FAC4A2E0B41396EE819AA7896.web05-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2645525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=B3DC039FAC4A2E0B41396EE819AA7896.web05-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:27:25 GMT; Path=/
+      Content-Length:
+      - '2292'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="ELS2" description="Our campground is part of a 3 park manufactured home community, which is terraced on 3 adjacent hillsides. Many of our available facilities such as playground, bike trails, 2 outdoor heated swimming pools, two community centers- jacuzzi &amp;amp;amp; sauna, pool tables, banquet &amp;amp;amp; party facilities are located in the adjacent parks within easy walking distance. These expanded services are available for clients who remain on a monthly basis. We are located in the foothills of Golden with easy freeway access to mountains and Denver Metroplex with its rich array of recreational, shopping and cultural offerings." drivingDirection="Take I-70 E; exit 262, Turn West onto Hwy40/W. Colfax. Resort is on your right" facilitiesDescription="Electric, water, and sewer hook ups available at most sites.  30 amp service available." facility="Golden Terrace South" facilityID="262402" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=ELS2&amp;parkId=262402&amp;cmp=39-32--mcmire" importantInformation="-" latitude="39.7208333" longitude="-105.1994444" nearbyAttrctionDescription="" note="" orientationDescription="Unusual. That word sums up Golden, Colorado. Sure, it&amp;amp;#39;s got the typical qualities one would expect from a high elevation, gorgeous mountain community. Hiking and backpacking, wildlife viewing, golfing, shopping, RV resort parks and campgrounds, even paragliding; it&amp;amp;#39;s all here." recreationDescription="Adolf Coors Brewery, Astor House Hotel Museum, Buffalo Bill&amp;amp;#39;s Gravesite and Museum/ Pahaska Teepee, Colorado Railroad Museum" regionName="CA REGION" reservationUrl="/campsiteSearch.do?contractCode=ELS2&amp;parkId=262402&amp;cmp=39-32--mcmire">
+        <address city="Golden" country="United States" shortName="A280" state="Colorado" streetAddress="17801 West Colfax Ave." zip="80401"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="3032796279"/>
+        <contact name="Ranger Station" number="8663577990"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Swimming - Pool"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:27:25 GMT
+recorded_with: VCR 2.5.0

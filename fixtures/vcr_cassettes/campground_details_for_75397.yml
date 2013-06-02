@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=75397
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:35:26 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:35:26 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=9643E8ECA31FA17CD919E307AD31D5CC.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=9643E8ECA31FA17CD919E307AD31D5CC.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:35:26 GMT; Path=/
+      Content-Length:
+      - '4320'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Ansel Watrous Campground is located on the Cache la Poudre River, 22 miles northwest of Fort Collins, Colo., along Highway 14. Visitors enjoy the area for its great rafting, fishing and hiking opportunities." drivingDirection="From Fort Collins, take Highway 14 northwest for 13 miles." facilitiesDescription="The campground offers accessible single-family sites, each equipped with a 12-by-15 tent pad, a picnic table and a campfire ring with grill.    Vault toilets and drinking water are provided. Dead and downed firewood may be gathered in the forest or purchased from the campground host." facility="ANSEL WATROUS" facilityID="75397" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=75397&amp;cmp=39-32--mcmire" importantInformation=" This is bear country! For bear and human safety, keep a clean campsite and do not place food or other attractants in your tent. For more information about visiting bear country, contact Colorado Parks and Wildlife at http://wildlife.state.co.us The campground&amp;apos;s lower loop is not accessible to trailers longer than 20 feet, due to a hairpin switchback near the campground entrance Water is available year-round in the lower loop, but is shut off after Sept. 30 in the upper loop All sites are available on a first-come, first-served basis before and after the reservation season Click here for more information on the Arapaho and Roosevelt National Forests Operated by American Land &amp;amp;amp; Leisure. You may contact us at www.AmericanLL.com or 801-226-3564. " latitude="40.6897083" longitude="-105.3491639" nearbyAttrctionDescription="" note="" orientationDescription="The canyon&amp;amp;#39;s vegetation varies from dense forests to open meadows and the campground is surrounded by steep mountains. The campground is situated among Ponderosa pines on the banks of the Cache la Poudre River, Colorado&amp;amp;#39;s first river designated as a National Wild and Scenic River." recreationDescription="The Cache la Poudre River offers whitewater rafting and fishing. Anglers cast for brown, cutthroat and rainbow trout, among other species of fish.    Hiking, biking and horseback riding trails are in the surrounding area, including the 4-mile Young Gulch Trail.    Other popular activities enjoyed by visitors to the campground include birding and wildlife viewing." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=75397&amp;cmp=39-32--mcmire">
+        <address city="BELLVUE" country="United States" shortName="ANSE" state="Colorado" streetAddress="" zip="80634"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9702956700"/>
+        <contact name="Ranger Station" number="9702956700"/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Canoeing"/>
+        <amenity distance="Within Facility" name="Drinking Water (Hand Pump)"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseback Riding Trails"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Kayaking"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Paved Roads"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Rafting"/>
+        <amenity distance="Within Facility" name="River Access"/>
+        <amenity distance="Within Facility" name="Tent Pads"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:00:03 GMT
+recorded_with: VCR 2.5.0

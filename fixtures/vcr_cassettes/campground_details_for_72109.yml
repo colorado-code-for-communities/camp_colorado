@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=72109
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:28:29 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:28:29 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=4E5D89A8571FD71E66A09358C1C044ED.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=4E5D89A8571FD71E66A09358C1C044ED.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:28:29 GMT; Path=/
+      Content-Length:
+      - '3593'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Happy Meadows Campground is situated along the South Platte River near the Eleven Mile Reservoir and Eleven Mile Canyon. Excellent fishing, tubing, and hiking await visitors.     Eleven Mile Canyon is rich in natural resources and historic significance. Originally called Granite Canyon, the towering gray walls rise 500 feet above the river." drivingDirection="From Denver and Colorado Springs, take I-25 to Highwy 24 west toward Woodland Park. At Lake George on US-24, turn north on County Road 77, also known as the Tarryall road. Travel about a mile and turn east on County Road 112. The campground will be on the right after about a mile." facilitiesDescription="Happy Meadows offers seven reservable RV campsites. Drinking water from a water pump and a vault toilet is available." facility="HAPPY MEADOWS" facilityID="72109" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=72109&amp;cmp=39-32--mcmire" importantInformation=" Be bear aware; keep all food out of site in approved containers or locked inside your vehicle and remove all food from area after eating This is a high elevation facility, please use caution when traveling from lower elevations No RV hookups are available No cell phone service; service can be found within a half mile Limit 2 vehicles per site No off-road vehicles allowed For more information on Pike and San Isabel National Forests, click here " latitude="39.0377333" longitude="-105.6073972" nearbyAttrctionDescription="The town of Lake George is just 3 miles away, offering a general store and motel." note="" orientationDescription="Campsites are a short walk to the lovely South Platte, a major tributary of the Platte River that runs through Colorado and Nebraska. As part of Pike Forest, Happy Meadows enjoys abundant and varied wildlife, seven peaks above 14,000 feet, called fourteeners, and miles of great trails." recreationDescription="World-class trout fishing is a major attraction on the South Platte. Visitors can also venture to Florissant Fossil Beds to view fossils and petrified redwoods. Eleven Mile Canyon and the Tarryall Valley offer scenic drives with impressive views." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=72109&amp;cmp=39-32--mcmire">
+        <address city="Divide" country="United States" shortName="HAME" state="Colorado" streetAddress="P.O. Box 324" zip="80814"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7196873506"/>
+        <contact name="Ranger Station" number="7197483619"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Kayaking"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="River Access"/>
+        <amenity distance="Within Facility" name="Self Pay Station"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Visitor Center"/>
+        <amenity distance="Within 10 Miles" name="Boating"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:28:29 GMT
+recorded_with: VCR 2.5.0

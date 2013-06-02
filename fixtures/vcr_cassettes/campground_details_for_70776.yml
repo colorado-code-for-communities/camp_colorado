@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70776
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:12:24 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:12:24 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=06B99477ABA67EFEFC971AA19DC2A527.web07-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2845525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=06B99477ABA67EFEFC971AA19DC2A527.web07-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:12:23 GMT; Path=/
+      Content-Length:
+      - '7036'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Columbine Campground is located just off the Peak to Peak Scenic Byway/Highway 119, west of Denver, in north central Colorado.  This campground is popular with off-road enthusiasts and many jeep roads can be reached from the campground." drivingDirection="From I25 in Denver, take 6th Ave West to state Highway 6, through clear Creek Canyon. Proceed north on State Highway 119, turn left on Gilpin County Road 279 (Gregory St. next to Bullwackers Casino) in Black Hawk, follow signs to Central City. Gregory St. changes to Lawrence St, at Central City limits, then changes to Eureka St. midway thru Central City. Proceed on Eureka St. until road turns to gravel &amp;amp;amp; follow signs to campground. Campground is located 2 miles northwest of Central City on County Road 279. Two and one-half miles Northwest of Central City via Gilpin County Road 3 on Forest Road 176. At the top near the cemeteries, follow the signs to the campground." facilitiesDescription="This campground has 46 sites on two loops.  Five of these sites are suitable for tents only; the others are suitable for both RV and/or tents.  Each site has a picnic table, campfire ring and grill.  Other amenities include: vault toilets, water spigots and trash service.  Bundled firewood is for sale by the onsite campground manager.  RV units are not permitted to fill tanks from the water spigots. All of the sites are non-electric." facility="COLUMBINE CAMPGROUND" facilityID="70776" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70776&amp;cmp=39-32--mcmire" importantInformation=" This is bear country! For bear and human safety, keep a clean campsite and do not place food or other attractants in your tent. For more information about visiting bear country, contact Colorado Parks and Wildlife at http://wildlife.state.co.us Utility hookups are not available Limited first-come, first-served sites are available during and outside the reservation season Click here for more information on the Arapaho and Roosevelt National Forest Operated by American Land &amp;amp;amp; Leisure. You may contact us at www.AmericanLL.com or 801-226-3564. " latitude="39.8148083" longitude="-105.5518444" nearbyAttrctionDescription="The historic mining town of Central City is nearby. Popular events there include Lou Bunch Day and the Central City Opera and Jazz festivals.  Golden Gate Canyon State Park is a short drive from the campground. This scenic park offers over 35 miles of hiking trails. Mountain biking and horseback riding are allowed on some trails. Every stream and pond in the park is open to fishing. " note="" orientationDescription="The campground&amp;amp;#39;s two loops are situated in a grove of aspen and lodgepole pine, at an elevation of 9,200 feet.  Highway 279 is gravel to the campground and the interior campground road is dirt.   Due to the mountain pine beetle infestation and removal of hazardous trees, there may be little to no shade available in the campground. " recreationDescription="Many hiking and biking trails are found nearby. Scenic driving is available along Highways 119 and 72, which is also known as the Peak to Peak Scenic Byway. Numerous creeks, rivers and lakes in the area provide fishing opportunities. Off-road enthusiasts will find many jeep roads in the vicinity." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70776&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="COLC" state="Colorado" streetAddress="ARAPAHO AND ROOSEVELT" zip=""/>
+        <photo realUrl="/webphotos/NRSO/pid70776/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70776/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70776/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70776/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70776/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70776/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70776/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70776/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70776/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70776/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70776/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70776/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70776/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70776/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70776/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70776/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70776/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70776/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70776_COLC.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="3032583290"/>
+        <contact name="Ranger Station" number="3035673000"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Scenic Drive"/>
+        <amenity distance="Within Facility" name="Tables"/>
+        <amenity distance="Within Facility" name="Tent Pads"/>
+        <amenity distance="Within Facility" name="Tent sites"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within 10 Miles" name="Biking"/>
+        <amenity distance="Within 10 Miles" name="Creek Access"/>
+        <amenity distance="Within 10 Miles" name="Fishing"/>
+        <amenity distance="Within 10 Miles" name="Hiking"/>
+        <amenity distance="Within 10 Miles" name="Off-Road Vehicle Trails"/>
+        <amenity distance="Within 10 Miles" name="River Access"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:12:24 GMT
+recorded_with: VCR 2.5.0

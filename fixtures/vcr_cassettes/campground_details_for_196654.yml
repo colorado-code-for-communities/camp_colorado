@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=KOA&parkId=196654
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:13:52 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:13:52 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=5F7BD6AC4A56A1BB65A5D273181F5DF8.web05-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2645525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=5F7BD6AC4A56A1BB65A5D273181F5DF8.web05-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:13:52 GMT; Path=/
+      Content-Length:
+      - '5683'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="KOA" description="Denver West/Central City KOA is deluxe Denver camping. We are located in the Rocky Mountains at an elevation of 8,490 feet, one mile above  Central City and Black Hawk , and just 35 miles west of Denver! We are within minutes of the best Colorado casinos, and are an excellent base camp for day trips to Red Rocks Amphitheater, Coors Brewery, Denver Zoo, Elitch Gardens Amusement Park, Estes Park, and Colorado Springs.  Enjoy a relaxing and scenic drive over the new Central City Parkway that directly connects Interstate I-70 with Central City. You&amp;amp;#39;ll love the rolling hills and breathtaking mountain views that surround you.   Come camp with us, Colorado camping style! Our Central City campground is not your average  Denver RV Park . If youre looking for one of the finest campgrounds in Colorado and the Denver-area, we invite you to come for a visit. Our beautiful views, fun atmosphere, and family-friendly campground service will make you want to reserve YOUR spot with us for all your camping needs. Youll find tons to do in Central City! Whether your hobby is hiking, biking, ATVs, nature photography, shopping for antiques, Black Jack, Slots, or a night at the Central City Opera House, this  Denver campground  is minutes away from the some of the most fun the Rocky Mountains has to offer. We are  &amp;quot;Big-Rig Friendly&amp;quot;  with many pull-through sites - all with 50-amp full hookups, Free cable TV and Free Wi-Fi. Limited Service Oct 14 thru April 19, 2013" drivingDirection=" From Denver:  Take I-70 West to Exit 243 (Hidden Valley/Central City). At the end of the exit ramp, turn right and merge onto the Central City Parkway go 8 miles. Follow the blue camper signs. Turn right onto Spring Street; stay straight to go onto Roworth Street. Turn left onto Hooper Street which becomes Virginia Canyon Road. Turn left on RD 6 / Lake Gulch Road, campground is on the left.   Traveling East on I-70:  Just past Idaho Springs, take exit 243. Turn left go 8 miles north on Central City Parkway. Follow the blue camper signs. Turn right onto Spring Street. Stay straight to go onto Roworth Street. Turn left onto Hooper Street which becomes Virginia Canyon Road. Turn left on RD 6 / Lake Gulch Road, campground is on the left.   From the Boulder/Golden/Blackhawk Area:  Take Hwy 93 to US 6 West and follow US 6 which turns into Hwy 119. Turn left at Black Hawk Street (fourth traffic light in Black Hawk). Proceed up to Central City. Turn left onto Spring Street. Follow the blue camper signs. At the second stop sign turn left to stay on Spring Street. Stay straight to go onto Roworth Street. Turn left onto Hooper Street which becomes Virginia Canyon Road. Turn left on RD 6 / Lake Gulch Road, campground is on the left." facilitiesDescription="" facility="Denver West / Central City KOA" facilityID="196654" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=KOA&amp;parkId=196654&amp;cmp=39-32--mcmire" importantInformation="" latitude="39.7916667" longitude="-105.5108333" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="KOA Region" reservationUrl="/campsiteSearch.do?contractCode=KOA&amp;parkId=196654&amp;cmp=39-32--mcmire">
+        <address city="Central City" country="United States" shortName="B654" state="Colorado" streetAddress="605 Lake Gulch Rd Co Rd 6" zip="80427-0771"/>
+        <photo realUrl="/webphotos/KOA/pid196654/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid196654/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid196654/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid196654/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid196654/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid196654/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid196654/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid196654/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid196654/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid196654/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid196654/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid196654/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid196654/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid196654/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid196654/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid196654/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid196654/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid196654/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number=""/>
+        <contact name="Ranger Station" number="3035823043"/>
+        <amenity distance="" name=""/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:13:52 GMT
+recorded_with: VCR 2.5.0

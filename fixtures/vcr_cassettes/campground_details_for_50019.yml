@@ -1,0 +1,92 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50019
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:37:16 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:37:16 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=81CA7ECD22ED7C4A5A583CF2CB7B299F.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=81CA7ECD22ED7C4A5A583CF2CB7B299F.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:37:16 GMT; Path=/
+      Content-Length:
+      - '5100'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description="The most modern water sports facility in northern Colorado, Boyd Lake State Park boasts over 1,700 surface-acres of water for boating, fishing, sailing and more. A sandy beach and seasonably warm water make Boyd Lake a favorite among windsurfers, water-skiers and swimmers. This family-oriented park is the perfect place for visitors of all ages." drivingDirection="One mile east of Loveland. Take Hwy 34 west of I-25; turn north on Madison Avenue and follow the signs." facilitiesDescription="" facility="BOYD LAKE State Park" facilityID="50019" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50019&amp;cmp=39-32--mcmire" importantInformation="Boyd Lake offers 148 paved pull-through campsites with 20, 30 and 50 amp electricity hook ups.. The sites are located on a grassy knoll dotted with trees near the lake. The easily accessible sites can accommodate tents, pick-up campers, trailers and motor homes. In addition to the camping fee, an entrance fee is required at all state parks! Shade may be naturally provided by trees and other vegetation or by man made shade shelter. Please call the park for specific details. " latitude="40.4477778" longitude="-105.0372222" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="High Plains Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50019&amp;cmp=39-32--mcmire">
+        <address city="LOVELAND" country="United States" shortName="BOLA" state="Colorado" streetAddress="3720 N.COUNTY RD. 11-C" zip="80538"/>
+        <photo realUrl="/webphotos/CO/pid50019/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50019/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50019/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50019/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50019/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50019/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50019/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50019/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50019/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="9706691739"/>
+        <contact name="Ranger Station" number="9706691739"/>
+        <amenity distance="Within Facility" name="Amphitheater"/>
+        <amenity distance="Within Facility" name="Beach (Swimming)"/>
+        <amenity distance="Within Facility" name="Beach House"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Bird Watching"/>
+        <amenity distance="Within Facility" name="Boat Ramp"/>
+        <amenity distance="Within Facility" name="Boat Rental"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Camper Services Bldg"/>
+        <amenity distance="Within Facility" name="Coffee Shop"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Firewood Available"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Group Pavilions Available"/>
+        <amenity distance="Within Facility" name="Group Picnic Area"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Ice Fishing"/>
+        <amenity distance="Within Facility" name="Interpretitive Programs"/>
+        <amenity distance="Within Facility" name="Jet Ski Rental"/>
+        <amenity distance="Within Facility" name="Jet Skiing"/>
+        <amenity distance="Within Facility" name="Laundry Facilities"/>
+        <amenity distance="Within Facility" name="Marina"/>
+        <amenity distance="Within Facility" name="Nature Study Exhibits"/>
+        <amenity distance="Within Facility" name="Pay Phones Available"/>
+        <amenity distance="Within Facility" name="Photography"/>
+        <amenity distance="Within Facility" name="Picnicking"/>
+        <amenity distance="Within Facility" name="Playground"/>
+        <amenity distance="Within Facility" name="Proximity To Camp Serv."/>
+        <amenity distance="Within Facility" name="Sailing And Sailboarding"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Snack Br Concession"/>
+        <amenity distance="Within Facility" name="Store (Retail)"/>
+        <amenity distance="Within Facility" name="Swimming"/>
+        <amenity distance="Within Facility" name="Visitor Center"/>
+        <amenity distance="Within Facility" name="Water Skiing"/>
+        <amenity distance="Within Facility" name="Wildlife Watching Opportunity"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:01:48 GMT
+recorded_with: VCR 2.5.0

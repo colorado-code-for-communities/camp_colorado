@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70027
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:34:14 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:34:14 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=8D626C1C7786C8EB2BD5419DECF7B0E7.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=8D626C1C7786C8EB2BD5419DECF7B0E7.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:34:14 GMT; Path=/
+      Content-Length:
+      - '4484'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Mogote Campground is located along the Conejos River, making it a perfect location for fishing and hiking. The pleasant campground is well shaded by groves of ponderosa pine and a mixture of cottonwood, spruce, willow and aspen.     The campground is also in close proximity to the Cumbres &amp;amp;amp; Toltec Scenic Railroad, home of America&amp;amp;#39;s highest and longest, coal fired, steam operated narrow-gauge railroad." drivingDirection="From Antonito, Colorado, go west on Highway 17 about 15 miles to the campground access road. Turn right and travel 1/4 mile to the Upper Loop Road." facilitiesDescription="Campsites are equipped with picnic tables and campfire rings with grills. Vault toilets, drinking water and trash bins are provided. An accessible toilet is located in the upper loop.    No electric hookups are available. Firewood can be purchased on site." facility="MOGOTE" facilityID="70027" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70027&amp;cmp=39-32--mcmire" importantInformation="Please fill your trailer prior to arriving. Trailers are NOT allowed to fill at hydrants as it contaminates the entire water system. No electric hookups at this facility This campground has first-come, first-serve sites A fee will be charged for additional vehicles No off-road vehicles allowed The 14 day stay limit is strictly enforced. Camping for a period longer than 14 days during any 30-consecutive day period is prohibited. If you have booked back-to-back reservations, you will be asked to cancel all days after the first 14. Click here for more information on the Rio Grande National Forest " latitude="37.0647222" longitude="-106.2344444" nearbyAttrctionDescription="The Cumbres &amp;amp;amp; Toltec Scenic Railroad can be accessed from Antonito. The train makes a 640-mile journey through abandoned mining towns, creating great entertainment for young and old." note="" orientationDescription="The campground sits at an elevation of 8,400 feet, and is separated into an upper and lower loop. The lower loop sits along the fast-flowing Conejos River and many sites face the water. The campground is perched in a wooded section along the river valley.    Rio Grande National Forest stretches across 1.86 million acres in south-central Colorado. The forest encompasses a myriad of ecosystems ranging from high elevation desert at 7,600 feet above sea level to rocky crags at over 14,300 feet in the majestic Sangre de Cristo Mountains." recreationDescription="The Conejos River is a Gold Medal River, offering a high potential for trophy trout fishing. Rainbow and brown trout are the most common species in the river. Popular hikes include the 15-mile Elk Creek Trail and the 10.9-mile South Fork Conejos Trail." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70027&amp;cmp=39-32--mcmire">
+        <address city="LA JARA" country="United States" shortName="MOGO" state="Colorado" streetAddress="CONEJOS PEAK RD 15571 CR T-5" zip="81140"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70027_MOGO.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7192748971"/>
+        <contact name="Ranger Station" number="7193762535"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Group Camping"/>
+        <amenity distance="Within Facility" name="Horseshoe Pit"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Self Pay Station"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Volleyball Courts"/>
+        <amenity distance="Within Facility" name="Water Spigot"/>
+        <bulletin description="The Pinon Group Site (G0P) is closed until further notice (including the 2013 season) and may be permanently removed from service." headline="ATTENTION "/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:34:14 GMT
+recorded_with: VCR 2.5.0

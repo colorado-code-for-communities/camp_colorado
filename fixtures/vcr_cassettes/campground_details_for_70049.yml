@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70049
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:39:21 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:39:21 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=79A0E81F9D8B5125D7DCEB0ADB367C0F.web07-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2845525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=79A0E81F9D8B5125D7DCEB0ADB367C0F.web07-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:39:21 GMT; Path=/
+      Content-Length:
+      - '6517'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Red Rocks Group Campground is located 4 miles north of the town of Woodland Park, Colorado. Visitors enjoy the area for hiking, biking and visiting the nearby 5-acre Manitou Lake." drivingDirection="From the I-25 and Highway 24 intersection in Colorado Springs, Colorado, travel west on Highway 24 for about 18 miles to the junction with Highway 67 in Woodland Park. Turn right (north) on Highway 67 and drive about 4 miles. Turn right (east) on Forest Road 335. The campground entrance is up the road about 0.2 miles on the left." facilitiesDescription="The campground offers one group site that can accommodate up to 125 people and 44 vehicles. It can be reserved for overnight or day use. The site is equipped with picnic tables and a campfire circle with benches. Additional tables and grills are scattered throughout the area. Vault toilets, drinking water and trash collection are provided." facility="RED ROCKS GROUP CAMPGROUND" facilityID="70049" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70049&amp;cmp=39-32--mcmire" importantInformation=" Thunderstorms are common; take extra precautions for lightning Be bear aware; keep all food out of site in approved containers or locked inside your vehicle and remove all food from area after eating This is a high elevation facility, please use caution when traveling from lower elevations Fires in fire rings only No firearms or fireworks No RV hookups are available For more information on Pike and San Isabel National Forests, click here " latitude="39.0441667" longitude="-105.0797222" nearbyAttrctionDescription="The town of Woodland Park is located 6 miles south of Colorado Campground, where campers can find gas, groceries, dining and shopping.     Colorado Springs is about 20 miles southeast of the campground and offers many services. Garden of the Gods is a popular attraction just outside of town. This free park offers hiking trails, rock climbing routes, a visitor center and cafe.    Pikes Peak lies west of Manitou Springs, which is about 15 miles from the campground. Visitors can hike, bike, drive or ride a historic cog railway to the summit of this beautiful mountain." note="" orientationDescription="This rustic group site is situated in a ponderosa pine forest at an elevation of 8,200 feet. A nearby hiking trail leads to a unique red sandstone formation. Most of Red Rocks Group is shaded by sweetly scented ponderosa pine trees." recreationDescription="The Centennial Bike Trail is a paved, accessible recreation trail that connects Red Rocks Campground to Manitou Lake, Colorado and South Meadows Campgrounds. The trail is popular among hikers, roller bladers and bicyclists. The nearby Rainbow Falls OHV Trail System and North Divide OHV Trail System are recommended for off-road vehicle enthusiasts.    Manitou Lake is a short drive away, and is great for picnics and trout fishing. Canoeing is also a popular activity." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70049&amp;cmp=39-32--mcmire">
+        <address city="WOODLAND PARK" country="United States" shortName="REDR" state="Colorado" streetAddress="CO HIGHWAY 67" zip="80903"/>
+        <photo realUrl="/webphotos/NRSO/pid70049/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70049/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70049/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70049/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70049/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70049/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70049/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70049/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70049/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70049/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70049/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70049/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70049/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70049/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70049/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70049/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70049/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70049/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70049_REDR.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7196877818"/>
+        <contact name="Ranger Station" number="7196361602"/>
+        <amenity distance="Within Facility" name="Campfire Circles"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Group Camping"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Water"/>
+        <amenity distance="Within 10 Miles" name="Canoeing"/>
+        <amenity distance="Within 10 Miles" name="Fishing"/>
+        <amenity distance="Within 10 Miles" name="Hiking"/>
+        <amenity distance="Within 10 Miles" name="Lake Access"/>
+        <amenity distance="Within 10 Miles" name="Mountain Biking"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:39:21 GMT
+recorded_with: VCR 2.5.0

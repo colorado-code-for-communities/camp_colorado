@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50037&siteType=2003
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:39:46 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:39:46 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=57A014FFB20A241F1CC1BB1E4669D588.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=57A014FFB20A241F1CC1BB1E4669D588.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:39:46 GMT; Path=/
+      Content-Length:
+      - '6210'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="CO" count="18" parkId="50037" resultType="campsites" siteType="2003">
+        <result Loop="FALLS CAMPGROUND" Maxeqplen="40" Maxpeople="6" Site="RIFAFALL002HD" SiteId="4216" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. ELECTRIC" mapx="491.224456787109" mapy="573.580200195313" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="FALLS CAMPGROUND" Maxeqplen="29" Maxpeople="6" Site="RIFAFALL003" SiteId="4417" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. ELECTRIC" mapx="492.035797119141" mapy="545.183227539063" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="FALLS CAMPGROUND" Maxeqplen="29" Maxpeople="6" Site="RIFAFALL004" SiteId="2030" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. ELECTRIC" mapx="488.790435791016" mapy="512.7294921875" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="FALLS CAMPGROUND" Maxeqplen="49" Maxpeople="6" Site="RIFAFALL005" SiteId="2033" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="449.845977783203" mapy="507.861450195313" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="FALLS CAMPGROUND" Maxeqplen="39" Maxpeople="6" Site="RIFAFALL006" SiteId="2031" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="480.677001953125" mapy="477.030395507813" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="FALLS CAMPGROUND" Maxeqplen="49" Maxpeople="6" Site="RIFAFALL007" SiteId="2034" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="440.109832763672" mapy="460.803527832031" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="FALLS CAMPGROUND" Maxeqplen="49" Maxpeople="6" Site="RIFAFALL008" SiteId="2032" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="484.733734130859" mapy="447.010711669922" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="FALLS CAMPGROUND" Maxeqplen="30" Maxpeople="6" Site="RIFAFALL009" SiteId="2035" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="449.034606933594" mapy="426.727111816406" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="FALLS CAMPGROUND" Maxeqplen="29" Maxpeople="6" Site="RIFAFALL011" SiteId="2037" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. ELECTRIC" mapx="500.960571289063" mapy="391.028015136719" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="FALLS CAMPGROUND" Maxeqplen="29" Maxpeople="6" Site="RIFAFALL012" SiteId="2038" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. ELECTRIC" mapx="514.75341796875" mapy="368.310394287109" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="FALLS CAMPGROUND" Maxeqplen="29" Maxpeople="6" Site="RIFAFALL013" SiteId="4416" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. ELECTRIC" mapx="500.960571289063" mapy="356.140258789063" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Squirrel Tents" Maxeqplen="0" Maxpeople="6" Site="RIFASQTRTENT014" SiteId="2063" SiteReserveType="site-specific" SiteType="TENT ONLY BASIC" mapx="478.319763183594" mapy="644.674133300781" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Squirrel Tents" Maxeqplen="0" Maxpeople="6" Site="RIFASQTRTENT015" SiteId="2064" SiteReserveType="site-specific" SiteType="TENT ONLY BASIC" mapx="534.773986816406" mapy="664.619079589844" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Squirrel Tents" Maxeqplen="0" Maxpeople="6" Site="RIFASQTRTENT016" SiteId="2065" SiteReserveType="site-specific" SiteType="TENT ONLY BASIC" mapx="533.421752929688" mapy="700.790283203125" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Squirrel Tents" Maxeqplen="0" Maxpeople="6" Site="RIFASQTRTENT017" SiteId="2066" SiteReserveType="site-specific" SiteType="TENT ONLY BASIC" mapx="515.167114257813" mapy="742.370300292969" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Squirrel Tents" Maxeqplen="0" Maxpeople="6" Site="RIFASQTRTENT018" SiteId="2067" SiteReserveType="site-specific" SiteType="TENT ONLY BASIC" mapx="502.997344970703" mapy="785.978637695313" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Squirrel Tents" Maxeqplen="0" Maxpeople="6" Site="RIFASQTRTENT019" SiteId="2068" SiteReserveType="site-specific" SiteType="TENT ONLY BASIC" mapx="478.657806396484" mapy="848.855773925781" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Squirrel Tents" Maxeqplen="0" Maxpeople="6" Site="RIFASQTRTENT020" SiteId="2069" SiteReserveType="site-specific" SiteType="TENT ONLY BASIC" mapx="474.601226806641" mapy="915.789428710938" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:39:46 GMT
+recorded_with: VCR 2.5.0

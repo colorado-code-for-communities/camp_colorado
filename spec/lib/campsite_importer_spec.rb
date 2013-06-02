@@ -27,7 +27,8 @@ XML
         to_return(body: campsites_response, headers: {'Content-Type' => 'application/xml'})
     end
 
-    CampsiteImporter.new(test_api_key).import
+    importer = CampsiteImporter.new(test_api_key, output: StringIO.new)
+    importer.import
 
     campsites = Campsite.all.to_a
 

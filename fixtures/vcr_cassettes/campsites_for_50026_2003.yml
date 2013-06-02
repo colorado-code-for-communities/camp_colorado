@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50026&siteType=2003
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:29:02 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:29:02 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=1860E03C7EBDB39A840F75191585EE93.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=1860E03C7EBDB39A840F75191585EE93.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:29:02 GMT; Path=/
+      Content-Length:
+      - '9492'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="CO" count="27" parkId="50026" resultType="campsites" siteType="2003">
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="27" Maxpeople="6" Site="HISR001" SiteId="1209" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="552.369812011719" mapy="388.860870361328" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="35" Maxpeople="6" Site="HISR002" SiteId="1210" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. NON-ELEC BASIC" mapx="518.790405273438" mapy="388.386199951172" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="35" Maxpeople="6" Site="HISR003" SiteId="1211" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. NON-ELEC BASIC" mapx="517.51" mapy="430.8" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="45" Maxpeople="6" Site="HISR004" SiteId="1212" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="541.852233886719" mapy="413.910186767578" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="45" Maxpeople="6" Site="HISR005" SiteId="1213" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="559.421936035156" mapy="433.734649658203" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="50" Maxpeople="6" Site="HISR006" SiteId="1214" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="533.121826171875" mapy="458.308319091797" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="40" Maxpeople="6" Site="HISR010" SiteId="1218" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="521.757202148438" mapy="512.953552246094" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="45" Maxpeople="6" Site="HISR011" SiteId="1219" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="523.542236328125" mapy="539.561828613281" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="40" Maxpeople="6" Site="HISR012" SiteId="1220" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. NON-ELEC BASIC" mapx="492.101501464844" mapy="565.805358886719" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="90" Maxpeople="6" Site="HISR013" SiteId="1221" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. NON-ELEC BASIC" mapx="491.361724853516" mapy="585.273559570313" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="41" Maxpeople="6" Site="HISR014" SiteId="1228" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="524.696350097656" mapy="597.423767089844" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="45" Maxpeople="6" Site="HISR015" SiteId="1225" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="542.300598144531" mapy="572.630004882813" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="33" Maxpeople="6" Site="HISR016" SiteId="1222" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. NON-ELEC BASIC" mapx="557.113830566406" mapy="596.891235351563" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="32" Maxpeople="6" Site="HISR017" SiteId="1223" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. NON-ELEC BASIC" mapx="577.962646484375" mapy="596.49658203125" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="45" Maxpeople="6" Site="HISR018" SiteId="1226" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="587.372863769531" mapy="571.929992675781" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="65" Maxpeople="6" Site="HISR019" SiteId="1224" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="618.427734375" mapy="590.017028808594" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="35" Maxpeople="6" Site="HISR021" SiteId="5819" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. NON-ELEC BASIC" mapx="624.716613769531" mapy="548.872497558594" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="40" Maxpeople="6" Site="HISR023" SiteId="1233" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. NON-ELEC BASIC" mapx="601.070007324219" mapy="503.238555908203" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="39" Maxpeople="6" Site="HISR024" SiteId="1229" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. NON-ELEC BASIC" mapx="625.700012207031" mapy="492.230010986328" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="30" Maxpeople="6" Site="HISR025" SiteId="1230" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="601.129333496094" mapy="477.882507324219" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="27" Maxpeople="6" Site="HISR026" SiteId="4046" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="625.863708496094" mapy="458.956878662109" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="45" Maxpeople="6" Site="HISR027" SiteId="5669" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="622.053833007813" mapy="431.708648681641" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="55" Maxpeople="6" Site="HISR028" SiteId="4048" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="589.587219238281" mapy="439.534301757813" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="65" Maxpeople="6" Site="HISR029" SiteId="5719" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="566.134704589844" mapy="458.336791992188" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="40" Maxpeople="6" Site="HISR030" SiteId="4050" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. NON-ELEC BASIC" mapx="574.56982421875" mapy="521.878479003906" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="55" Maxpeople="6" Site="HISR031" SiteId="5769" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="584.7744140625" mapy="488.959167480469" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIGHLINE LAKE CAMPGROUND" Maxeqplen="70" Maxpeople="6" Site="HISR022HD" SiteId="1232" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="623.851928710938" mapy="524.186157226563" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:29:02 GMT
+recorded_with: VCR 2.5.0

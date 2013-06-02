@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70789&siteType=2002
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:33:43 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:33:43 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=B5F7B6CF9FF2AEB281FD0C8A374BAD02.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=B5F7B6CF9FF2AEB281FD0C8A374BAD02.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:33:43 GMT; Path=/
+      Content-Length:
+      - '3159'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="9" parkId="70789" resultType="campsites" siteType="2002">
+        <result Loop="MAY" Maxeqplen="30" Maxpeople="8" Site="010" SiteId="18303" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="440.16" mapy="452.79" sitePhoto="/webphotos//NRSO/pid70789/sid18303/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAY" Maxeqplen="99" Maxpeople="8" Site="011" SiteId="18304" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="486.34" mapy="347.5" sitePhoto="/webphotos//NRSO/pid70789/sid18304/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAY" Maxeqplen="35" Maxpeople="8" Site="012" SiteId="18305" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="494.41" mapy="422.45" sitePhoto="/webphotos//NRSO/pid70789/sid18305/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAY" Maxeqplen="35" Maxpeople="8" Site="013" SiteId="18306" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="564.41" mapy="394.45" sitePhoto="/webphotos//NRSO/pid70789/sid18306/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAY" Maxeqplen="35" Maxpeople="8" Site="015" SiteId="18307" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="622.75" mapy="364.7" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAY" Maxeqplen="35" Maxpeople="8" Site="017" SiteId="18308" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="680.07" mapy="347.7" sitePhoto="/webphotos//NRSO/pid70789/sid18308/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAY" Maxeqplen="35" Maxpeople="8" Site="019" SiteId="18309" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="731.58" mapy="325.2" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAY" Maxeqplen="35" Maxpeople="8" Site="020" SiteId="18310" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="793.1" mapy="295.22" sitePhoto="/webphotos//NRSO/pid70789/sid18310/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAY" Maxeqplen="40" Maxpeople="8" Site="022" SiteId="18311" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="860.32" mapy="269.78" sitePhoto="/webphotos//NRSO/pid70789/sid18311/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:33:43 GMT
+recorded_with: VCR 2.5.0

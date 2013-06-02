@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=97524
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:23:42 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:23:42 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=0DDABC169076AA8E8C8BC13324B6A2EC.web07-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2845525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=0DDABC169076AA8E8C8BC13324B6A2EC.web07-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:23:42 GMT; Path=/
+      Content-Length:
+      - '6812'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Alder Guard Station is located 2 miles north of the town of South Fork along Alder Creek in the Rio Grande National Forest. The guard station was constructed in 1910 and was the residence and office for the local ranger district. Today the historic cabin is a comfortable getaway for guests seeking relaxation and recreation in south central Colorado." drivingDirection="From South Fork, Colorado: Travel approximately .5 miles on Highway 149 towards Creede.  After crossing the Rio Grande River bridge, turn east (right) on County Road 15 (North River Road) and go approximately 1 mile to Forest Road 610.  Turn north (left) on Forest Road 610 and go 2 miles.  Alder Guard Station is on the left less than 50 yards from Forest Road 610." facilitiesDescription="The two story cabin is furnished with two bunkbeds and one single bed in the upstairs bedroom, and a couch on the first floor. The kitchen is equipped with a table and chairs, electric stove, refrigerator, cooking utensils and some pots and pans.     The bathroom has hot water and a flush toilet. A wood stove is the only source of heat for the guard station. Picnic tables and firewood are also on site.     Although the cabin has several amenities, guests do need to provide their own sleeping bags, linens, towels, dish soap, matches, cooking gear, first aid kit, toilet paper and garbage bags.     Lighting is available, however guests are advised to bring an additional light source in case of emergency." facility="ALDER GUARD STATION" facilityID="97524" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=97524&amp;cmp=39-32--mcmire" importantInformation=" Entry to the cabin is by combination lock. Please call the Divide Ranger District at (719) 657-3321 one week prior to reservation to obtain the combination to the back door. Office hours are 8 a.m.- 4:30 p.m., Monday- Friday. Pets are only allowed outside the guard station; please clean up after your pet Do not leave food or trash outside the guard station; bears have been spotted in the area All garbage and food must be packed out; do not burn garbage in the fire pit or wood stove Do not place tents or vehicles on the lawn The guard station is a no-smoking facility Please clean guard station upon departure Make sure guard station is locked upon departure Horses are restricted to the corral area near the barn; only weed free hay/feed for the horses - no grazing allowed; if you bring horses, please contact the District office at (719) 657-3321 Forest Service employees use the horse pasture adjacent to the guard station for official duties Learn more about the Rio Grande National Forest. " latitude="37.7044444" longitude="-106.6466667" nearbyAttrctionDescription="" note="" orientationDescription="The Rio Grande National Forest encompasses of a myriad of ecosystems ranging from high elevation desert to the craggy peaks of the majestic Sangre de Cristo Mountains.    The Alder Guard Station, located in the Divide Ranger District, is surrounded by mixed conifer forests, aspen groves, and wilderness areas, though its immediate vicinity is manicured, with a fenced lawn." recreationDescription="The Alder Bench trailhead is located north of the guard station on Forest  Road 610.  In the past, this trail was used by stockmen taking livestock up to the high country towards Blue Park and Long Park.    In the fall, visitors use this trail to hunt elk and deer as this area is considered winter range for both. The 6.5 mile trail is also open for off-road single track riding, horse and foot travel, and mountain biking, but can be very rocky and steep in places.    Anglers will enjoy the scenic backdrop of Alder Creek when casting lines for a variety of trout." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=97524&amp;cmp=39-32--mcmire">
+        <address city="South Fork" country="United States" shortName="B524" state="Colorado" streetAddress="Forest Road 610" zip="81154"/>
+        <photo realUrl="/webphotos/NRSO/pid97524/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid97524/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid97524/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid97524/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid97524/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid97524/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid97524/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid97524/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid97524/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7196573321"/>
+        <contact name="Ranger Station" number=""/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Bunkbed(s) With Mattresses"/>
+        <amenity distance="Within Facility" name="Campfire Ring"/>
+        <amenity distance="Within Facility" name="Cleaning Supplies"/>
+        <amenity distance="Within Facility" name="Couches"/>
+        <amenity distance="Within Facility" name="Drinking Water (Peak Season)"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Flush Toilets (Seasonal)"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Historic Sites"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Lights"/>
+        <amenity distance="Within Facility" name="Off Road Vehicle Trails"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Refrigerator"/>
+        <amenity distance="Within Facility" name="River Access"/>
+        <amenity distance="Within Facility" name="Showers (Seasonal)"/>
+        <amenity distance="Within Facility" name="Stove"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within Facility" name="Wood Stove"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 01:59:44 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50039&siteType=10001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:39:37 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:39:37 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=5BB30C4A64166B45F4498EDDE08D687E.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=5BB30C4A64166B45F4498EDDE08D687E.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:39:37 GMT; Path=/
+      Content-Length:
+      - '1255'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="CO" count="3" parkId="50039" resultType="campsites" siteType="10001">
+        <result Loop="Yurt Loop A" Maxeqplen="70" Maxpeople="6" Site="RISRDATEALOO010HA" SiteId="2310" SiteReserveType="site-specific" SiteType="YURT" mapx="676.148315429688" mapy="594.764221191406" sitePhoto="/webphotos//CO/pid50039/sid2310/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Yurt Loop A" Maxeqplen="65" Maxpeople="6" Site="RISRDATEALOO012" SiteId="2312" SiteReserveType="site-specific" SiteType="YURT" mapx="676.019775390625" mapy="598.22802734375" sitePhoto="/webphotos//CO/pid50039/sid2312/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Yurt Loop A" Maxeqplen="70" Maxpeople="6" Site="RISRDATEALOO014" SiteId="2314" SiteReserveType="site-specific" SiteType="YURT" mapx="673.11572265625" mapy="601.088928222656" sitePhoto="/webphotos//CO/pid50039/sid2314/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:39:37 GMT
+recorded_with: VCR 2.5.0

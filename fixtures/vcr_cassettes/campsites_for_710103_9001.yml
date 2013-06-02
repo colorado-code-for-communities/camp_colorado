@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=LARC&parkId=710103&siteType=9001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:15:48 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:15:48 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=B431EF6C44C51F1FAB4C166219818834.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=B431EF6C44C51F1FAB4C166219818834.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:15:48 GMT; Path=/
+      Content-Length:
+      - '537'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="LARC" count="1" parkId="710103" resultType="campsites" siteType="9001">
+        <result Loop="Flatiron Reservoir" Maxeqplen="0" Maxpeople="50" Site="Flatiron Reservoir" SiteId="1851" SiteReserveType="site-specific" SiteType="PAVILION" mapx="305.82" mapy="763.92" sitePhoto="/webphotos//LARC/pid710103/sid1851/0/180x120.jpg" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:15:48 GMT
+recorded_with: VCR 2.5.0

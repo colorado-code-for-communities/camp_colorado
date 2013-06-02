@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70422
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:38:54 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:38:54 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=FDDF1C7969F2A70377777AE89D8E2F7C.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=FDDF1C7969F2A70377777AE89D8E2F7C.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:38:54 GMT; Path=/
+      Content-Length:
+      - '7209'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Situated above the Ruedi Reservoir, Chapman Campground sits at the base of a wide valley adjacent to the Fryingpan River in White River National Forest.    Sites are surrounded by lodgepole pine, and several are at the river&amp;amp;#39;s edge, offering an ideal setting for visitors seeking recreation and relaxation." drivingDirection="Take I-70 west of Denver to Glenwood Springs, Colorado. Take exit 116(Highway 82) south to Basalt. At Basalt, take Frying Pan Road. Go 29miles to Chapman Campground." facilitiesDescription="Chapman Campground has 84 standard sites suitable for tents, trailers, and RVs. A group site is also available.    The campground is equipped with picnic tables, campfire rings, vault toilets, and drinking water. Electrical hook-ups are  not available.    Trash and recycling collection is provided." facility="CHAPMAN CAMPGROUND AND GROUP" facilityID="70422" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70422&amp;cmp=39-32--mcmire" importantInformation=" This facility is operated by White River Recreation, a division of California Land Management and your comments are appreciated; comment forms are available from campground hosts or on CLM&amp;apos;s website . Several campsites are available on a first-come, first-served basis Motorized watercraft is prohibited on Chapman Reservoir Additional parking is remote Gate to the group area must be locked at all times Prevent the spread of invasive species by inspecting and cleaning packs, equipment, and tires before using lake or trails In accordance with standard industry practices, there will be a $5 additional vehicle fee on the second vehicle in each single family campsite, and on the third and fourth vehicles in any double family campsite, provided these vehicles are not joined to the first vehicle by a hitch and towed onto the site. In the case of motorcycles, the first two are considered as 1 vehicle for determining additional vehicle fees. The third and fourth motorcycle would also be considered as 1 vehicle. No additional vehicle fees are collected for bicycles. Click here for more information about White River National Forest " latitude="39.3083333" longitude="-106.6330556" nearbyAttrctionDescription="" note="" orientationDescription="In the heart of the Rocky Mountains, the 2.3 million acre White River National Forest is a place of serenity and adventure, boasting 8 wilderness areas, 4  defined seasons, and 10 peaks surpassing 14,000 feet in elevation.    Wildlife in the area abounds. Bighorn sheep navigate rocky ridges and bull elk bugle at dusk. Scenic rivers sustain populations   of cutthroat, rainbow, and brown trout. Alpine regions provide habitat for pika and ptarmigan. These species, along with many   others, depend on surrounding undeveloped wilderness, clean streams, and diverse forests to live." recreationDescription="Flowing through this campground is Fryingpan River, renowned for its fly fishing. Downriver, below the campground and Ruedi  Dam, large rainbow, brown, cutthroat and brook trout are plentiful in an area nicknamed the &amp;amp;quot;toilet bowl.&amp;amp;quot; Here, the  fish feed on mysis shrimp, a small freshwater shrimp stocked in the lake.    The stretch of river from the dam down to the confluence of Fryingpan and the Roaring Fork River has been designated as Gold Medal Waters by the Colorado Wildlife  Commission. Special regulations in this area include fishing only with artificial flies and lures, and releasing all trout except brown trout, with a limit of 2 fish  over 14 inches.     Chapman Reservoir is also an option for anglers wanting to cast lines in at its shore. Motorized watercraft is prohibited on Chapman Reservoir.    A horseshoe pit and volleyball court encourage game playing. A nature trail can be accessed from the site." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70422&amp;cmp=39-32--mcmire">
+        <address city="BASALT" country="United States" shortName="CHAP" state="Colorado" streetAddress="FRYING PAN RIVER RD" zip="81621"/>
+        <photo realUrl="/webphotos/NRSO/pid70422/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70422/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70422/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70422/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70422/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70422/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70422/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70422/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70422/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70422/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70422/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70422/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70422_CHAP.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9709270107"/>
+        <contact name="Ranger Station" number="9709270107"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Group Camping"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseshoe Pit"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Interpretive Trails"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="RV sites"/>
+        <amenity distance="Within Facility" name="Recycling"/>
+        <amenity distance="Within Facility" name="River Access"/>
+        <amenity distance="Within Facility" name="Trails"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Volleyball Courts"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within 10 Miles" name="Dump Station"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:03:21 GMT
+recorded_with: VCR 2.5.0

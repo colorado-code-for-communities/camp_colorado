@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=75490&siteType=9002
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:24:58 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:24:58 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=75E2A6DB2CDA3AC38A4F9E7FA11C6867.web03-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2445525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=75E2A6DB2CDA3AC38A4F9E7FA11C6867.web03-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:24:58 GMT; Path=/
+      Content-Length:
+      - '488'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="1" parkId="75490" resultType="campsites" siteType="9002">
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="30" Site="002" SiteId="151060" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="861.395324707031" mapy="872.665466308594" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:12:48 GMT
+recorded_with: VCR 2.5.0

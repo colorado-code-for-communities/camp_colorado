@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73761
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:44:43 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:44:43 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=94DEB435F391C948AF547B13C905DB3D.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=94DEB435F391C948AF547B13C905DB3D.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:44:43 GMT; Path=/
+      Content-Length:
+      - '4546'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="The historic Tigiwon Community house is a large day-use cabin, perfect for family reunions, parties or weddings.    Nestled in a forested setting, this facility has an expansive view of Colorado&amp;amp;#39;s Gore Range." drivingDirection="From Denver, go approximately 105 miles to exit 171.  Take Highway24 south through the town of Minturn to the Tigiwon Road/Forest Service Road 707 and turn right. Follow the Tigiwon Road approximately 6 milesto the Community House." facilitiesDescription="Tigiwon Community House is a day-use area only.  Overnight camping is prohibited.    The historic Tigiwon Community house is a relatively large, one room cabin. Amenities both inside and outside the cabin are Accessible. Outside, visitors will have access to four 10-foot picnic tables, two charcoal grills, a fire pit, a horseshoe pit and vault toilets. Inside amenities include four tables, bench seating around the room and a stone fireplace." facility="TIGIWON COMMUNITY HOUSE" facilityID="73761" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=73761&amp;cmp=39-32--mcmire" importantInformation=" The road to the Community House is narrow and rocky, but passable for most passenger cars Fees for facility are as follows: 1-50 people = $85.00 51-100 people = $110.00 101-150 people = $160.00 151-200 people = $210.00 This is a day-use area only; overnight camping prohibited No drinking water available at this site No electricity hook-ups at this site Use of generators and public address systems is prohibited Summer day use is from 8:00 a.m. until 10:00 p.m. The road is closed in winter and spring (December 1 to June 20) to motor vehicles except snowmobiles The facility is locked with a combination lock Click here for more information about White River National Forest " latitude="39.5233333" longitude="-106.42" nearbyAttrctionDescription="Take some time to visit Rocky Mountain National Park to learn about the diverse landscape and history of the area through interpretive programs and exhibits. In the summer visitors may want to traverse Trail Ridge Road from one side of the park to the other, reaching alpine vistas boasting elevations of over 12,000 feet." note="" orientationDescription="In the heart of the Rocky Mountains, the 2.3 million acre White River National Forest is a place of serenity and adventure, boasting eight wilderness areas and ten peaks surpassing 14,000 feet in elevation.     The White River National Forest was established in 1891 as the White River Plateau Timber Reserve, the second such reserve to be named in the United States." recreationDescription="Encompassing a landscape of rivers, mountains, trails, and forest roads, the White River National Forest is one of the top recreation Forests in the nation.    For hikers and backpackers, sections of the Colorado Trail can be accessed near Tigiwon Community House. The Tennessee Pass section travels 6.5 miles over gentle terrain and Forest roads to Tennessee Pass. The Kokomo Pass section climbs more steeply up an old rocky logging road through a steep canyon, passing an old sawmill site." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=73761&amp;cmp=39-32--mcmire">
+        <address city="MINTURN" country="United States" shortName="TIGI" state="Colorado" streetAddress="" zip="81645"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9708275715"/>
+        <contact name="Ranger Station" number="9700000000"/>
+        <amenity distance="Within Facility" name="Berry Picking"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseshoe Pits"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Skiing"/>
+        <amenity distance="Within Facility" name="Snowshoeing"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:44:43 GMT
+recorded_with: VCR 2.5.0

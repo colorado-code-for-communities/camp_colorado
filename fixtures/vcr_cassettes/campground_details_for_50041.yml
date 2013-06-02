@@ -1,0 +1,95 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50041
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:43:12 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:43:12 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=19DFB650B5C96E49FB4C3AAC64D7C912.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=19DFB650B5C96E49FB4C3AAC64D7C912.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:43:12 GMT; Path=/
+      Content-Length:
+      - '6696'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description="Nestled at the base of majestic Hahn&amp;amp;#39;s Peak in Northern Colorado, 8,100&amp;amp;#39; high Steamboat Lake State Park offers clean air, blue Colorado sky, breathtaking scenery and plenty of excellent recreational opportunities. Premier fishing, camping and boating are available along with a full-service marina and swim beach. The absolutely wonderful scenery--including nearby peaks, the Continental Divide, lush green valleys and colorful alpine wildflowers--make the park picturesque year-round. Hiking &amp;amp;amp; biking trails meander through meadows and along the shoreline. Winter comes alive with ice fishing, snowshoeing, cross-country skiing, and access to 146 miles of prime snowmobile trails. Most of the 188 campsites are very sunny and have outstanding views, many overlooking the 1,011 acre lake. Our sites accommodate trailers, motor homes, campers and tents." drivingDirection=" From Steamboat Springs  go west on Hwy 40 to County Rd 129. Turn north and go 26 miles to the park entrance." facilitiesDescription="" facility="STEAMBOAT LAKE STATE PARK" facilityID="50041" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50041&amp;cmp=39-32--mcmire" importantInformation=" Reservations are strongly recommended. Due to trees and turning radius, please adhere to RV length recommendations for campsites. All tents and equipment must be set up on high use pads (14&amp;apos; x 14&amp;apos;). Maximum number of vehicles per site is two. Dogs are allowed but must be leashed and under control at all times. Due to the popularity of the park, campsite moves are not allowed during the peak summer season. Depending on snow conditions, first-come/first-serve camping may be available during May and October. During the winter months, fourteen electrical sites are available in the marina lot on a first-come/first-serve basis for self-contained units. All electric sites has 15,30 and 50Amp breakers In addition to the camping, a vehicle park pass (annual or daily) is required on all vehicles entering the park. Park passes are not included in reservation fees and may be purchased at the park. Camper cabin reservations may be made by calling the Marina at 970-879-7019. For current conditions and information, contact the Visitor Center and 970-879-3922. " latitude="40.7866667" longitude="-106.9777778" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="Rocky Mountain Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50041&amp;cmp=39-32--mcmire">
+        <address city="CLARK" country="United States" shortName="STLA" state="Colorado" streetAddress="BOX 750" zip="80428"/>
+        <photo realUrl="/webphotos/CO/pid50041/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50041/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50041/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50041/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50041/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50041/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50041/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50041/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50041/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50041/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50041/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50041/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="9708793922"/>
+        <contact name="Ranger Station" number="9708793922"/>
+        <amenity distance="Within Facility" name="Amphitheater"/>
+        <amenity distance="Within Facility" name="Beach (Swimming)"/>
+        <amenity distance="Within Facility" name="Beaching Your Boat"/>
+        <amenity distance="Within Facility" name="Bird Watching"/>
+        <amenity distance="Within Facility" name="Boat Launch"/>
+        <amenity distance="Within Facility" name="Boat Ramp"/>
+        <amenity distance="Within Facility" name="Boat Rental"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Camper Services Bldg"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Cross Country Skiing"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Firewood Available"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Fishing Licenses Sold"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Ice Fishing"/>
+        <amenity distance="Within Facility" name="Interpretitive Programs"/>
+        <amenity distance="Within Facility" name="Laundry Facilities"/>
+        <amenity distance="Within Facility" name="Marina"/>
+        <amenity distance="Within Facility" name="Natural Shade"/>
+        <amenity distance="Within Facility" name="Nature Study Exhibits"/>
+        <amenity distance="Within Facility" name="Ocean/Beach Access"/>
+        <amenity distance="Within Facility" name="Parking"/>
+        <amenity distance="Within Facility" name="Pay Phones Available"/>
+        <amenity distance="Within Facility" name="Picnic Tables"/>
+        <amenity distance="Within Facility" name="Picnicking"/>
+        <amenity distance="Within Facility" name="Sailing And Sailboarding"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Snack Br Concession"/>
+        <amenity distance="Within Facility" name="Snow Shoeing"/>
+        <amenity distance="Within Facility" name="Snowmobiling"/>
+        <amenity distance="Within Facility" name="Store (Retail)"/>
+        <amenity distance="Within Facility" name="Swimming"/>
+        <amenity distance="Within Facility" name="Toilet, Pit/Vault"/>
+        <amenity distance="Within Facility" name="Visitor Center"/>
+        <amenity distance="Within Facility" name="Water Skiing"/>
+        <amenity distance="Within Facility" name="Wildlife Watching Opportunity"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:43:12 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,78 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70760
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:24:21 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:24:21 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=75B68D174DBF9DCAC58929BF504248A9.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=75B68D174DBF9DCAC58929BF504248A9.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:24:21 GMT; Path=/
+      Content-Length:
+      - '7138'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Camp Dick is the site of a Civilian Conservation Corps camp that was established in the 1930s. It is located just off the Peak to Peak Scenic Byway, on the Middle Saint Vrain Creek." drivingDirection="From Denver, travel north on Interstate 25 north, to U.S. Highway 36 and continue west through Boulder, to Lyons.  From Lyons, take Highway 7 for 12 miles to Highway 72, then continue south for four miles. Watch for signs for Peaceful Valley and Camp Dick Campgrounds. Turn west onto Middle Saint Vrain Road (County Road 92 &amp;amp;amp; National Forest System Road 114) and proceed approximately one mile to Camp Dick." facilitiesDescription="Campsites will accommodate tents and RVs. Sites includes picnic tables and campfire ring with grill. Water spigots, vault toilets, and trash services are provided at the campground. Firewood may be purchased during the peak season. There are no electrical hook-ups, dump stations, or showers. Tents must remain on tent pads." facility="CAMP DICK" facilityID="70760" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70760&amp;cmp=39-32--mcmire" importantInformation=" This is bear country! For bear and human safety, keep a clean campsite and do not place food or other attractants in your tent. For more information about visiting bear country, contact Colorado Parks and Wildlife at http://wildlife.state.co.us Utility hookups are not available and the nearest showers are 12 miles north, at Meeker Park Lodge A limited number of sites may be available on a first-come, first-served basis Click here for more information on the Arapaho and Roosevelt National Forest Operated by American Land &amp;amp;amp; Leisure. You may contact us at www.AmericanLL.com or 801-226-3564. " latitude="40.13" longitude="-105.5183333" nearbyAttrctionDescription="The town of Allenspark is less than 10 miles north of the campground, and has a restaurant and a grocery store.     Rocky Mountain National Park&amp;amp;#39;s main entrance is 25 miles north of the campground, in Estes Park. With lush valleys and craggy peaks reaching elevations higher than 14,000 feet, visitors are provided opportunities for countless breathtaking experiences and adventures. Scenic driving, hiking, backpacking, fishing, horseback riding and wildlife viewing are popular activities available within the park.    Estes Park is a full-service community. Dining, shopping, rafting, fly fishing, horseback riding and golfing opportunities are available there. Lake Estes offers boating, sailboarding and fishing." note="" orientationDescription="The campground is situated on the banks of the Middle Saint Vrain Creek in a glacial valley surrounded by mixed conifer and aspen forests and an open meadow." recreationDescription="The Middle Saint Vrain Creek is a good fly-fishing stream where anglers cast for rainbow, brown and cutthroat trout.     Many trails in the vicinity are open to hiking and biking, including Sourdough and Buchanan Pass trails. The Indian Peaks Wilderness boundary is four miles from the west end of the campground.    Mountain biking is allowed on the first five miles of Buchanan Pass Trail. Bikers can ride a loop from Peaceful Valley or Camp Dick, via Buchanan Pass Trail and Middle Saint Vrain Road, or Coney Cutoff and Coney Creek Roads and Sourdough Trail.    The Middle Saint Vrain and Bunce School roads are popular among off-road vehicle enthusiasts.    Guided horseback riding is available at Peaceful Valley Lodge, which is just over a mile away." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70760&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="CAMD" state="Colorado" streetAddress="ARAPAHO AND ROOSEVELT" zip=""/>
+        <photo realUrl="/webphotos/NRSO/pid70760/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70760/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70760/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70760/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70760/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70760/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70760/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70760/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70760/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70760/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70760/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70760/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70760/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70760/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70760/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70760_CAMD.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="3032583610"/>
+        <contact name="Ranger Station" number="3035412500"/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Creek Access"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Off-Road Vehicle Trails"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Tent Pads"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Greater Than 1 Mile" name="Horseback Riding"/>
+        <amenity distance="Within 10 Miles" name="Grocery Store"/>
+        <amenity distance="Within 10 Miles" name="Restaurant"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:02:26 GMT
+recorded_with: VCR 2.5.0

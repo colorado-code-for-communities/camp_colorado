@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70407&siteType=9002
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:29:25 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:29:25 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=30E01FBEA309C4CE6E650B4B3D043282.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=30E01FBEA309C4CE6E650B4B3D043282.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:29:25 GMT; Path=/
+      Content-Length:
+      - '867'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="2" parkId="70407" resultType="campsites" siteType="9002">
+        <result Loop="ANGL" Maxeqplen="99" Maxpeople="100" Site="A" SiteId="10514" SiteReserveType="site-specific" SiteType="GROUP STANDARD NONELECTRIC" mapx="614.35" mapy="715.26" sitePhoto="/webphotos//NRSO/pid70407/sid10514/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="BASS" Maxeqplen="99" Maxpeople="100" Site="B1" SiteId="10531" SiteReserveType="site-specific" SiteType="GROUP STANDARD NONELECTRIC" mapx="595.83" mapy="919.79" sitePhoto="/webphotos//NRSO/pid70407/sid10531/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:29:25 GMT
+recorded_with: VCR 2.5.0

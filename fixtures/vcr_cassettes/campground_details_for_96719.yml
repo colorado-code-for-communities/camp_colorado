@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=96719
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:42:35 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:42:35 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=30A9DED4D38C53E01B5B4861EF3D870F.web08-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2b45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=30A9DED4D38C53E01B5B4861EF3D870F.web08-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:42:35 GMT; Path=/
+      Content-Length:
+      - '4789'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="The beautiful Spruce Grove campground is positioned beside large rock outcroppings on Tarryall Creek. Magnificent hiking trails to the Lost Creek Wilderness Area are just steps away from the Creek Bridge.     Located just 12.5 miles outside Lake George, Colorado, the area&amp;amp;#39;s wild inhabitants include black bear, mule deer, elk, bighorn sheep and bobcats." drivingDirection="From areas west of Lake George, Colorado, drive  east on Highway 24 and turn left on CR 77 (Tarryall Road) just before Lake George. Continue on CR 77 about 11 miles to Spruce Grove Campground, located on the right.   From areas east of Lake George, drive west on Hwy 24 through Lake George and turn right on CR 77. Drive about 11 mile to Spruce Grove Campground located on the right." facilitiesDescription="Spruce Grove offers nearly 30 reservable campsites. Parking aprons fit RVs up to 35 feet in length and a maximum of eight guests are allowed to stay. Drinking water from a hand pump, trash collection and accessible vault toilets are among the amenities at Spruce Grove. Each site comes with a picnic table and grill." facility="SPRUCE GROVE CAMPGROUND" facilityID="96719" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=96719&amp;cmp=39-32--mcmire" importantInformation=" Be bear aware; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating This is a high elevation facility, please use caution when traveling from lower elevations Limit 1 RV and 2 tents per site; there is a $5 fee for extra vehicles No RV hookups are available No off-road vehicle riding in campground For more information on Pike and San Isabel National Forests, click here " latitude="39.1377778" longitude="-105.4616667" nearbyAttrctionDescription="Visitors enjoy the many great trails in the Lost Creek Wilderness, a 119,790-acre stretch of  split boulders, rounded granite domes and knobs, rare granite arches, and forested scenic overlooks." note="" orientationDescription="The campground is perched along Tarryall Creek at an elevation of 8,600 feet, near Bayou Salado Reservoir. Campsites have little to no shade but are surrounded by mature spruce, aspen and plenty of good looking boulders. The area sits at the base of South Tarryall Peak and just north is McCurdy Mountain with a peak of 12,173 feet." recreationDescription="From the campground, hikers and horseback riders can traverse the Lizard Rock Trail, a 2.5-mile trail that passes Hankins Pass Trail and intersects with the Brookside-McCurdy Trail. Along the route are interesting rock formations that some say look like a lizard. The extensive Brookside-McCurdy Trail is a former pack trail in the Lost Creek Wilderness that can be backpacked in five to seven days.     Anglers seek rainbow and brown trout in both the creek and nearby lake. A recommended fishing spot is 11 miles away at the Tarryall Reservoir." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=96719&amp;cmp=39-32--mcmire">
+        <address city="Lake George" country="United States" shortName="E719" state="Colorado" streetAddress="" zip="80827"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7198362031"/>
+        <contact name="Ranger Station" number="7198362031"/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Backpacking"/>
+        <amenity distance="Within Facility" name="Camping Supplies"/>
+        <amenity distance="Within Facility" name="Drinking Water (Hand Pump)"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Information Board"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Rock Climbing"/>
+        <amenity distance="Within Facility" name="Self Pay Station"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Tubing"/>
+        <amenity distance="Within Facility" name="Water Skiing"/>
+        <amenity distance="Within 10 Miles" name="Horseback Riding Trails"/>
+        <amenity distance="Within 10 Miles" name="Off-Road Vehicle Trails"/>
+        <amenity distance="Within 10 Miles" name="Scenic Drive"/>
+        <amenity distance="Within 10 Miles" name="Swimming"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:42:35 GMT
+recorded_with: VCR 2.5.0

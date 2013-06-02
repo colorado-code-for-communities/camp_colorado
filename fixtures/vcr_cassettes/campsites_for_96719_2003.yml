@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=96719&siteType=2003
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:42:37 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:42:37 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=3B07BC4DA43C62B0DA06CB82491437BA.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=3B07BC4DA43C62B0DA06CB82491437BA.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:42:37 GMT; Path=/
+      Content-Length:
+      - '8723'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="27" parkId="96719" resultType="campsites" siteType="2003">
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="36" Maxpeople="8" Site="002" SiteId="294441" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="481.86" mapy="372.11" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="0" Maxpeople="8" Site="005" SiteId="294453" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="134.37" mapy="479.13" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="0" Maxpeople="8" Site="006" SiteId="294454" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="97.38" mapy="464.6" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="0" Maxpeople="8" Site="007" SiteId="294455" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="88.13" mapy="382.68" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="0" Maxpeople="8" Site="008" SiteId="294456" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="90.89" mapy="290.88" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="0" Maxpeople="8" Site="009" SiteId="294457" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="78.92" mapy="212.17" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="0" Maxpeople="8" Site="010" SiteId="294458" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="125.12" mapy="193.75" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="25" Maxpeople="8" Site="011" SiteId="294459" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="353.7" mapy="512.88" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="18" Maxpeople="8" Site="012" SiteId="294442" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="411.99" mapy="545.23" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="25" Maxpeople="8" Site="022" SiteId="294464" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="632.57" mapy="799.07" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="25" Maxpeople="8" Site="024" SiteId="294465" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="654.85" mapy="661.01" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="25" Maxpeople="8" Site="027" SiteId="294466" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="655.63" mapy="512.63" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="28" Maxpeople="8" Site="028" SiteId="294450" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="391.43" mapy="489.8" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="32" Maxpeople="8" Site="001" SiteId="294440" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="562.64" mapy="336.52" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="0" Maxpeople="8" Site="003" SiteId="294451" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="319.34" mapy="386.65" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="0" Maxpeople="8" Site="004" SiteId="294452" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="226.37" mapy="353.62" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="30" Maxpeople="8" Site="013" SiteId="294460" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="445.83" mapy="608.96" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="25" Maxpeople="8" Site="014" SiteId="294443" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="432.01" mapy="675.43" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="36" Maxpeople="8" Site="015" SiteId="294444" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="475.44" mapy="667.53" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="30" Maxpeople="8" Site="016" SiteId="294445" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="495.19" mapy="737.95" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="25" Maxpeople="8" Site="018" SiteId="294461" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="449.78" mapy="776.77" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="25" Maxpeople="8" Site="019" SiteId="294462" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="451.75" mapy="868.9" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="28" Maxpeople="8" Site="020" SiteId="294446" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="485.97" mapy="834.02" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="25" Maxpeople="8" Site="021" SiteId="294463" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="559.59" mapy="907.81" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="26" Maxpeople="8" Site="023" SiteId="294447" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="561.02" mapy="804.79" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="25" Maxpeople="8" Site="025" SiteId="294448" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="586.6" mapy="686.49" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE GROVE CAMPGROUND" Maxeqplen="32" Maxpeople="8" Site="026" SiteId="294449" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="568.36" mapy="566.96" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:42:37 GMT
+recorded_with: VCR 2.5.0

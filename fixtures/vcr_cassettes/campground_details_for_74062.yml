@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=74062
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:43:20 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:43:20 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=2FE0D08D425048528773AEDCA3F4132F.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=2FE0D08D425048528773AEDCA3F4132F.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:43:20 GMT; Path=/
+      Content-Length:
+      - '4982'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Stevens Creek Campground is on the north shore of the Blue Mesa Reservoir, the largest reservoir in Colorado and the most popular of the three in the Curecanti Recreation Area for boating, wind surfing and salmon fishing.       A bit downstream is the Morrow Point Reservoir and the Crystal Reservoir, both surrounded by the steep cliffs of the Black Canyon.    The Gunnison River carved the Black Canyon at a rate of one inch per every hundred years. Today, the canyon&amp;amp;#39;s steepest cliff drops 2,250 feet at the Painted Wall." drivingDirection=" Stevens Creek campground is located off of US Hwy 50, 12 miles west of Gunnison, CO. " facilitiesDescription="The 53-site campground offers waterfront-sites and a wide variety of amenities including a picnic area, self pay station and drinking water available late-May to mid-September." facility="STEVENS CREEK CAMPGROUND" facilityID="74062" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=74062&amp;cmp=39-32--mcmire" importantInformation=" No electric hookups All watercraft must be inspected and certified as Zebra and Quagga Mussel free This is a high elevation facility, please use caution when traveling from lower elevations Cell phone coverage is limited " latitude="38.4911111" longitude="-107.0969444" nearbyAttrctionDescription="Head down to the Gunnison Diversion Tunnel, a National Historic Civil Engineering Landmark, or visit the Morrow Point Reservoir at the start of the Black Canyon. There, visitors can take a ranger-led pontoon boat through the upper Black Canyon.  Find more tour information here ." note="" orientationDescription="The campground sits at an elevation of 7,540 feet and is characterized by a semi-arid, treeless shrubland. The mesa landscape is covered with sagebrush and receives less than 12 inches of rain a year." recreationDescription="Jet skiing, water skiing, and canoeing are some of the many water activities available on the reservoir. Birding is also rewarding, with chances to see the black-billed magpie.     For hikers, try the 1.5-mile Neversink Trail, which meanders along a stream lined with wildflowers, cottonwoods and willows, located near a Great Blue Heron rookery." regionName="RMR" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=74062&amp;cmp=39-32--mcmire">
+        <address city="GUNNISON" country="United States" shortName="STEC" state="Colorado" streetAddress="29130 Hwy 50" zip="81230"/>
+        <photo realUrl="/webphotos/NRSO/pid74062/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid74062/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid74062/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid74062/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid74062/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid74062/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9706412337"/>
+        <contact name="Ranger Station" number="9706412337"/>
+        <amenity distance="Within Facility" name="Accessible Boat Ramp"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Boat Ramp"/>
+        <amenity distance="Within Facility" name="Boat Trailer Parking"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Canoeing"/>
+        <amenity distance="Within Facility" name="Dock"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Fish Cleaning Stations"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Jet Skiing"/>
+        <amenity distance="Within Facility" name="Kayaking"/>
+        <amenity distance="Within Facility" name="Paved Roads"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Scuba Diving"/>
+        <amenity distance="Within Facility" name="Self Pay Station"/>
+        <amenity distance="Within Facility" name="Snowshoeing"/>
+        <amenity distance="Within Facility" name="Swimming"/>
+        <amenity distance="Within Facility" name="Water Skiing"/>
+        <amenity distance="Within Facility" name="Waterfront Sites"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within Facility" name="Windsurfing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:43:20 GMT
+recorded_with: VCR 2.5.0

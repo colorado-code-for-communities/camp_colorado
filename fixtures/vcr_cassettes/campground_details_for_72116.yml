@@ -1,0 +1,90 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=72116
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:34:44 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:34:44 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=29C1BB1F950ABED796CFDF0BCB3A06AB.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=29C1BB1F950ABED796CFDF0BCB3A06AB.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:34:43 GMT; Path=/
+      Content-Length:
+      - '8856'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Moose Manor at Mesa Lakes Recreation Area offers guests the opportunity to stay overnight in a traditional Forest Service ranger station. The original cabin was constructed in the 1930s, housing many rangers before it became a rental cabin.     Located just 45 minutes from Grand Junction, the semi-rustic dwelling is convenient for hiking, mountain biking and fishing. From mid-August through October, guests can enjoy fall colors with extensive golden aspen stands surrounding the area. A large grass yard fronts the cabin, which is ideal for family gatherings and weddings." drivingDirection="From Grand Junction, CO, take I-70 east for 13 miles. Take exit 49 to Highway 65 South toward Grand Mesa. Continue for 25 miles and turn right into Mesa Lakes Recreation Area. Take the second right toward Day Use Parking, and look for Mesa Lakes Ranger Station on the left. Moose Manor is the second cabin on the left." facilitiesDescription="Moose Manor greets guests with a grassy lawn and a paved access road. Inside are cozy couches and a fireplace. Electricity is available and provides lighting and heat. A refrigerator, a shower, flush toilet and an electric cooking stove are among the features.     The living and dining room comes with a table and chairs. Sleeping accommodations for six adults include one queen-size sofa sleeper and four twin-size beds. Air mattresses or cots can be brought in to accommodate two additional people for a total of eight guests. Kitchen equipment includes basic cooking and eating utensils.     Drinking water is available. Guests should bring food, bedding, a lighter or matches, trash bags, warm clothing, flashlights, dish cloths, dish soap and all basic camping gear.  Click here  for more cabin details." facility="MOOSE MANOR" facilityID="72116" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=72116&amp;cmp=39-32--mcmire" importantInformation=" Entry is by combination lock; call Grand Valley Ranger District office at 970/242-8211 for combination lock lock Mon-Fri 8 a.m. to 5 p.m. (please provide your reservation #) Heavy snowfall may cause cabin rental cancellation; call ranger district for updated conditions and restrictions Collection of firewood is not permitted; please bring firewood or purchase at Jumbo Campground Please bring garbage bags; this is a &amp;amp;quot;pack in-pack out&amp;amp;quot; facility Please clean cabin before leaving; cleaning supplies are provided No fireworks No smoking allowed No pets or livestock allowed This facility does not meet accessibility standards Bears frequent the area; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating No cell service in this area. Guests should be aware that there is a risk of exposure to hantavirus when visiting remote cabins; click here to learn more " latitude="39.0522222" longitude="-108.0977778" nearbyAttrctionDescription="The Grand Mesa National Scenic and Historic Byway offers 63 miles of scenic driving as it climbs from the rugged canyon floor up to the forested mesa tops at 11,000 feet. The road passes sparkling lakes and meadows bursting with wildflowers. Many trailheads are found along the byway.    Grand Mesa Visitor Center is a short drive away at Island Lake. The center offers interpretive exhibits, a bookstore and a high-altitude wildflower garden containing over 50 native species.    The town of Cedaredge, 26 miles from the campground, is home to Pioneer Town, a 19th-century village with frontier museums and over 20 structures housing a schoolhouse, blacksmith shop, saloon and jail. Cedaredge&amp;amp;#39;s Applefest is held annually in October." note="" orientationDescription="Moose Manor in nestled in a stand of aspen and spruce trees at an elevation of 9,500 feet. Located on the north side of Grand Mesa National Forest, the cabin is in close proximity to several mountain lakes, including Sunset Lake and Jumbo Reservoir. Mesa Creek flows nearby.     A variety of wildlife, including deer, elk, moose and bear, frequents the area." recreationDescription="A popular mountain biking and horseback riding trail, West Bench Trail #501, connects the seven lakes of the Mesa Lakes Recreation Area. The cabin is also within walking distance to a carry-down boat ramp for canoeing and kayaking." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=72116&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="MAMO" state="Colorado" streetAddress="" zip=""/>
+        <photo realUrl="/webphotos/NRSO/pid72116/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72116/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72116/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72116/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72116/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72116/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72116/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72116/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72116/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72116/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72116/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72116/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72116/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72116/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72116/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72116/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72116/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72116/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9702428211"/>
+        <contact name="Ranger Station" number="9702428211"/>
+        <amenity distance="Within Facility" name="Bed(s)"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Electric Stove"/>
+        <amenity distance="Within Facility" name="Flush Toilets"/>
+        <amenity distance="Within Facility" name="Heater"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Lights"/>
+        <amenity distance="Within Facility" name="Parking"/>
+        <amenity distance="Within Facility" name="Refrigerator"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Less Than 1 Mile" name="Boat Ramp"/>
+        <amenity distance="Less Than 1 Mile" name="Boating"/>
+        <amenity distance="Less Than 1 Mile" name="Canoeing"/>
+        <amenity distance="Less Than 1 Mile" name="Fishing"/>
+        <amenity distance="Less Than 1 Mile" name="Fishing Pier"/>
+        <amenity distance="Less Than 1 Mile" name="Horseback Riding"/>
+        <amenity distance="Less Than 1 Mile" name="Picnic Area"/>
+        <amenity distance="Less Than 1 Mile" name="Restaurant"/>
+        <amenity distance="Greater Than 1 Mile" name="Equestrian Sites"/>
+        <amenity distance="Greater Than 1 Mile" name="Firewood Vendor"/>
+        <amenity distance="Within 10 Miles" name="Fish Cleaning Stations"/>
+        <amenity distance="Within 10 Miles" name="Interpretive Trail"/>
+        <amenity distance="Greater Than 10 Miles" name="Church"/>
+        <amenity distance="Greater Than 10 Miles" name="Emergency Services"/>
+        <amenity distance="Greater Than 10 Miles" name="Golf"/>
+        <amenity distance="Greater Than 10 Miles" name="Grocery Store"/>
+        <amenity distance="Greater Than 10 Miles" name="Hospital"/>
+        <amenity distance="Greater Than 10 Miles" name="Motel"/>
+        <amenity distance="Greater Than 10 Miles" name="Propane"/>
+        <amenity distance="Greater Than 10 Miles" name="Winery Tours"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:34:44 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70061&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:41:48 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:41:48 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=E3E986C8721C656CA5FD84B36C2C6DAD.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=E3E986C8721C656CA5FD84B36C2C6DAD.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:41:48 GMT; Path=/
+      Content-Length:
+      - '1745'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="5" parkId="70061" resultType="campsites" siteType="2001">
+        <result Loop="SILV" Maxeqplen="30" Maxpeople="8" Site="001" SiteId="11009" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="475.69921875" mapy="245.113662719727" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SILV" Maxeqplen="30" Maxpeople="8" Site="002" SiteId="11010" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="530.221862792969" mapy="327.776977539063" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SILV" Maxeqplen="25" Maxpeople="8" Site="003" SiteId="11011" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="540.774597167969" mapy="433.304626464844" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SILV" Maxeqplen="30" Maxpeople="8" Site="004" SiteId="11012" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="503.839904785156" mapy="547.626220703125" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SILV" Maxeqplen="25" Maxpeople="8" Site="005" SiteId="11013" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="488.010772705078" mapy="760.440307617188" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:41:48 GMT
+recorded_with: VCR 2.5.0

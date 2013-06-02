@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70033
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:14:46 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:14:46 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=81C51C2D61EA1651DE3591B835CFA994.web05-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2645525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=81C51C2D61EA1651DE3591B835CFA994.web05-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:14:46 GMT; Path=/
+      Content-Length:
+      - '6187'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Echo Lake Campground is located on the Arapaho and Roosevelt National Forests in central Colorado near its namesake lake at the base of Mount Evans along Hwy 103. Visitors enjoy hiking, fishing and taking scenic drives along Mount Evans Road." drivingDirection="Take I-70 westbound, Idaho Springs exit #240 - Hwy 103. Go south 14 miles to the intersection of Hwy 103 and Hwy 5 (Mt Evans Road). Turn right on Hwy 5 then turn left to enter the campground." facilitiesDescription="The campground offers 11 sites more suited to RV camping and seven sites designated for tent camping only. Each site is equipped with a picnic table and campfire ring. Also, there are vault toilets, hand pumps with potable water and trash service." facility="ECHO LAKE" facilityID="70033" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70033&amp;cmp=39-32--mcmire" importantInformation=" Limited sites available on a first-come, first-served basis This is bear country! For bear and human safety, keep a clean campsite and do not place food or other attractants in your tent. For more information about visiting bear country, contact Colorado Parks and Wildlife at http://wildlife.state.co.us Click here to learn more about the Arapaho &amp;amp;amp; Roosevelt National Forests and Pawnee National Grassland. Operated by American Land &amp;amp;amp; Leisure. You may contact us at www.AmericanLL.com or 801-226-3564. " latitude="39.6562722" longitude="-105.5956417" nearbyAttrctionDescription="Nearby Idaho Springs, a former mining town, makes for a nice outing. History buffs will appreciate the Argo Gold Mine and Mill Museum. The City and County of Denver Mountain Park, Echo Lake and Echo Lake Lodge are located adjacent to the campground." note="" orientationDescription="Echo Lake sits in a spruce forest near the shores of Echo Lake. The campground&amp;amp;#39;s 10,600&amp;amp;#39; elevation creates cool to chilly nights, even in summer, and its location on a mountain pass makes for windy conditions year-round.    The Arapaho and Roosevelt National Forests and Pawnee National Grassland on the foothills and slopes of the Rocky Mountains in Colorado. The forests and grassland cover 1.5 million acres and extend north to the Wyoming border, south to Mount Evans and west across the Continental Divide.    The area encompasses mountains, lakes and five scenic byways, designated by Congress for their scenery, wildlife or history, including the highest road in North America. Mount Evans Road, also known as Colorado Highway 5, allows visitors to drive from 10,500&amp;amp;#39; to 14,130&amp;amp;#39; above sea level in just 14 miles." recreationDescription="Activities in the area include hiking in the Mount Evans Wilderness, fishing, scenic driving and wildlife viewing. Several trails leave directly from the campground." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70033&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="ECH1" state="Colorado" streetAddress="ARAPAHO AND ROOSEVELT" zip=""/>
+        <photo realUrl="/webphotos/NRSO/pid70033/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70033/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70033/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70033/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70033/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70033/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70033/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70033/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70033/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70033/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70033/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70033/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70033/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70033/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70033/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70033/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70033/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70033/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70033_ECH1.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="3035674517"/>
+        <contact name="Ranger Station" number="3035673000"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood Vendor"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Lake Access"/>
+        <amenity distance="Within Facility" name="Scenic Drive"/>
+        <amenity distance="Within Facility" name="Tent Pads"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:14:46 GMT
+recorded_with: VCR 2.5.0

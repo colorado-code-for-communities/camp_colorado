@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50034&siteType=2002
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:36:52 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:36:52 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=5B15295D196765E5109860A0ABFC2DAE.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=5B15295D196765E5109860A0ABFC2DAE.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:36:52 GMT; Path=/
+      Content-Length:
+      - '4321'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="CO" count="12" parkId="50034" resultType="campsites" siteType="2002">
+        <result Loop="HAWSAPPLE" Maxeqplen="12" Maxpeople="6" Site="PAONHAWS002" SiteId="1729" SiteReserveType="site-specific" SiteType="&lt;= 20 FT. NON-ELEC PRIMITIVE" mapx="569.6435546875" mapy="408.071533203125" sitePhoto="/webphotos//CO/pid50034/sid1729/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HAWSAPPLE" Maxeqplen="10" Maxpeople="6" Site="PAONHAWS003" SiteId="1730" SiteReserveType="site-specific" SiteType="&lt;= 20 FT. NON-ELEC PRIMITIVE" mapx="556.460571289063" mapy="444.572387695313" sitePhoto="/webphotos//CO/pid50034/sid1730/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HAWSAPPLE" Maxeqplen="20" Maxpeople="6" Site="PAONHAWS004" SiteId="1731" SiteReserveType="site-specific" SiteType="&lt;= 20 FT. NON-ELEC PRIMITIVE" mapx="579.261291503906" mapy="489.567321777344" sitePhoto="/webphotos//CO/pid50034/sid1731/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HAWSAPPLE" Maxeqplen="30" Maxpeople="6" Site="PAONHAWS005" SiteId="1732" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC PRIMITIVE" mapx="585.724060058594" mapy="537.248291015625" sitePhoto="/webphotos//CO/pid50034/sid1732/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HAWSAPPLE" Maxeqplen="35" Maxpeople="6" Site="PAONHAWS006" SiteId="1733" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. NON-ELEC PRIMITIVE" mapx="559.580261230469" mapy="544.137573242188" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="HAWSAPPLE" Maxeqplen="20" Maxpeople="6" Site="PAONHAWS007" SiteId="1734" SiteReserveType="site-specific" SiteType="&lt;= 20 FT. NON-ELEC PRIMITIVE" mapx="604.929504394531" mapy="554.397033691406" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="SPRUCE" Maxeqplen="20" Maxpeople="6" Site="PAONSPRU008" SiteId="1735" SiteReserveType="site-specific" SiteType="&lt;= 20 FT. NON-ELEC PRIMITIVE" mapx="419.06" mapy="393.15" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="SPRUCE" Maxeqplen="20" Maxpeople="6" Site="PAONSPRU009" SiteId="1736" SiteReserveType="site-specific" SiteType="&lt;= 20 FT. NON-ELEC PRIMITIVE" mapx="432.76" mapy="408.38" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="SPRUCE" Maxeqplen="25" Maxpeople="6" Site="PAONSPRU010" SiteId="1737" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC PRIMITIVE" mapx="409.98" mapy="428.08" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE" Maxeqplen="25" Maxpeople="6" Site="PAONSPRU011" SiteId="4382" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC PRIMITIVE" mapx="418.72" mapy="449.13" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE" Maxeqplen="25" Maxpeople="6" Site="PAONSPRU012HA" SiteId="1739" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC PRIMITIVE" mapx="450.49" mapy="500.08" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRUCE" Maxeqplen="25" Maxpeople="6" Site="PAONSPRU013" SiteId="1740" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC PRIMITIVE" mapx="450.25" mapy="448.92" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:36:52 GMT
+recorded_with: VCR 2.5.0

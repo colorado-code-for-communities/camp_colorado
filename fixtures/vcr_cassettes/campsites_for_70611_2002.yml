@@ -1,0 +1,77 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70611&siteType=2002
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:32:25 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:32:25 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=E9EA62083E0305CF6B3112119E92A2D8.web07-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2845525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=E9EA62083E0305CF6B3112119E92A2D8.web07-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:32:25 GMT; Path=/
+      Content-Length:
+      - '10177'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="31" parkId="70611" resultType="campsites" siteType="2002">
+        <result Loop="LODGEPOLE" Maxeqplen="40" Maxpeople="8" Site="006" SiteId="129775" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="424.396789550781" mapy="292.255676269531" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="30" Maxpeople="8" Site="011" SiteId="129780" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="189.214859008789" mapy="138.999649047852" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="35" Maxpeople="8" Site="013" SiteId="129782" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="132.222885131836" mapy="202.890151977539" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="25" Maxpeople="8" Site="014" SiteId="129783" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="122.032875061035" mapy="280.915924072266" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="25" Maxpeople="8" Site="015" SiteId="129784" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="159.298599243164" mapy="309.772613525391" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="20" Maxpeople="8" Site="016" SiteId="129785" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="124.242233276367" mapy="322.397399902344" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="30" Maxpeople="8" Site="017" SiteId="129786" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="162.003875732422" mapy="436.742004394531" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="35" Maxpeople="8" Site="019" SiteId="129788" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="211.015182495117" mapy="507.373260498047" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="27" Maxpeople="8" Site="021" SiteId="129790" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="333.678619384766" mapy="611.663146972656" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="40" Maxpeople="8" Site="022" SiteId="129791" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="369.817077636719" mapy="581.791931152344" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="35" Maxpeople="8" Site="024" SiteId="129793" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="429.965240478516" mapy="701.321716308594" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="35" Maxpeople="8" Site="030" SiteId="129799" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="714.834777832031" mapy="894.886962890625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="30" Maxpeople="8" Site="033" SiteId="129802" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="829.878295898438" mapy="732.365173339844" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="35" Maxpeople="8" Site="001" SiteId="129770" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="539.913757324219" mapy="484.535888671875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="30" Maxpeople="8" Site="003" SiteId="129772" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="498.883117675781" mapy="448.825744628906" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="30" Maxpeople="8" Site="004" SiteId="129773" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="456.680236816406" mapy="410.590637207031" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="40" Maxpeople="8" Site="005" SiteId="129774" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="485.920166015625" mapy="387.167114257813" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="40" Maxpeople="8" Site="007" SiteId="129776" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="387.672180175781" mapy="313.379699707031" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="40" Maxpeople="8" Site="008" SiteId="129777" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="352.615814208984" mapy="195.630874633789" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="35" Maxpeople="8" Site="009" SiteId="129778" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="323.511138916016" mapy="213.80158996582" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="40" Maxpeople="8" Site="010" SiteId="129779" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="275.829956054688" mapy="132.754867553711" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="30" Maxpeople="8" Site="012" SiteId="129781" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="223.797775268555" mapy="172.500442504883" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="40" Maxpeople="8" Site="018" SiteId="129787" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="197.668960571289" mapy="422.291107177734" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="40" Maxpeople="8" Site="020" SiteId="129789" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="266.181030273438" mapy="473.015777587891" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="30" Maxpeople="8" Site="023" SiteId="129792" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="479.269592285156" mapy="659.321716308594" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="35" Maxpeople="8" Site="025" SiteId="129794" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="535.878295898438" mapy="719.582580566406" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="40" Maxpeople="8" Site="028" SiteId="129797" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="603.443481445313" mapy="838.278259277344" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="30" Maxpeople="8" Site="031" SiteId="129800" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="711.182678222656" mapy="935.060852050781" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="35" Maxpeople="8" Site="032" SiteId="129801" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="833.530456542969" mapy="812.713012695313" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="40" Maxpeople="8" Site="034" SiteId="129803" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="747.704406738281" mapy="659.321716308594" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LODGEPOLE" Maxeqplen="30" Maxpeople="8" Site="035" SiteId="129804" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="689.269592285156" mapy="600.886962890625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:32:25 GMT
+recorded_with: VCR 2.5.0

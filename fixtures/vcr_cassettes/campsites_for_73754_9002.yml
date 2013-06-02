@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73754&siteType=9002
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:25:06 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:25:06 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=A68F0C8C788FABC81B6F021F6AE559A8.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=A68F0C8C788FABC81B6F021F6AE559A8.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:25:06 GMT; Path=/
+      Content-Length:
+      - '1684'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="5" parkId="73754" resultType="campsites" siteType="9002">
+        <result Loop="CROW" Maxeqplen="20" Maxpeople="100" Site="EDU" SiteId="135150" SiteReserveType="site-specific" SiteType="GROUP STANDARD ELECTRIC" mapx="58.24" mapy="310.88" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="CROW" Maxeqplen="20" Maxpeople="200" Site="PICNIC" SiteId="135146" SiteReserveType="site-specific" SiteType="GROUP PICNIC AREA" mapx="311.68" mapy="650.18" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HAWK" Maxeqplen="30" Maxpeople="30" Site="HAWK" SiteId="135149" SiteReserveType="site-specific" SiteType="GROUP STANDARD NONELECTRIC" mapx="395.33" mapy="588.7" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="LARK" Maxeqplen="20" Maxpeople="30" Site="LARK" SiteId="135147" SiteReserveType="site-specific" SiteType="GROUP STANDARD NONELECTRIC" mapx="277.11" mapy="418.52" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="PLOV" Maxeqplen="20" Maxpeople="30" Site="PLOVER" SiteId="135148" SiteReserveType="site-specific" SiteType="GROUP STANDARD NONELECTRIC" mapx="333.8" mapy="559.32" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:13:15 GMT
+recorded_with: VCR 2.5.0

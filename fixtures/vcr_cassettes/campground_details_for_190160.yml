@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=KOA&parkId=190160
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:13:45 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:13:45 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=38922F4560136118D326EDBEAFFBD178.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=38922F4560136118D326EDBEAFFBD178.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:13:45 GMT; Path=/
+      Content-Length:
+      - '4878'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="KOA" description="The  Denver East/Strasburg KOA  offers you the best in  Colorado camping  . We are centrally located and offer easy access for day trips to  Denver ,  Estes Park  , and  Colorado Springs  . Our  Denver KOA  is only 50 miles from the base of the  Rocky Mountains  ! We are a great place to stop on your travels down I-70 without having to worry about the issues of staying in the big city. There are not many  Denver-area Campgrounds  , so go with the best and stay with us for your  Denver camping ,  Denver RV Park  and  Denver Lodging  needs. Our &amp;quot;Big Rig Friendly&amp;quot; pull-through RV sites are up to 70&amp;amp;#39; long with 50-amp service available. No RV? Enjoy a comfortable stay in one of our cozy  cabins or personal patio lodge .   There&amp;amp;#39;s LOTS to do in our area. Visit the  Denver Zoo ,  Elitch Gardens  amusement park,  Ocean Journey Aquarium ,  Water World  and  Boondocks Fun Center  . Enjoy a game at  Coors Field  , or tour the  Denver Museum of Nature and Science ,  Wings Over the Rockies Air and Space Museum ,  Colorado History Museum  and  Coors Brewery  .  You don&amp;amp;#39;t have to travel far to find BIG FUN! Our little campground on the plains has a frozen slab  Breyer&amp;amp;#39;s  Ice Cream Parlor ,  Hunt&amp;amp;#39;s Brothers Pizza  with delivery to your site, Outdoor Movie Theater, swimming pool, adults-only spa, summer activities, hayrides, arcade and a small farm town to visit.  We are open all year in  Strasburg, CO  and located near  Watkins ,  Bennett  and  Byers  . There are many events that take place along the I-70 corridor during the year. There are numerous rodeos throughout the year, summer festivals, Christmas festivities and each of the towns have nice museums. Come and stay with us for a while. We&amp;amp;#39;ll be glad to welcome you, and you&amp;amp;#39;ll be glad you did!" drivingDirection="Off I-70 Exit 310 Strasburg take N frontage road east to KOA." facilitiesDescription="" facility="Denver East / Strasburg KOA" facilityID="190160" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=KOA&amp;parkId=190160&amp;cmp=39-32--mcmire" importantInformation="" latitude="39.7352778" longitude="-104.3213889" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="KOA Region" reservationUrl="/campsiteSearch.do?contractCode=KOA&amp;parkId=190160&amp;cmp=39-32--mcmire">
+        <address city="Strasburg" country="United States" shortName="A160" state="Colorado" streetAddress="1312 Monroe Street" zip="80136"/>
+        <photo realUrl="/webphotos/KOA/pid190160/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190160/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190160/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190160/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190160/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190160/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190160/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190160/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190160/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190160/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190160/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190160/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190160/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190160/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190160/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190160/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190160/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190160/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number=""/>
+        <contact name="Ranger Station" number="3036229274"/>
+        <amenity distance="Within Facility" name="Basketball"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:13:45 GMT
+recorded_with: VCR 2.5.0

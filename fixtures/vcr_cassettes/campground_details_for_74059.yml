@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=74059
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:24:07 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:24:07 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=CF10A9F7AA1E7100CFD1ADC6502C84C6.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=CF10A9F7AA1E7100CFD1ADC6502C84C6.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:24:07 GMT; Path=/
+      Content-Length:
+      - '4738'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="A camping trip to the Black Canyon of Gunnison National Park makes for a beautiful getaway for sightseeing, rock climbing and hiking. The park protects the most dramatic section of the Gunnison River Canyon; no other canyon in North America combines the narrow opening, sheer walls, and startling depths of Black Canyon." drivingDirection="The park is located approximately 250 miles SW of Denver. South Rim: 15miles east of Montrose, via U.S. Hwy 50 and CO Hwy 347." facilitiesDescription="The campsite is open year round, but drinking water is only available mid-May through mid-October. Electric hookups are in Loop B only." facility="Black Canyon of the Gunnison NP South Rim Campground" facilityID="74059" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=74059&amp;cmp=39-32--mcmire&amp;cmp=39-32--mcmire" importantInformation=" Bears frequent the area; all food must be kept in approved containers No water hookups Unreliable cell phone reception; pay phone is available near campground This is a high elevation facility, please use caution when traveling from lower elevations. Weather varies greatly from canyon rim and canyon floor; bring appropriate clothing Generator use is not permitted. " latitude="38.5505556" longitude="-107.6866667" nearbyAttrctionDescription="Head to the Cimarron Canyon Rail Exhibit, an old-fashioned locomotive at the last remaining railroad trestle on the Black Canyon of the Gunnison route." note="" orientationDescription="Perched on the South Rim of the Black Canyon, this campground is surrounded by Pinyon pine, Juniper and Scrub oak forests.   Visitors can take in views of the Painted Wall, the highest cliff in Colorado. From river to rim, it stands 2,250 feet high - a remarkable 1,000 feet taller than the Empire State Building." recreationDescription="Take one of many spectacular hikes such as the Oak Flat Loop Trail, and watch for the black-billed magpie.   In summer, catch an evening educational program. In winter, try snowshoeing on Rim Rock Trail or go cross country skiing on South Rim Drive." regionName="RMR" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=74059&amp;cmp=39-32--mcmire&amp;cmp=39-32--mcmire">
+        <address city="MONTROSE" country="United States" shortName="SRCG" state="Colorado" streetAddress="11249-11007/11248-11006 Hwy. 347" zip="81401"/>
+        <photo realUrl="/webphotos/NRSO/pid74059/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid74059/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid74059/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid74059/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid74059/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid74059/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9706412337"/>
+        <contact name="Ranger Station" number=""/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Amphitheater"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Campfire Programs"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Food Storage Locker"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Interpretive Trails"/>
+        <amenity distance="Within Facility" name="Paved Roads"/>
+        <amenity distance="Within Facility" name="Pay Phone"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="RV sites"/>
+        <amenity distance="Within Facility" name="Rock Climbing"/>
+        <amenity distance="Within Facility" name="Scenic Overlooks"/>
+        <amenity distance="Within Facility" name="Self Pay Station"/>
+        <amenity distance="Within Facility" name="Snowshoeing"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Visitor Center"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:01:23 GMT
+recorded_with: VCR 2.5.0

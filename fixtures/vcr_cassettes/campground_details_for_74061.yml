@@ -1,0 +1,82 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=74061
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:31:15 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:31:15 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=841DEF42A3EFA286EFD8EC2E3820E540.web04-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2745525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=841DEF42A3EFA286EFD8EC2E3820E540.web04-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:31:15 GMT; Path=/
+      Content-Length:
+      - '5205'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Lake Fork Campground is on the Blue Mesa Reservoir, near the reservoir&amp;amp;#39;s dam. It is a part of the historic Curecanti Recreation Area and is an ideal place to stay for days of boat recreation, hiking and taking in the views of the Black Canyon." drivingDirection=" Lake Fork campground is located off of Hwy 50 between Gunnison and Montrose, along Blue Mesa reservoir.  " facilitiesDescription="Pay showers and flush toilets are available in summer months, as well as ample cell phone service.     For anglers, a fish cleaning station is provided for conveniently preparing the days catch." facility="LAKE FORK CAMPGROUND" facilityID="74061" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=74061&amp;cmp=39-32--mcmire" importantInformation=" No electric hookups All watercraft must be inspected and certified as Zebra and Quagga Mussel free This is a high elevation facility, please use caution when traveling from lower elevations " latitude="38.4588889" longitude="-107.33" nearbyAttrctionDescription="The recreation area is just south of Gunnison National Forest and east of the Black Canyon of the Gunnison National Park. There&amp;amp;#39;s no shortage of options for scenic drives and hikes.     Try hiking the Warner Point Nature Trail on the South Rim of Black Canyon, or the Deadhorse Trail on the North Rim." note="" orientationDescription="The steep canyon walls of Gunnison Basin were carved out by the Gunnison River, which once flowed with powerful intensity fueled by the snowmelt of nearby mountains.     Today, the Gunnison river is dammed in three places, creating three large and beautiful reservoirs to be enjoyed by visitors.     The land is characterized by semi-arid shrubland with vast expanses of sagebrush. The natural features and ecosystems of Curecanti vary greatly, with Riparian habitats, epic canyons and lush patches of Ponderosa pine, Douglas fir and aspen trees." recreationDescription="Jet skiing, water skiing and canoeing are some of the many water activities available on the reservoir.    Birding is also rewarding, with chances to see the black-billed magpie.     Along the shrubland, visitors can spot Gunnison&amp;amp;#39;s prairie dogs popping out of their holes." regionName="RMR" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=74061&amp;cmp=39-32--mcmire">
+        <address city="GUNNISON" country="United States" shortName="LAFO" state="Colorado" streetAddress="102 ELK CREEK" zip="81230"/>
+        <photo realUrl="/webphotos/NRSO/pid74061/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid74061/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid74061/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid74061/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid74061/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid74061/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9706412337"/>
+        <contact name="Ranger Station" number="9706412337"/>
+        <amenity distance="Within Facility" name="Accessible Boat Ramp"/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Boat Trailer Parking"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Canoeing"/>
+        <amenity distance="Within Facility" name="Dock"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Fish Cleaning Stations"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Flush Toilets (Seasonal)"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Jet Skiing"/>
+        <amenity distance="Within Facility" name="Kayaking"/>
+        <amenity distance="Within Facility" name="Marina"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Paved Roads"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Scuba Diving"/>
+        <amenity distance="Within Facility" name="Security Lights"/>
+        <amenity distance="Within Facility" name="Self Pay Station"/>
+        <amenity distance="Within Facility" name="Snowshoeing"/>
+        <amenity distance="Within Facility" name="Swimming"/>
+        <amenity distance="Within Facility" name="Water Skiing"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within Facility" name="Windsurfing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:31:15 GMT
+recorded_with: VCR 2.5.0

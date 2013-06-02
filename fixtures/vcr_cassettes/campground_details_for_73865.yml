@@ -1,0 +1,74 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73865
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:34:07 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:34:07 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=D6398CAF486EBC852E23EDDB9A1A23A2.web04-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2745525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=D6398CAF486EBC852E23EDDB9A1A23A2.web04-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:34:07 GMT; Path=/
+      Content-Length:
+      - '5351'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Mingus Ranch is a cabin where guests can step back in time and feel like they&amp;amp;#39;re staying on an early 20th century homestead. The cabin was built in 1908 and was operated by the same family for six decades before it became a Forest Service property.    In collaboration with the Frontier Pathways Scenic and Historic Byway and the Colorado State Historical Society, the cabin and neighboring barn have been renovated to match their original appearance and filled with period-specific furniture and antiques. Electricity is provided and a horse corral is onsite." drivingDirection="Southwest of Pueblo, Colorado: Take HWY 96 approximately 30 milesthrough Wetmore to McKenzie Junction. Go south on HWY 165 for 9 miles.Turn east on Forest Service Road 383 and continue for 1.5 miles. Cabin and corralare on the south side of the road." facilitiesDescription="The modest ranch building is an example of a typical high country ranch with two stories. The cabin sleeps six and conveniences include electric heat, an electric stove and minimal electric lighting. A vault toilet, picnic table and campfire ring are located outside, as well as a horse corral. Furnishings consist of a couple bunk beds with pads, a basic wash, table and chairs and some cooking pots and utensils.     No drinking water is available so it&amp;amp;#39;s important to bring plenty. Other items to bring include bedding, food, garbage bags, dish soap, sunscreen and other basic camping gear. There are minimal lights at the facility, so visitors may want to bring additional light sources." facility="MINGUS RANCH" facilityID="73865" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=73865&amp;cmp=39-32--mcmire" importantInformation=" Entry to the cabin and vault toilet is by combination lock, which is provided in the confirmation letter or email, sent after a reservation is made No drinking water available; bring an ample amount No pets allowed No tent or RV camping at cabin site Click here for current alerts and notices, or call ranger district Click here for more information on the Pike and San Isabel National Forest " latitude="38.0930556" longitude="-105.11" nearbyAttrctionDescription="2 miles west on Highway 165, visitors can find restaurants and an ATM. Westcliffe, 26 miles west, is the nearest town for conveniences like grocery stores." note="" orientationDescription="The cabin is perched in a sprawling meadow at an elevation of 9,400 feet near the base of Round Top Mountain in the heart of the Wet Mountains. Surrounding the meadow are spruce and other mixed conifers. The scenic Greenhorn Mountain is due south." recreationDescription="Hiking, mountain biking, horse riding, off-road vehicle riding, hunting and wildlife viewing are all enjoyable activities here. An extensive network of hiking trails and roads for biking are nearby." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=73865&amp;cmp=39-32--mcmire">
+        <address city="CANON CITY" country="United States" shortName="MINR" state="Colorado" streetAddress="3170 E. MAIN ST." zip="81212"/>
+        <photo realUrl="/webphotos/NRSO/pid73865/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid73865/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid73865/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid73865/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid73865/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid73865/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7192698500"/>
+        <contact name="Ranger Station" number=""/>
+        <amenity distance="Within Facility" name="Electric Stove"/>
+        <amenity distance="Within Facility" name="Fire Extinguisher"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="First Aid Kit"/>
+        <amenity distance="Within Facility" name="Heater"/>
+        <amenity distance="Within Facility" name="Horse Corrals"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within 10 Miles" name="Biking"/>
+        <amenity distance="Within 10 Miles" name="Birding"/>
+        <amenity distance="Within 10 Miles" name="Boating"/>
+        <amenity distance="Within 10 Miles" name="Fishing"/>
+        <amenity distance="Within 10 Miles" name="General Store"/>
+        <amenity distance="Within 10 Miles" name="Hiking"/>
+        <amenity distance="Within 10 Miles" name="Hunting"/>
+        <amenity distance="Within 10 Miles" name="Mountain Biking"/>
+        <amenity distance="Within 10 Miles" name="Off-Road Vehicle Trails"/>
+        <amenity distance="Within 10 Miles" name="Pay Phone"/>
+        <amenity distance="Within 10 Miles" name="Restaurant"/>
+        <amenity distance="Within 10 Miles" name="Wildlife Viewing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:34:07 GMT
+recorded_with: VCR 2.5.0

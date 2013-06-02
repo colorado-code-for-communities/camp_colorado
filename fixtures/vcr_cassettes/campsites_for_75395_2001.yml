@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=75395&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:35:23 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:35:23 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=94EDE413910EB6E804237375CD9616BD.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=94EDE413910EB6E804237375CD9616BD.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:35:22 GMT; Path=/
+      Content-Length:
+      - '2268'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="7" parkId="75395" resultType="campsites" siteType="2001">
+        <result Loop="NARROWS" Maxeqplen="40" Maxpeople="8" Site="001" SiteId="148579" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="397.9" mapy="419.71" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="NARROWS" Maxeqplen="40" Maxpeople="8" Site="002" SiteId="148594" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="424.21" mapy="421.84" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="NARROWS" Maxeqplen="40" Maxpeople="8" Site="003" SiteId="148595" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="450.77" mapy="425.79" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="NARROWS" Maxeqplen="40" Maxpeople="8" Site="004" SiteId="148596" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="473.51" mapy="429.8" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="NARROWS" Maxeqplen="40" Maxpeople="8" Site="005" SiteId="148597" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="499.92" mapy="436.48" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="NARROWS" Maxeqplen="40" Maxpeople="8" Site="006" SiteId="148598" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="525.58" mapy="447.38" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="NARROWS" Maxeqplen="40" Maxpeople="8" Site="007" SiteId="148599" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="503.8" mapy="397.41" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:35:23 GMT
+recorded_with: VCR 2.5.0

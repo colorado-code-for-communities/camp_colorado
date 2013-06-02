@@ -1,5 +1,6 @@
 namespace :import do
   task :campsites => :environment do
-    CampsiteImporter.new(ENV['CAMPSITE_API_KEY']).import
+    importer = CampsiteImporter.new(ENV['ACTIVE_CAMPGROUND_API_KEY'])
+    importer.import
   end
 end

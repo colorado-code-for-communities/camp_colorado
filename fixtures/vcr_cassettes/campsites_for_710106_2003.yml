@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=LARC&parkId=710106&siteType=2003
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:37:53 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:37:53 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=16225A89DFFC47FF853B747D153544F6.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=16225A89DFFC47FF853B747D153544F6.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:37:53 GMT; Path=/
+      Content-Length:
+      - '6577'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="LARC" count="21" parkId="710106" resultType="campsites" siteType="2003">
+        <result Loop="Pinewood Lake Campground" Maxeqplen="20" Maxpeople="8" Site="P02" SiteId="655" SiteReserveType="site-specific" SiteType="STANDARD" mapx="834.05" mapy="209.01" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pinewood Lake Campground" Maxeqplen="20" Maxpeople="8" Site="P04" SiteId="650" SiteReserveType="site-specific" SiteType="STANDARD" mapx="796.75" mapy="177.17" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pinewood Lake Campground" Maxeqplen="20" Maxpeople="8" Site="P05" SiteId="657" SiteReserveType="site-specific" SiteType="STANDARD" mapx="877.28" mapy="941.96" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Pinewood Lake Campground" Maxeqplen="20" Maxpeople="8" Site="P06" SiteId="658" SiteReserveType="site-specific" SiteType="STANDARD" mapx="830.17" mapy="890.64" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Pinewood Lake Campground" Maxeqplen="20" Maxpeople="8" Site="P07" SiteId="659" SiteReserveType="site-specific" SiteType="STANDARD" mapx="807.66" mapy="858.17" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Pinewood Lake Campground" Maxeqplen="20" Maxpeople="8" Site="P08" SiteId="660" SiteReserveType="site-specific" SiteType="STANDARD" mapx="788.8" mapy="828.32" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Pinewood Lake Campground" Maxeqplen="20" Maxpeople="8" Site="P09" SiteId="661" SiteReserveType="site-specific" SiteType="STANDARD" mapx="762.73" mapy="796.75" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Pinewood Lake Campground" Maxeqplen="20" Maxpeople="8" Site="P10" SiteId="662" SiteReserveType="site-specific" SiteType="STANDARD" mapx="752.47" mapy="761.45" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Pinewood Lake Campground" Maxeqplen="20" Maxpeople="8" Site="P11" SiteId="649" SiteReserveType="site-specific" SiteType="STANDARD" mapx="728.21" mapy="736.25" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pinewood Lake Campground" Maxeqplen="25" Maxpeople="8" Site="P15" SiteId="666" SiteReserveType="site-specific" SiteType="STANDARD" mapx="455.68" mapy="540.71" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Pinewood Lake Campground" Maxeqplen="20" Maxpeople="8" Site="P16" SiteId="317" SiteReserveType="site-specific" SiteType="STANDARD" mapx="267.55" mapy="178.88" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pinewood Lake Campground" Maxeqplen="20" Maxpeople="8" Site="P18" SiteId="318" SiteReserveType="site-specific" SiteType="STANDARD" mapx="180.5" mapy="212.65" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pinewood Lake Campground" Maxeqplen="20" Maxpeople="8" Site="P19" SiteId="319" SiteReserveType="site-specific" SiteType="STANDARD" mapx="236.03" mapy="279.44" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pinewood Lake Campground" Maxeqplen="20" Maxpeople="8" Site="P20" SiteId="320" SiteReserveType="site-specific" SiteType="STANDARD" mapx="167.74" mapy="281.69" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pinewood Lake Campground" Maxeqplen="24" Maxpeople="6" Site="P21" SiteId="321" SiteReserveType="site-specific" SiteType="STANDARD" mapx="222.79" mapy="356.02" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pinewood Lake Campground" Maxeqplen="20" Maxpeople="8" Site="P22" SiteId="322" SiteReserveType="site-specific" SiteType="STANDARD" mapx="167.74" mapy="386.01" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pinewood Lake Campground" Maxeqplen="0" Maxpeople="8" Site="P23" SiteId="2309" SiteReserveType="site-specific" SiteType="STANDARD" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pinewood Lake Campground" Maxeqplen="20" Maxpeople="8" Site="P25" SiteId="667" SiteReserveType="site-specific" SiteType="STANDARD" mapx="316.33" mapy="380.76" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pinewood Lake Campground" Maxeqplen="28" Maxpeople="8" Site="P26" SiteId="652" SiteReserveType="site-specific" SiteType="STANDARD" mapx="407.89" mapy="374.0" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pinewood Lake Campground" Maxeqplen="35" Maxpeople="8" Site="P27" SiteId="668" SiteReserveType="site-specific" SiteType="STANDARD" mapx="457.42" mapy="325.22" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Pinewood Lake Campground" Maxeqplen="30" Maxpeople="8" Site="P28" SiteId="653" SiteReserveType="site-specific" SiteType="STANDARD" mapx="403.39" mapy="265.93" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:37:53 GMT
+recorded_with: VCR 2.5.0

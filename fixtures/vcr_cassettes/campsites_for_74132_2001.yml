@@ -1,0 +1,65 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=74132&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:16:19 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:16:19 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=D7684D08E55CE2DD0629C1C68FC87ACF.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=D7684D08E55CE2DD0629C1C68FC87ACF.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:16:19 GMT; Path=/
+      Content-Length:
+      - '6227'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="19" parkId="74132" resultType="campsites" siteType="2001">
+        <result Loop="GENEVA PARK" Maxeqplen="32" Maxpeople="8" Site="2" SiteId="143871" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="514.17" mapy="625.46" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GENEVA PARK" Maxeqplen="26" Maxpeople="8" Site="3" SiteId="143872" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="523.278137207031" mapy="693.6513671875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GENEVA PARK" Maxeqplen="20" Maxpeople="8" Site="4" SiteId="143873" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="450.234649658203" mapy="666.260070800781" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GENEVA PARK" Maxeqplen="32" Maxpeople="8" Site="5" SiteId="143874" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="464.843353271484" mapy="602.346984863281" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GENEVA PARK" Maxeqplen="32" Maxpeople="8" Site="7" SiteId="143875" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="417.365081787109" mapy="576.781799316406" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GENEVA PARK" Maxeqplen="32" Maxpeople="8" Site="8" SiteId="143876" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="351.630004882813" mapy="454.429992675781" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GENEVA PARK" Maxeqplen="20" Maxpeople="8" Site="9" SiteId="143877" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="266.934875488281" mapy="434.094604492188" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GENEVA PARK" Maxeqplen="20" Maxpeople="8" Site="10" SiteId="143878" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="282.311462402344" mapy="383.812713623047" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GENEVA PARK" Maxeqplen="30" Maxpeople="8" Site="11" SiteId="143879" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="192.576110839844" mapy="358.007781982422" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GENEVA PARK" Maxeqplen="22" Maxpeople="8" Site="14" SiteId="143880" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="44.8433456420898" mapy="428.868743896484" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GENEVA PARK" Maxeqplen="30" Maxpeople="8" Site="15" SiteId="143881" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="81.3650970458984" mapy="478.173095703125" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GENEVA PARK" Maxeqplen="20" Maxpeople="8" Site="16" SiteId="143882" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="14.41" mapy="611.5" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GENEVA PARK" Maxeqplen="20" Maxpeople="8" Site="17" SiteId="143883" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="65.53" mapy="549.41" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GENEVA PARK" Maxeqplen="20" Maxpeople="8" Site="18" SiteId="143884" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="26.2" mapy="529.51" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GENEVA PARK" Maxeqplen="30" Maxpeople="8" Site="19" SiteId="143886" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="78.6919021606445" mapy="679.397766113281" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GENEVA PARK" Maxeqplen="22" Maxpeople="8" Site="20" SiteId="143887" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="58.8468246459961" mapy="728.094604492188" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GENEVA PARK" Maxeqplen="20" Maxpeople="8" Site="23" SiteId="143888" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="177.823135375977" mapy="796.339294433594" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GENEVA PARK" Maxeqplen="20" Maxpeople="8" Site="24" SiteId="143885" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="250.331451416016" mapy="732.582214355469" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GENEVA PARK" Maxeqplen="25" Maxpeople="8" Site="25" SiteId="143889" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="245.904373168945" mapy="628.052551269531" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:16:19 GMT
+recorded_with: VCR 2.5.0

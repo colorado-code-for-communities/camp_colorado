@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73562&siteType=2003
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:42:17 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:42:17 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=24E7703CDE74A605F3F7209267F79D3C.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=24E7703CDE74A605F3F7209267F79D3C.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:42:17 GMT; Path=/
+      Content-Length:
+      - '7514'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="23" parkId="73562" resultType="campsites" siteType="2003">
+        <result Loop="SPILLWAY" Maxeqplen="40" Maxpeople="8" Site="001" SiteId="129707" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="753.878723144531" mapy="552.802551269531" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPILLWAY" Maxeqplen="0" Maxpeople="8" Site="002" SiteId="129708" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="691.148376464844" mapy="488.899719238281" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPILLWAY" Maxeqplen="0" Maxpeople="8" Site="003" SiteId="129709" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="629.981384277344" mapy="464.862884521484" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPILLWAY" Maxeqplen="0" Maxpeople="8" Site="004" SiteId="129710" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="494.35888671875" mapy="467.598785400391" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPILLWAY" Maxeqplen="0" Maxpeople="8" Site="005" SiteId="129711" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="439.836273193359" mapy="406.822692871094" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPILLWAY" Maxeqplen="0" Maxpeople="8" Site="006" SiteId="129712" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="442.181335449219" mapy="506.487640380859" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPILLWAY" Maxeqplen="32" Maxpeople="8" Site="007" SiteId="129713" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="398.211456298828" mapy="530.524475097656" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPILLWAY" Maxeqplen="35" Maxpeople="8" Site="008" SiteId="129714" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="300.82" mapy="439.67" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPILLWAY" Maxeqplen="25" Maxpeople="8" Site="009" SiteId="129715" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="280.29" mapy="389.59" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPILLWAY" Maxeqplen="25" Maxpeople="8" Site="010" SiteId="129716" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="209.238830566406" mapy="342.333557128906" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPILLWAY" Maxeqplen="20" Maxpeople="8" Site="011" SiteId="129717" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="124.035026550293" mapy="305.398895263672" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPILLWAY" Maxeqplen="20" Maxpeople="8" Site="012" SiteId="129718" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="33.5548515319824" mapy="372.03759765625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPILLWAY" Maxeqplen="20" Maxpeople="8" Site="013" SiteId="129719" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="69.5124206542969" mapy="453.332977294922" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPILLWAY" Maxeqplen="40" Maxpeople="8" Site="014" SiteId="129720" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="215.883148193359" mapy="449.620025634766" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPILLWAY" Maxeqplen="21" Maxpeople="8" Site="016" SiteId="129721" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="328.63" mapy="541.43" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPILLWAY" Maxeqplen="20" Maxpeople="8" Site="017" SiteId="129722" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="342.516326904297" mapy="643.282775878906" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPILLWAY" Maxeqplen="20" Maxpeople="8" Site="018" SiteId="129723" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="410.913879394531" mapy="658.91650390625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPILLWAY" Maxeqplen="35" Maxpeople="8" Site="019" SiteId="129724" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="409.741363525391" mapy="609.474792480469" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPILLWAY" Maxeqplen="20" Maxpeople="8" Site="020" SiteId="129725" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="535.397399902344" mapy="658.721069335938" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPILLWAY" Maxeqplen="25" Maxpeople="8" Site="021" SiteId="129726" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="505.888763427734" mapy="616.705444335938" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPILLWAY" Maxeqplen="20" Maxpeople="8" Site="022" SiteId="129727" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="594.219299316406" mapy="652.8583984375" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPILLWAY" Maxeqplen="45" Maxpeople="8" Site="023" SiteId="129728" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="592.658813476563" mapy="598.335144042969" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPILLWAY" Maxeqplen="20" Maxpeople="8" Site="024" SiteId="129729" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="651.282348632813" mapy="617.096252441406" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:42:17 GMT
+recorded_with: VCR 2.5.0

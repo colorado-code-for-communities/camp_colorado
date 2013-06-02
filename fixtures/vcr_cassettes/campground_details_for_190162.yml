@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=KOA&parkId=190162
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:39:56 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:39:56 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=FB12D498C5255BF0AF56B648D32EA75E.web08-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2b45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=FB12D498C5255BF0AF56B648D32EA75E.web08-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:39:56 GMT; Path=/
+      Content-Length:
+      - '3759'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="KOA" description="We are conveniently located off HWY I-25 on exit 132 if coming from the south and exit 132A if coming from the north. Great for any one visiting Fort Carson. We have some of the most interesting attractions in the US in our area.  These included, but not limited to Pikes Peak and the Pikes Peak Cog Railway. Garden of the Gods, Cheyenne Mt. Zoo, Cave of the Winds, Manitou Cliff Dwellings, Seven Falls, Royal Gorge Bridge &amp;amp; Park, Cripple Creek, Flying W. Ranch, U.S. Olypmic Center and Pro Rodeo Hall of Fame.  When not visiting the local attractions enjoy your time in the campground with the outdoor pool and hot tub, putt putt, horse shoes and a variety of planned activities for the family." drivingDirection="I-25, Exit #132A from the north and exit #132 from the south then, south on frontage road (Bandley Drive) for 1 mile, entrance on left." facilitiesDescription="" facility="Colorado Springs KOA" facilityID="190162" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=KOA&amp;parkId=190162&amp;cmp=39-32--mcmire" importantInformation="" latitude="38.7116667" longitude="-104.7247222" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="KOA Region" reservationUrl="/campsiteSearch.do?contractCode=KOA&amp;parkId=190162&amp;cmp=39-32--mcmire">
+        <address city="Fountain" country="United States" shortName="A162" state="Colorado" streetAddress="8100 Bandley Drive" zip="80817"/>
+        <photo realUrl="/webphotos/KOA/pid190162/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190162/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190162/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190162/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190162/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190162/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190162/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190162/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190162/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190162/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190162/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190162/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190162/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190162/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190162/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190162/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190162/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190162/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number=""/>
+        <contact name="Ranger Station" number="7193827575"/>
+        <amenity distance="" name=""/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:04:19 GMT
+recorded_with: VCR 2.5.0

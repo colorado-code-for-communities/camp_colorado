@@ -1,0 +1,96 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=75373
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:40:49 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:40:49 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=F6309E3E523A691DC2F8E3C85D747F68.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=F6309E3E523A691DC2F8E3C85D747F68.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:40:49 GMT; Path=/
+      Content-Length:
+      - '7545'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Sapphire Point Overlook sits between Keystone and Breckenridge on Swan Mountain Road, at an elevation of 9,500 feet. The overlook offers a stunning view of Dillon Reservoir, hemmed in by the Gore and Tenmile mountain ranges.     Sapphire Point is a day-use area that can be reserved for two-hour blocks for private gatherings. It is the only designated site where wedding ceremonies are permitted to take place on the Dillon Ranger District." drivingDirection="Approximately 8 miles north of Breckenridge. Take Highway 9 for 6miles to Swan Mountain Road/CR1. Turn right and continue for approximately 2 milesto the top of the hill; Sapphire Point parking area is on the left." facilitiesDescription="This is a non-exclusive day-use area, able to accommodate up to 35 people for small events such as wedding ceremonies. Although the site may be reserved, all visitors have access to the site.     Use of portable chairs and other furniture is allowed, however, commercial services, such as delivery of rental or catering items, are prohibited unless the vendor has a valid permit from the U.S. Forest Service.         Click here  for photographs and more information about wedding ceremonies at Sapphire Point Overlook." facility="SAPPHIRE POINT OVERLOOK" facilityID="75373" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=75373&amp;cmp=39-32--mcmire" importantInformation=" Reservation confirmation must be in the possession of someone at the site during use Please remove all furniture, flowers, trash and other items from the site at the end of your reservation Ground must remain undisturbed; stakes and poles prohibited, and releasing or distributing seeds, plants, plant parts, animals or other items must be approved in advance Site must remain open to all users at all times Maximum limit at site is 35 people 22 parking spots available at overlook for all users If you provide a commercial service at Sapphire Point, please contact the Dillon Ranger District at 970-468-5400 to make sure you have a valid permit Click here for more information about White River National Forest " latitude="39.5880556" longitude="-106.0436111" nearbyAttrctionDescription="Arapahoe Basin, Keystone, Breckenridge and Copper Mountain ski resorts are all located within ten miles from Dillon Reservoir. These resorts stay open year-round." note="" orientationDescription="In the heart of the Rocky Mountains, this overlook is part of the 2.3 million acre White River National Forest. Recognized as a place of serenity and adventure, the area boasts eight wilderness areas, four defined seasons and ten peaks surpassing 14,000 feet in elevation.    Described as being more vertical than horizontal, the nearby Eagles Nest Wilderness Area, designated in 1976, is a playground of craggy cliffs, sheer rock faces, alpine lakes and deep, forested valleys.    Wildlife in the area abounds. Bighorn sheep navigate rocky ridges and bull elk bugle at dusk. Scenic rivers sustain populations of cutthroat, rainbow and brown trout.  Alpine regions provide habitat for pika and ptarmigan. These species, along with many others, depend on surrounding undeveloped wilderness, clean streams and diverse forests to live." recreationDescription="Encompassing a landscape of rivers, mountains, trails and forest roads, the White River National Forest is one of the top recreation Forests in the nation.    The area surrounding Sapphire Point Overlook provides visitors with a variety of recreational opportunities.      Dillion Reservoir is the greatest draw to the area. At 3,233 acres and 26.8 miles of shoreline, the reservoir is an ideal spot for fishing, boating and sailing. Anglers will find that the reservoir supports a healthy population of rainbow and brown trout, with an occasional cutthroat trout finding its way into the lake from feeder streams.     Opportunities for hiking and biking in this area abound as well, including more than 7 paved miles of the 50-mile Summit County trail system.     The Old Dillion Reservoir trail is a favorite among visitors. This short, easy trail has spectacular views of the Tenmile Range and the Continental Divide. The Old Dillon Reservoir was built in the 1930s to supply water to the original town of Dillon, which is now covered by the new Dillon Reservoir." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=75373&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="SAPP" state="Colorado" streetAddress="SWAN MOUNTAIN ROAD SUMMIT" zip=""/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9704685400"/>
+        <contact name="Ranger Station" number=""/>
+        <amenity distance="Within Facility" name="Accessible Site "/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Scenic Overlooks"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within 10 Miles" name="Accessible Boat Ramp"/>
+        <amenity distance="Within 10 Miles" name="Accessible Group Shelters"/>
+        <amenity distance="Within 10 Miles" name="Accessible Trails"/>
+        <amenity distance="Within 10 Miles" name="Bait Shop"/>
+        <amenity distance="Within 10 Miles" name="Baseball Fields"/>
+        <amenity distance="Within 10 Miles" name="Bike Rentals"/>
+        <amenity distance="Within 10 Miles" name="Biking"/>
+        <amenity distance="Within 10 Miles" name="Boat Ramp"/>
+        <amenity distance="Within 10 Miles" name="Boat Rental"/>
+        <amenity distance="Within 10 Miles" name="Boat Slips"/>
+        <amenity distance="Within 10 Miles" name="Boat Trailer Parking"/>
+        <amenity distance="Within 10 Miles" name="Boating"/>
+        <amenity distance="Within 10 Miles" name="Campfire Programs"/>
+        <amenity distance="Within 10 Miles" name="Canoe Rental"/>
+        <amenity distance="Within 10 Miles" name="Canoeing"/>
+        <amenity distance="Within 10 Miles" name="Dump Station"/>
+        <amenity distance="Within 10 Miles" name="Educational Programs"/>
+        <amenity distance="Within 10 Miles" name="Electric Hook Ups"/>
+        <amenity distance="Within 10 Miles" name="Fishing"/>
+        <amenity distance="Within 10 Miles" name="General Store"/>
+        <amenity distance="Within 10 Miles" name="Grocery Store"/>
+        <amenity distance="Within 10 Miles" name="Group Camping Facility"/>
+        <amenity distance="Within 10 Miles" name="Group Cooking Facilities"/>
+        <amenity distance="Within 10 Miles" name="Hospital"/>
+        <amenity distance="Within 10 Miles" name="Host"/>
+        <amenity distance="Within 10 Miles" name="Lake Front Sites"/>
+        <amenity distance="Within 10 Miles" name="Laundry Facilities"/>
+        <amenity distance="Within 10 Miles" name="Marina"/>
+        <amenity distance="Within 10 Miles" name="Mountain Biking"/>
+        <amenity distance="Within 10 Miles" name="RV sites"/>
+        <amenity distance="Within 10 Miles" name="Restaurants"/>
+        <amenity distance="Within 10 Miles" name="Sewer Hookups"/>
+        <amenity distance="Within 10 Miles" name="Showers"/>
+        <amenity distance="Within 10 Miles" name="Snowshoeing"/>
+        <amenity distance="Within 10 Miles" name="Softball Fields"/>
+        <amenity distance="Within 10 Miles" name="Wildlife Viewing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:40:49 GMT
+recorded_with: VCR 2.5.0

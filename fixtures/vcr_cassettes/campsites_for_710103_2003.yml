@@ -1,0 +1,80 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=LARC&parkId=710103&siteType=2003
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:15:46 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:15:46 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=48D4B60B4C89528F9508ED84C66D269C.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=48D4B60B4C89528F9508ED84C66D269C.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:15:46 GMT; Path=/
+      Content-Length:
+      - '10453'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="LARC" count="34" parkId="710103" resultType="campsites" siteType="2003">
+        <result Loop="Flatiron Campground" Maxeqplen="80" Maxpeople="8" Site="F03" SiteId="552" SiteReserveType="site-specific" SiteType="STANDARD" mapx="197.11" mapy="685.09" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Flatiron Campground" Maxeqplen="50" Maxpeople="8" Site="F04" SiteId="528" SiteReserveType="site-specific" SiteType="STANDARD" mapx="224.39" mapy="710.06" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Flatiron Campground" Maxeqplen="48" Maxpeople="8" Site="F05" SiteId="529" SiteReserveType="site-specific" SiteType="STANDARD" mapx="241.98" mapy="669.28" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Flatiron Campground" Maxeqplen="66" Maxpeople="8" Site="F06" SiteId="531" SiteReserveType="site-specific" SiteType="STANDARD" mapx="258.95" mapy="698.43" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Flatiron Campground" Maxeqplen="64" Maxpeople="8" Site="F07" SiteId="533" SiteReserveType="site-specific" SiteType="STANDARD" mapx="279.71" mapy="661.95" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Flatiron Campground" Maxeqplen="78" Maxpeople="8" Site="F08" SiteId="532" SiteReserveType="site-specific" SiteType="STANDARD" mapx="326.18" mapy="681.24" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Flatiron Campground" Maxeqplen="60" Maxpeople="8" Site="F09" SiteId="530" SiteReserveType="site-specific" SiteType="STANDARD" mapx="313.75" mapy="651.17" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Flatiron Campground" Maxeqplen="65" Maxpeople="8" Site="F10" SiteId="669" SiteReserveType="site-specific" SiteType="STANDARD" mapx="379.95" mapy="654.13" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Flatiron Campground" Maxeqplen="45" Maxpeople="6" Site="F11" SiteId="537" SiteReserveType="site-specific" SiteType="STANDARD" mapx="354.04" mapy="627.52" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Flatiron Campground" Maxeqplen="43" Maxpeople="6" Site="F12" SiteId="672" SiteReserveType="site-specific" SiteType="STANDARD" mapx="411.36" mapy="594.94" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Flatiron Campground" Maxeqplen="26" Maxpeople="6" Site="F13" SiteId="538" SiteReserveType="site-specific" SiteType="STANDARD" mapx="433.49" mapy="594.7" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Flatiron Campground" Maxeqplen="41" Maxpeople="8" Site="F14" SiteId="521" SiteReserveType="site-specific" SiteType="STANDARD" mapx="462.29" mapy="574.78" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Flatiron Campground" Maxeqplen="41" Maxpeople="8" Site="F15" SiteId="525" SiteReserveType="site-specific" SiteType="STANDARD" mapx="505.19" mapy="516.42" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Flatiron Campground" Maxeqplen="54" Maxpeople="8" Site="F16" SiteId="526" SiteReserveType="site-specific" SiteType="STANDARD" mapx="525.79" mapy="546.21" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Flatiron Campground" Maxeqplen="51" Maxpeople="8" Site="F17" SiteId="522" SiteReserveType="site-specific" SiteType="STANDARD" mapx="545.87" mapy="489.65" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Flatiron Campground" Maxeqplen="67" Maxpeople="8" Site="F18" SiteId="540" SiteReserveType="site-specific" SiteType="STANDARD" mapx="595.67" mapy="461.5" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Flatiron Campground" Maxeqplen="48" Maxpeople="8" Site="F19" SiteId="518" SiteReserveType="site-specific" SiteType="STANDARD" mapx="593.37" mapy="405.75" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Flatiron Campground" Maxeqplen="39" Maxpeople="6" Site="F21" SiteId="536" SiteReserveType="site-specific" SiteType="STANDARD" mapx="632.84" mapy="411.34" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Flatiron Campground" Maxeqplen="24" Maxpeople="8" Site="F22" SiteId="523" SiteReserveType="site-specific" SiteType="STANDARD" mapx="599.72" mapy="320.83" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Flatiron Campground" Maxeqplen="49" Maxpeople="8" Site="F23" SiteId="524" SiteReserveType="site-specific" SiteType="STANDARD" mapx="583.46" mapy="293.96" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Flatiron Campground" Maxeqplen="57" Maxpeople="8" Site="F24" SiteId="541" SiteReserveType="site-specific" SiteType="STANDARD" mapx="607.63" mapy="270.03" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Flatiron Campground" Maxeqplen="50" Maxpeople="8" Site="F25" SiteId="519" SiteReserveType="site-specific" SiteType="STANDARD" mapx="597.72" mapy="240.35" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Flatiron Campground" Maxeqplen="34" Maxpeople="8" Site="F26" SiteId="542" SiteReserveType="site-specific" SiteType="STANDARD" mapx="637.97" mapy="202.06" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Flatiron Campground" Maxeqplen="55" Maxpeople="8" Site="F27" SiteId="527" SiteReserveType="site-specific" SiteType="STANDARD" mapx="687.82" mapy="226.08" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="Flatiron Campground" Maxeqplen="49" Maxpeople="6" Site="F28" SiteId="535" SiteReserveType="site-specific" SiteType="STANDARD" mapx="562.95" mapy="230.69" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Flatiron Campground" Maxeqplen="34" Maxpeople="6" Site="F29" SiteId="543" SiteReserveType="site-specific" SiteType="STANDARD" mapx="516.94" mapy="406.16" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Flatiron Campground" Maxeqplen="41" Maxpeople="8" Site="F30" SiteId="670" SiteReserveType="site-specific" SiteType="STANDARD" mapx="561.88" mapy="403.2" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Flatiron Campground" Maxeqplen="55" Maxpeople="8" Site="F31" SiteId="673" SiteReserveType="site-specific" SiteType="STANDARD" mapx="481.67" mapy="444.71" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Flatiron Campground" Maxeqplen="44" Maxpeople="8" Site="F32" SiteId="544" SiteReserveType="site-specific" SiteType="STANDARD" mapx="504.24" mapy="471.51" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Flatiron Campground" Maxeqplen="49" Maxpeople="8" Site="F33" SiteId="534" SiteReserveType="site-specific" SiteType="STANDARD" mapx="445.09" mapy="483.06" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Flatiron Campground" Maxeqplen="30" Maxpeople="6" Site="F34" SiteId="539" SiteReserveType="site-specific" SiteType="STANDARD" mapx="447.02" mapy="533.73" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Flatiron Campground" Maxeqplen="22" Maxpeople="4" Site="F35" SiteId="545" SiteReserveType="site-specific" SiteType="WALK TO" mapx="350.61" mapy="526.11" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Flatiron Campground" Maxeqplen="20" Maxpeople="4" Site="F36" SiteId="546" SiteReserveType="site-specific" SiteType="WALK TO" mapx="376.86" mapy="552.27" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Flatiron Campground" Maxeqplen="20" Maxpeople="4" Site="F37" SiteId="547" SiteReserveType="site-specific" SiteType="WALK TO" mapx="363.36" mapy="570.15" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:15:46 GMT
+recorded_with: VCR 2.5.0

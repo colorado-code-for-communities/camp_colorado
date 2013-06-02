@@ -1,0 +1,80 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70759
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:37:03 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:37:03 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=33961628F482CCA94B9C0ACB4BB2A1C5.web08-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2b45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=33961628F482CCA94B9C0ACB4BB2A1C5.web08-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:37:03 GMT; Path=/
+      Content-Length:
+      - '6639'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Peaceful Valley Campground is situated in a glacial valley, on the banks of the Middle Saint Vrain Creek at an elevation of 8,500 feet in northern Colorado. The campground has some conifer trees with open grassy areas." drivingDirection="From Denver, go north on Interstate 25 to U.S. Highway 36 west. Continue on U.S. 36 through Boulder to Lyons. Take Colorado Highway 7 and go approximately 12 miles, then Colorado Highway 72 for approximately  4 miles." facilitiesDescription="There are 17 sites in the campground. Nine are suitable for RV camping and eight are more suitable for tents.  Each site has a picnic table, fire ring and grill. The maximum vehicle length that can be accommodated is 45 feet, although no utility hookups are available.  There is a maximum of eight people per site; site #17 is oversized and will accommodate ten people.  The roads in the campground are paved. There is one hand pump with potable water, trash dumpsters, vault toilets and firewood is for sale." facility="PEACEFUL VALLEY" facilityID="70759" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70759&amp;cmp=39-32--mcmire" importantInformation=" This is bear country! For bear and human safety, keep a clean campsite and do not place food or other attractants in your tent. For more information about visiting bear country, contact Colorado Parks and Wildlife at http://wildlife.state.co.us Utility hookups are not available; the nearest showers are 12 miles away, at Meeker Park Lodge. Sites may be available on a first-come, first-served basis outside of the reservation season Click here for more information on the Arapaho and Roosevelt National Forest Operated by American Land &amp;amp;amp; Leisure. You may contact us at www.AmericanLL.com or 801-226-3564. " latitude="40.1313889" longitude="-105.5061111" nearbyAttrctionDescription="Rocky Mountain National Park&amp;amp;rsquo;s main entrance is 24 miles north in Estes Park.  Estes Park is a full-service community." note="" orientationDescription="The campground is situated on the banks of the Middle Saint Vrain Creek in the mostly flat, glacial Peaceful Valley. A mixed conifer and aspen forest covers the area." recreationDescription="The Middle Saint Vrain Creek is a good fly-fishing stream where anglers cast for rainbow, brown and cutthroat trout.    Many trails in the vicinity are open to hiking and biking, including Sourdough and Buchanan Pass Trails.  Mountain biking is allowed on the first five miles of Buchanan Pass Trail.   The Bunce School Roads are popular among off-road enthusiasts." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70759&amp;cmp=39-32--mcmire">
+        <address city="Idaho Springs" country="United States" shortName="PEAC" state="Colorado" streetAddress="ARAPAHO AND ROOSEVELT, Clear Creek Ranger District, 101 Highway 103" zip="80452"/>
+        <photo realUrl="/webphotos/NRSO/pid70759/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70759/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70759/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70759/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70759/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70759/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70759/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70759/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70759/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70759/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70759/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70759/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70759/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70759/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70759/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70759/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70759/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70759/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70759_PEAC.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="3032583610"/>
+        <contact name="Ranger Station" number="3035673000"/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Creek Access"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Off-Road Vehicle Trails"/>
+        <amenity distance="Within Facility" name="RV Parking"/>
+        <amenity distance="Within Facility" name="RV sites"/>
+        <amenity distance="Within Facility" name="Tent Pads"/>
+        <amenity distance="Within Facility" name="Tent sites"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Less Than 1 Mile" name="Horseback Riding"/>
+        <amenity distance="Within 10 Miles" name="Grocery Store"/>
+        <amenity distance="Within 10 Miles" name="Pay Phone"/>
+        <amenity distance="Within 10 Miles" name="Restaurant"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:37:03 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=KOA&parkId=190165&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:15:58 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:15:58 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=0C6F675DF997BD2F82B2DA70E4DB2B8D.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=0C6F675DF997BD2F82B2DA70E4DB2B8D.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:15:58 GMT; Path=/
+      Content-Length:
+      - '3208'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="KOA" count="9" parkId="190165" resultType="campsites" siteType="2001">
+        <result Loop="Fort Collins / Lakeside KOA" Maxeqplen="75" Maxpeople="6" Site="Pull-thru, Full hookups, 50/30 amp, Cable, WiFi" SiteId="35633" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Fort Collins / Lakeside KOA" Maxeqplen="37" Maxpeople="6" Site="Back-in, Full hookups, 30/20 amp, Cable, WiFi" SiteId="55761" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Fort Collins / Lakeside KOA" Maxeqplen="37" Maxpeople="6" Site="Back-in, Full hookups, 50/30 amp, Cable, WiFi" SiteId="417" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Fort Collins / Lakeside KOA" Maxeqplen="100" Maxpeople="6" Site="Back-in, Full hookups, 50/30 amp, Cable, WiFi" SiteId="418" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Fort Collins / Lakeside KOA" Maxeqplen="0" Maxpeople="6" Site="Need a relaxing soak in a private hot tub?  Reserve one of our h" SiteId="33318" SiteReserveType="site-specific" SiteType="Special" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Fort Collins / Lakeside KOA" Maxeqplen="35" Maxpeople="6" Site="Back-in, Full hookups, 50/30 amp, Cable, WiFi" SiteId="49343" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Fort Collins / Lakeside KOA" Maxeqplen="100" Maxpeople="6" Site="Need more space?  Reserve one of our lakeview RV sites.  Sites a" SiteId="33319" SiteReserveType="site-specific" SiteType="Special" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Fort Collins / Lakeside KOA" Maxeqplen="70" Maxpeople="6" Site="Pull-thru, Full hookups, 50/30 amp, Cable, WiFi" SiteId="55279" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Fort Collins / Lakeside KOA" Maxeqplen="75" Maxpeople="6" Site="Pull-thru, Full hookups, 50/30 amp, Cable, WiFi" SiteId="416" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:15:59 GMT
+recorded_with: VCR 2.5.0

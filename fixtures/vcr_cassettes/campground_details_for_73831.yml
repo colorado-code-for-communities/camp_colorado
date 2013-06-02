@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73831
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:33:24 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:33:24 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=2143F5A08FD02BE3682EEF77A49D5ED4.web04-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2745525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=2143F5A08FD02BE3682EEF77A49D5ED4.web04-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:33:24 GMT; Path=/
+      Content-Length:
+      - '4458'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Matterhorn Campground is located along the San Juan Skyway (Colorado Highway 145), near the quaint town of Telluride, at an elevation of 8,500 feet. Visitors enjoy the area for its beautiful scenery, hiking and off-road opportunities." drivingDirection="From Telluride, travel approximately 7 miles south on Highway 145. Watch for campground signs; the turn off from the road is on the left." facilitiesDescription="The campground offers single-family sites, each equipped with a picnic table and campfire ring. Some sites are accessible and some have full RV hookups. Flush and vault toilets, drinking water, showers and trash collection are provided." facility="MATTERHORN" facilityID="73831" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=73831&amp;cmp=39-32--mcmire" importantInformation=" Fee only applies to first camp unit; additional units will be charged full price at the campground A additional fee of $8 will be charged for sites with full hookups Opening dates are weather permitting; please call 928-537-8888 for more information Click here for more information on the Grand Mesa-Uncompahgre-Gunnison National Forests " latitude="37.8447222" longitude="-107.8811111" nearbyAttrctionDescription="The charming and historic town of Telluride is just 7miles away, offering dining and lodging options, live music, shopping, museums, galleries and plenty of summer activities.    A free, scenic gondola connects Telluride with nearby Mountain Village, a small town with additional shopping and dining opportunities. On the gondola, visitors are awarded a panoramic view of the town and surrounding mountains." note="" orientationDescription="Most sites on the outer edge of the campground are wooded. Sites on the inside are more open.    Most sites have pleasant views, especially the walk-to tent sites, which have unobstructed and panoramic views of the surrounding mountains." recreationDescription="The Galloping Goose Trail #449 can be accessed from the campground. This 8.4-mile trail leads past a restored train trestle, over two trail bridges and along segments of the historic Rio Grande Southern Railway. The trail is open to hiking, biking and horseback riding.    Many scenic driving routes, both paved and off-road, can be found in the area. Additional hiking trails crisscross the surrounding mountains. Lizard Head Wilderness is about 3 miles from the campground." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=73831&amp;cmp=39-32--mcmire">
+        <address city="MONTROSE" country="United States" shortName="MATT" state="Colorado" streetAddress="UNCOMPAHGRE NATIONAL FOREST" zip="81402"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9702494552"/>
+        <contact name="Ranger Station" number="9702494552"/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Creek Access"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Electric Hookups"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Flush Toilets"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Recycling"/>
+        <amenity distance="Within Facility" name="Sewer Hookups"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Skiing"/>
+        <amenity distance="Within Facility" name="Tennis Courts"/>
+        <amenity distance="Within Facility" name="Tent Pads"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:33:24 GMT
+recorded_with: VCR 2.5.0

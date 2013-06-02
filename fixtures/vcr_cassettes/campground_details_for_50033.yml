@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50033
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:35:28 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:35:28 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=2B34A4747DDFD254115E66687264A1A5.web08-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2b45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=2B34A4747DDFD254115E66687264A1A5.web08-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:35:28 GMT; Path=/
+      Content-Length:
+      - '7234'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description="  Handicap sites #84 and #103 are only reservable through the park - 970-883-2208.  These sites require a handicap sticker, plate or placard.    Colorado&amp;amp;#39;s answer to Lake Powell, many visitors describe their first view of Navajo Lake as &amp;amp;quot;unbelievable&amp;amp;quot;. This huge (15,000 surface-acre and 150 miles of shoreline) reservoir extends for 21 miles south into New Mexico. Fish for record-size german brown trout or catfish in open waters without crowds. Camp on your boat or enjoy beautiful lakeside camping with lots of trees. Explore three major rivers and sail or water-ski on open waters. Take advantage of the opportunity to see wildlife such as foxes, deer, grouse and turkeys in the midst of one of Colorado&amp;amp;#39;s most historic and scenic areas. Navajo offers 118 campsites and 3 beautiful full-service cabins. There are 39 full service campsites in Rosa Campground, 41 electric sites in Carracas Campground, 24 RV sites with no hook-ups in Tiffany Campground and 14 incredible tent sites that overlook the lake. Eight of these are in Rosa Campground and 6 in Tiffany. All three campgrounds have new camper services buildings with flush facilities and pay showers. All campgounds are open year round but only the camper services building in Rosa remains open off season. The Rosa Camper Services Building has a self service laundry that is open in the summer months. Winter is a wonderful time to visit Navajo. You will share the campground with families of deer that become less shy in the peacefulness of winter, and bald eagles who soar overhead and sun themselves in trees overlooking the lake. Sites 84 and 103 are reservable through the call center only. " drivingDirection="Take US 160 west out of Pagosa Springs for 17 miles. Turn southwest on CO 151, go 18 miles to the town of Arboles. Go 2 miles south on County Rd 982." facilitiesDescription="" facility="NAVAJO STATE PARK" facilityID="50033" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50033&amp;cmp=39-32--mcmire" importantInformation="Sites # 121-128 are tent only sites and hold only 1 vehicle. Additional vehicles and trailers must be parked in the parking lots outside the campground. In addition to the camping fee, an entrance fee is required at all state parks! Shade may be naturally provided by trees and other vegetation or by man made shade shelter. Please call the park for specific details. " latitude="37.0638889" longitude="-107.4027778" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="Rocky Mountain Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50033&amp;cmp=39-32--mcmire">
+        <address city="ARBOLES" country="United States" shortName="NAVA" state="Colorado" streetAddress="BOX 1697" zip="81121"/>
+        <photo realUrl="/webphotos/CO/pid50033/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50033/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50033/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50033/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50033/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50033/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50033/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50033/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50033/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50033/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50033/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50033/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50033/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50033/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50033/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="9708832208"/>
+        <contact name="Ranger Station" number="9708832208"/>
+        <amenity distance="Within Facility" name="ADA Access"/>
+        <amenity distance="Within Facility" name="ADA Fish. Access"/>
+        <amenity distance="Within Facility" name="Beaching Your Boat"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Bird Watching"/>
+        <amenity distance="Within Facility" name="Boat Launch"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Camper Services Bldg"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Firewood Available"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Fishing Licenses Sold"/>
+        <amenity distance="Within Facility" name="Group Pavilions Available"/>
+        <amenity distance="Within Facility" name="Group Picnic Area"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Historical Site(S)"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Horshoe Pit"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Interpretitive Programs"/>
+        <amenity distance="Within Facility" name="Jet Skiing"/>
+        <amenity distance="Within Facility" name="Laundry Facilities"/>
+        <amenity distance="Within Facility" name="Marina"/>
+        <amenity distance="Within Facility" name="Natural Shade"/>
+        <amenity distance="Within Facility" name="Nature Study Exhibits"/>
+        <amenity distance="Within Facility" name="Parking"/>
+        <amenity distance="Within Facility" name="Pay Phones Available"/>
+        <amenity distance="Within Facility" name="Photography"/>
+        <amenity distance="Within Facility" name="Picnicking"/>
+        <amenity distance="Within Facility" name="Proximity To Camp Serv."/>
+        <amenity distance="Within Facility" name="Ranger Station"/>
+        <amenity distance="Within Facility" name="Sailing And Sailboarding"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Store (Retail)"/>
+        <amenity distance="Within Facility" name="Swimming"/>
+        <amenity distance="Within Facility" name="Visitor Center"/>
+        <amenity distance="Within Facility" name="Water Drinking"/>
+        <amenity distance="Within Facility" name="Water Fillup Station"/>
+        <amenity distance="Within Facility" name="Water Skiing"/>
+        <amenity distance="Within Facility" name="Wildlife Watching Opportunity"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:35:28 GMT
+recorded_with: VCR 2.5.0

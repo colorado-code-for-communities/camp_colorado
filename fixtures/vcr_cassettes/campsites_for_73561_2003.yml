@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73561&siteType=2003
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:40:10 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:40:10 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=CA74DDE50D7080B5131C4265C9C96C25.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=CA74DDE50D7080B5131C4265C9C96C25.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:40:10 GMT; Path=/
+      Content-Length:
+      - '5965'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="18" parkId="73561" resultType="campsites" siteType="2003">
+        <result Loop="RIVERSIDE" Maxeqplen="0" Maxpeople="8" Site="002" SiteId="129689" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="804.309997558594" mapy="368.609985351563" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVERSIDE" Maxeqplen="0" Maxpeople="8" Site="003" SiteId="129690" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="940.465515136719" mapy="230.291000366211" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVERSIDE" Maxeqplen="0" Maxpeople="8" Site="004" SiteId="129691" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="982.809020996094" mapy="347.646881103516" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVERSIDE" Maxeqplen="0" Maxpeople="8" Site="005" SiteId="129692" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="926.799865722656" mapy="430.903625488281" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVERSIDE" Maxeqplen="0" Maxpeople="8" Site="006" SiteId="129693" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="866.539855957031" mapy="552.242980957031" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVERSIDE" Maxeqplen="30" Maxpeople="8" Site="007" SiteId="129694" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="691.099975585938" mapy="472.700012207031" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVERSIDE" Maxeqplen="45" Maxpeople="8" Site="009" SiteId="129696" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="645.440002441406" mapy="536.609985351563" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVERSIDE" Maxeqplen="70" Maxpeople="8" Site="010" SiteId="129697" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="605.27001953125" mapy="587.739990234375" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVERSIDE" Maxeqplen="50" Maxpeople="8" Site="011" SiteId="129698" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="555.969970703125" mapy="542.090026855469" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVERSIDE" Maxeqplen="40" Maxpeople="8" Site="012" SiteId="129699" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="539.530029296875" mapy="582.260009765625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVERSIDE" Maxeqplen="90" Maxpeople="8" Site="013" SiteId="129700" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="497.397583007813" mapy="531.333618164063" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVERSIDE" Maxeqplen="0" Maxpeople="8" Site="014" SiteId="129701" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="417.97705078125" mapy="599.433288574219" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVERSIDE" Maxeqplen="0" Maxpeople="8" Site="015" SiteId="129702" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="413.654968261719" mapy="663.546875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVERSIDE" Maxeqplen="0" Maxpeople="8" Site="016" SiteId="129703" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="353.527374267578" mapy="657.201232910156" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVERSIDE" Maxeqplen="0" Maxpeople="8" Site="017" SiteId="129704" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="326.544586181641" mapy="715.834777832031" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVERSIDE" Maxeqplen="0" Maxpeople="8" Site="018" SiteId="129705" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="248.21826171875" mapy="688.6484375" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVERSIDE" Maxeqplen="0" Maxpeople="8" Site="019" SiteId="129706" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="226.495147705078" mapy="751.485107421875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="RIVERSIDE" Maxeqplen="55" Maxpeople="8" Site="001" SiteId="129688" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="723.960021972656" mapy="428.869995117188" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:40:10 GMT
+recorded_with: VCR 2.5.0

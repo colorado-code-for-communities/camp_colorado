@@ -1,0 +1,90 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50043&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:43:56 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:43:56 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=2ECBFFD73635A1C093FD6367FF47E33A.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=2ECBFFD73635A1C093FD6367FF47E33A.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:43:56 GMT; Path=/
+      Content-Length:
+      - '15025'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="CO" count="44" parkId="50043" resultType="campsites" siteType="2001">
+        <result Loop="ELK RUN" Maxeqplen="20" Maxpeople="6" Site="SYLAELRU001" SiteId="2860" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="454.012420654297" mapy="520.61474609375" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="90" Maxpeople="6" Site="SYLAELRU002" SiteId="2861" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="459.416748046875" mapy="454.723663330078" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="45" Maxpeople="6" Site="SYLAELRU003" SiteId="2862" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="424.438415527344" mapy="518.656372070313" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="120" Maxpeople="6" Site="SYLAELRU004" SiteId="2863" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="447.421234130859" mapy="389.285797119141" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="30" Maxpeople="6" Site="SYLAELRU005" SiteId="2864" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="426.496276855469" mapy="455.369720458984" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="60" Maxpeople="6" Site="SYLAELRU006" SiteId="2865" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="394.287811279297" mapy="357.333190917969" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="60" Maxpeople="6" Site="SYLAELRU007" SiteId="2866" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="338.747283935547" mapy="356.7548828125" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="45" Maxpeople="6" Site="SYLAELRU008" SiteId="2867" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="396.11669921875" mapy="397.045288085938" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="45" Maxpeople="6" Site="SYLAELRU009" SiteId="2868" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="347.609558105469" mapy="392.284637451172" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="60" Maxpeople="6" Site="SYLAELRU010" SiteId="2869" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="282.238830566406" mapy="385.748901367188" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="90" Maxpeople="6" Site="SYLAELRU011" SiteId="2870" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="291.961517333984" mapy="453.970703125" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="30" Maxpeople="6" Site="SYLAELRU012" SiteId="2871" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="314.957794189453" mapy="412.954376220703" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="60" Maxpeople="6" Site="SYLAELRUN013HA " SiteId="2872" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="336.420684814453" mapy="499.479034423828" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="30" Maxpeople="6" Site="SYLAELRU014" SiteId="2873" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="349.842071533203" mapy="454.885498046875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="36" Maxpeople="6" Site="SYLAELRU015" SiteId="2874" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. NON-ELEC BASIC" mapx="384.174957275391" mapy="497.475494384766" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="90" Maxpeople="6" Site="SYLAELRU018" SiteId="2877" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="301.428955078125" mapy="552.06103515625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="30" Maxpeople="6" Site="SYLAELRU019" SiteId="2878" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="279.441467285156" mapy="578.607543945313" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="90" Maxpeople="6" Site="SYLAELRU020" SiteId="2879" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="262.348907470703" mapy="509.430725097656" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="30" Maxpeople="6" Site="SYLAELRU021" SiteId="2880" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="231.176742553711" mapy="532.75" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="90" Maxpeople="6" Site="SYLAELRU022" SiteId="2881" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="215.751235961914" mapy="461.892028808594" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="75" Maxpeople="6" Site="SYLAELRU023" SiteId="2882" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="189.635192871094" mapy="419.826568603516" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="30" Maxpeople="6" Site="SYLAELRU024" SiteId="2883" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="163.492294311523" mapy="452.9619140625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="45" Maxpeople="6" Site="SYLAELRU025" SiteId="8474" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="171.87" mapy="396.24" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="45" Maxpeople="6" Site="SYLAELRU026" SiteId="8475" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="146.67" mapy="386.26" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="75" Maxpeople="6" Site="SYLAELRU027" SiteId="2884" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="56.4859733581543" mapy="454.736450195313" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="30" Maxpeople="6" Site="SYLAELRU028" SiteId="2885" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="101.120231628418" mapy="439.110717773438" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="75" Maxpeople="6" Site="SYLAELRU029" SiteId="2886" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="76.4428558349609" mapy="514.836730957031" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="30" Maxpeople="6" Site="SYLAELRU030" SiteId="2887" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="103.728881835938" mapy="478.325042724609" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="90" Maxpeople="6" Site="SYLAELRU031" SiteId="2888" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="118.347129821777" mapy="561.999328613281" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="25" Maxpeople="6" Site="SYLAELRU032" SiteId="2889" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="125.285865783691" mapy="507.426574707031" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="40" Maxpeople="6" Site="SYLAELRU033" SiteId="2891" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. NON-ELEC BASIC" mapx="158.946426391602" mapy="541.18115234375" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ELK RUN" Maxeqplen="30" Maxpeople="6" Site="SYLAELRU034" SiteId="2893" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="210.882965087891" mapy="582.345947265625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="FISHERMANS PARADISE" Maxeqplen="40" Maxpeople="6" Site="SYLAFIPA035" SiteId="2894" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="610.69580078125" mapy="588.177062988281" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="FISHERMANS PARADISE" Maxeqplen="40" Maxpeople="6" Site="SYLAFIPA036" SiteId="2895" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="630.508422851563" mapy="586.726135253906" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="FISHERMANS PARADISE" Maxeqplen="40" Maxpeople="6" Site="SYLAFIPA037" SiteId="2896" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="650.364624023438" mapy="586.377868652344" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="FISHERMANS PARADISE" Maxeqplen="40" Maxpeople="6" Site="SYLAFIPA038" SiteId="2897" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="670.271606445313" mapy="585.971618652344" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="FISHERMANS PARADISE" Maxeqplen="40" Maxpeople="6" Site="SYLAFIPA039" SiteId="2898" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="689.692443847656" mapy="583.700927734375" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="FISHERMANS PARADISE" Maxeqplen="40" Maxpeople="6" Site="SYLAFIPA040" SiteId="2899" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="708.968200683594" mapy="582.561950683594" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="FISHERMANS PARADISE" Maxeqplen="40" Maxpeople="6" Site="SYLAFIPA041" SiteId="2900" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="728.287536621094" mapy="580.334716796875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="FISHERMANS PARADISE" Maxeqplen="40" Maxpeople="6" Site="SYLAFIPA042" SiteId="2901" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="747.664855957031" mapy="579.152160644531" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="FISHERMANS PARADISE" Maxeqplen="40" Maxpeople="6" Site="SYLAFIPA043" SiteId="2902" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="767.035034179688" mapy="577.316772460938" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="FISHERMANS PARADISE" Maxeqplen="40" Maxpeople="6" Site="SYLAFIPA044" SiteId="2903" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="786.709777832031" mapy="575.524780273438" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="FISHERMANS PARADISE" Maxeqplen="40" Maxpeople="6" Site="SYLAFIPA045" SiteId="2904" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="806.268615722656" mapy="573.783752441406" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="FISHERMANS PARADISE" Maxeqplen="40" Maxpeople="6" Site="SYLAFIPA046HA" SiteId="2905" SiteReserveType="site-specific" SiteType="&gt; 40 FT. NON-ELEC BASIC" mapx="825.972290039063" mapy="572.782592773438" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:43:57 GMT
+recorded_with: VCR 2.5.0

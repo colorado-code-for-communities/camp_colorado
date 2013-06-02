@@ -1,0 +1,78 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=72182
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:28:37 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:28:37 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=6E9A895AF23A520171835C562887AA14.web05-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2645525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=6E9A895AF23A520171835C562887AA14.web05-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:28:37 GMT; Path=/
+      Content-Length:
+      - '5944'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Haviland Lake Campground is situated on its beautiful namesake within the San Juan National Forest, 18 miles north of Durango. Visitors enjoy the area for its canoeing, fishing and hiking opportunities in a scenic, natural setting. The popular campground is beautiful any time of the year." drivingDirection="From Durango, travel north on Highway 550 for 18 miles to Haviland Lake Road. Turn right onto Haviland Lake Road and continue a mile to the campground." facilitiesDescription="The campground offers single- and double-family sites, many of which have electric hookups. Picnic tables and campfire rings are provided, as are accessible vault toilets and drinking water." facility="HAVILAND LAKE CAMPGROUND" facilityID="72182" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=72182&amp;cmp=39-32--mcmire" importantInformation=" This facility has first-come, first-served campsites This is bear country; please practice safe food storage techniques Click here for more information on the San Juan National Forest " latitude="37.5347222" longitude="-107.8058333" nearbyAttrctionDescription="" note="" orientationDescription="The campground is situated on the shore of Haviland Lake, among shady, towering ponderosa pines, at an elevation of 8,705 feet. Many sites have lake views and easy shoreline access. Campers are awarded spectacular views of the Hermosa Cliffs across the lake." recreationDescription="Haviland Lake is an 80-acre, no-wake lake with excellent boating, canoeing and fishing opportunities. An accessible fishing dock is located on the lakeshore. Anglers cast for rainbow and brown trout. A Colorado Division of Wildlife fishing license is required to fish.      Several trailheads are in the vicinity. The Forebay Lake Trail begins in the campground and leads to small Forebay Lake, just over a mile east of the campground.       The historic Rico-to-Rockwood Wagon Road passes through Haviland and Chris Park. Built in the late 1800s, the road was used for six years until the railway opened." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=72182&amp;cmp=39-32--mcmire">
+        <address city="Durango" country="United States" shortName="HAVI" state="Colorado" streetAddress="Haviland Lake Road, San Juan NF" zip=""/>
+        <photo realUrl="/webphotos/NRSO/pid72182/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72182/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72182/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72182/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72182/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72182/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72182/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72182/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72182/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72182/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72182/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72182/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72182/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72182/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72182/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72182/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72182/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72182/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/72182_HAVI.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9708842512"/>
+        <contact name="Ranger Station" number="9708842512"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Canoeing"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Electric Hookups"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Lake Access"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Tables"/>
+        <amenity distance="Within Facility" name="Tent Pads"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Less Than 1 Mile" name="Accessible Fishing Dock"/>
+        <amenity distance="Less Than 1 Mile" name="Boat Ramp"/>
+        <amenity distance="Less Than 1 Mile" name="Boating"/>
+        <amenity distance="Less Than 1 Mile" name="Horseback Riding"/>
+        <amenity distance="Within 10 Miles" name="Fuel Available"/>
+        <amenity distance="Within 10 Miles" name="General Store"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:28:37 GMT
+recorded_with: VCR 2.5.0

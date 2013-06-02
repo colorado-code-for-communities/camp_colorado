@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70297
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:34:29 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:34:29 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=A3CD8326A212BE29464E7DA8092B0DAA.web05-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2645525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=A3CD8326A212BE29464E7DA8092B0DAA.web05-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:34:29 GMT; Path=/
+      Content-Length:
+      - '6929'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Named after the &amp;amp;quot;unsinkable&amp;amp;quot; Molly Brown on the Titanic, Molly Brown Campground, on the eastern shore of Turquoise Lake, sits in a shaded lodgepole pine forest. The campground is ideal for enjoying the popular recreation lake and offers access to boating, fishing, hiking and water skiing.     The famous Molly Brown lived in the town of Leadville, just 5 miles east of the campground. She became wealthy from her husband&amp;amp;#39;s mining success and took on a life as a philanthropist, socialite and activist." drivingDirection="From Leadville, Colorado, head west on County Road 4 and turn right on County Road 9. Follow signs to the Turquoise Lake Recreation Area." facilitiesDescription="The two-loop campground has private sites due to ample understory. Vault toilets are located throughout the campground and drinking water is available via a pressurized water system. Picnic tables and campfire rings with grates are at each campsite. Firewood is for sale at the host site." facility="MOLLY BROWN" facilityID="70297" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70297&amp;cmp=39-32--mcmire" importantInformation=" Be bear aware; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating This is a high elevation facility, please use caution when traveling from lower elevations Limit 2 vehicles per site; a $5 fee is charged for additional vehicles No firearms or fireworks allowed click here for more information on Pike and San Isabel National Forests " latitude="39.2663889" longitude="-106.3497222" nearbyAttrctionDescription="The town of Leadville, a historic gold and silver mining town, is a fun place to explore with the family.    Drive on the Top of the Rockies Scenic Byway to Independence Pass, one of the highest paved passes in Colorado. Continue over the pass to the town of Aspen, a well-known ski resort town." note="" orientationDescription="Campsites are perched along the scenic waters of the lake. Nearby is the Mount Massive Wilderness area, a 30,540 acre stretch of forest land which encompasses Colorado&amp;amp;iquest;s second highest peak, Mount Massive at 14,421 feet. Much of the wilderness is above timberline with many alpine plant communities and permanent snowfields." recreationDescription="The 1.2-mile Turquoise Lake Nature Trail is a gentle loop trail through the forest and down to the shoreline of Turquoise Lake. This trail connects to the 6.4 mile Turquoise Lake Trail that parallels the shoreline from the dam to May Queen Campground. It is recommended that hikers pick up a trail guide prior to departure to learn about the flora and fauna along this trail.     On the lake, sailing, boating and canoeing are always enjoyed. Anglers seek out mostly mackinaw and rainbow trout." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70297&amp;cmp=39-32--mcmire">
+        <address city="LEADVILLE" country="United States" shortName="MOLB" state="Colorado" streetAddress="LEADVILLE RANGER DISTRICT" zip="80461"/>
+        <photo realUrl="/webphotos/NRSO/pid70297/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70297/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70297/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70297/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70297/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70297/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70297/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70297/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70297/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70297/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70297/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70297/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70297/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70297/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70297/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70297/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70297/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70297/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70297_MOLB.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7194868262"/>
+        <contact name="Ranger Station" number="7194860749"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood Vendor"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Historic Sites"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Lake Access"/>
+        <amenity distance="Within Facility" name="Recycling"/>
+        <amenity distance="Within Facility" name="Self Pay Station"/>
+        <amenity distance="Within Facility" name="Swimming"/>
+        <amenity distance="Within Facility" name="Tables"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within 10 Miles" name="Boat Ramp"/>
+        <amenity distance="Within 10 Miles" name="Boat Rentals"/>
+        <bulletin description="Campgrounds, picnic areas, group facilities and boat ramps around Turquoise Lake will have water system and electric service improvement work beginning early May 2013 for approximately 5 weeks (weather permitting). Visitors may see and hear construction equipment (Mon-Thurs only). Every effort will be made to minimize impact on our visitors." headline="Please Advise"/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:34:29 GMT
+recorded_with: VCR 2.5.0

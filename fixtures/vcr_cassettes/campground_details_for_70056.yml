@@ -1,0 +1,77 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70056
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:39:22 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:39:22 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=F347C973E82F2EC75658BD766DDB701C.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=F347C973E82F2EC75658BD766DDB701C.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:39:22 GMT; Path=/
+      Content-Length:
+      - '5592'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Chris Park is located near Haviland Lake in southwestern Colorado, 18 miles north of Durango. Visitors enjoy the area for its hiking, canoeing and fishing opportunities." drivingDirection="From Durango, travel north on Highway 550 for about 18 miles to the campground. Turn at Haviland Lake sign, continue for a half-mile, then turn right at the intersection." facilitiesDescription="The campground offers three group sites. Sites 1 and 2 can accommodate up to 75 people each. Site 3 can accommodate up to 150 people, and includes a picnic shelter with electricity and grills. A volleyball court is located near this site as well. Picnic tables and campfire rings provided, as are vault toilets and drinking water." facility="CHRIS PARK" facilityID="70056" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70056&amp;cmp=39-32--mcmire" importantInformation=" Additional fees for additional people will be collected at the campground Click here for more information on the San Juan National Forest " latitude="37.5163889" longitude="-107.8" nearbyAttrctionDescription="Beautiful Haviland Lake is less than two miles from the campground. The 80-acre, no-wake lake offers boating, canoeing and fishing. Accessible fishing docks are located on the lakeshore." note="" orientationDescription="The campground is situated in a mostly flat, open area, shaded by scattered ponderosa pine trees. Haviland Lake is a short drive from the site." recreationDescription="Several trailheads are in the vicinity, including Forebay, Goulding, Elbert Creek and Purgatory Flats. The historic Rico-to-Rockwood Wagon Road passes through Chris Park. Built in the late 1800s, the road was used for six years until the railway opened." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70056&amp;cmp=39-32--mcmire">
+        <address city="Durango" country="United States" shortName="CHRI" state="Colorado" streetAddress="Chris Park Road, San Juan NF" zip=""/>
+        <photo realUrl="/webphotos/NRSO/pid70056/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70056/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70056/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70056/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70056/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70056/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70056/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70056/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70056/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70056/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70056/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70056/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70056/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70056/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70056/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70056/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70056/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70056/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70056_CHRI.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9058827557"/>
+        <contact name="Ranger Station" number="9708842512"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Group Camping"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseshoe Pit"/>
+        <amenity distance="Within Facility" name="Picnic Shelters"/>
+        <amenity distance="Within Facility" name="Tables"/>
+        <amenity distance="Within Facility" name="Volleyball Courts"/>
+        <amenity distance="Greater Than 1 Mile" name="Accessible Fishing Dock"/>
+        <amenity distance="Greater Than 1 Mile" name="Boat Ramp"/>
+        <amenity distance="Greater Than 1 Mile" name="Canoeing"/>
+        <amenity distance="Greater Than 1 Mile" name="Fishing"/>
+        <amenity distance="Within 10 Miles" name="Fuel Available"/>
+        <amenity distance="Within 10 Miles" name="General Store"/>
+        <amenity distance="Within 10 Miles" name="Lake Access"/>
+        <amenity distance="Within 10 Miles" name="Trailheads"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:03:48 GMT
+recorded_with: VCR 2.5.0

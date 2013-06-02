@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=79061
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:33:32 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:33:32 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=2F52D22F2DB361298D0F281DC0A3A1EA.web07-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2845525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=2F52D22F2DB361298D0F281DC0A3A1EA.web07-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:33:31 GMT; Path=/
+      Content-Length:
+      - '6235'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Mavreeso Campground is located on the West Dolores Road (Forest Road 535), which branches north from Colorado Highway 145 about 20 miles northeast of Dolores. It is a great place to relax and enjoy the outdoors by hiking, biking and fishing." drivingDirection="From Dolores, Colo., take State Route 145 north about 12 miles to West Dolores Road sign. Turn left onto Forest Road 535 and go just over six miles to the campground." facilitiesDescription="The campground offers single-family sites, a few of which have electric hookups. A group site can accommodate up to 40 people. Accessible picnic tables, campfire rings and grills are provided, as are vault toilets and drinking water." facility="MAVREESO CAMPGROUND" facilityID="79061" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=79061&amp;cmp=39-32--mcmire" importantInformation=" This facility has additional first-come, first-served sites Click here for more information on the San Juan National Forest This facility has first come first serve sites. Even if all reservable sites have been taken, it might be possible to acquire one of these sites on a walk in basis. " latitude="37.6511111" longitude="-108.2969444" nearbyAttrctionDescription="Southwestern Colorado, part of the Four Corners region, contains more than 4,000 archaeological sites and more than 600 cliff dwellings. Mesa Verde National Park is an hour and a half south of the campground, close enough for a day trip. Other sites within the region include the Anasazi Heritage Center in Dolores, Canyon of the Ancients and Hovenweep National Monument.    The historic mining town of Dunton Hot Springs is just 15 miles north of the campground. A resort there offers six hot springs pools ranging in temperatures from 85 through 106 degrees, dining, lodging, guided horseback rides, fly-fishing trips and hiking." note="" orientationDescription="The campground stretches along the banks of the West Dolores River, which has its headwaters in the nearby Lizard Head Wilderness. A shady forest of spruce, ponderosa pine and Douglas fir covers the campground. It is situated at an elevation of 7,600 feet." recreationDescription="The West Dolores River offers fishing for brown, rainbow, cutthroat and brook trout. A parking area is available for fisherman. Several parcels of private property are found along the river. Visitors are asked to stay on the trail and not trespass.     Mountain biking is allowed on Forest Roads 532 and 535. Forest Service Trail 624 begins two miles south of the campground." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=79061&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="MAVR" state="Colorado" streetAddress="SAN JUAN NF" zip=""/>
+        <photo realUrl="/webphotos/NRSO/pid79061/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid79061/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid79061/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid79061/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid79061/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid79061/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid79061/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid79061/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid79061/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid79061/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid79061/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid79061/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid79061/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid79061/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid79061/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid79061/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid79061/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid79061/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/79061_MAVR.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9708827296"/>
+        <contact name="Ranger Station" number=""/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Electric Hookups"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Group Camping"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="River Access"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Water Spigot"/>
+        <amenity distance="Greater Than 1 Mile" name="Biking"/>
+        <amenity distance="Greater Than 1 Mile" name="Scenic Drive"/>
+        <amenity distance="Within 10 Miles" name="Hiking"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:33:32 GMT
+recorded_with: VCR 2.5.0

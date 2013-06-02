@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50035&siteType=10001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:37:21 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:37:21 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=0C926596C3EF4131BB91F07EC5981C96.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=0C926596C3EF4131BB91F07EC5981C96.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:37:21 GMT; Path=/
+      Content-Length:
+      - '897'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="CO" count="2" parkId="50035" resultType="campsites" siteType="10001">
+        <result Loop="YURT" Maxeqplen="28" Maxpeople="6" Site="PELAUPLO006HA" SiteId="1764" SiteReserveType="site-specific" SiteType="PEARL LAKE YURT" mapx="721.306518554688" mapy="317.663299560547" sitePhoto="/webphotos//CO/pid50035/sid1764/0/180x120.jpg" sitesWithAmps="30" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="YURT" Maxeqplen="24" Maxpeople="6" Site="PELAUPLO016" SiteId="1774" SiteReserveType="site-specific" SiteType="PEARL LAKE YURT" mapx="688.768859863281" mapy="285.125640869141" sitePhoto="/webphotos//CO/pid50035/sid1774/0/180x120.jpg" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:37:21 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=72085
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:33:03 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:33:03 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=E4A6428F7EDAC74F8E6E1F44C54BDA90.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=E4A6428F7EDAC74F8E6E1F44C54BDA90.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:33:03 GMT; Path=/
+      Content-Length:
+      - '5673'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Manitou Lake Pavilion, located 7 miles north of Woodland Park, Colorado, is a wonderful group picnic area for groups up to 100 people. The scenic spot sits on the west end of Manitou Lake and provides great opportunities for hiking, biking and fishing.     The rustic log pavilion is open year-round and has two working fireplaces. Fishing in the lake is welcomed." drivingDirection="From Colorado Springs, travel on US Highway 24 approximately 18 miles to Woodland Park. Take Highway 67 north about 7 miles. Manitou Lake is on the right (east) side of the highway 1 mile north of Colorado Campground." facilitiesDescription="The pavilion is accessible and includes and includes two fireplaces. Adjacent to the pavilion are water hydrants, a large cooking grill, vault toilets, and group picnic tables. A grassy meadow allows for plenty of outdoor sports.    Drinking water is available during peak season only." facility="MANITOU LAKE PAVILION" facilityID="72085" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=72085&amp;cmp=39-32--mcmire" importantInformation=" Be bear aware; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating Day Use Only!! No overnight camping; pavilion opens at dawn and closes at dusk Vehicle fees are not included with day-use fee; there is a $6 fee for each vehicle and a $50 bus fee click here for more information on Pike and San Isabel National Forests " latitude="39.0883333" longitude="-105.0980556" nearbyAttrctionDescription="Hike to the top of Pikes Peak or visit Garden of the Gods Park, a registered National Natural Landmark. The park and visitor center are free to the public." note="" orientationDescription="The small Manitou Lake is a 5-acre reservoir fed by Trout Creek.  At a 7,700 foot elevation, the terrain is a combination of grassy meadows and ponderosa pines. Visitors can view Mt. Deception across the lake." recreationDescription="The paved Centennial Bike Trail can be accessed from the picnic area and a hiking trail loops around the lake. The trail connects to nearby Painted Rocks, Colorado, and South Meadows Campgrounds.     Manitou Lake is a popular birding area with a diversity of waterfowl and land bird species." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=72085&amp;cmp=39-32--mcmire">
+        <address city="Colorado Springs" country="United States" shortName="MNLP" state="Colorado" streetAddress="601 S. Weber" zip="80903"/>
+        <photo realUrl="/webphotos/NRSO/pid72085/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72085/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72085/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72085/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72085/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72085/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72085/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72085/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72085/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72085/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72085/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72085/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72085/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72085/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72085/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72085/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72085/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72085/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7196361602"/>
+        <contact name="Ranger Station" number="7196877818"/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Canoeing"/>
+        <amenity distance="Within Facility" name="Cross Country Skiing"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Kayaking"/>
+        <amenity distance="Within Facility" name="Picnic Shelters"/>
+        <amenity distance="Within Facility" name="Snowshoeing"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within 10 Miles" name="Church"/>
+        <amenity distance="Within 10 Miles" name="Hospital"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:33:03 GMT
+recorded_with: VCR 2.5.0

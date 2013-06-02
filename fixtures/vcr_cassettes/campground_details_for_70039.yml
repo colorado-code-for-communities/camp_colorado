@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70039
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:28:23 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:28:23 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=1013F491EAE644FA60B44FF3CC665FFB.web07-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2845525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=1013F491EAE644FA60B44FF3CC665FFB.web07-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:28:23 GMT; Path=/
+      Content-Length:
+      - '4142'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Hahns Peak Lake Campground lies on the shore of a small, scenic lake just 30 miles north of Steamboat Springs, Colorado. Families and outdoor enthusiasts love the abundant hiking, mountain biking and fishing opportunities.     With an elevation of 8,500 feet, the campground offers spectacular views of the forested lakeshore, picturesque mountain lake and the 10,774-foot Hahns Peak." drivingDirection="From Steamboat Springs, Colorado, take U.S. Highway 40 west for 1.2 miles and turn north onto County Road 129. Proceed for 28 miles, then take Forest Road 486 west for 2 miles to the campground." facilitiesDescription="Hahns Peak Lake Campground consists of 23 single unit campsites and three double sites for the larger groups. The facility is small but campsites are spacious and private." facility="HAHNS PEAK LAKE" facilityID="70039" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70039&amp;cmp=39-32--mcmire" importantInformation=" Campground may be subject to late opening of the reservation season due to heavy snow conditions; call 970-870-2299 for info This facility may stay open after Labor Day, weather dependent No vehicles may be left overnight at the boat dock This is a high elevation facility; please use caution when traveling from lower elevations Be bear aware; keep all food out of site in approved containers or locked inside your vehicle " latitude="40.8394444" longitude="-106.9897222" nearbyAttrctionDescription="Visitors might also enjoy stopping by Steamboat Lake State Park, only a short drive away, or going into the town of Steamboat Springs, Colorado.    Many more outdoor opportunities exist in the surrounding national forests and grasslands, including hiking, biking, camping, horseback and off-road vehicle riding, fishing, hunting, sightseeing and winter sports." note="" orientationDescription="The campground is situated in a spruce, pine and fir forest along the shore of the 160-acre Hahns Peak Lake in the Routt National Forest of north central Colorado. Lupine and other colorful wildflowers appear throughout the campground in warmer months.    The Medicine Bow-Routt National Forests and Thunder Basin National Grassland encompass nearly three million acres from central and northeastern Wyoming to north-central Colorado.    Black bear, bobcat, coyote, elk, mule deer and moose are just some of the many animals that inhabit these rich and diverse lands." recreationDescription="The lake provides trout fishing on or off shore, as well as boating for non-motorized or electric motor boats only.     Hiking, mountain biking and off-road vehicles can be enjoyed on most of the areas trails, including a popular biking loop on the Prospector Trail. The West Side Lake Trail winds for nearly a mile along the lake shore." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70039&amp;cmp=39-32--mcmire">
+        <address city="COLORADO" country="United States" shortName="HAHN" state="Colorado" streetAddress="MEDICINE BOW-ROUTT NF" zip=""/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9708702299"/>
+        <contact name="Ranger Station" number="9708702299"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Boat Ramp"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseback Riding Trails"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Trails"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:28:23 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,83 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=75096
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:41:12 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:41:12 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=193D36657A3C0903C9603792BEA0FD15.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=193D36657A3C0903C9603792BEA0FD15.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:41:12 GMT; Path=/
+      Content-Length:
+      - '7647'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Seedhouse Guard Station is located approximately 26 miles north of Steamboat Springs, Colorado. It was constructed in 1933 and offers a unique lodging opportunity for guests seeking recreation and relaxation in the Routt National Forest.    This historic cabin is available for rent in the fall and winter. Guests can drive directly to the cabin when the roads are clear; however, winter access is only  available by snowmobiling, cross-country skiing or snowshoeing over three miles from the end of the plowed road. The cabin offers some amenities, but guests need to pack in several of their own supplies." drivingDirection="The guard station is located about 26 miles north of Steamboat Springs, CO. From Steamboat Springs, take Highway 40 west and turn right on County Road 129. Head north on 129 (toward Clark) about 18 miles. One mile after Clark, take the first right after crossing the Elk River, Routt County Road 64, which is also Forest Service Road 400. Stay on this for 8 miles and the guard station is behind a locked gate, tucked in some trees on the left, across from the Seedhouse Campground. The last 3 miles is a dirt road and is not maintained in the winter.    Fall access to the guard station is over both paved and gravel/dirt roads. Road conditions are variable and 4-wheel drive vehicles are recommended.   Winter access to the guard station is by ski or snowmobile only. Parking is available at the end of county maintenance. The distance from a plowed road to the guard station is approximately 3.5 miles. The main road to the facility is a groomed snowmobile trail, but guests may have to break trail into the guard station." facilitiesDescription="The historic guard station is furnished with two sets of bunkbeds with mattresses and can accommodate up to four guests. Other amenities include a propane range,  refrigerator, lights, heater, table and chairs, cooking utensils and cookware.      A campfire ring and a picnic table are located outside, and firewood is supplied. An outhouse with vault toilet is nearby. Horses may be kept in the corral or in the  pasture; however, fencing is not provided. Hay must be certified weed-free.     Drinking water and electricity are not available. Guests must provide their own supply of water for cooking, cleaning and washing. In winter, there is a large pot  provided for melting snow.     Guests need to provide their own food, lanterns or flashlights, sleeping bags, pillows, towels, dish soap, matches, first aid kit, toilet paper and garbage bags. All  trash and food must be packed out, and guests are expected to clean the cabin before leaving." facility="SEEDHOUSE GUARD STATION" facilityID="75096" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=75096&amp;cmp=39-32--mcmire" importantInformation=" Water is not available at this facility Cell phone service is not available at this facility Please contact the Ranger District prior to arriving at the cabin to check on any restrictions or conditions, such as fire or road closures, weather or storms that may affect the quality of your visit Pets are not allowed at this facility All garbage and food must be packed out The cabin is a no-smoking facility Please clean cabin upon departure Bring topographic maps and winter survival gear when traveling in the area Please look for the combination to Seedhouse Guard Station in your confirmation letter Learn more about Medicine Bow-Routt National Forests " latitude="40.7751222" longitude="-106.7724111" nearbyAttrctionDescription="" note="" orientationDescription="The guard station is nestled beneath a canopy of fir and pine forest at an elevation of 8,000 feet along North Fork Elk Creek near the Middle Fork Elk River. Mount Zirkel Wilderness is nearby, one of the original areas protected under the 1964 Wilderness Act. The area boasts ecosystems ranging from sagebrush meadows in the lower areas to alpine tundra at high elevations.    Wildlife is abundant near the cabin, including elk, deer and coyote. Migratory birds, squirrels and an occasional black bear find habitat in the forest as well." recreationDescription="Trailheads leading to hiking and horseback riding trails are an easy drive from the guard station. The Continental Divide National Scenic Trail passes near the cabin through the Mt. Zirkel Wilderness.     Anglers can fish for trout in the Elk River.    In winter, the area is blanketed by snow for wintertime play. Snowmobiling, skiing and snowshoeing are popular activities. All motorized activity,  including snowmobiling, is prohibited in wilderness areas." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=75096&amp;cmp=39-32--mcmire">
+        <address city="CLARK" country="United States" shortName="SEDH" state="Colorado" streetAddress="400 SEEDHOUSE RD" zip="80487"/>
+        <photo realUrl="/webphotos/NRSO/pid75096/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid75096/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid75096/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid75096/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid75096/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid75096/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number=""/>
+        <contact name="Ranger Station" number=""/>
+        <amenity distance="Within Facility" name="Accessible Hiking Trails"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Bunkbed(s) With Mattresses"/>
+        <amenity distance="Within Facility" name="Cabin Rentals"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Climbing"/>
+        <amenity distance="Within Facility" name="Cooking Pots"/>
+        <amenity distance="Within Facility" name="Cooking Utensils"/>
+        <amenity distance="Within Facility" name="Cross Country Skiing"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horse Corrals"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Horseback Riding Trails"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Propane Heat"/>
+        <amenity distance="Within Facility" name="Propane Lights"/>
+        <amenity distance="Within Facility" name="Propane Oven"/>
+        <amenity distance="Within Facility" name="Propane Refrigerator"/>
+        <amenity distance="Within Facility" name="River Access"/>
+        <amenity distance="Within Facility" name="Snowmobile Trails"/>
+        <amenity distance="Within Facility" name="Snowshoeing"/>
+        <amenity distance="Within Facility" name="Table &amp;amp; Chairs"/>
+        <amenity distance="Within Facility" name="Trails"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:41:12 GMT
+recorded_with: VCR 2.5.0

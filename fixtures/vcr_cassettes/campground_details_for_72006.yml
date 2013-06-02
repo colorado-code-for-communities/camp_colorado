@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=72006
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:33:11 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:33:11 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=B07326F453D10F30356FB3CE9FC13610.web05-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2645525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=B07326F453D10F30356FB3CE9FC13610.web05-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:33:10 GMT; Path=/
+      Content-Length:
+      - '8295'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Reputed to be the most photographed mountains in Colorado, the spectacular Maroon Bells dominate this setting. Hemmed in by Maroon Lake, aspen groves and evergreen forests, Maroon Bells Amphitheatre is designed for interpretive talks, and is especially popular for recreational events and weddings.      The amphitheatre is available for use by the general public and can be reserved for private events. Receptions are not allowed at this location, but can be held at the nearby East Maroon Portal Picnic site." drivingDirection="Coming to Aspen via Independence Pass: Take Highway 82 West from downtown Aspen, 1 mile to the roundabout (rotary). From the roundabout, take Maroon Creek Road 4.7 miles to the Maroon Bells Visitor Center. Continue past the Visitor Center. The amphitheater is 4 miles beyond the Visitor Center at the end of the road. The Maroon Bells Amphitheater is approximately 9 miles from Highway 82 at the roundabout.   Coming to Aspen via Glenwood Springs: Take Highway 82 for 40 miles to the roundabout (rotary). From the roundabout, take Maroon Creek Road 4.7 miles to the Visitor Center. The amphitheater is 4 miles beyond the Visitor Center at the end of the road. The Maroon Bells Amphitheater is approximately 9 miles from Highway 82 at the roundabout." facilitiesDescription="Designed for interpretive programs, the amphitheatre can be reserved by the general public for private events. Receptions can be held at the nearby East Maroon Portal Picnic site. The small, developed area is situated near the shore of Maroon Lake and can accommodate up to 65 people for a maximum of 4 hours.     Parking is available at the day use parking area, 200 yards from the site. Accessible parking is available 50 yards away. Accessible vault toilets are available at this site; however, drinking water and electrical outlets are not.    Vehicle traffic is restricted on Maroon Creek Road from 9:00am until 5:00pm past the Maroon Bells Visitor Center. Individuals who reserve this site are issued 5 vehicle passes which allow travel in a motorized vehicle past this point. These passes may be picked up at the Visitor Center individually or all at once. Remind the attendant to radio an employee to assist with the set-up, if possible.     Vehicles may drive through the bus access gate double barricade, marked &amp;amp;quot;buses only,&amp;amp;quot; to unload. Please do not block bus traffic. Gate can be lifted by hand if it is closed. No vehicles can drive from the bus stop to the amphitheatre. Park all vehicles in the day use parking area downhill of the Maroon Plaza area. One vehicle may be parked on the south side of the bus turnaround loop.     Other options for access to the site include parking at Aspen Highlands Ski Area and shuttling guests in cars possessing vehicle permits, renting 1 or more high occupancy vehicle, or riding the Maroon Bells Shuttle Bus. Operating hours for the shuttle bus are 9:00 a.m. until 5:00 p.m. for a fee of $6.00 per adult, and $3.00 per child/senior.     Details of the recreation event or wedding must be disclosed and approved prior to day of the event. This includes items to be brought onto the site. Bird seed, confetti, electric music and public address systems prohibited at the site.     Guests are required to remove or dispose of decorations after events. Dumpsters are located in nearby campgrounds." facility="Maroon Bells Amphitheatre" facilityID="72006" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=72006&amp;cmp=39-32--mcmire" importantInformation=" No drinking water available at this site Visitor Center is open from 7 a.m. to 6 p.m. Check in at Visitor Center to confirm reservation for site Independence Pass (Highway 82) is normally open from Memorial Day through mid-October, weather dependent. If you are planning an event during these times, please call the Colorado Department of Transportation Hotline for road updates at (877) 315-7623. This area provides access to the Maroon Bells - Snowmass Wilderness area Camping overnight in wilderness areas requires registration Limited vehicle access to this site; shuttle bus service available For more information, call (970) 925-3445 or (970) 963-2266 Click here for more information about White River National Forest " latitude="39.0916667" longitude="-106.9416667" nearbyAttrctionDescription="" note="" orientationDescription="The Maroon Bells-Snowmass Wilderness is one of the 5 original Colorado wilderness areas designated by the 1964 Wilderness Act.  Its scenic value exudes from its aspen groves, meadows of wildflowers, and dark forests of spruce and fir that rise up from the valleys to alpine landscapes. Here,  bighorn sheep, pika, and ptarmigan find habitat above timberline.      Towering over glacial valleys at over 14,000 feet in elevation, the Maroon Bells are the most recognizable peaks in the Elk Mountains. The Maroon Bells are unique in the Rockies in that they are made up of metamorphic sedimentary mudstone that gives the peaks their maroon color and unstable nature for climbing." recreationDescription="For hikers and backpackers, the Maroon-Snowmass Trail epitomizes the Rocky Mountains of Colorado. Starting from the Snowmass Creek Trailhead, the trail winds through aspen groves, crosses streams, and switchbacks through forests. Climbing to alpine terrain, backpackers will find high mountain lakes and a smattering of wildflowers in early summer.     Designated camping sites are located at Crater Lake or Maroon Lake about 6 miles from the trailhead. Check regulations for camping in Colorado wilderness areas." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=72006&amp;cmp=39-32--mcmire">
+        <address city="Aspen" country="United States" shortName="MBSA" state="Colorado" streetAddress="806 W Hallam Street" zip="81611"/>
+        <photo realUrl="/webphotos/NRSO/pid72006/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72006/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72006/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72006/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72006/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72006/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72006/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72006/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72006/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9709453311"/>
+        <contact name="Ranger Station" number="9709253445"/>
+        <amenity distance="Within Facility" name="Accessible Parking"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Amphitheater"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Climbing"/>
+        <amenity distance="Within Facility" name="Educational Programs"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Lake Access"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Scenic Overlooks"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within 10 Miles" name="Fuel Available"/>
+        <amenity distance="Within 10 Miles" name="General Store"/>
+        <amenity distance="Within 10 Miles" name="Restaurant"/>
+        <amenity distance="Within 10 Miles" name="Shuttle Bus Service"/>
+        <amenity distance="Within 10 Miles" name="Visitor Center"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:33:11 GMT
+recorded_with: VCR 2.5.0

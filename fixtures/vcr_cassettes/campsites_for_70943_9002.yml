@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70943&siteType=9002
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:34:55 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:34:55 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=487E1FEAF979E50C0D40BCBED850120C.web04-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2745525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=487E1FEAF979E50C0D40BCBED850120C.web04-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:34:55 GMT; Path=/
+      Content-Length:
+      - '1097'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="3" parkId="70943" resultType="campsites" siteType="9002">
+        <result Loop="E Loop" Maxeqplen="0" Maxpeople="15" Site="EB" SiteId="278368" SiteReserveType="site-specific" SiteType="GROUP TENT ONLY AREA NONELECTRIC" mapx="821.89" mapy="484.48" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="E Loop" Maxeqplen="0" Maxpeople="30" Site="EE" SiteId="278371" SiteReserveType="site-specific" SiteType="GROUP TENT ONLY AREA NONELECTRIC" mapx="845.23" mapy="512.83" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="E Loop" Maxeqplen="0" Maxpeople="50" Site="EEH" SiteId="278419" SiteReserveType="site-specific" SiteType="GROUP TENT ONLY AREA NONELECTRIC" mapx="901.91" mapy="554.5" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:34:55 GMT
+recorded_with: VCR 2.5.0

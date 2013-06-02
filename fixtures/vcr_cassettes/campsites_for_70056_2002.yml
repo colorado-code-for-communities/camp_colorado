@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70056&siteType=2002
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:24:44 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:24:44 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=12FE9BD13E8F6ACAF2718715E39E3C96.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=12FE9BD13E8F6ACAF2718715E39E3C96.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:24:44 GMT; Path=/
+      Content-Length:
+      - '1206'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="3" parkId="70056" resultType="campsites" siteType="2002">
+        <result Loop="CHRI" Maxeqplen="40" Maxpeople="75" Site="1" SiteId="3298" SiteReserveType="site-specific" SiteType="GROUP STANDARD NONELECTRIC" mapx="247.66" mapy="608.43" sitePhoto="/webphotos//NRSO/pid70056/sid3298/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="CHRI" Maxeqplen="40" Maxpeople="75" Site="2" SiteId="3299" SiteReserveType="site-specific" SiteType="GROUP STANDARD NONELECTRIC" mapx="659.1" mapy="928.27" sitePhoto="/webphotos//NRSO/pid70056/sid3299/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="CHRI" Maxeqplen="40" Maxpeople="150" Site="3" SiteId="3300" SiteReserveType="site-specific" SiteType="GROUP SHELTER ELECTRIC" mapx="702.63" mapy="392.18" sitePhoto="/webphotos//NRSO/pid70056/sid3300/0/180x120.jpg" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:03:51 GMT
+recorded_with: VCR 2.5.0

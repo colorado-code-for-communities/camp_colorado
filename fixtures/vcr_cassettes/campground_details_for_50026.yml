@@ -1,0 +1,93 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50026
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:29:00 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:29:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=0B6396FB3139D8C383FBCB3FD849619D.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=0B6396FB3139D8C383FBCB3FD849619D.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:29:00 GMT; Path=/
+      Content-Length:
+      - '4383'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description="We are an ideal campground as a base camp for exploring the Grand Valley in the Grand Junction Area. Highline Lake State Park is a center for water sports as well as being a centeral location for the mountain biking areas nearby. We have 31 campsites to choose from, most with shade and plenty of grass. We have laundry/shower facilities, a dump station and plenty of water outlets; however, we do not have electrical outlets. Our campsites can accommodate both tents and RV&amp;amp;#39;s year round. We do recommend that visitor&amp;amp;#39;s make reservations if they plan on visiting us on a weekend between April through October." drivingDirection="I-70 to exit 15 (Loma/S Hwy 139). Go north approximately 6 miles to Q road turn left. Go approximately 1.2 miles to 11.8 Road, turn right. Go 1 mile to park entrance." facilitiesDescription="" facility="HIGHLINE LAKE STATE PARK" facilityID="50026" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50026&amp;cmp=39-32--mcmire" importantInformation="** In addition to the camping fee, an entrance fee is required at all state parks!** ***Be aware when making reservations that site numbers have changed. Check maps for the new site numbers.***" latitude="39.2758333" longitude="-108.8330556" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="Rocky Mountain Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50026&amp;cmp=39-32--mcmire">
+        <address city="LOMA" country="United States" shortName="HISR" state="Colorado" streetAddress="1800 11.8 ROAD" zip="81524"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="9708587208"/>
+        <contact name="Ranger Station" number="9708587208"/>
+        <amenity distance="Within Facility" name="ADA Access"/>
+        <amenity distance="Within Facility" name="ADA Fish. Access"/>
+        <amenity distance="Within Facility" name="Beach (Swimming)"/>
+        <amenity distance="Within Facility" name="Beach House"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Bird Watching"/>
+        <amenity distance="Within Facility" name="Boat Launch Ramp"/>
+        <amenity distance="Within Facility" name="Boat Ramp"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Camper Services Bldg"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Dumpster"/>
+        <amenity distance="Within Facility" name="Firewood Available"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Group Pavilions Available"/>
+        <amenity distance="Within Facility" name="Group Picnic Area"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Ice Fishing"/>
+        <amenity distance="Within Facility" name="Jet Ski Rental"/>
+        <amenity distance="Within Facility" name="Jet Skiing"/>
+        <amenity distance="Within Facility" name="Laundry"/>
+        <amenity distance="Within Facility" name="Laundry Facilities"/>
+        <amenity distance="Within Facility" name="Natural Shade"/>
+        <amenity distance="Within Facility" name="Nature Study Exhibits"/>
+        <amenity distance="Within Facility" name="Parking"/>
+        <amenity distance="Within Facility" name="Pay Phones Available"/>
+        <amenity distance="Within Facility" name="Photography"/>
+        <amenity distance="Within Facility" name="Picnic Shelter"/>
+        <amenity distance="Within Facility" name="Picnicking"/>
+        <amenity distance="Within Facility" name="Playground"/>
+        <amenity distance="Within Facility" name="Proximity To Camp Serv."/>
+        <amenity distance="Within Facility" name="Ranger Station"/>
+        <amenity distance="Within Facility" name="Sailing And Sailboarding"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Snack Br Concession"/>
+        <amenity distance="Within Facility" name="Swimming"/>
+        <amenity distance="Within Facility" name="Water Skiing"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within Facility" name="Wildlife Watching Opportunity"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:29:00 GMT
+recorded_with: VCR 2.5.0

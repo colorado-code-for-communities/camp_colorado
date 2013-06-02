@@ -1,0 +1,95 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50028
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:29:58 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:29:58 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=B9674CB834AB7C2396A917F2A2C8C169.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=B9674CB834AB7C2396A917F2A2C8C169.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:29:58 GMT; Path=/
+      Content-Length:
+      - '7116'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description="  Handicap site #35 is only reservable through the call center.  This site requires a handicap sticker, plate or placard.    ***Jackson Lake is well known for its wonderful campgrounds and excellent water sports on a wide-open high-plains reservoir. There&amp;amp;#39;s plenty of room for everyone on this large body of water - sailboats, motorboats, personal watercraft - as well as the beautiful waterfowl and wildlife that call this area home. ***Jackson Lake has 260 campsites, most of which accommodate campers, trailers or tents. ***Shade may be naturally provided by trees and other vegetation or by man-made shelter. Please call the Park for specific details. ***Jackson Lake State Park also offers a group picnic area (complete with picnic pavilion) and a group campground. Call Park for details at 1.970.645.2551." drivingDirection="From the US 34/I-76 Interchange, take CO 39 north 7 1/4 miles through Goodrich to T-intersection. Turn left (west) on County Road Y.5. Stay on County Road Y.5. (It will turn north after a couple of miles.) This will take you past the south side and into the main park area on the west." facilitiesDescription="" facility="JACKSON LAKE State Park" facilityID="50028" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50028&amp;cmp=39-32--mcmire" importantInformation="***RESTRICTION: Upon arrival at your reserved site, there will be NO TRANSFERS to another site.***Jackson Lake State Park is open year-round to camping. Reservations are strongly advised on weekends from Memorial Day through Labor Day. Reservations are accepted on-line or by calling the Reservation Center at 1.800.678.2267 (metro area residents may call 1.303.470.1144). Jackson Lake State Park offers camping year-round in Pelican and Northview campgrounds. (All other campgrounds are closed for the winter.) Electricity, showers, and water hydrants are available. ***In addition to the camping fee, an entrance fee is required at all Colorado State Parks. ****All campsites are electric, with the exception of Foxhills Campground and tent sites #49-#52 in Lakeside Campground and tent sites #1-#4 in Pelican Campground. +++If you are attempting to reserve a site within 72 hours of your arrival, you will receive message: Campground Full -- which may not be the case. Please call the park at 1(970)645-2551 to verify. There is a strong possibility there will be sites available for first-come, first-served. NOTE: For up-to-date conditions which include water level, camping, etc., please access Jackson Lake&amp;apos;s website at www.parks.state.co.us, select JACKSON LAKE from the &amp;amp;quot;Park Quickfind&amp;amp;quot; drop-down menu. Then click on the CONDITIONS link." latitude="40.3813889" longitude="-104.0969444" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="High Plains Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50028&amp;cmp=39-32--mcmire">
+        <address city="ORCHARD" country="United States" shortName="JALA" state="Colorado" streetAddress="26363 COUNTY RD. 3" zip="80649"/>
+        <photo realUrl="/webphotos/CO/pid50028/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50028/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50028/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50028/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50028/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50028/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50028/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50028/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50028/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50028/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50028/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50028/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="9706452551"/>
+        <contact name="Ranger Station" number="9706452551"/>
+        <amenity distance="Within Facility" name="Beach (Swimming)"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Bird Watching"/>
+        <amenity distance="Within Facility" name="Boat Launch Ramp"/>
+        <amenity distance="Within Facility" name="Boat Ramp"/>
+        <amenity distance="Within Facility" name="Boat Rental"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Camper Services Bldg"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Firewood Available"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Fishing Licenses Sold"/>
+        <amenity distance="Within Facility" name="Group Campground"/>
+        <amenity distance="Within Facility" name="Group Pavilions Available"/>
+        <amenity distance="Within Facility" name="Group Picnic Area"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Ice Fishing"/>
+        <amenity distance="Within Facility" name="Interpretitive Programs"/>
+        <amenity distance="Within Facility" name="Jet Ski Rental"/>
+        <amenity distance="Within Facility" name="Jet Skiing"/>
+        <amenity distance="Within Facility" name="Laundry Facilities"/>
+        <amenity distance="Within Facility" name="Marina"/>
+        <amenity distance="Within Facility" name="Parking"/>
+        <amenity distance="Within Facility" name="Pay Phones Available"/>
+        <amenity distance="Within Facility" name="Photography"/>
+        <amenity distance="Within Facility" name="Picnic Tables"/>
+        <amenity distance="Within Facility" name="Picnicking"/>
+        <amenity distance="Within Facility" name="Proximity To Camp Serv."/>
+        <amenity distance="Within Facility" name="Ranger Station"/>
+        <amenity distance="Within Facility" name="Sailing And Sailboarding"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Skating"/>
+        <amenity distance="Within Facility" name="Snack Br Concession"/>
+        <amenity distance="Within Facility" name="Swimming"/>
+        <amenity distance="Within Facility" name="Swimming - Lake"/>
+        <amenity distance="Within Facility" name="Toilet, Pit/Vault"/>
+        <amenity distance="Within Facility" name="Visitor Center"/>
+        <amenity distance="Within Facility" name="Water Skiing"/>
+        <amenity distance="Within Facility" name="Wildlife Watching Opportunity"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:29:58 GMT
+recorded_with: VCR 2.5.0

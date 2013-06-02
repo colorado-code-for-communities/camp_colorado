@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73543&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:35:46 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:35:46 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=A87524EFE34C4AA15A58E85BFE6B4410.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=A87524EFE34C4AA15A58E85BFE6B4410.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:35:46 GMT; Path=/
+      Content-Length:
+      - '3030'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="9" parkId="73543" resultType="campsites" siteType="2001">
+        <result Loop="ASPEN" Maxeqplen="30" Maxpeople="8" Site="001" SiteId="129152" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="316.747344970703" mapy="408.233459472656" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ASPEN" Maxeqplen="20" Maxpeople="8" Site="002" SiteId="129153" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="361.045166015625" mapy="533.228515625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ASPEN" Maxeqplen="20" Maxpeople="8" Site="003" SiteId="129154" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="455.880767822266" mapy="537.468139648438" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ASPEN" Maxeqplen="30" Maxpeople="8" Site="004" SiteId="129155" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="456.160614013672" mapy="607.982116699219" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ASPEN" Maxeqplen="25" Maxpeople="8" Site="005" SiteId="129156" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="501.18212890625" mapy="631.01611328125" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ASPEN" Maxeqplen="20" Maxpeople="8" Site="006" SiteId="129157" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="610.747375488281" mapy="627.363891601563" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ASPEN" Maxeqplen="25" Maxpeople="8" Site="008" SiteId="129159" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="643.086242675781" mapy="463.952941894531" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ASPEN" Maxeqplen="30" Maxpeople="8" Site="009" SiteId="129160" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="517.437072753906" mapy="449.058135986328" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ASPEN" Maxeqplen="25" Maxpeople="8" Site="011" SiteId="129162" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="415.356079101563" mapy="380.842163085938" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:00:22 GMT
+recorded_with: VCR 2.5.0

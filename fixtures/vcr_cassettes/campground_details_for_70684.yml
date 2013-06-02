@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70684
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:24:50 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:24:50 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=ECB57FE3A187B26CFAB2DBDDB1E2D800.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=ECB57FE3A187B26CFAB2DBDDB1E2D800.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:24:49 GMT; Path=/
+      Content-Length:
+      - '6756'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Colorado Campground is a favorite family destination near Manitou Lake and north of the town of Woodland Park. A short trail leads to the lovely lake, where visitors enjoy fishing, bird watching and canoeing." drivingDirection="From the I-25 and Highway 24 intersection in Colorado Springs, travel west on Highway 24 for about 18 miles to the intersection with Highway 67 in Woodland Park. Turn right (north) on Highway 67 and drive about 6.7 miles to Colorado Campground. The campground is on the right side of the road." facilitiesDescription="The campground offers single and double-family campsites. Picnic tables and campfire rings are provided, as are vault toilets, drinking water and trash collection. Parking spurs are gravel.     Campfire programs are held at the campground&amp;amp;#39;s amphitheater on Saturday evenings." facility="COLORADO CAMPGROUND" facilityID="70684" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70684&amp;cmp=39-32--mcmire" importantInformation=" Thunderstorms are common; take extra precautions for lightning Be bear aware; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating This is a high elevation facility; please use caution when traveling from lower elevations A $5 nightly extra vehicle fee will be collected for single sites with than 1 vehicle This facility has first-come, first-served sites No hookups available No horses allowed Click here for more information on Pike and San Isabel National Forests " latitude="39.0797222" longitude="-105.0933333" nearbyAttrctionDescription="Colorado Springs is about 25 miles southeast of the campground and offers many services. Garden of the Gods is a popular attraction just outside of town. This free park offers hiking trails, rock climbing routes, a visitor center and cafe.    Pikes Peak lies west of Manitou Springs, which is about 20 miles from the campground. Visitors can hike, drive or ride a historic cog railway to the summit of this beautiful mountain.    The town of Woodland Park, located 6 miles south of Colorado Campground, offers gas, groceries, dining and shopping." note="" orientationDescription="The campground is situated at 7,800 feet in a ponderosa pine forest near the 5-acre Manitou Lake. The campground lies in the Front Range of the Rocky Mountains, due north of Pikes Peak. Pikes Peak summit reaches an elevation of 14,115 feet and is America&amp;amp;#39;s easternmost peak over 14,000 feet." recreationDescription="Manitou Lake offers trout fishing and lakeside picnicking. Canoeing on the small lake is also a popular activity.    The Centennial Bike Trail, a paved, accessible recreation trail, connects Colorado Campground to Manitou Lake and South Meadows Campground. The trail is popular among hikers, roller bladers and bicyclists. The nearby Rainbow Falls OHV Trail System and North Divide OHV Trail System are recommended for off-road vehicle enthusiasts." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70684&amp;cmp=39-32--mcmire">
+        <address city="WOODLAND PARK" country="United States" shortName="COLO" state="Colorado" streetAddress="PIKE NATIONAL FOREST" zip="80866"/>
+        <photo realUrl="/webphotos/NRSO/pid70684/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70684/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70684/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70684/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70684/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70684/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70684/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70684/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70684/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70684/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70684/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70684/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70684/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70684/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70684/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70684/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70684/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70684/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70684_COLO.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7196877818"/>
+        <contact name="Ranger Station" number="7196361602"/>
+        <amenity distance="Within Facility" name="Amphitheater"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood Vendor"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Paved Roads"/>
+        <amenity distance="Within Facility" name="Self Pay Station"/>
+        <amenity distance="Within Facility" name="Shade"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Water"/>
+        <amenity distance="Less Than 1 Mile" name="Canoeing"/>
+        <amenity distance="Less Than 1 Mile" name="Fishing"/>
+        <amenity distance="Less Than 1 Mile" name="Lake Access"/>
+        <amenity distance="Within 10 Miles" name="Hiking"/>
+        <amenity distance="Within 10 Miles" name="Mountain Biking"/>
+        <amenity distance="Within 10 Miles" name="Off-Road Vehicle Trails"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:04:13 GMT
+recorded_with: VCR 2.5.0

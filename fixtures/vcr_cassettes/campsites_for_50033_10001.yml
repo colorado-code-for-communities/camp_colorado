@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50033&siteType=10001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:35:30 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:35:30 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=26F79F0BA55BD93C28DFF3DDE004173C.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=26F79F0BA55BD93C28DFF3DDE004173C.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:35:30 GMT; Path=/
+      Content-Length:
+      - '1150'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="CO" count="3" parkId="50033" resultType="campsites" siteType="10001">
+        <result Loop="CABN CABIN" Maxeqplen="20" Maxpeople="6" Site="NAVACABN028" SiteId="1684" SiteReserveType="site-specific" SiteType="PREMIUM SMALL CABIN" mapx="512.965454101563" mapy="632.83837890625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="CABN CABIN" Maxeqplen="20" Maxpeople="6" Site="NAVACABN030" SiteId="1686" SiteReserveType="site-specific" SiteType="PREMIUM SMALL CABIN" mapx="520.75537109375" mapy="616.950073242188" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="CABN CABIN" Maxeqplen="20" Maxpeople="6" Site="NAVACABN031HA" SiteId="1687" SiteReserveType="site-specific" SiteType="PREMIUM SMALL CABIN" mapx="510.410217285156" mapy="614.288757324219" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:35:30 GMT
+recorded_with: VCR 2.5.0

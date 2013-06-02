@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73865&siteType=10001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:34:09 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:34:09 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=F9D10D927F4FA2C9C3821CD28F15F01C.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=F9D10D927F4FA2C9C3821CD28F15F01C.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:34:09 GMT; Path=/
+      Content-Length:
+      - '475'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="1" parkId="73865" resultType="campsites" siteType="10001">
+        <result Loop="MINR" Maxeqplen="0" Maxpeople="7" Site="01" SiteId="137662" SiteReserveType="site-specific" SiteType="CABIN ELECTRIC" mapx="650.249694824219" mapy="861.132751464844" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:34:09 GMT
+recorded_with: VCR 2.5.0

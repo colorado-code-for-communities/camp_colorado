@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=KOA&parkId=190163
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:16:12 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:16:12 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=C6711307500767F1C35C311473C36AC0.web03-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2445525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=C6711307500767F1C35C311473C36AC0.web03-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:16:12 GMT; Path=/
+      Content-Length:
+      - '4695'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="KOA" description="The Fort Collins N/Wellington KOA welcomes you to the best in Colorado camping! Our campground is a quiet retreat from the traffic on I-25, yet offers easy on- and off-freeway access. Rest &amp;amp; relax with us, while you enjoy our fantastic views of the Front Range of the Rocky Mountains.  With 80-foot pull-throughs and 50-amp service available on some sites, this Fort Collins campground is truly &amp;quot;Big Rig Friendly&amp;quot;! No RV? Enjoy a cozy stay in one of our comfortable camping cabins. If you&amp;amp;#39;re tired of restaurants, you can prepare your meal in our Camping Kitchen. We pride ourselves in providing our guests a comfortable and fun camping stay.  When you&amp;amp;#39;re ready to explore our area, &amp;quot;College Town&amp;quot; Fort Collins and &amp;quot;Cowpoke Town&amp;quot; Cheyenne, WY are both close enough to visit in the same day. Browse the shops, galleries and restaurants in Fort Collins&amp;amp;#39; Old Town and tour the massive Budweiser plant. Cheyenne hosts Frontier Days every year in late July, and you always can visit the Frontier Days Old West Museum and Store. We&amp;amp;#39;re a short drive from the Outlet Mall at Loveland, and less than an hour from the Mile High Flea Market- one of the biggest in the country!  Bring your own horse and exercise it in our campground corral and pasture. There&amp;amp;#39;s a large pet walk, playground and pool to exercise the rest of the family, too. You can relax in our Rec room with cable TV, gather a group at the pavilion, or boat and picnic at Horsetooth Reservoir, hidden behind the bluffs overlooking Fort Collins.  Come and visit us. You&amp;amp;#39;ll love our wide-open spaces and friendly faces!" drivingDirection="Off I-25 at Exit 281, Owl Canyon Road." facilitiesDescription="" facility="Fort Collins North / Wellington KOA" facilityID="190163" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=KOA&amp;parkId=190163&amp;cmp=39-32--mcmire" importantInformation="" latitude="40.755" longitude="-104.9852778" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="KOA Region" reservationUrl="/campsiteSearch.do?contractCode=KOA&amp;parkId=190163&amp;cmp=39-32--mcmire">
+        <address city="Wellington" country="United States" shortName="A163" state="Colorado" streetAddress="4821 E. County Road 70, PO Box 130" zip="80549"/>
+        <photo realUrl="/webphotos/KOA/pid190163/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190163/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190163/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190163/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190163/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190163/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190163/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190163/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190163/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190163/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190163/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190163/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190163/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190163/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190163/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190163/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190163/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190163/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number=""/>
+        <contact name="Ranger Station" number="9705687486"/>
+        <amenity distance="" name=""/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:16:12 GMT
+recorded_with: VCR 2.5.0

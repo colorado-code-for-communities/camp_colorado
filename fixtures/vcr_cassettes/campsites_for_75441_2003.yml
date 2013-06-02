@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=75441&siteType=2003
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:14:20 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:14:20 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=13304D2E190A794B943077A1CB920400.web08-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2b45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=13304D2E190A794B943077A1CB920400.web08-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:14:20 GMT; Path=/
+      Content-Length:
+      - '4632'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="14" parkId="75441" resultType="campsites" siteType="2003">
+        <result Loop="DUMONT" Maxeqplen="0" Maxpeople="10" Site="004" SiteId="149236" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="971.765991210938" mapy="536.440002441406" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DUMONT" Maxeqplen="0" Maxpeople="10" Site="008" SiteId="149240" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="562.739990234375" mapy="190.820007324219" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DUMONT" Maxeqplen="0" Maxpeople="10" Site="009" SiteId="149241" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="329.820007324219" mapy="115.690002441406" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DUMONT" Maxeqplen="0" Maxpeople="10" Site="010" SiteId="149242" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="307.280883789063" mapy="78.1216430664063" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DUMONT" Maxeqplen="0" Maxpeople="10" Site="011" SiteId="149243" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="132.589996337891" mapy="136.350006103516" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DUMONT" Maxeqplen="0" Maxpeople="10" Site="012" SiteId="149244" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="142.179992675781" mapy="202.990005493164" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DUMONT" Maxeqplen="0" Maxpeople="10" Site="013" SiteId="149245" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="117.567092895508" mapy="183.309494018555" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DUMONT" Maxeqplen="0" Maxpeople="10" Site="016" SiteId="149248" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="350.480010986328" mapy="264.079986572266" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DUMONT" Maxeqplen="0" Maxpeople="10" Site="017" SiteId="149249" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="265.957061767578" mapy="149.499099731445" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DUMONT" Maxeqplen="0" Maxpeople="10" Site="018" SiteId="149250" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="299.767456054688" mapy="442.522369384766" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DUMONT" Maxeqplen="0" Maxpeople="10" Site="019" SiteId="149251" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="455.670013427734" mapy="448.160003662109" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DUMONT" Maxeqplen="0" Maxpeople="10" Site="020" SiteId="149252" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="604.059997558594" mapy="358" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DUMONT" Maxeqplen="0" Maxpeople="10" Site="021" SiteId="149253" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="568.369995117188" mapy="262.200012207031" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DUMONT" Maxeqplen="0" Maxpeople="10" Site="022" SiteId="149254" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="722.400024414063" mapy="311.040008544922" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:14:20 GMT
+recorded_with: VCR 2.5.0

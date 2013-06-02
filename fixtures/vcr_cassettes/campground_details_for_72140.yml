@@ -1,0 +1,80 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=72140
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:43:33 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:43:33 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=B33878DEE76FF95F044CAA9BFCBD42A3.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=B33878DEE76FF95F044CAA9BFCBD42A3.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:43:33 GMT; Path=/
+      Content-Length:
+      - '8188'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Stone Cellar Guard Station is a remote cabin located at an elevation of 9,500 feet, just outside the boundary of La Garita Wilderness in Saguache Park in the Rio Grande National Forest.     The cabin is a secluded getaway for guests seeking relaxation and recreation in south-central Colorado." drivingDirection="From Saguache, take Colorado Hwy 114, 34 miles northwest from Saguache, over North Pass. Take FR#804 south 4 miles to junction, east 1 mile to FR #787, then 21 miles south to the cabin." facilitiesDescription="Stone Cellar Guard Station is a log structure furnished with four bunk beds, with twin beds on the top and fold-out full beds on the bottom, accommodating up to 12 people. The cabin has stove, refrigerator and heater, all powered with propane. The living area has a table and chairs, couch and other furniture. The kitchen is equipped with some cooking utensils and some pots and pans.  A picnic table, a fire pit and a outdoor vault toilet are also on-site.     There is no electricity at the guard station, however water is available by an outside hand pump. Water is also available at the Saguache Field Office/Ranger District year-round.        Although the cabin has some amenities, guests do need to provide their own food, sleeping bags, linens, towels, dish soap, matches, cooking gear, first aid kit, toilet paper and garbage bags.It is recommended that guests bring an additional light source in case of emergencies.     Stone Cellar Campground is located approximately about a half-mile from the guard station." facility="STONE CELLAR GUARD STATION" facilityID="72140" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=72140&amp;cmp=39-32--mcmire" importantInformation=" No cell phone service available at this facility Entry to the cabin is by combination lock, which is provided in the confirmation letter or email which is sent after a reservation is made. Please contact the Saguache Ranger District prior to arriving at the cabin to check on any restrictions or conditions, such as fire or road closures, weather or storms that may affect the quality of your visit Do not leave food or trash outside the guard station; there are bears in the area All garbage and food must be packed out; do not burn garbage in the fire pit or wood stove The guard station is a no-smoking facility Please clean guard station upon departure Make sure guard station and gate is locked upon departure Livestock not allowed at the facility Pets are allowed at the facility, but must be under control at all times; they must not harass wildlife or livestock Drink plenty of water before arrival and during your stay to avoid altitude sickness There is no electricity at the guard station. Water is available at the guard station by outside hand pump. Water is available at the Saguache Field Office/Ranger District year-round. All cabins are administratively used on occasion. You may encounter agency stock horses during your stay. DO NOT feed or try to ride the animals. During the winter you may need to snowmobile, snowshoe or ski to access the cabin. Expect afternoon thunderstorms in the summer and below freezing temperatures in the spring, winter and fall Travel maps for the Rio Grande National Forest can be obtained by calling the Forest Service Office in Saguache at (719) 655-2547 or the Forest Service Office in Monte Vista at (719) 852-5941 Learn more about the Rio Grande National Forest " latitude="38.0191667" longitude="-106.6813889" nearbyAttrctionDescription="Visitors may want to take a day to visit Bonanza, a historical silver mining town that was booming in the 1880s. Today visitors to Bonanza can see old mines, historical buildings and old time mining equipment as they follow the Bonanza Mines Off-Highway Vehicle Tour. Maps for the tour are available at the Saguache Ranger Station." note="" orientationDescription="Situated in an expansive inter-mountain grassland and located close to the Continental Divide, this cabin offers guests seeking solitude and seclusion an opportunity to experience wilderness at its best.      About 35 miles of the Continental Divide lie well above timberline in the La Garita Wilderness, adjacent to the guard station. This area provides ideal habitats for large herds of elk and mule deer, and on the southern slopes lies an ancient forest of towering spruce and fir. It is a landscape of rushing streams, broad and gentle alpine meadows, beaver ponds, long talus slopes and mountain beauty." recreationDescription="The area offers many opportunities for hiking in summer, hunting in the fall and cross country skiing and snowmobiling in the winter.    The cabin is located in a meadow with Saguache Creek flowing through it, affording visitors excellent fishing for rainbow, cutthroat, brown and brook trout right out the back door.      The cabin is adjacent to a working cow camp, where guests can witness real cowboys at work during the summer months. In the fall, this cabin makes an excellent big game hunting camp." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=72140&amp;cmp=39-32--mcmire">
+        <address city="Saguache" country="United States" shortName="STNS" state="Colorado" streetAddress="46525 ST HWY 114" zip="81149"/>
+        <photo realUrl="/webphotos/NRSO/pid72140/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72140/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72140/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72140/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72140/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72140/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72140/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72140/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72140/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7196552547"/>
+        <contact name="Ranger Station" number="7196552547"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Bunkbed(s) With Mattresses"/>
+        <amenity distance="Within Facility" name="Campfire Ring"/>
+        <amenity distance="Within Facility" name="Cooking Pots"/>
+        <amenity distance="Within Facility" name="Cooking Utensils"/>
+        <amenity distance="Within Facility" name="Couch"/>
+        <amenity distance="Within Facility" name="Cross Country Skiing"/>
+        <amenity distance="Within Facility" name="Drinking Water (Hand Pump)"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Heater"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Propane Refrigerator"/>
+        <amenity distance="Within Facility" name="Propane Stove"/>
+        <amenity distance="Within Facility" name="River Access"/>
+        <amenity distance="Within Facility" name="Snowmobiling"/>
+        <amenity distance="Within Facility" name="Stargazing"/>
+        <amenity distance="Within Facility" name="Table &amp;amp; Chairs"/>
+        <amenity distance="Within Facility" name="Vault Toilet"/>
+        <amenity distance="Within Facility" name="Water (Seasonal)"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within 10 Miles" name="Camping"/>
+        <amenity distance="Within 10 Miles" name="Equestrian Sites"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:43:33 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,82 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50069
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:30:06 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:30:06 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=56D2D06F9BE7749795E72A941516B7B3.web07-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2845525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=56D2D06F9BE7749795E72A941516B7B3.web07-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:30:06 GMT; Path=/
+      Content-Length:
+      - '3908'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description="The Fruita section of the Colorado River State is the newest addition to this park. There are 63 campsites which include 22 full hookups, 22 electric sites, 13 tent sites and a group camping area. Opportunities abound for fishing, picnicking, camping, wildlife watching and sightseeing along the Colorado River near the base of the Colorado National Monument. The campground is open year-round and is available on the reservation system from March 1st through October 31st. A camper services building is centrally located with coin operated showers and a laundry facility." drivingDirection="Take I-70 to exit 19, go south on CO340 approximately 4/10 of a mile to the park entrance. Colorado River - Fruita 595 HIGHWAY 340 FRUITA CO 81521For more information about the park, please call (970)858-9188" facilitiesDescription="" facility="JAMES M. ROBB-COLORADO RIVER STATE PARK - FRUITA SECTION" facilityID="50069" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50069&amp;cmp=39-32--mcmire" importantInformation=" The swim beach is closed. All State Parks require an entrance fee in addition to the camping fee. All camping facilities and the camper services building is open. Park offers clean flush restroom facilities. The maximum 14-day rule is strictly enforced. No exceptions! Camper Services Building is closed by mid-November through mid-March, weather depending." latitude="39.1488889" longitude="-108.7252778" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="Rocky Mountain Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50069&amp;cmp=39-32--mcmire">
+        <address city="FRUITA" country="United States" shortName="FRUI" state="Colorado" streetAddress="595 HIGHWAY 340" zip="81521"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="9708589188"/>
+        <contact name="Ranger Station" number="9708589188"/>
+        <amenity distance="Within Facility" name="Beach (Swimming)"/>
+        <amenity distance="Within Facility" name="Beach House"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Bird Watching"/>
+        <amenity distance="Within Facility" name="Boat Launch Ramp"/>
+        <amenity distance="Within Facility" name="Boat Ramp"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Camper Services Bldg"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Firewood Available"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Group Campground"/>
+        <amenity distance="Within Facility" name="Group Picnic Area"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Interpretitive Programs"/>
+        <amenity distance="Within Facility" name="Laundry Facilities"/>
+        <amenity distance="Within Facility" name="Parking"/>
+        <amenity distance="Within Facility" name="Pay Phones Available"/>
+        <amenity distance="Within Facility" name="Photography"/>
+        <amenity distance="Within Facility" name="Picnic Tables"/>
+        <amenity distance="Within Facility" name="Picnicking"/>
+        <amenity distance="Within Facility" name="Playground"/>
+        <amenity distance="Within Facility" name="Playground"/>
+        <amenity distance="Within Facility" name="Ranger Station"/>
+        <amenity distance="Within Facility" name="Sailing And Sailboarding"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Swimming"/>
+        <amenity distance="Within Facility" name="Visitor Center"/>
+        <amenity distance="Within Facility" name="Wildlife Watching Opportunity"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:30:06 GMT
+recorded_with: VCR 2.5.0

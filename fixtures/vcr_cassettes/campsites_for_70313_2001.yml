@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70313&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:38:38 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:38:38 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=6126C8816285CDEC1B63D36D269C3D76.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=6126C8816285CDEC1B63D36D269C3D76.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:38:38 GMT; Path=/
+      Content-Length:
+      - '1584'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="4" parkId="70313" resultType="campsites" siteType="2001">
+        <result Loop="GRP2" Maxeqplen="40" Maxpeople="35" Site="GR2" SiteId="3162" SiteReserveType="site-specific" SiteType="GROUP STANDARD NONELECTRIC" mapx="738.88" mapy="344.37" sitePhoto="/webphotos//NRSO/pid70313/sid3162/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GRP3" Maxeqplen="40" Maxpeople="35" Site="GR3" SiteId="3163" SiteReserveType="site-specific" SiteType="GROUP STANDARD NONELECTRIC" mapx="546.998168945313" mapy="31.4236583709717" sitePhoto="/webphotos//NRSO/pid70313/sid3163/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GRP4" Maxeqplen="40" Maxpeople="75" Site="GR4" SiteId="3164" SiteReserveType="site-specific" SiteType="GROUP STANDARD NONELECTRIC" mapx="206.53" mapy="306.33" sitePhoto="/webphotos//NRSO/pid70313/sid3164/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="PRIN" Maxeqplen="40" Maxpeople="75" Site="GR1" SiteId="3161" SiteReserveType="site-specific" SiteType="GROUP STANDARD NONELECTRIC" mapx="492.11" mapy="306.05" sitePhoto="/webphotos//NRSO/pid70313/sid3161/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:38:38 GMT
+recorded_with: VCR 2.5.0

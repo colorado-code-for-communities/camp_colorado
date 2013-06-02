@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70045&siteType=2003
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:35:02 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:35:02 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=897DCFD8F64BB5856A8FC5D02A08F243.web03-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2445525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=897DCFD8F64BB5856A8FC5D02A08F243.web03-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:35:02 GMT; Path=/
+      Content-Length:
+      - '6500'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="18" parkId="70045" resultType="campsites" siteType="2003">
+        <result Loop="MOUN" Maxeqplen="35" Maxpeople="8" Site="001" SiteId="8430" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="125.200653076172" mapy="510.074554443359" sitePhoto="/webphotos//NRSO/pid70045/sid8430/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MOUN" Maxeqplen="35" Maxpeople="8" Site="002" SiteId="8431" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="155.572937011719" mapy="544.645202636719" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MOUN" Maxeqplen="25" Maxpeople="8" Site="003" SiteId="8438" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="202.50178527832" mapy="591.925720214844" sitePhoto="/webphotos//NRSO/pid70045/sid8438/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MOUN" Maxeqplen="20" Maxpeople="8" Site="004" SiteId="8425" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="254.486862182617" mapy="638.161315917969" sitePhoto="/webphotos//NRSO/pid70045/sid8425/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MOUN" Maxeqplen="40" Maxpeople="8" Site="005" SiteId="8434" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="337.351806640625" mapy="681.284545898438" sitePhoto="/webphotos//NRSO/pid70045/sid8434/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MOUN" Maxeqplen="30" Maxpeople="8" Site="006" SiteId="8426" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="410.570861816406" mapy="637.616394042969" sitePhoto="/webphotos//NRSO/pid70045/sid8426/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MOUN" Maxeqplen="30" Maxpeople="8" Site="007" SiteId="8422" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="424.582397460938" mapy="710.933471679688" sitePhoto="/webphotos//NRSO/pid70045/sid8422/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MOUN" Maxeqplen="25" Maxpeople="8" Site="008" SiteId="8423" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="524.92822265625" mapy="679.870849609375" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MOUN" Maxeqplen="30" Maxpeople="8" Site="009" SiteId="8424" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="588.603515625" mapy="782.775451660156" sitePhoto="/webphotos//NRSO/pid70045/sid8424/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MOUN" Maxeqplen="35" Maxpeople="8" Site="010" SiteId="8437" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="639.109985351563" mapy="685.17822265625" sitePhoto="/webphotos//NRSO/pid70045/sid8437/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MOUN" Maxeqplen="45" Maxpeople="8" Site="011" SiteId="8432" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="719.22" mapy="689.29" sitePhoto="/webphotos//NRSO/pid70045/sid8432/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MOUN" Maxeqplen="40" Maxpeople="8" Site="012" SiteId="8433" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="766.7" mapy="617.62" sitePhoto="/webphotos//NRSO/pid70045/sid8433/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MOUN" Maxeqplen="30" Maxpeople="8" Site="013" SiteId="8427" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="788.56" mapy="561.82" sitePhoto="/webphotos//NRSO/pid70045/sid8427/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MOUN" Maxeqplen="60" Maxpeople="8" Site="014" SiteId="8428" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="731.536254882813" mapy="503.866058349609" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MOUN" Maxeqplen="45" Maxpeople="8" Site="015" SiteId="8429" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="776.990783691406" mapy="431.138793945313" sitePhoto="/webphotos//NRSO/pid70045/sid8429/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MOUN" Maxeqplen="45" Maxpeople="8" Site="016" SiteId="8436" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="555.778625488281" mapy="403.866058349609" sitePhoto="/webphotos//NRSO/pid70045/sid8436/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MOUN" Maxeqplen="45" Maxpeople="8" Site="018" SiteId="137577" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="349.718048095703" mapy="408.411529541016" sitePhoto="/webphotos//NRSO/pid70045/sid137577/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MOUN" Maxeqplen="45" Maxpeople="8" Site="019" SiteId="137578" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="237.596832275391" mapy="453.866058349609" sitePhoto="/webphotos//NRSO/pid70045/sid137578/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:35:02 GMT
+recorded_with: VCR 2.5.0

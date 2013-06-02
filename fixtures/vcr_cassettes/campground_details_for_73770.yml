@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73770
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:44:50 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:44:50 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=341596FCBE77DB8A32D3D8AD03A35B39.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=341596FCBE77DB8A32D3D8AD03A35B39.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:44:50 GMT; Path=/
+      Content-Length:
+      - '6012'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="The Timberline Campground, near Kenosha Pass, is about 7 miles southwest of the small town of Grant. The abundance of aspens at the site creates impressive fall scenery along the forested hillside. Wildlife in the area includes golden eagles, elk, mule deer, moose, chipmunks and porcupines." drivingDirection="From Denver, Colorado, take Highway 285 southwest to Park County Rd. 58. Turn right at County Rd. 58 and follow road to Forest Road 125. Turn right and follow road about 0.5 miles to the campground entrance." facilitiesDescription="No drinking water is available and the roads through the campground are dirt and gravel. Each loop has a parking spur, picnic table, campfire ring and grill. There are 2 vault toilets within the campground.    Firewood may be purchased at the nearby Kenosha Pass Campground." facility="TIMBERLINE CAMPGROUND" facilityID="73770" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=73770&amp;cmp=39-32--mcmire" importantInformation=" There is no potable water at the campground; Water is available at Kenosha Pass Campground Please bring garbage bags; this is a &amp;amp;quot;pack it in-pack it out&amp;amp;quot; facility Thunderstorms are common; take extra precautions for lightning This is a high elevation facility, please use caution when traveling from lower elevations Be bear aware; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating Limit 10 vehicles per camping loop No firearms or fireworks No RV hookups are available For more information on Pike and San Isabel National Forests, click here " latitude="39.4319444" longitude="-105.7619444" nearbyAttrctionDescription="Fairplay, Colorado, once a frontier boomtown, is home to the South Park City Museum, which includes 34 authentic historical buildings and 60,000 artifacts." note="" orientationDescription="The family campsites are divided into two loops, that are separated by a rise. Both loops sit among a stand of aspen, spruce and lodgepole pines along Hoosier Creek. The campground sits at an altitude of 9,700 feet and features mild summer temperatures and cool nights." recreationDescription="The Colorado Trail is located within one mile of the campground and offers abundant hiking, biking and horseback riding opportunities. The epic 471-mile trail stretches across Colorado from Denver to Durango. Visitors may also enjoy fishing in Hoosier Creek." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=73770&amp;cmp=39-32--mcmire">
+        <address city="S.PLATTE RANGER DIST" country="United States" shortName="TIMR" state="Colorado" streetAddress="PIKE NATIONAL FOREST." zip=""/>
+        <photo realUrl="/webphotos/NRSO/pid73770/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid73770/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid73770/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid73770/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid73770/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid73770/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid73770/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid73770/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid73770/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid73770/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid73770/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid73770/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid73770/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid73770/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid73770/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid73770/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid73770/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid73770/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/73770_TIMR.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="3032755610"/>
+        <contact name="Ranger Station" number="3032755610"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Scenic Overlooks"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within 10 Miles" name="Horseback Riding Trails"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:44:50 GMT
+recorded_with: VCR 2.5.0

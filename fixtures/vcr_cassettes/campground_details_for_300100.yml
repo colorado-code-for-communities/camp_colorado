@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=LARC&parkId=300100
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:25:34 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:25:34 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=DD8C4B69D5A53A1A81ED34FDBD6CEC1F.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=DD8C4B69D5A53A1A81ED34FDBD6CEC1F.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:25:34 GMT; Path=/
+      Content-Length:
+      - '3557'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="LARC" description="Estes Park Campground at Mary&amp;amp;#39;s Lake is a great way to escape the city life.  On the outskirts of Estes Park, it is nestled in a beautiful valley surrounded by the gorgeous Rocky Mountains.  It is a stones&amp;amp;#39; throw away from Mary&amp;amp;#39;s Lake, completing the serene view.  This popular area houses all types of campers, from the touring abode community to the adventurous tent dwellers.  There is an assortment of things to pass the time, whether you prefer the relaxation of a fishing pole and a chair, the energy-depleting magic of our small but delightfully heated pool, the close proximity to the town of Estes Park for shopping or dining, or the rare but necessary opportunity for bonding with your family or friends around the campfire." drivingDirection="From downtown Estes Park take U.S. Highway 36 west approximate 1.5 miles to Mary&amp;apos;s Lake Road.  Turn left on Mary&amp;apos;s Lake Road (Cty. Rd. 66).  Travel approximately 1.5 miles to the campground." facilitiesDescription="" facility="ESTES PARK CAMPGROUND AT MARYS LAKE" facilityID="300100" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=LARC&amp;parkId=300100&amp;cmp=39-32--mcmire" importantInformation="none" latitude="40.3466667" longitude="-105.5325" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="Larimer Region" reservationUrl="/campsiteSearch.do?contractCode=LARC&amp;parkId=300100&amp;cmp=39-32--mcmire">
+        <address city="Estes Park" country="United States" shortName="A100" state="Colorado" streetAddress="2120 Mary&amp;apos;s Lake Road" zip="80517"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="9706794570"/>
+        <contact name="Ranger Station" number=""/>
+        <amenity distance="Within Facility" name="Bicycle Riding"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Picnic Tables"/>
+        <amenity distance="Within Facility" name="Playground"/>
+        <amenity distance="Within Facility" name="Ranger Station"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Swimming - Pool"/>
+        <amenity distance="Within Facility" name="Water Drinking"/>
+        <bulletin description="ADA campsites may be reserved through the Call Center only. " headline="Attention"/>
+        <bulletin description="The person making the reservation is responsible for making sure all site occupants know and obey regulations. " headline="Important Notice"/>
+        <bulletin description="&amp;lt;li&amp;gt;Sites must be reserved a minimum of 1 day prior to arrival day.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Any remaining sites &amp;lt;b&amp;gt;MAY&amp;lt;/b&amp;gt; be available first-come, first-serve at the campground.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt; &amp;lt;u&amp;gt;Monday -Thursday&amp;lt;/u&amp;gt;: first-come, first-serve sites are usually available.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt; &amp;lt;u&amp;gt;Friday, Saturday, Sunday, and holidays, from Memorial Day weekend through Labor Day weekend&amp;lt;/u&amp;gt;: first-come, first-serve sites are usually &amp;lt;b&amp;gt;NOT&amp;lt;/b&amp;gt; available. &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Availability is limited and &amp;lt;b&amp;gt;NOT&amp;lt;/b&amp;gt; guaranteed.&amp;lt;/li&amp;gt;" headline="Attention"/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:15:23 GMT
+recorded_with: VCR 2.5.0

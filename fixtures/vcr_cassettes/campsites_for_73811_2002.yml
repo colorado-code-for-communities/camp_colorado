@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73811&siteType=2002
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:29:32 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:29:32 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=8149913B7614EAE1B4F3668E0CE7502A.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=8149913B7614EAE1B4F3668E0CE7502A.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:29:32 GMT; Path=/
+      Content-Length:
+      - '2398'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="7" parkId="73811" resultType="campsites" siteType="2002">
+        <result Loop="INDE" Maxeqplen="30" Maxpeople="8" Site="001" SiteId="136379" SiteReserveType="site-specific" SiteType="EQUESTRIAN NONELECTRIC" mapx="543.1826171875" mapy="444.756500244141" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="INDE" Maxeqplen="30" Maxpeople="8" Site="002" SiteId="136380" SiteReserveType="site-specific" SiteType="EQUESTRIAN NONELECTRIC" mapx="429.965209960938" mapy="442.930419921875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="INDE" Maxeqplen="30" Maxpeople="8" Site="003" SiteId="136381" SiteReserveType="site-specific" SiteType="EQUESTRIAN NONELECTRIC" mapx="345.965209960938" mapy="441.104339599609" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="INDE" Maxeqplen="30" Maxpeople="8" Site="004" SiteId="136382" SiteReserveType="site-specific" SiteType="EQUESTRIAN NONELECTRIC" mapx="258.313049316406" mapy="437.4521484375" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="INDE" Maxeqplen="30" Maxpeople="8" Site="005" SiteId="136383" SiteReserveType="site-specific" SiteType="EQUESTRIAN NONELECTRIC" mapx="272.921752929688" mapy="501.365203857422" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="INDE" Maxeqplen="40" Maxpeople="8" Site="007" SiteId="136385" SiteReserveType="site-specific" SiteType="EQUESTRIAN NONELECTRIC" mapx="249.1826171875" mapy="610.930419921875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="INDE" Maxeqplen="30" Maxpeople="8" Site="008" SiteId="136386" SiteReserveType="site-specific" SiteType="EQUESTRIAN NONELECTRIC" mapx="302.139129638672" mapy="599.973876953125" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:29:32 GMT
+recorded_with: VCR 2.5.0

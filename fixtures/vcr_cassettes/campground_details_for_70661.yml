@@ -1,0 +1,77 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70661
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:39:28 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:39:28 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=1E37D2496E6A2A5121E0A5C97C437BA4.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=1E37D2496E6A2A5121E0A5C97C437BA4.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:39:28 GMT; Path=/
+      Content-Length:
+      - '7690'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Redstone Campground is set amidst a scattering of aspen groves on a ridge above the Crystal River at 7,800 feet, creating an ideal setting for guests seeking  recreation and relaxation in White River National Forest.    Sites in the campground are widely spaced and offer wonderful views of red rock outcroppings and cliffs, though an understory of tall grass and a scattered forest provides plenty of privacy." drivingDirection="Take I-70 west of Denver to exit 116 (Highway 82 East Glenwood Springs/Aspen). Follow 82 E for about 12 miles, then turn right onto Highway 133 south. Drive about 15 miles, then turn left at north entrance to the town of Redstone, CO.Campground is on left." facilitiesDescription="Redstone Campground has 37 standard sites, able to accommodate tents, trailers and RVs.    The campground is equipped with picnic tables, a picnic shelter, campfire rings, showers, flush toilets, and drinking water. Electrical hook-ups are available at 17 of the sites for an additional fee. Firewood is available on-site.      Playground facilities, horseshoe pits, and a basketball court are great for family and group gatherings.  " facility="REDSTONE" facilityID="70661" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70661&amp;cmp=39-32--mcmire" importantInformation=" This facility is operated by White River Recreation, a division of California Land Management and your comments are appreciated; comment forms are available from campground hosts or on CLM&amp;apos;s website . Electric and water hook-ups are only available in the Allgeier and Osgood Loops; there are no hook-ups available in the Mechau Loop Bring reservation confirmation with you Several campsites are available on a first-come, first-served basis Maximum RV length is 40 feet No dump station on site In accordance with standard industry practices, there will be a $5 additional vehicle fee on the second vehicle in each single family campsite, and on the third and fourth vehicles in any double family campsite, provided these vehicles are not joined to the first vehicle by a hitch and towed onto the site. In the case of motorcycles, the first two are considered as one vehicle for determining additional vehicle fees. The third and fourth motorcycle would also be considered as one vehicle. No additional vehicle fees are collected for bicycles. Click here for more information about White River National Forest " latitude="39.1941667" longitude="-107.2322222" nearbyAttrctionDescription="The quaint mountain town of Redstone is a hidden gem located south of Carbondale. In addition to shops, galleries, and restaurants, the town boasts a castle that was built by industrialist John Osgood at the turn of the century.  " note="" orientationDescription="In the heart of the Rocky Mountains, the 2.3 million acre White River National Forest is a place of serenity and adventure, boasting 8 wilderness areas, 4  defined seasons, and 10 peaks surpassing 14,000 feet in elevation.    The Crystal River flows near the campground and drains the Valley of the Coal Miners, a glacial valley that was once a center of coal mining in  southwestern Colorado.    Wildlife in the area abounds. Bighorn sheep navigate rocky ridges and bull elk bugle at dusk. Scenic rivers sustain populations of cutthroat, rainbow, and brown trout.  Alpine regions provide habitat for pika and ptarmigan. These species, along with many others, depend on surrounding undeveloped wilderness, clean streams, and diverse forests to live." recreationDescription="Crystal River, a tributary of Roaring Fork River, is renowned for its fly fishing. Rainbow, brown, cutthroat and brook trout are plentiful in this waterway.     A hike up Mt. Sopris offers spectacular panoramic views. This 12,953-foot mountain dominates the surrounding landscape. The hike is 14.8 miles with a 4,600-foot.  elevation gain. In summer, wildflowers carpet the trail through aspen groves and mixed conifer forest, climbing up to talus slopes." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70661&amp;cmp=39-32--mcmire">
+        <address city="CARBONDALE" country="United States" shortName="REDS" state="Colorado" streetAddress="SOPRIS RANGER DISTRICT" zip="81623"/>
+        <photo realUrl="/webphotos/NRSO/pid70661/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70661/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70661/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70661/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70661/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70661/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70661/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70661/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70661/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70661/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70661/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70661/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70661/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70661/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70661/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9709270107"/>
+        <contact name="Ranger Station" number="9709270107"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Electric Hookups"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Flush Toilets"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Horseshoe Pit"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Picnic Shelters"/>
+        <amenity distance="Within Facility" name="Playground"/>
+        <amenity distance="Within Facility" name="River Access"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Trails"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within 10 Miles" name="Historic Sites"/>
+        <bulletin description="Redstone Campground&amp;apos;s campsites have recently been renumbered. Please check the campground map to ensure you are reserving the campsite you wish to reserve." headline="Attention"/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:39:28 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50030
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:32:43 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:32:43 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=1EA962E5AA6EBA4B8530CE63CA138833.web07-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2845525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=1EA962E5AA6EBA4B8530CE63CA138833.web07-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:32:43 GMT; Path=/
+      Content-Length:
+      - '1068'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description="None" drivingDirection="None" facilitiesDescription="" facility="LORY STATE PARK" facilityID="50030" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50030&amp;cmp=39-32--mcmire" importantInformation="None" latitude="40.5777778" longitude="-105.1819444" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="High Plains Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50030&amp;cmp=39-32--mcmire">
+        <address city="BELLVUE" country="United States" shortName="LOST" state="Colorado" streetAddress="708 LODGEPOLE DRIVE" zip="80512"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="3034931623"/>
+        <contact name="Ranger Station" number="3034931623"/>
+        <amenity distance="Within Facility" name="Parking"/>
+        <amenity distance="Within Facility" name="Picnic Tables"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:32:43 GMT
+recorded_with: VCR 2.5.0

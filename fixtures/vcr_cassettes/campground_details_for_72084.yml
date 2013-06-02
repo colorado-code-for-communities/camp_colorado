@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=72084
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:36:04 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:36:04 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=CDCEB09A465ECA74FD33E490FEB5515F.web03-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2445525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=CDCEB09A465ECA74FD33E490FEB5515F.web03-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:36:04 GMT; Path=/
+      Content-Length:
+      - '6185'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Aspenglen Campground is located near the Fall River Entrance in Colorado&amp;amp;#39;s awe-inspiring Rocky Mountain National Park.   From lush valleys to craggy peaks stretching over 14,000 feet, visitors are provided opportunities for countless breathtaking experiences and adventures.    Scenic driving, hiking, backpacking, fishing, horseback riding and wildlife viewing are popular activities in the park." drivingDirection="Aspenglen Campground is located off Highway 34 just inside the Fall River Entrance of Rocky Mountain National Park." facilitiesDescription="Aspenglen contains several drive-to family sites for tents and RVs. A few sites are more secluded, walk-to tent sites.    Each campsite is equipped with a picnic table, fire ring with grate and tent pad. Roads and parking spurs are paved. Flush toilets and drinking water are provided." facility="ASPENGLEN CAMPGROUND" facilityID="72084" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=72084&amp;cmp=39-32--mcmire" importantInformation=" Gathering firewood is prohibited; Firewood is available for purchase during the summer months There are no hookups There is no dump station; RV sewage and wastewater tanks must be emptied at the dump station located in Moraine Park Campground There are no shower or laundry facilities in the campground; Portable showers are prohibited Bears, Deer, elk, raccoons and skunks frequent the area: all food, pet food, cooking utensils and other scented items must be stored in a vehicle or food storage lockers located in the campground Skateboards, rollerblades, scooters and similar devices are prohibited A separate park entrance fee of $20/vehicle is required; fee covers entrance to the park for the date of purchase and the next 6 days If using a Golden Age or Golden Access Pass for a camping fee discount, the pass must be presented upon check-in This is a high elevation facility: Please exercise caution when traveling from lower elevations " latitude="40.4222222" longitude="-105.6202778" nearbyAttrctionDescription="The town of Estes Park lies just outside the park&amp;amp;#39;s main west entrances, and is a short drive from Aspenglen Campground. Dining, shopping, rafting, fly fishing, horseback riding, and golfing opportunities await. Lake Estes offers boating, sailboarding and fishing." note="" orientationDescription="A pleasant mix of Douglas fir, Lodgepole pine, Ponderosa pine and the occasional Engelmann spruce, forests the campground, offering equal amounts of sun and shade. Grasses, shrubs and seasonal wildflowers fill the open meadows.    Wildlife is plentiful in the park: mule deer and the majestic Rocky Mountain elk are the most commonly spotted, although black bear, coyote, bighorn sheep and moose inhabit the region as well." recreationDescription="Rocky Mountain National Park has 355 miles of hiking trails that range from flat lakeside strolls to steep mountain climbs. Visitors enjoy the park&amp;amp;#39;s various lake trails (Bear Lake, Cub Lake, Mills Lake), waterfall trails (Adams Falls, Alberta Falls, Ouzel Falls) and summit trails (Deer Mountain, Twin Sisters Peaks, Flattop Mountain).    The park offers some unforgettable scenic driving routes as well, including Trail Ridge Road and Old Fall River Road. Trail Ridge Road reaches 12,183&amp;amp;#39; above sea level and is America&amp;amp;#39;s highest continuous highway. It climbs above the park&amp;amp;#39;s evergreen forests to its windswept alpine tundra, where visitors enjoy sweeping panoramic views of the surrounding peaks and valleys.   Driving along the historic Old Fall River Road is like motoring through an earlier era. Constructed in 1920, this steep, one-way, uphill, gravel road punctuated by switchbacks, quietly leads travelers from Horseshoe Park through the park&amp;amp;#39;s wilderness to Fall River Pass, 11,796&amp;amp;#39; above sea level.     Several visitor centers are within the park, offering ranger-led activities, education and history about the park and seasonal nighttime programs." regionName="RMR" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=72084&amp;cmp=39-32--mcmire">
+        <address city="Estes Park" country="United States" shortName="ASPC" state="Colorado" streetAddress="1000 Highway 36" zip="80517"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/72084_ASPC.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9705865893"/>
+        <contact name="Ranger Station" number="9705861206"/>
+        <amenity distance="Within Facility" name="Amphitheater"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Firewood Vendor"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Flush Toilets"/>
+        <amenity distance="Within Facility" name="Food Storage Locker"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Ice"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Ranger Station"/>
+        <amenity distance="Within Facility" name="Recycling"/>
+        <amenity distance="Within Facility" name="TRASH DUMPSTERS"/>
+        <amenity distance="Within Facility" name="Water"/>
+        <bulletin description="Aspenglen Campground will be remodeling both A and C Loop restrooms. Please note the following restroom remodeling closures: &amp;lt;br /&amp;gt;C Loop restroom (across from site 31) - closed May 22 - August 1 &amp;lt;br /&amp;gt;A Loop restroom (by walk-in sites A-E) - closed August 1 - September 24 " headline="Attention"/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:00:39 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73545
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:40:28 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:40:28 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=152AF1EF57F0EA42DAE9D34FA61C2220.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=152AF1EF57F0EA42DAE9D34FA61C2220.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:40:28 GMT; Path=/
+      Content-Length:
+      - '3480'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Round Mountain is a small, rustic campground that sits just 6 miles from Lake George, 11 miles from the Florissant Fossil Beds National Monument and 15 miles to Eleven Mile Reservoir. It is also within a short drive to hiking and biking trails, fly fishing, wildlife watching and birding." drivingDirection="From Florissant, Colorado, take US Route 24 west for 10.3 miles to the campgroundsign. Turn right at sign onto the dirt road and go 0.2 miles tocampground." facilitiesDescription="Round Mountain offers about 15 reservable campsites. Amenities include picnic tables, vault toilets, campfire rings and a parking area." facility="ROUND MOUNTAIN" facilityID="73545" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=73545&amp;cmp=39-32--mcmire" importantInformation=" Please bring garbage bags; this is a &amp;amp;quot;pack in-pack out&amp;amp;quot; facility No drinking water available; visitors should bring an ample supply Be bear aware; keep all food out of site in approved containers or locked inside your vehicle and remove all food from area after eating This is a high elevation facility, please use caution when traveling from lower elevations No RV hookups are available Limit two vehicles per site For more information on Pike and San Isabel National Forests, click here " latitude="39.0305556" longitude="-105.4311111" nearbyAttrctionDescription="Florissant Fossil Beds National Monument, about a 15 minute drive from Round Hill, boasts one of the richest and most diverse fossil deposits in the world. Petrified redwood stumps up to 14 feet wide and thousands of detailed fossils of insects and plants reveal the story of a very different, prehistoric Colorado." note="" orientationDescription="Round Mountain, at elevation 8,500 feet, sits near Blue Mountain, Stoll Mountain and Martland Peak. Campsites are widely spaced in woods of ponderosa pine and young aspen. The high altitude creates mild summer days and chilly nights. Aspen trees create a beautiful sunny yellow hue in fall.    Interesting wild inhabitants of the area include porcupines, mule deer, beavers and chipmunks. At night, the area makes for incredible stargazing." recreationDescription="Visitors enjoy Lake George for lake fishing and prime waterfowl watching. Avid anglers come here in winter for ice fishing. The nearby Riverside Campground offers access to the Hardrock Trail. The 1.5-mile trail is open to hikers and mountain bikers, and provides interpretive signs about native flora and fauna." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=73545&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="ROUN" state="Colorado" streetAddress="" zip=""/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number=""/>
+        <contact name="Ranger Station" number="0000000"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Off-Road Vehicle Trails"/>
+        <amenity distance="Within Facility" name="Rock Climbing"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:40:28 GMT
+recorded_with: VCR 2.5.0

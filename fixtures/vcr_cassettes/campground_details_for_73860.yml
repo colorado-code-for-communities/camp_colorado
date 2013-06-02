@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73860
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:37:58 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:37:58 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=684838DCBFE27AE5C1DDA60738479E36.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=684838DCBFE27AE5C1DDA60738479E36.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:37:58 GMT; Path=/
+      Content-Length:
+      - '5263'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Piney Guard Station is a rustic cabin that was constructed in the 1930s for use as a work station for Forest Service crews. This 14x22-ft. structure only has a single room and is built from logs.     Guests can drive to the cabin from approximately mid-June to mid-November, but 4-wheel drive vehicles with high clearance are required for the rough road. Those arriving in standard vehicles should be prepared to park 3 miles away and hike or mountain bike to the cabin with all their gear and supplies. The road to the cabin is only open to snowmobile, snowshoe and cross-country ski traffic for the remainder of the year." drivingDirection="Take I-70 east from Grand Junction, CO about 126 miles.  Go west from Denver about 119 miles to exit 157.  Take Highway 131 north through the town of Wolcott about 5 miles. Turn right (east) on Muddy Pass Road (Forest Service Road 700).  Follow FSR 700 about 7 miles to Forest Service Road 744.  Turn left on FSR 744 and continue about 3 miles to the Piney Guard Station." facilitiesDescription="The guard station sleeps 4 and contains a bunkbed, 2 cots, storage cabinets, a table and benches. Skillets, dishware, and utensils are provided. A fire ring and picnic table are just outside, and a vault toilet are located in a separate building. Guests can easily gather firewood around the cabin.     No drinking water, electricity or trash service is available; guests must bring their own water and garbage bags to pack out trash. No cook stove or lanterns are available. Guests should consider packing most items they would bring on a regular camping trip." facility="PINEY GUARD STATION" facilityID="73860" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=73860&amp;cmp=39-32--mcmire" importantInformation=" Water is not available at the cabin Summer motorized access to the Piney Guard Station requires a high-clearance, 4-wheel drive vehicle There is no cell phone coverage in many areas of the forest Click here for more information about White River National Forest " latitude="39.7575" longitude="-106.5605556" nearbyAttrctionDescription="" note="" orientationDescription="Piney Guard Station is located at 9,100 feet in the Eagle-Holy Cross Ranger District near Vail. Guests can enjoy views of the Gore Mountain Range from a meadow to its north side. The cabin is nestled in a forest dominated by aspen, spruce, pine and fir trees.     A pond just across the Forest Service road attracts the local wildlife. A lucky few may spot a moose, but other wildlife in the White River National Forest includes  elk, bighorn sheep, mountain goat, mule deer, Canada lynx and black bear. Birders may see bald eagles, peregrine falcons, Barrow&amp;amp;#39;s golden-eye and black swifts." recreationDescription="The cabin is conveniently located for access to a variety of year-round recreational activties. The Forest Service road leading to the cabin is used by mountain bikers, hikers, snowshoers, cross-country skiers and snowmobilers. This area is popular for hunting big and small game, gamebirds and waterfowl." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=73860&amp;cmp=39-32--mcmire">
+        <address city="MINTURN" country="United States" shortName="PIGS" state="Colorado" streetAddress="HOLY CROSS RANGER DISTRICT" zip="81645"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9708275715"/>
+        <contact name="Ranger Station" number=""/>
+        <amenity distance="Within Facility" name="Bed(s)"/>
+        <amenity distance="Within Facility" name="Berry Picking"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Cooking Pots"/>
+        <amenity distance="Within Facility" name="Cooking Utensils"/>
+        <amenity distance="Within Facility" name="Creek Access"/>
+        <amenity distance="Within Facility" name="Cross Country Skiing"/>
+        <amenity distance="Within Facility" name="Dining Area"/>
+        <amenity distance="Within Facility" name="Fire Extinguisher"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Mattress(es)"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Off-Road Vehicle Trails"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Snowmobiling"/>
+        <amenity distance="Within Facility" name="Snowshoeing"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within Facility" name="Wood Stove"/>
+        <bulletin description="Piney Guard Station will be closed due to a roof leak from February 4, 2013 through June 12, 2013." headline="Attention"/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:37:58 GMT
+recorded_with: VCR 2.5.0

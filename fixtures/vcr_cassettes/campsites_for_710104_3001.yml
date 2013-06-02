@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=LARC&parkId=710104&siteType=3001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:28:59 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:28:59 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=FB5CFCF04CC39E549017DC678B6409FA.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=FB5CFCF04CC39E549017DC678B6409FA.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:28:58 GMT; Path=/
+      Content-Length:
+      - '1651'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="LARC" count="5" parkId="710104" resultType="campsites" siteType="3001">
+        <result Loop="Kruger Campground" Maxeqplen="40" Maxpeople="8" Site="K01" SiteId="340" SiteReserveType="site-specific" SiteType="EQUESTRAIN" mapx="98.09" mapy="732.58" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Kruger Campground" Maxeqplen="45" Maxpeople="8" Site="K02" SiteId="346" SiteReserveType="site-specific" SiteType="EQUESTRAIN" mapx="52.8" mapy="752.78" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Kruger Campground" Maxeqplen="47" Maxpeople="8" Site="K03" SiteId="345" SiteReserveType="site-specific" SiteType="EQUESTRAIN" mapx="81.92" mapy="797.56" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Kruger Campground" Maxeqplen="60" Maxpeople="8" Site="K04" SiteId="341" SiteReserveType="site-specific" SiteType="EQUESTRAIN" mapx="116.57" mapy="828.32" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Kruger Campground" Maxeqplen="58" Maxpeople="8" Site="K05" SiteId="342" SiteReserveType="site-specific" SiteType="EQUESTRAIN" mapx="150.88" mapy="840.67" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:28:59 GMT
+recorded_with: VCR 2.5.0

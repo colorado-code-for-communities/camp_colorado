@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73877&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:24:45 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:24:45 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=B534BE68CC041B800FDA62D13D456BC5.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=B534BE68CC041B800FDA62D13D456BC5.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:24:45 GMT; Path=/
+      Content-Length:
+      - '6693'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="20" parkId="73877" resultType="campsites" siteType="2001">
+        <result Loop="COBBETT LAKE " Maxeqplen="25" Maxpeople="8" Site="001" SiteId="138739" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="371.502288818359" mapy="444.688568115234" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COBBETT LAKE " Maxeqplen="25" Maxpeople="8" Site="002" SiteId="138740" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="465.715942382813" mapy="469.626190185547" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COBBETT LAKE " Maxeqplen="25" Maxpeople="8" Site="003" SiteId="138741" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="510.263549804688" mapy="470.687194824219" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COBBETT LAKE " Maxeqplen="25" Maxpeople="8" Site="004" SiteId="138742" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="633.791870117188" mapy="566.986633300781" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COBBETT LAKE " Maxeqplen="25" Maxpeople="8" Site="005" SiteId="138743" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="541.600219726563" mapy="572.376403808594" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COBBETT LAKE " Maxeqplen="25" Maxpeople="8" Site="006" SiteId="138744" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="594.24462890625" mapy="585.785095214844" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COBBETT LAKE " Maxeqplen="30" Maxpeople="8" Site="007" SiteId="137933" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="520.785705566406" mapy="648.56982421875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COBBETT LAKE " Maxeqplen="20" Maxpeople="8" Site="008" SiteId="137934" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="544.602233886719" mapy="736.028991699219" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COBBETT LAKE " Maxeqplen="30" Maxpeople="8" Site="009" SiteId="137935" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="657.841369628906" mapy="811.294860839844" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COBBETT LAKE " Maxeqplen="20" Maxpeople="8" Site="010" SiteId="137936" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="723.954895019531" mapy="735.960998535156" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COBBETT LAKE " Maxeqplen="20" Maxpeople="8" Site="011" SiteId="137937" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="852.329040527344" mapy="736.6875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COBBETT LAKE " Maxeqplen="25" Maxpeople="8" Site="012" SiteId="137938" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="878.170166015625" mapy="601.634643554688" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COBBETT LAKE " Maxeqplen="15" Maxpeople="8" Site="013" SiteId="137939" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="811.117797851563" mapy="523.455139160156" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COBBETT LAKE " Maxeqplen="25" Maxpeople="8" Site="014" SiteId="138745" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="763.694152832031" mapy="579.74072265625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COBBETT LAKE " Maxeqplen="25" Maxpeople="8" Site="015" SiteId="137940" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="709.368347167969" mapy="457.683197021484" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COBBETT LAKE " Maxeqplen="35" Maxpeople="8" Site="016" SiteId="137941" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="704.949096679688" mapy="383.086700439453" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COBBETT LAKE " Maxeqplen="15" Maxpeople="8" Site="017" SiteId="137942" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="598.938049316406" mapy="279.682922363281" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COBBETT LAKE " Maxeqplen="45" Maxpeople="8" Site="018" SiteId="137943" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="685.390991210938" mapy="306.823883056641" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COBBETT LAKE " Maxeqplen="25" Maxpeople="8" Site="019" SiteId="138746" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="521.531005859375" mapy="306.867095947266" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COBBETT LAKE " Maxeqplen="25" Maxpeople="8" Site="020" SiteId="138747" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="378.006103515625" mapy="316.51123046875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:03:55 GMT
+recorded_with: VCR 2.5.0

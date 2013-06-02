@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=75442
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:40:57 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:40:57 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=4142C8198B475140C8C62ED9CC055F28.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=4142C8198B475140C8C62ED9CC055F28.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:40:57 GMT; Path=/
+      Content-Length:
+      - '4849'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Seedhouse Campground, located 25 miles north of Steamboat Springs, Colorado, is a gateway to the Mt. Zirkel Wilderness along the Elk River Corridor with plenty of opportunities for hiking, biking, horseback riding, camping, fishing, river rafting and more." drivingDirection="From downtown Steamboat Springs, Colorado, take U.S. Highway 40 west and turn right on Routt County Road 129, locally known as Elk River Road. Continue north 17 miles, cross the Elk River just beyond the Clark Store, and turn right along the river on RCR 64, which becomes Forest Road 400/Seedhouse Road. Continue for 9 miles. Seedhouse Campground is on the right, just after the bridge over the North Fork of the Elk River." facilitiesDescription="There are 24 campsites, 15 of which may be reserved. Remaining sites are first-come, first-served. Each site is spacious and equipped with a campfire ring and picnic table. There are two hand pump water systems throughout the campground." facility="SEEDHOUSE CAMPGROUND" facilityID="75442" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=75442&amp;cmp=39-32--mcmire" importantInformation=" Due to removal of larger trees, some campsites are without shade and the ground is uneven; sites most affected are 6, 11 and 13 This facility is opened as weather allows; call 970-870-2299 for updated information on current conditions This is a high elevation facility; please use caution when traveling from lower elevations Be bear aware; keep all food out of site in approved containers or locked inside your vehicle and remove all food from area after eating " latitude="40.7723833" longitude="-106.7714667" nearbyAttrctionDescription="Visitors might also enjoy stopping by Steamboat Lake State Park, only a short drive away.    Many more outdoor opportunities exist in the surrounding national forests and grasslands, including hiking, biking, camping, horseback and off-road vehicle riding, fishing, hunting, sightseeing and winter sports." note="" orientationDescription="At an elevation of 8,000 feet, Seedhouse lies in the Rocky Mountains in the heart of the Routt National Forest near the Middle Fork of the Elk River, which visitors can hear from the campground.     The Medicine Bow-Routt National Forests and Thunder Basin National Grassland encompass nearly three million acres from central and northeastern Wyoming to north-central Colorado.    Black bear, bobcat, coyote, elk, mule deer and moose are just some of the many animals that inhabit these rich and diverse lands." recreationDescription="Seedhouse is located near Mount Zirkel Wilderness and provides a great gateway for hiking and biking. Trout fishing is accessible on the river as well as several mountain streams.    Campers can access the Continental Divide National Scenic Trail via a connector trail nearby." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=75442&amp;cmp=39-32--mcmire">
+        <address city="STEAMBOAT SPRINGS" country="United States" shortName="SDHS" state="Colorado" streetAddress="925 WEISS DRIVE" zip="80487-9315"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9708702299"/>
+        <contact name="Ranger Station" number="9708702299"/>
+        <amenity distance="Within Facility" name="Accessible Trails"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Drinking Water (Hand Pump)"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Kayaking"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Off-Road Vehicle Trails"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="RV Parking"/>
+        <amenity distance="Within Facility" name="River Access"/>
+        <amenity distance="Within Facility" name="Rock Climbing"/>
+        <amenity distance="Within Facility" name="Tent sites"/>
+        <amenity distance="Within Facility" name="Trailhead Parking"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:40:57 GMT
+recorded_with: VCR 2.5.0

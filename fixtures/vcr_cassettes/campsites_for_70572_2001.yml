@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70572&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:19:30 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:19:30 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=BC2D6BD73E4D0D28AF98907EDBA8567F.web04-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2745525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=BC2D6BD73E4D0D28AF98907EDBA8567F.web04-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:19:30 GMT; Path=/
+      Content-Length:
+      - '5677'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="17" parkId="70572" resultType="campsites" siteType="2001">
+        <result Loop="AMPHITHEATER " Maxeqplen="20" Maxpeople="5" Site="003" SiteId="5851" SiteReserveType="site-specific" SiteType="RV NONELECTRIC" mapx="718.486022949219" mapy="465.570007324219" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="AMPHITHEATER " Maxeqplen="30" Maxpeople="8" Site="004" SiteId="5852" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="824.399108886719" mapy="589.743896484375" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="AMPHITHEATER " Maxeqplen="20" Maxpeople="8" Site="005" SiteId="5853" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="831.444152832031" mapy="674.005859375" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="AMPHITHEATER " Maxeqplen="25" Maxpeople="8" Site="006" SiteId="5847" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="756.833862304688" mapy="754.091735839844" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="AMPHITHEATER " Maxeqplen="20" Maxpeople="8" Site="015" SiteId="5856" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="769.957336425781" mapy="658.7822265625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="AMPHITHEATER " Maxeqplen="20" Maxpeople="8" Site="018" SiteId="5861" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="619.881286621094" mapy="525.830444335938" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="AMPHITHEATER " Maxeqplen="20" Maxpeople="5" Site="019" SiteId="5862" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="455.530944824219" mapy="494.791595458984" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="AMPHITHEATER " Maxeqplen="20" Maxpeople="8" Site="020" SiteId="5858" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="343.097076416016" mapy="572.01171875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="AMPHITHEATER " Maxeqplen="20" Maxpeople="8" Site="022" SiteId="5864" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="425.093200683594" mapy="426.616821289063" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="AMPHITHEATER " Maxeqplen="15" Maxpeople="8" Site="023" SiteId="5865" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="477.440002441406" mapy="426.095123291016" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="AMPHITHEATER " Maxeqplen="25" Maxpeople="8" Site="024" SiteId="5866" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="490.741241455078" mapy="368.442169189453" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="AMPHITHEATER " Maxeqplen="15" Maxpeople="8" Site="025" SiteId="5867" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="459.18310546875" mapy="292.095947265625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="AMPHITHEATER " Maxeqplen="35" Maxpeople="5" Site="030" SiteId="5854" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="606.916076660156" mapy="380.445129394531" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="AMPHITHEATER " Maxeqplen="0" Maxpeople="8" Site="031" SiteId="138751" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="624.399047851563" mapy="356.705108642578" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="AMPHITHEATER " Maxeqplen="30" Maxpeople="8" Site="032" SiteId="138581" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="823.440002441406" mapy="521.851135253906" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="AMPHITHEATER " Maxeqplen="26" Maxpeople="8" Site="016" SiteId="5860" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="708.051208496094" mapy="524.869018554688" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="AMPHITHEATER " Maxeqplen="20" Maxpeople="8" Site="017" SiteId="5855" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="658.649291992188" mapy="486.774383544922" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 01:57:31 GMT
+recorded_with: VCR 2.5.0

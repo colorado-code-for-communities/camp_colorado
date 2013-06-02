@@ -1,0 +1,65 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70537
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:36:37 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:36:37 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=2A3EC355F054DD8BB5F0F085B5D3A2F1.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=2A3EC355F054DD8BB5F0F085B5D3A2F1.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:36:36 GMT; Path=/
+      Content-Length:
+      - '4670'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Big Meadows is located in the San Juan Mountains in south central Colorado, about 11 miles west of South Fork. The campground is heavily wooded with spruce trees, which shade most of the campsites.    The Rio Grande National Forest spans 1.86 million acres in south-central Colorado. The Continental Divide runs for 236 miles along most of the forest&amp;amp;#39;s western border, presenting a myriad of ecosystems from alpine desert to dense wilderness." drivingDirection="From South Fork, Colorado, take Highway 160 for 13 miles west, turn onto Forest Road 410 SW, and go 1.8 miles to Big Meadows Campground." facilitiesDescription="Each site has a campfire ring and picnic tables. Drinking water is available.    The nearest dump station is 13 miles away, and a boat ramp is located on the north shore of the reservoir." facility="BIG MEADOWS DEL NORTE" facilityID="70537" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70537&amp;cmp=39-32--mcmire" importantInformation=" Electric hookups are not available This campground has first-come, first-served sites A fee will be charged for additional vehicles The 14 day stay limit is strictly enforced. Camping for a period longer than 14 days during any 30-consecutive day period is prohibited. If you have booked back-to-back reservations, you will be asked to cancel all days after the first 14. Click here for more information on the Rio Grande National Forest " latitude="37.5380556" longitude="-106.7961111" nearbyAttrctionDescription="The surrounding area has plenty to keep visitors busy, with attractions like Great Sand Dunes National Park, Native American ruins, remnants of the Spanish Conquistadors and gold rush ghost towns. The Sangre de Cristo and San Juan Ranges are laced with trails for avid hikers." note="" orientationDescription="The campground meanders up a mountainside above Big Meadows Reservoir in a series of loops. As a sub-alpine region, the campground gets more rainfall than the opposite side of the lake, resulting in plentiful wildflowers and aspens surrounding the campsites." recreationDescription="An accessible fishing pier, located on the north shore of the reservoir, allows anglers to cast for rainbow, brown and brook trout. Hunting, boating and hiking are also popular pastimes.    Hikers and horseback riders will enjoy the 6-mile Archuleta Trail. The trail accesses the Weminuche Wilderness, Colorado&amp;amp;#39;s largest wilderness, which boasts the headwaters of dozens of major streams and rivers that feed into the Rio Grande and San Juan rivers." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70537&amp;cmp=39-32--mcmire">
+        <address city="DEL NORTE" country="United States" shortName="BIGS" state="Colorado" streetAddress="DIVIDE RD 13308 W. HIGHWAY 160" zip="81132"/>
+        <photo realUrl="/webphotos/NRSO/pid70537/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70537/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70537/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7196573321"/>
+        <contact name="Ranger Station" number="7196573321"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Canoeing"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Pit Toilets"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within 10 Miles" name="Amphitheater"/>
+        <amenity distance="Within 10 Miles" name="Bait Shop"/>
+        <amenity distance="Within 10 Miles" name="Boat Ramp"/>
+        <amenity distance="Within 10 Miles" name="Fuel Available"/>
+        <amenity distance="Within 10 Miles" name="Pay Phone"/>
+        <bulletin description="Big Meadows Del Norte is under construction. Work to the campground includes changes to the set-up and placement of campsites. We intend to have a new campground map and site information posted here. Once this information is posted, we will begin taking reservations. For more information, please check back to this webpage or call 719-658-2556." headline="Attention"/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:01:10 GMT
+recorded_with: VCR 2.5.0

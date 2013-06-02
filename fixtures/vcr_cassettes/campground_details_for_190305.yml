@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=KOA&parkId=190305
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:40:35 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:40:35 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=CDD1F43917A09C471B75B5CF1A4403F1.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=CDD1F43917A09C471B75B5CF1A4403F1.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:40:35 GMT; Path=/
+      Content-Length:
+      - '5783'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="KOA" description="The Royal Gorge/Canon City KOA is located in the foothills of the Rocky Mountains with panoramic views of spectacular scenery. We offer the best in Colorado camping! You&amp;amp;#39;ll love relaxing at our quiet campground, with no noise from planes, trains or automobiles. We are 6300 feet above sea level, so our night sky gives you a crystal-clear view of as many stars and constellations as you can imagine! Our days are warm to hot, while evenings cool off for a wonderful night&amp;amp;#39;s sleep.  With 90-foot pull-through sites and 50-amp service available, the Royal Gorge/Canon City KOA is Big-Rig friendly and ready to take care of your vacation needs. No RV? No problem! Enjoy one of our ten cozy cabins or secluded tent sites among pinon pine trees. However you want to camp, we&amp;amp;#39;re ready to help you make the best of your experience!  Our KOA is a vacation destination for families, groups or individuals - from new babies to great-grandparents, from small groups and reunions to groups of 125 or more. Many campers use our campground as a base camp for day trips to Colorado Springs, Cripple Creek or Pueblo- all of which can be reached within an hour. There are many scenic driving routes to enjoy in all directions from our campground. With so much to do in our area, you&amp;amp;#39;ll want to spend some extra time visiting us!  There are many area attractions and activities - Royal Gorge Route Train, Royal Gorge Bridge, Dinosaur Depot &amp;amp; world renowned digs, Royal Gorge Scenic Railway, numerous rafting companies, horseback riding, Red Canyon Park for hiking, Florence for antiquing, the Arkansas River for fishing, Texas Creek for ATVing, and much more. We&amp;amp;#39;re close to both Shadow Hills and 4-Mile golf courses, so bring your clubs along!  We&amp;amp;#39;ve got opportunities for fun and relaxation that will keep you busy for days! In addition to all of this fun, the Royal Gorge/Canon City KOA offers a daily breakfast service from Memorial Day to Labor Day. We have a full-service restaurant including homemade pizzas. Catered meal service is available for groups upon request. A small amusement park with go karts, a giant sack slide and a challenging mini golf course is here for kids of ALL ages!  Come and enjoy camping under the beautiful Colorado sky. We&amp;amp;#39;ll be happy to see you, and you&amp;amp;#39;ll be glad you came to see us!   NEW!  Click    here    for Royal Gorge Vacation Ideas!" drivingDirection="From Hwy 50, 8 miles W of Canon City, take Royal Gorge Exit 1/2 mile S." facilitiesDescription="" facility="Royal Gorge / Canon City KOA" facilityID="190305" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=KOA&amp;parkId=190305&amp;cmp=39-32--mcmire" importantInformation="" latitude="38.4902778" longitude="-105.3286111" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="KOA Region" reservationUrl="/campsiteSearch.do?contractCode=KOA&amp;parkId=190305&amp;cmp=39-32--mcmire">
+        <address city="Canon City" country="United States" shortName="A305" state="Colorado" streetAddress="559 County Road 3A, PO Box 528" zip="81215"/>
+        <photo realUrl="/webphotos/KOA/pid190305/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190305/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190305/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190305/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190305/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190305/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190305/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190305/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190305/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190305/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190305/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190305/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190305/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190305/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190305/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190305/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190305/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190305/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number=""/>
+        <contact name="Ranger Station" number="7192756116"/>
+        <amenity distance="Within Facility" name="Antiquing"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Garden Park Fossil Area"/>
+        <amenity distance="Within Facility" name="Golf"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Rockhounding"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:40:35 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=KOA&parkId=190164&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:27:50 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:27:50 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=0AD05C4D512DCCBF8B396DCCCAB5FD0F.web08-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2b45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=0AD05C4D512DCCBF8B396DCCCAB5FD0F.web08-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:27:41 GMT; Path=/
+      Content-Length:
+      - '1140'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="KOA" count="3" parkId="190164" resultType="campsites" siteType="2001">
+        <result Loop="Grand Junction KOA" Maxeqplen="60" Maxpeople="8" Site="Pull-thru, Full hookups, 50/30 amp, Cable, WiFi" SiteId="409" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Grand Junction KOA" Maxeqplen="85" Maxpeople="8" Site="Pull-thru, Full hookups, 50/30 amp, Cable, WiFi" SiteId="410" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Grand Junction KOA" Maxeqplen="40" Maxpeople="6" Site="Back-in, Water/Electric, 30/20 amp, Cable, WiFi" SiteId="51650" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:27:50 GMT
+recorded_with: VCR 2.5.0

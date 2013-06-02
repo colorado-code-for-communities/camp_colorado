@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=110534&siteType=2002
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:13:41 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:13:41 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=3D5CAB0C1BAC316F3C15688341A5A30B.web04-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2745525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=3D5CAB0C1BAC316F3C15688341A5A30B.web04-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:13:41 GMT; Path=/
+      Content-Length:
+      - '4534'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="12" parkId="110534" resultType="campsites" siteType="2002">
+        <result Loop="DEARHAMER CAMPGROUND" Maxeqplen="52" Maxpeople="10" Site="001" SiteId="339582" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="655.57" mapy="408.68" sitePhoto="/webphotos//NRSO/pid110534/sid339582/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Riverfront"/>
+        <result Loop="DEARHAMER CAMPGROUND" Maxeqplen="69" Maxpeople="10" Site="002" SiteId="339583" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="542.54" mapy="355.14" sitePhoto="/webphotos//NRSO/pid110534/sid339583/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Riverfront"/>
+        <result Loop="DEARHAMER CAMPGROUND" Maxeqplen="49" Maxpeople="10" Site="003" SiteId="339584" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="439.92" mapy="312.01" sitePhoto="/webphotos//NRSO/pid110534/sid339584/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Riverfront"/>
+        <result Loop="DEARHAMER CAMPGROUND" Maxeqplen="36" Maxpeople="10" Site="004" SiteId="339585" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="331.35" mapy="355.14" sitePhoto="/webphotos//NRSO/pid110534/sid339585/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DEARHAMER CAMPGROUND" Maxeqplen="40" Maxpeople="10" Site="005" SiteId="339586" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="353.65" mapy="246.57" sitePhoto="/webphotos//NRSO/pid110534/sid339586/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Riverfront"/>
+        <result Loop="DEARHAMER CAMPGROUND" Maxeqplen="45" Maxpeople="10" Site="007" SiteId="339588" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="218.31" mapy="386.37" sitePhoto="/webphotos//NRSO/pid110534/sid339588/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DEARHAMER CAMPGROUND" Maxeqplen="38" Maxpeople="10" Site="008" SiteId="339589" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="259.96" mapy="512.79" sitePhoto="/webphotos//NRSO/pid110534/sid339589/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DEARHAMER CAMPGROUND" Maxeqplen="30" Maxpeople="10" Site="009" SiteId="339590" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="378.94" mapy="575.25" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DEARHAMER CAMPGROUND" Maxeqplen="42" Maxpeople="10" Site="010" SiteId="339591" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="497.92" mapy="607.97" sitePhoto="/webphotos//NRSO/pid110534/sid339591/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DEARHAMER CAMPGROUND" Maxeqplen="47" Maxpeople="10" Site="011" SiteId="339631" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="625.82" mapy="625.82" sitePhoto="/webphotos//NRSO/pid110534/sid339631/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DEARHAMER CAMPGROUND" Maxeqplen="42" Maxpeople="10" Site="012" SiteId="339632" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="698.7" mapy="624.33" sitePhoto="/webphotos//NRSO/pid110534/sid339632/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DEARHAMER CAMPGROUND" Maxeqplen="60" Maxpeople="10" Site="013" SiteId="339633" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="774.55" mapy="581.2" sitePhoto="/webphotos//NRSO/pid110534/sid339633/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:13:41 GMT
+recorded_with: VCR 2.5.0

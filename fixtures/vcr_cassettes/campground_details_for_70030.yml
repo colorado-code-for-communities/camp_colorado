@@ -1,0 +1,85 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70030
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:14:12 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:14:12 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=D1B311AB9BEBB487EFA3968A0166A5AA.web05-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2645525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=D1B311AB9BEBB487EFA3968A0166A5AA.web05-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:14:12 GMT; Path=/
+      Content-Length:
+      - '5710'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Dowdy Lake Campground is located 48 miles northwest of Fort Collins, Colo., near the village of Red Feather Lakes. Visitors enjoy the area for its canoeing, fishing and trail opportunities." drivingDirection="From Fort Collins, take Highway 287 north for approximately 24 miles to Livermore. Turn west on County Road 74 and continue about 23 miles to Dowdy Lake Road. Turn right, then another right onto Dowdy Drive and continue to the campground." facilitiesDescription="The campground offers 60 accessible single and double family campsites with electric hookups. Ten sites are designated for tent camping only and do not have hookups. Each site contains a tent pad, picnic table and campfire ring with grill.    Vault toilets, drinking water and trash collection are provided. Dead and downed firewood may be gathered in the forest or purchased in bundles from the campground host." facility="DOWDY LAKE" facilityID="70030" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70030&amp;cmp=39-32--mcmire" importantInformation=" This is bear country! For bear and human safety, keep a clean campsite and do not place food or other attractants in your tent. For more information about visiting bear country, contact Colorado Parks and Wildlife at http://wildlife.state.co.us Dowdy Lake is a no-wake lake Campsite fee includes use of the day-use area Drinking water is available until Sept. 30 Extra parking is not available Click here for more information on the Arapaho and Roosevelt National Forests Operated by American Land &amp;amp;amp; Leisure. You may contact us at www.AmericanLL.com or 801-226-3564. " latitude="40.7965139" longitude="-105.5655056" nearbyAttrctionDescription="The small village of Red Feather Lakes is nearby, offering limited dining options, gift shops, general stores, a library, post office and a golf course." note="" orientationDescription="The campground is situated in a ponderosa pine forest on the shore of Dowdy Lake, at an elevation of 8,200 feet. Afternoon thunderstorms can be expected during spring and summer months.    Due to the mountain pine beetle infestation and removal of hazardous trees, some sites have reduced shade." recreationDescription="Canoeing and fishing are popular activities on the 115-acre, no-wake Dowdy Lake. Motorized boats are allowed on the lake, but a 10 mph speed limit is enforced. Anglers cast for brown, brook, cutthroat and lake trout. Several additional lakes are in the vicinity.    Many hiking, biking and horseback riding trails are in the surrounding area, including the 4-mile Mount Margaret Trail. Several off-road vehicle trails are located within five miles of the campground.    Other popular activities include viewing wildlife and visiting the nearby Redfeather Visitor Center." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70030&amp;cmp=39-32--mcmire">
+        <address city="BELLEVUE" country="United States" shortName="DOWD" state="Colorado" streetAddress="REDFEATHER LAKES" zip="80512"/>
+        <photo realUrl="/webphotos/NRSO/pid70030/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70030/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70030/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70030_DOWD.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9708812210"/>
+        <contact name="Ranger Station" number="9702956700"/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Accessible Trails"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Boat Ramp"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Canoeing"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Electric Hookups"/>
+        <amenity distance="Within Facility" name="Fee Station"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseback Riding Trails"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Kayaking"/>
+        <amenity distance="Within Facility" name="Lake Access"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Self Pay Station"/>
+        <amenity distance="Within Facility" name="Tent Pads"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within 10 Miles" name="General Store"/>
+        <amenity distance="Within 10 Miles" name="Off-Road Vehicle Trails"/>
+        <amenity distance="Within 10 Miles" name="Restaurant"/>
+        <amenity distance="Within 10 Miles" name="Visitor Center"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:14:12 GMT
+recorded_with: VCR 2.5.0

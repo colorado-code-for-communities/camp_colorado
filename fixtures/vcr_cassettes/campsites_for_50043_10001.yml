@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50043&siteType=10001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:43:57 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:43:57 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=950D78179D7CB89A7044DB84487DEA55.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=950D78179D7CB89A7044DB84487DEA55.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:43:57 GMT; Path=/
+      Content-Length:
+      - '4038'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="CO" count="12" parkId="50043" resultType="campsites" siteType="10001">
+        <result Loop="CABN CABINS" Maxeqplen="0" Maxpeople="12" Site="SYLACABN001HA" SiteId="4454" SiteReserveType="site-specific" SiteType="CABIN LARGE" mapx="832.381713867188" mapy="427.513732910156" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="CABN CABINS" Maxeqplen="0" Maxpeople="6" Site="SYLACABN002HA" SiteId="4455" SiteReserveType="site-specific" SiteType="CABIN SMALL" mapx="787.383850097656" mapy="427.148010253906" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="CABN CABINS" Maxeqplen="0" Maxpeople="6" Site="SYLACABN003" SiteId="4456" SiteReserveType="site-specific" SiteType="CABIN SMALL" mapx="748.764709472656" mapy="425.846893310547" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="CABN CABINS" Maxeqplen="0" Maxpeople="6" Site="SYLACABN004" SiteId="4457" SiteReserveType="site-specific" SiteType="CABIN SMALL" mapx="706.802856445313" mapy="424.394409179688" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="CABN CABINS" Maxeqplen="0" Maxpeople="6" Site="SYLACABN005" SiteId="4458" SiteReserveType="site-specific" SiteType="CABIN SMALL" mapx="660.63818359375" mapy="423.283660888672" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="CABN CABINS" Maxeqplen="0" Maxpeople="6" Site="SYLACABN006HA" SiteId="4459" SiteReserveType="site-specific" SiteType="CABIN SMALL" mapx="759.004028320313" mapy="252.311340332031" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="CABN CABINS" Maxeqplen="0" Maxpeople="6" Site="SYLACABN007" SiteId="4460" SiteReserveType="site-specific" SiteType="CABIN SMALL" mapx="757.905700683594" mapy="217.165176391602" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="CABN CABINS" Maxeqplen="0" Maxpeople="6" Site="SYLACABN008" SiteId="4461" SiteReserveType="site-specific" SiteType="CABIN SMALL" mapx="749.119201660156" mapy="193.002197265625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="CABN CABINS" Maxeqplen="0" Maxpeople="6" Site="SYLACABN009" SiteId="4462" SiteReserveType="site-specific" SiteType="CABIN SMALL" mapx="672.236938476563" mapy="233.639938354492" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="YURTS - BRUSH CREEK" Maxeqplen="0" Maxpeople="6" Site="SYLAYURTBRCR001HA" SiteId="5088" SiteReserveType="site-specific" SiteType="YURT" mapx="23.9965362548828" mapy="238.080856323242" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="YURTS - BRUSH CREEK" Maxeqplen="0" Maxpeople="6" Site="SYLAYURTBRCR002" SiteId="5089" SiteReserveType="site-specific" SiteType="YURT" mapx="22.1793842315674" mapy="197.896209716797" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="YURTS - BRUSH CREEK" Maxeqplen="0" Maxpeople="6" Site="SYLAYURTBRCR003" SiteId="5090" SiteReserveType="site-specific" SiteType="YURT" mapx="22.4782257080078" mapy="160.36262512207" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:43:57 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70503
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:46:24 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:46:24 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=B5F630554762B2BCDC11F4C482A6B043.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=B5F630554762B2BCDC11F4C482A6B043.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:46:23 GMT; Path=/
+      Content-Length:
+      - '7835'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Windy Point is located near Dillon Reservoir at an elevation of 9,000 feet in the White River National Forest. The site consists of a group camp and a group picnic  shelter that can accommodate up to 100 people each.    With views to Dillon Reservoir and several mountain ranges, Windy Point is ideal for larger groups seeking recreation and relaxation.  Due to the pine beetle infestation and removal of hazard trees, there is little or no shade at Windy Point." drivingDirection="From I-70, take the Silverthorne exit 205. Travel east on Highway 6approximately 4 miles to Swan Mountain Road. Proceed 2 miles to SwanMountain Recreation Area. Take dirt road to campground." facilitiesDescription="Windy Point Campground has 1 group campsite able to accommodate tents, trailers, and RVs.    The campsite is equipped with picnic tables, campfire rings, and vault toilets. Electrical hook-ups and drinking water are not available. Guests must bring their own water.    The group picnic shelter is handicap-accessible.  Boat ramp access is available in the marinas located in the nearby towns of Frisco and Dillon." facility="WINDY POINT (CO)" facilityID="70503" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70503&amp;cmp=39-32--mcmire" importantInformation=" This facility is operated by White River Recreation, a division of California Land Management and your comments are appreciated; comment forms are available from campground hosts or on CLM&amp;apos;s website . No water is available at the campground, please bring your own utility and drinking water with you Gate to campground is locked. See host at Prospector Campground (.25 miles from this site) for access. After Labor Day, guests need to obtain the gate combination by calling the managing organization Please close gate at the entrance to Windy Point to keep out people who are not with reservation group Campers must not enter the new construction area Sites may be available on a first-come, first-serve basis Body contact with reservoir prohibited; No swimming, water skiing, jetskiing, or scuba diving in the reservoir Prevent the spread of invasive species by inspecting and cleaning packs, equipment, and tires before using lake or trails In accordance with standard industry practices, there will be a $5 additional vehicle fee on the second vehicle in each single family campsite, and on the third and fourth vehicles in any double family campsite, provided these vehicles are not joined to the first vehicle by a hitch and towed onto the site. In the case of motorcycles, the first two are considered as one vehicle for determining additional vehicle fees. The third and fourth motorcycle would also be considered as one vehicle. No additional vehicle fees are collected for bicycles. Click here for more information about White River National Forest. " latitude="39.6077778" longitude="-106.0444444" nearbyAttrctionDescription="Arapahoe Basin, Keystone, Breckenridge, and Copper Mountain ski resorts are all located within 10 miles from Dillon Reservoir. These resorts stay open year round." note="" orientationDescription="In the heart of the Rocky Mountains, the 2.3 million acre White River National Forest is a place of serenity and adventure, boasting 8 wilderness areas, 4  defined seasons, and 10 peaks surpassing 14,000 feet in elevation.    Described as being more vertical than horizontal, the nearby Eagles Nest Wilderness, designated in 1976, is a playground of craggy cliffs, sheer rock faces, alpine lakes, and deep, forested valleys. Visitors will find foot travel across this pristine area challenging and often strenuous, but will be rewarded with spectacular scenery.      Wildlife in the area abounds. Bighorn sheep navigate rocky ridges and bull elk bugle at dusk. Scenic rivers sustain populations of cutthroat, rainbow, and brown trout.  Alpine regions provide habitat for pika and ptarmigan. These species, along with many others, depend on surrounding undeveloped wilderness, clean streams, and diverse forests to live." recreationDescription="Dillon Reservoir, often referred to as Lake Dillon, is the greatest draw to Windy Point and an ideal spot for fishing, boating, and sailing. Anglers will find that the reservoir supports a healthy population of rainbow and brown trout, with an occasional cutthroat trout finding its way into the lake from feeder streams.     Opportunities for hiking and biking include more than 7 paved miles of the 50-mile Summit County trail system.     From the reservoir, the Old Dillon Reservoir Trail is a favorite. This short, easy trail has spectacular views of the Tenmile Range and the Continental Divide. The Old Dillon Reservoir was built in the 1930s to supply water to the original town of Dillon, which is now covered by the new Dillon Reservoir.  " regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70503&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="WINP" state="Colorado" streetAddress="WHITE RIVER" zip=""/>
+        <photo realUrl="/webphotos/NRSO/pid70503/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70503/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70503/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70503/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70503/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70503/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70503/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70503/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70503/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70503_WINP.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9709270107"/>
+        <contact name="Ranger Station" number="9709270107"/>
+        <amenity distance="Within Facility" name="Accessible Picnic Shelters"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Group Camping"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Lake Access"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Picnic Shelter"/>
+        <amenity distance="Within Facility" name="Trails"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within 10 Miles" name="Boat Ramp"/>
+        <amenity distance="Within 10 Miles" name="General Store"/>
+        <amenity distance="Within 10 Miles" name="Grocery Store"/>
+        <amenity distance="Within 10 Miles" name="Marina"/>
+        <bulletin description="Due to extreme dry conditions and low snow levels, water may not be available Please bring water for your use " headline="Attention"/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:46:24 GMT
+recorded_with: VCR 2.5.0

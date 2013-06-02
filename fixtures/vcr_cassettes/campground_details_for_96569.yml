@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=96569
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:13:31 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:13:31 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=F595282544DC40E754AF3D36F0053A1D.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=F595282544DC40E754AF3D36F0053A1D.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:13:31 GMT; Path=/
+      Content-Length:
+      - '4852'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Dawson&amp;amp;#39;s Cabin provides campers with a rustic, remote getaway in the beautiful Clear Creek Canyon. The Clear Creek Historical District offers visitors a taste of mining history from the mid-19th Century, when people came far and wide looking for gold, silver and other precious minerals. By the 1890s, about 50,000 residents lived in the valley, in search of great fortune." drivingDirection="From Buena Vista Colorado, go about 15 miles north on Highway 24 towards Leadville. Turn left on County Road 390 at Clear Creek Reservoir.  Go about 8 miles west on County Road 390, then turn right (north) onto the cabin driveway. The cabin is about 100 yards from the County Road." facilitiesDescription="The cabin comfortably fits up to four guests, but two additional guests may fit. Camping outside is permitted as well. Furnishings include a cook stove, wood burning stove and an indoor picnic table. Guests should bring cots to sleep on, or at least bring a pad to sleep on the floor.     No water or electricity is available. Guests should bring plenty of water. Creek water may be boiled and treated for consumption. Other items to pack include bedding, food, lanterns, matches, cooking utensils, dish soap and a first aid kit. ( Click here for more cabin details. )" facility="DAWSONS CABIN" facilityID="96569" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=96569&amp;cmp=39-32--mcmire" importantInformation=" Entry to the cabin and toilet is by combination lock, provided in confirmation letter Please contact ranger district prior to arrival for updated restrictions and weather conditions No water available; bring enough for drinking, cooking and washing Please bring garbage bags; this is a &amp;amp;quot;pack in-pack out&amp;amp;quot; facility No pets allowed No cell phone coverage; nearest pay phone is 20 miles southeast in Buena Vista For more information on Pike and San Isabel National Forests, click here " latitude="39.005" longitude="-106.3533333" nearbyAttrctionDescription="The historic town of Winfield is about 5 miles farther up the valley.  The nearest place for pay phones and a grocery store is in Buena Vista, about a 45 minute drive.     Visitors can head to Clear Creek Reservoir, about 5 miles east, for fishing and boating. Fish species include brook trout, brown trout and tiger muskie. A few miles further is the Arkansas River, where whitewater rafting is a big hit." note="" orientationDescription="Dawson&amp;amp;#39;s Cabin is nestled at the base of Ervin Peak in Clear Creek Canyon, at an elevation of about 9,600 feet.  It is on the outskirts of the Collegiate Peaks Wilderness in the Sawatch Range of the Rocky Mountains. Clear Creek passes near the cabin.    The cabin is located in the Leadville Ranger District, which is home to the Sawatch Range, the highest mountain range in Colorado. These rugged, glaciated mountains form the crest of the Continental Divide. Mount Elbert, at 14,443 feet, is Colorado&amp;amp;#39;s highest peak and one of ten &amp;amp;quot;fourteeners&amp;amp;quot; located in the District." recreationDescription="Off-road vehicle trails and hiking trails are nearby. Some hiking trails lead into the Collegiate Peaks Wilderness, which is named for the numerous 14,000 ft. peaks named after colleges, such as Yale, Harvard and Princeton.      Collegiate Peaks is the headwaters for the Arkansas, Gunnison, and Roaring Fork Rivers. The landscape is composed of alpine tundra, high lake basins and glacial river valleys." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=96569&amp;cmp=39-32--mcmire">
+        <address city="Leadville" country="United States" shortName="G569" state="Colorado" streetAddress="" zip="80461"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number=""/>
+        <contact name="Ranger Station" number=""/>
+        <amenity distance="Within Facility" name="Bed(s)"/>
+        <amenity distance="Within Facility" name="Broom &amp;amp; Dust Pan"/>
+        <amenity distance="Within Facility" name="Fire Extinguisher"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Historic Sites"/>
+        <amenity distance="Within Facility" name="Off-Road Vehicle Trails"/>
+        <amenity distance="Within Facility" name="Propane Stove"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wood Stove"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:13:31 GMT
+recorded_with: VCR 2.5.0

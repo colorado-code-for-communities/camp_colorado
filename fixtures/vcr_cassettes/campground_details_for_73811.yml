@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73811
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:29:28 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:29:28 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=C5F8842A651E34E41C226A512950C42E.web08-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2b45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=C5F8842A651E34E41C226A512950C42E.web08-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:29:28 GMT; Path=/
+      Content-Length:
+      - '3658'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="The Indian Creek Equestrian Campground is an ideal camping site for avid horseback riders looking to explore the Indian Creek Equestrian Trail. The area provides a pleasant atmosphere plus nearby access to the Rampart Range, a well known off-highway vehicle riding area.     The area boasts wildlife like mule deer, turkey, elk and black bears. The Roxborough State Park is located to the northeast of the campground as has a reputation for its dramatic red-rock formations." drivingDirection="From Sedalia, drive about 10 miles west on Highway 67 and the entrance is about a half mile from the intersection of Highway 67 and Rampart Range Rd." facilitiesDescription="Four hitching rails and some small corrals are provided for common use. Drinking water is on hand from hydrants. There is no watering trough available.     The campground is adjacent to the Indian Creek Campground, which is available for family camping." facility="INDIAN CREEK EQUESTRIAN CAMPGROUND" facilityID="73811" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=73811&amp;cmp=39-32--mcmire" importantInformation=" Be bear aware; keep all food out of site in approved containers or locked inside your vehicle and remove all food from area after eating Hay brought to this facility must be certified weed-free No electric hookups available No firearms or fireworks Limit 1 vehicle and 1 horse trailer per site; extra vehicle fee exceeding the limit is $5/night and is collected by the camp host For more information on Pike and San Isabel National Forests, click here " latitude="39.3916667" longitude="-105.1088889" nearbyAttrctionDescription="" note="" orientationDescription="Campsites sit among a mix of trees that provide both shade and sun throughout the day. These include Ponderosa pine, Gamble oak, Douglas fir, aspen and spruce.     Pike-San Isabel National Forests include over a million acres of wilderness and over half of Colorado&amp;amp;#39;s mountain peaks that reach above 14,000 feet in altitude." recreationDescription="The Indian Creek Trail, which is also called the Bear Creek Trail, is a loop trail that extends for 14 miles. In addition to horseback riders, mountain bikers and hikers also enjoy taking on the scenic journey." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=73811&amp;cmp=39-32--mcmire">
+        <address city="S.PLATTE RANGER DIST" country="United States" shortName="ICEC" state="Colorado" streetAddress="PIKE NATIONAL FOREST" zip=""/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/73811_ICEC.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="3030000000"/>
+        <contact name="Ranger Station" number="3032755610"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Equestrian Sites"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hitching Racks"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Pit Toilets"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:29:28 GMT
+recorded_with: VCR 2.5.0

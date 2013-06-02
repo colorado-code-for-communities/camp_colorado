@@ -1,0 +1,90 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50069&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:30:07 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:30:07 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=FB84F0B56FF081D8FF054809195D83F2.web07-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2845525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=FB84F0B56FF081D8FF054809195D83F2.web07-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:30:07 GMT; Path=/
+      Content-Length:
+      - '14860'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="CO" count="44" parkId="50069" resultType="campsites" siteType="2001">
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN001HA" SiteId="4558" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="410.304443359375" mapy="568.068298339844" sitePhoto="/webphotos//CO/pid50069/sid4558/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN002" SiteId="4559" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="385.2587890625" mapy="612.4228515625" sitePhoto="/webphotos//CO/pid50069/sid4559/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN003" SiteId="4560" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="466.067993164063" mapy="586.675170898438" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN004" SiteId="4561" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="448.440155029297" mapy="633.735717773438" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN005HA" SiteId="4562" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="566.536560058594" mapy="595.572570800781" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN006" SiteId="4563" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="506.488586425781" mapy="653.949584960938" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN007" SiteId="4564" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="586.544799804688" mapy="632.5546875" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN008" SiteId="4565" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="558.929077148438" mapy="676.09716796875" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN009" SiteId="4566" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="627.208984375" mapy="650.076965332031" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN010" SiteId="4567" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="613.806884765625" mapy="699.3134765625" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN011" SiteId="4568" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="680.4228515625" mapy="670.24267578125" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN012" SiteId="4569" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="665.982482910156" mapy="714.83935546875" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN013" SiteId="4570" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="740.639404296875" mapy="734.501220703125" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="45" Maxpeople="6" Site="FRUIFRUIMAIN014" SiteId="4571" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="777.588745117188" mapy="691.275268554688" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN015" SiteId="4572" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="833.614807128906" mapy="731.513366699219" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN016" SiteId="4573" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="827.891418457031" mapy="677.63818359375" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN017" SiteId="4574" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="898.925659179688" mapy="668.751892089844" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="45" Maxpeople="6" Site="FRUIFRUIMAIN018" SiteId="4575" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="832.986145019531" mapy="636.96142578125" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN019" SiteId="4576" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="874.844421386719" mapy="601.491394042969" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN020" SiteId="4577" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="829.44970703125" mapy="569.403686523438" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN021" SiteId="4578" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="767.253540039063" mapy="598.739379882813" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN022" SiteId="4579" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="779.948852539063" mapy="544.002014160156" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN023" SiteId="4580" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="704.870239257813" mapy="562.182861328125" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN024" SiteId="4581" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="730.667541503906" mapy="517.921875" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN025HD" SiteId="4582" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="633.900085449219" mapy="531.493347167969" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="45" Maxpeople="6" Site="FRUIFRUIMAIN026" SiteId="4583" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="701.772399902344" mapy="483.191925048828" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN027" SiteId="4584" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="645.412475585938" mapy="474.301727294922" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN028" SiteId="4585" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="705.861206054688" mapy="443.678344726563" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="40" Maxpeople="6" Site="FRUIFRUIMAIN029" SiteId="4586" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. ELECTRIC" mapx="659.520446777344" mapy="409.465576171875" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="45" Maxpeople="6" Site="FRUIFRUIMAIN030" SiteId="4587" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="706.852172851563" mapy="404.213043212891" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN031" SiteId="4588" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="699.255432128906" mapy="354.775390625" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="45" Maxpeople="6" Site="FRUIFRUIMAIN032" SiteId="4589" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="635.691955566406" mapy="357.746398925781" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="45" Maxpeople="6" Site="FRUIFRUIMAIN033" SiteId="4590" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="662.589782714844" mapy="315.418670654297" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN034" SiteId="4591" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="578.265319824219" mapy="358.690063476563" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN035" SiteId="4592" SiteReserveType="site-specific" SiteType="&gt; 40 FT. ELECTRIC" mapx="560.811157226563" mapy="311.407318115234" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN036" SiteId="4593" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="484.091979980469" mapy="334.069152832031" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront="Lakefront"/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN037" SiteId="4594" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="488.840362548828" mapy="389.078918457031" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN038" SiteId="4595" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="436.555755615234" mapy="357.509979248047" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront="Lakefront"/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN039" SiteId="4596" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="442.454315185547" mapy="416.307739257813" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN040" SiteId="4597" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="365.724639892578" mapy="409.229156494141" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront="Lakefront"/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN041" SiteId="4598" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="393.095245361328" mapy="471.659820556641" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN042" SiteId="4599" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="333.872009277344" mapy="470.432464599609" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront="Lakefront"/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN043" SiteId="4600" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="374.235137939453" mapy="539.580322265625" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="50" Maxpeople="6" Site="FRUIFRUIMAIN044" SiteId="4601" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="317.120208740234" mapy="534.750427246094" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront="Lakefront"/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:30:07 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=KOA&parkId=190304
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:39:00 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:39:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=308B2A12DBC8A9B76B3790BC2E07D742.web03-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2445525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=308B2A12DBC8A9B76B3790BC2E07D742.web03-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:39:00 GMT; Path=/
+      Content-Length:
+      - '5382'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="KOA" description="Planning a trip to the Pueblo area? We&amp;amp;#39;re just 20 miles south! Country quiet in a mountain setting yet just minutes from the city! Spend your vacation here, or join us for a weekend camping get-away!  If you&amp;amp;#39;re traveling in a smaller RV, you will enjoy our grassy, shady 55&amp;amp;#39; pull-through RV sites. For those of you with the big rigs, we&amp;amp;#39;re also &amp;quot;Big Rig Friendly&amp;quot;. We have 60&amp;amp;#39; x 30&amp;amp;#39; angled sites, and for the Big Rigs towing larger vehicles, we have 85&amp;amp;#39; pull-thru sites, all grassed, some are shaded, some are satellite friendly. Our tent and Camping Cabin areas are all grass with lots of shade and a view of the mountains. All sites have free cable TV and WiFi.  Enjoy the heated pool or hot tub, work out in the fitness center, play a game of mini-golf or join in our planned activities, BBQs, breakfasts and dessert socials. We welcome groups and reunions and offer the use of our covered pavilion or indoor social room for your activities.  An excellent base camp for your Colorado vacation, many unforgettable Colorado attractions are only a 15- to 60-mile drive from here in all directions. Visit Pikes Peak area, Royal Gorge area, and the Great Sand Dunes National Monument attractions. And don&amp;amp;#39;t miss the many Pueblo area attractions and especially the Historic Arkansas Riverwalk and all its activities, just 20 minutes away!  Hollydot&amp;amp;#39;s 27-hole championship golf course is only two miles from the campground plus there are two fishing lakes, many mountain streams, Bishop&amp;amp;#39;s Castle, the Frontier Pathway Scenic and Historic Byway and countless 4X4 off-road and hiking trails just up the road from there.  Pueblo South/Colorado City KOA Campground is located at Exit 74 (east) off Interstate 25 in the Greenhorn Mountain Valley in Colorado&amp;amp;#39;s southern Rockies. With 300+ annual days of sunshine, our days are warm but evenings are always cool and enjoyable. Don&amp;amp;#39;t miss our gorgeous evening sunsets and nightly light shows with a 360-degree view of the stars.  We offer seasonal, weekly, monthly and group rates and freshly baked cookies for everyone when you check in! Children 5 and under always stay free!" drivingDirection="We are located on the east side of Interstate 25 at Colorado City Exit 74. PLEASE DO NOT USE A GPS TO FIND US AS IT WILL TAKE YOU OFF I-25 AT THE WRONG EXIT." facilitiesDescription="" facility="Pueblo South / Colorado City KOA" facilityID="190304" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=KOA&amp;parkId=190304&amp;cmp=39-32--mcmire" importantInformation="" latitude="37.9594444" longitude="-104.7977778" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="KOA Region" reservationUrl="/campsiteSearch.do?contractCode=KOA&amp;parkId=190304&amp;cmp=39-32--mcmire">
+        <address city="Pueblo" country="United States" shortName="A304" state="Colorado" streetAddress="9040 Interstate 25 South @ Exit 74," zip="81004"/>
+        <photo realUrl="/webphotos/KOA/pid190304/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190304/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190304/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190304/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190304/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190304/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190304/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190304/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190304/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190304/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190304/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190304/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190304/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190304/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190304/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190304/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190304/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190304/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number=""/>
+        <contact name="Ranger Station" number="7196763376"/>
+        <amenity distance="" name=""/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:39:00 GMT
+recorded_with: VCR 2.5.0

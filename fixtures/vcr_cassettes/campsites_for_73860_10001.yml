@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73860&siteType=10001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:38:00 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:38:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=561A091ED233C4CE6614CF334664800F.web04-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2745525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=561A091ED233C4CE6614CF334664800F.web04-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:37:59 GMT; Path=/
+      Content-Length:
+      - '486'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="1" parkId="73860" resultType="campsites" siteType="10001">
+        <result Loop="PINEY GUARD" Maxeqplen="10" Maxpeople="4" Site="01" SiteId="137627" SiteReserveType="site-specific" SiteType="CABIN NONELECTRIC" mapx="662.426086425781" mapy="258.495635986328" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:38:00 GMT
+recorded_with: VCR 2.5.0

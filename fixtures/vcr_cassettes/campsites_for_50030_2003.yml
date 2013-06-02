@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50030&siteType=2003
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:32:45 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:32:45 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=F6597607C0FFB7821F2A93DF978F5C9C.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=F6597607C0FFB7821F2A93DF978F5C9C.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:32:45 GMT; Path=/
+      Content-Length:
+      - '2053'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="CO" count="6" parkId="50030" resultType="campsites" siteType="2003">
+        <result Loop="HIKE" Maxeqplen="9" Maxpeople="6" Site="LOSTHIKEHIKE001" SiteId="1542" SiteReserveType="site-specific" SiteType="TENT ONLY" mapx="204.952896118164" mapy="444.612640380859" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIKE" Maxeqplen="9" Maxpeople="6" Site="LOSTHIKEHIKE002" SiteId="1543" SiteReserveType="site-specific" SiteType="TENT ONLY" mapx="198.050048828125" mapy="461.869720458984" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIKE" Maxeqplen="9" Maxpeople="6" Site="LOSTHIKEHIKE003" SiteId="1544" SiteReserveType="site-specific" SiteType="TENT ONLY" mapx="187.120544433594" mapy="487.18017578125" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIKE" Maxeqplen="9" Maxpeople="6" Site="LOSTHIKEHIKE004" SiteId="1545" SiteReserveType="site-specific" SiteType="TENT ONLY" mapx="305.619415283203" mapy="564.261962890625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIKE" Maxeqplen="9" Maxpeople="6" Site="LOSTHIKEHIKE005" SiteId="1546" SiteReserveType="site-specific" SiteType="TENT ONLY" mapx="316.548919677734" mapy="580.368591308594" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="HIKE" Maxeqplen="9" Maxpeople="6" Site="LOSTHIKEHIKE006" SiteId="1547" SiteReserveType="site-specific" SiteType="TENT ONLY" mapx="328.62890625" mapy="597.625732421875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:32:45 GMT
+recorded_with: VCR 2.5.0

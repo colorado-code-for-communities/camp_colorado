@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=LARC&parkId=710105&siteType=9001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:29:18 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:29:18 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=C41701D7CF4F89424599C0987DFA737D.web03-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2445525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=C41701D7CF4F89424599C0987DFA737D.web03-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:29:18 GMT; Path=/
+      Content-Length:
+      - '1635'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="LARC" count="4" parkId="710105" resultType="campsites" siteType="9001">
+        <result Loop="Horsetooth Reservoir" Maxeqplen="0" Maxpeople="50" Site="Lions' Open Space" SiteId="1855" SiteReserveType="site-specific" SiteType="PAVILION" mapx="768.14" mapy="63.13" sitePhoto="/webphotos//LARC/pid710105/sid1855/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Riverfront"/>
+        <result Loop="Horsetooth Reservoir" Maxeqplen="0" Maxpeople="25" Site="Sunrise" SiteId="1854" SiteReserveType="site-specific" SiteType="PAVILION" mapx="801.05" mapy="343.25" sitePhoto="/webphotos//LARC/pid710105/sid1854/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="South Bay Campground" Maxeqplen="0" Maxpeople="225" Site="South Bay AM" SiteId="1852" SiteReserveType="site-specific" SiteType="PAVILION" mapx="117.57" mapy="527.36" sitePhoto="/webphotos//LARC/pid710105/sid1852/0/180x120.jpg" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="South Bay Campground" Maxeqplen="0" Maxpeople="225" Site="South Bay PM" SiteId="1853" SiteReserveType="site-specific" SiteType="PAVILION" mapx="115.15" mapy="511.34" sitePhoto="/webphotos//LARC/pid710105/sid1853/0/180x120.jpg" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:29:18 GMT
+recorded_with: VCR 2.5.0

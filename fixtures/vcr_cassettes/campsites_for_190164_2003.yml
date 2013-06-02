@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=KOA&parkId=190164&siteType=2003
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:27:51 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:27:51 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=0DA9A63949C70BE42A0CCA090B1F62D0.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=0DA9A63949C70BE42A0CCA090B1F62D0.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:27:51 GMT; Path=/
+      Content-Length:
+      - '1989'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="KOA" count="6" parkId="190164" resultType="campsites" siteType="2003">
+        <result Loop="Grand Junction KOA" Maxeqplen="0" Maxpeople="4" Site="1 Room Camping Cabin (w/o Bathroom)" SiteId="32616" SiteReserveType="site-specific" SiteType="Tents" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Grand Junction KOA" Maxeqplen="0" Maxpeople="6" Site="2 Room Camping Cabin (w/o Bathroom)" SiteId="32617" SiteReserveType="site-specific" SiteType="Tents" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Grand Junction KOA" Maxeqplen="0" Maxpeople="4" Site="Deluxe Cabin (w/ Bathroom)" SiteId="51652" SiteReserveType="site-specific" SiteType="Tents" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Grand Junction KOA" Maxeqplen="0" Maxpeople="6" Site="Rental Unit" SiteId="55203" SiteReserveType="site-specific" SiteType="Tents" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Grand Junction KOA" Maxeqplen="10" Maxpeople="6" Site="Tent, Water/Electric" SiteId="24695" SiteReserveType="site-specific" SiteType="Tents" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Grand Junction KOA" Maxeqplen="40" Maxpeople="6" Site="Water/electric" SiteId="51651" SiteReserveType="site-specific" SiteType="Tents" mapx="" mapy="" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:27:51 GMT
+recorded_with: VCR 2.5.0

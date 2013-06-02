@@ -1,0 +1,84 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50043
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:43:55 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:43:55 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=17F455393E5C25C7876F99EB5F013249.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=17F455393E5C25C7876F99EB5F013249.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:43:55 GMT; Path=/
+      Content-Length:
+      - '6994'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description="   Attention OHV riders:   .  For 2013 due to changes to  Forest Service Travel Management rules Sylvan Lake will be closed to Off Highway Vehicles.  For information go to:  www.parks.state.co.us/Parks/SylvanLake/     November 2012: Elk Run Campsites 25-33 have been re-numbered! Check new maps when making reservations.    Located in the heart of the Colorado Rockies, Sylvan Lake State Park is a haven for those who enjoy the outdoors. Surrounded by the White River National Forest, Sylvan Lake offers a spectacular setting for boat and shore fishing, a great spot for picnicking, hiking and outdoor photography at the foot of beautiful wooded mountains. Forty-six campsites and 12 camper cabins and yurts are available.    There are a total of 46 campsites. Sites 1-34 in Elk Run Campground include sites with views of the lake or down the Brush Creek Valley. Sites 35-46 in Fisherman&amp;amp;#39;s Paradise Campground are set up for side by side parking and while you are right next to your neighbor they are popular for their location overlooking the lake. Sites accommodate tents, trailers and RVs. There are no individual site hook ups. The camper services building provides flush toilets and coin showers during summer. Drinking water and vault toilets are available year-round." drivingDirection=" To Sylvan Lake, Cabins, Campsites: Take I-70 to Eagle (Exit 147). Turn south and follow signs through town. On the south side of town turn south on Brush Creek Road and travel 10 miles to the Visitor Center. Continue on Brush Creek Road until the road forks and becomes dirt. At the fork stay right and travel 5 miles to the lake, campground and cabins.   To Brush Creek Yurts: Follow above directions until fork in road. Take left fork and travel 4.5 miles. The Yurts are on left at the top of the switchbacks. The Yurts are 9 1/2 miles from the lake.   For more information about the park or current conditions visit  www.colorado.gov/parks  or call (970) 328-2021. " facilitiesDescription="" facility="SYLVAN LAKE STATE PARK" facilityID="50043" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50043&amp;cmp=39-32--mcmire" importantInformation="Cabin reservations available year round. For 2013, campsite reservations available for the nights of May 17 through September 30. Yurt reservations available for the nights of May 17 through November 17. Weather conditions generally permit all campsites, flush toilets, coin showers, drinking water and dump station to be available mid May through mid October. Vault toilets open year round. Camping for self contained units remains available during the winter. Cabin #1 has running water year round. Contact the Park or check www.parks.state.co.us for current conditions. A $7.00 daily pass or Annual State Park Pass is required for each vehicle in addition to the cabin, yurt or camping fees. The COMBINATION for the door to the Cabin or Yurt will be included with your Reservation Confirmation. " latitude="39.4780556" longitude="-106.7330556" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="Rocky Mountain Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50043&amp;cmp=39-32--mcmire">
+        <address city="EAGLE" country="United States" shortName="SYLA" state="Colorado" streetAddress="P.O. Box 1475 &amp;lt;br&amp;gt; 10200 Brush Creek Road" zip="81631"/>
+        <photo realUrl="/webphotos/CO/pid50043/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50043/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50043/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50043/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50043/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50043/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50043/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50043/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50043/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50043/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50043/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50043/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50043/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50043/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50043/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="9703282021"/>
+        <contact name="Ranger Station" number=""/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Boat Launch Ramp"/>
+        <amenity distance="Within Facility" name="Boat Ramp"/>
+        <amenity distance="Within Facility" name="Camper Services Bldg"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Cross Country Skiing"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Firewood Available"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Group Campground"/>
+        <amenity distance="Within Facility" name="Group Camping"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Ice Fishing"/>
+        <amenity distance="Within Facility" name="Interpretitive Programs"/>
+        <amenity distance="Within Facility" name="Nature Study Exhibits"/>
+        <amenity distance="Within Facility" name="Parking"/>
+        <amenity distance="Within Facility" name="Photography"/>
+        <amenity distance="Within Facility" name="Picnic Tables"/>
+        <amenity distance="Within Facility" name="Picnicking"/>
+        <amenity distance="Within Facility" name="Ranger Station"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Snow Shoeing"/>
+        <amenity distance="Within Facility" name="Snowmobiling"/>
+        <amenity distance="Within Facility" name="Toilet, Pit/Vault"/>
+        <amenity distance="Within Facility" name="Visitor Center"/>
+        <amenity distance="Within Facility" name="Wildlife Watching Opportunity"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:43:56 GMT
+recorded_with: VCR 2.5.0

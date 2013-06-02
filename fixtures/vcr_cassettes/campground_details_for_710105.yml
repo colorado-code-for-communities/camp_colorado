@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=LARC&parkId=710105
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:29:13 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:29:13 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=9DBEA5483B2A43346E7DEB1A099126D9.web03-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2445525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=9DBEA5483B2A43346E7DEB1A099126D9.web03-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:29:13 GMT; Path=/
+      Content-Length:
+      - '4698'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="LARC" description="Located in the foothills west of Fort Collins at an elevation of 5,430 feet, Horsetooth Reservoir is 1,900 acres of water surrounded by 2,000 acres of public land. It is popular for fishing, boating, water-skiing, and camping. This 6.5-mile reservoir is open year round and is a part of the Colorado-Big Thompson Project operated by the Bureau of Reclamation and the Northern Colorado Water Conservancy District. The purpose of this water project is to divert water from the west slope to the east slope for drinking water, irrigation, and hydropower generation. The Bureau of Reclamation is solely responsible for power generation. The agencies jointly manage water levels for irrigation, municipal, and industry use.    Recreation is managed by Larimer County Natural Resources. Park Entrance Permits and Camping Fees are required." drivingDirection="From Denver:Take I-25 north to the Harmony Road/Timnath exit (#265). Turn left (west) continuing on Harmony Road for 7 miles where it becomes County Road 38E at the Taft Hill Road intersection. Continue west on County Road 38E approximately 4 more miles to the entrance at the south end of the Reservoir. The entrance to South Bay (including campground, group use area, and swim beach) is at the south end of the reservoir.  Watch for signs. To get to Inlet Bay (including Inlet Bay Marina and Inlet Bay Campground), continue west on 38E 1 3/4 miles past the South Bay entrance. Watch for signs and turn right on Shoreline Drive." facilitiesDescription="" facility="Horsetooth Reservoir" facilityID="710105" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=LARC&amp;parkId=710105&amp;cmp=39-32--mcmire" importantInformation="None" latitude="40.5294444" longitude="-105.165" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="Larimer Region" reservationUrl="/campsiteSearch.do?contractCode=LARC&amp;parkId=710105&amp;cmp=39-32--mcmire">
+        <address city="Fort Collins" country="United States" shortName="LRM4" state="Colorado" streetAddress="4200 West C.R. 38E" zip="80526"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="9706794570"/>
+        <contact name="Ranger Station" number="9706794570"/>
+        <amenity distance="Within Facility" name="Boat Launch"/>
+        <amenity distance="Within Facility" name="Boat Launch Ramp"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Horseshoes"/>
+        <amenity distance="Within Facility" name="Lake"/>
+        <amenity distance="Within Facility" name="Parking"/>
+        <amenity distance="Within Facility" name="Picnic Shelter"/>
+        <amenity distance="Within Facility" name="Picnicing"/>
+        <amenity distance="Within Facility" name="Ranger Station"/>
+        <amenity distance="Within Facility" name="Restroom"/>
+        <amenity distance="Within Facility" name="Scuba Diving"/>
+        <amenity distance="Within Facility" name="Shelters"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Volleyball"/>
+        <amenity distance="Within Facility" name="Water Drinking"/>
+        <amenity distance="Within Facility" name="Water Skiing"/>
+        <amenity distance="Within Facility" name="Windsurfing/Sailboarding"/>
+        <bulletin description="ADA campsites may be reserved through the Call Center only. " headline="Attention"/>
+        <bulletin description="The person making the reservation is responsible for making sure all site occupants know and obey regulations. " headline="Important Notice"/>
+        <bulletin description="&amp;lt;li&amp;gt;Sites must be reserved a minimum of 1 day prior to arrival day.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Any remaining sites &amp;lt;b&amp;gt;MAY&amp;lt;/b&amp;gt; be available first-come, first-serve at the campground.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt; &amp;lt;u&amp;gt;Monday -Thursday&amp;lt;/u&amp;gt;: first-come, first-serve sites are usually available.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt; &amp;lt;u&amp;gt;Friday, Saturday, Sunday, and holidays, from Memorial Day weekend through Labor Day weekend&amp;lt;/u&amp;gt;: first-come, first-serve sites are usually &amp;lt;b&amp;gt;NOT&amp;lt;/b&amp;gt; available. &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Availability is limited and &amp;lt;b&amp;gt;NOT&amp;lt;/b&amp;gt; guaranteed.&amp;lt;/li&amp;gt;" headline="Attention"/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:29:13 GMT
+recorded_with: VCR 2.5.0

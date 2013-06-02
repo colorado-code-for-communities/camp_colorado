@@ -1,0 +1,78 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70042
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:24:29 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:24:29 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=2989AEFFA93DFE774C33C6C59A0AD6A1.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=2989AEFFA93DFE774C33C6C59A0AD6A1.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:24:28 GMT; Path=/
+      Content-Length:
+      - '6648'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Cascade Campground is located in beautiful Chalk Creek Canyon in central Colorado. This popular facility sits near Cascade Falls and within 10 miles of a private hot springs resort, making it an ideal location for rest and relaxation. It&amp;amp;#39;s also a great destination for visitors looking for off-road vehicle trails." drivingDirection="From Buena Vista, Colorado, take Highway 285 south to Nathrop. Turn west on County Road 162 and travel 9 miles to the campground." facilitiesDescription="The campground offers 21 single-family sites, each equipped with a picnic table and campfire ring. Vault toilets and drinking water are provided. Firewood is sold on-site." facility="CASCADE (COLORADO)" facilityID="70042" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70042&amp;cmp=39-32--mcmire" importantInformation=" Do not climb chalk cliffs Be bear aware; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating This is a high elevation facility; please use caution when traveling from lower elevations This facility has first-come, first-served sites No hookups available Parking is limited; a $5 fee will be charged for extra vehicles Click here for more information on Pike and San Isabel National Forests " latitude="38.7105556" longitude="-106.2441667" nearbyAttrctionDescription="Take a day trip to the historic ghost town of St. Elmo, just 15 minutes from the campground. An old saloon, county courthouse and many other historic structures remain from the days of its mining glory. Rock hounds come to the area in search of quartz and aquamarine.      The city of Salida is 45 minutes away, where visitors can take a scenic tram ride, experience a zip-line, play a round of mini golf or go whitewater rafting on the Arkansas River." note="" orientationDescription="The campground is situated in a dense forest of Douglas fir and aspen at an elevation of 9,000 feet in Chalk Creek Canyon, which gets its name from the soft, white, chalk-like kaolinite canyon walls. Kaolinite is a clay mineral that was deposited by percolating hot springs.      Chalk Creek is just across the road from the campground. It flows 27 miles eastward from the Collegiate Peaks before joining the Arkansas River. Chalk Lake is a mile east of the campground." recreationDescription="Stream fishing is best above Cascade Falls, just west of the campground. Nearby Chalk Lake is heralded as a great family fishing lake with rainbow, brook and brown trout.      Plenty of off-road vehicle trails are near the campground. Recommended rides include Mount Antero, Baldwin Lake, Tincup Pass, Hancock Pass, Pomeroy Lakes, Hancock Lakes and Williams Pass." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70042&amp;cmp=39-32--mcmire">
+        <address city="SALIDA" country="United States" shortName="CASC" state="Colorado" streetAddress="SALIDA RANGER DISTRICT" zip="81201"/>
+        <photo realUrl="/webphotos/NRSO/pid70042/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70042/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70042/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70042/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70042/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70042/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70042/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70042/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70042/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70042/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70042/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70042/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70042/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70042/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70042/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70042/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70042/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70042/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70042_CASC.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7195393591"/>
+        <contact name="Ranger Station" number="7195393591"/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Creek Access"/>
+        <amenity distance="Within Facility" name="Drinking Water (Hand Pump)"/>
+        <amenity distance="Within Facility" name="Firewood Vendor"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Historic Sites"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Off-Road Vehicle Trails"/>
+        <amenity distance="Within Facility" name="Recycling"/>
+        <amenity distance="Within Facility" name="Scenic Drive"/>
+        <amenity distance="Within Facility" name="Self Pay Station"/>
+        <amenity distance="Within Facility" name="Swimming"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Water"/>
+        <amenity distance="Less Than 1 Mile" name="Lake Access"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:02:56 GMT
+recorded_with: VCR 2.5.0

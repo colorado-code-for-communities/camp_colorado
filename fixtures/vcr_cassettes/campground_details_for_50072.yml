@@ -1,0 +1,88 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50072
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:30:27 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:30:27 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=7799A66AE3E10AD7B89D9FE2565144EE.web07-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2845525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=7799A66AE3E10AD7B89D9FE2565144EE.web07-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:30:27 GMT; Path=/
+      Content-Length:
+      - '5560'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description="Fire danger is high this season. Welcome to John Martin Reservoir State Park, an oasis on the plains of southeastern Colorado. Located in the Lower Arkansas River Valley, visitors come to John Martin to take advantage of modern campgrounds, great fishing, uncrowded boating waters, diverse wildlife, and to see historical signs of the past. " drivingDirection="Hwy. 50 to Hasty. Go South from Hasty on Road 24 and travel 2 miles. The Park Visitor Center will be on your right. Please check in before going to your campsite. Thank you!" facilitiesDescription="" facility="JOHN MARTIN RESERVOIR STATE PARK" facilityID="50072" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50072&amp;cmp=39-32--mcmire" importantInformation=" In addition to the camping fee, an entrance fee is required at all State Parks! The Lake Hasty Campground, located below the dam, provides plentiful shade with large trees in most sites. All 109 campsites have electrical hook-ups and modern facilities including centrally located water hydrants, coin operated showers and laundry facilities and pay showers. Some campsites are available year-round. New for 2012, the Point Campground has re-opened for part of the year. The Point Campground, located on the north shore, sits on a ridge about a quarter mile away from the reservoir. No electricity, water or shade is available, but the views of the reservoir and surrounding landscape are exceptional. Vault toilets are available for your convenience. Point Campground is basically an overflow camping area and is only open from Memorial Day weekend to the 4th of July weekend. It is only available for reservations on weekends and holidays during this period. Lake water levels fluctuate and launching boats can become difficult as early as July 1. Check the State Parks Webpage for current conditions. " latitude="38.0847222" longitude="-102.9583333" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="Southeast Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50072&amp;cmp=39-32--mcmire">
+        <address city="HASTY" country="United States" shortName="JOMA" state="Colorado" streetAddress="30703 CO. RD. 24" zip="81044"/>
+        <photo realUrl="/webphotos/CO/pid50072/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50072/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50072/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50072/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50072/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50072/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50072/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50072/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50072/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="7198291801"/>
+        <contact name="Ranger Station" number=""/>
+        <amenity distance="Within Facility" name="ADA Access"/>
+        <amenity distance="Within Facility" name="ADA Fish. Access"/>
+        <amenity distance="Within Facility" name="Beach (Swimming)"/>
+        <amenity distance="Within Facility" name="Bird Watching"/>
+        <amenity distance="Within Facility" name="Boat Ramp"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Camper Services Bldg"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Dumpster"/>
+        <amenity distance="Within Facility" name="Fish Cleaning Station"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Fishing Licenses Sold"/>
+        <amenity distance="Within Facility" name="Group Campground"/>
+        <amenity distance="Within Facility" name="Group Pavilions Available"/>
+        <amenity distance="Within Facility" name="Group Picnic Area"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Historical Site(S)"/>
+        <amenity distance="Within Facility" name="Interpretitive Programs"/>
+        <amenity distance="Within Facility" name="Jet Skiing"/>
+        <amenity distance="Within Facility" name="Laundry"/>
+        <amenity distance="Within Facility" name="Laundry Facilities"/>
+        <amenity distance="Within Facility" name="Pay Phones Available"/>
+        <amenity distance="Within Facility" name="Photography"/>
+        <amenity distance="Within Facility" name="Picnicing"/>
+        <amenity distance="Within Facility" name="Picnicking"/>
+        <amenity distance="Within Facility" name="Playground"/>
+        <amenity distance="Within Facility" name="Sailing And Sailboarding"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Swimming"/>
+        <amenity distance="Within Facility" name="Visitor Center"/>
+        <amenity distance="Within Facility" name="Water Fillup Station"/>
+        <amenity distance="Within Facility" name="Water Skiing"/>
+        <amenity distance="Within Facility" name="Wildlife Watching Opportunity"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:30:27 GMT
+recorded_with: VCR 2.5.0

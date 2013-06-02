@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70329
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:42:08 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:42:08 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=63E0774E1E198757BA819C78731ECF73.web07-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2845525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=63E0774E1E198757BA819C78731ECF73.web07-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:42:08 GMT; Path=/
+      Content-Length:
+      - '6427'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Southside Campground is a small RV facility situated in the Wet Mountains by Lake Isabel. The popular recreation area offers a selection of hiking trails and great fishing and paddle boating on Lake Isabel.    Lake Isabel was built by the Civilian Conservation Corps in the late 1930s, for the purpose of recreation.The 40-acre lake is stocked with trout and the nearby St. Charles Creek offers additional fishing opportunities." drivingDirection="From Pueblo, drive 25 miles south on Interstate 25 to exit 74. Go west 18 miles on state Highway 165. Turn into the main entrance at Lake Isabel Recreation Area. The campground is the first within the recreation area on the left." facilitiesDescription="The campground is designed for RVs less than 30 feet in length, with no large slide-outs and require no hook-ups. Roads are paved. The facility is not ideal for tent camping, but tent camping is permitted. All sites are pull-through; backing is not required.     RV hookups are not available. Amenities include campfire grills, vault toilets, drinking water and picnic tables." facility="SOUTHSIDE CAMPGROUND - LAKE ISABEL" facilityID="70329" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70329&amp;cmp=39-32--mcmire" importantInformation=" Tight turns prevent vehicles over 30&amp;apos; in length from safely maneuvering through this campground Be bear aware; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating This is a high elevation facility, please use caution when traveling from lower elevations A $5 nightly fee is charged for extra vehicles This facility also has first-come, first-serve sites No electric hookups available No firearms or fireworks For more information on Pike and San Isabel National Forests, click here " latitude="37.9827778" longitude="-105.0575" nearbyAttrctionDescription="A nearby lodge provides paddle and rowboat rentals, groceries and a restaurant. Golf courses are about 15 minutes away." note="" orientationDescription="Aspen and ponderosa pine help shade the campground. Lake Isabel impresses visitors with a shoreline that meets the rocky base of the surrounding mountains at an elevation of 8,600 feet.      The Pike and San Isabel National Forest includes over a million acres of wilderness and over half of Colorado&amp;amp;#39;s mountain peaks that reach above 14,000 feet." recreationDescription="Lake Isabel welcomes non-motorized boating and fishing. Brown and brook trout are stocked in the lake and the St. Charles headwaters reap brook trout.     Visitors can enjoy hiking, bicycling or motorcycling on either the Snow Slide Trail and Cisneros Trail. The 15-mile Cisneros Trail, also open to ATV riders, leads to the heart of the Wet Mountains, through forests and open, wildflower-speckled valleys. Along the way, the trail connects to St. Charles Trail, which heads to St. Charles Peak." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70329&amp;cmp=39-32--mcmire">
+        <address city="Canon City" country="United States" shortName="LASS" state="Colorado" streetAddress="3028 E. Main Street" zip="81212"/>
+        <photo realUrl="/webphotos/NRSO/pid70329/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70329/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70329/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70329/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70329/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70329/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70329/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70329/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70329/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70329/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70329/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70329/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70329/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70329/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70329/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70329/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70329/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70329/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70329_LASS.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7194892644"/>
+        <contact name="Ranger Station" number="7192698500"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood Vendor"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Lake Access"/>
+        <amenity distance="Within Facility" name="Paved Roads"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Less Than 1 Mile" name="Educational Programs"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:42:08 GMT
+recorded_with: VCR 2.5.0

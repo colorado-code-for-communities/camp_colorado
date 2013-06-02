@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50027
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:30:13 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:30:13 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=C3B5D45335D450A23C6CE6593863873C.web04-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2745525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=C3B5D45335D450A23C6CE6593863873C.web04-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:30:13 GMT; Path=/
+      Content-Length:
+      - '4053'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description="Island Acres, the eastern anchor of Colorado River State Park, located just east of Palisade provides a choice of full hook-up, electric hook-up or tent camping.  Coin showers and laundry are also available spring through fall.  Colorado River State Park is actually five diverse sections along the Colorado River as it flows through the Grand Junction area.  Reservations are available for the nights of March 1 through October 31.  Camping is also available at the Fruita Section 30 miles to the west.  Nestled along the Colorado River in Debeque Canyon, Island Acres offers opportunities for walking, biking, fishing and swimming.  The surrounding canyon walls offer a spectacular backdrop and maybe even a glimpse of wild horses or Big Horn Sheep.  There are three fishing lakes, two of which are stocked.  A fourth lake, designated as the Swimmin&amp;amp;#39; Hole, is surrounded by a sandy beach.  Area attractions include the Grand Mesa, Colorado National Monument, museums, wineries and orchards." drivingDirection="Exit 47 off I-70, five miles east of Palisade." facilitiesDescription="" facility="JAMES M. ROBB-COLORADO RIVER STATE PARK-ISLAND ACRES SECTION" facilityID="50027" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50027&amp;cmp=39-32--mcmire" importantInformation="** In addition to the camping fee, a vehicle entrance pass is required at all State Parks! ** ***Shade maybe provided by trees or other vegetation or by a man made shelter placed over the picnic table. Camper Services Building closed November-March. Tent sites and electrical sites are open on a first-come, first-served basis November-February. First time visitors camping at the park need to be aware that the campground is located adjacent to Interstate 70. The maximum 14-day rule is strictly enforced. No exceptions! Camper Services Building is closed by mid-October through March. Camping fees are discounted during this period." latitude="39.1788889" longitude="-108.2777778" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="Rocky Mountain Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50027&amp;cmp=39-32--mcmire">
+        <address city="CLIFTON" country="United States" shortName="ISAC" state="Colorado" streetAddress="P.O. BOX 700" zip="81520"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="9704343388"/>
+        <contact name="Ranger Station" number="9704640548"/>
+        <amenity distance="Within Facility" name="Beach (Swimming)"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Bird Watching"/>
+        <amenity distance="Within Facility" name="Camper Services Bldg"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Firewood Available"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Group Pavilions Available"/>
+        <amenity distance="Within Facility" name="Group Picnic Area"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Ice Fishing"/>
+        <amenity distance="Within Facility" name="Interpretitive Programs"/>
+        <amenity distance="Within Facility" name="Laundry Facilities"/>
+        <amenity distance="Within Facility" name="Parking"/>
+        <amenity distance="Within Facility" name="Pay Phones Available"/>
+        <amenity distance="Within Facility" name="Photography"/>
+        <amenity distance="Within Facility" name="Picnic Tables"/>
+        <amenity distance="Within Facility" name="Picnicking"/>
+        <amenity distance="Within Facility" name="Ranger Station"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Swimming"/>
+        <amenity distance="Within Facility" name="Wildlife Watching Opportunity"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:30:13 GMT
+recorded_with: VCR 2.5.0

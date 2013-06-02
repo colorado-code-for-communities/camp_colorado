@@ -1,0 +1,82 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=75367
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:38:15 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:38:15 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=A64A2ADE04B36A537CCDF73178BBA474.web03-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2445525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=A64A2ADE04B36A537CCDF73178BBA474.web03-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:38:15 GMT; Path=/
+      Content-Length:
+      - '7517'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Carnero Guard Station is situated in a high open meadow surrounded by forest at an elevation of 9,840 feet. The high-elevation cabin is located in the north-central area of the San Luis Valley in the Rio Grande National Forest.     The guard station was first proposed in 1907 by the Cochetopa National Forest, and was originally named the John Smith Ranger Station after a homesteader who built a cabin near the site, but never filed on the land. Construction on the cabin began in 1908 and the name was changed to the Carnero Guard Station in 1916." drivingDirection="Carnero Guard Station may be reached by traveling south on Highway 285 approximately 15 miles south of Saguache to the La Garita turnoff (Road G). In La Garita proceed west on County Road 41G for approximately 17 miles. Look for the cabin on the right.   NOTE: Forest Road 41G leading to the cabin is unimproved but may be traveled by passenger car, weather permitting. The cabin may also be accessed from Highway 114 west of Saguache, also on Forest Road 41G. During winter months, the cabin may be accessible only by snowmobile, skis or snowshoes." facilitiesDescription="The two-room cabin is furnished with four bunk beds (the top bunk is a single bed, the bottom is a fold-out futon couch that sleeps two) and can accommodate up to 12 people. The cabin has a stove, refrigerator, heater and lighting, all powered with propane. The kitchen is equipped with a table and chairs, cooking utensils and some pots and pans. A picnic table, fire pit and an outdoor vault toilet are also on site. There is no electricity at the cabin, however water is available by an outside hand pump. Water is also available at the Saguache Field Office/Ranger District year round." facility="CARNERO GUARD STATION" facilityID="75367" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=75367&amp;cmp=39-32--mcmire" importantInformation=" Do not leave food or trash outside the guard station; bears are in the area. All garbage and food must be packed out; do not burn garbage in the fire pit or wood stove. The guard station is a no-smoking facility. Please clean guard station upon departure. Entry to the cabin is by combination lock, which is provided in the confirmation letter or email which is sent after a reservation is made. Make sure guard station and gate is locked upon departure To avoid altitude sickness, drink plenty of water before arrival and during your stay Expect afternoon thunderstorms in the summer and below freezing temperatures in the spring, winter and fall Travel maps for the Rio Grande National Forest can be obtained by calling the Forest Service Office in Saguache at (719) 655-2547 or the Forest Supervisor&amp;apos;s Office in Monte Vista at (719) 852-5941 Learn more about the Rio Grande National Forest. " latitude="37.9883333" longitude="-106.4241667" nearbyAttrctionDescription="Guests at Carnero Guard Station are a short drive from Penitente Canyon, which has become a great draw for rock climbing." note="" orientationDescription="Volcanic rock outcroppings dot the forested hillsides and wide pastures near the cabin. The La Garita Wilderness is located approximately 20 miles west of the guard station and features about 35 miles of the Continental Divide well above the timberline.     This area also provides habitats for large herds of elk and mule deer, and on the southern slopes, there is an ancient forest of towering spruce and fir. It is a landscape of rushing streams, broad and gentle alpine meadows, beaver ponds, long talus slopes and tremendous mountain beauty." recreationDescription="The cabin is a good base camp for hunting, and fishing, which is available at several creeks within a short drive. The area also offers many opportunities for hiking and off-road vehicle adventures in summer, and cross country skiing and snowmobiling in the winter.    There is an off-road vehicle trail about 10 miles southwest of the cabin that travels to within 2 miles of the La Garita Wilderness.    Elk, deer, and other wildlife are often seen in meadows adjacent to the cabin, and moose have been spotted in the Moon Pass area, about 5 miles west." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=75367&amp;cmp=39-32--mcmire">
+        <address city="SAGUACHE" country="United States" shortName="CARN" state="Colorado" streetAddress="46525 ST HWY 114" zip="81149"/>
+        <photo realUrl="/webphotos/NRSO/pid75367/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid75367/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid75367/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid75367/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid75367/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid75367/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid75367/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid75367/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid75367/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7196552547"/>
+        <contact name="Ranger Station" number="7196552547"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilet"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Bunkbed(s) With Mattresses"/>
+        <amenity distance="Within Facility" name="Campfire Ring"/>
+        <amenity distance="Within Facility" name="Cleaning Supplies"/>
+        <amenity distance="Within Facility" name="Cooking Pots"/>
+        <amenity distance="Within Facility" name="Cooking Utensils"/>
+        <amenity distance="Within Facility" name="Cross Country Skiing"/>
+        <amenity distance="Within Facility" name="Drinking Water (Hand Pump)"/>
+        <amenity distance="Within Facility" name="Equestrian Sites"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Propane &amp;amp; Cooking Stove"/>
+        <amenity distance="Within Facility" name="Propane Lights"/>
+        <amenity distance="Within Facility" name="Propane Refrigerator"/>
+        <amenity distance="Within Facility" name="Propane Stove"/>
+        <amenity distance="Within Facility" name="Snowmobiling"/>
+        <amenity distance="Within Facility" name="Snowshoeing"/>
+        <amenity distance="Within Facility" name="Table and Chairs"/>
+        <amenity distance="Within Facility" name="Water (Seasonal)"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within 10 Miles" name="Fishing"/>
+        <amenity distance="Within 10 Miles" name="Mountain Biking"/>
+        <amenity distance="Within 10 Miles" name="Off Road Vehicle Trail"/>
+        <amenity distance="Greater Than 10 Miles" name="Pay Telephone"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:02:43 GMT
+recorded_with: VCR 2.5.0

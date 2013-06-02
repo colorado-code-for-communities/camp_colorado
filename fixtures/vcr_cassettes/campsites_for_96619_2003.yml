@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=96619&siteType=2003
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:25:08 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:25:08 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=AAF857C09C6719D73A5D194E54B7B9C9.web03-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2445525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=AAF857C09C6719D73A5D194E54B7B9C9.web03-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:25:08 GMT; Path=/
+      Content-Length:
+      - '4078'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="12" parkId="96619" resultType="campsites" siteType="2003">
+        <result Loop="DAVENPORT CAMPGROUND" Maxeqplen="0" Maxpeople="8" Site="005" SiteId="293792" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="452.58" mapy="449.96" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DAVENPORT CAMPGROUND" Maxeqplen="0" Maxpeople="8" Site="006" SiteId="293793" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="578.13" mapy="425.24" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DAVENPORT CAMPGROUND" Maxeqplen="0" Maxpeople="8" Site="007" SiteId="293794" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="627.98" mapy="450.76" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DAVENPORT CAMPGROUND" Maxeqplen="0" Maxpeople="8" Site="008" SiteId="293795" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="537.82" mapy="454.2" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DAVENPORT CAMPGROUND" Maxeqplen="0" Maxpeople="8" Site="011" SiteId="293798" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="789.8" mapy="450.51" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DAVENPORT CAMPGROUND" Maxeqplen="0" Maxpeople="8" Site="012" SiteId="293799" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="875.99" mapy="455.58" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DAVENPORT CAMPGROUND" Maxeqplen="0" Maxpeople="8" Site="001" SiteId="293788" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="157.26" mapy="580.65" sitePhoto="/webphotos//NRSO/pid96619/sid293788/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DAVENPORT CAMPGROUND" Maxeqplen="0" Maxpeople="8" Site="002" SiteId="293789" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="269.54" mapy="484.02" sitePhoto="/webphotos//NRSO/pid96619/sid293789/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DAVENPORT CAMPGROUND" Maxeqplen="0" Maxpeople="8" Site="003" SiteId="293790" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="292.19" mapy="425.94" sitePhoto="/webphotos//NRSO/pid96619/sid293790/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DAVENPORT CAMPGROUND" Maxeqplen="0" Maxpeople="8" Site="004" SiteId="293791" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="397.62" mapy="448.68" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DAVENPORT CAMPGROUND" Maxeqplen="0" Maxpeople="8" Site="009" SiteId="293796" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="648.79" mapy="487.46" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="DAVENPORT CAMPGROUND" Maxeqplen="0" Maxpeople="8" Site="010" SiteId="293797" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="810.06" mapy="497.26" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:13:26 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,86 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50025
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:16:33 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:16:33 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=9B149B4608D1A0B5FAE9F34146022417.web08-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2b45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=9B149B4608D1A0B5FAE9F34146022417.web08-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:16:33 GMT; Path=/
+      Content-Length:
+      - '6375'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description="  Handicap sites #30HD and #72HD are only reservable through the call center.  These sites require a handicap sticker, plate or placard.      RV and tent camping is available year round but can only be reserved for ARRIVAL dates between the Friday before Memorial Day to September 30 each year. ALL other times, when the campgrounds are open, the sites are available on a first-come first-served basis.     Cabins and Yurts at Reverend&amp;amp;#39;s Ridge Campground can be reserved year round.      Aspen Meadow Tent Campground is closed during winter months.     Camp Loops A and C, as well as 5 cabins and 2 yurts are open at Reverend&amp;amp;#39;s Ridge Campground during winter months but shower, laundry and sanitary dump station are closed.     The office at Reverend&amp;amp;#39;s Ridge Campground is CLOSED from October 1 to the Friday before Memorial Day. Call park office phone listed below.   " drivingDirection="From Denver take I-70 west to Hwy 58, Hwy 58 west 5 miles to Hwy 93, Hwy 93 north 1.5 miles to Golden Gate Canyon Rd, left on Golden Gate Canyon Rd 14 miles to the park visitor center. TRAILERS AND MOTORHOMES: Take I-70 west to Hwy 58, Hwy 58 west 5 miles to 6th Ave., 6th Ave. west to Hwy 119, north on 119 16 miles to Gap Rd., right on Gap Rd 1 mile to Reverend`s Ridge Campground. Note: Gap Road will be the 2nd Golden Gate sign you will see heading north on Hwy 119." facilitiesDescription="" facility="GOLDEN GATE CANYON STATE PARK " facilityID="50025" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50025&amp;cmp=39-32--mcmire" importantInformation="After reserving a Cabin or Yurt, please contact the Visitor Center at 303-582-3707 to get your combination within one week of your arrival date. The Visitor Center is open from 8:00am - 4:00pm daily, Mountain Standard Time. In addition to the reservation fee for the campsite/cabin/yurt, a park pass is required on all vehicles entering the park! Please call us at #303-582-3707 for park specific details. An extra $10 will be charged per horse per night. Tents are not permitted on the Harmsen Ranch property. Tents cannot be substituted for RVs. Pets are not permitted inside or outside of the Harmsen Guest Ranch. Sites are electric only. " latitude="39.8313" longitude="-105.4104667" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="High Plains Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50025&amp;cmp=39-32--mcmire">
+        <address city="GOLDEN" country="United States" shortName="GOGA" state="Colorado" streetAddress="92 Crawford Gulch Road" zip="80403"/>
+        <photo realUrl="/webphotos/CO/pid50025/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50025/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50025/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50025/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50025/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50025/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50025/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50025/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50025/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50025/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50025/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50025/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50025/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50025/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50025/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="3035823707"/>
+        <contact name="Ranger Station" number=""/>
+        <amenity distance="Within Facility" name="ADA Access"/>
+        <amenity distance="Within Facility" name="ADA Fish. Access"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Bird Watching"/>
+        <amenity distance="Within Facility" name="Camper Services Bldg"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Firewood Available"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Fishing Licenses Sold"/>
+        <amenity distance="Within Facility" name="Group Pavilions Available"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Historical Site(S)"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Ice Fishing"/>
+        <amenity distance="Within Facility" name="Interpretitive Programs"/>
+        <amenity distance="Within Facility" name="Laundry Facilities"/>
+        <amenity distance="Within Facility" name="Nature Study Exhibits"/>
+        <amenity distance="Within Facility" name="Parking"/>
+        <amenity distance="Within Facility" name="Pay Phones Available"/>
+        <amenity distance="Within Facility" name="Photography"/>
+        <amenity distance="Within Facility" name="Picnicking"/>
+        <amenity distance="Within Facility" name="Proximity To Camp Serv."/>
+        <amenity distance="Within Facility" name="Ranger Station"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Skating"/>
+        <amenity distance="Within Facility" name="Snow Shoeing"/>
+        <amenity distance="Within Facility" name="Visitor Center"/>
+        <amenity distance="Within Facility" name="Wildlife Watching Opportunity"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:16:33 GMT
+recorded_with: VCR 2.5.0

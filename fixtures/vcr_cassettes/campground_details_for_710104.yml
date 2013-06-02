@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=LARC&parkId=710104
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:28:53 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:28:53 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=A2995DAD171AD6354905E0AC849E4987.web05-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2645525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=A2995DAD171AD6354905E0AC849E4987.web05-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:28:53 GMT; Path=/
+      Content-Length:
+      - '4504'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert=" Use of generator is not allowed in Hermit&amp;apos;s Hollow Campground. " contractID="LARC" description="Hermit Park Open Space nestles into the hills, approximately two miles southeast of Estes Park, at an elevation of 7880-8964 feet. The preservation of this stunning area is a joint effort between Larimer County, Agilent Technologies, Town of Estes Park, Estes Valley Land Trust, Great Outdoors Colorado, City of Loveland, Erion Foundation, City of Fort Collins, McWhinney Foundation, Town of Berthoud, and many more contributors . Recreation is managed by Larimer County Department of Natural Resources. Hermit Park Open Space&amp;amp;#39;s features include cabins, RV and tent camping, special events, reservable group use pavilion, hiking trails, wetlands, horseback riding, mountain biking, group campground, and much more!   The park is open March 1 to December 20, and some areas close seasonally.   Entrance permits and camping fees are required." drivingDirection="17 Hermit Park Road; Estes Park, CO 80517 From I-25 and U.S. Hwy. 34 (Loveland): Drive west on Hwy. 34 for 31.5 miles toward Estes Park. Turn left (south) onto Mall Road (CR63) for .6 miles. Turn left (east) onto U.S. Highway 36 for 2.1 miles. The entrance to Hermit Park is on your right. From I-25 and U.S. Hwy. 66 (Longmont): Drive west on Hwy. 66 for 15.8 miles to Lyons, Colorado. Turn right onto West Main Street onto U.S. Hwy. 36 W. Continue on Hwy. 36 W for 16.7 miles. The entrance to Hermit Park is on your left." facilitiesDescription="" facility="Hermit Park" facilityID="710104" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=LARC&amp;parkId=710104&amp;cmp=39-32--mcmire" importantInformation="Hermit&amp;apos;s Hollow campground has been remodeled. Please double check the map for correct campsite numbers." latitude="40.3561111" longitude="-105.4569444" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="Larimer Region" reservationUrl="/campsiteSearch.do?contractCode=LARC&amp;parkId=710104&amp;cmp=39-32--mcmire">
+        <address city="Estes Park" country="United States" shortName="LRM3" state="Colorado" streetAddress="17 Hermit Park Road" zip="80517"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="9706794570"/>
+        <contact name="Ranger Station" number="9706794570"/>
+        <amenity distance="Within Facility" name="Bicycle Riding"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Parking"/>
+        <amenity distance="Within Facility" name="Picnic Shelter"/>
+        <amenity distance="Within Facility" name="Picnic Tables"/>
+        <amenity distance="Within Facility" name="Ranger Station"/>
+        <amenity distance="Within Facility" name="Water Drinking"/>
+        <bulletin description="ADA campsites may be reserved through the Call Center only. " headline="Attention"/>
+        <bulletin description="The person making the reservation is responsible for making sure all site occupants know and obey regulations. " headline="Important Notice"/>
+        <bulletin description="Kruger Campground has been remodeled. It is now an Equestrian campground and is only reservable through the Call Center. " headline="CAMPGROUND RENOVATION"/>
+        <bulletin description="At Hermit Park Open Space, October to April, first-come, first-serve availability is weather dependent." headline="Please Note"/>
+        <bulletin description="&amp;lt;li&amp;gt;Sites must be reserved a minimum of 1 day prior to arrival day.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Any remaining sites &amp;lt;b&amp;gt;MAY&amp;lt;/b&amp;gt; be available first-come, first-serve at the campground.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt; &amp;lt;u&amp;gt;Monday -Thursday&amp;lt;/u&amp;gt;: first-come, first-serve sites are usually available.&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt; &amp;lt;u&amp;gt;Friday, Saturday, Sunday, and holidays, from Memorial Day weekend through Labor Day weekend&amp;lt;/u&amp;gt;: first-come, first-serve sites are usually &amp;lt;b&amp;gt;NOT&amp;lt;/b&amp;gt; available. &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;Availability is limited and &amp;lt;b&amp;gt;NOT&amp;lt;/b&amp;gt; guaranteed.&amp;lt;/li&amp;gt;" headline="Attention"/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:28:53 GMT
+recorded_with: VCR 2.5.0

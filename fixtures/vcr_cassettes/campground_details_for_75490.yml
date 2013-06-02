@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=75490
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:12:44 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:12:44 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=3F4A9B0BE065D3E4DDC5B616EE6929CF.web05-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2645525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=3F4A9B0BE065D3E4DDC5B616EE6929CF.web05-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:12:44 GMT; Path=/
+      Content-Length:
+      - '6160'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Cow Creek South Campground is located on the northeast shore of Green Mountain Reservoir in White River National Forest, offering an ideal setting for visitors seeking a multitude of recreational activities both on water and on land.    All sites are designated as dispersed camping along the reservoir shoreline. Cleared areas and campfire rings define the sites, and a main road leads to spurs accessing sites." drivingDirection="From Silverthorne, Colorado on Interstate 70 take exit 205 and go 22.4miles north on Colorado Highway 9. The campground is near the mid-pointof Green Mountain Reservoir. The entrance is on the left just before milemarker 124.  From Kremmling, Colorado, turn off Highway 40 onto Colorado Highway9 South and go 15.1 miles. The campground is near the mid-point of GreenMountain Reservoir. The entrance is on the right, just beyond mile marker 124." facilitiesDescription="Cow Creek South Campground has 44 standard sites suitable for tents, trailers and RVs. Vault toilets are provided.    All trailered watercraft must be inspected for aquatic nuisance species and must launch at one of the two monitored launch ramps. The marina in the town of Heeney on the west shore is currently the only monitored ramp in service.  When the reservoir reaches full pool, typically in mid-June, the McDonald Flats Campground boat ramp will be in service on weekends." facility="COW CREEK SOUTH" facilityID="75490" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=75490&amp;cmp=39-32--mcmire" importantInformation=" Several campsites are available on a first-come, first-served basis No drinking water available at this campground Off-road vehicles are allowed on established roads only Site access is difficult when road is wet A fee of $5 for extra vehicles will be collected at the campground Campers must display pass/fee receipt on vehicle before camping; receipts available at campground self-pay station Prevent the spread of invasive species by inspecting and cleaning packs, equipment, and tires before using lake or trails Click here for more information about White River National Forest " latitude="39.8794444" longitude="-106.2772222" nearbyAttrctionDescription="Take some time to visit Rocky Mountain National Park to learn about the diverse landscape and history of the area through interpretive programs and exhibits. In the summer visitors may want to traverse Trail Ridge Road from one side of the park to the other, reaching alpine vistas boasting elevations of more than 12,000 feet." note="" orientationDescription="In the heart of the Rocky Mountains, the 2.3 million-acre White River National Forest is a place of serenity and adventure, boasting eight wilderness areas, four defined seasons and ten peaks surpassing 14,000 feet in elevation.     The White River National Forest was established in 1891 as the White River Plateau Timber Reserve; the second such reserve to be named in the United States. In 1905, the newly formed Forest Service was given authority of the reserve.     Long before this designation, the area was home to the Ute Indians who followed herds of elk and bison on their seasonal migrations.    Wildlife in the area abounds. Bighorn sheep navigate rocky ridges and bull elk bugle at dusk. Scenic rivers sustain populations of cutthroat, rainbow and brown trout. Alpine regions provide habitat for pika and ptarmigan." recreationDescription="Encompassing a landscape of rivers, mountains, trails and forest roads, the White River National Forest is one of the top recreation forests in the nation.    Located on the shores of Green Mountain reservoir, Cow Creek Campground is a popular spot for boating, canoeing, fishing, water skiing and windsurfing.      Anglers will find populations of rainbow and brown trout, as well as kokanee salmon when casting their lines out into the water.     Spring Creek is a popular off-roading area located at the northern end of the Gore Mountain Range. A network of roads open to off-road vehicle use meanders through lodgepole pine and spruce/fir forests. Viewpoints of surrounding mountains open up along these roads." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=75490&amp;cmp=39-32--mcmire">
+        <address city="HEENEY" country="United States" shortName="CWCS" state="Colorado" streetAddress="MILE MARKER 124 HWY 9 NORTH" zip="80498"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9702623446"/>
+        <contact name="Ranger Station" number="9702623442"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Canoeing"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Jet Skiing"/>
+        <amenity distance="Within Facility" name="Kayaking"/>
+        <amenity distance="Within Facility" name="Swimming"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Tubing"/>
+        <amenity distance="Within Facility" name="Water Skiing"/>
+        <amenity distance="Within Facility" name="Waterfront Sites"/>
+        <amenity distance="Within Facility" name="Windsurfing"/>
+        <amenity distance="Within 10 Miles" name="Bait Shop"/>
+        <amenity distance="Within 10 Miles" name="Boat Ramp"/>
+        <amenity distance="Within 10 Miles" name="Boat Rental"/>
+        <amenity distance="Within 10 Miles" name="Boat Slips"/>
+        <amenity distance="Within 10 Miles" name="Cabin Rentals"/>
+        <amenity distance="Within 10 Miles" name="Cafe"/>
+        <amenity distance="Within 10 Miles" name="General Store"/>
+        <amenity distance="Within 10 Miles" name="Marina"/>
+        <amenity distance="Within 10 Miles" name="Pay Telephone"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:12:44 GMT
+recorded_with: VCR 2.5.0

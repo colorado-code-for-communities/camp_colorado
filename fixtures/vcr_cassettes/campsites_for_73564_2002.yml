@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73564&siteType=2002
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:30:23 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:30:23 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=FABEC074E4E908CA6C34E085C7001CEF.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=FABEC074E4E908CA6C34E085C7001CEF.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:30:23 GMT; Path=/
+      Content-Length:
+      - '5444'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="16" parkId="73564" resultType="campsites" siteType="2002">
+        <result Loop="JEFFERSON  CREEK" Maxeqplen="30" Maxpeople="8" Site="001" SiteId="129734" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="365.044464111328" mapy="527.498596191406" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="JEFFERSON  CREEK" Maxeqplen="30" Maxpeople="8" Site="002" SiteId="129735" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="346.174896240234" mapy="566.522766113281" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="JEFFERSON  CREEK" Maxeqplen="25" Maxpeople="8" Site="007" SiteId="129740" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="661.208618164063" mapy="617.923767089844" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="JEFFERSON  CREEK" Maxeqplen="30" Maxpeople="8" Site="009" SiteId="129742" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="709.865600585938" mapy="655.089782714844" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="JEFFERSON  CREEK" Maxeqplen="28" Maxpeople="8" Site="010" SiteId="129743" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="650.555603027344" mapy="659.200988769531" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="JEFFERSON  CREEK" Maxeqplen="27" Maxpeople="8" Site="003" SiteId="129736" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="412.019744873047" mapy="574.142639160156" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="JEFFERSON  CREEK" Maxeqplen="25" Maxpeople="8" Site="004" SiteId="129737" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="468.795043945313" mapy="547.47607421875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="JEFFERSON  CREEK" Maxeqplen="60" Maxpeople="8" Site="005" SiteId="129738" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="535.492370605469" mapy="594.917114257813" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="JEFFERSON  CREEK" Maxeqplen="25" Maxpeople="8" Site="006" SiteId="129739" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="599.392211914063" mapy="583.295654296875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="JEFFERSON  CREEK" Maxeqplen="35" Maxpeople="8" Site="008" SiteId="129741" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="617.044494628906" mapy="630.571044921875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="JEFFERSON  CREEK" Maxeqplen="35" Maxpeople="8" Site="011" SiteId="129744" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="682.584411621094" mapy="684.078186035156" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="JEFFERSON  CREEK" Maxeqplen="40" Maxpeople="8" Site="012" SiteId="129745" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="751.007141113281" mapy="678.777160644531" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="JEFFERSON  CREEK" Maxeqplen="30" Maxpeople="8" Site="013" SiteId="129746" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="772.730407714844" mapy="735.687805175781" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="JEFFERSON  CREEK" Maxeqplen="28" Maxpeople="8" Site="014" SiteId="129747" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="821.160400390625" mapy="764.348815917969" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="JEFFERSON  CREEK" Maxeqplen="25" Maxpeople="8" Site="016" SiteId="129749" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="901.508239746094" mapy="748.996154785156" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="JEFFERSON  CREEK" Maxeqplen="35" Maxpeople="8" Site="017" SiteId="129750" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="854.706298828125" mapy="666.686950683594" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:30:23 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=109084
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:37:48 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:37:48 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=ECDD13D630B6069CB8E7C8105B99568C.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=ECDD13D630B6069CB8E7C8105B99568C.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:37:48 GMT; Path=/
+      Content-Length:
+      - '4160'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Located on the Pike and San Isabel National Forest at an elevation of 9,813 feet, Burning Bear Campground offers cooler temperatures during the hot Colorado summer months. Along the Guanella Pass Scenic Byway, this campground is near prime spots for wildlife viewing, scenic driving, landscape photography, hiking and roads open to off-highway vehicles." drivingDirection="Travel from Denver south on US Highway 285 toward Fairplay to the town of Grant. Turn north on Park County Road 62, towards Guanella Pass. Burning Bear Campground is 5 miles north on the right." facilitiesDescription="Burning Bear Campground has 13 sites to accommodate RV, trailer and tent camping. Drinking water, vault toilets, picnic tables and grills are provided.  Parking aprons are dirt and the campground road may be rough." facility="BURNING BEAR CAMPGROUND" facilityID="109084" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=109084&amp;cmp=39-32--mcmire" importantInformation=" Expect rough road conditions and erosion: potholes and wash-boarding Be bear aware; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating Horse corrals near the campground are not for public use This is a high elevation facility, please use caution when traveling from lower elevations Facility has first-come, first-serve sites Limited water available; no water hookups No fireworks or firearms allowed Limit 2 vehicles or 1 RV per site; a $5 fee will be charged for additional vehicles at the campground Click here for more information on Pike and San Isabel National Forest " latitude="39.5139111" longitude="-105.71" nearbyAttrctionDescription="Mount Bierstadt summit is approximately 7 miles north of the campground and offers amazing views of the valley below." note="" orientationDescription="The campground is nestled in a beautiful valley on the way to Guanella Pass.  Although somewhat open, a scattering of ponderosa pines provides some privacy to campers.   Mount Bierstadt (elevation 14,060 feet) is north on the Guanella Pass road &amp;amp;ndash; a Scenic and Historic Byway, and one of the most popular scenic drives on the Pike and San Isabel National Forest.  The Guanella Pass road is a great place to watch for bighorn sheep, elk, deer, moose, marmot, pika, and bear  " recreationDescription="Numerous hiking trail opportunities are available along Geneva Road.  Mount Evans Wilderness is directly behind the campground allowing for access to the Abyss Trail (sometimes referred to as the Scott Gomer Trail).    Although Mount Evans Wilderness is closed to mountain biking, Burning Bear Trail across the road from the campground is a wonderful trail for mountain biking and hiking alike.  " regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=109084&amp;cmp=39-32--mcmire">
+        <address city="Morrison" country="United States" shortName="C084" state="Colorado" streetAddress="19316 Goddard Ranch Court" zip="80465"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/109084_C084.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="3032755610"/>
+        <contact name="Ranger Station" number="3032755610"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Water"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within 10 Miles" name="Biking"/>
+        <amenity distance="Within 10 Miles" name="Fishing"/>
+        <amenity distance="Within 10 Miles" name="Lake Access"/>
+        <amenity distance="Within 10 Miles" name="Scenic Drive"/>
+        <amenity distance="Within 10 Miles" name="Trailheads"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:02:20 GMT
+recorded_with: VCR 2.5.0

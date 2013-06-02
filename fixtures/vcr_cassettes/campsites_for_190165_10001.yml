@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=KOA&parkId=190165&siteType=10001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:16:00 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:16:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=362CF2E6BE2332567512C9416159B0BA.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=362CF2E6BE2332567512C9416159B0BA.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:15:59 GMT; Path=/
+      Content-Length:
+      - '2738'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="KOA" count="8" parkId="190165" resultType="campsites" siteType="10001">
+        <result Loop="Fort Collins / Lakeside KOA" Maxeqplen="0" Maxpeople="4" Site="1 Room Camping Cabin (w/o Bathroom)" SiteId="2301" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Fort Collins / Lakeside KOA" Maxeqplen="0" Maxpeople="4" Site="1 Room Camping Cabin (w/o Bathroom)" SiteId="55760" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Fort Collins / Lakeside KOA" Maxeqplen="0" Maxpeople="5" Site="Deluxe Cabin (w/ Bathroom)" SiteId="2600" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Fort Collins / Lakeside KOA" Maxeqplen="0" Maxpeople="4" Site="1 Room Camping Cabin (w/o Bathroom)" SiteId="412" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Fort Collins / Lakeside KOA" Maxeqplen="0" Maxpeople="4" Site="1 Room Camping Cabin (w/o Bathroom)" SiteId="413" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Fort Collins / Lakeside KOA" Maxeqplen="0" Maxpeople="4" Site="1 Room Camping Cabin (w/o Bathroom)" SiteId="35634" SiteReserveType="site-specific" SiteType="Special" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Fort Collins / Lakeside KOA" Maxeqplen="0" Maxpeople="6" Site="2 Room Camping Cabin (w/o Bathroom)" SiteId="414" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Fort Collins / Lakeside KOA" Maxeqplen="0" Maxpeople="6" Site="Deluxe Cabin (w/ Bathroom)" SiteId="415" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:16:00 GMT
+recorded_with: VCR 2.5.0

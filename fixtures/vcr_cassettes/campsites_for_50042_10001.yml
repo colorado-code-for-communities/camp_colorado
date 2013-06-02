@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50042&siteType=10001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:43:06 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:43:06 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=21EE369D5FF3BEC6740151985329AD79.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=21EE369D5FF3BEC6740151985329AD79.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:43:06 GMT; Path=/
+      Content-Length:
+      - '2056'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="CO" count="6" parkId="50042" resultType="campsites" siteType="10001">
+        <result Loop="CABIN" Maxeqplen="0" Maxpeople="20" Site="STFOCABN001" SiteId="4546" SiteReserveType="site-specific" SiteType="CABIN LARGE" mapx="148.540573120117" mapy="246.599975585938" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="CABIN" Maxeqplen="0" Maxpeople="15" Site="STFOCABN002" SiteId="4547" SiteReserveType="site-specific" SiteType="CABIN LARGE" mapx="143.151153564453" mapy="243.027923583984" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="CABIN" Maxeqplen="0" Maxpeople="6" Site="STFOCABN003" SiteId="4548" SiteReserveType="site-specific" SiteType="CABIN SMALL" mapx="140.707763671875" mapy="249.291961669922" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="CABIN" Maxeqplen="0" Maxpeople="6" Site="STFOCABN004HA" SiteId="4549" SiteReserveType="site-specific" SiteType="CABIN SMALL" mapx="164.990768432617" mapy="242.970352172852" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="CABIN" Maxeqplen="0" Maxpeople="6" Site="STFOCABN005" SiteId="4550" SiteReserveType="site-specific" SiteType="CABIN SMALL" mapx="170.87092590332" mapy="241.924301147461" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="CABIN" Maxeqplen="0" Maxpeople="6" Site="STFOCABN006" SiteId="4551" SiteReserveType="site-specific" SiteType="CABIN SMALL" mapx="176.655151367188" mapy="240.620391845703" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:43:06 GMT
+recorded_with: VCR 2.5.0

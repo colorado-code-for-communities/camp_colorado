@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=75397&siteType=2003
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:23:47 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:23:47 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=B15B112F69393454A6A29B1576F7407D.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=B15B112F69393454A6A29B1576F7407D.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:23:47 GMT; Path=/
+      Content-Length:
+      - '5737'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="17" parkId="75397" resultType="campsites" siteType="2003">
+        <result Loop="ANSEL WATROUS " Maxeqplen="36" Maxpeople="8" Site="001" SiteId="148608" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="109.610000610352" mapy="478.940002441406" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ANSEL WATROUS " Maxeqplen="40" Maxpeople="8" Site="002" SiteId="148609" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="147.686462402344" mapy="477.137420654297" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ANSEL WATROUS " Maxeqplen="40" Maxpeople="8" Site="003" SiteId="148610" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="180.958572387695" mapy="478.358825683594" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ANSEL WATROUS " Maxeqplen="40" Maxpeople="8" Site="004" SiteId="148611" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="210.838577270508" mapy="478.156005859375" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ANSEL WATROUS " Maxeqplen="40" Maxpeople="8" Site="005" SiteId="148612" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="241.542846679688" mapy="478.688812255859" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ANSEL WATROUS " Maxeqplen="40" Maxpeople="8" Site="006" SiteId="148613" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="275.157165527344" mapy="475.398132324219" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ANSEL WATROUS " Maxeqplen="40" Maxpeople="8" Site="007" SiteId="148614" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="303.671905517578" mapy="467.149475097656" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ANSEL WATROUS " Maxeqplen="0" Maxpeople="8" Site="008" SiteId="148615" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="400.398315429688" mapy="365.989990234375" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ANSEL WATROUS " Maxeqplen="0" Maxpeople="8" Site="009" SiteId="148616" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="442.899017333984" mapy="413.876281738281" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ANSEL WATROUS " Maxeqplen="0" Maxpeople="8" Site="010" SiteId="148617" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="489.974639892578" mapy="397.689208984375" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ANSEL WATROUS " Maxeqplen="33" Maxpeople="8" Site="011" SiteId="148618" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="718.450012207031" mapy="363.690002441406" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ANSEL WATROUS " Maxeqplen="38" Maxpeople="8" Site="012" SiteId="148619" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="812.993347167969" mapy="360.519989013672" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ANSEL WATROUS " Maxeqplen="33" Maxpeople="8" Site="013" SiteId="148620" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="885.049987792969" mapy="380.329986572266" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ANSEL WATROUS " Maxeqplen="20" Maxpeople="8" Site="014" SiteId="148621" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="980.974609375" mapy="398.412414550781" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ANSEL WATROUS " Maxeqplen="33" Maxpeople="8" Site="015" SiteId="148622" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="851.728210449219" mapy="325.188537597656" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ANSEL WATROUS " Maxeqplen="40" Maxpeople="8" Site="016" SiteId="148623" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="781.01220703125" mapy="326.119018554688" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="ANSEL WATROUS " Maxeqplen="33" Maxpeople="8" Site="017" SiteId="148624" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="724.641235351563" mapy="329.412902832031" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:00:05 GMT
+recorded_with: VCR 2.5.0

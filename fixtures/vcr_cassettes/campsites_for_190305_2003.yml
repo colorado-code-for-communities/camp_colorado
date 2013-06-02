@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=KOA&parkId=190305&siteType=2003
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:40:37 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:40:37 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=E919CF77976B2FD7A9E2B8999D94DF62.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=E919CF77976B2FD7A9E2B8999D94DF62.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:40:37 GMT; Path=/
+      Content-Length:
+      - '1073'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="KOA" count="3" parkId="190305" resultType="campsites" siteType="2003">
+        <result Loop="Royal Gorge / Canon City KOA" Maxeqplen="0" Maxpeople="25" Site="Overflow" SiteId="46431" SiteReserveType="site-specific" SiteType="Tents" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Royal Gorge / Canon City KOA" Maxeqplen="0" Maxpeople="7" Site="Tent, No hookups" SiteId="1604" SiteReserveType="site-specific" SiteType="Tents" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Royal Gorge / Canon City KOA" Maxeqplen="0" Maxpeople="7" Site="Tent, Electric" SiteId="1605" SiteReserveType="site-specific" SiteType="Tents" mapx="" mapy="" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:40:37 GMT
+recorded_with: VCR 2.5.0

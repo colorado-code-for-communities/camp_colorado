@@ -1,0 +1,83 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=96619
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:13:24 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:13:24 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=3B1B7194A93F35D3123971A572752CAD.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=3B1B7194A93F35D3123971A572752CAD.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:13:24 GMT; Path=/
+      Content-Length:
+      - '7357'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Davenport Campground was one of the first Forest Service campgrounds, and is near the now-abandoned Squirrel Creek Campground, the very first Forest Service campground in the country.  In 2010, Davenport was rebuilt to evoke the original 1920s design. Adirondack shelters and a common cooking shelter with stone fireplaces were built and old-style log picnic tables add to the historic character of this campground.           The campground offers access to an array of hiking, mountain biking, motorcycle and off-road vehicle trails." drivingDirection="From Pueblo, go 25 miles south on I-25 to Exit 74. Go west 25 miles on State Highway 165 to Forest Road 382. Turn right onto Forest Road 382 and travel about 2 miles until the road dead ends at the campground." facilitiesDescription="The campground offers single-family sites for tent camping only. Most of these are reached by walking on short foot trails to the sites from common parking areas. Some sites are accessible, and three sites have log Adirondack shelters. Each site is equipped with a picnic table, campfire ring and grill. Accessible vault toilets and trash collection are provided." facility="DAVENPORT CAMPGROUND" facilityID="96619" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=96619&amp;cmp=39-32--mcmire" importantInformation=" Be bear aware; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating This is a high elevation facility, please use caution when traveling from lower elevations This facility has 9 first-come, first-serve sites and 3 reservable sites Campground cannot accommodate RVs or pop-up trailers No RV hookups are available No drinking water available; water can be accessed from Ophir Creek Campground, about 3 miles away For more information on Pike and San Isabel National Forests, click here " latitude="38.0555556" longitude="-105.0697222" nearbyAttrctionDescription="Bishop&amp;amp;#39;s Castle, a replica of a medieval castle, is about 2 miles from the campground, just off Highway 165. The always-in-progress structure is an interesting display of labor-intensive masonry and intricate wrought ironwork.      Beautiful Lake Isabel is less than 10 miles away. Visitors enjoy canoeing, kayaking and fishing in the stocked lake. Several mountain trails weave through the area.        Pueblo Mountain Park in Beulah Valley is about 7 miles east. This scenic park offers hiking trails, educational programs and a stone labyrinth." note="" orientationDescription="The campground sits in a grassy meadow surrounded by aspen and spruce trees at an elevation of 8,500 feet. Squirrel Creek runs alongside this scenic facility in the Wet Mountains of southern Colorado." recreationDescription="The 4.5-mile Squirrel Creek Trail is open to hiking, biking, horseback riding and motorcycle riding. This trail meets the original Squirrel Creek Campground site where a major flood, in 1947, washed out the never-reopened road and campground. Silver Circle, Second Mace, and South Creek Trails can be accessed nearby, too.      Anglers enjoy casting for brook trout in Squirrel Creek." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=96619&amp;cmp=39-32--mcmire">
+        <address city="Canon City" country="United States" shortName="H619" state="Colorado" streetAddress="US Forest Service Road 382" zip="81212"/>
+        <photo realUrl="/webphotos/NRSO/pid96619/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid96619/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid96619/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid96619/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid96619/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid96619/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid96619/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid96619/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid96619/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid96619/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid96619/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid96619/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid96619/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid96619/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid96619/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid96619/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid96619/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid96619/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/96619_H619.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="17192698500"/>
+        <contact name="Ranger Station" number=""/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Adirondack Shelter"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Cooking Area"/>
+        <amenity distance="Within Facility" name="Creek Access"/>
+        <amenity distance="Within Facility" name="Fireplace"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Self Pay Station"/>
+        <amenity distance="Within Facility" name="Tent sites"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Water "/>
+        <amenity distance="Within 10 Miles" name="Canoeing"/>
+        <amenity distance="Within 10 Miles" name="Kayaking"/>
+        <amenity distance="Within 10 Miles" name="Lake Access"/>
+        <amenity distance="Within 10 Miles" name="Motorcycle Trails"/>
+        <amenity distance="Within 10 Miles" name="Mountain Biking"/>
+        <amenity distance="Within 10 Miles" name="Off-Road Vehicle Trails"/>
+        <amenity distance="Within 10 Miles" name="Trailheads"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:13:24 GMT
+recorded_with: VCR 2.5.0

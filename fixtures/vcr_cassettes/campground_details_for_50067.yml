@@ -1,0 +1,74 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50067
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:35:39 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:35:39 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=589E6CEED480257145BDFB9AE954BFBE.web05-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2645525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=589E6CEED480257145BDFB9AE954BFBE.web05-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:35:39 GMT; Path=/
+      Content-Length:
+      - '8363'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description="   ATTENTION:  Fire restrictions are in place.  Visit the park&amp;amp;#39;s web page  or contact the park for current restrictions and conditions before making a reservation or visiting the park.  Thank you.   Arkansas Headwaters Recreation Area (AHRA) is one of the nation&amp;amp;#39;s premier recreation destinations for both whitewater boating and brown trout fishing.  In addition, the area also offers abundant and outstanding opportunities for camping, picnicking, hiking, horseback riding, mountain biking, OHV use, wildlife watching  and sightseeing among deep canyons, broad valleys, and towering mountain peaks. AHRA operates six campgrounds with 102 sites. All AHRA campgrounds, with the exception of Five Points, are on the Arkansas River and have boat ramps for raft and kayak access." drivingDirection=" NOTE: The Arkansas Headwaters Recreation Area (AHRA) spans 152 miles, is in four counties, and runs through multiple municipalities. Although our visitor center is located in Salida, CO, there is no campground at that location. The location noted on the regional map is the AHRA Visitor Center, located in downtown Salida and there is no campground at that location.     RAILROAD BRIDGE CAMPGROUND  is 6 miles north of Buena Vista and can be accessed one of two ways from U.S. Highway 24.  The first way is RECOMMENDED IF YOU HAVE AN R.V. OR TRAILER.  Take U.S. Highway 24 into the Town of Buena Vista.  Turn east at the stop light on Highway 24 and Main Street, cross the railroad tracks, go to N. Colorado Avenue and turn left.  N. Colorado Avenue becomes Chaffee County Road 371, which is dirt and narrow in places.  Drive 6.2 miles to the Railroad Bridge Campground. The second way is located between mile markers 201 and 202 on Highway 24 north of Buena Vista AND IS NOT RECOMMENDED FOR R.V.&amp;apos;S OR VEHICLES WITH TRAILERS.  Turn east on to Chaffee County Road 371, cross the Arkansas River and turn right. Drive 3.1 miles to Railroad Bridge Campground on a very narrow dirt road with a 25 mph speed limit and pullouts to allow oncoming traffic to pass by.  GPS Coordinates for Railroad Bridge = 38 degreen 55 minutes 22.36 seconds  N 106 degrees 10 minutes 11.65 seconds W   RUBY MOUNTAIN CAMPGROUND  is 6 miles south of Buena Vista  and is accessed from U.S. Highway 285 between mile markers 144 and 145.  Turn east on to Chaffee County Road 301,  cross the river and continue to the end of the pavement, then turn right onto County Road 300.  Drive 2.4 miles to the Ruby Mountain Campground.  Caution should be used as the road becomes a very narrow single lane with a 15 mph speed limit.  GPS Coordinates for Ruby Mountain = 38 degrees 45 minutes 09.01 seconds N   106 degrees 04 minutes 10.89 seconds W   HECLA JUNCTION CAMPGROUND  is 14 miles northwest of Salida  and is accessed from U.S. Highway 285 between mile markers 135 and 136.  Turn east onto Chaffee County Road 194 drive 2.4 miles to the Hecla Junction Campground.  Caution, this is a narrow, steep (12% grade) dirt road, with a significant amount of traffic in the summer.  GPS Coordinates for Hecla Junction = 38 degrees 39 minutes 06.85 seconds N    106 degrees 03 minutes 15.10 seconds W   RINCON CAMPGROUND  is 8 miles east of Salida  and is accessed from U.S. Highway 50 at mile marker 231 between the towns of Swissvale and Howard. Rincon is directly off the highway on the north side between the highway and the river.  GPS Coordinates for Rincon = 38 degrees 28 minutes 14.55 seconds N    105 degrees 51 minutes 54.48 seconds W   VALLIE BRIDGE CAMPGROUND  is 2 miles west of Coaldale and is accessed from U.S. Highway 50 at mile marker 239 between the towns of Howard and Coaldale.  Turn north onto Fremont County Road 45, cross the river and park in the campground parking lot on your right.  Please note this is a BOAT IN/WALK IN ONLY campground and you will have to pack in your equipment a short distance.  GPS Coordinates for Vallie Bridge = 38 degrees 23 minutes 30.90 seconds N    105 degrees 46 minutes 28.74 seconds W   FIVE POINTS CAMPGROUND  is 20 miles west of Canon City  and is accessed from U.S. Highway 50 at mile marker 260.  The campground is on the south side of the highway and the day use area is on the north/river side.  There is a walkway under Highway 50 from the campground to the river.  GPS Coordinates for Five Points = 38 degrees 27 minutes 10.43 seconds N     105 degrees 29 minutes 35.42 seconds W " facilitiesDescription="" facility="ARKANSAS HEADWATERS RECREATION AREA" facilityID="50067" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50067&amp;cmp=39-32--mcmire" importantInformation=" In ADDITION to the CAMPING PERMIT, a DAILY PARK PASS is required for each day a motor vehicle is in the Recreation Area unless the vehicle has a valid Colorado State Parks annual pass, or is being towed behind a motor home. The Daily Parks Passes (yellow) may be obtained at the campground&amp;apos;s self service pay station. These passes are $7.00 per motor vehicle per day. If you do not enter the Recreation Area in a motor vehicle an Individual Pass (green) is required for each person over 16 years of age. These passes are $3.00 per person per day. Firewood and water are NOT available in the campgrounds. The gathering of firewood in the campgrounds is NOT permitted. All campgrounds EXCEPT Five Points have boat ramps. Most AHRA campgrounds have: vault toilets, tent pads, grills, and picnic tables. Motor craft are NOT permitted on the river. " latitude="38.5375" longitude="-105.9930556" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="Southeast Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50067&amp;cmp=39-32--mcmire">
+        <address city="SALIDA" country="United States" shortName="AHRA" state="Colorado" streetAddress="307 W SACKETT AVE" zip="81201"/>
+        <photo realUrl="/webphotos/CO/pid50067/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50067/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50067/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50067/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50067/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50067/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50067/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50067/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50067/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="7195397289"/>
+        <contact name="Ranger Station" number="7195397289"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Bird Watching"/>
+        <amenity distance="Within Facility" name="Boat Launch"/>
+        <amenity distance="Within Facility" name="Boat Launch Ramp"/>
+        <amenity distance="Within Facility" name="Boat Ramp"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Historical Site(S)"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Interpretive Programs"/>
+        <amenity distance="Within Facility" name="Motorized Trails"/>
+        <amenity distance="Within Facility" name="Natural Shade"/>
+        <amenity distance="Within Facility" name="Parking"/>
+        <amenity distance="Within Facility" name="Photography"/>
+        <amenity distance="Within Facility" name="Picnicking"/>
+        <amenity distance="Within Facility" name="Ranger Station"/>
+        <amenity distance="Within Facility" name="Visitor Center"/>
+        <amenity distance="Within Facility" name="White Water Rafting"/>
+        <amenity distance="Within Facility" name="Wildlife Watching Opportunity"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:00:15 GMT
+recorded_with: VCR 2.5.0

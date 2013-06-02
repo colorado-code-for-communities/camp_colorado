@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50025&siteType=10001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:16:36 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:16:36 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=3DA915C2E87F2058F8F4A62D36870969.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=3DA915C2E87F2058F8F4A62D36870969.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:16:36 GMT; Path=/
+      Content-Length:
+      - '2645'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="CO" count="8" parkId="50025" resultType="campsites" siteType="10001">
+        <result Loop="CABIN" Maxeqplen="0" Maxpeople="6" Site="GOGARERI001HA" SiteId="1200" SiteReserveType="site-specific" SiteType="CABIN SMALL" mapx="208.919387817383" mapy="238.393981933594" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="CABIN" Maxeqplen="0" Maxpeople="6" Site="GOGARERI002" SiteId="1201" SiteReserveType="site-specific" SiteType="CABIN SMALL" mapx="228.74" mapy="226.96" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="CABIN" Maxeqplen="0" Maxpeople="6" Site="GOGARERI003" SiteId="1202" SiteReserveType="site-specific" SiteType="CABIN SMALL" mapx="214.004959106445" mapy="215.27653503418" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="CABIN" Maxeqplen="0" Maxpeople="6" Site="GOGARERI004" SiteId="1203" SiteReserveType="site-specific" SiteType="CABIN SMALL" mapx="210.198013305664" mapy="192.444747924805" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="CABIN" Maxeqplen="0" Maxpeople="6" Site="GOGARERI005" SiteId="1204" SiteReserveType="site-specific" SiteType="CABIN SMALL" mapx="226.993499755859" mapy="199.237243652344" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Harmsen Area" Maxeqplen="0" Maxpeople="8" Site="GOGAHarmsen" SiteId="7474" SiteReserveType="site-specific" SiteType="PREMIUM LARGE CABIN" mapx="693.66" mapy="391.84" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="YURT" Maxeqplen="0" Maxpeople="6" Site="GOGARERI001HA" SiteId="1205" SiteReserveType="site-specific" SiteType="YURT" mapx="218.269775390625" mapy="248.999359130859" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="YURT" Maxeqplen="0" Maxpeople="6" Site="GOGARERI002" SiteId="1206" SiteReserveType="site-specific" SiteType="YURT" mapx="237.570007324219" mapy="197.889999389648" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:16:36 GMT
+recorded_with: VCR 2.5.0

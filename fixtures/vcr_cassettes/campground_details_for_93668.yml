@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=93668
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:41:19 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:41:19 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=DE5A02ED697A0322D96846146C0607DF.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=DE5A02ED697A0322D96846146C0607DF.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:41:19 GMT; Path=/
+      Content-Length:
+      - '5737'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="The historic Silesca Cabin, once used as a ranger station, is a semi-rustic dwelling with comfortable modern conveniences like electricity, a shower and refrigerator. Located 40 minutes southwest of the city of Montrose, the cabin is set back 100 feet from the main road, providing easy access with some privacy.     The cabin is accessible in the summer and fall by passenger vehicle, when the road is dry. Four-wheel drive vehicles are recommended when the road is wet." drivingDirection="Follow Highway 90 southwest from Montrose. Watch for signs as the highway makes several turns as it weaves its way out of town. The pavement ends where the road begins to climb out of the Uncompahgre River Valley and enters lands administered by the Bureau of Land Management. In 20 miles, it enters the Uncompahgre National Forest. Silesca Cabin is about a half-mile further on the left side of the road." facilitiesDescription="The rustic cabin accommodates up to six guests. Electricity and non-potable running water are included and a small barn is available for short-term storage of off-road vehicles, bicycles and similar equipment.       Amenities include three bedrooms with six twin beds, a bathroom with a shower and flush toilet, an electric stove, refrigerator and a wood stove. Limited cooking utensils, dishes and cleaning supplies are provided. A campfire ring and picnic table are located outside.     No drinking water is available. Items to bring include food, bedding, warm clothing, toilet paper, flashlights, towels, dish soap and toiletries.   Click here  for more cabin details." facility="SILESCA CABIN" facilityID="93668" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=93668&amp;cmp=39-32--mcmire" importantInformation=" Entry is by combination lock; contact the ranger district at (970) 240-5300 for combination prior to arrival Cabin does not meet current established accessibility standards No drinking water available; guests must bring their own supply Collection of firewood is prohibited Please bring garbage bags; this is a &amp;amp;quot;pack it in, pack it out&amp;amp;quot; facility Please clean cabin before leaving No discharge of firearms within 150 yards of cabin No smoking allowed No pets allowed Bears frequent the area; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating Guests should be aware that there is a risk of exposure to hantavirus when visiting remote cabins; click here to learn more " latitude="38.3327778" longitude="-108.1252778" nearbyAttrctionDescription="" note="" orientationDescription="The cabin is perched in a meadow surrounded by spruce and aspen trees at an elevation of 9,200 feet. The meadow is along the Uncompahgre Plateau, bordered on the east by the wide valleys of the Gunnison and Uncompahgre Rivers, and on the west by the narrow gorges of the Dolores and San Miguel Rivers." recreationDescription="Hiking, mountain biking, off-road vehicle riding, horseback riding, hunting and wildlife viewing are all available in the vicinity. Silesca Pond is a short walk north of the cabin." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=93668&amp;cmp=39-32--mcmire">
+        <address city="Montrose" country="United States" shortName="C668" state="Colorado" streetAddress="2505 South Townsend Avenue" zip="81401"/>
+        <photo realUrl="/webphotos/NRSO/pid93668/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid93668/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid93668/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid93668/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid93668/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid93668/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9702405300"/>
+        <contact name="Ranger Station" number="9702405300"/>
+        <amenity distance="Within Facility" name="Bed(s)"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Cabin Rentals"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Cleaning Supplies"/>
+        <amenity distance="Within Facility" name="Cooking Pots"/>
+        <amenity distance="Within Facility" name="Cooking Utensils"/>
+        <amenity distance="Within Facility" name="Electric Hookups"/>
+        <amenity distance="Within Facility" name="Electric Stove"/>
+        <amenity distance="Within Facility" name="Flush Toilets"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Historic Sites"/>
+        <amenity distance="Within Facility" name="Horseback Riding Trails"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Non-Potable Water"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Refrigerator"/>
+        <amenity distance="Within Facility" name="Star Gazing"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:41:19 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,68 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50037
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:39:44 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:39:44 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=9A84E27583049667B4C9A7CD0348D97E.web05-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2645525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=9A84E27583049667B4C9A7CD0348D97E.web05-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:39:44 GMT; Path=/
+      Content-Length:
+      - '3301'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description="Rifle Falls State Park is the closest you&amp;amp;#39;ll get to the tropics in Colorado. The falls is a lush area of trees and greenery kept moist by the spray of the cascading triple waterfall. The park&amp;amp;#39;s lush vegetation and waterfalls have attracted photographers and movie crews from around the country who take advantage of the area&amp;amp;#39;s unique scenery. Mysterious limestone caves beneath the falls entice spelunkers and other curious visitors to explore their dark depths. Simply breathtaking. Rifle Falls has 12 drive-in and seven walk-in campsites. The drive-in sites accommodate tents, trailers, motor homes and pick-up campers, the walk-in sites are for tent camping only." drivingDirection="I-70 to Rifle exchange. Then take Hwy 13 north, go through Rifle 3 miles. State Hwy 325 for 9.8 miles." facilitiesDescription="" facility="RIFLE FALLS STATE PARK" facilityID="50037" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50037&amp;cmp=39-32--mcmire" importantInformation="No dump station at Rifle Falls, nearest dump station access is Rifle Gap. In addition to the camping fee, an entrance fee is required at all state parks! Shade may be naturally provided by trees and other vegetation or by man made shade shelter. Please call the park for specific details. " latitude="39.6775" longitude="-107.6977778" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="Rocky Mountain Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50037&amp;cmp=39-32--mcmire">
+        <address city="RIFLE" country="United States" shortName="RIFA" state="Colorado" streetAddress="5775 Highway 325" zip="81650"/>
+        <photo realUrl="/webphotos/CO/pid50037/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50037/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50037/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="9706251607"/>
+        <contact name="Ranger Station" number="9706251607"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Firewood Available"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hatchery For Fish"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hiking Trail"/>
+        <amenity distance="Within Facility" name="Historical Site(S)"/>
+        <amenity distance="Within Facility" name="Interpretitive Programs"/>
+        <amenity distance="Within Facility" name="Natural Shade"/>
+        <amenity distance="Within Facility" name="Nature Study Exhibits"/>
+        <amenity distance="Within Facility" name="Parking"/>
+        <amenity distance="Within Facility" name="Photography"/>
+        <amenity distance="Within Facility" name="Picnic Tables"/>
+        <amenity distance="Within Facility" name="Picnicking"/>
+        <amenity distance="Within Facility" name="Splunking"/>
+        <amenity distance="Within Facility" name="Wildlife Watching Opportunity"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:39:44 GMT
+recorded_with: VCR 2.5.0

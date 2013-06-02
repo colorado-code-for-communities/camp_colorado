@@ -1,0 +1,65 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70415
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:31:29 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:31:29 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=1FD203C112E863D2D2D63DC54672ED2F.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=1FD203C112E863D2D2D63DC54672ED2F.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:31:29 GMT; Path=/
+      Content-Length:
+      - '3798'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Lake Irwin Campground is situated on the western banks of its picturesque namesake lake, approximately 9 miles from Crested Butte, Colorado. Visitors enjoy the area for its abundant trail opportunities, fishing and beautiful scenery." drivingDirection="From Gunnison, take Colorado Highway 135 north 28 miles to Crested Butte. Turn left on Gunnison County Road 12. Proceed 7 miles. Turn right on Forest Road 826 and follow signs to the campground." facilitiesDescription="The campground offers several single-family campsites, some of which are accessible. Each site is equipped with a picnic table and campfire ring. Flush toilets and drinking water are provided." facility="LAKE IRWIN" facilityID="70415" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70415&amp;cmp=39-32--mcmire" importantInformation=" Fee applies only to the first camping unit (motor home, RV, trailer); additional camping units will be charged full price at the campground Opening date is weather permitting; please call 928-537-8888 for conditions Click here for more information on the Grand Mesa, Uncompahgre and Gunnison National Forests " latitude="38.8811111" longitude="-107.1069444" nearbyAttrctionDescription="The charming town of Crested Butte is a short drive from the campground. The former coal mining town offers a variety of outdoor activities, dining and shopping options and annual festivals, like the Crested Butte Wildflower Festival." note="" orientationDescription="The campground is set high in the Colorado Rockies at an elevation of 10,200 feet. Summer days are cool and afternoon showers are common. Nights can be chilly.     Lake Irwin borders the campground on the east, and the Ruby Mountain Range lies to the west. Vivid wildflowers fill the landscape during July and August. Most campsites are shaded by mature Englemann spruce and subalpine fir trees.    The Grand Mesa, Uncompahgre and Gunnison National Forests are located on the western slope of the Rocky Mountains. Together, the three forests cover 2.9 million acres in the central and southern Rocky Mountains, south of the Colorado River and west of the Continental Divide." recreationDescription="Mountain biking and hiking are popular activities in this challenging, rugged terrain. Canoeing and fishing are favorite pastimes as well. The lake is usually so full of fish, one can see them rise to the calm surface." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70415&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="LAKI" state="Colorado" streetAddress="GUNNISON, GRAND MESA, AND UNCO" zip=""/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9703496348"/>
+        <contact name="Ranger Station" number="9703496348"/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Canoeing"/>
+        <amenity distance="Within Facility" name="Climbing"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Flush Toilets"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Lake Access"/>
+        <amenity distance="Within 10 Miles" name="Fuel Available"/>
+        <amenity distance="Within 10 Miles" name="Grocery Store"/>
+        <amenity distance="Within 10 Miles" name="Restaurant"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:31:29 GMT
+recorded_with: VCR 2.5.0

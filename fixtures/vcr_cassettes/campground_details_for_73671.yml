@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73671
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:42:28 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:42:28 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=E8E1DDD7CE18C428F610994C56F57B6E.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=E8E1DDD7CE18C428F610994C56F57B6E.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:42:28 GMT; Path=/
+      Content-Length:
+      - '6685'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Spruce Group Campground, located in the Lake Isabel Recreation Area, is a great place to bring groups for picnicking and camping on the scenic Lake Isabel. The campground accommodates 50 guests for day-use and 40 guests for overnight camping. Some RVs can fit in the paved parking area for added convenience.    Lake Isabel is one of the few lakes in Colorado developed purely for recreation purposes. Built by the Civilian Conservation Corps, the lake attracts campers who enjoy hiking, canoeing, fishing and watching for wildlife. St. Charles Creek flows near the campground and offers additional opportunities for fishing." drivingDirection="From Pueblo, drive 25 miles south on Interstate 25 to exit 74. Go west 18 miles on state Highway 165 and turn into the main entrance at the Lake Isabel Recreation Area. Drive to Forest Road 374 and turn left. The entrance to the group campground is beyond the St. Charles Campground entrance behind a closed gate." facilitiesDescription="Spruce has a picnic shelter that seats 25 to 30 people, plus a horseshoe pit and volleyball court. Two 3-foot wide grills are onsite and individual sites have campfire rings.    Drinking water is provided via a hand pump and an accessible double vault toilet is in the campground. There are no defined tent pads.    The road through the group site is paved, and a parking area fits a limited number of RVs." facility="SPRUCE GROUP - LAKE ISABEL" facilityID="73671" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=73671&amp;cmp=39-32--mcmire" importantInformation=" Be bear aware; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating Limit 20 vehicles; a $5 fee is charged for extra vehicles This is a high elevation facility, please use caution when traveling from lower elevations No electric hookups available No firearms or fireworks Limited water available; no RV water hookups For more information on Pike and San Isabel National Forests, click here " latitude="37.9677778" longitude="-105.0672222" nearbyAttrctionDescription="The Frontier Pathways Scenic Byway is a great route to explore and shoot photos.     A nearby lodge offers paddle and rowboat rentals, groceries and a restaurant. Golf courses are about 15 minutes away." note="" orientationDescription="The St. Charles Creek runs next to the campground, and dense spruce trees surround the site. The shoreline of Lake Isabel meets the rocky slopes of the Wet Mountains at an elevation of 8,600 feet.     The Pike and San Isabel National Forest includes over a million acres of wilderness and over half of Colorado&amp;amp;#39;s mountain peaks that reach above 14,000 feet." recreationDescription="Lake Isabel welcomes non-motorized boating and fishing. Brown and brook trout are stocked in the lake and the St. Charles headwaters reap brook trout.     Visitors can enjoy hiking, bicycling or motorcycling on either the Snow Slide Trail or Cisneros Trail. The 15-mile Cisneros Trail, also open to ATV riders, leads to the heart of the Wet Mountains, through forests and open, wildflower speckled valleys. Along the way, the trail connects to St. Charles Trail, which heads to St. Charles Peak." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=73671&amp;cmp=39-32--mcmire">
+        <address city="Canon City" country="United States" shortName="LAIS" state="Colorado" streetAddress="3028 E. Main Street" zip="81212"/>
+        <photo realUrl="/webphotos/NRSO/pid73671/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid73671/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid73671/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid73671/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid73671/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid73671/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid73671/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid73671/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid73671/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid73671/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid73671/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid73671/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid73671/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid73671/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid73671/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid73671/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid73671/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid73671/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/73671_LAIS.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7194892644"/>
+        <contact name="Ranger Station" number="7192698500"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood Vendor"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseshoe Pit"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Volleyball Courts"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:42:28 GMT
+recorded_with: VCR 2.5.0

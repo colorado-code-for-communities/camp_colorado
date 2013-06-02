@@ -1,0 +1,86 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70028
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:35:07 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:35:07 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=E64FBC01A8AC068D7D5C181331F74761.web07-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2845525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=E64FBC01A8AC068D7D5C181331F74761.web07-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:35:06 GMT; Path=/
+      Content-Length:
+      - '6014'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Mountain Park Campground is located on the Cache la Poudre River, 40 miles northwest of Fort Collins, Colo., along Highway 14. Visitors enjoy the area for its great rafting, fishing and hiking opportunities." drivingDirection="From Fort Collins, travel west on Colorado Highway 14, to Ted&amp;apos;s Place, and continue up the Poudre Canyon to mile marker 98.8." facilitiesDescription="The campground offers accessible single- and double-family sites, and a group site that can accommodate up to 75 people. Sites 1 through 32 have electric hookups. Sites 33 through 54 do not have hookups.    Picnic tables, 12x15&amp;amp;#39; tent pads, campfire rings and grills are provided, as are vault toilets and drinking water. Coin showers are located on-site. Dead and downed firewood  may be gathered in the forest or purchased from the host." facility="MOUNTAIN PARK" facilityID="70028" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70028&amp;cmp=39-32--mcmire" importantInformation=" This is bear country! For bear and human safety, keep a clean campsite and do not place food or other attractants in your tent. For more information about visiting bear country, contact Colorado Parks and Wildlife at http://wildlife.state.co.us No sewer or water hookups are available Additional sites may be available on a first-come, first-served basis before, during and after the reservation season Click here for more information on the Arapaho and Roosevelt National Forests Operated by American Land &amp;amp;amp; Leisure. You may contact us at www.AmericanLL.com or 801-226-3564. " latitude="40.6820333" longitude="-105.4691083" nearbyAttrctionDescription="" note="" orientationDescription="The canyon&amp;amp;#39;s vegetation varies from dense forests to open meadows, surrounded by steep mountains. A forest of ponderosa pine trees covers the campground, which is situated on the banks of the Cache la Poudre River, Colorado&amp;amp;#39;s first National Wild and Scenic River." recreationDescription="The Cache La Poudre River offers whitewater rafting and fishing. Anglers cast for brown, cutthroat and rainbow trout.    Hiking, biking and horseback riding trails are in the surrounding area, including the Mt. McConnel Trail, William R. Kreutzer National Recreation Trail and Young Gulch Trail.    Volleyball and basketball courts, a playground and horseshoe pits are located in the campground. Other popular activities include birding and wildlife viewing." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70028&amp;cmp=39-32--mcmire">
+        <address city="BELLEVUE" country="United States" shortName="MOUT" state="Colorado" streetAddress="HWY 14" zip="80512"/>
+        <photo realUrl="/webphotos/NRSO/pid70028/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70028/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70028/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70028/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70028/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70028/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70028/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70028/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70028/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70028_MOUT.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9708812157"/>
+        <contact name="Ranger Station" number="9702956700"/>
+        <amenity distance="Within Facility" name="Accessible Drinking Water"/>
+        <amenity distance="Within Facility" name="Accessible Showers"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Basketball Courts"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Coin Showers"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Electric Hookups"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Group Camping"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseback Riding Trails"/>
+        <amenity distance="Within Facility" name="Horseshoe Pit"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Playground"/>
+        <amenity distance="Within Facility" name="RV sites"/>
+        <amenity distance="Within Facility" name="Rafting"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Tent Pads"/>
+        <amenity distance="Within Facility" name="Tent sites"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Volleyball Courts"/>
+        <amenity distance="Within Facility" name="Whitewater Rafting"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:35:07 GMT
+recorded_with: VCR 2.5.0

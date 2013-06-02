@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70029
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:38:48 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:38:48 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=E6EBC509E3D45D8C1AB92A72D3A6DBAE.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=E6EBC509E3D45D8C1AB92A72D3A6DBAE.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:38:48 GMT; Path=/
+      Content-Length:
+      - '5248'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Chambers Lake Campground is located approximately 60 miles north of Fort Collins, Colo., on beautiful Chambers Lake. Visitors enjoy the area for its great fishing and canoeing, as well as abundant trail opportunities and wilderness access." drivingDirection="From Interstate 25 at Fort Collins, take Highway 287 north for 10 miles to Ted&amp;apos;s Place, then take Highway 14 west for 50 miles to the campground." facilitiesDescription="The campground offers single and double family campsites, many of which are accessible. Each site contains a picnic table and campfire ring. Vault toilets and drinking water are provided. A playground area is located within the campground." facility="CHAMBERS LAKE" facilityID="70029" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70029&amp;cmp=39-32--mcmire" importantInformation=" This is bear country! For bear and human safety, keep a clean campsite and do not place food or other attractants in your tent. For more information about visiting bear country, contact Colorado Parks and Wildlife at http://wildlife.state.co.us No electric, water or sewer hookups Extra parking is not available A no-wake boat speed is enforced on the lake Sites may be available on a first-come, first-served basis outside the reservation season Click here for more information on the Arapaho and Roosevelt National Forests Operated by American Land &amp;amp;amp; Leisure. You may contact us at www.AmericanLL.com or 801-226-3564. " latitude="40.59575" longitude="-105.8428528" nearbyAttrctionDescription="Many hiking and horseback riding trails in the area provide access to the Neota and Comanche Peak wilderness areas, which are located nearby." note="" orientationDescription="The campground is situated in a rustic, mountainous area, at an elevation of 9,200 feet. Some sites have reduced shade because many hazardous lodgepole pine trees have been removed due to the mountain pine beetle epidemic." recreationDescription="Popular activities included fishing, canoeing and boating on Chambers Lake, which is a no-wake lake. Anglers cast for rainbow, cutthroat and lake trout. A boat ramp is located within the campground.    The Blue Lake Trail No. 959 begins nearby. The 7.2-mile trail provides access to the Rawah Wilderness. Several additional hiking and biking trails can be found in the surrounding area." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70029&amp;cmp=39-32--mcmire">
+        <address city="BELLEVUE" country="United States" shortName="CHAM" state="Colorado" streetAddress="HWY 14" zip="80512"/>
+        <photo realUrl="/webphotos/NRSO/pid70029/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70029/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70029/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70029/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70029/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70029/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70029/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70029/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70029/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70029_CHAM.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9708812157"/>
+        <contact name="Ranger Station" number="9702956700"/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Amphitheater"/>
+        <amenity distance="Within Facility" name="Boat Ramp"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Canoeing"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Lake Access"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Playground"/>
+        <amenity distance="Within Facility" name="Tent Pads"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:03:14 GMT
+recorded_with: VCR 2.5.0

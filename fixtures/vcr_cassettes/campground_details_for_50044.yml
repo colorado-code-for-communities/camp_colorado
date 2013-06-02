@@ -1,0 +1,93 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50044
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:44:57 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:44:57 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=8E5FE44C1CA308F983B2603559AC47FA.web03-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2445525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=8E5FE44C1CA308F983B2603559AC47FA.web03-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:44:57 GMT; Path=/
+      Content-Length:
+      - '7019'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description="A beautiful setting in the mountains of southern Colorado, a mild year- round climate and 800 acres of water ideal for numerous water sports are the lures of Trinidad Lake State Park. Anglers catch rainbow and cutthroat trout, largemouth bass, channel catfish, walleye, crappie and perch. The lake is popular for water skiing and windsurfing. Visitors may explore the mountain branch of the historic Santa Fe Trail in nearby Trinidad. There are great wildlife-watching opportunities at this park; turkey, coyote, and deer call the park home. Two campgrounds with 73 sites can accomodate recreational vehicles, trailers or tents. On October 15, the campground is winterized with sites 1-23, 62 and 63 open year-round on a first-come, first-serve basis. Mild fall weather and abundant winter sunshine make Trinidad Lake State Park a great off-season vacation destination. In addition to camping, some of the activities available between Labor Day and spring are hiking, ice fishing, winter wildlife watching, and hunting. Call Park for details." drivingDirection=" Heading north on I-25, take Exit 13B to West Main Street. At the first four-way stop, turn left onto Nevada. At the next four-way stop by the Welcome Center, turn left and continue west on Highway 12 for 3.5 miles.  For those traveling south on I-25, take exit 14 and at the stoplight continue straight ahead up Colorado Ave., turn left on San Juan and continue down the hill until you come to a stop sign on Highway 12. Take Hwy 12 west for three miles. " facilitiesDescription="" facility="TRINIDAD LAKE STATE PARK" facilityID="50044" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50044&amp;cmp=39-32--mcmire" importantInformation="Fire danger is high this season. Trinidad Lake is a fluctuating reservoir and water levels vary. The main campground is situated on a mesa approximately 150-200 feet above the lake and there is no direct access to the lake from this campground. Shade may be provided naturally by trees and other vegetation at some of the sites. Charcoal or wood fires are allowed only in designated grills or fire pits at each site. **In addition to the camping fee, a vehicle entrance fee is required at all state parks!** Please call the park for specific details---719-846-6951. Call the park for details or check the latest status reports by visiting us on the web at http://parks.state.co.us/parks/trinidadlake. You may contact us by email at trinidad.lake@state.co.us. " latitude="37.1425" longitude="-104.5461111" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="Southeast Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50044&amp;cmp=39-32--mcmire">
+        <address city="TRINIDAD" country="United States" shortName="TRSR" state="Colorado" streetAddress="32610 HIGHWAY 12" zip="81082"/>
+        <photo realUrl="/webphotos/CO/pid50044/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50044/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50044/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50044/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50044/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50044/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50044/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50044/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50044/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50044/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50044/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50044/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50044/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50044/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50044/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="7198466951"/>
+        <contact name="Ranger Station" number=""/>
+        <amenity distance="Within Facility" name="Amphitheater"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Bird Watching"/>
+        <amenity distance="Within Facility" name="Boat Ramp"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Camper Services Bldg"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Firewood Available"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Fishing Licenses Sold"/>
+        <amenity distance="Within Facility" name="Group Campground"/>
+        <amenity distance="Within Facility" name="Group Picnic Area"/>
+        <amenity distance="Within Facility" name="Group Picnicking"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Historical Site(S)"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Ice Fishing"/>
+        <amenity distance="Within Facility" name="Interpretitive Programs"/>
+        <amenity distance="Within Facility" name="Jet Skiing"/>
+        <amenity distance="Within Facility" name="Laundry Facilities"/>
+        <amenity distance="Within Facility" name="Natural Shade"/>
+        <amenity distance="Within Facility" name="Park Entrance Fee"/>
+        <amenity distance="Within Facility" name="Photography"/>
+        <amenity distance="Within Facility" name="Picnic Shelter"/>
+        <amenity distance="Within Facility" name="Picnic Tables"/>
+        <amenity distance="Within Facility" name="Picnicking"/>
+        <amenity distance="Within Facility" name="Playground"/>
+        <amenity distance="Within Facility" name="Proximity To Camp Serv."/>
+        <amenity distance="Within Facility" name="Sailing And Sailboarding"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Visitor Center"/>
+        <amenity distance="Within Facility" name="Water Fillup Station"/>
+        <amenity distance="Within Facility" name="Water Skiing"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within Facility" name="Wildlife Watching Opportunity"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:44:57 GMT
+recorded_with: VCR 2.5.0

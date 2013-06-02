@@ -1,0 +1,154 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=72432
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:29:35 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:29:35 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=1ECF22A525829664362A706AB9AAC6F8.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=1ECF22A525829664362A706AB9AAC6F8.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:29:35 GMT; Path=/
+      Content-Length:
+      - '12179'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Island Lake Campground is located at an elevation of 10,000 feet on Colorado&amp;amp;#39;s Grand Mesa, which is home to more than 300 fishing lakes, near the cities of Cedaredge and Delta. Visitors enjoy the area for its excellent fishing, canoeing and hiking opportunities." drivingDirection="From Cedaredge, Colorado, take State Route 65 north for 15.7 miles to campground sign (Forest Route 116). Turn left at sign onto Route 116 (gravel) and go 1.4 miles to campground sign. Turn left at sign into campground." facilitiesDescription="The campground offers 39 sites, including electric, non-electric and group sites. Picnic tables and campfire rings are provided. Three vault restrooms are located within the facility.      Trail access for hiking and off-road vehicle driving can be found within the campground. Visitors will find a boat ramp, fish cleaning station and new restroom at nearby Island Lake. Day-use parking and boat trailer parking are available for a small fee." facility="ISLAND LAKE CAMPGROUND" facilityID="72432" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=72432&amp;cmp=39-32--mcmire" importantInformation=" Reservations only apply to the first camping unit; additional camping units will be charged full price at the campground America the Beautiful Annual Passes are not accepted at this campground; senior and access passes are accepted, but pass holders must occupy the site and present card upon arrival Sites may be available before and after the reservation period on a first-come, first-served basis Dates are weather permitting, please call 928-537-8888 for exact opening dates Click here to learn more about Grand Mesa, Uncompahgre and Gunnison National Forests " latitude="39.0319444" longitude="-108.0105556" nearbyAttrctionDescription="Recreation opportunities on the Grand Mesa National National Forest and surrounding areas are varied, and millions of visitors come to enjoy nearly 60 campgrounds and 13 picnic areas and more than 3,700 miles of system roads, including national and state-designated scenic byways and other scenic or recreation travel corridors.     Thousands of miles of trails for hiking, snowmobiling, cross-country skiing, mountain biking and motorcycle riding are available, including sections of the Continental Divide National Scenic Trail and the Colorado Trail.     More than 300 lakes and 3,600 miles of streams are found on the Forest. Six mountain peaks reach more than 14,000 feet in elevation, creating many popular areas for rock and ice climbing, hiking and driving along high elevation meadows thick with colorful wildflowers and nature observation and photography of Colorado&amp;amp;#39;s abundant wildlife.    A variety of historic mining sites are also found in the forest, including the San Juan Mining area, as well as the Alpine Tunnel Historic District, which includes approximately 13 miles of the former Denver, South Park and Pacific Railroad railbed across the Continental Divide. The forest also contains three ski resorts, three lodges, two organizational camps and one marina." note="" orientationDescription="Island Lake is just .10 miles from the campground. A few sites offer panoramic views of Grand Valley and several lakes below. A dense grove of mature spruce trees covers most sites.     A wide variety of wildlife frequents the area, including deer and elk." recreationDescription="More than 3,000 miles of trails and routes provide access to areas of rugged beauty and solitude. Many were carved by indigenous peoples, early explorers and miners, offering an experience that connects visitors to the land and its prehistoric and historic past.     The topography allows the forest to provide year-round trails for beginners to experts. The mountains, plateau and mesa never fail to provide a breathtaking backdrop." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=72432&amp;cmp=39-32--mcmire">
+        <address city="Delta" country="United States" shortName="ILCO" state="Colorado" streetAddress="Forest Service Road 116" zip="81416"/>
+        <photo realUrl="/webphotos/NRSO/pid72432/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72432/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72432/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72432/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72432/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72432/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72432/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72432/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72432/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72432/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72432/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72432/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72432/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72432/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72432/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72432/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72432/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72432/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9285378888"/>
+        <contact name="Ranger Station" number=""/>
+        <amenity distance="Within Facility" name="Accessible Campsites"/>
+        <amenity distance="Within Facility" name="Accessible Drinking Water"/>
+        <amenity distance="Within Facility" name="Accessible Grills"/>
+        <amenity distance="Within Facility" name="Accessible Parking"/>
+        <amenity distance="Within Facility" name="Accessible Scenic Overlook"/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Boat Trailer Parking"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Crawfishing"/>
+        <amenity distance="Within Facility" name="Day Use Area"/>
+        <amenity distance="Within Facility" name="Dock"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Drinking Water (Peak Season)"/>
+        <amenity distance="Within Facility" name="Electric Hookups"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Firewood Vendor"/>
+        <amenity distance="Within Facility" name="Fish Cleaning Stations"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Group Camping"/>
+        <amenity distance="Within Facility" name="Group Cooking Facilities"/>
+        <amenity distance="Within Facility" name="Group Site (Reservable)"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Kayaking"/>
+        <amenity distance="Within Facility" name="Lake Access"/>
+        <amenity distance="Within Facility" name="Lantern Posts"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Mountain Climbing"/>
+        <amenity distance="Within Facility" name="Mushroom Picking"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Paved Parking"/>
+        <amenity distance="Within Facility" name="Pets Allowed"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Propane Grills"/>
+        <amenity distance="Within Facility" name="RV sites"/>
+        <amenity distance="Within Facility" name="Recycling"/>
+        <amenity distance="Within Facility" name="Scenic Overlooks"/>
+        <amenity distance="Within Facility" name="Shade"/>
+        <amenity distance="Within Facility" name="Tables"/>
+        <amenity distance="Within Facility" name="Tent Pads"/>
+        <amenity distance="Within Facility" name="Tent sites"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Water"/>
+        <amenity distance="Within Facility" name="Water (Seasonal)"/>
+        <amenity distance="Within Facility" name="Water Access"/>
+        <amenity distance="Within Facility" name="Water Spigot"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within 10 Miles" name="ATV Rentals"/>
+        <amenity distance="Within 10 Miles" name="Accessible Boat Dock"/>
+        <amenity distance="Within 10 Miles" name="Accessible Boat Ramp"/>
+        <amenity distance="Within 10 Miles" name="Accessible Fishing Dock"/>
+        <amenity distance="Within 10 Miles" name="Accessible Picnic Areas"/>
+        <amenity distance="Within 10 Miles" name="Accessible Trails"/>
+        <amenity distance="Within 10 Miles" name="Backpacking"/>
+        <amenity distance="Within 10 Miles" name="Bait Shop"/>
+        <amenity distance="Within 10 Miles" name="Boat Dock"/>
+        <amenity distance="Within 10 Miles" name="Boat Ramp"/>
+        <amenity distance="Within 10 Miles" name="Boat Rentals"/>
+        <amenity distance="Within 10 Miles" name="Cabin Rentals"/>
+        <amenity distance="Within 10 Miles" name="Cafe"/>
+        <amenity distance="Within 10 Miles" name="Camping Supplies"/>
+        <amenity distance="Within 10 Miles" name="Canoe Rentals"/>
+        <amenity distance="Within 10 Miles" name="Canoeing"/>
+        <amenity distance="Within 10 Miles" name="Cell phone service"/>
+        <amenity distance="Within 10 Miles" name="Climbing"/>
+        <amenity distance="Within 10 Miles" name="Cross Country Skiing"/>
+        <amenity distance="Within 10 Miles" name="Dump Station"/>
+        <amenity distance="Within 10 Miles" name="Emergency Phone"/>
+        <amenity distance="Within 10 Miles" name="Fishing Licenses"/>
+        <amenity distance="Within 10 Miles" name="General Store"/>
+        <amenity distance="Within 10 Miles" name="Hiking"/>
+        <amenity distance="Within 10 Miles" name="Horse Rentals"/>
+        <amenity distance="Within 10 Miles" name="Hotels"/>
+        <amenity distance="Within 10 Miles" name="Hunting"/>
+        <amenity distance="Within 10 Miles" name="Ice"/>
+        <amenity distance="Within 10 Miles" name="Ice Machine"/>
+        <amenity distance="Within 10 Miles" name="Lodging"/>
+        <amenity distance="Within 10 Miles" name="Marina"/>
+        <amenity distance="Within 10 Miles" name="Motel"/>
+        <amenity distance="Within 10 Miles" name="Off-Road Vehicle Trails"/>
+        <amenity distance="Within 10 Miles" name="Propane"/>
+        <amenity distance="Within 10 Miles" name="RV Parking"/>
+        <amenity distance="Within 10 Miles" name="RV supplies"/>
+        <amenity distance="Within 10 Miles" name="Ranger Station"/>
+        <amenity distance="Within 10 Miles" name="River Access"/>
+        <amenity distance="Within 10 Miles" name="Rock Climbing"/>
+        <amenity distance="Within 10 Miles" name="Showers (Seasonal)"/>
+        <amenity distance="Within 10 Miles" name="Sledding"/>
+        <amenity distance="Within 10 Miles" name="Visitor Center"/>
+        <amenity distance="Within 10 Miles" name="Washer &amp;amp; Dryer"/>
+        <amenity distance="Within 10 Miles" name="Wireless Internet"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:29:36 GMT
+recorded_with: VCR 2.5.0

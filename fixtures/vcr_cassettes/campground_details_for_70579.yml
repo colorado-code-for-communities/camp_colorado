@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70579
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:36:56 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:36:56 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=23131165BAFFA6BF786210546D2A9BF3.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=23131165BAFFA6BF786210546D2A9BF3.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:36:56 GMT; Path=/
+      Content-Length:
+      - '6275'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Pawnee Campground is located in the Brainard Lake Recreation Area, off the Peak to Peak Scenic Byway, 30 miles south of Estes Park and the main entrance to the Rocky Mountain National Park. Visitors enjoy the area for its fishing, canoeing and hiking opportunities." drivingDirection="From Denver, travel north on Interstate 25 to U.S. Highway 36 West to Boulder. Continue on Colorado Highway 119 (Canyon Boulevard) for 22 miles to Nederland, then go north on Colorado Highway 72 to Ward. Turn left at the sign and travel 5 miles to Brainard Lake Recreation Area." facilitiesDescription="The campground offers several single-family campsites, each equipped with a picnic table and campfire ring. Vault toilets and drinking water are provided." facility="PAWNEE" facilityID="70579" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70579&amp;cmp=39-32--mcmire" importantInformation=" This is bear country! For bear and human safety, keep a clean campsite and do not place food or other attractants in your tent. For more information about visiting bear country, contact Colorado Parks and Wildlife at http://wildlife.state.co.us Click here for more information on the Arapaho and Roosevelt National Forest Operated by American Land &amp;amp;amp; Leisure. You may contact us at www.AmericanLL.com or 801-226-3564. " latitude="40.1314556" longitude="-105.5670611" nearbyAttrctionDescription="The town of Nederland is 14 miles south of the campground, offering grocery and hardware stores, restaurants, gas, a bank and a post office.    Rocky Mountain National Park&amp;amp;#39;s main entrance is 35 miles north in Estes Park. With lush valleys and craggy peaks reaching elevations higher than 14,000 feet, visitors are provided opportunities for countless breathtaking experiences and adventures. Scenic driving, hiking, backpacking, fishing, horseback riding and wildlife viewing are popular activities in the park.    Estes Park is a full-service community. Dining, shopping, rafting, fly-fishing, horseback riding and golfing opportunities are available there. Lake Estes offers boating, sailboarding and fishing." note="" orientationDescription="The campground lies at the foot of the Continental Divide, next to 25-acre Brainard Lake and the Indian Peaks Wilderness Area at an elevation of 10,350 feet. A scenic forest of spruce and fir trees covers the area. Summertime temperatures are warm in the day and cool at night. Afternoon thunderstorms are common." recreationDescription="Brainard Lake is a popular destination for canoeing, kayaking and fishing. Anglers cast for rainbow, brown and cutthroat trout. Long Lake, Red Rock Lake and Left Hand Reservoir are nearby.    Several trails in the area provide access to the adjacent Indian Peaks Wilderness Area. Hiking is allowed on all trails; mountain biking is allowed outside the wilderness area. Rock climbing, snowshoeing and cross country skiing are often available, weather permitting." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70579&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="PAWN" state="Colorado" streetAddress="ARAPAHO AND ROOSEVELT" zip=""/>
+        <photo realUrl="/webphotos/NRSO/pid70579/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70579/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70579/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70579/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70579/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70579/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70579/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70579/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70579/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70579_PAWN.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="3032583610"/>
+        <contact name="Ranger Station" number="3035412500"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Canoeing"/>
+        <amenity distance="Within Facility" name="Cross Country Skiing"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Kayaking"/>
+        <amenity distance="Within Facility" name="Lake Access"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Rock Climbing"/>
+        <amenity distance="Within Facility" name="Skiing"/>
+        <amenity distance="Within Facility" name="Snowshoeing"/>
+        <amenity distance="Within Facility" name="Tables"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <bulletin description="Pawnee Campground has been completely renovated.  The campground offers a new layout and campsite locations.  Please check the map for campsite placement.  The campground will reopen on a first-come, first-serve basis in the summer of 2013." headline="CLOSED FOR RENOVATIONS - OPENING SUMMER 2013"/>
+        <bulletin description="Closure for renovations continues. Please check here to see if the closure has been lifted." headline="Notice"/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:36:56 GMT
+recorded_with: VCR 2.5.0

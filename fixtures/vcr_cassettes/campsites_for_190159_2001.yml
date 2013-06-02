@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=KOA&parkId=190159&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:16:06 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:16:06 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=ECF0D1244A10A60F5F84A6D2662D50B8.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=ECF0D1244A10A60F5F84A6D2662D50B8.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:16:06 GMT; Path=/
+      Content-Length:
+      - '1502'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="KOA" count="4" parkId="190159" resultType="campsites" siteType="2001">
+        <result Loop="Fort Collins / Poudre Canyon KOA" Maxeqplen="75" Maxpeople="6" Site="Pull-thru, Full hookups, 50 amp, Cable, WiFi" SiteId="55269" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Fort Collins / Poudre Canyon KOA" Maxeqplen="55" Maxpeople="6" Site="Pull-thru, Electric, 30/20 amp" SiteId="348" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Fort Collins / Poudre Canyon KOA" Maxeqplen="30" Maxpeople="4" Site="Pull-thru, Full hookups, 30/20 amp, Cable, WiFi" SiteId="55270" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Fort Collins / Poudre Canyon KOA" Maxeqplen="75" Maxpeople="6" Site="Pull-thru, Full hookups, 30/20 amp, Cable, WiFi" SiteId="345" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:16:06 GMT
+recorded_with: VCR 2.5.0

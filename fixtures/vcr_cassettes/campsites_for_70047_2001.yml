@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70047&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:33:55 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:33:55 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=FA5C1DB68CA72121A592E68B721DB3D4.web05-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2645525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=FA5C1DB68CA72121A592E68B721DB3D4.web05-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:33:55 GMT; Path=/
+      Content-Length:
+      - '6670'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="18" parkId="70047" resultType="campsites" siteType="2001">
+        <result Loop="MEAD" Maxeqplen="35" Maxpeople="8" Site="002" SiteId="3118" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="358.636352539063" mapy="739.545471191406" sitePhoto="/webphotos//NRSO/pid70047/sid3118/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MEAD" Maxeqplen="40" Maxpeople="8" Site="003" SiteId="3103" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="432.878814697266" mapy="835" sitePhoto="/webphotos//NRSO/pid70047/sid3103/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MEAD" Maxeqplen="44" Maxpeople="8" Site="004" SiteId="3104" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="535.909057617188" mapy="760.757629394531" sitePhoto="/webphotos//NRSO/pid70047/sid3104/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MEAD" Maxeqplen="35" Maxpeople="8" Site="005" SiteId="3105" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="508.636352539063" mapy="671.363647460938" sitePhoto="/webphotos//NRSO/pid70047/sid3105/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MEAD" Maxeqplen="20" Maxpeople="8" Site="006" SiteId="3106" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="576.818176269531" mapy="603.181823730469" sitePhoto="/webphotos//NRSO/pid70047/sid3106/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MEAD" Maxeqplen="40" Maxpeople="8" Site="007" SiteId="3107" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="579.848510742188" mapy="518.333374023438" sitePhoto="/webphotos//NRSO/pid70047/sid3107/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MEAD" Maxeqplen="27" Maxpeople="8" Site="008" SiteId="3108" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="561.666687011719" mapy="444.090942382813" sitePhoto="/webphotos//NRSO/pid70047/sid3108/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MEAD" Maxeqplen="35" Maxpeople="8" Site="009" SiteId="3120" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="695" mapy="447.121246337891" sitePhoto="/webphotos//NRSO/pid70047/sid3120/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MEAD" Maxeqplen="30" Maxpeople="8" Site="010" SiteId="3109" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="798.0302734375" mapy="360.757598876953" sitePhoto="/webphotos//NRSO/pid70047/sid3109/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MEAD" Maxeqplen="40" Maxpeople="8" Site="011" SiteId="3119" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="769.242431640625" mapy="259.242462158203" sitePhoto="/webphotos//NRSO/pid70047/sid3119/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MEAD" Maxeqplen="55" Maxpeople="8" Site="014" SiteId="3112" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="526.818176269531" mapy="285.000030517578" sitePhoto="/webphotos//NRSO/pid70047/sid3112/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MEAD" Maxeqplen="40" Maxpeople="8" Site="015" SiteId="3113" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="498.030303955078" mapy="403.181854248047" sitePhoto="/webphotos//NRSO/pid70047/sid3113/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MEAD" Maxeqplen="70" Maxpeople="8" Site="016" SiteId="3114" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="391.969696044922" mapy="425.909118652344" sitePhoto="/webphotos//NRSO/pid70047/sid3114/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MEAD" Maxeqplen="40" Maxpeople="8" Site="017" SiteId="3115" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="404.090911865234" mapy="560.757629394531" sitePhoto="/webphotos//NRSO/pid70047/sid3115/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MEAD" Maxeqplen="45" Maxpeople="8" Site="018" SiteId="3116" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="310.151519775391" mapy="542.575805664063" sitePhoto="/webphotos//NRSO/pid70047/sid3116/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MEAD" Maxeqplen="35" Maxpeople="8" Site="019" SiteId="3117" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="335.909088134766" mapy="619.848510742188" sitePhoto="/webphotos//NRSO/pid70047/sid3117/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MEAD" Maxeqplen="50" Maxpeople="8" Site="012" SiteId="3110" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="643.48486328125" mapy="204.697006225586" sitePhoto="/webphotos//NRSO/pid70047/sid3110/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MEAD" Maxeqplen="30" Maxpeople="8" Site="013" SiteId="3111" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="617.727294921875" mapy="306.212158203125" sitePhoto="/webphotos//NRSO/pid70047/sid3111/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:33:55 GMT
+recorded_with: VCR 2.5.0

@@ -38,6 +38,8 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'rspec-rails'
   #gem 'sham_rack'
+  gem 'vcr'
+  gem 'webmock'
 end
 
 group :test do
@@ -48,5 +50,4 @@ group :test do
   gem 'shoulda-matchers'
   #gem 'simplecov', require: false
   gem 'timecop'
-  gem 'webmock'
 end

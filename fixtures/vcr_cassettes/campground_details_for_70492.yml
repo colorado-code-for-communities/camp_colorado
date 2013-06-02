@@ -1,0 +1,82 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70492
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:15:51 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:15:51 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=7C6823D7340B70E52E71390FC879E0FB.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=7C6823D7340B70E52E71390FC879E0FB.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:15:50 GMT; Path=/
+      Content-Length:
+      - '6643'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Florida Campground is located near the north end of Lemon Reservoir, in southwestern Colorado. Visitors enjoy the area for its fishing, trail opportunities and scenic natural setting." drivingDirection="From Bayfield, travel north from U.S. Highway 160 to County Road 501. Go 10 miles, then turn left onto County Road 240 and drive 3 miles. Turn right on County Road 243, then continue 7 miles to the campground." facilitiesDescription="The campground offers one group site, equipped with picnic and serving tables, as well as campfire rings with grills. Vault toilets and drinking water are provided." facility="FLORIDA CAMPGROUND (CO)" facilityID="70492" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70492&amp;cmp=39-32--mcmire" importantInformation=" The campground offers one group site including a picnic shelter equipped with picnic and serving tables, as well as campfire rings with grills. Vault toilets and drinking water are provided. Parking area can accommodate 25 vehicles; please adjust capacity if camping in RVs Additional fees for additional people will be collected at the campground Click here for more information on the San Juan National Forest " latitude="37.45" longitude="-107.6663889" nearbyAttrctionDescription="Lemon Reservoir is about three miles from the campground, offering boating, water skiing and fishing opportunities. The reservoir is stocked with rainbow trout and kokanee salmon. Many visitors take advantage of Colorado&amp;amp;#39;s Free Fishing Days, held annually the first full weekend of June.    Young&amp;amp;#39;s Canyon Trail No. 546 begins at the north end of the reservoir. Hikers must cross the Florida River to access the trail; crossing is tricky during high water. The trail is very popular during hunting season." note="" orientationDescription="This lightly used campground is situated in a shady forest of Colorado blue spruce, Douglas fir and aspen trees. The swift Florida River flows next to the campground." recreationDescription="The Florida River is well known for its rainbow and brown trout fishing, but the river runs through much private land, so anglers should be careful not to trespass.    Hiking and biking are popular activities in the area. The Burnt Timber Trail No. 667 begins at Transfer Park, about a mile north of the campground.     The East Florida Road (Forest Road 597) winds steeply uphill past the campground. Lost Lake and Stump Lake Trails begin along this road, offering short, easy hikes to backcountry lakes.    The surrounding area is open to public hunting. Deer, elk and small game such as rabbits and grouse inhabit the forest." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70492&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="FLOR" state="Colorado" streetAddress="SAN JUAN NF" zip=""/>
+        <photo realUrl="/webphotos/NRSO/pid70492/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70492/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70492/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70492/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70492/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70492/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70492/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70492/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70492/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70492/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70492/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70492/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70492/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70492/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70492/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70492/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70492/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70492/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9708827557"/>
+        <contact name="Ranger Station" number="9708842512"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Group Camping"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Picnic Shelter"/>
+        <amenity distance="Within Facility" name="River Access"/>
+        <amenity distance="Within Facility" name="Tables"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within 10 Miles" name="Boat Ramp"/>
+        <amenity distance="Within 10 Miles" name="Boating"/>
+        <amenity distance="Within 10 Miles" name="General Store"/>
+        <amenity distance="Within 10 Miles" name="Hunting"/>
+        <amenity distance="Within 10 Miles" name="Lake Access"/>
+        <amenity distance="Within 10 Miles" name="Pay Phone"/>
+        <amenity distance="Within 10 Miles" name="Water Skiing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:15:51 GMT
+recorded_with: VCR 2.5.0

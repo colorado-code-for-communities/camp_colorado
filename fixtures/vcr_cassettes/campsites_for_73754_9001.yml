@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73754&siteType=9001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:25:06 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:25:06 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=6D9279434548D2B4975B70A8081AED1B.web08-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2b45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=6D9279434548D2B4975B70A8081AED1B.web08-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:25:06 GMT; Path=/
+      Content-Length:
+      - '464'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="1" parkId="73754" resultType="campsites" siteType="9001">
+        <result Loop="CROW" Maxeqplen="20" Maxpeople="200" Site="PICNIC" SiteId="135146" SiteReserveType="site-specific" SiteType="GROUP PICNIC AREA" mapx="311.68" mapy="650.18" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:13:15 GMT
+recorded_with: VCR 2.5.0

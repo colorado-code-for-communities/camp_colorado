@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=KOA&parkId=191352&siteType=10001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:15:31 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:15:31 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=1154A7657353B5A372E0D7C6943F3285.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=1154A7657353B5A372E0D7C6943F3285.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:15:31 GMT; Path=/
+      Content-Length:
+      - '2126'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="KOA" count="6" parkId="191352" resultType="campsites" siteType="10001">
+        <result Loop="Estes Park KOA" Maxeqplen="0" Maxpeople="4" Site="1 Room Camping Cabin (w/o Bathroom) - Wheelchair access" SiteId="4269" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Estes Park KOA" Maxeqplen="0" Maxpeople="4" Site="1 Room Camping Cabin (w/o Bathroom) - Small cozy cabin" SiteId="56149" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Estes Park KOA" Maxeqplen="0" Maxpeople="6" Site="2 Room Camping Cabin (w/o Bathroom) - Wheelchair access" SiteId="4271" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Estes Park KOA" Maxeqplen="0" Maxpeople="6" Site="2 Room Camping Cabin (w/o Bathroom) - Cozy Cabin" SiteId="56150" SiteReserveType="site-specific" SiteType="Kabins" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Estes Park KOA" Maxeqplen="0" Maxpeople="4" Site="Deluxe Cabin (w/ Bathroom) - Wheelchair access" SiteId="8818" SiteReserveType="site-specific" SiteType="Special" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Estes Park KOA" Maxeqplen="0" Maxpeople="4" Site="Deluxe Cabin (w/ Bathroom) - Deluxe lodging" SiteId="4272" SiteReserveType="site-specific" SiteType="Special" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:15:31 GMT
+recorded_with: VCR 2.5.0

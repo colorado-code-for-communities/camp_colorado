@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70695
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:34:36 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:34:36 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=40E3C5BF96DA5685208753BF1073C1D4.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=40E3C5BF96DA5685208753BF1073C1D4.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:34:36 GMT; Path=/
+      Content-Length:
+      - '6164'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Monarch Park is nestled at the base of Monarch Ridge, a short drive north of Monarch Pass. Some campsites at the family-friendly destination are located on the banks of the South Fork Arkansas River, while others lie along a creek. Popular activities in the area include hiking the Colorado Trail and the Continental Divide Trail and fishing. Beaver ponds are near the entrance to the campground and make a great fishing spot for families with young children.    Monarch Pass is a high mountain pass along the southern part of Colorado&amp;amp;#39;s Sawatch Range. The pass crosses the Continental Divide an altitude of 11,312 feet." drivingDirection="From Poncha Springs, travel west on Highway 50 for about 15 miles, then turn left on County Road 231 and drive south to the Monarch Park Campground." facilitiesDescription="Drinking water from hand pumps and vault toilets are available. One of the vault toilets is accessible. All sites come with picnic tables and campfire rings. Parking aprons are gravel and firewood is sold onsite." facility="MONARCH PARK" facilityID="70695" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70695&amp;cmp=39-32--mcmire" importantInformation=" Thunderstorms are common; take extra precautions for lightning This is a high elevation facility, please use caution when traveling from lower elevations Be bear aware; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating Limit 1 RV per site; a $5 nightly fee is charged for additional vehicles Vehicles must fit on parking spur No firearms or fireworks No RV hookups are available No dumping of wastewater For more information on Pike and San Isabel National Forests, click here " latitude="38.5155556" longitude="-106.3241667" nearbyAttrctionDescription="In and around the city of Salida, visitors can take a ride on a scenic tram, go ziplining, whitewater rafting on the Arkansas River or play round of miniature golf." note="" orientationDescription="The picturesque campground is heavily wooded with ponderosa and Douglas fir. With an elevation of 10,500 feet, visitors are likely to experience chilly nighttime temperatures and cool, mild summer days." recreationDescription="Popular trails near Monarch Park include Waterdog Lakes, the Monarch Crest Trail and the Hunt and Boss Lakes trails. Popular trails near Monarch Park include Waterdog Lakes, the Monarch Crest Trail and the Hunt and Boss Lakes trails. Wildflowers are abundant on these trails in late summer.     The river and nearby ponds provide quality fishing for all ages. Brook trout is the most likely reward for fishing efforts. Off-road vehicle enthusiasts can find places to ride nearby." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70695&amp;cmp=39-32--mcmire">
+        <address city="SALIDA" country="United States" shortName="MONA" state="Colorado" streetAddress="SALIDA RANGER DISTRICT" zip="81201"/>
+        <photo realUrl="/webphotos/NRSO/pid70695/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70695/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70695/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70695/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70695/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70695/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70695/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70695/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70695/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70695/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70695/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70695/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70695/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70695/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70695/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70695/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70695/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70695/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70695_MONA.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7193953205"/>
+        <contact name="Ranger Station" number="7195393591"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood Vendor"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Self Pay Station"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Water"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:34:36 GMT
+recorded_with: VCR 2.5.0

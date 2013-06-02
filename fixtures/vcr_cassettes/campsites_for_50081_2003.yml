@@ -1,0 +1,90 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50081&siteType=2003
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:39:18 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:39:18 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=186A0105CB709EF1053D0774424F61C4.web03-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2445525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=186A0105CB709EF1053D0774424F61C4.web03-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:39:18 GMT; Path=/
+      Content-Length:
+      - '15769'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="CO" count="44" parkId="50081" resultType="campsites" siteType="2003">
+        <result Loop="Gobbler Grove" Maxeqplen="50" Maxpeople="6" Site="011" SiteId="6519" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="381.63" mapy="377.63" sitePhoto="/webphotos//CO/pid50081/sid6519/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Gobbler Grove" Maxeqplen="30" Maxpeople="6" Site="012" SiteId="6569" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. FULL HOOKUP" mapx="363.9" mapy="297.9" sitePhoto="/webphotos//CO/pid50081/sid6569/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Gobbler Grove" Maxeqplen="50" Maxpeople="6" Site="013" SiteId="6425" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="403.56" mapy="325.62" sitePhoto="/webphotos//CO/pid50081/sid6425/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Gobbler Grove" Maxeqplen="40" Maxpeople="6" Site="014" SiteId="6769" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. FULL HOOKUP" mapx="430.14" mapy="346.44" sitePhoto="/webphotos//CO/pid50081/sid6769/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Gobbler Grove" Maxeqplen="55" Maxpeople="6" Site="015" SiteId="6472" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="442.41" mapy="371.65" sitePhoto="/webphotos//CO/pid50081/sid6472/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Gobbler Grove" Maxeqplen="40" Maxpeople="6" Site="016" SiteId="6473" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. FULL HOOKUP" mapx="436.71" mapy="415.85" sitePhoto="/webphotos//CO/pid50081/sid6473/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Gobbler Grove" Maxeqplen="45" Maxpeople="6" Site="017" SiteId="6426" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="408.87" mapy="438.78" sitePhoto="/webphotos//CO/pid50081/sid6426/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Raptor Glen" Maxeqplen="40" Maxpeople="6" Site="001" SiteId="6369" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. FULL HOOKUP" mapx="236.33" mapy="611.14" sitePhoto="/webphotos//CO/pid50081/sid6369/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Raptor Glen" Maxeqplen="48" Maxpeople="6" Site="002" SiteId="6419" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="255.16" mapy="573.06" sitePhoto="/webphotos//CO/pid50081/sid6419/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Raptor Glen" Maxeqplen="45" Maxpeople="6" Site="003" SiteId="6420" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="268.22" mapy="531.77" sitePhoto="/webphotos//CO/pid50081/sid6420/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Raptor Glen" Maxeqplen="45" Maxpeople="6" Site="004" SiteId="6421" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="260.49" mapy="491.61" sitePhoto="/webphotos//CO/pid50081/sid6421/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Raptor Glen" Maxeqplen="30" Maxpeople="6" Site="005" SiteId="6422" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. FULL HOOKUP" mapx="268.46" mapy="457.07" sitePhoto="/webphotos//CO/pid50081/sid6422/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Raptor Glen" Maxeqplen="45" Maxpeople="6" Site="006" SiteId="6423" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="288.53" mapy="433.23" sitePhoto="/webphotos//CO/pid50081/sid6423/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Raptor Glen" Maxeqplen="30" Maxpeople="6" Site="007" SiteId="6424" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. FULL HOOKUP" mapx="316.55" mapy="513.78" sitePhoto="/webphotos//CO/pid50081/sid6424/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Raptor Glen" Maxeqplen="30" Maxpeople="6" Site="008" SiteId="6469" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. FULL HOOKUP" mapx="314.07" mapy="548.42" sitePhoto="/webphotos//CO/pid50081/sid6469/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Raptor Glen" Maxeqplen="50" Maxpeople="6" Site="009" SiteId="6470" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="311.39" mapy="582.43" sitePhoto="/webphotos//CO/pid50081/sid6470/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Raptor Glen" Maxeqplen="45" Maxpeople="6" Site="010" SiteId="6471" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="289.16" mapy="627.34" sitePhoto="/webphotos//CO/pid50081/sid6471/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Swift Puma Heights" Maxeqplen="45" Maxpeople="6" Site="018HD" SiteId="8074" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="457.5" mapy="663.51" sitePhoto="/webphotos//CO/pid50081/sid8074/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Swift Puma Heights" Maxeqplen="35" Maxpeople="6" Site="020" SiteId="6474" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. FULL HOOKUP" mapx="394.43" mapy="723.77" sitePhoto="/webphotos//CO/pid50081/sid6474/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Swift Puma Heights" Maxeqplen="30" Maxpeople="6" Site="021" SiteId="6475" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. FULL HOOKUP" mapx="381.59" mapy="751.6" sitePhoto="/webphotos//CO/pid50081/sid6475/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Swift Puma Heights" Maxeqplen="30" Maxpeople="6" Site="022" SiteId="6669" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. FULL HOOKUP" mapx="359.92" mapy="768.7" sitePhoto="/webphotos//CO/pid50081/sid6669/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Swift Puma Heights" Maxeqplen="30" Maxpeople="6" Site="023" SiteId="6670" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. FULL HOOKUP" mapx="354.7" mapy="818.36" sitePhoto="/webphotos//CO/pid50081/sid6670/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Swift Puma Heights" Maxeqplen="35" Maxpeople="6" Site="025" SiteId="6719" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. FULL HOOKUP" mapx="407.93" mapy="837.88" sitePhoto="/webphotos//CO/pid50081/sid6719/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Swift Puma Heights" Maxeqplen="35" Maxpeople="6" Site="026" SiteId="6720" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. FULL HOOKUP" mapx="419.82" mapy="810.97" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Swift Puma Heights" Maxeqplen="35" Maxpeople="6" Site="027" SiteId="6819" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. FULL HOOKUP" mapx="416.24" mapy="779.97" sitePhoto="/webphotos//CO/pid50081/sid6819/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Swift Puma Heights" Maxeqplen="35" Maxpeople="6" Site="036" SiteId="6969" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. FULL HOOKUP" mapx="527.59" mapy="635.52" sitePhoto="/webphotos//CO/pid50081/sid6969/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Swift Puma Heights" Maxeqplen="35" Maxpeople="6" Site="037" SiteId="6970" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. FULL HOOKUP" mapx="531.17" mapy="607.03" sitePhoto="/webphotos//CO/pid50081/sid6970/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Swift Puma Heights" Maxeqplen="30" Maxpeople="6" Site="038" SiteId="6920" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. FULL HOOKUP" mapx="541.01" mapy="578.42" sitePhoto="/webphotos//CO/pid50081/sid6920/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Swift Puma Heights" Maxeqplen="35" Maxpeople="6" Site="039" SiteId="6921" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. FULL HOOKUP" mapx="550.79" mapy="539.38" sitePhoto="/webphotos//CO/pid50081/sid6921/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Swift Puma Heights" Maxeqplen="35" Maxpeople="6" Site="040" SiteId="7019" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. FULL HOOKUP" mapx="537.65" mapy="509.48" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Swift Puma Heights" Maxeqplen="30" Maxpeople="6" Site="041" SiteId="7020" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. FULL HOOKUP" mapx="510.3" mapy="507.16" sitePhoto="/webphotos//CO/pid50081/sid7020/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Swift Puma Heights" Maxeqplen="50" Maxpeople="6" Site="042" SiteId="7021" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. FULL HOOKUP" mapx="482.49" mapy="522.98" sitePhoto="/webphotos//CO/pid50081/sid7021/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Swift Puma Heights" Maxeqplen="30" Maxpeople="6" Site="043" SiteId="7022" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. FULL HOOKUP" mapx="488.72" mapy="567.15" sitePhoto="/webphotos//CO/pid50081/sid7022/0/180x120.jpg" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Swift Puma Heights" Maxeqplen="50" Maxpeople="6" Site="044" SiteId="7023" SiteReserveType="site-specific" SiteType="&gt; 40 FT. FULL HOOKUP" mapx="490.04" mapy="599.5" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Swift Puma Walk-In Tent Loop" Maxeqplen="0" Maxpeople="6" Site="029" SiteId="6869" SiteReserveType="site-specific" SiteType="TENT ONLY BASIC" mapx="472.61" mapy="748.4" sitePhoto="/webphotos//CO/pid50081/sid6869/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Swift Puma Walk-In Tent Loop" Maxeqplen="0" Maxpeople="6" Site="030" SiteId="6870" SiteReserveType="site-specific" SiteType="TENT ONLY BASIC" mapx="508.09" mapy="747.41" sitePhoto="/webphotos//CO/pid50081/sid6870/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Swift Puma Walk-In Tent Loop" Maxeqplen="0" Maxpeople="6" Site="031" SiteId="6871" SiteReserveType="site-specific" SiteType="TENT ONLY BASIC" mapx="495.97" mapy="787.49" sitePhoto="/webphotos//CO/pid50081/sid6871/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Swift Puma Walk-In Tent Loop" Maxeqplen="0" Maxpeople="6" Site="032" SiteId="6872" SiteReserveType="site-specific" SiteType="TENT ONLY BASIC" mapx="534.12" mapy="784.51" sitePhoto="/webphotos//CO/pid50081/sid6872/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Swift Puma Walk-In Tent Loop" Maxeqplen="0" Maxpeople="6" Site="033" SiteId="6873" SiteReserveType="site-specific" SiteType="TENT ONLY BASIC" mapx="532.86" mapy="744.87" sitePhoto="/webphotos//CO/pid50081/sid6873/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Swift Puma Walk-In Tent Loop" Maxeqplen="0" Maxpeople="6" Site="034" SiteId="6874" SiteReserveType="site-specific" SiteType="TENT ONLY BASIC" mapx="557.53" mapy="747.59" sitePhoto="/webphotos//CO/pid50081/sid6874/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="The Meadow Walk-In Tent Loop" Maxeqplen="0" Maxpeople="6" Site="045HA" SiteId="6922" SiteReserveType="site-specific" SiteType="TENT ONLY BASIC" mapx="692.39" mapy="421.32" sitePhoto="/webphotos//CO/pid50081/sid6922/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="The Meadow Walk-In Tent Loop" Maxeqplen="0" Maxpeople="6" Site="046HA" SiteId="6923" SiteReserveType="site-specific" SiteType="TENT ONLY BASIC" mapx="655.31" mapy="444.84" sitePhoto="/webphotos//CO/pid50081/sid6923/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="The Meadow Walk-In Tent Loop" Maxeqplen="0" Maxpeople="6" Site="047" SiteId="6875" SiteReserveType="site-specific" SiteType="TENT ONLY BASIC" mapx="655.1" mapy="489.5" sitePhoto="/webphotos//CO/pid50081/sid6875/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="The Meadow Walk-In Tent Loop" Maxeqplen="0" Maxpeople="6" Site="048" SiteId="6876" SiteReserveType="site-specific" SiteType="TENT ONLY BASIC" mapx="664.17" mapy="515.1" sitePhoto="/webphotos//CO/pid50081/sid6876/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:03:44 GMT
+recorded_with: VCR 2.5.0

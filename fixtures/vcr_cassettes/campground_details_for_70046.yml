@@ -1,0 +1,68 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70046
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:36:05 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:36:05 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=3001F98F5935A8C3F7D3DBFB80100C06.web04-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2745525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=3001F98F5935A8C3F7D3DBFB80100C06.web04-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:36:05 GMT; Path=/
+      Content-Length:
+      - '5938'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="O&amp;amp;#39;Haver Campground, located on the shores of O&amp;amp;#39;Haver Lake, attracts many campers for fishing, bird watching and canoeing on the calm, pleasant lakes. During peak season, interpretive programs are offered most weekends. Nearby mountain biking and hiking opportunities are also available.     Campers can venture on a trip to part of the popular Colorado Trail. The multi-purpose trail extends for 487 miles from Denver to Durango, with altitude variations ranging from 5,500 to 13,300 feet." drivingDirection="From Salida, Colorado: Travel west on Highway 50 to Poncha Springs. Turn south on Hwy 285 and travel for 5 miles. Turn right onto County Road 200 and continue for 2.3 miles. Turn west on County Road 202 and proceed 2.5 miles." facilitiesDescription="Vault toilets and drinking water from hand pumps are provided. Trash collection service is provided and parking aprons are dirt. A campground host is onsite." facility="OHAVER LAKE" facilityID="70046" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70046&amp;cmp=39-32--mcmire" importantInformation=" Access road to campground has sharp curves; drive with caution Thunderstorms are common; take extra precautions for lightning This is a high elevation facility, please use caution when traveling from lower elevations Be bear aware; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating Limit 1 RV per site; a $5 nightly fee is charged for additional vehicles Vehicles must fit on parking spur This facility has first-come, first-served sites No firearms or fireworks No RV hookups are available No dumping wastewater For more information on Pike and San Isabel National Forests, click here " latitude="38.4277778" longitude="-106.1430556" nearbyAttrctionDescription="Monarch Pass is a highly enjoyed scenic drive, offering impressive 360 degree views of Colorado&amp;amp;#39;s Sawatch Range." note="" orientationDescription="Campsites have limited understory and sites are situated close to one another. O&amp;amp;#39;Haver sits at an elevation of 9,200 feet, in a forest of ponderosa pine and aspen.    Ponderosa pines provide a fresh vanilla scent in the mountain air and aspens please visitors with golden foliage displays in autumn. Nearby O&amp;amp;#39;Haver Lake spans 15 acres." recreationDescription="Anglers can use the accessible fishing pier or a paddle boat to seek rainbow and brook trout on O&amp;amp;#39;Haver Lake." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70046&amp;cmp=39-32--mcmire">
+        <address city="SALIDA" country="United States" shortName="OHAV" state="Colorado" streetAddress="SALIDA RANGER DISTRICT" zip="81201"/>
+        <photo realUrl="/webphotos/NRSO/pid70046/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70046/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70046/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70046/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70046/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70046/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70046/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70046/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70046/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70046/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70046/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70046/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70046/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70046/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70046/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70046/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70046/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70046/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70046_OHAV.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7193953205"/>
+        <contact name="Ranger Station" number="7195393591"/>
+        <amenity distance="Within Facility" name="Accessible Fishing Dock"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood Vendor"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Lake Access"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <bulletin description="There is no water at the campgrround. Please bring your own water." headline="Attention"/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:36:05 GMT
+recorded_with: VCR 2.5.0

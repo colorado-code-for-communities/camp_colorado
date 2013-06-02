@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50031&siteType=10001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:32:58 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:32:58 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=5F6FB08E5DC9AA18A2FE4667C2BCDC6A.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=5F6FB08E5DC9AA18A2FE4667C2BCDC6A.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:32:57 GMT; Path=/
+      Content-Length:
+      - '781'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="CO" count="2" parkId="50031" resultType="campsites" siteType="10001">
+        <result Loop="YURT" Maxeqplen="21" Maxpeople="6" Site="MANCMAIN022" SiteId="1569" SiteReserveType="site-specific" SiteType="YURT" mapx="593.018676757813" mapy="688.929260253906" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="YURT" Maxeqplen="24" Maxpeople="6" Site="MANCMAIN024HA" SiteId="1571" SiteReserveType="site-specific" SiteType="YURT" mapx="562.175109863281" mapy="659.945617675781" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:32:58 GMT
+recorded_with: VCR 2.5.0

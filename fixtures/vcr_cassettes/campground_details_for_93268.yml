@@ -1,0 +1,83 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=93268
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:45:15 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:45:15 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=AC2B8FEC6ABAEAA45DD0773DF810D306.web03-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2445525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=AC2B8FEC6ABAEAA45DD0773DF810D306.web03-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:45:14 GMT; Path=/
+      Content-Length:
+      - '8753'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Upper Crossing Guard Station is located at an elevation of 8,400 feet, along a scenic byway near the Continental Divide, offering visitors a comfortable lodging experience in a remote setting in Rio Grande National Forest.     This guard station is the original headquarters of the old Cochetopa National Forest that existed for only a few years during the early part of the last century.     Today, guests to the guard station will find plenty of opportunities for relaxation and recreation in south central Colorado." drivingDirection="From Saguache, take Highway 114 for 22 miles northwest. Turn right (east) on Sheep Creek Road (Forest Service Road 810). When you come to the &amp;apos;Y&amp;apos; in the road turn right and go approximately .5 miles. The cabin will be on your left. If you are traveling on Highway 114 from Gunnison, the Sheep Creek Road (Forest Service Road 810) exit is approximately 8 miles from the Continental Divide. A notable landmark to help find the Sheep Creek Road (Forest Service Road 810) exit is the &amp;amp;quot;Holey Rock,&amp;amp;quot; a small hill covered with holes. It is located on the west side of Highway 114 and directly opposite to the Sheep Creek Road (Forest Service Road 810) exit.  During the winter guests may need to snowmobile, snow shoe or ski .5 miles from the nearest maintained road in order to access the cabin." facilitiesDescription="Upper Crossing Guard Station has all the amenities of a standard home, including electricity, heat and inside running water. It is furnished with three bunk beds, with twin beds on the top and fold-out full beds on the bottom, accommodating up to nine people. The cabin has electric lights, propane heater and wood burning stove. The living area has a table and chairs, couch and other furniture. The kitchen is equipped with a refrigerator, stove, hot water, some cooking utensils and some pots and pans. A picnic table, campfire grill and horseshoe pit are also on-site.      Although the cabin has most amenities, guests do need to provide their own food, sleeping bags, linens, towels, dish soap, matches, cooking gear, first aid kit, toilet paper and garbage bags. It is recommended that guests bring an additional light source in case of emergencies." facility="UPPER CROSSING GUARD STATION" facilityID="93268" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=93268&amp;cmp=39-32--mcmire" importantInformation=" Entry to the cabin is by combination lock, which is provided in the confirmation letter or email which is sent after a reservation is made. Please contact the Saguache Ranger District prior to arriving at the cabin to check on any restrictions or conditions, such as fire or road closures, weather or storms that may affect the quality of your visit Do not leave food or trash outside the guard station; there are bears in the area All garbage and food must be packed out; do not burn garbage in the fire pit or wood stove The guard station is a no-smoking facility Please clean guard station upon departure Make sure guard station and gate is locked upon departure Livestock not allowed at the facility Pets are allowed at the facility, but must be under control at all times; they must not harass wildlife or livestock Drink plenty of water before arrival and during your stay to avoid altitude sickness Expect afternoon thunderstorms in the summer and below freezing temperatures in the spring, winter and fall Travel maps for the Rio Grande National Forest can be obtained by calling the Forest Service Office in Saguache at (719) 655-2547 or the Forest Service Office in Monte Vista at (719) 852-5941 Learn more about the Rio Grande National Forest " latitude="38.1388889" longitude="-106.4561111" nearbyAttrctionDescription="" note="" orientationDescription="Upper Crossing Guard Station provides a remote setting that is easily accessible year-round via CO Highway 114. The brief dirt road leading to the cabin is actually the old stagecoach route, complete with historic graffiti that served as billboards advertising goods and services at the stagecoach stops.    Views from the cabin include portions of the Continental Divide and unspoiled surrounding countryside, showcasing high mountain peaks, diverse forests, streams and lakes in addition to some of Colorado&amp;amp;#39;s most scenic working ranches.    Historically, Ute Indians traveled through this area and found it favorable for living in the San Luis Valley." recreationDescription="The area offers many opportunities for hiking in summer, hunting in the fall and cross country skiing and snowmobiling in the winter.    The cabin sits at the confluence of two creeks and offers visitors excellent fishing for rainbow, cutthroat, brown and brook trout right out the back door.      Hiking opportunities are in close proximity to the cabin, extending out to nearby wilderness and other public lands." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=93268&amp;cmp=39-32--mcmire">
+        <address city="Saguache" country="United States" shortName="UCGS" state="Colorado" streetAddress="46525 ST HWY 114" zip="81149"/>
+        <photo realUrl="/webphotos/NRSO/pid93268/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid93268/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid93268/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid93268/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid93268/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid93268/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid93268/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid93268/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid93268/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid93268/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid93268/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid93268/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid93268/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid93268/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid93268/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7196552547"/>
+        <contact name="Ranger Station" number="7196552547"/>
+        <amenity distance="Within Facility" name="Accessible Site "/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Bunkbed(s) With Mattresses"/>
+        <amenity distance="Within Facility" name="Campfire Ring"/>
+        <amenity distance="Within Facility" name="Cooking Pots"/>
+        <amenity distance="Within Facility" name="Cooking Utensils"/>
+        <amenity distance="Within Facility" name="Couch"/>
+        <amenity distance="Within Facility" name="Cross Country Skiing"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Fireplace"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Flush Toilet"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Heater"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Historic Sites"/>
+        <amenity distance="Within Facility" name="Horseshoe Pit"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Refrigerator"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Snowmobiling"/>
+        <amenity distance="Within Facility" name="Snowshoeing"/>
+        <amenity distance="Within Facility" name="Table &amp;amp; Chairs"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within Facility" name="Wood Stove"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:45:15 GMT
+recorded_with: VCR 2.5.0

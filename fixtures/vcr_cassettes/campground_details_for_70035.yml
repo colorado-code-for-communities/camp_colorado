@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70035
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:45:41 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:45:41 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=31F0989F1230E6C0C2F47AEF7C6A1D5D.web04-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2745525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=31F0989F1230E6C0C2F47AEF7C6A1D5D.web04-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:45:41 GMT; Path=/
+      Content-Length:
+      - '4900'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="West Chicago Creek Campground sits along its namesake creek at the base of Mount Evans and is located off Highway 103 on the Arapaho and Roosevelt National Forests in central Colorado. It is a popular facility for hiking and fishing enthusiasts." drivingDirection="I-70 westbound, Idaho Springs exit #240 - Hwy 103. Go south for 6.5 miles and turn right on southwest Forest Service Road 188 (West Chicago Creek Road). Go 3 miles to campground. The last mile of dirt/gravel road is one lane with pull over&amp;apos;s and contains two sharp switchbacks." facilitiesDescription="There are 15 sites available all suitable for RV and tent camping. Each site contains a tent pad, picnic table, charcoal grill and fire ring. Other amenities include a vault toilet, water spigot and trash dumpster. There are no RV hook-ups. Firewood is available for sale during peak season at the campground." facility="WEST CHICAGO CREEK" facilityID="70035" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70035&amp;cmp=39-32--mcmire" importantInformation=" Limited first-come, first-served sites are available This is bear country! For bear and human safety, keep a clean campsite and do not place food or other attractants in your tent. For more information about visiting bear country, contact Colorado Parks and Wildlife at http://wildlife.state.co.us Click here to learn more about the Arapaho &amp;amp;amp; Roosevelt National Forests and Pawnee National Grassland. Operated by American Land &amp;amp;amp; Leisure. You may contact us at www.AmericanLL.com or 801-226-3564. The area does not offer off-highway vehicle (OHV) trails and OHVs are not allowed in the campground. " latitude="39.6790389" longitude="-105.6574194" nearbyAttrctionDescription="Nearby Idaho Springs, a former mining town, makes for a nice outing. History buffs will appreciate the Argo Gold Mine and Mill Museum." note="" orientationDescription="The campground sits at an elevation of 9,600 feet in an aspen and lodgepole pine forest.    The Arapaho and Roosevelt National Forests and Pawnee National Grassland are located in the foothills and slopes of the Rocky Mountains in Colorado. The forests and grassland cover 1.5 million acres and extend north to the Wyoming border, south to Mount Evans and west across the Continental Divide.     The area encompasses mountains, lakes and five scenic byways, designated by Congress for their scenery, wildlife or history, including the highest road in North America. Mount Evans Road, also known as Colorado Highway 5, allows visitors to drive from 10,500&amp;amp;#39; to 14,130&amp;amp;#39; above sea level in just 14 miles." recreationDescription="The area provides easy access to many hiking trails that lead into the Mount Evans Wilderness. West Chicago Creek offers good fishing for rainbow, brown and brook trout." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70035&amp;cmp=39-32--mcmire">
+        <address city="Idaho Springs" country="United States" shortName="WECC" state="Colorado" streetAddress="Arapaho and Roosevelt NF Clear Creek Ranger District 101 Highway 103" zip="80452"/>
+        <photo realUrl="/webphotos/NRSO/pid70035/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70035/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70035/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70035/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70035/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70035/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70035_WECC.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="3035674517"/>
+        <contact name="Ranger Station" number="3035673000"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Creek Access"/>
+        <amenity distance="Within Facility" name="Firewood Vendor"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Tent Pads"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <bulletin description="No water available on site. Bring all you will need for drinking, cleaning, fire suppression, etc." headline="Attention"/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:45:41 GMT
+recorded_with: VCR 2.5.0

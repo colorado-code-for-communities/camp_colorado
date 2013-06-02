@@ -1,0 +1,138 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50081
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:24:42 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:24:42 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=B3F5D4CB9D0D1952991CB1DD1BFD4FD3.web07-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2845525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=B3F5D4CB9D0D1952991CB1DD1BFD4FD3.web07-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:24:42 GMT; Path=/
+      Content-Length:
+      - '13840'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description="Situated just south of Colorado Springs and considered one of the &amp;amp;quot;crown jewels&amp;amp;quot; in Colorado&amp;amp;#39;s extensive state park system, Cheyenne Mountain State Park represents the protection of one of the last significant open spaces along the southern section of the Colorado Front Range.   The 1680 acres of the park lie beneath the eastern flank of Cheyenne Mountain, and border the plains of Colorado in a stunning transition from plains to peaks.  The land is in remarkable natural condition and diverse wildlife viewing opportunities abound due to the property&amp;amp;#39;s relatively undisturbed and unfragmented nature.    Cheyenne Mountain offers superior facilities and recreational opportunities.  Foremost among the park&amp;amp;#39;s offerings is the trail system consisting of 20 miles of hiking and biking trails.  These pathways allow visitors ample opportunities to explore the park&amp;amp;#39;s natural beauty and discover the park&amp;amp;#39;s many wild inhabitants.  Due to the park&amp;amp;#39;s diverse wildlife and fragile eco-systems, dogs are not permitted on the trails.  Leashed pets are welcomed in the park&amp;amp;#39;s developed areas, which include the campgrounds and picnic areas.   Along with great trails, the park offers superior facilities, boasting a Visitor Center with gift shop and interpretive displays, individual and group picnicking facilities, wildlife viewing, and 61 spectacular campsites.  Every site includes a paved parking area, grill ring/fire pit, 10&amp;amp;#39;x10&amp;amp;#39; tent pad, picnic table, and amazing views of Colorado Springs below with the majestic Cheyenne Mountain above.   The majority of the campsites (51 total) are full service and include water, electrical, and sewer hook-ups for RV campers.   Tent campers are always welcome in these &amp;amp;quot;RV&amp;amp;quot; sites, but there are also 10 unique walk-in sites.  These sites, nestled among scrub oak, are for tents only.  Campers must take a short walk into the secluded sites from the parking lot, but they are well worth the effort!   A camper-services building is available to park visitors.  Beyond camping permits and park information, campers will find flush toilet facilities, coin-operated showers, a coin-operated laundry room, an activity room, and a camp store that offers everything from books and souvenirs, to snacks and camper necessities.  Playgrounds, additional restroom facilities, a beautiful amphitheater and easy trail access are also available from the campgrounds.   Group camping facilities are available for groups ranging from 2 units to 13 (depending on the groupings).  These sites boast unique commons areas that allow campers to meet, picnic surrounded by scrub oak and enjoy each other&amp;amp;#39;s company.  Reservations for the group camping must be made through the park office at 719-576-2016.  The group sites are 49 to 61.   Reservations are strongly recommended during the Spring and Summer months.  Sites 1 through 48 are individual sites and must be reserved online through Reserve America or by calling 1-800-678-2267.   A park trail map and campground maps may be found at the Cheyenne Mountain State Park web-page at  www.parks.state.co.us " drivingDirection="From I-25, take exit 135.  West on Hwy 83/Academy Blvd. to Hwy 115.  South on Hwy 115.  Go to Nelson Blvd (Gate 1 of Fort Carson will be to the left) and turn right onto JL Ranch Heights and into the park." facilitiesDescription="" facility="CHEYENNE MOUNTAIN STATE PARK" facilityID="50081" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50081&amp;cmp=39-32--mcmire" importantInformation=" A valid Colorado State Park pass is always required on every vehicle that enters the park. This is in addition to the camping fees. Due to the diverse wildlife and fragile eco-systems in the park, pets and smoking are not allowed on the trails or in the back country. Leashed pets are always welcomed in the developed areas of the park, which include the campgrounds and picnic areas. Equestrian use is prohibited in the park. A maximum of six people and only one camping unit is allowed per site. This may include one motor home or one camper and one additional tent. One additional passenger vehicle is allowed per site only if it fits on the driveway. All vehicles must remain on the pavement at all times. Pay close attention to the recommendations about maximum camping unit length when you make your reservation. Make sure there will be room for your unit and an additional vehicle if needed. Parking for additional vehicles is limited. Every site has a 12&amp;apos;x12&amp;apos; tent pad. An additional tent is allowed if it fits on the developed portion of the camp site. It is not permissible to set up tents on any park vegetation. The campground has 10 walk-in tent sites. These unique, non-electric sites require campers to hike in and carry camping equipment several hundred feet to get to the sites. There is really only enough room for one large tent. A smaller tent may fit, but it must remain on the developed site and never set up on vegetation. Parking for the walk-in sites is limited to one space that can accommodate a single passenger vehicle or SUV. RV&amp;apos;s or trailers will not fit. Additional parking is very limited. Every campsite has a fire grill/pit and associated emergency water hydrant. The hose boxes throughout the campground are for emergency use only. Each full-service campsite has an additional water hydrant for visitor use. Tree cutting or wood gathering is strictly prohibited. Firewood is for sale at the camper services building or you can plan to bring your own. The Camper Service Building has coin-operated showers, coin-operated laundry, playground, and an activity room. Visitors will enjoy browsing The Outpost for park souvenirs, books inspired by Colorado&amp;apos;s outdoors, or stocking up on snacks, soda, or camping necessities. Group camping facilities are available for groups ranging from 2 units to 13 (depending on grouping). These sites boast unique commons areas that allow campers in the group to meet and picnic together in a beautiful setting. Reservations for the group camping must be made through the park office at 719-576-2016. The group camp sites are 49 through 61. " latitude="38.7355556" longitude="-104.8194444" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="Southeast Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50081&amp;cmp=39-32--mcmire">
+        <address city="Colorado Springs" country="United States" shortName="CHYM" state="Colorado" streetAddress="410 JL Ranch Heights" zip="80926"/>
+        <photo realUrl="/webphotos/CO/pid50081/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50081/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50081/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50081/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50081/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50081/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50081/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50081/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50081/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50081/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50081/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50081/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50081/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50081/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50081/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50081/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50081/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50081/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="7195762016"/>
+        <contact name="Ranger Station" number="7195762016"/>
+        <amenity distance="Within Facility" name="Amphitheater"/>
+        <amenity distance="Within Facility" name="Bath House"/>
+        <amenity distance="Within Facility" name="Bird Watching"/>
+        <amenity distance="Within Facility" name="Campground Host"/>
+        <amenity distance="Within Facility" name="Camping, Improved Site"/>
+        <amenity distance="Within Facility" name="Camping, Primitive"/>
+        <amenity distance="Within Facility" name="Fire Rings"/>
+        <amenity distance="Within Facility" name="Firewood Sales"/>
+        <amenity distance="Within Facility" name="First Aid Station"/>
+        <amenity distance="Within Facility" name="Group Campground"/>
+        <amenity distance="Within Facility" name="Group Camping"/>
+        <amenity distance="Within Facility" name="Group Picnicking"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hiking Moderate"/>
+        <amenity distance="Within Facility" name="Hiking Trail"/>
+        <amenity distance="Within Facility" name="Ice Sales"/>
+        <amenity distance="Within Facility" name="Information Center"/>
+        <amenity distance="Within Facility" name="Jogging/Running"/>
+        <amenity distance="Within Facility" name="Junior Ranger Program"/>
+        <amenity distance="Within Facility" name="Laundry"/>
+        <amenity distance="Within Facility" name="Meeting Space"/>
+        <amenity distance="Within Facility" name="Naturalist"/>
+        <amenity distance="Within Facility" name="Nature Center"/>
+        <amenity distance="Within Facility" name="Nature Study"/>
+        <amenity distance="Within Facility" name="Photography"/>
+        <amenity distance="Within Facility" name="Picnic Pavilion"/>
+        <amenity distance="Within Facility" name="Picnic Tables"/>
+        <amenity distance="Within Facility" name="Picnicing"/>
+        <amenity distance="Within Facility" name="Playground"/>
+        <amenity distance="Within Facility" name="Ranger Station"/>
+        <amenity distance="Within Facility" name="Sightseeing"/>
+        <amenity distance="Within Facility" name="Stargazing"/>
+        <amenity distance="Within Facility" name="Store (Retail)"/>
+        <amenity distance="Within Facility" name="Trails, Mountain Bike"/>
+        <amenity distance="Within Facility" name="Walking"/>
+        <amenity distance="Within Facility" name="Water Drinking"/>
+        <amenity distance="Within Facility" name="Wildflower Viewing"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within 10 Miles" name="Admin Service, Copying"/>
+        <amenity distance="Within 10 Miles" name="Admin Service, Faxing"/>
+        <amenity distance="Within 10 Miles" name="Art &amp;amp; Museum"/>
+        <amenity distance="Within 10 Miles" name="Baseball/Softball Fld"/>
+        <amenity distance="Within 10 Miles" name="Car Rentals"/>
+        <amenity distance="Within 10 Miles" name="Cash Machine/Atm"/>
+        <amenity distance="Within 10 Miles" name="Catering"/>
+        <amenity distance="Within 10 Miles" name="Churches"/>
+        <amenity distance="Within 10 Miles" name="Cultural Activities"/>
+        <amenity distance="Within 10 Miles" name="Dining"/>
+        <amenity distance="Within 10 Miles" name="Emergency Services"/>
+        <amenity distance="Within 10 Miles" name="Fuel, Vehicles"/>
+        <amenity distance="Within 10 Miles" name="Golf"/>
+        <amenity distance="Within 10 Miles" name="Golfing"/>
+        <amenity distance="Within 10 Miles" name="Hospital"/>
+        <amenity distance="Within 10 Miles" name="Kennel"/>
+        <amenity distance="Within 10 Miles" name="Maintenance"/>
+        <amenity distance="Within 10 Miles" name="Mall"/>
+        <amenity distance="Within 10 Miles" name="Medical Clinic"/>
+        <amenity distance="Within 10 Miles" name="Military Installation/Services"/>
+        <amenity distance="Within 10 Miles" name="Motel"/>
+        <amenity distance="Within 10 Miles" name="Museum"/>
+        <amenity distance="Within 10 Miles" name="Musical Performances"/>
+        <amenity distance="Within 10 Miles" name="Newspapers"/>
+        <amenity distance="Within 10 Miles" name="Pay Phones Available"/>
+        <amenity distance="Within 10 Miles" name="Propane"/>
+        <amenity distance="Within 10 Miles" name="Putt-Putt"/>
+        <amenity distance="Within 10 Miles" name="Recreation Programs"/>
+        <amenity distance="Within 10 Miles" name="Recycling Station"/>
+        <amenity distance="Within 10 Miles" name="Restaurant"/>
+        <amenity distance="Within 10 Miles" name="Soccer/Rugby Field"/>
+        <amenity distance="Within 10 Miles" name="Swimming - Pool"/>
+        <amenity distance="Within 10 Miles" name="Tennis"/>
+        <amenity distance="Within 10 Miles" name="Tennis Court"/>
+        <amenity distance="Within 10 Miles" name="Town"/>
+        <amenity distance="Greater Than 10 Miles" name="Airport"/>
+        <amenity distance="Greater Than 10 Miles" name="Antiquing"/>
+        <amenity distance="Greater Than 10 Miles" name="Auto Touring/Scenic Rtes"/>
+        <amenity distance="Greater Than 10 Miles" name="Cave Exploring/Spelunking"/>
+        <amenity distance="Greater Than 10 Miles" name="Geological Formations"/>
+        <amenity distance="Greater Than 10 Miles" name="Hiking Difficult"/>
+        <amenity distance="Greater Than 10 Miles" name="Seasonal Festivals"/>
+        <amenity distance="Greater Than 10 Miles" name="Shopping"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:03:42 GMT
+recorded_with: VCR 2.5.0

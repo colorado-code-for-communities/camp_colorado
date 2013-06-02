@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73543
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:35:45 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:35:45 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=4BFCB0AA70F8AF3E33CAA882B6CF8BFD.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=4BFCB0AA70F8AF3E33CAA882B6CF8BFD.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:35:45 GMT; Path=/
+      Content-Length:
+      - '3769'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Aspen Campground is an excellent place for campers looking to relax, hike, fish and enjoy the sounds of nature. The campground sits near Jefferson Creek, a few miles downriver of Jefferson Lake. The lake is one of the highest elevation lakes around, capping 10,685 feet elevation and bordered by steep 12,000 foot peaks.     Fishing in both the creek and lake offer promising catches of trout. Another noteworthy aspect of the campground is its access to the Colorado Trail." drivingDirection="From Fairplay, take Highway 285 north to Jefferson, then turn left on County road 35. Travel approximately 2 miles and turn right on County Road 37. Travel approximately 2.5 miles to the Aspen Campground." facilitiesDescription="Amenities include picnic tables, vault toilets, drinking water from a hand pump and a campfire ring. Parking aprons are gravel and can fit up to two vehicles.     It is difficult to access Jefferson Lake Recreation Area during the winter months. The roads to this site are not maintained for snow throughout the winter." facility="ASPEN (CO)" facilityID="73543" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=73543&amp;cmp=39-32--mcmire" importantInformation=" Be bear aware; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating This is a high elevation facility, please use caution when traveling from lower elevations There is a $6 vehicle fee to enter Jefferson Lake Recreation Area No RV hookups are available For more information on Pike and San Isabel National Forests, click here " latitude="39.4252778" longitude="-105.8408333" nearbyAttrctionDescription="Visit historic Fairplay, Colorado, a ghost town that was once a frontier boom town. The South Park City Museum contains 34 authentic buildings with 60,000 artifacts." note="" orientationDescription="Aspen Campground, at 9,900 elevation, sits in a valley along Jefferson Creek at the base of Jefferson Hill. The single-loop campground is shaded by groves of aspen and mature spruce. Jefferson Lake, spanning about 182 acres, has deep, cold waters and freezes over in winter." recreationDescription="The campground offers nearby access to two trails. Hiking, biking and horseback riding are excellent on the epic Colorado Trail, a 471-mile trail that stretches across Colorado from Denver to Durango. Also nearby is the West Jefferson Loop Trail, a foot path that goes up to the Continental Divide and loop for 11 miles.     Rainbow, brown, mackinaw and brook trout can be found swimming in the creek and lake. No-wake boating is allowed in the lake and a boat ramp is easily accessible." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=73543&amp;cmp=39-32--mcmire">
+        <address city="JEFFERSON" country="United States" shortName="ASPN" state="Colorado" streetAddress="" zip=""/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7198362031"/>
+        <contact name="Ranger Station" number="7198362031"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water (Hand Pump)"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Tables"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:00:21 GMT
+recorded_with: VCR 2.5.0

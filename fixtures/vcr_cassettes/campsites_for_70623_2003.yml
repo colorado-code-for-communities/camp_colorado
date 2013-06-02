@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70623&siteType=2003
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:28:12 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:28:12 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=05A41C6535952334AB95A9C5C8A8D54B.web05-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2645525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=05A41C6535952334AB95A9C5C8A8D54B.web05-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:28:12 GMT; Path=/
+      Content-Length:
+      - '6016'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="17" parkId="70623" resultType="campsites" siteType="2003">
+        <result Loop="GUAN" Maxeqplen="45" Maxpeople="5" Site="001" SiteId="14860" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="210.302963256836" mapy="445.303070068359" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GUAN" Maxeqplen="30" Maxpeople="5" Site="002" SiteId="14861" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="140.610000610352" mapy="272.579986572266" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GUAN" Maxeqplen="30" Maxpeople="5" Site="003" SiteId="14862" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="160.300003051758" mapy="201.360000610352" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GUAN" Maxeqplen="20" Maxpeople="5" Site="005" SiteId="14864" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="114.848442077637" mapy="604.393981933594" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GUAN" Maxeqplen="25" Maxpeople="5" Site="006" SiteId="14865" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="169.393890380859" mapy="571.060668945313" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GUAN" Maxeqplen="30" Maxpeople="5" Site="007" SiteId="14866" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="311.818145751953" mapy="498.333374023438" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GUAN" Maxeqplen="40" Maxpeople="8" Site="008" SiteId="14849" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="826.885192871094" mapy="415.712585449219" sitePhoto="/webphotos//NRSO/pid70623/sid14849/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GUAN" Maxeqplen="0" Maxpeople="8" Site="009" SiteId="14850" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="915.04" mapy="425.27" sitePhoto="/webphotos//NRSO/pid70623/sid14850/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GUAN" Maxeqplen="0" Maxpeople="8" Site="010" SiteId="14851" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="924.424499511719" mapy="296.107421875" sitePhoto="/webphotos//NRSO/pid70623/sid14851/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GUAN" Maxeqplen="0" Maxpeople="8" Site="011" SiteId="14852" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="951.34" mapy="346.45" sitePhoto="/webphotos//NRSO/pid70623/sid14852/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GUAN" Maxeqplen="0" Maxpeople="8" Site="012" SiteId="14853" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="939.71" mapy="386.53" sitePhoto="/webphotos//NRSO/pid70623/sid14853/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GUAN" Maxeqplen="0" Maxpeople="8" Site="013" SiteId="14854" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="785.260559082031" mapy="459.252868652344" sitePhoto="/webphotos//NRSO/pid70623/sid14854/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GUAN" Maxeqplen="0" Maxpeople="8" Site="014" SiteId="14855" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="715.029602050781" mapy="493.56982421875" sitePhoto="/webphotos//NRSO/pid70623/sid14855/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GUAN" Maxeqplen="0" Maxpeople="8" Site="015" SiteId="14856" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="672.068664550781" mapy="537.196960449219" sitePhoto="/webphotos//NRSO/pid70623/sid14856/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GUAN" Maxeqplen="35" Maxpeople="8" Site="016" SiteId="14857" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="714.848449707031" mapy="666.515197753906" sitePhoto="/webphotos//NRSO/pid70623/sid14857/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GUAN" Maxeqplen="35" Maxpeople="8" Site="017" SiteId="14858" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="801.212097167969" mapy="615.000061035156" sitePhoto="/webphotos//NRSO/pid70623/sid14858/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="GUAN" Maxeqplen="30" Maxpeople="8" Site="018" SiteId="14859" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="856.0244140625" mapy="526.181457519531" sitePhoto="/webphotos//NRSO/pid70623/sid14859/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:28:12 GMT
+recorded_with: VCR 2.5.0

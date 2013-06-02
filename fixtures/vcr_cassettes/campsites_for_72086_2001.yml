@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=72086&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:30:36 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:30:36 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=84869C0E93EE13BEEF392DC32EC6658C.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=84869C0E93EE13BEEF392DC32EC6658C.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:30:36 GMT; Path=/
+      Content-Length:
+      - '5481'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="17" parkId="72086" resultType="campsites" siteType="2001">
+        <result Loop="Jumbo  Campground1-26" Maxeqplen="40" Maxpeople="8" Site="6" SiteId="281803" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="428.2" mapy="269.43" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Jumbo  Campground1-26" Maxeqplen="30" Maxpeople="8" Site="7" SiteId="281804" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="480.52" mapy="148.56" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Jumbo  Campground1-26" Maxeqplen="35" Maxpeople="8" Site="8" SiteId="281805" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="375.88" mapy="226.13" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Jumbo  Campground1-26" Maxeqplen="45" Maxpeople="8" Site="11" SiteId="281835" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="332.58" mapy="159.38" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Jumbo  Campground1-26" Maxeqplen="35" Maxpeople="8" Site="12" SiteId="281836" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="345.21" mapy="245.98" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Jumbo  Campground1-26" Maxeqplen="30" Maxpeople="8" Site="13" SiteId="281837" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="262.22" mapy="314.54" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Jumbo  Campground1-26" Maxeqplen="30" Maxpeople="8" Site="14" SiteId="281838" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="269.43" mapy="375.88" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Jumbo  Campground1-26" Maxeqplen="35" Maxpeople="8" Site="15" SiteId="281839" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="379.48" mapy="298.3" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Jumbo  Campground1-26" Maxeqplen="45" Maxpeople="8" Site="16" SiteId="281840" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="395.72" mapy="359.64" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Jumbo  Campground1-26" Maxeqplen="40" Maxpeople="16" Site="17" SiteId="281842" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="280.26" mapy="467.89" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Jumbo  Campground1-26" Maxeqplen="45" Maxpeople="8" Site="19" SiteId="281843" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="296.49" mapy="653.71" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Jumbo  Campground1-26" Maxeqplen="45" Maxpeople="8" Site="22" SiteId="281846" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="395.72" mapy="642.89" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Jumbo  Campground1-26" Maxeqplen="35" Maxpeople="8" Site="23" SiteId="281847" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="420.98" mapy="686.19" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Jumbo  Campground1-26" Maxeqplen="40" Maxpeople="16" Site="24" SiteId="281848" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="467.89" mapy="761.96" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Jumbo  Campground1-26" Maxeqplen="35" Maxpeople="8" Site="9" SiteId="281806" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="442.63" mapy="92.63" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Jumbo  Campground1-26" Maxeqplen="45" Maxpeople="8" Site="10" SiteId="281807" SiteReserveType="site-specific" SiteType="STANDARD ELECTRIC" mapx="316.34" mapy="51.13" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Jumbo  Campground1-26" Maxeqplen="40" Maxpeople="8" Site="20" SiteId="281844" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="363.25" mapy="605.0" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:30:36 GMT
+recorded_with: VCR 2.5.0

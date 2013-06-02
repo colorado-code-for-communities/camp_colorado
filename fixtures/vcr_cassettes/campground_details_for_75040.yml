@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=75040
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:41:04 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:41:04 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=D44165A587F299AA76CAD9A65C10940D.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=D44165A587F299AA76CAD9A65C10940D.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:41:04 GMT; Path=/
+      Content-Length:
+      - '4801'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Seedhouse Group Site provides a private setting for group gatherings of up to 100 guests. Located near the Elk River, just miles from Steamboat Springs, Colorado, Seedhouse is a retreat for fishing, hiking, biking and horseback riding in the Rocky Mountains.     At an elevation of 8,000 feet, the area is also set near the Mount Zirkel Wilderness, which provides for excellent backcountry hiking and camping." drivingDirection="Take US Highway 40 to County Road 129 north on the west side of Steamboat Springs. Continue for 16 miles, through the town of Clark and across the Elk River, and turn right on County Road 64/Seedhouse Road. Proceed approximately 7.5 miles and look for Seedhouse Campground on the right. Continue past the campground and turn right to access the Seedhouse Group Sites." facilitiesDescription="The facility provides eight primitive tent sites with campfire rings and picnic tables, as well as a large picnic shelter that can accommodate 20 guests.     Water is available via a hand pump well system. Bear-proof food storage lockers and trash receptacles are provided for visitor safety." facility="SEEDHOUSE GROUP SITES" facilityID="75040" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=75040&amp;cmp=39-32--mcmire" importantInformation=" Campers must check in at the U.S. Forest Service District office in at 925 Weiss Drive on the east side of Steamboat Springs, Colorado, during business hours; call 970-870-2299 for more info This is a high elevation facility; please use caution when traveling from lower elevations Be bear aware; keep all food out of site in approved containers or locked inside your vehicle and remove all food from area after eating " latitude="40.7736111" longitude="-106.7341667" nearbyAttrctionDescription="Visitors might also enjoy stopping by Steamboat Lake State Park, only a short drive from the campground.    Many more outdoor opportunities exist in the surrounding national forests and grasslands, including hiking, biking, camping, horseback and off-road vehicle riding, fishing, hunting, sightseeing and winter sports." note="" orientationDescription="Seedhouse lies in the Rocky Mountains in the heart of the Routt National Forest near the Elk River. The Medicine Bow-Routt National Forests and Thunder Basin National Grassland encompass nearly three million acres from central and northeastern Wyoming to north-central Colorado.    Black bear, bobcat, coyote, elk, mule deer and moose are just some of the many animals that inhabit these rich and diverse lands." recreationDescription="The group campsite is a great central location for wilderness hiking and mountain biking, trout fishing in the nearby Elk River and picnicking amidst beautiful mountain scenery.    Campers can access the Continental Divide National Scenic Trail via a connector trail within a short drive from the campground." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=75040&amp;cmp=39-32--mcmire">
+        <address city="STEAMBOAT SPRINGS" country="United States" shortName="SEED" state="Colorado" streetAddress="925 WEISS DRIVE" zip="80487"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9708702299"/>
+        <contact name="Ranger Station" number="9708702299"/>
+        <amenity distance="Within Facility" name="Accessible Picnic Shelters"/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Accessible Trails"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Campfire Circles"/>
+        <amenity distance="Within Facility" name="Drinking Water (Hand Pump)"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Food Storage Locker"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="RV Parking"/>
+        <amenity distance="Within Facility" name="River Access"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Water Drinking"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:41:04 GMT
+recorded_with: VCR 2.5.0

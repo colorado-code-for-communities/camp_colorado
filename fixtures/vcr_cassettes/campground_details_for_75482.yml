@@ -1,0 +1,78 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=75482
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:25:26 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:25:26 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=5C8263E74AA9132D56F8175B7106676F.web08-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2b45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=5C8263E74AA9132D56F8175B7106676F.web08-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:25:26 GMT; Path=/
+      Content-Length:
+      - '8086'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="East Maroon Portal Picnic Site sits next to Maroon Creek, offering spectacular views of aspen and evergreen forests. The area is an excellent gathering spot for families, group gatherings and parties.      Reputed to be the most photographed mountains in Colorado, the spectacular Maroon Bells dominate this setting. The picnic area   is available for use by the general public, but can be reserved for private events. This is the only site available in the Maroon   Bells Scenic Area for wedding receptions." drivingDirection="From Independence Pass, take Highway 82 west from downtown Aspen for a mile to the roundabout. Take Maroon Creek Road 4.7 miles to the Maroon Bells Welcome Station; East Maroon Portal is 2 miles past the Welcome Station on the left.   From Glenwood Springs, take Highway 82 for 40 miles to the roundabout. Take Maroon Creek Road 4.7 miles to the Maroon Bells Welcome Station; East Maroon Portal is 2 miles past the Welcome Station on the left." facilitiesDescription="This picnic area is available for use by the general public, but can be reserved for private events for a fee. This is the only   site available in the Maroon Bells Scenic Area for wedding receptions.     The picnic area has 3 large picnic tables and can accommodate up to 75 people.      Vehicle traffic is restricted on Maroon Creek Road from 9 a.m. until 5 p.m. past the Maroon Bells Welcome Station. Individuals   who reserve this picnic site are issued five vehicle passes which allow travel in a motorized vehicle past this point.     Options for access to the site include parking at Aspen Highlands Ski Area and shuttling guests in cars possessing vehicle   permits or riding the Maroon Bells Shuttle Bus. Operating hours for the shuttle bus   are 9 a.m. until 5 p.m. for a fee of $6 per adult and $3 per child or senior.     Details of the recreation event or wedding must be disclosed and approved prior to day of the event. This includes items to be   brought onto the site. Bird seed, confetti, electric music and PA systems are prohibited at the site.     Visitors are required to remove or dispose of decorations after events. Dumpsters are located in nearby campgrounds. Accessible   vault toilets are available at this site." facility="EAST MAROON PORTAL PICNIC SITE" facilityID="75482" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=75482&amp;cmp=39-32--mcmire" importantInformation=" No drinking water available at this site Welcome station is open from 7 a.m. to 6 p.m. Check in at Welcome Station to confirm reservation for site Independence Pass (Highway 82) is normally open from Memorial Day through mid-October, weather dependent; call the 877-315-7623 for road updates This area provides access to the Maroon Bells - Snowmass Wilderness area Camping overnight in wilderness areas requires registration Limited vehicle access to this site; shuttle bus service available Click here for more information about White River National Forest " latitude="39.1030556" longitude="-106.9344444" nearbyAttrctionDescription="The nearby town of Aspen is a popular destination for visitors to the area.  From downhill skiing and world-class fly fishing, to   dining and resorts, there are a multitude of outdoor and indoor opportunities in this mountain town." note="" orientationDescription="Located in White River National Forest, the Maroon Bells-Snowmass Wilderness is one of the five original Colorado wilderness   areas designated by the 1964 Wilderness Act.  Scenery includes aspen groves, meadows of wildflowers and dark   forests of spruce and fir that rise up from the valleys to alpine landscapes. Here, bighorn sheep, pika, and ptarmigan find   habitat above timberline.     Towering over glacial valleys at over 14,000 feet in elevation, the Maroon Bells are the most recognizable peaks in the Elk   Mountain range. Unlike other mountains in the Rockies composed of granite and limestone, the Maroon Bells are made up of   metamorphic sedimentary mudstone that give the peaks their maroon color and unstable nature for climbing." recreationDescription="Nestled in the heart of the Rocky Mountains, the 2.3 million acre White River National Forest is one of the top recreation   Forests in the nation.    For hikers and backpackers, the Maroon-Snowmass Trail epitomizes the Rocky Mountains of Colorado. Starting from the Snowmass   Creek Trailhead, the trail winds through aspen groves, crosses streams and switchbacks through forests. Climbing to alpine   terrain, backpackers will find high mountain lakes and a smattering of wildflowers in early summer. Designated camping sites are   located at Crater Lake or Maroon Lake about 6 miles from the trailhead. Visitors should check regulations for camping in Colorado wilderness   areas." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=75482&amp;cmp=39-32--mcmire">
+        <address city="ASPEN" country="United States" shortName="EMPP" state="Colorado" streetAddress="MAROON CREEK ROAD" zip="81611"/>
+        <photo realUrl="/webphotos/NRSO/pid75482/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid75482/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid75482/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid75482/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid75482/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid75482/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid75482/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid75482/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid75482/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid75482/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid75482/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid75482/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9709453311"/>
+        <contact name="Ranger Station" number="9709253445"/>
+        <amenity distance="Within Facility" name="Accessible Site "/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Amphitheater"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Group Fire Ring"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hitching Racks"/>
+        <amenity distance="Within Facility" name="Horseback Rides"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Horseback Riding Trails"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Lake Access"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Shuttle Bus Service"/>
+        <amenity distance="Within Facility" name="Trailhead"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Visitor Center"/>
+        <amenity distance="Within 10 Miles" name="Hospital"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:14:39 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=KOA&parkId=190306&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:32:15 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:32:15 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=850EEBF4DBA1EDE83964BAFAFA60C910.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=850EEBF4DBA1EDE83964BAFAFA60C910.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:32:15 GMT; Path=/
+      Content-Length:
+      - '1434'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="KOA" count="4" parkId="190306" resultType="campsites" siteType="2001">
+        <result Loop="Limon KOA" Maxeqplen="70" Maxpeople="0" Site="Pull-thru, Full hookups, 50/30 amp, Cable, WiFi" SiteId="1608" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Limon KOA" Maxeqplen="70" Maxpeople="0" Site="Pull-thru, Full hookups, 30/20 amp, Cable, WiFi" SiteId="1609" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Limon KOA" Maxeqplen="40" Maxpeople="0" Site="Back-in, Water/Electric, 30/20 amp, Cable, WiFi" SiteId="1611" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Limon KOA" Maxeqplen="70" Maxpeople="0" Site="Pull-thru, Water/Electric, 50/30 amp, Cable, WiFi" SiteId="7768" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:32:15 GMT
+recorded_with: VCR 2.5.0

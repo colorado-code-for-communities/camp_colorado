@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=72290&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:37:44 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:37:44 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=5624A026B7B23E834B4CDF5706AB8E5B.web04-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2745525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=5624A026B7B23E834B4CDF5706AB8E5B.web04-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:37:44 GMT; Path=/
+      Content-Length:
+      - '5576'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="15" parkId="72290" resultType="campsites" siteType="2001">
+        <result Loop="PINE POINT CAMPGROUND" Maxeqplen="30" Maxpeople="8" Site="009" SiteId="305059" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="508.93" mapy="249.37" sitePhoto="/webphotos//NRSO/pid72290/sid305059/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="PINE POINT CAMPGROUND" Maxeqplen="35" Maxpeople="8" Site="010" SiteId="305060" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="462.37" mapy="353.55" sitePhoto="/webphotos//NRSO/pid72290/sid305060/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="PINE POINT CAMPGROUND" Maxeqplen="35" Maxpeople="8" Site="011" SiteId="305069" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="350.3" mapy="166.51" sitePhoto="/webphotos//NRSO/pid72290/sid305069/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="PINE POINT CAMPGROUND" Maxeqplen="30" Maxpeople="8" Site="012" SiteId="305061" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="343.2" mapy="278.57" sitePhoto="/webphotos//NRSO/pid72290/sid305061/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="PINE POINT CAMPGROUND" Maxeqplen="34" Maxpeople="8" Site="013" SiteId="305070" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="253.23" mapy="306.2" sitePhoto="/webphotos//NRSO/pid72290/sid305070/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="PINE POINT CAMPGROUND" Maxeqplen="32" Maxpeople="8" Site="014" SiteId="305062" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="289.53" mapy="368.55" sitePhoto="/webphotos//NRSO/pid72290/sid305062/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="PINE POINT CAMPGROUND" Maxeqplen="30" Maxpeople="8" Site="015" SiteId="305071" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="210.61" mapy="415.11" sitePhoto="/webphotos//NRSO/pid72290/sid305071/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="PINE POINT CAMPGROUND" Maxeqplen="32" Maxpeople="8" Site="016" SiteId="305063" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="249.28" mapy="459.31" sitePhoto="/webphotos//NRSO/pid72290/sid305063/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="PINE POINT CAMPGROUND" Maxeqplen="45" Maxpeople="8" Site="017" SiteId="305072" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="190.88" mapy="451.41" sitePhoto="/webphotos//NRSO/pid72290/sid305072/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="PINE POINT CAMPGROUND" Maxeqplen="30" Maxpeople="8" Site="018" SiteId="305073" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="138.42" mapy="565.78" sitePhoto="/webphotos//NRSO/pid72290/sid305073/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="PINE POINT CAMPGROUND" Maxeqplen="30" Maxpeople="8" Site="019" SiteId="305064" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="182.84" mapy="665.65" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="PINE POINT CAMPGROUND" Maxeqplen="35" Maxpeople="8" Site="020" SiteId="305065" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="460.0" mapy="405.64" sitePhoto="/webphotos//NRSO/pid72290/sid305065/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="PINE POINT CAMPGROUND" Maxeqplen="30" Maxpeople="8" Site="023" SiteId="305066" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="366.87" mapy="488.51" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="PINE POINT CAMPGROUND" Maxeqplen="30" Maxpeople="8" Site="027" SiteId="305067" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="296.92" mapy="714.78" sitePhoto="/webphotos//NRSO/pid72290/sid305067/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="PINE POINT CAMPGROUND" Maxeqplen="30" Maxpeople="8" Site="029" SiteId="305068" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="365.2" mapy="790.23" sitePhoto="/webphotos//NRSO/pid72290/sid305068/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:37:44 GMT
+recorded_with: VCR 2.5.0

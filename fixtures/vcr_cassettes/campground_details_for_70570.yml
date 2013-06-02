@@ -1,0 +1,68 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70570
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:38:08 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:38:08 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=BA72376C42A5BD4D55313593DF217EDE.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=BA72376C42A5BD4D55313593DF217EDE.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:38:08 GMT; Path=/
+      Content-Length:
+      - '6685'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Camp Hale Memorial Campground sits at an elevation of 9,200 feet, offering guests a wonderful setting for recreation and relaxation. Camp Hale is historic because the 10th Mountain Division, an unit of 15,000 men, trained here in mountaineering and skiing techniques during WWII. Some saw combat in Italy during the war.     Most of the buildings have been torn down, but foundations and other &amp;amp;quot;footprints&amp;amp;quot; remain.      The 99th Infantry Battalion (Viking Battalion) also trained at Camp Hale. There are interpretive signs along US Rt. 24, explaining the history and accomplishments of Camp Hale." drivingDirection="Located 15 miles south of the town of Minturn, Colorado on Hwy 24.  Take I-70 east from Grand Junction, Colorado, approximately 135 miles. Take exit 171 toward US-24 E. Keep right and follow signs for Minturn/Leadville, merging onto US-24 E. After 17 miles, take a slight left onto 10th Mountain Div Memorial Hwy. Take first left into Camp Hale.   From Denver: Take 1-70 west approximately 90 miles. Take exit 171 toward US-24 E. Keep right and follow signs for Minturn/Leadville, merging onto US-24 E. After 17 miles, take a slight left onto 10th Mountain Div Memorial Hwy. Take first left into Camp Hale." facilitiesDescription="Camp Hale Memorial Campground has 15 standard sites able to accommodate tents, trailers and RVs.    The campground is equipped with picnic tables, campfire rings, and vault toilets. Drinking water and electrical hook-  ups are not available at this site.  Visitors must provide their own water.    The road, parking area and spurs in the campground are gravel." facility="CAMP HALE MEMORIAL" facilityID="70570" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70570&amp;cmp=39-32--mcmire" importantInformation=" This facility is operated by White River Recreation, a division of California Land Management and your comments are appreciated; comment forms are available from campground hosts or on CLM&amp;apos;s website . Water is not available at this campground Please check-in with the campground host before proceeding to your assigned site Due to the pine beetle infestation and removal of hazard trees, there is little or no shade in the campground Some campsites are available on a first-come, first-serve basis In accordance with standard industry practices, there will be a $5 additional vehicle fee on the second vehicle in each single family campsite, and on the third and fourth vehicles in any double family campsite, provided these vehicles are not joined to the first vehicle by a hitch and towed onto the site. In the case of motorcycles, the first 2 are considered as 1 vehicle for determining additional vehicle fees. The third and fourth motorcycle would also be considered as 1 vehicle. No additional vehicle fees are collected for bicycles. Click here for more information about Camp Hale Click here for more information about White River National Forest " latitude="39.4202778" longitude="-106.315" nearbyAttrctionDescription="The resort town of Vail is a popular destination for visitors to the area, offering downhill skiing, world-class fly fishing, dining and resorts. There is a multitude of outdoor and indoor opportunites in this mountain town." note="" orientationDescription="In the heart of the Rocky Mountains, the 2.3 million acre White River National Forest is a place of serenity and adventure, boasting 8 wilderness areas, 4  defined seasons, and 10 peaks surpassing 14,000 feet in elevation.    Wildlife in the area abounds. Bighorn sheep navigate rocky ridges and bull elk bugle at dusk. Scenic rivers sustain populations of cutthroat, rainbow, and brown trout.  Alpine regions provide habitat for pika and ptarmigan. These species, along with many others, depend on surrounding undeveloped wilderness, clean streams, and diverse  forests to live.    This campground sits among a sparse growth of young Lodgepole pine in a wide, flat, open valley." recreationDescription="With the headwaters of the Eagle River nearby, anglers will find pockets of solitude, casting lines for rainbow and brown   trout. The waterway was named by the local Ute Indians who thought there were as many branches of the river as there were tail   feathers on an eagle.     Several ponds south of the campground offer good fishing opportunities.     The Colorado Trail crosses within walking distance of Camp Hale, and gravel roads provide easy walking and bike paths within   the area." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70570&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="CAMH" state="Colorado" streetAddress="WHITE RIVER" zip=""/>
+        <photo realUrl="/webphotos/NRSO/pid70570/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70570/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70570/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70570/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70570/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70570/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70570_CAMH.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9709270107"/>
+        <contact name="Ranger Station" number="9709270107"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Historic Sites"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="River Access"/>
+        <amenity distance="Within Facility" name="Trails"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:02:37 GMT
+recorded_with: VCR 2.5.0

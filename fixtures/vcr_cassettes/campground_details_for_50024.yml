@@ -1,0 +1,95 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50024
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:14:55 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:14:55 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=356747CAAC93C4240A6CEDBCDE5CF3F0.web08-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2b45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=356747CAAC93C4240A6CEDBCDE5CF3F0.web08-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:14:55 GMT; Path=/
+      Content-Length:
+      - '7364'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="CO" description="Discover incredible fishing at one of Colorado&amp;amp;#39;s largest reservoirs, Eleven Mile State Park! Rainbow, brown and cutthroat trout, kokanee salmon, northern pike and carp are all found within the waters of this 3,400 surface-acre reservoir. Waterfront camping, scenic vistas, uncrowded boating and ideal wind conditions for sailing and windsurfing make Eleven Mile a best bet for all visitors. The park is open year-round, offering spectacular Rocky Mountain sunsets and plenty of room to breathe. Visitors may choose from a variety of campsites at Eleven Mile State Park&amp;amp;#39;s 350 site facility. Showers &amp;amp;amp; laundry facilities are located at the Park Office opened May 1, 2013 and will remain open until through September 30th.     Eleven Mile Reservoir is now open to boating at both the North Shore Boat Ramps and the Witcher&amp;amp;#39;s Cove Boat Ramps.   Check the park conditions page at   www.parks.state.co.us/parks/elevenmile  for the most current information.     Reservations can be made from 3 days to six months prior to your arrival. " drivingDirection="From Colorado Springs take Hwy 24 west for 38 miles through Lake George. West of Lake George, turn left (south) on County Rd 90 and follow it for four miles. From that point, continue south on County Rd 92 for six miles to the park." facilitiesDescription="" facility="ELEVEN MILE STATE PARK" facilityID="50024" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=CO&amp;parkId=50024&amp;cmp=39-32--mcmire" importantInformation="Eleven Mile Reservoir is now open to boating at both the North Shore Boat Ramps and the Witcher&amp;apos;s Cove Boat Ramp. In addition to the camping fee, an entrance fee is required at all state parks! Eleven Mile State Park is located in South Park, a high alpine meadow at 8600 feet above sea level. Most areas lack trees but provide panoramic views of surrounding mountains or granite outcrops. Shade may be naturally provided by trees and other vegetation in some areas, particularly within some sites in Rocky Ridge C &amp;amp;amp; E loops and the Back Country campsites. Please call the park for specific details. Specific fishing and boating regulations exist for this park. Water sports such as swimming, wading, tubing and waterskiing are prohibited. " latitude="38.9355556" longitude="-105.5008333" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="Southeast Region" reservationUrl="/campsiteSearch.do?contractCode=CO&amp;parkId=50024&amp;cmp=39-32--mcmire">
+        <address city="LAKE GEORGE" country="United States" shortName="ELMI" state="Colorado" streetAddress="4229 COUNTY RD. 92" zip="80827-9201"/>
+        <photo realUrl="/webphotos/CO/pid50024/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50024/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50024/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50024/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50024/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50024/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50024/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50024/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50024/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50024/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50024/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50024/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50024/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50024/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50024/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/CO/pid50024/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/CO/pid50024/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/CO/pid50024/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number="7197483401"/>
+        <contact name="Ranger Station" number="7197483401"/>
+        <amenity distance="Within Facility" name="Amphitheater"/>
+        <amenity distance="Within Facility" name="Beaching Your Boat"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Bird Watching"/>
+        <amenity distance="Within Facility" name="Boat Ramps"/>
+        <amenity distance="Within Facility" name="Boat Rental"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Camper Services Bldg"/>
+        <amenity distance="Within Facility" name="Comfort Station"/>
+        <amenity distance="Within Facility" name="Cross Country Skiing"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Firewood Available"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Fishing Equip. Rentals"/>
+        <amenity distance="Within Facility" name="Fishing Licenses Sold"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hiking Trail"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Ice Fishing"/>
+        <amenity distance="Within Facility" name="Interpretive Programs"/>
+        <amenity distance="Within Facility" name="Laundry Facilities (May 1st - September 30th)"/>
+        <amenity distance="Within Facility" name="Marina"/>
+        <amenity distance="Within Facility" name="Nature Study Exhibits"/>
+        <amenity distance="Within Facility" name="Parking"/>
+        <amenity distance="Within Facility" name="Pay Phones Available"/>
+        <amenity distance="Within Facility" name="Photography"/>
+        <amenity distance="Within Facility" name="Picnicking"/>
+        <amenity distance="Within Facility" name="Playground"/>
+        <amenity distance="Within Facility" name="Proximity To Camp Serv."/>
+        <amenity distance="Within Facility" name="Sailing And Sailboarding"/>
+        <amenity distance="Within Facility" name="Showers (May 1st - September 30th)"/>
+        <amenity distance="Within Facility" name="Skating"/>
+        <amenity distance="Within Facility" name="Snow Shoeing"/>
+        <amenity distance="Within Facility" name="Some Natural Shade in Rocky Ridge C &amp;amp; E Loops and Backcountry"/>
+        <amenity distance="Within Facility" name="Store (Retail)"/>
+        <amenity distance="Within Facility" name="Toilet, Flush (May 1st - September 30th)"/>
+        <amenity distance="Within Facility" name="Water Fill Up Station"/>
+        <amenity distance="Within Facility" name="Wildlife Watching Opportunity"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:14:55 GMT
+recorded_with: VCR 2.5.0

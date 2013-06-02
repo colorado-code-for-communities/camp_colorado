@@ -1,0 +1,80 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50035&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:37:20 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:37:20 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=E298917F1E63B29EC22CC0CB9986B67F.web07-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2845525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=E298917F1E63B29EC22CC0CB9986B67F.web07-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:37:20 GMT; Path=/
+      Content-Length:
+      - '13263'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="CO" count="34" parkId="50035" resultType="campsites" siteType="2001">
+        <result Loop="LOWER LOOP" Maxeqplen="20" Maxpeople="6" Site="PELALOLO024" SiteId="1743" SiteReserveType="site-specific" SiteType="&lt;= 20 FT. NON-ELEC BASIC" mapx="769.554077148438" mapy="429.229187011719" sitePhoto="/webphotos//CO/pid50035/sid1743/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="LOWER LOOP" Maxeqplen="25" Maxpeople="6" Site="PELALOLO025" SiteId="1744" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="771.847534179688" mapy="404.000671386719" sitePhoto="/webphotos//CO/pid50035/sid1744/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="LOWER LOOP" Maxeqplen="30" Maxpeople="6" Site="PELALOLO026" SiteId="1745" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="776.893188476563" mapy="372.350280761719" sitePhoto="/webphotos//CO/pid50035/sid1745/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="LOWER LOOP" Maxeqplen="20" Maxpeople="6" Site="PELALOLO027" SiteId="1746" SiteReserveType="site-specific" SiteType="&lt;= 20 FT. NON-ELEC BASIC" mapx="780.104125976563" mapy="354.919708251953" sitePhoto="/webphotos//CO/pid50035/sid1746/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="LOWER LOOP" Maxeqplen="30" Maxpeople="6" Site="PELALOLO028" SiteId="1747" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="781.021545410156" mapy="335.654296875" sitePhoto="/webphotos//CO/pid50035/sid1747/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="LOWER LOOP" Maxeqplen="24" Maxpeople="6" Site="PELALOLO029" SiteId="1748" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="781.480224609375" mapy="317.764953613281" sitePhoto="/webphotos//CO/pid50035/sid1748/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="LOWER LOOP" Maxeqplen="24" Maxpeople="6" Site="PELALOLO030" SiteId="1749" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="776.434509277344" mapy="296.664733886719" sitePhoto="/webphotos//CO/pid50035/sid1749/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="LOWER LOOP" Maxeqplen="30" Maxpeople="6" Site="PELALOLO031" SiteId="1750" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="782.364685058594" mapy="283.806762695313" sitePhoto="/webphotos//CO/pid50035/sid1750/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="LOWER LOOP" Maxeqplen="30" Maxpeople="6" Site="PELALOLO032" SiteId="1751" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="789.73681640625" mapy="269.605621337891" sitePhoto="/webphotos//CO/pid50035/sid1751/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="LOWER LOOP" Maxeqplen="20" Maxpeople="6" Site="PELALOLO033" SiteId="1752" SiteReserveType="site-specific" SiteType="&lt;= 20 FT. NON-ELEC BASIC" mapx="785.499572753906" mapy="250.274307250977" sitePhoto="/webphotos//CO/pid50035/sid1752/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="LOWER LOOP" Maxeqplen="20" Maxpeople="6" Site="PELALOLO034" SiteId="1753" SiteReserveType="site-specific" SiteType="&lt;= 20 FT. NON-ELEC BASIC" mapx="768.986328125" mapy="245.384872436523" sitePhoto="/webphotos//CO/pid50035/sid1753/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="LOWER LOOP" Maxeqplen="30" Maxpeople="6" Site="PELALOLO035" SiteId="1754" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="754.402587890625" mapy="253.608520507813" sitePhoto="/webphotos//CO/pid50035/sid1754/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="LOWER LOOP" Maxeqplen="16" Maxpeople="6" Site="PELALOLO036" SiteId="1755" SiteReserveType="site-specific" SiteType="&lt;= 20 FT. NON-ELEC BASIC" mapx="752.123413085938" mapy="276.023193359375" sitePhoto="/webphotos//CO/pid50035/sid1755/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="LOWER LOOP" Maxeqplen="18" Maxpeople="6" Site="PELALOLO037" SiteId="1756" SiteReserveType="site-specific" SiteType="&lt;= 20 FT. NON-ELEC BASIC" mapx="754.416870117188" mapy="305.380035400391" sitePhoto="/webphotos//CO/pid50035/sid1756/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="LOWER LOOP" Maxeqplen="16" Maxpeople="6" Site="PELALOLO038" SiteId="1757" SiteReserveType="site-specific" SiteType="&lt;= 20 FT. NON-ELEC BASIC" mapx="752.123413085938" mapy="364.552398681641" sitePhoto="/webphotos//CO/pid50035/sid1757/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="UPPER LOOP" Maxeqplen="25" Maxpeople="6" Site="PELAUPLO001" SiteId="1759" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="723.455078125" mapy="426.173797607422" sitePhoto="/webphotos//CO/pid50035/sid1759/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="UPPER LOOP" Maxeqplen="30" Maxpeople="6" Site="PELAUPLO002" SiteId="1760" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="715.481323242188" mapy="407.159393310547" sitePhoto="/webphotos//CO/pid50035/sid1760/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="UPPER LOOP" Maxeqplen="20" Maxpeople="6" Site="PELAUPLO003" SiteId="1761" SiteReserveType="site-specific" SiteType="&lt;= 20 FT. NON-ELEC BASIC" mapx="718.548156738281" mapy="385.078155517578" sitePhoto="/webphotos//CO/pid50035/sid1761/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="UPPER LOOP" Maxeqplen="24" Maxpeople="6" Site="PELAUPLO004" SiteId="1762" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="720.388305664063" mapy="358.703308105469" sitePhoto="/webphotos//CO/pid50035/sid1762/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="UPPER LOOP" Maxeqplen="20" Maxpeople="6" Site="PELAUPLO005" SiteId="1763" SiteReserveType="site-specific" SiteType="&lt;= 20 FT. NON-ELEC BASIC" mapx="722.841735839844" mapy="340.915588378906" sitePhoto="/webphotos//CO/pid50035/sid1763/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="UPPER LOOP" Maxeqplen="25" Maxpeople="6" Site="PELAUPLO008" SiteId="1766" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="714.867980957031" mapy="266.698059082031" sitePhoto="/webphotos//CO/pid50035/sid1766/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="UPPER LOOP" Maxeqplen="18" Maxpeople="6" Site="PELAUPLO009" SiteId="1767" SiteReserveType="site-specific" SiteType="&lt;= 20 FT. NON-ELEC BASIC" mapx="712.414489746094" mapy="251.363830566406" sitePhoto="/webphotos//CO/pid50035/sid1767/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="UPPER LOOP" Maxeqplen="30" Maxpeople="6" Site="PELAUPLO010" SiteId="1768" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="718.929748535156" mapy="237.286148071289" sitePhoto="/webphotos//CO/pid50035/sid1768/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="UPPER LOOP" Maxeqplen="24" Maxpeople="6" Site="PELAUPLO011" SiteId="1769" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="724.472412109375" mapy="212.325134277344" sitePhoto="/webphotos//CO/pid50035/sid1769/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="UPPER LOOP" Maxeqplen="24" Maxpeople="6" Site="PELAUPLO012" SiteId="1770" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="709.744140625" mapy="196.160690307617" sitePhoto="/webphotos//CO/pid50035/sid1770/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="UPPER LOOP" Maxeqplen="24" Maxpeople="6" Site="PELAUPLO013" SiteId="1771" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="680.751098632813" mapy="234.009887695313" sitePhoto="/webphotos//CO/pid50035/sid1771/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="UPPER LOOP" Maxeqplen="24" Maxpeople="6" Site="PELAUPLO014" SiteId="1772" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="688.508056640625" mapy="251.191665649414" sitePhoto="/webphotos//CO/pid50035/sid1772/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="UPPER LOOP" Maxeqplen="30" Maxpeople="6" Site="PELAUPLO015" SiteId="1773" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="687.266357421875" mapy="267.9248046875" sitePhoto="/webphotos//CO/pid50035/sid1773/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="UPPER LOOP" Maxeqplen="30" Maxpeople="6" Site="PELAUPLO018" SiteId="1776" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="694.626831054688" mapy="342.755706787109" sitePhoto="/webphotos//CO/pid50035/sid1776/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="UPPER LOOP" Maxeqplen="24" Maxpeople="6" Site="PELAUPLO019" SiteId="1777" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="691.559936523438" mapy="361.770111083984" sitePhoto="/webphotos//CO/pid50035/sid1777/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="UPPER LOOP" Maxeqplen="30" Maxpeople="6" Site="PELAUPLO020" SiteId="1778" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="689.1064453125" mapy="385.078125" sitePhoto="/webphotos//CO/pid50035/sid1778/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="UPPER LOOP" Maxeqplen="20" Maxpeople="6" Site="PELAUPLO021" SiteId="1779" SiteReserveType="site-specific" SiteType="&lt;= 20 FT. NON-ELEC BASIC" mapx="686.039672851563" mapy="407.772766113281" sitePhoto="/webphotos//CO/pid50035/sid1779/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="UPPER LOOP" Maxeqplen="20" Maxpeople="6" Site="PELAUPLO022" SiteId="1780" SiteReserveType="site-specific" SiteType="&lt;= 20 FT. NON-ELEC BASIC" mapx="690.946594238281" mapy="429.854034423828" sitePhoto="/webphotos//CO/pid50035/sid1780/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="UPPER LOOP" Maxeqplen="16" Maxpeople="6" Site="PELAUPLO023" SiteId="1781" SiteReserveType="site-specific" SiteType="&lt;= 20 FT. NON-ELEC BASIC" mapx="701.373840332031" mapy="448.868438720703" sitePhoto="/webphotos//CO/pid50035/sid1781/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:37:20 GMT
+recorded_with: VCR 2.5.0

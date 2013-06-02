@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=KOA&parkId=190165
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:15:57 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:15:57 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=76852E36B21642AF599894388CFC3478.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=76852E36B21642AF599894388CFC3478.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:15:57 GMT; Path=/
+      Content-Length:
+      - '4711'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="KOA" description="Make us your basecamp for touring the Front Range of Colorado. We are on the NW corner of Ft. Collins and only five minutes from Colorado State University, ten minutes from the Poudre Canyon and within one hour of Laramie, Cheyenne, Boulder, Estes Park, Denver and Rocky Mountain National Park.  Our big-rig friendly RV sites have 50/30 amp, water, sewer, wifi and cable. Our tent sites, kabins, cottage and lodges have great lake views. Schedule your next group outing or family reunion with us. We have two conference rooms, a large pavilion and a small gazebo for special events.  Our recreation center will keep the whole family busy. We&amp;amp;#39;re also happy to serve you yummy meals at our chuckwagon (Memorial Day - Labor Day). Don&amp;amp;#39;t miss our special activities on Saturdays during the summer!  Make Fort Collins/Lakeside Lakeside KOA your home away from home.   To view more information on this campground, access this  campground&amp;amp;#39;s independent website  .   Take a  virtual tour  of our campground." drivingDirection="From the south (Denver): Take I-25 north to exit 269B (Highway 14/Mulberry Street) west. Take Mulberry street west about 5 miles to Riverside. Turn right. Take Riverside to College Ave/Highway 287 and merge right/going north. Take Highway 287 north 4 miles to County Road 54G/Taft Hill Road, towards the town of Laporte. Turn left on Taft Hill Road. We are .6 miles south on the left. There is a left turning lane.  From the north (Cheyenne): Take I-25 south to exit 281 (Owl Canyon Road). Turn right off of the exit. Take Owl Canyon Road west 6.3 miles to Taft Hill Road/County Road 19. Turn left. Go south on Taft Hill Road 9.7 miles to Lakeside Resort Lane (there is a turning lane). Turn left and follow our long driveway to the gate." facilitiesDescription="" facility="Fort Collins / Lakeside KOA" facilityID="190165" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=KOA&amp;parkId=190165&amp;cmp=39-32--mcmire" importantInformation="" latitude="40.6147222" longitude="-105.1141667" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="KOA Region" reservationUrl="/campsiteSearch.do?contractCode=KOA&amp;parkId=190165&amp;cmp=39-32--mcmire">
+        <address city="Fort Collins" country="United States" shortName="A165" state="Colorado" streetAddress="1910 Lakeside Resort Lane" zip="80524"/>
+        <photo realUrl="/webphotos/KOA/pid190165/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190165/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190165/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190165/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190165/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190165/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190165/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190165/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190165/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190165/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190165/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190165/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190165/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190165/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190165/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid190165/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid190165/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid190165/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number=""/>
+        <contact name="Ranger Station" number="9704849880"/>
+        <amenity distance="" name=""/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:15:58 GMT
+recorded_with: VCR 2.5.0

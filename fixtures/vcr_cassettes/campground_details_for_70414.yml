@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70414
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:14:05 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:14:05 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=8C94764932CE3B9757DDDA4639D24871.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=8C94764932CE3B9757DDDA4639D24871.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:14:05 GMT; Path=/
+      Content-Length:
+      - '3757'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Dinner Station, a historic stop along an old stagecoach route from Aspen, is located in the Upper Taylor Park area, next to the Taylor River. The campground is a favorite among off-road and mountain biking enthusiasts." drivingDirection="From Gunnison, Colo., travel north on Colorado Highway 135 for 10 miles to Almont. Turn right (northeast) onto Taylor Canyon Road and continue 35 miles. The campground entrance is on the left." facilitiesDescription="The campground offers single-family campsites, each equipped with a picnic table and campfire ring. Vault toilets, drinking water and trash collection are provided." facility="DINNER STATION" facilityID="70414" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70414&amp;cmp=39-32--mcmire" importantInformation=" Reservation fee applies to first camping unit only; additional units reserved will be charged full price at the campground Opening and closing dates are weather permitting; please call (928) 537-8888 for more information Click here for more information on the Grand Mesa, Uncompahgre and Gunnison National Forests " latitude="38.9052778" longitude="-106.5861111" nearbyAttrctionDescription="Taylor Park Reservoir is less than five miles from the campground, offering boating, fishing and swimming opportunities. A boat ramp and boat rentals are available there." note="" orientationDescription="The campground is nestled among ponderosa and lodgepole pine trees, at the edge of a broad, flat valley dotted with sagebrush. Most campsites are situated with the Taylor River on one side and open views of the Sawatch Mountains on the other side." recreationDescription="The Taylor River can be accessed from within the campground. Anglers cast for rainbow and brook trout.     A number of off-road trails are found in the surrounding area, including Doctor Park Trail, Taylor River Trail and Taylor Vista Trail." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70414&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="DINN" state="Colorado" streetAddress="GUNNISON, GRAND MESA, AND UNCO" zip=""/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9706420566"/>
+        <contact name="Ranger Station" number="9706420566"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Climbing"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Off-Road Vehicle Trails"/>
+        <amenity distance="Within Facility" name="River Access"/>
+        <amenity distance="Within Facility" name="Tables"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within 10 Miles" name="Boat Ramp"/>
+        <amenity distance="Within 10 Miles" name="Boat Rentals"/>
+        <amenity distance="Within 10 Miles" name="Boating"/>
+        <amenity distance="Within 10 Miles" name="Canoeing"/>
+        <amenity distance="Within 10 Miles" name="Lake Access"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:14:05 GMT
+recorded_with: VCR 2.5.0

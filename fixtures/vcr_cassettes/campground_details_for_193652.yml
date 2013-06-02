@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=KOA&parkId=193652
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:28:16 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:28:16 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=8DCF90483DFD0F90D61C3AAD210B8AE9.web07-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2845525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=8DCF90483DFD0F90D61C3AAD210B8AE9.web07-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:28:16 GMT; Path=/
+      Content-Length:
+      - '4049'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="KOA" description="Escape the heat in cool Gunnison, where the average July high temperature is 80 degrees. From this campground southwest of town, you&amp;amp;#39;re just 10 minutes from Blue Mesa Reservoir and the 40-pound-plus trout that make this big, cold lake one of Colorado&amp;amp;#39;s top fishing holes. The rainbows in the KOA fishing pond (mid-June to mid-September) are a tad bit smaller. Cruise on a paddleboat (mid-June to mid-September). This KOA rents bikes and features an off-leash dog park. Hike, bike or go rafting in the area too. To the west, the sheer rock walls of the Black Canyon of the Gunnison plummet some 2,500 feet to the Gunnison River. Crested Butte, a 19th-century mining town surrounded by peaks, lies a half-hour&amp;amp;#39;s drive north. Keebler Pass provides some of the best autumn aspen color in the Rocky Mountains." drivingDirection="From Main St in Gunnison go 1.5 miles W, look for KOA signs directing you S to campground." facilitiesDescription="" facility="Gunnison KOA" facilityID="193652" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=KOA&amp;parkId=193652&amp;cmp=39-32--mcmire" importantInformation="" latitude="38.5308333" longitude="-106.9452778" nearbyAttrctionDescription="" note="" orientationDescription="" recreationDescription="" regionName="KOA Region" reservationUrl="/campsiteSearch.do?contractCode=KOA&amp;parkId=193652&amp;cmp=39-32--mcmire">
+        <address city="Gunnison" country="United States" shortName="D652" state="Colorado" streetAddress="105 County Road 50" zip="81230"/>
+        <photo realUrl="/webphotos/KOA/pid193652/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid193652/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid193652/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid193652/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid193652/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid193652/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid193652/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid193652/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid193652/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid193652/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid193652/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid193652/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid193652/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid193652/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid193652/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/KOA/pid193652/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/KOA/pid193652/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/KOA/pid193652/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="" title=""/>
+        <contact name="Direct Line" number=""/>
+        <contact name="Ranger Station" number="9706411358"/>
+        <amenity distance="Within Facility" name="4-Wheel drive roads"/>
+        <amenity distance="Within Facility" name="Golf"/>
+        <amenity distance="Within Facility" name="Hunting and fishing"/>
+        <amenity distance="Within Facility" name="Scenic view"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:28:16 GMT
+recorded_with: VCR 2.5.0

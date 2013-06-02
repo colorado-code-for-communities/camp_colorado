@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50031&siteType=2002
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:32:59 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:32:59 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=14B745848A45E105958630B4B8577DB3.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=14B745848A45E105958630B4B8577DB3.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:32:59 GMT; Path=/
+      Content-Length:
+      - '8959'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="CO" count="26" parkId="50031" resultType="campsites" siteType="2002">
+        <result Loop="MAIN" Maxeqplen="25" Maxpeople="6" Site="MANCMAIN002" SiteId="1549" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="508.800628662109" mapy="749.56494140625" sitePhoto="/webphotos//CO/pid50031/sid1549/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="30" Maxpeople="6" Site="MANCMAIN003" SiteId="1550" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="465.349151611328" mapy="752.673278808594" sitePhoto="/webphotos//CO/pid50031/sid1550/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="40" Maxpeople="6" Site="MANCMAIN004" SiteId="1551" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. NON-ELEC BASIC" mapx="504.724151611328" mapy="797.838684082031" sitePhoto="/webphotos//CO/pid50031/sid1551/0/180x120.jpg" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="24" Maxpeople="6" Site="MANCMAIN005" SiteId="1552" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="478.088104248047" mapy="847.636474609375" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="24" Maxpeople="6" Site="MANCMAIN006" SiteId="1553" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="538.308715820313" mapy="856.901245117188" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="24" Maxpeople="6" Site="MANCMAIN007" SiteId="1554" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="498.933715820313" mapy="921.754150390625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="36" Maxpeople="6" Site="MANCMAIN008" SiteId="1555" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. NON-ELEC BASIC" mapx="552.205749511719" mapy="903.224731445313" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="40" Maxpeople="6" Site="MANCMAIN009" SiteId="1556" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. NON-ELEC BASIC" mapx="577.612731933594" mapy="931.247924804688" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="24" Maxpeople="6" Site="MANCMAIN010" SiteId="1557" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="548.731506347656" mapy="968.077697753906" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="24" Maxpeople="6" Site="MANCMAIN011" SiteId="1558" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="602.003540039063" mapy="984.290954589844" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="21" Maxpeople="6" Site="MANCMAIN012" SiteId="1559" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="626.452392578125" mapy="942.170715332031" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="14" Maxpeople="6" Site="MANCMAIN013" SiteId="1560" SiteReserveType="site-specific" SiteType="&lt;= 20 FT. NON-ELEC BASIC" mapx="665.698425292969" mapy="969.235778808594" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="40" Maxpeople="6" Site="MANCMAIN014" SiteId="1561" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. NON-ELEC BASIC" mapx="708.547668457031" mapy="928.702697753906" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="24" Maxpeople="6" Site="MANCMAIN015" SiteId="1562" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="661.148315429688" mapy="902.728332519531" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="24" Maxpeople="6" Site="MANCMAIN016" SiteId="1563" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="685.385925292969" mapy="862.691650390625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="24" Maxpeople="6" Site="MANCMAIN017" SiteId="1564" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="638.455932617188" mapy="877.803955078125" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="24" Maxpeople="6" Site="MANCMAIN018" SiteId="1565" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="621.056396484375" mapy="856.076599121094" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="36" Maxpeople="6" Site="MANCMAIN019" SiteId="1566" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. NON-ELEC BASIC" mapx="591.580749511719" mapy="884.695373535156" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="27" Maxpeople="6" Site="MANCMAIN020" SiteId="1567" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="603.16162109375" mapy="818.684326171875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="24" Maxpeople="6" Site="MANCMAIN021" SiteId="1568" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="614.742553710938" mapy="738.776245117188" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="24" Maxpeople="6" Site="MANCMAIN023" SiteId="1570" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="563.5966796875" mapy="749.421325683594" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="MAIN" Maxeqplen="40" Maxpeople="6" Site="MANCMAIN024AHD" SiteId="4083" SiteReserveType="site-specific" SiteType="&lt;= 40 FT. NON-ELEC BASIC" mapx="531.182189941406" mapy="718.213134765625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="WEST SIDE" Maxeqplen="24" Maxpeople="6" Site="MANCWEST025" SiteId="1572" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="378.024139404297" mapy="178.530334472656" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="WEST SIDE" Maxeqplen="24" Maxpeople="6" Site="MANCWEST029" SiteId="1576" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="623.715576171875" mapy="147.580825805664" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="WEST SIDE" Maxeqplen="24" Maxpeople="6" Site="MANCWEST030" SiteId="1577" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="633.714660644531" mapy="106.156105041504" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="WEST SIDE" Maxeqplen="24" Maxpeople="6" Site="MANCWEST031" SiteId="1578" SiteReserveType="site-specific" SiteType="&lt;= 30 FT. NON-ELEC BASIC" mapx="671.330200195313" mapy="82.8249359130859" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:32:59 GMT
+recorded_with: VCR 2.5.0

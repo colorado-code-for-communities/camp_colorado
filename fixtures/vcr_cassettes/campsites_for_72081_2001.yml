@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=72081&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:31:02 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:31:02 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=81EADFE263DA6945E4B318B8292FC56D.web05-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2645525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=81EADFE263DA6945E4B318B8292FC56D.web05-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:31:02 GMT; Path=/
+      Content-Length:
+      - '5867'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="18" parkId="72081" resultType="campsites" siteType="2001">
+        <result Loop="KENOSHA PASS CAMPGROUND" Maxeqplen="35" Maxpeople="8" Site="003" SiteId="281237" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="638.72" mapy="578.0" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="KENOSHA PASS CAMPGROUND" Maxeqplen="25" Maxpeople="8" Site="005" SiteId="281239" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="534.11" mapy="362.8" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="KENOSHA PASS CAMPGROUND" Maxeqplen="20" Maxpeople="8" Site="007" SiteId="281241" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="505.72" mapy="338.89" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="KENOSHA PASS CAMPGROUND" Maxeqplen="35" Maxpeople="8" Site="008" SiteId="281242" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="481.81" mapy="377.74" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="KENOSHA PASS CAMPGROUND" Maxeqplen="36" Maxpeople="8" Site="009" SiteId="281246" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="425.02" mapy="231.29" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="KENOSHA PASS CAMPGROUND" Maxeqplen="26" Maxpeople="8" Site="011" SiteId="281244" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="287.53" mapy="132.65" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="KENOSHA PASS CAMPGROUND" Maxeqplen="20" Maxpeople="8" Site="013" SiteId="281247" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="223.27" mapy="122.19" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="KENOSHA PASS CAMPGROUND" Maxeqplen="45" Maxpeople="8" Site="014" SiteId="281248" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="130.61" mapy="189.44" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="KENOSHA PASS CAMPGROUND" Maxeqplen="35" Maxpeople="8" Site="015" SiteId="281249" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="173.95" mapy="223.81" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="KENOSHA PASS CAMPGROUND" Maxeqplen="45" Maxpeople="8" Site="016" SiteId="281250" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="325.89" mapy="426.06" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="KENOSHA PASS CAMPGROUND" Maxeqplen="38" Maxpeople="8" Site="017" SiteId="281251" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="242.38" mapy="423.97" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="KENOSHA PASS CAMPGROUND" Maxeqplen="55" Maxpeople="8" Site="018" SiteId="281252" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="326.07" mapy="513.64" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="KENOSHA PASS CAMPGROUND" Maxeqplen="20" Maxpeople="8" Site="019" SiteId="281253" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="324.07" mapy="582.38" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="KENOSHA PASS CAMPGROUND" Maxeqplen="55" Maxpeople="8" Site="020" SiteId="281254" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="391.82" mapy="603.3" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="KENOSHA PASS CAMPGROUND" Maxeqplen="45" Maxpeople="8" Site="021" SiteId="281255" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="421.16" mapy="654.98" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="KENOSHA PASS CAMPGROUND" Maxeqplen="45" Maxpeople="8" Site="022" SiteId="281256" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="328.06" mapy="681.02" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="KENOSHA PASS CAMPGROUND" Maxeqplen="55" Maxpeople="8" Site="024" SiteId="281258" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="474.52" mapy="741.79" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="KENOSHA PASS CAMPGROUND" Maxeqplen="26" Maxpeople="8" Site="010" SiteId="281243" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="357.77" mapy="173.0" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:31:02 GMT
+recorded_with: VCR 2.5.0

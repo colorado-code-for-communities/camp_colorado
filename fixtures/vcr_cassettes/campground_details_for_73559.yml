@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73559
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:42:21 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:42:21 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=8A7D509264B1F622AFBC65B5E619969D.web10-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2d45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=8A7D509264B1F622AFBC65B5E619969D.web10-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:42:21 GMT; Path=/
+      Content-Length:
+      - '3412'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Springer Gulch Campground is located in the Eleven Mile Canyon, a short walk from the South Platte River, offering sweeping mountain views at an altitude of 8,300 feet. Fly fishermen will find an abundance of trout and visitors enjoy exploring area trails." drivingDirection="From Lake George, turn south off Highway 24 onto County Road 96. Follow County Road 96 into the canyon until you reach the Springer Gulch Campground on the right." facilitiesDescription="Springer Gulch Campground offers about 15 reservable campsites. Parking aprons are dirt and fit trailers up to 25 feet in length. Campground amenities include picnic tables, vault toilets and drinking water." facility="SPRINGER GULCH" facilityID="73559" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=73559&amp;cmp=39-32--mcmire" importantInformation=" Be bear aware; keep all food out of site in approved containers or locked inside your vehicle and remove all food from area after eating This is a high elevation facility, please use caution when traveling from lower elevations There is a $6 vehicle fee to enter Eleven Mile Canyon No RV hookups are available For more information on Pike and San Isabel National Forests, click here " latitude="38.9273833" longitude="-105.4248917" nearbyAttrctionDescription="Visitors enjoy the Florissant Fossil Beds National Monument, one of the richest and most diverse fossil deposits in the world. Petrified redwood stumps up to 14 feet wide and thousands of detailed fossils of insects and plants reveal the story of a very different, prehistoric Colorado." note="" orientationDescription="Ponderosa, aspen and fir trees are scattered throughout the campground and become more dense at sites that are further up the gulch. The Eleven Mile Reservoir is a short drive downriver, spanning 3,405 surface acres and 5 miles in length. Eleven Mile Canyon was cut by the South Platte River and is bordered by polished gray granite cliffs.    Visitors are likely to see wildlife like elk, mule deer, foxes and porcupines. At dusk, bats may be spotted as well." recreationDescription="Hikers can access the nearby Overlook Trail and take in breathtaking views of Eleven Mile Canyon and Eleven Mile Reservoir. On this hike, lucky visitors may catch a glimpse of golden eagles nesting in the nearby granite cliffs and crags. Trail access is from Spillway Campground." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=73559&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="SPGU" state="Colorado" streetAddress="" zip=""/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7198362031"/>
+        <contact name="Ranger Station" number="7198362031"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Rock Climbing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:42:22 GMT
+recorded_with: VCR 2.5.0

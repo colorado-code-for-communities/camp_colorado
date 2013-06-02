@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=72268
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:35:35 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:35:35 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=204820487D32FA29E900D99E50B57FF0.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=204820487D32FA29E900D99E50B57FF0.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:35:35 GMT; Path=/
+      Content-Length:
+      - '6384'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="North Canyon Campground is situated next to Vallecito Reservoir in southwestern Colorado. Visitors enjoy the area for its beautiful scenery and wide range of recreational activities, including boating, fishing and hiking." drivingDirection="From Bayfield, Colo., at the Vallecito Lake sign on U.S. Highway 160 (County Road 501), go north about 13 miles to Vallecito. Turn right at Forest Road 603 and travel 4 miles to the campground." facilitiesDescription="The campground offers single-family sites, many of which have lake views. Sites are equipped with a picnic table and campfire ring. Vault toilets and drinking water are provided." facility="NORTH CANYON CAMPGROUND" facilityID="72268" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=72268&amp;cmp=39-32--mcmire" importantInformation=" Click here for more information on the San Juan National Forest This facility has first come first serve sites. Even if all reservable sites have been taken, it might be possible to acquire one of these sites on a walk in basis " latitude="37.3938889" longitude="-107.5388889" nearbyAttrctionDescription="" note="" orientationDescription="Vallecito, which is Spanish for &amp;amp;quot;little valley,&amp;amp;quot; sits at an elevation of 7,900 feet. Scattered ponderosa pines tower over the open campground, offering limited shade. A thick understory provides privacy between sites, many of which have partial lake views. Thickets of willow separate the camping area from the lakeshore. High peaks of the San Juans are visible to the northwest of the campground." recreationDescription="Vallecito Reservoir is a very popular fishing lake, with anglers casting for German brown trout, cutthroat trout, rainbow trout, kokanee salmon and northern pike.     The lake offers great boating, water skiing and canoeing opportunities. Boat rentals and fishing licenses are available at various locations around the lake.    A variety of hiking and horseback riding trails are found in the area. The North Canyon Trail begins across the road from the campground and leads through ponderosa pine and aspen forests. A short side trail leads to a scenic overlook of the lake.    East Creek Trail begins a quarter-mile northeast of the campground, on Forest Road 852. It provides access to a lightly used, scenic drainage where fly-fisherman cast for brook trout. Both trails are popular with horseback riders, however, horses are not allowed in the campground." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=72268&amp;cmp=39-32--mcmire">
+        <address city="San Juan NF" country="United States" shortName="NCAN" state="Colorado" streetAddress="FS Road 603" zip=""/>
+        <photo realUrl="/webphotos/NRSO/pid72268/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72268/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72268/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72268/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72268/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72268/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72268/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72268/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72268/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72268/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72268/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72268/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72268/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72268/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72268/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72268/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72268/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72268/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/72268_NCAN.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9708842512"/>
+        <contact name="Ranger Station" number="9708842512"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Lake Access"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Tables"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Less Than 1 Mile" name="Boating"/>
+        <amenity distance="Less Than 1 Mile" name="Canoeing"/>
+        <amenity distance="Less Than 1 Mile" name="Fishing"/>
+        <amenity distance="Less Than 1 Mile" name="Swimming"/>
+        <amenity distance="Less Than 1 Mile" name="Water Skiing"/>
+        <amenity distance="Within 10 Miles" name="Boat Ramp"/>
+        <amenity distance="Within 10 Miles" name="Boat Rentals"/>
+        <amenity distance="Within 10 Miles" name="Grocery Store"/>
+        <amenity distance="Within 10 Miles" name="Horseback Riding"/>
+        <amenity distance="Within 10 Miles" name="Laundry Facilities"/>
+        <amenity distance="Within 10 Miles" name="Scenic Overlooks"/>
+        <amenity distance="Within 10 Miles" name="Trailheads"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:35:35 GMT
+recorded_with: VCR 2.5.0

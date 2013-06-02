@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73559&siteType=2003
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:42:24 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:42:24 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=2A2600A3D3DF713F8083142E06B2FD57.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=2A2600A3D3DF713F8083142E06B2FD57.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:42:24 GMT; Path=/
+      Content-Length:
+      - '5102'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="15" parkId="73559" resultType="campsites" siteType="2003">
+        <result Loop="SPRINGER GULCH " Maxeqplen="25" Maxpeople="8" Site="001" SiteId="129672" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="644.418579101563" mapy="669.533996582031" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRINGER GULCH " Maxeqplen="20" Maxpeople="8" Site="002" SiteId="129673" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="652.128723144531" mapy="555.707885742188" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRINGER GULCH " Maxeqplen="20" Maxpeople="8" Site="003" SiteId="129674" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="693.722900390625" mapy="622.055725097656" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRINGER GULCH " Maxeqplen="28" Maxpeople="8" Site="004" SiteId="129675" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="405.809143066406" mapy="328.396148681641" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRINGER GULCH " Maxeqplen="28" Maxpeople="8" Site="005" SiteId="129676" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="399.72216796875" mapy="289.642517089844" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRINGER GULCH " Maxeqplen="28" Maxpeople="8" Site="006" SiteId="129677" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="391.470977783203" mapy="235.333343505859" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRINGER GULCH " Maxeqplen="28" Maxpeople="8" Site="007" SiteId="129678" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="311.533660888672" mapy="162.934143066406" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRINGER GULCH " Maxeqplen="20" Maxpeople="8" Site="008" SiteId="129679" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="264.185974121094" mapy="151.265716552734" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRINGER GULCH " Maxeqplen="20" Maxpeople="8" Site="009" SiteId="129680" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="226.582092285156" mapy="166.280212402344" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRINGER GULCH " Maxeqplen="28" Maxpeople="8" Site="010" SiteId="129681" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="213.417556762695" mapy="211.660003662109" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRINGER GULCH " Maxeqplen="28" Maxpeople="8" Site="011" SiteId="129682" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="255.393676757813" mapy="248.115966796875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRINGER GULCH " Maxeqplen="28" Maxpeople="8" Site="012" SiteId="129683" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="292.332916259766" mapy="272.385345458984" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRINGER GULCH " Maxeqplen="28" Maxpeople="8" Site="013" SiteId="129684" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="330.399993896484" mapy="302.459503173828" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRINGER GULCH " Maxeqplen="28" Maxpeople="8" Site="014" SiteId="129685" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="368.201721191406" mapy="347.878265380859" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="SPRINGER GULCH " Maxeqplen="25" Maxpeople="8" Site="015" SiteId="129686" SiteReserveType="site-specific" SiteType="TENT ONLY NONELECTRIC" mapx="415.548278808594" mapy="390.618377685547" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:42:24 GMT
+recorded_with: VCR 2.5.0

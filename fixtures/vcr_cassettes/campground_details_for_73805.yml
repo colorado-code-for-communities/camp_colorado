@@ -1,0 +1,77 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73805
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:13:18 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:13:18 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=EA41FE7FE39B97896438972784C84A2E.web05-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2645525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=EA41FE7FE39B97896438972784C84A2E.web05-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:13:18 GMT; Path=/
+      Content-Length:
+      - '5423'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Cutthroat Bay Group Campground is located on Lake Granby, six miles southeast of Grand Lake in north central Colorado. Visitors enjoy the area for its great boating, fishing and hiking opportunities." drivingDirection="From the intersection of U.S. Highways 40 and 34 in Granby, head north on Highway 34 for approximately 9 miles. Campground is on east side of the highway." facilitiesDescription="The campground offers two accessible group campsites that accommodate up to 30 people each. Each site is equipped with a picnic shelter, tables, a campfire circle and 12 tent pads.     Vault toilets and drinking water are provided. A volleyball court and horseshoe pits are also available at the campground." facility="CUTTHROAT BAY GROUP" facilityID="73805" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=73805&amp;cmp=39-32--mcmire" importantInformation=" This is bear country! For bear and human safety, keep a clean campsite and do not place food or other attractants in your tent. For more information about visiting bear country, contact Colorado Parks and Wildlife at http://wildlife.state.co.us Boats are subject to inspection to prevent the spread of zebra and quagga mussels A additional fee will be charged for admission to the Arapaho National Recreation Area; fees are $5 a day, $10 for three days, $15 per week or $30 per year, and can be purchases from the Forest Service or local vendors; Golden Eagle, Age and Access passports are valid for admission; call (970) 887-4100 for more information Granby Lake may be subject to lower water levels for control of spring run-off A limited number of sites may be available on a first-come, first-served basis Click here for more information on the Arapaho and Roosevelt National Forests Operated by American Land &amp;amp;amp; Leisure. You may contact us at www.AmericanLL.com or 801-226-3564. " latitude="40.1913972" longitude="-105.8736222" nearbyAttrctionDescription="Rocky Mountain National Park&amp;amp;#39;s west entrance is located north of Grand Lake. With lush valleys and craggy peaks reaching elevations higher than 14,000 feet, visitors are provided opportunities for countless breathtaking experiences and adventures. Scenic driving, hiking, backpacking, fishing, horseback riding and wildlife viewing are popular activities enjoyed at the park." note="" orientationDescription="The campground is situated on the northern shore of Lake Granby, at an elevation of 8,300 feet. Afternoon thunderstorms should be expected during the summer months.    Due to the mountain pine beetle infestation and consequent removal of hazardous trees, the campground provides no natural shade." recreationDescription="Lake Granby is part of the Arapaho National Recreation Area. It offers boating, sailing, swimming and fishing. Anglers cast for kokanee salmon and rainbow, brown, mackinaw and cutthroat trout. A boat ramp and dock are located nearby. National Fishing Week is held annually the first week of June.     Numerous hiking, biking and horseback riding trails are located within the Arapaho National Recreation Area, including the East Shore Trail (which is part of the Continental Divide National Scenic Trail), AA Barn Loop Trail, Roaring Fork Trail and Monarch Lake Trail." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=73805&amp;cmp=39-32--mcmire">
+        <address city="GRANBY" country="United States" shortName="CBAY" state="Colorado" streetAddress="COUNTY ROAD 64" zip="80446"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/73805_CBAY.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9708870056"/>
+        <contact name="Ranger Station" number="9708874100"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Campfire Circles"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Group Camping"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseback Riding Trails"/>
+        <amenity distance="Within Facility" name="Horseshoe Pit"/>
+        <amenity distance="Within Facility" name="Lake Access"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Shelters"/>
+        <amenity distance="Within Facility" name="Sailing"/>
+        <amenity distance="Within Facility" name="Swimming"/>
+        <amenity distance="Within Facility" name="Tables"/>
+        <amenity distance="Within Facility" name="Tent Pads"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Volleyball Courts"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:13:18 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73563
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:12:37 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:12:37 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=5D825115A59E88D3578C4F64C81D2CFD.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=5D825115A59E88D3578C4F64C81D2CFD.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:12:37 GMT; Path=/
+      Content-Length:
+      - '3192'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Cove Campground is a small, primitive campground ideal for anglers and rock climbers, nestled in the Eleven Mile Canyon along the South Platte River." drivingDirection="From Lake George turn off of Highway 24 onto County Road 96. Follow the road for about one mile into Eleven Mile Canyon. Cove Campground is located approximately 4 miles into the canyon on the right." facilitiesDescription="Cove Campground offers four reservable campsites. Drinking water from hand pumps, picnic tables, vault toilets and campfire rings are available." facility="COVE CAMPGROUND" facilityID="73563" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=73563&amp;cmp=39-32--mcmire" importantInformation=" Be bear aware; keep all food out of site in approved containers or locked inside your vehicle and remove all food from area after eating This is a high elevation facility, please use caution when traveling from lower elevations There is a $6 vehicle fee to enter Eleven Mile Canyon No RV hookups are available For more information on Pike and San Isabel National Forests, click here " latitude="38.9105556" longitude="-105.4602778" nearbyAttrctionDescription="Visit the Florissant Fossil Beds National Monument, one of the richest and most diverse fossil deposits in the world. Petrified redwood stumps up to 14 feet wide and thousands of detailed fossils of insects and plants reveal the story of a very different, prehistoric Colorado." note="" orientationDescription="Cove sits along the river and is one of the closest campground to the Eleven Mile Reservoir, which spans 3,405 surface acres and 5 miles in length. Eleven Mile Canyon was cut by the South Platte River and is bordered by polished gray granite cliffs." recreationDescription="Fishing for rainbow, brown and cutthroat trout is one of the most popular activities for campers. Birding and nature photography are also ideal pastimes. Rock climbers enjoy the solid walls of the canyon.    Hikers can head to the nearby Overlook Trail for breathtaking views of Eleven Mile Canyon and Eleven Mile Reservoir. Occasionally, Golden Eagles can be viewed nesting in the nearby granite cliffs and crags. Springtime brings higher chances of seeing Bald Eagles." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=73563&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="CCAM" state="Colorado" streetAddress="" zip=""/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number=""/>
+        <contact name="Ranger Station" number="7198362031"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood Vendor"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:12:38 GMT
+recorded_with: VCR 2.5.0

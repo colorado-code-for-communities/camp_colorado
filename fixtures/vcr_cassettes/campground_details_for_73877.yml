@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73877
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:24:45 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:24:45 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=F6B6A6B827BA22DF6F6566930DC57B5B.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=F6B6A6B827BA22DF6F6566930DC57B5B.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:24:45 GMT; Path=/
+      Content-Length:
+      - '5033'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Cobbett Lake Campground is located on Colorado&amp;amp;#39;s Grand Mesa, in the Land O&amp;amp;#39; Lakes area, which is home to more than 300 lakes. Visitors enjoy the area for its great fishing, canoeing and hiking opportunities." drivingDirection="From Cedaredge, travel north on Highway 65 approximately 15 miles. Just past the Grand Mesa Visitor Center, watch for the campground sign and turnoff road to the right." facilitiesDescription="The campground offers single-family campsites, each equipped with a picnic table and campfire ring. Vault toilets, drinking water and trash collection are provided." facility="COBBETT LAKE" facilityID="73877" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=73877&amp;cmp=39-32--mcmire" importantInformation=" Reservation fee applies to first camping unit only; additional units reserved will be charged full price at the campground Opening and closing dates are weather permitting; please call (928) 537-8888 for more information Mosquitoes are abundant in the area; bring repellent Click here for more information on the Grand Mesa, Uncompahgre and Gunnison National Forests " latitude="39.0413889" longitude="-107.9830556" nearbyAttrctionDescription="The Grand Mesa National Scenic and Historic Byway offers 63 miles of scenic driving as it climbs from the rugged canyon floor, up to the forested mesa tops, at 11,000 feet. The road passes sparkling lakes and meadows bursting with wildflowers. Many trailheads are found along the byway.    The town of Cedaredge is 15 miles from the campground. It is home to Pioneer Town, a 19th Century village with frontier museums and more than 20 structures. A historic schoolhouse, blacksmith shop, saloon and jail can be visited there. Cedaredge&amp;amp;#39;s &amp;amp;quot;Applefest&amp;amp;quot; festival is held annually in October." note="" orientationDescription="The campground is situated along the Grand Mesa National Scenic and Historic Byway on the shore of Cobbett Lake, at an elevation of 10,300 feet. A dense grove of spruce trees covers the campground, offering shade in nearly every site.     A variety of wildlife, including deer and elk, frequents the area." recreationDescription="Cobbett Lake is open to non-motorized watercraft, making it a perfect place for canoeing and fishing. Anglers cast for rainbow, brook and cutthroat trout. Numerous additional lakes in the area provide more fishing and canoeing opportunities, as well as beautiful scenery.    A variety of hiking trails, including the Cobbett Lake Trail and Grand Mesa Discovery Trail begin nearby. Several off-road vehicle trails are in the surrounding area.     Grand Mesa Visitor Center is within walking distance at Island Lake. The center offers interpretive exhibits, a bookstore and a high-altitude wildflower garden containing more than 50 native species." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=73877&amp;cmp=39-32--mcmire">
+        <address city="CEDAREDGE" country="United States" shortName="COBB" state="Colorado" streetAddress="" zip="81413"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9708564500"/>
+        <contact name="Ranger Station" number="9708746600"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Canoeing"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Lake Access"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Non-Motorized Boating"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Recycling"/>
+        <amenity distance="Within Facility" name="Scenic Drive"/>
+        <amenity distance="Within Facility" name="Skiing"/>
+        <amenity distance="Within Facility" name="Tables"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within 10 Miles" name="Off-Road Vehicle Trails"/>
+        <bulletin description="Due to new Colorado State water regulations, water service to this campground has been temporary suspended. Please make sure to bring your own water when visiting this campground." headline="NOTICE"/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:03:54 GMT
+recorded_with: VCR 2.5.0

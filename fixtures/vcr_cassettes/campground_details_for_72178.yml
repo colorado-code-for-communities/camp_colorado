@@ -1,0 +1,74 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=72178
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:38:34 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:38:34 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=420CECBD26124797F401425D6E5C1F1D.web03-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2445525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=420CECBD26124797F401425D6E5C1F1D.web03-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:38:34 GMT; Path=/
+      Content-Length:
+      - '6389'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Cayton Campground is located along the San Juan Skyway (Colorado Highway 145) and the Dolores River. Visitors enjoy the area for its great fishing, hiking and scenic driving opportunities." drivingDirection="From Rico, travel northeast on Colorado Highway 145 for 6 miles. Turn right (east) on Forest Road 578 (Barlow Creek Road). The campground entrance is a half-mile further." facilitiesDescription="The campground offers 27 single-family campsites, many of which are situated along the river. Eighteen sites offer electric hookups. Each site is equipped with a picnic table and campfire ring. Vault toilets, drinking water and a dump station are provided." facility="CAYTON CAMPGROUND" facilityID="72178" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=72178&amp;cmp=39-32--mcmire" importantInformation=" Sites 5, 6, 10 and 25 meet established accessibility standards; site 6 is reservable, but 5, 10 and 25 are available on a first-come, first-served basis First-come, first-served sites are available Click here for more information on the San Juan National Forest This facility has first come first serve sites. Even if all reservable sites have been taken, it might be possible to acquire one of these sites on a walk in basis. " latitude="37.7713889" longitude="-107.9772222" nearbyAttrctionDescription="The Priest Gulch Trailhead, 11 miles southwest of Rico, leads to the alpine country west of the campground. The Bear Creek Trail, 14 miles south of Rico, heads southeast into the La Plata Mountains. Other nearby trails include the Calico National Recreation Trail and the Rico-Silverton Trail.    Highway 145, which runs between the campground and Telluride, offers some of the most majestic scenery along the San Juan Skyway, including views of the &amp;amp;quot; 14ers ,&amp;amp;quot; which are peaks over 14,000 feet." note="" orientationDescription="The campground is situated near the banks of the Dolores River, in a grassy meadow surrounded by fir and aspen trees. At an elevation of 9,400 feet, campers should expect cool evenings." recreationDescription="The Dolores River is a popular fishing destination that can often be crowded on summer weekends. Anglers will find rainbow, brown and cutthroat trout.    The area boasts some excellent trails. The Colorado Trail follows the ridge across Bolam Pass. The Lizard Head and Cross Mountain Trails near Lizard Head Pass lead to alpine basins surrounded by 14,000-foot peaks.    The Barlow Creek Road continues past the campground and crosses Bolam Pass with spectacular views. Road conditions near the pass often limit travel to four-wheel drive vehicles. The route eventually connects with the Hermosa Park Road, behind Durango Mountain Resort, and leads to U.S. Highway 550." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=72178&amp;cmp=39-32--mcmire">
+        <address city="Rico" country="United States" shortName="CACM" state="Colorado" streetAddress="San Juan NF" zip=""/>
+        <photo realUrl="/webphotos/NRSO/pid72178/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72178/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72178/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72178/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72178/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72178/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72178/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72178/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72178/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72178/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72178/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72178/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72178/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72178/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72178/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72178/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72178/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72178/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/72178_CACM.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9708827296"/>
+        <contact name="Ranger Station" number=""/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Dump Station"/>
+        <amenity distance="Within Facility" name="Electric Hookups"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Tables"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Waterfront Sites"/>
+        <amenity distance="Less Than 1 Mile" name="Fishing"/>
+        <amenity distance="Less Than 1 Mile" name="River Access"/>
+        <amenity distance="Within 10 Miles" name="Biking"/>
+        <amenity distance="Within 10 Miles" name="Hiking"/>
+        <amenity distance="Within 10 Miles" name="Scenic Drive"/>
+        <amenity distance="Within 10 Miles" name="Trailheads"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:03:02 GMT
+recorded_with: VCR 2.5.0

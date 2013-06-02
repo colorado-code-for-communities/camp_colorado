@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=LARC&parkId=710104&siteType=9001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:28:58 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:28:58 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=88C66C2D7915E223FEEEDFF5089168D2.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=88C66C2D7915E223FEEEDFF5089168D2.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:28:58 GMT; Path=/
+      Content-Length:
+      - '893'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="LARC" count="2" parkId="710104" resultType="campsites" siteType="9001">
+        <result Loop="Hermit Park" Maxeqplen="0" Maxpeople="250" Site="Hermit Park Open Space AM" SiteId="1856" SiteReserveType="site-specific" SiteType="PAVILION" mapx="407.46" mapy="630.12" sitePhoto="/webphotos//LARC/pid710104/sid1856/0/180x120.jpg" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Hermit Park" Maxeqplen="0" Maxpeople="250" Site="Hermit Park Open Space PM" SiteId="1857" SiteReserveType="site-specific" SiteType="PAVILION" mapx="407.06" mapy="610.97" sitePhoto="/webphotos//LARC/pid710104/sid1857/0/180x120.jpg" sitesWithAmps="15" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:28:58 GMT
+recorded_with: VCR 2.5.0

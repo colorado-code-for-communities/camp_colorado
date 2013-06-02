@@ -1,0 +1,65 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70024
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:35:52 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:35:52 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=2AAF8F5E118A92B726603D65348F1C5B.web05-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2645525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=2AAF8F5E118A92B726603D65348F1C5B.web05-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:35:52 GMT; Path=/
+      Content-Length:
+      - '3864'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Aspen Glade Campground sits on the Conejos River in southern Colorado, providing a premium setting for fly fishing and peaceful nature watching." drivingDirection="From Antonito, Colorado, go west on Highway 17 for approximately 15 milesto the Aspen Glade Campground." facilitiesDescription="The 32 spacious, reservable campsites are considerably quiet, allowing for the sounds of birds overhead. Drinking water and vault toilets are provided." facility="ASPEN GLADE" facilityID="70024" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70024&amp;cmp=39-32--mcmire" importantInformation="Please fill your trailer prior to arriving. Trailers are NOT allowed to fill at hydrants as it contaminates the entire water system. Livestock and horses are not permitted There are no electric hookups available First-come, first-serve campsites may be available A fee will be charged for additional vehicles No off-road vehicles permitted The 14 day stay limit is strictly enforced. Camping for a period longer than 14 days during any 30-consecutive day period is prohibited. If you have booked back-to-back reservations, you will be asked to cancel all days after the first 14. " latitude="37.0725" longitude="-106.2730556" nearbyAttrctionDescription="Visitors can ride a traditional steam engine at the Cumbres and Toltec Scenic Railroad on a 64-mile journey through abandoned mining towns." note="" orientationDescription="Within the campground, Loop A and B are lightly wooded with Ponderosa pines. Loop C is heavily wooded with tall, mature spruce, aspen and fir trees. It lies along the fast-flowing Conejos River. The understory for all campsites is grass topped with pine needles.    Aspen Glade sits near the border of New Mexico at 8,500 feet. It is situated between the Carson and Rio Grande National Forests.    Wildlife in the region includes bear, deer, elk and a variety of birds." recreationDescription="Forest Road 250 provides an unforgettable scenic drive, where visitors are met with sweeping views of the Conejos Canyon and River.    Just upstream of the campground is a section of &amp;amp;quot;Gold Medal&amp;amp;quot; trout fishing, offering top-tier fishing for large quality trout. Just 168 miles of the 9,000 miles of trout streams in Colorado are designated with this title.    The nearby Sheep Creek Trail is also highly recommended for avid hikers." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70024&amp;cmp=39-32--mcmire">
+        <address city="LA JARA" country="United States" shortName="ASGL" state="Colorado" streetAddress="CONEJOS PEAK RD 15571 CR T-5" zip="81140"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70024_ASGL.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7192748971"/>
+        <contact name="Ranger Station" number="7193762535"/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Scenic Drive"/>
+        <amenity distance="Within Facility" name="Self Pay Station"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Water Spigot"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:00:27 GMT
+recorded_with: VCR 2.5.0

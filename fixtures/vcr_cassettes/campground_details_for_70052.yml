@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70052
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:37:36 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:37:36 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=8C288A18149532270634A07989684075.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=8C288A18149532270634A07989684075.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:37:36 GMT; Path=/
+      Content-Length:
+      - '5603'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Buffalo Campground is one of two facilities within the Buffalo Creek Recreation Area, about an hour&amp;amp;#39;s drive southwest of Denver, Colorado. Visitors enjoy a variety of recreational opportunities, including hiking, mountain biking and trout fishing." drivingDirection="From Denver, travel southwest on Highway 285. Turn south on Jefferson County Road 126 and travel 15 miles. Turn right on Forest Road 550 and drive 5 miles to the campground." facilitiesDescription="The campground offers single-family sites, some of which are designated for tent camping only. Each site is equipped with accessible picnic tables and campfire rings with grills. Vault toilets and drinking water are provided. No hookups are available." facility="BUFFALO CAMPGROUND" facilityID="70052" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70052&amp;cmp=39-32--mcmire" importantInformation=" Be bear aware; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating This is a high elevation facility; please use caution when traveling from lower elevations The campground has first-come, first-served sites A $5 nightly fee will be collected for additional vehicles (single sites over 1 vehicle, double sites over 2 vehicles) Click here for more information on Pike and San Isabel National Forests " latitude="39.3415944" longitude="-105.329625" nearbyAttrctionDescription="The drive along County Road 126 southwest from Pine Junction affords magnificent views of the valleys below. Pikes Peak, at 14,110 feet, can be seen in the distance and other prominent rock formations present themselves throughout the scenic drive." note="" orientationDescription="The campground is situated near Buffalo Creek at an elevation of 7,400 feet in the Front Range of the Rocky Mountains. Summer temperatures are mild and range from 75-80 degrees during the day to 55-65 degrees at night." recreationDescription="The Buffalo Creek Recreation Area is home to a 40-mile trail system most popular with mountain bikers, but hikers and horseback riders enjoy the area as well. Several trailheads are within walking distance of the campground. The Lost Creek Wilderness Area can be accessed via the Colorado Trail, which stretches nearly 500 miles from Denver to Durango.    Buffalo Creek is a popular fishing stream for brook trout." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70052&amp;cmp=39-32--mcmire">
+        <address city="Bailey" country="United States" shortName="BUF1" state="Colorado" streetAddress="28718 Redskin Creek Rd." zip="80421"/>
+        <photo realUrl="/webphotos/NRSO/pid70052/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70052/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70052/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70052/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70052/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70052/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70052/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70052/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70052/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70052/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70052/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70052/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70052/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70052/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70052/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70052_BUF1.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="3038387064"/>
+        <contact name="Ranger Station" number="3032755610"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Creek Access"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood Vendor"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Self Pay Station"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:02:07 GMT
+recorded_with: VCR 2.5.0

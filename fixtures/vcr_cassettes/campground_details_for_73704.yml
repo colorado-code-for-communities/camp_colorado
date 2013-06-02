@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73704
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:40:14 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:40:14 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=38149317D8CBC2F84041862953D48B50.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=38149317D8CBC2F84041862953D48B50.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:40:14 GMT; Path=/
+      Content-Length:
+      - '5386'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Roberts Cabin is one of the recognized historic cabins in Pike &amp;amp;amp; San Isabel National Forests. The primitive cabin dates back to the mining and railroad era of the 1880s, and is eligible for placement in the National Register of Historic Places.     Through the ages, the structure has been used as a residence, a blacksmith&amp;amp;#39;s shop and stables. In 1993, the piece of history was restored to its original form and converted for use as a cabin rental." drivingDirection="From Denver, Colorado, take Highway 285 southwest about 75 miles to thetown of Como. Turn north on County Road 33 and go approximately 4 milesto the cabin. Parking is along east side of the road.  Guests must have combination lock to cabin prior to arrival." facilitiesDescription="This is a remote, two-story log cabin, with one room on each floor and a steep staircase leading up to the top floor. Up to eight guests may sleep here; bedding includes two double beds, two single beds and a sleeper sofa. Lanterns and a wood stove are provided, and a vault toilet is outside. Parking can accommodate up to four vehicles.      No water is available and no cooking utensils are available either. Guests are advised to bring plenty of water for drinking, cooking and cleaning. They should also bring cooking pots and utensils, sleeping bags or blankets, flashlights, matches, outdoor furniture and firewood." facility="ROBERTS CABIN" facilityID="73704" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=73704&amp;cmp=39-32--mcmire" importantInformation=" Entry to the cabin is by combination lock, found in confirmation letter; call district office at (719)836-2031 for questions and updated conditions No drinking water available; bring an ample amount Please bring drinking water, food, sleeping bags or bedding, eating utensils, cookware, flashlights or lanterns, outdoor furniture and firewood Propane stoves may be used outside only No pets allowed No tent or RV camping at cabin site Click here for current alerts and notices, or call ranger district Click here for more information on the Pike and San Isabel National Forest " latitude="39.34" longitude="-105.9316667" nearbyAttrctionDescription="The cabin is convenient to Como, a town steeped with railroad  history. It is also near Breckenridge and the Colorado Trail." note="" orientationDescription="Roberts Cabin is located in the South Park Ranger District, which inludes South Park, part of the Mosquito Range, Eleven Mile Canyon, Jefferson Lake Recreation Areas, the Tarryall Mountains and Puma Hills.    The cabin offers expansive views of the Front Range and is located at the base of the Boreas Pass, a 11,492 foot high mountain pass in central Colorado.      Wildlife sightings may include elk, deer, black bear, golden eagles and the great horned owl." recreationDescription="Bird and wildlife watching are popular pastimes. In summer, many hiking trails are available to explore, this includes the extensive Colorado Trail that extends across the state from Denver to Durango.     Winter recreation like cross country skiing and sledding are available, but the cabin is closed in peak winter months from December to April." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=73704&amp;cmp=39-32--mcmire">
+        <address city="FAIRPLAY" country="United States" shortName="ROTS" state="Colorado" streetAddress="PO BOX 219" zip="80440"/>
+        <photo realUrl="/webphotos/NRSO/pid73704/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid73704/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid73704/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid73704/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid73704/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid73704/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7198362031"/>
+        <contact name="Ranger Station" number=""/>
+        <amenity distance="Within Facility" name="Bed(s)"/>
+        <amenity distance="Within Facility" name="Fire Extinguisher"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="First Aid Kit"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within Facility" name="Wood Stove"/>
+        <amenity distance="Within 10 Miles" name="Birding"/>
+        <amenity distance="Within 10 Miles" name="Fishing"/>
+        <amenity distance="Within 10 Miles" name="General Store"/>
+        <amenity distance="Within 10 Miles" name="Hiking"/>
+        <amenity distance="Within 10 Miles" name="Hunting"/>
+        <amenity distance="Within 10 Miles" name="Mountain Climbing"/>
+        <amenity distance="Within 10 Miles" name="Skiing"/>
+        <amenity distance="Within 10 Miles" name="Snowshoeing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:40:15 GMT
+recorded_with: VCR 2.5.0

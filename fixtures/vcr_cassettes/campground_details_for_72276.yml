@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=72276
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:25:24 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:25:24 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=BF490AC7828A923CA4EE460536044C73.web04-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2745525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=BF490AC7828A923CA4EE460536044C73.web04-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:25:24 GMT; Path=/
+      Content-Length:
+      - '5549'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="East Fork Campground is located 11 miles northeast of Pagosa Springs, just off U.S. Highway 160, along the East Fork Road. Visitors enjoy the area for its fishing, hiking and scenic opportunities." drivingDirection="From downtown Pagosa Springs, travel 11 miles east on Highway 160 to the junction with East Fork Road (Forest Road 667). Turn right and continue less than a mile to the campground on the right." facilitiesDescription="The campground offers several single-family sites, many with views of the river below. There are a few level pull-through parking spaces for RVs. Accessible vault toilets and drinking water are provided." facility="EAST FORK CAMPGROUND" facilityID="72276" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=72276&amp;cmp=39-32--mcmire" importantInformation=" Click here for more information on the San Juan National Forest " latitude="37.3741667" longitude="-106.8866667" nearbyAttrctionDescription="Silver Falls is located a few miles up East Fork Road past the campground. A short trail leads to the base of the falls. Mountain bikers often ride to Silver Falls. Beyond its junction with Forest Road 684, the East Fork Road is negotiable only by 4WD. Off-road vehicle enthusiasts enjoy the upper section to Elwood Pass.     Treasure Falls, located just off Highway 160 about five miles from the campground, is an impressive 100&amp;amp;#39; waterfall with a short hike." note="" orientationDescription="The campground sits on a ridge overlooking the East Fork of the San Juan River. Some sites have views of the river, but it&amp;amp;#39;s a long way down the hill. Short, but steep trails lead down the hill, to the riverbanks. A forest of ponderosa pine and gambel oak trees shades the campground. At 7,700 feet, temperatures can be a bit warmer than at surrounding campgrounds." recreationDescription="The East Fork offers plenty of fishing opportunities upstream from the campground. Trailheads for the Coal Creek Trail and the Quartz Ridge Trail are at Sand Creek, 2-5 miles beyond the campground." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=72276&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="EACA" state="Colorado" streetAddress="FS ROAD 667 - SAN JUAN NF" zip=""/>
+        <photo realUrl="/webphotos/NRSO/pid72276/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72276/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72276/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72276/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72276/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72276/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72276/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72276/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72276/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72276/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72276/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72276/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72276/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72276/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72276/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72276/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72276/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72276/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/72276_EACA.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9702645255"/>
+        <contact name="Ranger Station" number="9702645255"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood Vendor"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="RV Parking"/>
+        <amenity distance="Within 10 Miles" name="Fishing"/>
+        <amenity distance="Within 10 Miles" name="Mountain Biking"/>
+        <amenity distance="Within 10 Miles" name="Off-Road Vehicle Trails"/>
+        <amenity distance="Within 10 Miles" name="River Access"/>
+        <amenity distance="Within 10 Miles" name="Trailheads"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:14:33 GMT
+recorded_with: VCR 2.5.0

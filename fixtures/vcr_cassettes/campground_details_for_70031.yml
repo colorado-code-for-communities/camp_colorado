@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70031
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:46:03 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:46:03 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=6B276E824ADDEBA2ADC7ABD5B5BD90D2.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=6B276E824ADDEBA2ADC7ABD5B5BD90D2.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:46:03 GMT; Path=/
+      Content-Length:
+      - '5725'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="West Lake Campground is located 48 miles northwest of Fort Collins, in north central Colorado, near the village of Red Feather Lakes. Visitors enjoy the area for its canoeing, fishing and trail opportunities." drivingDirection="From Fort Collins, take Highway 287 north approximately 24 miles to Livermore. Turn west on County Road 74 and continue 24 miles to the campground." facilitiesDescription="The campground offers 31 accessible single- and double-family campsites, with electric hookups. Five additional sites are designated for tent camping only and do not have hookups. Each site contains a tent pad, picnic table and campfire ring with grill.    Vault toilets and drinking water are provided. Firewood may be gathered in the forest or purchased from the campground host." facility="WEST LAKE" facilityID="70031" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70031&amp;cmp=39-32--mcmire" importantInformation=" This is bear country! For bear and human safety, keep a clean campsite and do not place food or other attractants in your tent. For more information about visiting bear country, contact Colorado Parks and Wildlife at http://wildlife.state.co.us Boating is restricted to small watercraft, powered by hand, wind or electric motors Drinking water is available until Sept. 30 each year Sewer and water hookups are not available Off-road vehicles are prohibited within the campground Click here for more information on the Arapaho and Roosevelt National Forests Operated by American Land &amp;amp;amp; Leisure. You may contact us at www.AmericanLL.com or 801-226-3564. " latitude="40.7887028" longitude="-105.5684639" nearbyAttrctionDescription="The small village of Red Feather Lakes is nearby, offering limited dining options, gift shops, general stores, a library, post office and golf course." note="" orientationDescription="The campground is situated in a ponderosa pine forest, on the shore of West Lake, at an elevation of 8,200 feet. Afternoon thunderstorms can be expected during spring and summer months.    Due to the mountain pine beetle infestation and removal of hazardous trees, some sites have reduced shade." recreationDescription="Canoeing and fishing are popular activities on the 25-acre, no-wake West Lake. Anglers cast for rainbow and lake trout. Several additional lakes are in the vicinity.    Many hiking, biking and horseback riding trails are in the surrounding area, including the 1.5-mile West Lake Trail and 4-mile Mount Margaret Trail. Several off-road vehicle trails are located within five miles of the campground.    Other popular activities include viewing wildlife and visiting nearby Redfeather Visitor Center." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70031&amp;cmp=39-32--mcmire">
+        <address city="Red Feather Lakes" country="United States" shortName="WLCO" state="Colorado" streetAddress="" zip="80545"/>
+        <photo realUrl="/webphotos/NRSO/pid70031/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70031/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70031/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70031/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70031/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70031/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70031/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70031/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70031/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9708812157"/>
+        <contact name="Ranger Station" number="9702956700"/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Canoeing"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Electric Hookups"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Host"/>
+        <amenity distance="Within Facility" name="Lake Access"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Tables"/>
+        <amenity distance="Within Facility" name="Tent Pads"/>
+        <amenity distance="Within Facility" name="Tent sites"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Within 10 Miles" name="General Store"/>
+        <amenity distance="Within 10 Miles" name="Off-Road Vehicle Trails"/>
+        <amenity distance="Within 10 Miles" name="Restaurant"/>
+        <amenity distance="Within 10 Miles" name="Visitor Center"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:46:03 GMT
+recorded_with: VCR 2.5.0

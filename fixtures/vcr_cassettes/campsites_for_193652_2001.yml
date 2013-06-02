@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=KOA&parkId=193652&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:28:17 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:28:17 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=C47B33B984135989B63022AFD1C8C6CA.web07-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2845525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=C47B33B984135989B63022AFD1C8C6CA.web07-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:28:17 GMT; Path=/
+      Content-Length:
+      - '2958'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="KOA" count="9" parkId="193652" resultType="campsites" siteType="2001">
+        <result Loop="Gunnison KOA" Maxeqplen="60" Maxpeople="6" Site="Pull-thru, Full hookups, 50 amp, WiFi" SiteId="27095" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Gunnison KOA" Maxeqplen="75" Maxpeople="6" Site="Pull-in, Full hookups, 50 amp, WiFi" SiteId="21321" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Gunnison KOA" Maxeqplen="100" Maxpeople="6" Site="Back-in, Full hookups, 30 amp, WiFi" SiteId="21324" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Gunnison KOA" Maxeqplen="100" Maxpeople="6" Site="Pull-in, Full hookups, 30 amp, WiFi" SiteId="21325" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Gunnison KOA" Maxeqplen="80" Maxpeople="6" Site="Pull-thru, Full hookups, 50 amp, WiFi" SiteId="21322" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Gunnison KOA" Maxeqplen="80" Maxpeople="6" Site="Pull-thru, Full hookups, 30 amp, WiFi" SiteId="21323" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Gunnison KOA" Maxeqplen="50" Maxpeople="6" Site="Back-in, Water/Electric, 30 amp, WiFi" SiteId="21327" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Gunnison KOA" Maxeqplen="50" Maxpeople="6" Site="Pull-in, Water/Electric, 30 amp, WiFi" SiteId="21328" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        <result Loop="Gunnison KOA" Maxeqplen="37" Maxpeople="6" Site="Pull-thru, Water/Electric, 30 amp, WiFi" SiteId="21329" SiteReserveType="site-specific" SiteType="RVs" mapx="" mapy="" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:28:17 GMT
+recorded_with: VCR 2.5.0

@@ -1,0 +1,78 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=97369
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:38:21 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:38:21 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=A216C07FAE75F2C54F9B76DB2623B001.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=A216C07FAE75F2C54F9B76DB2623B001.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:38:21 GMT; Path=/
+      Content-Length:
+      - '7761'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Platoro Cabin 2 is located downtown in the small mining town of Platoro, Colorado, at an elevation of 10,000 feet in the Rio Grande National Forest.     The cabin was built in 1963 as a base quarters for various Forest Service Crews working in the surrounding areas until the early 1990s.    Today the cabin is a getaway for guests seeking relaxation and recreation in south-central Colorado." drivingDirection="From Antonito, CO, follow Highway 17 west to its junction with FSR 250.  Follow FSR 250 northwest up the Conejos Canyon about 22 miles to Platoro. Turn left on FSR 250.6A and follow it .2 mile to the cabin.  From the town of South Fork follow Highway 160 southwest for about 7.5 miles. Turn left onto Park Creek Road which is also Forest Service Road 380. Continue for approximately 27 miles, paralleling Park Creek for much of the way. Turn right, crossing the Alamosa River, and follow National Forest Road 250 over Stunner pass and into the town of Platoro. This stretch of the trip is about 6 miles long. The cabins are located on the southeast part of town. It is best to cross the Conejos River using the lower bridge; this is National Forest Road 250.6A. Continue on this road for about .2 miles to the cabins. The cabins are easily identified by their yellow and brown siding and trim, as well as by the Forest Service signs.   Note: Be careful not to leave Forest Service Road 380 and continue towards Summitville. Forest Service Road 380  makes a bit of a hairpin turn near the old mining settlement of Summitville. This occurs about 19 miles from the US Highway 160 and Park Creek Road intersection." facilitiesDescription="The accessible cabin has a combination kitchen/living room, a bedroom and a bathroom. It is furnished with two bunkbeds, with twin beds on the top and pull-out full beds on the bottom, that can accommodate up to six people. It has a heater, stove, refrigerator and lighting, all powered by propane. The kitchen is equipped with a table and chairs and cooking gear and the bathroom has a flush toilet and shower. The cabin has entry ramps and wheelchair accessible facilities in the bathroom and the kitchen.     Although the cabin has most amenities, guests do need to provide their own food, sleeping bags, linens, towels, dish soap, matches, first aid kit, toilet paper and garbage bags. Guests are also encouraged to bring an additional light source in case of emergencies.     The town of Platoro has many amenities including a grocery store, rental cabins, a small lodge, outfitter-guide services and horseback rides." facility="PLATORO CABIN 2" facilityID="97369" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=97369&amp;cmp=39-32--mcmire" importantInformation=" Visitors should be aware that Platoro is only available when snow levels allow driving access, which is usually less than six months of the year Access to the cabin is by a combination lock; please call the Forest Service office at 719-274-8971 one week before your stay to get the access combination for the cabin Please contact the Ranger District prior to arriving at the cabin to check on any restrictions or conditions, such as fire or road closures, weather or storms that may affect the quality of your visit Pets are not allowed at this facility No livestock facilities are provided; livestock prohibited Do not leave food or trash outside the cabin; there are bears in the area All garbage and food must be packed out The cabin is a no-smoking facility Please clean cabin upon departure Make sure cabin is locked upon departure Drink plenty of water before arrival and during your stay to avoid altitude sickness Expect afternoon thunderstorms in the summer and below freezing temperatures in the spring, winter and fall Please check Colorado Division of Wildlife for hunting and fishing seasons and rules Learn more about the Rio Grande National Forest " latitude="37.3527778" longitude="-106.5280556" nearbyAttrctionDescription="Summitville, Colorado, is a nearby ghost town where gold was first discovered in 1870, then mined until the early 1990s." note="" orientationDescription="Platoro is a natural and unspoiled destination nestled in the San Juan Mountains of southern Colorado. Platoro started out as a boomtown in the late 1800s following the discovery of large deposits of gold and silver in the area.     The nearby San Juan Wilderness is an area defined by peaks and cliffs as well as pinnacles and ridges. The headwaters for the Conejos, San Juan and Blanco Rivers are located here as well. The erosion of rich volcanic rock in combination with heavy snowfall has produced forest ecosystems in the area that transition from lodgepole pine to aspen, then through Engelmann spruce and subalpine fir to alpine tundra." recreationDescription="The area around the cabin offers a variety of recreational opportunities year-round. Summertime brings great scenic driving tour opportunities in and around Platoro and Summitville.    Anglers have a spectacular backdrop when fishing Iron Creek or Treasure Creek. The nearby Platoro Reservoir, which feeds the Conejos River, provides excellent fishing for kokanee salmon, rainbow and brown trout.    Great hiking can be found around the area, as it spans both the Rio Grande and San Juan National Forests, as well as the South San Juan Wilderness.     Big game hunting is popular in fall, while snowmobiling, skiing and snowshoeing are popular winter activities." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=97369&amp;cmp=39-32--mcmire">
+        <address city="La Jara" country="United States" shortName="F369" state="Colorado" streetAddress="Conejos Peak Ranger District, 15571 County Road T.5" zip="81140"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="7192748971"/>
+        <contact name="Ranger Station" number=""/>
+        <amenity distance="Within Facility" name="Accessible Site "/>
+        <amenity distance="Within Facility" name="Bunkbed(s) With Mattresses"/>
+        <amenity distance="Within Facility" name="Cooking Pots"/>
+        <amenity distance="Within Facility" name="Cooking Utensils"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="First Aid Kit"/>
+        <amenity distance="Within Facility" name="Flush Toilet"/>
+        <amenity distance="Within Facility" name="Heater"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseback Riding"/>
+        <amenity distance="Within Facility" name="Lights"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Table &amp;amp; Chairs"/>
+        <amenity distance="Within Facility" name="Telephone"/>
+        <amenity distance="Within 10 Miles" name="Accessible Trails"/>
+        <amenity distance="Within 10 Miles" name="Bait Shop"/>
+        <amenity distance="Within 10 Miles" name="Boat Ramp"/>
+        <amenity distance="Within 10 Miles" name="Equestrian Sites"/>
+        <amenity distance="Within 10 Miles" name="Fishing"/>
+        <amenity distance="Within 10 Miles" name="General Store"/>
+        <amenity distance="Within 10 Miles" name="Pay Phone"/>
+        <amenity distance="Within 10 Miles" name="Picnic Area"/>
+        <amenity distance="Within 10 Miles" name="River Access"/>
+        <amenity distance="Within 10 Miles" name="Trailheads"/>
+        <bulletin description="Platoro Cabin 2 will be closed May 20, 2013 until June 2, 2013" headline="Attention"/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:38:21 GMT
+recorded_with: VCR 2.5.0

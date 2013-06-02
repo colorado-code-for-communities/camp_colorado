@@ -1,0 +1,624 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50022&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:24:40 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:24:40 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=52BC886BE8A1F26619E79D8E1D10AC49.web03-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2445525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=52BC886BE8A1F26619E79D8E1D10AC49.web03-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:24:40 GMT; Path=/
+      Content-Length:
+      - '44361'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<resultset
+        contractCode=\"CO\" count=\"131\" parkId=\"50022\" resultType=\"campsites\"
+        siteType=\"2001\">\n<result Loop=\"ABILENE LOOP\" Maxeqplen=\"70\" Maxpeople=\"6\"
+        Site=\"CHCRCHCRABIL003\" SiteId=\"4053\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"333.5\" mapy=\"621.16\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"ABILENE
+        LOOP\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRABIL005\" SiteId=\"487\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"297.01\"
+        mapy=\"618.61\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"ABILENE LOOP\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRABIL006\"
+        SiteId=\"489\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"268.851531982422\" mapy=\"641.769836425781\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"ABILENE
+        LOOP\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRABIL007\" SiteId=\"490\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"261.02\"
+        mapy=\"669.33\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"ABILENE LOOP\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRABIL008\"
+        SiteId=\"491\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"276.91\" mapy=\"699.03\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"ABILENE LOOP\" Maxeqplen=\"80\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRABIL009\" SiteId=\"492\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"287.8\" mapy=\"676.08\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"ABILENE
+        LOOP\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRABIL010\" SiteId=\"493\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"316.89\"
+        mapy=\"704.03\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"ABILENE LOOP\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRABIL011\"
+        SiteId=\"494\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"321.17\" mapy=\"678.35\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"ABILENE LOOP\" Maxeqplen=\"70\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRABIL012\" SiteId=\"496\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"351.83\" mapy=\"679.93\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"ABILENE
+        LOOP\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRABIL013\" SiteId=\"495\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"357.95\"
+        mapy=\"704.81\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"ABILENE LOOP\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRABIL014\"
+        SiteId=\"497\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"386.34\" mapy=\"701.76\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"ABILENE LOOP\" Maxeqplen=\"70\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRABIL015\" SiteId=\"4055\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"400.46\" mapy=\"684.03\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"ABILENE
+        LOOP\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRABIL016HA\" SiteId=\"498\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"404.35\"
+        mapy=\"661.15\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Buffalo Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRBUFF131\"
+        SiteId=\"499\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"294.907043457031\" mapy=\"427.974395751953\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Buffalo
+        Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRBUFF132\" SiteId=\"500\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"263.605926513672\"
+        mapy=\"405.441711425781\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Buffalo Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRBUFF133\"
+        SiteId=\"501\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"250.110534667969\" mapy=\"426.337432861328\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Buffalo
+        Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRBUFF134\" SiteId=\"502\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"230.650894165039\"
+        mapy=\"402.933013916016\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Buffalo Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRBUFF135HA\"
+        SiteId=\"503\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"212.261596679688\" mapy=\"423.560455322266\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Buffalo
+        Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRBUFF136\" SiteId=\"504\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"194.679000854492\"
+        mapy=\"400.462127685547\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Buffalo Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRBUFF137\"
+        SiteId=\"505\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"173.658996582031\" mapy=\"420.567413330078\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Buffalo
+        Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRBUFF139\" SiteId=\"507\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"141.99462890625\"
+        mapy=\"419.481811523438\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Buffalo Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRBUFF140\"
+        SiteId=\"509\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"140.133285522461\" mapy=\"397.901702880859\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Buffalo
+        Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRBUFF141\" SiteId=\"508\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"105.915077209473\"
+        mapy=\"402.934722900391\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Buffalo Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRBUFF142\"
+        SiteId=\"511\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"134.08\" mapy=\"456.13\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Buffalo Loop\" Maxeqplen=\"80\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRBUFF143\" SiteId=\"512\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"165.777420043945\" mapy=\"457.589996337891\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Buffalo
+        Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRBUFF144\" SiteId=\"510\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"169.487426757813\"
+        mapy=\"479.433471679688\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Buffalo Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRBUFF146\"
+        SiteId=\"513\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"198.63786315918\" mapy=\"481.320007324219\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Buffalo
+        Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRBUFF147\" SiteId=\"516\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"234.733932495117\"
+        mapy=\"463.978210449219\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Buffalo Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRBUFF148\"
+        SiteId=\"515\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"238.848663330078\" mapy=\"484.007385253906\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Buffalo
+        Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRBUFF149\" SiteId=\"518\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"265.499542236328\"
+        mapy=\"463.943023681641\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Buffalo Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRBUFF150\"
+        SiteId=\"517\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"265.76\" mapy=\"486.9\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Buffalo Loop\" Maxeqplen=\"80\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRBUFF151\" SiteId=\"521\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"301.25\" mapy=\"466.488220214844\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Buffalo
+        Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRBUFF152\" SiteId=\"519\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"299.690002441406\"
+        mapy=\"489.954376220703\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Cottonwood Grove Loop\" Maxeqplen=\"45\" Maxpeople=\"6\" Site=\"CHCRCHCRCOTT100\"
+        SiteId=\"552\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. NON-ELEC
+        BASIC\" mapx=\"388.735778808594\" mapy=\"491.440124511719\" sitePhoto=\"\"
+        sitesWithAmps=\"\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood Grove Loop\" Maxeqplen=\"45\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRCOTT101\" SiteId=\"559\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. NON-ELEC BASIC\" mapx=\"403.320251464844\" mapy=\"494.778564453125\"
+        sitePhoto=\"\" sitesWithAmps=\"\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood
+        Grove Loop\" Maxeqplen=\"35\" Maxpeople=\"6\" Site=\"CHCRCHCRCOTT102\" SiteId=\"553\"
+        SiteReserveType=\"site-specific\" SiteType=\"&lt;= 40 FT. NON-ELEC BASIC\"
+        mapx=\"419.611450195313\" mapy=\"474.559997558594\" sitePhoto=\"\" sitesWithAmps=\"\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood Grove Loop\" Maxeqplen=\"45\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRCOTT103\" SiteId=\"554\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. NON-ELEC BASIC\" mapx=\"424.423278808594\" mapy=\"498.111450195313\"
+        sitePhoto=\"\" sitesWithAmps=\"\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood
+        Grove Loop\" Maxeqplen=\"45\" Maxpeople=\"6\" Site=\"CHCRCHCRCOTT104\" SiteId=\"555\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. NON-ELEC BASIC\"
+        mapx=\"441.641448974609\" mapy=\"476.618560791016\" sitePhoto=\"\" sitesWithAmps=\"\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood Grove Loop\" Maxeqplen=\"35\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRCOTT105\" SiteId=\"556\" SiteReserveType=\"site-specific\"
+        SiteType=\"&lt;= 40 FT. NON-ELEC BASIC\" mapx=\"445.884735107422\" mapy=\"499.217102050781\"
+        sitePhoto=\"\" sitesWithAmps=\"\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood
+        Grove Loop\" Maxeqplen=\"35\" Maxpeople=\"6\" Site=\"CHCRCHCRCOTT106\" SiteId=\"557\"
+        SiteReserveType=\"site-specific\" SiteType=\"&lt;= 40 FT. NON-ELEC BASIC\"
+        mapx=\"461.266265869141\" mapy=\"476.945526123047\" sitePhoto=\"\" sitesWithAmps=\"\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood Grove Loop\" Maxeqplen=\"35\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRCOTT107\" SiteId=\"558\" SiteReserveType=\"site-specific\"
+        SiteType=\"&lt;= 40 FT. NON-ELEC BASIC\" mapx=\"468.483276367188\" mapy=\"498.711456298828\"
+        sitePhoto=\"\" sitesWithAmps=\"\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood
+        Grove Loop\" Maxeqplen=\"35\" Maxpeople=\"6\" Site=\"CHCRCHCRCOTT108\" SiteId=\"560\"
+        SiteReserveType=\"site-specific\" SiteType=\"&lt;= 40 FT. NON-ELEC BASIC\"
+        mapx=\"480.321166992188\" mapy=\"474.861389160156\" sitePhoto=\"\" sitesWithAmps=\"\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood Grove Loop\" Maxeqplen=\"35\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRCOTT109\" SiteId=\"4054\" SiteReserveType=\"site-specific\"
+        SiteType=\"&lt;= 40 FT. NON-ELEC BASIC\" mapx=\"489.070251464844\" mapy=\"497.790008544922\"
+        sitePhoto=\"\" sitesWithAmps=\"\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood
+        Grove Loop\" Maxeqplen=\"45\" Maxpeople=\"6\" Site=\"CHCRCHCRCOTT110\" SiteId=\"562\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. NON-ELEC BASIC\"
+        mapx=\"502.065551757813\" mapy=\"472.032775878906\" sitePhoto=\"\" sitesWithAmps=\"\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood Grove Loop\" Maxeqplen=\"45\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRCOTT111\" SiteId=\"561\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. NON-ELEC BASIC\" mapx=\"506.950622558594\" mapy=\"493.651458740234\"
+        sitePhoto=\"\" sitesWithAmps=\"\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood
+        Grove Loop\" Maxeqplen=\"45\" Maxpeople=\"6\" Site=\"CHCRCHCRCOTT112\" SiteId=\"564\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. NON-ELEC BASIC\"
+        mapx=\"518.728637695313\" mapy=\"462.058898925781\" sitePhoto=\"\" sitesWithAmps=\"\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood Grove Loop\" Maxeqplen=\"45\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRCOTT113\" SiteId=\"563\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. NON-ELEC BASIC\" mapx=\"525.700622558594\" mapy=\"486.648681640625\"
+        sitePhoto=\"\" sitesWithAmps=\"\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood
+        Grove Loop\" Maxeqplen=\"45\" Maxpeople=\"6\" Site=\"CHCRCHCRCOTT114\" SiteId=\"566\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. NON-ELEC BASIC\"
+        mapx=\"537.79\" mapy=\"452.46\" sitePhoto=\"\" sitesWithAmps=\"\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Cottonwood Grove Loop\" Maxeqplen=\"45\" Maxpeople=\"6\" Site=\"CHCRCHCRCOTT115\"
+        SiteId=\"565\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. NON-ELEC
+        BASIC\" mapx=\"544.386657714844\" mapy=\"477.624328613281\" sitePhoto=\"\"
+        sitesWithAmps=\"\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood Grove Loop\" Maxeqplen=\"45\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRCOTT116\" SiteId=\"568\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. NON-ELEC BASIC\" mapx=\"557.119567871094\" mapy=\"442.251708984375\"
+        sitePhoto=\"\" sitesWithAmps=\"\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood
+        Grove Loop\" Maxeqplen=\"35\" Maxpeople=\"6\" Site=\"CHCRCHCRCOTT117\" SiteId=\"8277\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. NON-ELEC BASIC\"
+        mapx=\"571.96\" mapy=\"463.19\" sitePhoto=\"\" sitesWithAmps=\"\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Cottonwood Grove Loop\" Maxeqplen=\"35\" Maxpeople=\"6\" Site=\"CHCRCHCRCOTT118\"
+        SiteId=\"567\" SiteReserveType=\"site-specific\" SiteType=\"&lt;= 40 FT. NON-ELEC
+        BASIC\" mapx=\"589.96\" mapy=\"426.28\" sitePhoto=\"\" sitesWithAmps=\"\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood Grove Loop\" Maxeqplen=\"35\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRCOTT119\" SiteId=\"8278\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. NON-ELEC BASIC\" mapx=\"575.76\" mapy=\"385.21\" sitePhoto=\"\"
+        sitesWithAmps=\"\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood Grove Loop\" Maxeqplen=\"35\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRCOTT120\" SiteId=\"570\" SiteReserveType=\"site-specific\"
+        SiteType=\"&lt;= 40 FT. NON-ELEC BASIC\" mapx=\"571.27\" mapy=\"410.76\" sitePhoto=\"\"
+        sitesWithAmps=\"\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood Grove Loop\" Maxeqplen=\"35\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRCOTT121\" SiteId=\"8279\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. NON-ELEC BASIC\" mapx=\"554.08\" mapy=\"393.7\" sitePhoto=\"\"
+        sitesWithAmps=\"\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood Grove Loop\" Maxeqplen=\"45\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRCOTT122\" SiteId=\"569\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. NON-ELEC BASIC\" mapx=\"553.09\" mapy=\"419.35\" sitePhoto=\"\"
+        sitesWithAmps=\"\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood Grove Loop\" Maxeqplen=\"35\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRCOTT123\" SiteId=\"8280\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. NON-ELEC BASIC\" mapx=\"533.53\" mapy=\"399.28\" sitePhoto=\"\"
+        sitesWithAmps=\"\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood Grove Loop\" Maxeqplen=\"35\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRCOTT124\" SiteId=\"572\" SiteReserveType=\"site-specific\"
+        SiteType=\"&lt;= 40 FT. NON-ELEC BASIC\" mapx=\"531.48\" mapy=\"431.67\" sitePhoto=\"\"
+        sitesWithAmps=\"\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood Grove Loop\" Maxeqplen=\"45\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRCOTT125\" SiteId=\"571\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. NON-ELEC BASIC\" mapx=\"512.669982910156\" mapy=\"442.141296386719\"
+        sitePhoto=\"\" sitesWithAmps=\"\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood
+        Grove Loop\" Maxeqplen=\"35\" Maxpeople=\"6\" Site=\"CHCRCHCRCOTT126\" SiteId=\"573\"
+        SiteReserveType=\"site-specific\" SiteType=\"&lt;= 40 FT. NON-ELEC BASIC\"
+        mapx=\"491.608032226563\" mapy=\"446.734497070313\" sitePhoto=\"\" sitesWithAmps=\"\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood Grove Loop\" Maxeqplen=\"45\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRCOTT127\" SiteId=\"574\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. NON-ELEC BASIC\" mapx=\"470.205932617188\" mapy=\"448.350128173828\"
+        sitePhoto=\"\" sitesWithAmps=\"\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood
+        Grove Loop\" Maxeqplen=\"45\" Maxpeople=\"6\" Site=\"CHCRCHCRCOTT128\" SiteId=\"576\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. NON-ELEC BASIC\"
+        mapx=\"449.531524658203\" mapy=\"448.407104492188\" sitePhoto=\"\" sitesWithAmps=\"\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Cottonwood Grove Loop\" Maxeqplen=\"45\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRCOTT129\" SiteId=\"575\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. NON-ELEC BASIC\" mapx=\"425.688446044922\" mapy=\"444.438293457031\"
+        sitePhoto=\"\" sitesWithAmps=\"\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Coyote
+        Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRCOYO018\" SiteId=\"8274\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"569.64\"
+        mapy=\"630.94\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Coyote Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRCOYO019\"
+        SiteId=\"522\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"566.299987792969\" mapy=\"662.183959960938\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Coyote
+        Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRCOYO020\" SiteId=\"5067\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"538.982727050781\"
+        mapy=\"650.039672851563\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Coyote Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRCOYO021\"
+        SiteId=\"5068\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"533.838012695313\" mapy=\"683.515991210938\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Coyote
+        Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRCOYO022\" SiteId=\"5066\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"509.276031494141\"
+        mapy=\"667.810607910156\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Coyote Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRCOYO023\"
+        SiteId=\"5069\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"505.682006835938\" mapy=\"702.336059570313\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Coyote
+        Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRCOYO024\" SiteId=\"8275\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"466.5\"
+        mapy=\"731.27\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Coyote Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRCOYO025\"
+        SiteId=\"8276\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"475.45\" mapy=\"747.4\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Coyote Loop\" Maxeqplen=\"80\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRCOYO026\" SiteId=\"5071\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"492.79\" mapy=\"756.53\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Coyote
+        Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRCOYO027\" SiteId=\"5072\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"518.13\"
+        mapy=\"755.19\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Coyote Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRCOYO028\"
+        SiteId=\"5073\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"509.806488037109\" mapy=\"731.043518066406\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Coyote
+        Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRCOYO029\" SiteId=\"5074\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"540.04\"
+        mapy=\"743.12\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Coyote Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRCOYO030\"
+        SiteId=\"5075\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"539.247924804688\" mapy=\"713.537780761719\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Coyote
+        Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRCOYO031\" SiteId=\"5076\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"558.033996582031\"
+        mapy=\"728.380004882813\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Coyote Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRCOYO032\"
+        SiteId=\"5077\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"564.445617675781\" mapy=\"696.827697753906\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Coyote
+        Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRCOYO033\" SiteId=\"5078\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"583.012268066406\"
+        mapy=\"714.333374023438\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Coyote Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRCOYO034\"
+        SiteId=\"5079\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"588.847534179688\" mapy=\"680.382934570313\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Coyote
+        Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRCOYO035\" SiteId=\"5080\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"612.453735351563\"
+        mapy=\"694.440551757813\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Gold Rush Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD061\"
+        SiteId=\"8231\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"624.16\" mapy=\"513.03\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\"
+        sitesWithWaterfront=\"Oceanfront\"/>\n<result Loop=\"Gold Rush Loop\" Maxeqplen=\"70\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRGOLD062\" SiteId=\"8230\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"641.16\" mapy=\"501.78\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"Oceanfront\"/>\n<result Loop=\"Gold
+        Rush Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD063\" SiteId=\"8229\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"658.85\"
+        mapy=\"492.09\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"Oceanfront\"/>\n<result
+        Loop=\"Gold Rush Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD075\"
+        SiteId=\"5288\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"753.477661132813\" mapy=\"439.356262207031\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Gold
+        Rush Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD076\" SiteId=\"5289\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"792.841674804688\"
+        mapy=\"421.989807128906\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Gold Rush Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD077\"
+        SiteId=\"5290\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"792.841674804688\" mapy=\"455.179046630859\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Gold
+        Rush Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD078\" SiteId=\"5291\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"839.845153808594\"
+        mapy=\"445.149993896484\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Gold Rush Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD079\"
+        SiteId=\"5292\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"824.6162109375\" mapy=\"468.723510742188\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Gold
+        Rush Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD080\" SiteId=\"5293\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"871.955627441406\"
+        mapy=\"478.334320068359\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Gold Rush Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD081\"
+        SiteId=\"5294\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"843.120483398438\" mapy=\"486.440002441406\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Gold
+        Rush Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD082\" SiteId=\"5296\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"860.763916015625\"
+        mapy=\"515.3828125\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Gold Rush Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD083\"
+        SiteId=\"5295\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"892.409423828125\" mapy=\"502.261474609375\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Gold
+        Rush Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD084\" SiteId=\"5297\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"895.496826171875\"
+        mapy=\"532.363342285156\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Gold Rush Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD085\"
+        SiteId=\"8228\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"932.45\" mapy=\"496.56\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Gold Rush Loop\" Maxeqplen=\"80\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRGOLD086\" SiteId=\"5298\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"954.159973144531\" mapy=\"514.093811035156\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Gold
+        Rush Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD087\" SiteId=\"5299\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"937.162170410156\"
+        mapy=\"446.689300537109\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Gold Rush Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD088\"
+        SiteId=\"5300\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"956.086547851563\" mapy=\"429.322265625\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Gold Rush Loop\" Maxeqplen=\"70\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRGOLD089\" SiteId=\"5301\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"899.773498535156\" mapy=\"422.641662597656\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Gold
+        Rush Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD090\" SiteId=\"5302\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"912.477416992188\"
+        mapy=\"394.975189208984\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Gold Rush Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD091\"
+        SiteId=\"5303\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"860.377990722656\" mapy=\"396.132995605469\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Gold
+        Rush Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD092\" SiteId=\"5304\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"875.04296875\"
+        mapy=\"369.50439453125\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Gold Rush Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD093\"
+        SiteId=\"5305\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"831.625366210938\" mapy=\"377.550842285156\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Gold
+        Rush Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD094\" SiteId=\"5307\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"805.868041992188\"
+        mapy=\"367.172180175781\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Gold Rush Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD095\"
+        SiteId=\"5306\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"814.484924316406\" mapy=\"342.836517333984\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Gold
+        Rush Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD096\" SiteId=\"5308\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"782.352966308594\"
+        mapy=\"340.398834228516\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Gold Rush Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD097\"
+        SiteId=\"5310\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"752.04833984375\" mapy=\"378.218872070313\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Gold
+        Rush Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRGOLD098\" SiteId=\"5309\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"775.089294433594\"
+        mapy=\"391.501953125\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Pioneer Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRPION037\"
+        SiteId=\"5081\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"665.651733398438\" mapy=\"626.015991210938\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Pioneer
+        Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRPION038\" SiteId=\"5082\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"681.799255371094\"
+        mapy=\"640.496826171875\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Pioneer Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRPION039\"
+        SiteId=\"5083\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"694.395141601563\" mapy=\"609.868530273438\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Pioneer
+        Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRPION040\" SiteId=\"5084\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"713.709350585938\"
+        mapy=\"625.6953125\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Pioneer Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRPION041\"
+        SiteId=\"5085\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"714.025329589844\" mapy=\"596.509216308594\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Pioneer
+        Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRPION042\" SiteId=\"5086\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"739.00048828125\"
+        mapy=\"611.367919921875\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Pioneer Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRPION043\"
+        SiteId=\"539\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"740.621948242188\" mapy=\"580.440368652344\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Pioneer
+        Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRPION044\" SiteId=\"541\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"763.735778808594\"
+        mapy=\"597.163391113281\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Pioneer Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRPION045\"
+        SiteId=\"8224\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"769.73\" mapy=\"564.12\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Pioneer Loop\" Maxeqplen=\"70\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRPION046\" SiteId=\"540\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"787.881774902344\" mapy=\"580.457092285156\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Pioneer
+        Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRPION047\" SiteId=\"523\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"813.74853515625\"
+        mapy=\"558.205993652344\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Pioneer Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRPION048\"
+        SiteId=\"8225\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"817.13\" mapy=\"537.66\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"Pioneer Loop\" Maxeqplen=\"70\"
+        Maxpeople=\"6\" Site=\"CHCRCHCRPION049\" SiteId=\"8226\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"810.54\" mapy=\"516.04\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Pioneer
+        Loop\" Maxeqplen=\"70\" Maxpeople=\"6\" Site=\"CHCRCHCRPION050\" SiteId=\"8227\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"783.19\"
+        mapy=\"503.45\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Pioneer Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRPION051\"
+        SiteId=\"542\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"755.863220214844\" mapy=\"512.493713378906\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Pioneer
+        Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRPION052\" SiteId=\"543\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"760.210998535156\"
+        mapy=\"537.406921386719\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Pioneer Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRPION054\"
+        SiteId=\"544\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"733.311279296875\" mapy=\"552.991821289063\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Pioneer
+        Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRPION055HA\" SiteId=\"546\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"695.982421875\"
+        mapy=\"543.793579101563\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Pioneer Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRPION056\"
+        SiteId=\"4056\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"705.941345214844\" mapy=\"568.491821289063\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Pioneer
+        Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRPION057\" SiteId=\"548\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"669.528869628906\"
+        mapy=\"562.037353515625\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Pioneer Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRPION058\"
+        SiteId=\"550\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"678.578186035156\" mapy=\"586.022583007813\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result Loop=\"Pioneer
+        Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRPION059\" SiteId=\"547\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL HOOKUP\" mapx=\"645.309143066406\"
+        mapy=\"578.112548828125\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"Y\" sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"Pioneer Loop\" Maxeqplen=\"80\" Maxpeople=\"6\" Site=\"CHCRCHCRPION060\"
+        SiteId=\"551\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. FULL
+        HOOKUP\" mapx=\"656.4541015625\" mapy=\"601.261596679688\" sitePhoto=\"\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"Y\"
+        sitesWithWaterHookup=\"Y\" sitesWithWaterfront=\"\"/>\n</resultset>\n\r\n"
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:03:36 GMT
+recorded_with: VCR 2.5.0

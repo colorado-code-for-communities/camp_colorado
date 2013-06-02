@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=73542
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:24:18 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:24:18 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=090A9CB17553608017CC7C050CB1B6AE.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=090A9CB17553608017CC7C050CB1B6AE.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:24:18 GMT; Path=/
+      Content-Length:
+      - '3451'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Buffalo Springs Campground sits on a rolling hillside in the San Isabel National Forest, providing an ideal setting for biking, hiking, horseback riding and rock climbing." drivingDirection="From Fairplay, take Highway 285 south for about 12.5 miles, just 3 miles past County Road 22 turnoff. Turn right onto Forest Road 431 and continue one mile to campground." facilitiesDescription="Campsites are widely spaced. Parking aprons are dirt and rocky and fit a maximum trailer length of 30 feet. Amenities include campfire rings, picnic tables, vault toilets, drinking water and parking for up to two vehicles." facility="BUFFALO SPRINGS" facilityID="73542" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=73542&amp;cmp=39-32--mcmire" importantInformation=" Be bear aware; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating This is a high elevation facility, please use caution when traveling from lower elevations No RV hookups are available Outside the reservation season, sites are first-come, first-served For more information on Pike and San Isabel National Forests, click here " latitude="39.0338889" longitude="-105.9891667" nearbyAttrctionDescription="The nearest large fishing and boating lake is Antero Reservoir, the first man-made lake to be built on the South Platte River. The lake produces trophy class fish, including rainbow, brook and cutthroat trout.     The nearest town is Fairplay, Colorado, a historic gold mining settlement of the Pikes Peak Gold Rush. The town has an open air museum that sets that helps recreate the life and times of the 19th century gold rush era." note="" orientationDescription="Tucked in a stand of aspen, spruce and other mixed conifers, Buffalo Springs offers private, secluded campsites. At 9,000 feet altitude, the campground maintains a glowing reputation as a place for excellent mountain views." recreationDescription="The Limber Grove Trail, located just north of Buffalo Springs at the Horseshoe Campground, is an easy 3-mile hike along 1,000-year-old limber pines with twisted branches shaped by decades of wind on the exposed region.   Picnicking and wildlife watching are also great activities. Look out for sightings of mule deer, bald eagles and chipmunks.   Volleyball courts and horseshoe pits are also provided on-site." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=73542&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="BUSP" state="Colorado" streetAddress="" zip=""/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number=""/>
+        <contact name="Ranger Station" number="7198362031"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Camping"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hiking Trail"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:02:14 GMT
+recorded_with: VCR 2.5.0

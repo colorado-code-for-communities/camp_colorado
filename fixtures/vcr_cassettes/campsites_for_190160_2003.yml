@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=KOA&parkId=190160&siteType=2003
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:13:48 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:13:48 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=EA7BCAC0B824643E3686C6628F12F217.web02-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2545525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=EA7BCAC0B824643E3686C6628F12F217.web02-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:13:47 GMT; Path=/
+      Content-Length:
+      - '1413'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="KOA" count="4" parkId="190160" resultType="campsites" siteType="2003">
+        <result Loop="Denver East / Strasburg KOA" Maxeqplen="15" Maxpeople="4" Site="1 Room Camping Cabin (w/o Bathroom)" SiteId="24098" SiteReserveType="site-specific" SiteType="Tents" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Denver East / Strasburg KOA" Maxeqplen="20" Maxpeople="6" Site="Deluxe Cabin (w/ Bathroom)" SiteId="23893" SiteReserveType="site-specific" SiteType="Tents" mapx="" mapy="" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Denver East / Strasburg KOA" Maxeqplen="20" Maxpeople="7" Site="Tent, Electric" SiteId="366" SiteReserveType="site-specific" SiteType="Tents" mapx="" mapy="" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Denver East / Strasburg KOA" Maxeqplen="50" Maxpeople="7" Site="Water/electric" SiteId="365" SiteReserveType="site-specific" SiteType="Tents" mapx="" mapy="" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:13:48 GMT
+recorded_with: VCR 2.5.0

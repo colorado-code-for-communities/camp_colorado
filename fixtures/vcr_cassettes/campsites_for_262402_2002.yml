@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=ELS2&parkId=262402&siteType=2002
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:27:28 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:27:28 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=79DB72BF8CC71A92419A7484854DA3B3.web01-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2245525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=79DB72BF8CC71A92419A7484854DA3B3.web01-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:27:28 GMT; Path=/
+      Content-Length:
+      - '476'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="ELS2" count="1" parkId="262402" resultType="campsites" siteType="2002">
+        <result Loop="Golden Terrace South" Maxeqplen="0" Maxpeople="0" Site="Standard Full" SiteId="7554" SiteReserveType="non-specific" SiteType="Standard" mapx="" mapy="" nssCount="5" sitePhoto="" sitesWithAmps="30" sitesWithPetsAllowed="N" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:27:28 GMT
+recorded_with: VCR 2.5.0

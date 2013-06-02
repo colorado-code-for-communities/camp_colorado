@@ -1,0 +1,90 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=75490&siteType=2002
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:12:47 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:12:47 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=050523EDD426E2A9AC251706F5715D1E.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=050523EDD426E2A9AC251706F5715D1E.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:12:47 GMT; Path=/
+      Content-Length:
+      - '14165'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="NRSO" count="44" parkId="75490" resultType="campsites" siteType="2002">
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="10" Site="001" SiteId="151059" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="962.826477050781" mapy="820.071533203125" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="30" Site="002" SiteId="151060" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="861.395324707031" mapy="872.665466308594" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="10" Site="003" SiteId="151061" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="799.40966796875" mapy="953.434692382813" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="25" Maxpeople="10" Site="004" SiteId="151062" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="774.991027832031" mapy="964.704833984375" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="15" Site="005" SiteId="151063" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="739.302307128906" mapy="955.313049316406" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="15" Site="006" SiteId="151064" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="711.127014160156" mapy="942.16455078125" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="10" Site="007" SiteId="151065" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="688.586730957031" mapy="925.259399414063" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="10" Site="008" SiteId="151066" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="669.80322265625" mapy="904.597473144531" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="15" Site="009" SiteId="151067" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="658.533081054688" mapy="878.300537109375" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="15" Site="010" SiteId="151068" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="647.262939453125" mapy="818.193176269531" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="15" Site="011" SiteId="151069" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="651.019714355469" mapy="788.139526367188" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="15" Site="012" SiteId="151070" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="602.182434082031" mapy="737.423950195313" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="15" Site="013" SiteId="151071" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="540.19677734375" mapy="684.830078125" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="15" Site="014" SiteId="151072" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="521.413208007813" mapy="669.80322265625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="15" Site="015" SiteId="151073" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="459.427551269531" mapy="643.506286621094" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="10" Site="016" SiteId="151074" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="442.522338867188" mapy="617.209289550781" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="15" Site="017" SiteId="151075" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="418.103759765625" mapy="609.695861816406" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="15" Site="018" SiteId="151076" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="389.928436279297" mapy="585.277282714844" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="20" Site="019" SiteId="151077" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="414.347045898438" mapy="532.683349609375" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="15" Site="020" SiteId="265975" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="212.850006103516" mapy="355.029998779297" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="15" Site="021" SiteId="151078" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="153.255798339844" mapy="331.699462890625" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="15" Site="022" SiteId="151079" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="110.053649902344" mapy="326.064392089844" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="15" Site="023" SiteId="151080" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="89.3917541503906" mapy="303.524169921875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="15" Site="024" SiteId="151081" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="74.3649520874023" mapy="280.98388671875" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="15" Site="025" SiteId="151082" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="93.1484680175781" mapy="252.80859375" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="15" Site="026" SiteId="151083" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="76.243278503418" mapy="226.511627197266" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="15" Site="027" SiteId="151084" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="76.2432708740234" mapy="190.822891235352" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="15" Site="028" SiteId="151085" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="64.9731521606445" mapy="168.282653808594" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="15" Site="029" SiteId="151086" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="70.6082153320313" mapy="132.59391784668" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="15" Site="030" SiteId="151087" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="93.1484909057617" mapy="91.2701263427734" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="15" Site="031" SiteId="265974" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="121.860458374023" mapy="59.069766998291" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="20" Site="032" SiteId="151088" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="185.187850952148" mapy="34.9194984436035" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="65" Maxpeople="10" Site="033" SiteId="336678" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="497.08" mapy="377.03" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="10" Site="034" SiteId="336679" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="558.98" mapy="370.38" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="55" Maxpeople="10" Site="035" SiteId="336680" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="504.24" mapy="345.83" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="10" Site="036" SiteId="336681" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="571.77" mapy="330.48" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="40" Maxpeople="10" Site="037" SiteId="336682" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="561.54" mapy="294.67" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="100" Maxpeople="20" Site="038" SiteId="336683" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="457.69" mapy="263.46" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="90" Maxpeople="20" Site="039" SiteId="336684" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="492.48" mapy="302.85" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="90" Maxpeople="20" Site="040" SiteId="336685" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="413.18" mapy="302.85" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="70" Maxpeople="10" Site="041" SiteId="336686" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="466.38" mapy="315.64" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="50" Maxpeople="20" Site="042" SiteId="336687" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="406.53" mapy="356.06" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="55" Maxpeople="10" Site="043" SiteId="336688" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="462.8" mapy="346.85" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="COW CREEK" Maxeqplen="50" Maxpeople="20" Site="044" SiteId="336689" SiteReserveType="site-specific" SiteType="STANDARD NONELECTRIC" mapx="474.06" mapy="387.27" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:12:47 GMT
+recorded_with: VCR 2.5.0

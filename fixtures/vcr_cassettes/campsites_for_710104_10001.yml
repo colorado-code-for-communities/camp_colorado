@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=LARC&parkId=710104&siteType=10001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:28:55 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:28:55 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=29D86C4683876AABFA7D674845F3BB8F.web03-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2445525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=29D86C4683876AABFA7D674845F3BB8F.web03-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:28:55 GMT; Path=/
+      Content-Length:
+      - '4628'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="LARC" count="15" parkId="710104" resultType="campsites" siteType="10001">
+        <result Loop="Cabin Loop" Maxeqplen="0" Maxpeople="4" Site="01 Aspen" SiteId="313" SiteReserveType="site-specific" SiteType="CABIN" mapx="868.54" mapy="348.23" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cabin Loop" Maxeqplen="0" Maxpeople="8" Site="02 Big Gulch (ADA)" SiteId="310" SiteReserveType="site-specific" SiteType="CABIN" mapx="786.69" mapy="411.71" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cabin Loop" Maxeqplen="40" Maxpeople="8" Site="03 Big Springs" SiteId="314" SiteReserveType="site-specific" SiteType="CABIN" mapx="930.46" mapy="472.36" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cabin Loop" Maxeqplen="40" Maxpeople="8" Site="04 Raven's Roost" SiteId="306" SiteReserveType="site-specific" SiteType="CABIN" mapx="895.26" mapy="461.76" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cabin Loop" Maxeqplen="0" Maxpeople="8" Site="05 Rock Cliff" SiteId="307" SiteReserveType="site-specific" SiteType="CABIN" mapx="859.88" mapy="432.81" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cabin Loop" Maxeqplen="0" Maxpeople="8" Site="06 Whispering Pines" SiteId="309" SiteReserveType="site-specific" SiteType="CABIN" mapx="854.83" mapy="407.49" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cabin Loop" Maxeqplen="0" Maxpeople="8" Site="07 Spring Valley" SiteId="308" SiteReserveType="site-specific" SiteType="CABIN" mapx="908.79" mapy="410.52" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cabin Loop" Maxeqplen="40" Maxpeople="8" Site="08 Ponderosa" SiteId="305" SiteReserveType="site-specific" SiteType="CABIN" mapx="909.44" mapy="433.49" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cabin Loop" Maxeqplen="0" Maxpeople="8" Site="09 Buckskin" SiteId="315" SiteReserveType="site-specific" SiteType="CABIN" mapx="929.82" mapy="446.73" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cabin Loop" Maxeqplen="30" Maxpeople="8" Site="10 Blue Spruce" SiteId="302" SiteReserveType="site-specific" SiteType="CABIN" mapx="848.78" mapy="475.95" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cabin Loop" Maxeqplen="40" Maxpeople="8" Site="11 Cedar Ridge" SiteId="303" SiteReserveType="site-specific" SiteType="CABIN" mapx="816.86" mapy="478.62" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cabin Loop" Maxeqplen="0" Maxpeople="8" Site="12 Elkhorn" SiteId="304" SiteReserveType="site-specific" SiteType="CABIN" mapx="785.29" mapy="479.7" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cabin Loop" Maxeqplen="40" Maxpeople="8" Site="13 Bluebird (ADA)" SiteId="316" SiteReserveType="site-specific" SiteType="CABIN" mapx="814.7" mapy="453.24" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cabin Loop" Maxeqplen="40" Maxpeople="8" Site="14 Madrona Point (gated)" SiteId="312" SiteReserveType="site-specific" SiteType="CABIN" mapx="479.36" mapy="695.47" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        <result Loop="Cabin Loop" Maxeqplen="30" Maxpeople="8" Site="15 Bear Claw (gated)" SiteId="311" SiteReserveType="site-specific" SiteType="CABIN" mapx="559.1" mapy="700.06" sitePhoto="" sitesWithAmps="" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:28:55 GMT
+recorded_with: VCR 2.5.0

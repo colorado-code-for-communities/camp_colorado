@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=LARC&parkId=710105&siteType=10001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:29:15 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:29:15 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=BDB722D23445714149BCF7A94E544878.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=BDB722D23445714149BCF7A94E544878.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:29:15 GMT; Path=/
+      Content-Length:
+      - '2637'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <resultset contractCode="LARC" count="8" parkId="710105" resultType="campsites" siteType="10001">
+        <result Loop="South Bay Camper Cabin" Maxeqplen="19" Maxpeople="5" Site="C01" SiteId="600" SiteReserveType="site-specific" SiteType="CABIN" mapx="92.79" mapy="585.57" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="South Bay Camper Cabin" Maxeqplen="19" Maxpeople="5" Site="C02" SiteId="601" SiteReserveType="site-specific" SiteType="CABIN" mapx="99.71" mapy="598.83" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="South Bay Camper Cabin" Maxeqplen="19" Maxpeople="5" Site="C03" SiteId="602" SiteReserveType="site-specific" SiteType="CABIN" mapx="106.75" mapy="612.15" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="South Bay Camper Cabin" Maxeqplen="19" Maxpeople="5" Site="C04" SiteId="603" SiteReserveType="site-specific" SiteType="CABIN" mapx="112.81" mapy="625.59" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="South Bay Camper Cabin" Maxeqplen="20" Maxpeople="5" Site="C05" SiteId="604" SiteReserveType="site-specific" SiteType="CABIN" mapx="138.85" mapy="677.04" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="South Bay Camper Cabin" Maxeqplen="20" Maxpeople="5" Site="C06" SiteId="605" SiteReserveType="site-specific" SiteType="CABIN" mapx="144.53" mapy="689.28" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="South Bay Camper Cabin" Maxeqplen="20" Maxpeople="5" Site="C07" SiteId="606" SiteReserveType="site-specific" SiteType="CABIN" mapx="152.03" mapy="701.23" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="Y" sitesWithSewerHookup="N" sitesWithWaterHookup="N" sitesWithWaterfront="Lakefront"/>
+        <result Loop="South Bay Campground" Maxeqplen="0" Maxpeople="3" Site="S73Airstream" SiteId="2058" SiteReserveType="site-specific" SiteType="Airstream" mapx="247.3" mapy="975.44" sitePhoto="" sitesWithAmps="50" sitesWithPetsAllowed="N" sitesWithSewerHookup="Y" sitesWithWaterHookup="Y" sitesWithWaterfront=""/>
+        </resultset>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:29:15 GMT
+recorded_with: VCR 2.5.0

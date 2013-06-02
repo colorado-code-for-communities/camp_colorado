@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=72119
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:24:05 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:24:05 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=A9FF88664385BBA963BB3734EC9B597A.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=A9FF88664385BBA963BB3734EC9B597A.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:24:05 GMT; Path=/
+      Content-Length:
+      - '9327'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Black Bear Cabin at Mesa Lakes offers guests the opportunity to experience an overnight stay in a traditional Forest Service Ranger Station. The original Black Bear Cabin was constructed in the 1930s, where rangers worked for years overseeing the expansive forest.     The cabin is about a 45-minute drive from Grand Junction area of western Colorado, and plenty of canoeing, mountain biking and fishing activities are within reach. From mid-August through October, guests can enjoy fall colors with extensive golden aspen stands surrounding the area. A large grass yard fronts the cabin, which can be used for family gatherings and weddings.  This cabin is not ADA accessible." drivingDirection="From Grand Junction, CO, take I-70 east for 13 miles. Take exit 49 to Highway 65 South toward Grand Mesa. Continue for 25 miles and turn right into Mesa Lakes Recreation Area. Take the second right and follow along Sunset Lake shore. On approach to the lake&amp;apos;s spillway, you will come to a gate. The gate is opened by combination lock. Open gate and follow through on a single lane road about 100 yards. Cabin is sign posted and parking is in front of the cabin." facilitiesDescription="The semi-rustic log cabin has a living area and bedroom on the main floor, and a bathroom with a flush toilet and shower is in the basement. The kitchen is equipped with a refrigerator and an electric stove. Electric lighting and heat are provided.     Sleeping accommodations consist of three twin-size beds and a queen-size sofa sleeper. Basic cooking and eating utensils, plates, knives, forks, spoons, cups, and basic pots and pans are furnished. Cleaning supplies are included as well.    Guests should bring bedding, warm clothes, food, a first aid kit, towels, dish soap and typical camping gear.  Click here  for more cabin details." facility="BLACK BEAR" facilityID="72119" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=72119&amp;cmp=39-32--mcmire" importantInformation=" Entry is by combination lock; call Grand Valley Ranger District office at (970)242-8211 for combination lock Mon-Fri 8 a.m. to 5 p.m. (please provide your reservation #) Heavy snowfall may cause cabin rental cancellation; call ranger district for updated conditions and restrictions Collection of firewood is not permitted; please bring firewood or purchase at Jumbo Campground Please bring garbage bags; this is a &amp;amp;quot;pack in-pack out&amp;amp;quot; facility Please clean cabin before leaving; cleaning supplies are provided No fireworks No smoking allowed No pets or livestock allowed This facility does not meet accessibility standards Bears frequent the area; keep all food out of sight in approved containers or locked inside your vehicle and remove all food from area after eating No cell service in this area. Guests should be aware that there is a risk of exposure to hantavirus when visiting remote cabins; click here to learn more " latitude="39.0522222" longitude="-108.0811111" nearbyAttrctionDescription="Grand Mesa Visitor Center is a short drive away at Island Lake. The center offers educational exhibits, a bookstore and a high-altitude wildflower garden containing over 50 native species.     The town of Cedaredge, 26 miles from the campground, is home to Pioneer Town, a 19th-century village with frontier museums and over 20 structures housing a schoolhouse, blacksmith shop, saloon and jail. Cedaredge&amp;amp;#39;s Applefest is held annually in October." note="" orientationDescription="Black Bear is perched on a grassy lawn, partially shaded by large pines. Spruce, fir and aspen are among the surrounding trees. At an elevation of 9,500, the cabin is in close proximity to several mountain lakes, including Waterdog Reservoir and Jumbo Reservoir. Mesa Creek flows nearby.     A variety of wildlife, including deer, elk and moose, frequents the area." recreationDescription="A popular mountain biking and horseback riding trail, West Bench Trail #501, connects the seven lakes of the Mesa Lakes Recreation Area. The cabin is also within walking distance to a carry-down boat ramp for canoeing and kayaking.    The Grand Mesa Scenic Byway is well worth exploring. The byway passes near the cabin and offers 63 miles of scenery as it climbs from the rugged canyon floor up to the forested mesa tops at 11,000 feet. The road passes sparkling lakes and meadows bursting with wildflowers." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=72119&amp;cmp=39-32--mcmire">
+        <address city="" country="United States" shortName="BLBR" state="Colorado" streetAddress="" zip=""/>
+        <photo realUrl="/webphotos/NRSO/pid72119/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72119/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72119/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72119/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72119/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72119/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72119/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72119/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72119/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72119/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72119/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72119/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72119/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72119/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72119/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid72119/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid72119/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid72119/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9702428211"/>
+        <contact name="Ranger Station" number=""/>
+        <amenity distance="Within Facility" name="Bed(s)"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Canoe Rentals"/>
+        <amenity distance="Within Facility" name="Cooking Pots"/>
+        <amenity distance="Within Facility" name="Cooking Utensils"/>
+        <amenity distance="Within Facility" name="Couches"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Emergency Services"/>
+        <amenity distance="Within Facility" name="Equestrian Sites"/>
+        <amenity distance="Within Facility" name="Fishing streams"/>
+        <amenity distance="Within Facility" name="Flush Toilets"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Lights"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Showers"/>
+        <amenity distance="Within Facility" name="Stove"/>
+        <amenity distance="Within Facility" name="Table &amp;amp; Chairs"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <amenity distance="Less Than 1 Mile" name="Auto Touring"/>
+        <amenity distance="Less Than 1 Mile" name="Boat Ramp"/>
+        <amenity distance="Less Than 1 Mile" name="Boating"/>
+        <amenity distance="Less Than 1 Mile" name="Canoeing"/>
+        <amenity distance="Less Than 1 Mile" name="Firewood Vendor"/>
+        <amenity distance="Less Than 1 Mile" name="Fishing"/>
+        <amenity distance="Less Than 1 Mile" name="General Store"/>
+        <amenity distance="Less Than 1 Mile" name="Horseback Riding"/>
+        <amenity distance="Less Than 1 Mile" name="Off-Road Vehicle Trails"/>
+        <amenity distance="Less Than 1 Mile" name="Picnic Area"/>
+        <amenity distance="Less Than 1 Mile" name="Restaurant"/>
+        <amenity distance="Within 10 Miles" name="Educational Programs"/>
+        <amenity distance="Within 10 Miles" name="Grocery Store"/>
+        <amenity distance="Greater Than 10 Miles" name="Dump Station"/>
+        <amenity distance="Greater Than 10 Miles" name="Hospital"/>
+        <amenity distance="Greater Than 10 Miles" name="Motel"/>
+        <amenity distance="Greater Than 10 Miles" name="Museum"/>
+        <amenity distance="Greater Than 10 Miles" name="Propane"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:01:16 GMT
+recorded_with: VCR 2.5.0

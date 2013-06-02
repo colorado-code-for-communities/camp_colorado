@@ -1,0 +1,644 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campsites?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=CO&parkId=50019&siteType=2001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 01:37:17 GMT
+      Expires:
+      - Sun, 02 Jun 2013 01:37:17 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=F89E60E5598903045FC0A8061118A0A3.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=F89E60E5598903045FC0A8061118A0A3.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 01:37:16 GMT; Path=/
+      Content-Length:
+      - '48091'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n<resultset
+        contractCode=\"CO\" count=\"138\" parkId=\"50019\" resultType=\"campsites\"
+        siteType=\"2001\">\n<result Loop=\"COTTONWOOD SHORES A\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHALOO001\" SiteId=\"291\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"451.802307128906\" mapy=\"249.960876464844\"
+        sitePhoto=\"/webphotos//CO/pid50019/sid291/0/180x120.jpg\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES A\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHALOO002\" SiteId=\"292\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"463.960327148438\" mapy=\"279.849273681641\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES A\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHALOO003\" SiteId=\"293\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"481.184112548828\"
+        mapy=\"247.427963256836\" sitePhoto=\"/webphotos//CO/pid50019/sid293/0/180x120.jpg\"
+        sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES A\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHALOO004\" SiteId=\"294\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"491.315765380859\"
+        mapy=\"280.862426757813\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES A\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHALOO005\"
+        SiteId=\"295\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"509.046173095703\" mapy=\"249.960876464844\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES A\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHALOO006\" SiteId=\"296\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"519.177856445313\" mapy=\"284.408508300781\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES A\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHALOO007\" SiteId=\"297\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"536.908264160156\"
+        mapy=\"253.506942749023\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES A\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHALOO008\"
+        SiteId=\"298\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"539.217956542969\" mapy=\"295.957397460938\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES A\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHALOO009\" SiteId=\"299\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"565.291137695313\" mapy=\"257.952362060547\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES A\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHALOO010\" SiteId=\"300\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"565.733093261719\"
+        mapy=\"305.237701416016\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES A\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHALOO011\"
+        SiteId=\"301\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"590.922424316406\" mapy=\"262.8134765625\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES A\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHALOO012\" SiteId=\"302\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"592.690124511719\" mapy=\"307.889221191406\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES A\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHALOO013\" SiteId=\"303\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"616.111877441406\"
+        mapy=\"261.929626464844\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES A\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHALOO014\"
+        SiteId=\"304\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"622.298706054688\" mapy=\"306.563446044922\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES A\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHALOO015\" SiteId=\"305\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"639.091613769531\" mapy=\"252.649337768555\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES A\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHALOO016\" SiteId=\"306\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"648.813842773438\"
+        mapy=\"300.376586914063\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES A\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHALOO017\"
+        SiteId=\"307\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"662.955261230469\" mapy=\"244.252868652344\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES A\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHALOO018\" SiteId=\"308\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"671.351684570313\" mapy=\"289.32861328125\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES A\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHALOO020\" SiteId=\"310\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"689.470397949219\"
+        mapy=\"276.071044921875\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result
+        Loop=\"COTTONWOOD SHORES A\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHALOO022\"
+        SiteId=\"312\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"706.705261230469\" mapy=\"260.603881835938\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD SHORES A\"
+        Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHALOO023\" SiteId=\"313\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"713.334045410156\" mapy=\"202.270568847656\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD
+        SHORES A\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHALOO024\" SiteId=\"314\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"722.614318847656\"
+        mapy=\"246.020553588867\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result
+        Loop=\"COTTONWOOD SHORES A\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHALOO025\"
+        SiteId=\"315\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"734.988098144531\" mapy=\"190.780670166016\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD SHORES A\"
+        Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHALOO026\" SiteId=\"316\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"742.942626953125\" mapy=\"235.414489746094\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD
+        SHORES A\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHALOO027\" SiteId=\"317\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"756.64208984375\"
+        mapy=\"182.384216308594\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result
+        Loop=\"COTTONWOOD SHORES A\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHALOO028\"
+        SiteId=\"318\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"765.03857421875\" mapy=\"229.669540405273\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD SHORES A\"
+        Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHALOO029\" SiteId=\"319\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"780.947631835938\" mapy=\"177.523101806641\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD
+        SHORES A\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHALOO030\" SiteId=\"320\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"786.250671386719\"
+        mapy=\"226.576110839844\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result
+        Loop=\"COTTONWOOD SHORES A\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHALOO031\"
+        SiteId=\"321\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"805.253173828125\" mapy=\"174.429672241211\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD SHORES A\"
+        Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHALOO032\" SiteId=\"322\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"813.207702636719\" mapy=\"218.179641723633\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD
+        SHORES B\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHBLOO034\" SiteId=\"324\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"465.043426513672\"
+        mapy=\"382.711364746094\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES B\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHBLOO035\"
+        SiteId=\"325\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"487.434356689453\" mapy=\"340.249664306641\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES B\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHBLOO036\" SiteId=\"326\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"491.805725097656\" mapy=\"388.899810791016\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES B\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHBLOO037\" SiteId=\"327\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"516.626770019531\"
+        mapy=\"347.800903320313\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES B\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHBLOO038\"
+        SiteId=\"328\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"512.678833007813\" mapy=\"397.766845703125\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES B\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHBLOO039\" SiteId=\"329\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"539.036804199219\" mapy=\"359.589385986328\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES B\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHBLOO040\" SiteId=\"330\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"529.96240234375\"
+        mapy=\"408.208984375\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES B\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHBLOO041\"
+        SiteId=\"331\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"561.288818359375\" mapy=\"372.921752929688\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES B\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHBLOO042\" SiteId=\"332\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"551.566772460938\" mapy=\"426.212677001953\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES B\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHBLOO043\" SiteId=\"333\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"577.492126464844\"
+        mapy=\"384.804168701172\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES B\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHBLOO044\"
+        SiteId=\"334\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"564.889526367188\" mapy=\"443.136138916016\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES B\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHBLOO045\" SiteId=\"335\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"593.065307617188\" mapy=\"399.837280273438\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES B\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHBLOO046\" SiteId=\"336\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"584.751953125\"
+        mapy=\"462.013275146484\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES B\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHBLOO047HD\"
+        SiteId=\"337\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"607.530029296875\" mapy=\"418.828002929688\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES B\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHBLOO048\" SiteId=\"338\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"600.356811523438\" mapy=\"479.314575195313\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES B\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHBLOO049\" SiteId=\"339\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"621.181579589844\"
+        mapy=\"439.4921875\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES B\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHBLOO050\"
+        SiteId=\"340\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"618.855712890625\" mapy=\"494.319366455078\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD SHORES B\"
+        Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHBLOO051\" SiteId=\"341\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"640.865112304688\" mapy=\"454.199401855469\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD
+        SHORES B\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHBLOO052\" SiteId=\"342\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"634.3837890625\"
+        mapy=\"508.480560302734\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result
+        Loop=\"COTTONWOOD SHORES B\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHBLOO053\"
+        SiteId=\"343\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"657.878601074219\" mapy=\"469.746856689453\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD SHORES B\"
+        Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHBLOO054\" SiteId=\"344\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"655.048095703125\" mapy=\"510.504974365234\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD
+        SHORES B\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHBLOO055\" SiteId=\"345\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"679.101501464844\"
+        mapy=\"477.732421875\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result
+        Loop=\"COTTONWOOD SHORES B\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHBLOO056\"
+        SiteId=\"346\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"675.446655273438\" mapy=\"513.874877929688\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD SHORES B\"
+        Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHBLOO057\" SiteId=\"347\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"697.781860351563\" mapy=\"487.884765625\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD
+        SHORES B\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHBLOO058\" SiteId=\"348\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"697.375732421875\"
+        mapy=\"513.874877929688\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result
+        Loop=\"COTTONWOOD SHORES C\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHCLOO059\"
+        SiteId=\"349\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"446.104217529297\" mapy=\"439.030700683594\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES C\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHCLOO060\" SiteId=\"350\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"447.285430908203\" mapy=\"480.450103759766\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES C\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHCLOO061\" SiteId=\"351\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"471.817321777344\"
+        mapy=\"444.379150390625\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES C\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHCLOO062\"
+        SiteId=\"352\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"469.513488769531\" mapy=\"492.58349609375\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES C\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHCLOO063\" SiteId=\"353\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"492.013793945313\" mapy=\"458.185333251953\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES C\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHCLOO064\" SiteId=\"354\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"488.281463623047\"
+        mapy=\"505.531494140625\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES C\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHCLOO065\"
+        SiteId=\"355\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"517.997741699219\" mapy=\"474.156982421875\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES C\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHCLOO066\" SiteId=\"356\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"504.600219726563\" mapy=\"520.6904296875\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES C\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHCLOO067\" SiteId=\"357\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"539.266052246094\"
+        mapy=\"493.009582519531\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES C\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHCLOO068\"
+        SiteId=\"358\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"513.633972167969\" mapy=\"538.692016601563\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES C\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHCLOO069\" SiteId=\"359\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"557.056762695313\" mapy=\"510.467163085938\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES C\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHCLOO070\" SiteId=\"360\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"526.118041992188\"
+        mapy=\"557.146667480469\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES C\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHCLOO071\"
+        SiteId=\"361\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"567.369689941406\" mapy=\"530.550231933594\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES C\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHCLOO072\" SiteId=\"362\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"534.259826660156\" mapy=\"585.371459960938\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES C\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHCLOO073\" SiteId=\"363\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"577.139831542969\"
+        mapy=\"555.518310546875\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES C\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHCLOO074\"
+        SiteId=\"364\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"545.115539550781\" mapy=\"611.967956542969\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES C\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHCLOO075\" SiteId=\"365\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"588.538330078125\" mapy=\"589.170959472656\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES C\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHCLOO077\" SiteId=\"367\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"599.39404296875\"
+        mapy=\"611.425170898438\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result
+        Loop=\"COTTONWOOD SHORES C\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHCLOO078\"
+        SiteId=\"368\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"566.284118652344\" mapy=\"655.390747070313\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD SHORES C\"
+        Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHCLOO079\" SiteId=\"369\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"614.591979980469\" mapy=\"629.337097167969\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD
+        SHORES C\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHCLOO080\" SiteId=\"370\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"579.310974121094\"
+        mapy=\"671.67431640625\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result
+        Loop=\"COTTONWOOD SHORES C\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHCLOO081\"
+        SiteId=\"371\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"628.16162109375\" mapy=\"647.248962402344\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD SHORES C\"
+        Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHCLOO082\" SiteId=\"372\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"599.39404296875\" mapy=\"683.07275390625\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD
+        SHORES C\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHCLOO083\" SiteId=\"373\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"647.159057617188\"
+        mapy=\"661.361389160156\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result
+        Loop=\"COTTONWOOD SHORES C\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHCLOO084\"
+        SiteId=\"374\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"623.820007324219\" mapy=\"688.967834472656\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD SHORES D\"
+        Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHDLOO085\" SiteId=\"375\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"413.954742431641\" mapy=\"525.378356933594\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES D\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHDLOO086\" SiteId=\"376\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"397.820922851563\"
+        mapy=\"549.2802734375\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES D\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHDLOO087\"
+        SiteId=\"377\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"440.246856689453\" mapy=\"539.719543457031\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES D\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHDLOO088\" SiteId=\"378\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"412.759643554688\" mapy=\"573.77978515625\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES D\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHDLOO089\" SiteId=\"379\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"463.55126953125\"
+        mapy=\"564.218994140625\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES D\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHDLOO090\"
+        SiteId=\"380\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"429.490997314453\" mapy=\"596.486633300781\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES D\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHDLOO091\" SiteId=\"381\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"475.502227783203\" mapy=\"588.718505859375\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES D\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHDLOO092\" SiteId=\"382\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"439.0517578125\"
+        mapy=\"622.181213378906\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES D\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHDLOO093\"
+        SiteId=\"383\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"485.06298828125\" mapy=\"613.815551757813\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES D\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHDLOO094\" SiteId=\"384\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"448.015014648438\" mapy=\"647.278259277344\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES D\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHDLOO095\" SiteId=\"385\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"489.843383789063\"
+        mapy=\"643.692932128906\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES D\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHDLOO096\"
+        SiteId=\"386\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"449.210083007813\" mapy=\"678.948303222656\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES D\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHDLOO097HD\" SiteId=\"387\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"495.221343994141\" mapy=\"675.362976074219\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES D\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHDLOO098\" SiteId=\"388\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"451.002746582031\"
+        mapy=\"707.033081054688\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES D\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHDLOO100\"
+        SiteId=\"390\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"453.392944335938\" mapy=\"737.508056640625\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD SHORES D\"
+        Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHDLOO102\" SiteId=\"392\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"459.965972900391\" mapy=\"766.190368652344\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD
+        SHORES D\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHDLOO103\" SiteId=\"393\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"505.379669189453\"
+        mapy=\"754.239379882813\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result
+        Loop=\"COTTONWOOD SHORES D\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHDLOO104\"
+        SiteId=\"394\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"472.514495849609\" mapy=\"787.7021484375\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD SHORES D\"
+        Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHDLOO105\" SiteId=\"395\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"519.123291015625\" mapy=\"784.116821289063\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD
+        SHORES D\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHDLOO106\" SiteId=\"396\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"492.233581542969\"
+        mapy=\"804.433471679688\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result
+        Loop=\"COTTONWOOD SHORES E\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHELOO107\"
+        SiteId=\"397\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"354.416015625\" mapy=\"598.485778808594\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES E\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHELOO108\" SiteId=\"398\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"323.091094970703\" mapy=\"624.009826660156\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES E\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHELOO109\" SiteId=\"399\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"377.03955078125\"
+        mapy=\"617.048706054688\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES E\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHELOO110\"
+        SiteId=\"400\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"338.753540039063\" mapy=\"651.273986816406\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES E\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHELOO111\" SiteId=\"401\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"388.641357421875\" mapy=\"645.47314453125\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES E\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHELOO112\" SiteId=\"402\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"347.454925537109\"
+        mapy=\"677.958190917969\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES E\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHELOO113\"
+        SiteId=\"403\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"399.082977294922\" mapy=\"677.378112792969\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES E\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHELOO114\" SiteId=\"404\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"351.515533447266\" mapy=\"707.542846679688\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES E\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHELOO115\" SiteId=\"405\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"396.182525634766\"
+        mapy=\"705.222473144531\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES E\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHELOO116\"
+        SiteId=\"406\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"345.134552001953\" mapy=\"739.447875976563\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES E\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHELOO117\" SiteId=\"407\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"395.022338867188\" mapy=\"737.70751953125\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES E\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHELOO118\" SiteId=\"408\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"339.913726806641\"
+        mapy=\"763.811645507813\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES E\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHELOO119\"
+        SiteId=\"409\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"386.901092529297\" mapy=\"764.391723632813\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES E\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHELOO120\" SiteId=\"410\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"332.95263671875\" mapy=\"789.335632324219\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD
+        SHORES E\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHELOO121\" SiteId=\"411\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"379.359893798828\"
+        mapy=\"793.976379394531\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"N\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result
+        Loop=\"COTTONWOOD SHORES E\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHELOO122\"
+        SiteId=\"412\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"328.891998291016\" mapy=\"813.119384765625\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD SHORES E\"
+        Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHELOO123\" SiteId=\"413\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"372.398803710938\" mapy=\"820.660522460938\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD
+        SHORES E\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHELOO124\" SiteId=\"414\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"328.891998291016\"
+        mapy=\"839.223449707031\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result
+        Loop=\"COTTONWOOD SHORES E\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHELOO125\"
+        SiteId=\"415\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"369.498352050781\" mapy=\"850.825256347656\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD SHORES E\"
+        Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHELOO126\" SiteId=\"416\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"337.593383789063\" mapy=\"861.846984863281\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD
+        SHORES F\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHFLOO127\" SiteId=\"417\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"271.240539550781\"
+        mapy=\"675.240417480469\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES F\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHFLOO128\"
+        SiteId=\"418\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"237.267318725586\" mapy=\"678.400695800781\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES F\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHFLOO129\" SiteId=\"419\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"279.141265869141\" mapy=\"704.473205566406\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES F\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHFLOO130\" SiteId=\"420\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"237.267303466797\"
+        mapy=\"710.793762207031\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES F\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHFLOO132\"
+        SiteId=\"422\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"236.477233886719\" mapy=\"740.816589355469\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES F\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHFLOO133\" SiteId=\"423\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"274.400817871094\" mapy=\"767.67919921875\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES F\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHFLOO134\" SiteId=\"424\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"220.675735473633\"
+        mapy=\"773.209716796875\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES F\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHFLOO136\"
+        SiteId=\"426\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"199.343719482422\" mapy=\"796.911926269531\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES F\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHFLOO138\" SiteId=\"428\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"180.381912231445\" mapy=\"822.194396972656\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES F\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHFLOO139\" SiteId=\"429\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"223.836044311523\"
+        mapy=\"854.58740234375\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES F\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHFLOO140\"
+        SiteId=\"430\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"167.74072265625\" mapy=\"847.476745605469\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"N\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES F\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHFLOO141\" SiteId=\"431\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"210.404754638672\" mapy=\"883.820129394531\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD
+        SHORES F\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHFLOO142\" SiteId=\"432\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"166.160568237305\"
+        mapy=\"879.869812011719\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"\"/>\n<result
+        Loop=\"COTTONWOOD SHORES F\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHFLOO143\"
+        SiteId=\"433\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"204.084167480469\" mapy=\"910.682739257813\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"\"/>\n<result Loop=\"COTTONWOOD SHORES F\" Maxeqplen=\"60\"
+        Maxpeople=\"6\" Site=\"BOLACOSHFLOO144\" SiteId=\"434\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"162.210189819336\" mapy=\"905.152221679688\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD
+        SHORES F\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHFLOO146\" SiteId=\"436\"
+        SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"153.519378662109\"
+        mapy=\"938.335327148438\" sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\"
+        sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n<result
+        Loop=\"COTTONWOOD SHORES F\" Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHFLOO147\"
+        SiteId=\"437\" SiteReserveType=\"site-specific\" SiteType=\"&gt; 40 FT. ELECTRIC\"
+        mapx=\"189.862823486328\" mapy=\"963.617797851563\" sitePhoto=\"\" sitesWithAmps=\"50\"
+        sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\" sitesWithWaterHookup=\"N\"
+        sitesWithWaterfront=\"Lakefront\"/>\n<result Loop=\"COTTONWOOD SHORES F\"
+        Maxeqplen=\"60\" Maxpeople=\"6\" Site=\"BOLACOSHFLOO148\" SiteId=\"438\" SiteReserveType=\"site-specific\"
+        SiteType=\"&gt; 40 FT. ELECTRIC\" mapx=\"160.63005065918\" mapy=\"958.877319335938\"
+        sitePhoto=\"\" sitesWithAmps=\"50\" sitesWithPetsAllowed=\"Y\" sitesWithSewerHookup=\"N\"
+        sitesWithWaterHookup=\"N\" sitesWithWaterfront=\"Lakefront\"/>\n</resultset>\n\r\n"
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:01:49 GMT
+recorded_with: VCR 2.5.0

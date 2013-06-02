@@ -1,0 +1,81 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=75395
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:35:22 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:35:22 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=EA3F1134CE5BC356C64E1183C655BDE4.web08-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2b45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=EA3F1134CE5BC356C64E1183C655BDE4.web08-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:35:21 GMT; Path=/
+      Content-Length:
+      - '4691'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Narrows Campground is located on the Cache la Poudre River, 32 miles northwest of Fort Collins, Colorado, along Highway 14. Visitors enjoy the area for its great rafting, fishing and hiking opportunities." drivingDirection="From Fort Collins, take Highway 14 northwest for 32 miles." facilitiesDescription="The campground offers accessible single-family sites, including eight walk-to tent sites. Each site is equipped with a 12x15&amp;amp;#39; tent pad, a picnic table and a campfire ring with grill.    Vault toilets and drinking water are provided. Dead and downed firewood may be gathered in the forest or purchased from the host." facility="NARROWS (CO)" facilityID="75395" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=75395&amp;cmp=39-32--mcmire" importantInformation=" This is bear country! For bear and human safety, keep a clean campsite and do not place food or other attractants in your tent. For more information about visiting bear country, contact Colorado Parks and Wildlife at http://wildlife.state.co.us Drinking water is available at the campground until Sept. 30 Utility hookups are not available Off-road vehicle use is prohibited within the campground Sites may be available on a first-come, first-served basis before and after the reservation season Click here for more information on the Arapaho and Roosevelt National Forests Operated by American Land &amp;amp;amp; Leisure. You may contact us at www.AmericanLL.com or 801-226-3564. " latitude="40.6912917" longitude="-105.4321389" nearbyAttrctionDescription="" note="" orientationDescription="The canyon&amp;amp;#39;s vegetation varies from dense forests to open meadows, surrounded by steep mountains. The campground is situated among ponderosa pine and aspen trees on the banks of the Cache la Poudre River, Colorado&amp;amp;#39;s first National Wild and Scenic River. The lower loop drops off steeply to the river." recreationDescription="The Cache la Poudre River offers whitewater rafting and fishing. Anglers cast for brown, cutthroat and rainbow trout.    Hiking, biking and horseback riding trails are in the surrounding area, including the Mt. McConnel Trail, William R. Kreutzer National Recreation Trail and Young Gulch Trail.    Other popular activities include birding and wildlife viewing." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=75395&amp;cmp=39-32--mcmire">
+        <address city="BELLVUE" country="United States" shortName="NARS" state="Colorado" streetAddress="" zip="80634"/>
+        <photo realUrl="" url=""/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/75395_NARS.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9708812157"/>
+        <contact name="Ranger Station" number="9702956700"/>
+        <amenity distance="Within Facility" name="Accessible Sites"/>
+        <amenity distance="Within Facility" name="Accessible Vault Toilets "/>
+        <amenity distance="Within Facility" name="Biking"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Canoeing"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Drinking Water (Hand Pump)"/>
+        <amenity distance="Within Facility" name="Firewood"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Horseback Riding Trails"/>
+        <amenity distance="Within Facility" name="Kayaking"/>
+        <amenity distance="Within Facility" name="Mountain Biking"/>
+        <amenity distance="Within Facility" name="Parking Area"/>
+        <amenity distance="Within Facility" name="Paved Roads"/>
+        <amenity distance="Within Facility" name="Picnic Area"/>
+        <amenity distance="Within Facility" name="Rafting"/>
+        <amenity distance="Within Facility" name="River Access"/>
+        <amenity distance="Within Facility" name="Tables"/>
+        <amenity distance="Within Facility" name="Tent Pads"/>
+        <amenity distance="Within Facility" name="Tent sites"/>
+        <amenity distance="Within Facility" name="Trailheads"/>
+        <amenity distance="Within Facility" name="Trash Collection"/>
+        <amenity distance="Within Facility" name="Whitewater Rafting"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:35:22 GMT
+recorded_with: VCR 2.5.0

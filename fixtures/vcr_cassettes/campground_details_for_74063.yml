@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=74063
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:39:14 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:39:14 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=89B7EB400726A85354394E1693D2282A.web06-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2945525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=89B7EB400726A85354394E1693D2282A.web06-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:39:14 GMT; Path=/
+      Content-Length:
+      - '4052'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="In the heart of southwest Colorado is a group camp getaway for nature lovers and outdoor sports-enthusiasts. The Red Creek Group Site is located in the Curecanti Recreation Area, just south of the West Elk Mountains.    The campground is surrounded by national forests and park lands with Gunnison National Forest to the north, Black Canyon to the west and the Uncompahgre National forest to the southwest.     A wide range of mammals can be found within Curecanti, including mule deer, mountain lions, black bears, prairie dogs, bighorn sheep, elk and the occasional moose. Bald eagles come here to fish in winter." drivingDirection=" Red Creek Group campground is located off of US Hwy 50 between Gunnison and Montrose, on the north side of the highway approximately 3 1/2 miles west of Elk Creek. " facilitiesDescription="This is a group camping site for up to 25 people. Pay showers and a marina are nearby at Elk Creek or Lake Fork (open during summer months)." facility="RED CREEK GROUP SITE" facilityID="74063" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=74063&amp;cmp=39-32--mcmire" importantInformation=" No electric hookups All watercraft must be inspected and certified as Zebra and Quagga Mussel free This is a high elevation facility, please use caution when traveling from lower elevations Cell phone coverage is limited " latitude="38.4852778" longitude="-107.24" nearbyAttrctionDescription="The Cimarron Canyon Rail Exhibit features a display of an old-fashioned locomotive at the last remaining railroad trestle in the Black Canyon on the Gunnison route. The bonus is picture-perfect access to the tallest cliffs in the canyon." note="" orientationDescription="This area is characterized by semi-arid shrubland with large cottonwood trees lining the campground. The group site sits on Red Creek, off the northern edge of the Blue Mesa Basin at an altitude of 7,580 feet.       Blue Mesa connects to the Morrow Point Reservoir, which flows down to the more isolated Crystal Reservoir. The passage of the Gunnison River is marked by the steep, narrow cliffs of the Black Canyon." recreationDescription="Hikers will enjoy the Dillon Pinnacles Trail for views of spires formed by eroded volcanic ash.    Anglers can enjoy fishing for brown, rainbow, and Mackinaw trout and Kokanee salmon. The population of Kokanee salmon is denser at Blue Mesa Reservoir than anywhere else in the country." regionName="RMR" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=74063&amp;cmp=39-32--mcmire">
+        <address city="GUNNISON" country="United States" shortName="RCGS" state="Colorado" streetAddress="21001 Hwy 50" zip="81230"/>
+        <photo realUrl="/webphotos/NRSO/pid74063/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid74063/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid74063/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="9706412337"/>
+        <contact name="Ranger Station" number="9706412337"/>
+        <amenity distance="Within Facility" name="Birding"/>
+        <amenity distance="Within Facility" name="Boating"/>
+        <amenity distance="Within Facility" name="Canoeing"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Grills"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Hunting"/>
+        <amenity distance="Within Facility" name="Kayaking"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <amenity distance="Within Facility" name="Wildlife Viewing"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:39:14 GMT
+recorded_with: VCR 2.5.0

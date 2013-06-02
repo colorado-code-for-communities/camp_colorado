@@ -1,0 +1,68 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.amp.active.com/camping/campground/details?api_key=6NZ4ZJSMVFJHRJG4WM8ESYZ3&contractCode=NRSO&parkId=70623
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=0, no-cache, no-store
+      Content-Type:
+      - text/xml
+      Date:
+      - Sun, 02 Jun 2013 02:28:10 GMT
+      Expires:
+      - Sun, 02 Jun 2013 02:28:10 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Set-Cookie:
+      - JSESSIONID=3E0A801CD5F63E97ADC363B963CD7EE6.web09-ny; Path=/
+      - NSC_QSPE-VXQ-IUUQ=ffffffff09293c2a45525d5f4f58455e445a4a4225b9;Version=1;Max-Age=3600;path=/;httponly
+      - _rauv_=3E0A801CD5F63E97ADC363B963CD7EE6.web09-ny_; Domain=.reserveamerica.com;
+        Expires=Sat, 28-May-2033 02:28:10 GMT; Path=/
+      Content-Length:
+      - '6399'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <detailDescription alert="" contractID="NRSO" description="Guanella Pass Campground is located about 7 miles south of Georgetown on the South Fork of Clear Creek on the Guanella Pass Scenic Byway.  Located at an elevation of 10,900 feet on the Arapaho Roosevelt National Forest, visitors to the campground can also enjoy hiking and fishing in the area.     The Guanella Pass Scenic and Historic Byway follows an old wagon route that linked the mining towns of Georgetown and Grant, Colorado." drivingDirection="From I-25 in Denver, take I-70 West to Georgetown Exit 228. Go south on County Road 381 (Guanella Pass Scenic Byway) for 9 miles.   From Denver take Highway 285 to Grant. Turn right (north) on to Park County Road 62. Drive approx. 14.5 miles to the campground." facilitiesDescription="The campground is split into two loops by the county road and South Clear Creek. There are 18 sites in the campground. Eleven are suitable for RV camping and seven are more suitable for tents.  Large RVs are not recommended on the byway.  Most of the sites are in the open with some tent sites located among some spruce trees. Each site has a tent pad, picnic table, fire ring and charcoal grill.   The roads through the campground are gravel.  This facility provides hand pumps with potable water, vault toilets and trash dumpsters." facility="GUANELLA PASS" facilityID="70623" fullReservationUrl="http://www.reserveamerica.com/campsiteSearch.do?contractCode=NRSO&amp;parkId=70623&amp;cmp=39-32--mcmire" importantInformation=" This is bear country! For bear and human safety, keep a clean campsite and do not place food or other attractants in your tent. For more information about visiting bear country, contact Colorado Parks and Wildlife at http://wildlife.state.co.us Limited first-come, first-served sites are available Click here to learn more about the Arapahoe &amp;amp;amp; Roosevelt National Forests and Pawnee National Grassland. Operated by American Land &amp;amp;amp; Leisure. You may contact us at www.AmericanLL.com or 801-226-3564. " latitude="39.6127778" longitude="-105.7161111" nearbyAttrctionDescription="Visitors enjoy touring historic Georgetown, a former mining town of about 1,000 residents. Additional ghost towns dot the region." note="" orientationDescription="The Arapaho and Roosevelt National Forests and Pawnee National Grassland sit along the foothills and Rockies of Colorado. The forests and grassland cover 1.5 million acres and extend north to the Wyoming border, south to Mount Evans and west across the Continental Divide.     The area includes mountains, lakes and five scenic byways, designated by Congress for their scenery, wildlife or history, including the highest road in North America. Mount Evans Road, also known as Colorado Highway 5, allows visitors to drive from 10,500&amp;amp;#39; to 14,130&amp;amp;#39; above sea level in just 14 miles." recreationDescription="Visitors can go trout fishing on the South Fork of Clear Creek. Silver Dollar Lake is nearby, but cannot be reached by car. Instead, the Silver Dollar Lake Trail leads hikers above treeline to the scenic lake." regionName="F2" reservationUrl="/campsiteSearch.do?contractCode=NRSO&amp;parkId=70623&amp;cmp=39-32--mcmire">
+        <address city="Idaho Springs" country="United States" shortName="GUAN" state="Colorado" streetAddress="Arapaho and Roosevelt NF, 101 Highway 103, Clear Creek Ranger District" zip="80452"/>
+        <photo realUrl="/webphotos/NRSO/pid70623/0/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70623/0/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70623/0/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70623/1/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70623/1/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70623/1/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70623/2/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70623/2/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70623/2/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70623/3/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70623/3/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70623/3/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70623/4/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70623/4/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70623/4/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <photo realUrl="/webphotos/NRSO/pid70623/5/180x120.jpg" url="&lt;img width=&quot;180&quot; height=&quot;120&quot; src=&quot;/webphotos/NRSO/pid70623/5/180x120.jpg&quot; class=&quot;PopBoxImageSmall&quot; pbsrc=&quot;/webphotos/NRSO/pid70623/5/540x360.jpg&quot; onclick=&quot;PopPhoto(this,50,'PopBoxImageLarge');&quot;   /&gt;"/>
+        <informationLink link="http://www.recreation.gov/webphotos/facilitymaps/70623_GUAN.pdf" title="Print Facility Map"/>
+        <informationLink link="http://www.colorado.com" title="Colorado State Tourism"/>
+        <informationLink link="http://www.dot.state.co.us" title="Colorado State Road Conditions"/>
+        <contact name="Direct Line" number="3035674517"/>
+        <contact name="Ranger Station" number="3035673000"/>
+        <amenity distance="Within Facility" name="Campfire Rings"/>
+        <amenity distance="Within Facility" name="Creek Access"/>
+        <amenity distance="Within Facility" name="Drinking Water"/>
+        <amenity distance="Within Facility" name="Firewood Vendor"/>
+        <amenity distance="Within Facility" name="Fishing"/>
+        <amenity distance="Within Facility" name="Hiking"/>
+        <amenity distance="Within Facility" name="Scenic Drive"/>
+        <amenity distance="Within Facility" name="Tent Pads"/>
+        <amenity distance="Within Facility" name="Vault Toilets"/>
+        <bulletin/>
+        </detailDescription>
+    http_version: 
+  recorded_at: Sun, 02 Jun 2013 02:28:10 GMT
+recorded_with: VCR 2.5.0
