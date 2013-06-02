@@ -1,6 +1,6 @@
 <% if @search.performed? %>
-  <% if @search.any? %>
-    <div class="camp-results">
+  <div class="camp-results">
+    <% if @search.query_items.any? %>
       <div class="search-queries group">
         <h3>Your search query includes:</h3>
         <ul class="group query-icons">
@@ -9,16 +9,18 @@
           <% end %>
         </ul>
       </div>
+    <% end %>
 
+    <% if @search.any? %>
       <ul class='campsites'>
         <%= render @search.to_a %>
       </ul>
-    </div>
-  <% else %>
-    <div class="camp-results">
-      <div class="search-queries group">
-        Sorry, no results found!
+    <% else %>
+      <div class='campsites no-results'>
+        <div class="campsite group">
+          Sorry, no results found!
+        </div>
       </div>
-    </div>
-  <% end %>
+    <% end %>
+  </div>
 <% end %>

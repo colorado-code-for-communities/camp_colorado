@@ -28,7 +28,7 @@
         @include size (40 40);
         border-radius: 5px;
         background: image-url('unknown.png') no-repeat center #B9B8B2;
-        
+
         &.tent-site {
           background-image: image-url('tent-site.png');
         }
@@ -154,4 +154,7 @@
     border-bottom: 1px dotted #A3A39F;
     padding: 40px;
   }
+}
+.no-results .group {
+  text-align: center
 }
