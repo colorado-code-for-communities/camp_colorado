@@ -4,7 +4,7 @@ jQuery ->
   $(document).on 'change', 'select', ->
     $('#new_search').submit()
 
-  $(document).on 'click', '.query-icons .close', (e) ->
+  $(document).on 'click', '.query-icons .close-feature', (e) ->
     e.preventDefault()
     $li = $(this).closest('li')
     query_item_type = $li.data('query-item-type')
