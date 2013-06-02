@@ -29,8 +29,8 @@ class Campsite < ActiveRecord::Base
   has_many :campsites_site_types
   has_many :site_types, through: :campsites_site_types
 
-  validates :latitude, presence: true, numericality: true
-  validates :longitude, presence: true, numericality: true
+  validates :latitude, presence: true, numericality: true, allow_blank: true
+  validates :longitude, presence: true, numericality: true, allow_blank: true
   validates :name, presence: true
 
   serialize :photo_urls, JSON
