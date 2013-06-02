@@ -16,7 +16,7 @@ class SearchQuery
   private
 
   def reset_campsites
-    self.campsites = Campsite.includes(:amenities)
+    self.campsites = Campsite.includes(:amenities, :activities, :site_types)
   end
 
   def filter_site_type
