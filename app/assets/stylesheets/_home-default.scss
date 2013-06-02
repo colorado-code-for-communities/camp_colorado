@@ -73,7 +73,7 @@
       border: none;
     }
     .chzn-search {
-      display: none;
+      
     }
     .no-border {
       border: none;
@@ -132,8 +132,10 @@
   opacity: .9;
   cursor: pointer;
   background: image-url('caret.png') no-repeat right white;
+  overflow: hidden;
+  height: 45px !important;
   .search-choice {
-    display: none;
+    overflow: hidden;
   }
   .search-field {
     padding-left: 10px;
