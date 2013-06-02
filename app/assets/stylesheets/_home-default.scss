@@ -15,6 +15,7 @@
       @include animation(fadeIn 1.0s ease-in);
       @include animation-fill-mode(both);
       @include animation-delay(0.5s);
+      font-weight: 100;
     }
   }
   .enter-search {
@@ -30,9 +31,6 @@
       border-right: 1px solid #021214;
       border-left: 1px solid #424C43;
       padding: 20px;
-      .no-border {
-        border-right: none;
-      }
       .field {
         float: left;
         &.to {
@@ -80,6 +78,9 @@
     .no-border {
       border: none;
     }
+    .last-box {
+        border-right: none;
+      }
   }
 }
 .chzn-container .chzn-results {
