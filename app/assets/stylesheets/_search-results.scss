@@ -27,10 +27,30 @@
         margin-right: 10px;
         @include size (40 40);
         border-radius: 5px;
-        background: image-url('unknown.png') no-repeat center #B9B8B2;
-
-        &.tent-site {
+        background: image-url('unknown.png') no-repeat center #B9B8B2; 
+        &.tent {
           background-image: image-url('tent-site.png');
+        }
+        &.rv-sites {
+          background-image: image-url('rv-icon.png');
+        }
+        &.trailer {
+          background-image: image-url('trailer-icon.png');
+        }
+        &.cabins-or-lodgings {
+          background-image: image-url('cabin-icon.png');
+        }
+        &.horse-site {
+          background-image: image-url('horsesite-icon.png');
+        }
+        &.group-site {
+          background-image: image-url('group-icon.png');
+        }
+        &.day-use {
+          background-image: image-url('dayuse-icon.png');
+        }
+        &.boat-site {
+          background-image: image-url('boating-icon.png');
         }
         &:last-of-type {
           margin-right: 0px;
