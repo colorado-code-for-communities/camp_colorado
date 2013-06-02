@@ -34,4 +34,12 @@ class Campsite < ActiveRecord::Base
   validates :name, presence: true
 
   serialize :photo_urls, JSON
+
+  def city_state_zip
+    if zip.present?
+      "#{city} #{state}, #{zip}"
+    else
+      "#{city} #{state}"
+    end
+  end
 end

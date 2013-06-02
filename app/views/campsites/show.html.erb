@@ -2,7 +2,7 @@
   <div class="sub-logo"><%= link_to image_tag('small-logo.png', alt: 'Camp Colorado'), root_path %></div>
   <nav class="nav">
     <ul>
-      <li><a href="#">Find a campground</a></li>
+      <li><%= link_to "Find a campsite", root_path %></li>
       <li><a href="#">Things to bring</a></li>
       <li><a href="#">Activity guide</a></li>
       <li><a href="#">Camping tips</a></li>
@@ -12,9 +12,7 @@
 
 <section class="breadcrumb">
   <ul>
-    <li><a href="/">home</a></li>
-    <li>/</li>
-    <li><a href="/">find a campground</a></li>
+    <li><%= link_to "find a campground", root_path %></li>
     <li>/</li>
     <li><%= @campsite.name %></li>
   </ul>
@@ -24,219 +22,74 @@
   <section class="campsite-container">
     <div class="group">
       <h3 class="sub-heading"><%= @campsite.name %></h3>
-      <a href="#"><button class="make-reservation">make reservation</button></a>
+      <%= link_to 'make reservation', @campsite.reservation_url, class: 'make-reservation' %>
     </div>
-    <p>
-      put in the campsite paragraph right here put in the campsite paragraph right here put in the campsite paragraph right here put in the campsite paragraph right here put in the campsite paragraph right here put in the campsite paragraph right here put in the campsite paragraph right here put in the campsite paragraph right here put in the campsite paragraph right here put in the campsite paragraph right here
-    </p>
-    
+    <p><%= @campsite.description %></p>
+
     <section class="carousel">carousel will go here, bootstrap</section>
-    
+
     <section class="camp-features">
       <ul class="nav nav-tabs">
-        <li class="active"><a href="#home" data-toggle="tab">Amenities</a></li>
-        <li><a href="#profile" data-toggle="tab">Features</a></li>
-        <li><a href="#messages" data-toggle="tab">Site Options</a></li>
-        <li><a href="#settings" data-toggle="tab">Recreation</a></li>
+        <li class="active"><a href="#amenities" data-toggle="tab">Amenities</a></li>
+        <li><a href="#recreation" data-toggle="tab">Recreation</a></li>
+        <li><a href="#site_options" data-toggle="tab">Site Options</a></li>
       </ul>
- 
+
       <div class="tab-content">
-        <div class="tab-pane active" id="home">
+        <div class="tab-pane active" id="amenities">
           <div class="column-wrap group">
-            <nav class="column">
-              <ul>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-              </ul>
-            </nav>
-
-            <nav class="column">
-              <ul>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-              </ul>
-            </nav>
-
-            <nav class="column">
-              <ul>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-              </ul>
-            </nav>
-
+            <% each_column(@campsite.amenities, 3) do |amenities| %>
+              <nav class="column">
+                <ul>
+                  <% amenities.each do |amenity| %>
+                    <li><%= amenity.name %></li>
+                  <% end %>
+                </ul>
+              </nav>
+            <% end %>
           </div>
         </div>
-        <div class="tab-pane" id="profile">
+        <div class="tab-pane" id="recreation">
           <div class="column-wrap group">
-            <nav class="column">
-              <ul>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-              </ul>
-            </nav>
-
-            <nav class="column">
-              <ul>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-              </ul>
-            </nav>
-
-            <nav class="column">
-              <ul>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-              </ul>
-            </nav>
-
+            <% each_column(@campsite.activities, 3) do |activities| %>
+              <nav class="column">
+                <ul>
+                  <% activities.each do |activity| %>
+                    <li><%= activity.name %></li>
+                  <% end %>
+                </ul>
+              </nav>
+            <% end %>
           </div>
-
         </div>
-        <div class="tab-pane" id="messages">
+        <div class="tab-pane" id="site_options">
           <div class="column-wrap group">
-            <nav class="column">
-              <ul>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-              </ul>
-            </nav>
-
-            <nav class="column">
-              <ul>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-              </ul>
-            </nav>
-
-            <nav class="column">
-              <ul>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-              </ul>
-            </nav>
-
-          </div>
-
-        </div>
-        <div class="tab-pane" id="settings">
-          <div class="column-wrap group">
-            <nav class="column">
-              <ul>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-              </ul>
-            </nav>
-
-            <nav class="column">
-              <ul>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-              </ul>
-            </nav>
-
-            <nav class="column">
-              <ul>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-                <li>Feature here</li>
-              </ul>
-            </nav>
-
+            <% each_column(@campsite.site_types, 3) do |site_options| %>
+              <nav class="column">
+                <ul>
+                  <% site_options.each do |site_option| %>
+                    <li><%= site_option.name %></li>
+                  <% end %>
+                </ul>
+              </nav>
+            <% end %>
           </div>
         </div>
       </div>
     </section>
   </section>
-  
+
   <section class="campsite-sidebar">
     <div class="mapview">map will go here</div>
     <div class="overview-information">
       <ul>
-        <li>1234 Fake Street Trail<br>Moraine, CO 87318</li>
+        <li><%= @campsite.street_address %><br><%= @campsite.city_state_zip %></li>
       </ul>
     </div>
       <div class="contact-information group">
         <div class="left">
           <ul>
-            <li>(855) 673-1918</li>
-            <li>(800) 281-5172</li>
-          </ul>
-        </div>
-        <div class="right">
-          <ul>
-            <li><a href="#">Visit website</a></li>
-            <li><a href="#">Email this campground</a></li>
+            <li><%= @campsite.phone_number %></li>
           </ul>
         </div>
       </div>
