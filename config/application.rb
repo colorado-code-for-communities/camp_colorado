@@ -6,8 +6,11 @@ require "action_controller/railtie"
 require "action_mailer/railtie"
 require "active_resource/railtie"
 require "sprockets/railtie"
-require "dotenv"
-Dotenv.load
+
+unless ENV['RAILS_ENV'] == 'production'
+   require "dotenv"
+   Dotenv.load
+end
 # require "rails/test_unit/railtie"
 
 if defined?(Bundler)
