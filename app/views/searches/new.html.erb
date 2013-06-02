@@ -22,6 +22,10 @@
           <%= collection_select :search, :amenity_ids, Amenity.all, :id, :name, {},
             multiple: true, class: 'selection' %>
         </div>
+        
+        <div class="search-criteria">
+          <h3>On these dates:</h3>
+        </div>
       <% end %>
       <section id="search-results"></section>
     </section>
