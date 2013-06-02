@@ -76,8 +76,7 @@
     float: left;
     @include size (192 auto);
     background: #fff;
-    height: 218px;
-    max-height: 218px;
+    padding: 5px;
   }
   .campsite-info-right {
     float: left;

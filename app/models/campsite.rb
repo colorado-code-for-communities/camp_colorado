@@ -42,4 +42,8 @@ class Campsite < ActiveRecord::Base
       "#{city} #{state}"
     end
   end
+
+  def photo_urls
+    super.select(&:present?)
+  end
 end

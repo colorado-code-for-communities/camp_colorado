@@ -26,7 +26,13 @@
     </div>
     <p><%== @campsite.description %></p>
 
-    <section class="carousel">carousel will go here, bootstrap</section>
+    <div class="photos group" style="margin-top: 30px">
+      <% @campsite.photo_urls.each do |url| %>
+        <div class="photo" style="float: left; margin-right: 15px; margin-bottom: 15px">
+          <%= image_tag url %>
+        </div>
+      <% end %>
+    </div>
 
     <section class="camp-features">
       <ul class="nav nav-tabs">

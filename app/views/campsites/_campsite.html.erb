@@ -1,6 +1,6 @@
 <li id="<%= dom_id(campsite) %>" class='campsite group'>
   <div class="campsite-info-left">
-    image will go here
+    <%= image_tag campsite.photo_urls.first, style: 'width: 100%' %>
   </div>
   <div class="campsite-info-right group">
     <div class="campsite-name-information">
