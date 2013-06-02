@@ -5,7 +5,7 @@
   <div class="campsite-info-right group">
     <div class="campsite-name-information">
       <h2 class='campsite-name'><%= link_to campsite.name, campsite %><span class="map-link">(map)</span></h2>
-      <p>campsite intro text will go here. We need to limit this to X amount of characters with ...</p>
+      <p><%= truncate(campsite.description, length: 140, separator: ' ') %></p>
       <ul>
         <li class="email"><a href="#">Email this campground</a></li>
         <li class="website"><a href="#">Campground website and information</a></li>
