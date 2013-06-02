@@ -1,6 +1,6 @@
 <li class="<%= icon_for(query_item) %>"
   data-query-item-type="<%= query_item.class.table_name.singularize %>"
-  title="first tooltip"
+  title="<%= query_item.name %>"
   >
   <span class="close-feature"><a href="#"><%= image_tag 'close-feature.png' %></a></span>
 </li>

@@ -13,3 +13,10 @@ jQuery ->
     $dropdown = $("#search_#{query_item_type}_ids")
     $dropdown.find("option:selected:eq(#{index})").removeAttr("selected")
     $dropdown.change().trigger("liszt:updated")
+
+  $(document).on 'mouseover', '.query-icons li', ->
+    $(this).tooltip(placement: 'bottom')
+    $(this).tooltip('show')
+
+  $(document).on 'mouseout', '.query-icons li', ->
+    $(this).tooltip('hide')
