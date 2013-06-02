@@ -4,7 +4,9 @@ class SearchesController < ApplicationController
   end
 
   def show
-    @search = Search.new(params[:search])
-    @search.perform!
+    @search = Search.new
+    if params[:search]
+      @search.perform_with!(params[:search])
+    end
   end
 end

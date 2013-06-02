@@ -5,10 +5,10 @@ class Search
 
   attr_reader :results
 
-  def initialize(options = {})
-    @amenity_ids = options.fetch(:amenity_ids) { [] }
-    @activity_ids = options.fetch(:activity_ids) { [] }
-    @site_type_ids = options.fetch(:site_type_ids) { [] }
+  def initialize
+    @amenity_ids = []
+    @activity_ids = []
+    @site_type_ids = []
     @performed = false
   end
 
@@ -16,7 +16,10 @@ class Search
     @performed
   end
 
-  def perform!
+  def perform_with!(options)
+    @amenity_ids = options[:amenity_ids] || []
+    @activity_ids = options[:activity_ids] || []
+    @site_type_ids = options[:site_type_ids] || []
     @results = SearchQuery.new(site_type_ids, activity_ids, amenity_ids).build
     @performed = true
   end

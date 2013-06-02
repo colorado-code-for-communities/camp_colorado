@@ -7,20 +7,29 @@
       <%= form_for @search, url: search_path, method: :get, remote: true do |f| %>
         <div class="search-criteria first">
           <h3><%= f.label :site_type_ids, "I'm looking for:" %></h3>
-          <%= collection_select :search, :site_type_ids, SiteType.order(:name), :id, :name, {},
-            multiple: true, class: 'selection' %>
+          <select class="selection" id="search_site_type_ids" multiple="multiple" name="search[site_type_ids][]">
+            <% SiteType.order(:name).each do |site_type| %>
+              <option value="<%= site_type.id %>" data-record-id="<%= site_type.id %>"><%= site_type.name %></option>
+            <% end %>
+          </select>
         </div>
 
         <div class="search-criteria">
           <h3><%= f.label :activity_ids, "It'd be fun to go:" %></h3>
-          <%= collection_select :search, :activity_ids, Activity.order(:name), :id, :name, {},
-            multiple: true, class: 'selection' %>
+          <select class="selection" id="search_activity_ids" multiple="multiple" name="search[activity_ids][]">
+            <% Activity.order(:name).each do |activity| %>
+              <option value="<%= activity.id %>" data-record-id="<%= activity.id %>"><%= activity.name %></option>
+            <% end %>
+          </select>
         </div>
 
         <div class="search-criteria">
           <h3><%= f.label :amenity_ids, 'I need these accomodations:' %></h3>
-          <%= collection_select :search, :amenity_ids, Amenity.order(:name), :id, :name, {},
-            multiple: true, class: 'selection' %>
+          <select class="selection" id="search_amenity_ids" multiple="multiple" name="search[amenity_ids][]">
+            <% Amenity.order(:name).each do |amenity| %>
+              <option value="<%= amenity.id %>" data-record-id="<%= amenity.id %>"><%= amenity.name %></option>
+            <% end %>
+          </select>
         </div>
 
         <div class="search-criteria last-box">

@@ -6,12 +6,13 @@ jQuery ->
 
   $(document).on 'click', '.query-icons .close-feature', (e) ->
     e.preventDefault()
-    $li = $(this).closest('li')
+    $li = $(this).parents('li')
     query_item_type = $li.data('query-item-type')
-    index = $(".query-icons li[data-query-item-type=#{query_item_type}]").index($li)
+    id = $li.data('record-id')
 
     $dropdown = $("#search_#{query_item_type}_ids")
-    $dropdown.find("option:selected:eq(#{index})").removeAttr("selected")
+    $option = $dropdown.find("option[data-record-id='#{id}']")
+    $option.removeAttr("selected")
     $dropdown.change().trigger("liszt:updated")
 
   $(document).on 'mouseover', '.query-icons li', ->
