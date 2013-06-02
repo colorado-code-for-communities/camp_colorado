@@ -45,6 +45,7 @@
       width: 230px;
       background-color: black;
       margin-top: 15px;
+      cursor: pointer;
     }
     .chzn-drop {
       margin-top: 15px;
@@ -107,11 +108,13 @@
   padding: 8px 0;
   @include linear-gradient(#E8E8E6, #fff);
   opacity: .9;
+  cursor: pointer;
   background: image-url('caret.png') no-repeat right white;
   .search-choice {
     display: none;
   }
   .search-field {
     padding-left: 10px;
+    cursor: pointer;
   }
 }
