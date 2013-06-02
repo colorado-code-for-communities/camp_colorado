@@ -114,8 +114,13 @@ class CampsiteImporter
     activities.each do |activity|
       activity_name = activity['name'].gsub('&amp;', '&')
       if activity_name.present?
-        activity = Activity.where(name: activity_name).first_or_create!
-        campsite.activities << activity
+        if known_amenities.include?(activity_name)
+          amenity = Amenity.where(name: activity_name).first_or_create!
+          campsite.amenities << amenity
+        else
+          activity = Activity.where(name: activity_name).first_or_create!
+          campsite.activities << activity
+        end
       end
     end
 
@@ -159,6 +164,30 @@ class CampsiteImporter
     end
 
     @output.puts
+  end
+
+  def known_amenities
+    [
+      "ADA Access", "ADA Fish. Access", "ADA Fishing Pier", "ATV Rentals",
+      "Accessible Boat Dock", "Accessible Boat Ramp", "Accessible Campsites",
+      "Accessible Drinking Water", "Accessible Fishing Dock", "Accessible Grills",
+      "Accessible Group Shelters", "Accessible Hiking Trails",
+      "Accessible Parking", "Accessible Picnic Area", "Accessible Picnic Areas",
+      "Accessible Picnic Shelters", "Accessible Pit Toilets", "Accessible Scenic Overlook", "Accessible Showers", "Accessible Site ", "Accessible Sites",
+      "Accessible Trails", "Accessible Vault Toilet", "Accessible Vault Toilets ",
+      "Bait Shop", "Cell phone service", "Church", "Churches", "Cleaning Supplies",
+      "Cafe", "Cash Machine/Atm", "Catering", "Flush Toilet", "Flush Toilets",
+      "Flush Toilets (Seasonal)", "Food Concessions", "Food Storage Locker",
+      "Fuel Available", "Fuel, Vehicles", "Ice", "Ice Fishing", "Ice Machine",
+      "Ice Sales", "Laundry", "Laundry Facilities", "Laundry Facilities (May 1st - September 30th)",
+      "Mattress(es)", "Electric Hook Ups", "Electric Hook-Up", "Electric Hookups",
+      "Electric Stove", "Electricity", "Emergency Phone", "Emergency Services",
+      "Equestrian Sites", "Fee Station", "Fire Extinguisher", "Fire Rings",
+      "Fireplace", "Firewood", "Firewood Available", "Firewood Sales",
+      "Firewood Vendor", "First Aid Kit", "First Aid Station", "Fish Cleaning Station",
+      "Fish Cleaning Stations", "Table & Chairs", "Table and Chairs", "Tables",
+      "Telephone"
+    ]
   end
 
   def fetch(cassette_name, url)
